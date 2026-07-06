@@ -1,0 +1,403 @@
+course:
+  name: "MLOps Zoomcamp"
+  slug: "mlops-zoomcamp"
+  short_name: "MLOps Zoomcamp"
+  status: "active"
+  description: "Free hands-on course on productionizing machine learning services, from training and experimentation to deployment and monitoring."
+  primary_goal: "Help learners take ML models they already know how to build and operate them reliably in production-style systems."
+  format:
+    - "self-paced"
+    - "live cohort"
+  cost: "free"
+  current_docs_status: "self-paced only for now; no live cohort planned in 2026"
+
+urls:
+  github: "https://github.com/DataTalksClub/mlops-zoomcamp"
+  course_article: "https://datatalks.club/blog/mlops-zoomcamp.html"
+  landing_page: "-"
+  registration: "https://airtable.com/shrCb8y6eTbPKwSTL"
+  course_platform: "https://courses.datatalks.club/"
+  previous_cohort_platform: "https://courses.datatalks.club/mlops-zoomcamp-2025/"
+  youtube_playlist: "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK"
+  slack_channel: "https://app.slack.com/client/T01ATQK62F8/C02R98X7DS9"
+  slack_invite: "https://datatalks.club/slack.html"
+  telegram_channel: "https://t.me/dtc_courses"
+  documentation: "https://datatalks.club/docs/courses/mlops-zoomcamp/"
+  logistics_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/"
+  certification_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/certification/"
+  project_docs: "https://datatalks.club/docs/courses/mlops-zoomcamp/project/"
+  curriculum_docs: "https://datatalks.club/docs/courses/mlops-zoomcamp/curriculum/"
+  prerequisites_docs: "https://datatalks.club/docs/courses/mlops-zoomcamp/prerequisites/"
+  environment_docs: "https://datatalks.club/docs/courses/mlops-zoomcamp/environment-setup/"
+  resources_docs: "https://datatalks.club/docs/courses/mlops-zoomcamp/resources/"
+  whats_new_docs: "https://datatalks.club/docs/courses/mlops-zoomcamp/whats-new/"
+  faq: "https://datatalks.club/faq/mlops-zoomcamp.html"
+  question_guidelines: "https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/"
+  community_guidelines: "https://datatalks.club/slack/guidelines.html"
+  learning_in_public: "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/learning-in-public.md"
+  project_guidelines: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project"
+  project_datasets: "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/datasets.md"
+  projects_gallery: "https://datatalksclub-projects.streamlit.app/"
+  cohort_2025: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2025"
+  mlflow_on_aws: "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/02-experiment-tracking/mlflow_on_aws.md"
+  deployment_web_service: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/04-deployment/web-service"
+  deployment_web_service_mlflow: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/04-deployment/web-service-mlflow"
+  deployment_streaming: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/04-deployment/streaming"
+  deployment_batch: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/04-deployment/batch"
+  monitoring_post_evidently_07: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/05-monitoring/post-evidently-0.7"
+  best_practices_code: "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/06-best-practices/code"
+
+cohort_cadence:
+  usual_duration: "9 weeks plus final project"
+  frequency: "historically cohort-based, but not currently scheduled"
+  latest_live_cohort:
+    year: 2025
+    course_platform: "https://courses.datatalks.club/mlops-zoomcamp-2025/"
+    status: "completed"
+  next_live_cohort:
+    year: null
+    start: "not currently scheduled"
+    registration_status: "waitlist / get updates"
+  live_cohort_note: "Lectures are pre-recorded; live cohort means shared deadlines, scored homework, peer review, and certificate eligibility."
+
+delivery:
+  lectures: "pre-recorded"
+  live_sessions: "only if a future cohort is scheduled"
+  homework:
+    live_cohort: "graded"
+    self_paced: "available but not scored"
+    certificate_requirement: "not the main certificate requirement"
+  submissions_platform: "courses.datatalks.club"
+  certificate_available:
+    live_cohort: true
+    self_paced: false
+  certificate_requirements:
+    - "complete the final project during a live cohort"
+    - "complete required peer reviews"
+    - "meet the cohort deadlines and project passing criteria"
+  current_certificate_note: "Since no live 2026 cohort is planned, the project is currently for self-assessment and portfolio building."
+
+level:
+  label: "Intermediate"
+  notes: "This is not a beginner ML course; it assumes learners already understand the typical ML workflow and focuses on engineering and operations."
+
+prerequisites:
+  required:
+    - "Python programming"
+    - "Command line basics"
+    - "Docker basics"
+    - "Machine learning fundamentals: training, evaluating, and using models"
+    - "At least 1 year of programming experience"
+  recommended:
+    - "Completion of Machine Learning Zoomcamp or equivalent ML experience"
+    - "Ability to work with notebooks and Python scripts"
+    - "AWS account for cloud examples"
+    - "Familiarity with Git and GitHub"
+  not_required:
+    - "Prior MLOps experience"
+    - "Prior DevOps experience"
+    - "Prior cloud experience"
+    - "Deep math"
+    - "A degree"
+
+audience:
+  primary:
+    - "data scientists"
+    - "ML engineers"
+    - "software engineers working with ML models"
+  secondary:
+    - "data engineers moving toward ML production workflows"
+    - "MLOps beginners who already know ML basics"
+    - "backend engineers who want to support ML services"
+    - "ML practitioners building portfolio production projects"
+  not_the_focus:
+    - "learning machine learning from scratch"
+    - "modeling theory"
+    - "deep learning research"
+    - "beginner programming"
+
+time_commitment:
+  weekly_estimate: "not explicitly published in the current docs"
+  notes:
+    - "The repo describes a 9-week course."
+    - "Expect substantial hands-on time for setup, cloud services, Docker, MLflow, orchestration, monitoring, and project work."
+    - "Self-paced learners can use the homework for self-checking and the project as a portfolio build."
+
+topics:
+  - "MLOps"
+  - "machine learning operations"
+  - "experiment tracking"
+  - "model management"
+  - "model registry"
+  - "workflow orchestration"
+  - "ML pipelines"
+  - "model deployment"
+  - "online inference"
+  - "batch scoring"
+  - "streaming inference"
+  - "model monitoring"
+  - "data quality monitoring"
+  - "testing"
+  - "linting and formatting"
+  - "pre-commit hooks"
+  - "CI/CD"
+  - "infrastructure as code"
+  - "reproducibility"
+  - "portfolio project"
+
+tools:
+  - "Python"
+  - "Jupyter Notebook"
+  - "Anaconda"
+  - "uv"
+  - "conda"
+  - "pip + venv"
+  - "Docker"
+  - "Docker Compose"
+  - "GitHub Codespaces"
+  - "AWS EC2"
+  - "AWS S3"
+  - "AWS RDS"
+  - "AWS Kinesis"
+  - "AWS Lambda"
+  - "AWS ECR"
+  - "AWS CloudWatch"
+  - "AWS CLI"
+  - "LocalStack"
+  - "Terraform"
+  - "MLflow"
+  - "PostgreSQL"
+  - "Flask"
+  - "Pipenv"
+  - "Prefect"
+  - "Mage"
+  - "Airflow"
+  - "Dagster"
+  - "Kestra"
+  - "Evidently"
+  - "Prometheus"
+  - "Grafana"
+  - "MongoDB"
+  - "pytest"
+  - "black"
+  - "isort"
+  - "pylint"
+  - "pre-commit"
+  - "Make"
+  - "GitHub Actions"
+  - "pandas"
+  - "scikit-learn"
+
+modules:
+  - number: 1
+    title: "Introduction"
+    source_path: "01-intro/"
+    instructor: "Alexey Grigorev"
+    highlights:
+      - "What MLOps is and why it matters"
+      - "Environment preparation with GitHub Codespaces, local setup, or an AWS VM"
+      - "Linux as the recommended development environment"
+      - "Install Anaconda, Docker, and Docker Compose"
+      - "Optional ride-duration prediction model on NYC taxi data"
+      - "Course overview and structure"
+      - "MLOps maturity model"
+    subfiles:
+      - "01-intro/duration-prediction.ipynb"
+  - number: 2
+    title: "Experiment Tracking and Model Management"
+    source_path: "02-experiment-tracking/"
+    primary_tool: "MLflow"
+    highlights:
+      - "Introduction to experiment tracking"
+      - "Getting started with MLflow"
+      - "Track parameters, metrics, and artifacts"
+      - "Save and load models"
+      - "Use the model registry"
+      - "Apply MLflow in practice"
+      - "Understand MLflow benefits, limitations, and alternatives"
+      - "Optional remote MLflow tracking server on AWS with EC2, RDS PostgreSQL, and S3"
+    current_guidance:
+      - "MLflow list_experiments has been replaced by search_experiments in newer versions."
+      - "MLflow model registry stages are deprecated starting with MLflow 2.9; use version tags and aliases instead."
+    subfiles:
+      - "02-experiment-tracking/duration-prediction.ipynb"
+      - "02-experiment-tracking/model-registry.ipynb"
+      - "02-experiment-tracking/mlflow_on_aws.md"
+  - number: 3
+    title: "Orchestration and ML Pipelines"
+    source_path: "03-orchestration/"
+    current_guidance: "The current module is orchestrator-agnostic; learners choose a tool such as Airflow, Prefect, Dagster, Kestra, Mage, or another orchestrator."
+    highlights:
+      - "Introduction to ML pipelines"
+      - "Turn a notebook into a Python script"
+      - "Use an orchestrator to turn the script into a production pipeline"
+      - "Run a hello-world workflow in the chosen tool"
+      - "Orchestrate training pipeline steps"
+      - "Parameterize the workflow for monthly training and validation windows"
+      - "Backfill historical runs"
+      - "Optionally deploy the orchestrator to the cloud"
+      - "Run MLflow with Docker for orchestrated workflows"
+    historical_context:
+      - "2022 and 2023 materials used Prefect."
+      - "2024 materials used Mage."
+    subfiles:
+      - "03-orchestration/code/duration-prediction.py"
+      - "03-orchestration/code/commands.md"
+  - number: 4
+    title: "Model Deployment"
+    source_path: "04-deployment/"
+    highlights:
+      - "Compare online, streaming, and offline deployment strategies"
+      - "Deploy models as Flask web services"
+      - "Containerize a web service with Docker"
+      - "Load models from the MLflow model registry"
+      - "Optional streaming deployment with AWS Kinesis and Lambda"
+      - "Prepare batch scoring scripts"
+      - "Batch scoring with Mage"
+    subfiles:
+      - "04-deployment/web-service/"
+      - "04-deployment/web-service-mlflow/"
+      - "04-deployment/streaming/"
+      - "04-deployment/batch/"
+  - number: 5
+    title: "Model Monitoring"
+    source_path: "05-monitoring/"
+    highlights:
+      - "Introduction to ML monitoring"
+      - "Monitoring environment setup"
+      - "Prepare reference data and model"
+      - "Calculate Evidently metrics"
+      - "Build an Evidently monitoring dashboard"
+      - "Run dummy monitoring"
+      - "Monitor data quality"
+      - "Save Grafana dashboards"
+      - "Debug with Evidently test suites and reports"
+      - "Run PostgreSQL, Adminer, and Grafana with Docker Compose"
+      - "Simulate batch monitoring by calculating metrics and writing them to the database"
+    current_guidance:
+      - "Evidently changed substantially after version 0.7.0; the repo includes a post-evidently-0.7 working example."
+      - "Some monitoring content references Prefect; the README says that section can be skipped."
+    subfiles:
+      - "05-monitoring/docker-compose.yml"
+      - "05-monitoring/evidently_metrics_calculation.py"
+      - "05-monitoring/debugging_nyc_taxi_data.ipynb"
+      - "05-monitoring/post-evidently-0.7/"
+  - number: 6
+    title: "Best Practices"
+    source_path: "06-best-practices/"
+    highlights:
+      - "Unit testing with pytest"
+      - "Integration tests with Docker Compose"
+      - "Testing cloud services with LocalStack"
+      - "Code quality with linting and formatting"
+      - "Git pre-commit hooks"
+      - "Makefiles and make"
+      - "Infrastructure as Code with Terraform"
+      - "AWS stream-based pipeline infrastructure: Kinesis, Lambda, S3, and ECR"
+      - "CI/CD with GitHub Actions"
+      - "Continuous integration for environment setup, unit tests, integration tests, and Terraform plan"
+      - "Continuous delivery for Terraform apply, Docker build and ECR push, and Lambda config updates"
+    subfiles:
+      - "06-best-practices/code/"
+      - "06-best-practices/docs.md"
+
+projects:
+  final_project:
+    source_path: "07-project/"
+    goal: "Build an end-to-end machine learning project that applies the course material."
+    dataset_rule: "NYC taxi data cannot be used for the final project because it is used throughout the modules and homework."
+    attempts:
+      latest_live_cohort_2025: 3
+      general_note: "Number of attempts is cohort-specific; check the active course platform if a future live cohort is scheduled."
+    required_deliverables:
+      - "select a dataset of interest"
+      - "train a model on the dataset"
+      - "track experiments"
+      - "use a model registry"
+      - "create a model training pipeline"
+      - "deploy the model in batch, web service, or streaming mode"
+      - "monitor model performance"
+      - "follow engineering best practices"
+      - "clear reproducibility instructions"
+    choices_allowed:
+      - "AWS, GCP, Azure, localstack, Kubernetes, or another cloud/local deployment path"
+      - "MLflow, Weights & Biases, or another experiment tracking tool"
+      - "Prefect, Airflow, Flyte, Kubeflow, Argo, or another orchestrator"
+      - "Evidently, WhyLabs/whylogs, or another monitoring stack"
+      - "GitHub Actions, GitLab CI/CD, or another CI/CD tool"
+      - "Terraform, Pulumi, CloudFormation, or another IaC tool"
+    evaluation_criteria:
+      - "problem description"
+      - "cloud or container-management usage, with higher score for cloud plus IaC"
+      - "experiment tracking and model registry"
+      - "workflow orchestration"
+      - "model deployment"
+      - "model monitoring"
+      - "reproducibility"
+      - "best practices: unit tests, integration tests, linting or formatting, Makefile, pre-commit hooks, CI/CD"
+    peer_review:
+      required_reviews: 3
+      note: "A live-cohort project is not complete until the learner evaluates three peers."
+    portfolio_advice:
+      - "Create a separate GitHub repository for the project."
+      - "Use a meaningful title, such as Car Price Prediction or Music Genre Classification."
+      - "Write a README detailed enough for reviewers and future employers."
+
+outcomes:
+  - "Set up a reproducible MLOps development environment"
+  - "Train and package an ML model on the running taxi-duration example"
+  - "Track experiments, artifacts, and models with MLflow"
+  - "Use a model registry to manage model versions"
+  - "Turn notebooks into reproducible pipeline code"
+  - "Orchestrate training workflows with a chosen workflow tool"
+  - "Deploy models as web services, batch jobs, or streaming services"
+  - "Monitor model and data quality with Evidently and dashboards"
+  - "Add testing, quality checks, pre-commit hooks, Make, CI/CD, and IaC"
+  - "Build a portfolio-ready end-to-end MLOps project"
+
+community:
+  support_channels:
+    - "DataTalks.Club Slack"
+    - "#course-mlops-zoomcamp Slack channel"
+    - "Telegram announcements"
+  practices:
+    - "ask questions in Slack using course guidelines"
+    - "share progress via learning in public"
+    - "use homework for self-checking when studying self-paced"
+
+people:
+  instructors:
+    - "Cristian Martinez"
+    - "Alexey Grigorev"
+    - "Emeli Dral"
+
+sponsors: []
+
+repo_stats:
+  stars: "14.9k"
+  forks: "3k"
+  commits: 584
+  languages:
+    - "Jupyter Notebook"
+    - "Other"
+
+research_metadata:
+  researched_on: "2026-07-06"
+  source_repo: "https://github.com/DataTalksClub/mlops-zoomcamp"
+  source_repo_branch: "main"
+  source_repo_commit:
+    sha: "228beb6a2aed10ca84d84b905266f3d55cf6df58"
+    date: "2026-06-10"
+    message: "Merge pull request #390 from mcherif/fix-homework-md"
+  primary_sources:
+    - "repository README"
+    - "module README files and subfiles"
+    - "cohorts/2025 README and project files"
+    - "07-project README"
+    - "DataTalks.Club course documentation"
+    - "DataTalks.Club MLOps Zoomcamp blog article"
+  notes:
+    - "The course is active as self-paced material, but the README and docs both say no live cohort is planned in 2026."
+    - "Certificate eligibility depends on completing the final project during a live cohort; self-paced learners can still build the project for portfolio/self-assessment."
+    - "The current orchestration module is tool-agnostic, with older Prefect and Mage cohort materials available as references."
+    - "Several implementation notes reflect tool evolution, especially MLflow registry changes and Evidently changes after 0.7.0."

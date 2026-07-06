@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-07-06T17:36:51.396785+00:00",
+  "source": "typefully",
+  "raw_path": "ai-dev-tools-zoomcamp/copy-bank/social-media/typefully/raw/typefully-raw-20260706T173224Z.json",
+  "filtered_json_path": "ai-dev-tools-zoomcamp/copy-bank/social-media/typefully/filtered/typefully-matches-20260706T173224Z.json",
+  "filtered_csv_path": "ai-dev-tools-zoomcamp/copy-bank/social-media/typefully/filtered/typefully-matches-20260706T173224Z.csv",
+  "filtered_markdown_path": "ai-dev-tools-zoomcamp/copy-bank/social-media/typefully/filtered/typefully-matches-20260706T173224Z.md",
+  "terms": [
+    "zoomcamp",
+    "free course"
+  ],
+  "downloaded_items": 557,
+  "matches": 216
+}

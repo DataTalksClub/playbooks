@@ -1,0 +1,400 @@
+course:
+  name: "Data Engineering Zoomcamp"
+  slug: "de-zoomcamp"
+  short_name: "DE Zoomcamp"
+  status: "active"
+  description: "Free hands-on course on data engineering fundamentals, built around production-style data pipelines."
+  primary_goal: "Help learners build, orchestrate, transform, process, and present data through an end-to-end data pipeline."
+  format:
+    - "self-paced"
+    - "live cohort"
+  cost: "free"
+  current_docs_status: "main README says the next live cohort starts in January 2027; GitHub repository About text still mentions January 2026"
+
+urls:
+  github: "https://github.com/DataTalksClub/data-engineering-zoomcamp"
+  course_article: "https://datatalks.club/blog/data-engineering-zoomcamp.html"
+  landing_page: "-"
+  registration: "https://airtable.com/shr6oVXeQvSI5HuWD"
+  course_platform: "https://courses.datatalks.club/"
+  previous_cohort_platform: "https://courses.datatalks.club/de-zoomcamp-2026/"
+  youtube_playlist: "https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb"
+  slack_channel: "https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG"
+  slack_invite: "https://datatalks.club/slack.html"
+  telegram_channel: "https://t.me/dezoomcamp"
+  documentation: "https://datatalks.club/docs/courses/data-engineering-zoomcamp/"
+  logistics_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/"
+  certification_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/certification/"
+  project_docs: "https://datatalks.club/docs/courses/data-engineering-zoomcamp/project/"
+  curriculum_docs: "https://datatalks.club/docs/courses/data-engineering-zoomcamp/curriculum/"
+  prerequisites_docs: "https://datatalks.club/docs/courses/data-engineering-zoomcamp/prerequisites/"
+  environment_docs: "https://datatalks.club/docs/courses/data-engineering-zoomcamp/environment-setup/"
+  faq: "https://datatalks.club/faq/data-engineering-zoomcamp.html"
+  question_guidelines: "https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/"
+  community_guidelines: "https://datatalks.club/slack/guidelines.html"
+  learning_in_public: "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/learning-in-public.md"
+  projects: "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/projects"
+  project_rubric: "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/README.md"
+  project_datasets: "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/datasets.md"
+  projects_gallery: "https://datatalksclub-projects.streamlit.app/"
+  cohort_2026: "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2026"
+  dlt_workshop: "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2026/workshops/dlt"
+  bruin_template: "https://github.com/bruin-data/bruin/tree/main/templates/zoomcamp"
+  streaming_workshop: "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/07-streaming/workshop"
+
+cohort_cadence:
+  usual_start_month: "January"
+  usual_duration: "9 weeks plus final project"
+  frequency: "once per year"
+  known_cohorts:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+  next_live_cohort:
+    year: 2027
+    start: "January 2027"
+    registration_status: "open"
+  live_cohort_note: "Lectures are pre-recorded; live cohort means shared deadlines, scored homework, leaderboard, peer review, and certificate eligibility."
+
+delivery:
+  lectures: "pre-recorded"
+  live_sessions: "kickoff, Q&A, office hours, and updates announced during the cohort"
+  homework:
+    live_cohort: "graded"
+    self_paced: "available but not scored"
+    certificate_requirement: "not required for certificate"
+  submissions_platform: "courses.datatalks.club"
+  certificate_available:
+    live_cohort: true
+    self_paced: false
+  certificate_requirements:
+    - "submit the final project by the live cohort deadline"
+    - "complete required peer reviews"
+    - "reach the course-specific minimum project score"
+
+level:
+  label: "Beginner-friendly for data engineering"
+  notes: "No prior data engineering experience is required, but the course assumes basic technical literacy and is not intended as a first programming course."
+
+prerequisites:
+  required:
+    - "Command line basics"
+    - "Basic programming concepts: variables, functions, loops, and conditionals"
+    - "Basic Python or ability to pick it up quickly"
+    - "SQL fundamentals: SELECT, WHERE, JOIN, GROUP BY"
+    - "Git basics"
+  recommended:
+    - "Docker installed or willingness to use Codespaces or a GCP VM"
+    - "A text editor or IDE such as VS Code"
+    - "Google Cloud account for GCS, BigQuery, and optional compute"
+  not_required:
+    - "Prior data engineering experience"
+    - "Prior cloud experience"
+    - "Advanced Python"
+    - "A degree"
+
+audience:
+  primary:
+    - "developers"
+    - "data analysts"
+    - "data scientists"
+    - "people who want to learn modern data engineering"
+  secondary:
+    - "software engineers transitioning into data engineering"
+    - "ML and MLOps practitioners who need stronger data pipeline foundations"
+    - "analytics engineers who want more ingestion, orchestration, and platform experience"
+    - "career switchers with programming and SQL basics"
+
+time_commitment:
+  weekly_estimate: "10-15 hours"
+  typical_week:
+    - "3-5 hours watching module videos"
+    - "3-5 hours working through code examples"
+    - "2-5 hours completing homework"
+  special_notes:
+    - "Module 1 usually takes two weeks because environment setup is the trickiest part."
+    - "Final project usually takes 2-3 weeks of focused work."
+
+topics:
+  - "data engineering fundamentals"
+  - "end-to-end data pipelines"
+  - "containerization"
+  - "infrastructure as code"
+  - "cloud data lakes"
+  - "data warehouses"
+  - "workflow orchestration"
+  - "ETL and ELT"
+  - "data ingestion"
+  - "analytics engineering"
+  - "data modeling"
+  - "data quality"
+  - "batch processing"
+  - "distributed processing"
+  - "stream processing"
+  - "dashboarding"
+  - "project reproducibility"
+
+tools:
+  - "Docker"
+  - "Docker Compose"
+  - "PostgreSQL"
+  - "pgAdmin"
+  - "Python"
+  - "uv"
+  - "Pandas"
+  - "SQLAlchemy"
+  - "Jupyter Notebook"
+  - "Terraform"
+  - "Google Cloud Platform"
+  - "Google Cloud SDK"
+  - "Google Cloud Storage"
+  - "BigQuery"
+  - "BigQuery ML"
+  - "Kestra"
+  - "dlt"
+  - "DuckDB"
+  - "dbt Core"
+  - "dbt Cloud / dbt Platform"
+  - "Bruin"
+  - "Apache Spark"
+  - "PySpark"
+  - "Google Dataproc"
+  - "Kafka protocol"
+  - "Redpanda"
+  - "Apache Flink"
+  - "PyFlink"
+  - "Kafka Streams"
+  - "KSQL / ksqlDB"
+  - "Avro"
+  - "Looker Studio"
+  - "Streamlit"
+  - "marimo"
+  - "ibis"
+  - "Cursor"
+  - "GitHub Copilot"
+
+modules:
+  - number: 1
+    title: "Containerization and Infrastructure as Code"
+    source_path: "01-docker-terraform/"
+    highlights:
+      - "GCP overview and account/project setup"
+      - "Docker fundamentals"
+      - "Python virtual environments with uv"
+      - "Dockerizing an ingestion script"
+      - "PostgreSQL and pgAdmin with Docker"
+      - "Docker Compose for multi-container workflows"
+      - "NYC taxi ingestion with pandas and SQLAlchemy"
+      - "SQL refresher"
+      - "Terraform concepts and GCP infrastructure provisioning"
+    subfiles:
+      - "01-docker-terraform/docker-sql/README.md"
+      - "01-docker-terraform/terraform/README.md"
+  - number: 2
+    title: "Workflow Orchestration"
+    source_path: "02-workflow-orchestration/"
+    primary_tool: "Kestra"
+    highlights:
+      - "Workflow orchestration concepts: flows, tasks, inputs, outputs, triggers, variables, concurrency"
+      - "Run Kestra locally with Docker Compose"
+      - "Execute Python scripts from Kestra flows"
+      - "Build ETL pipelines for yellow and green taxi data into local Postgres"
+      - "Schedule and backfill workflows"
+      - "Build ELT pipelines with GCS as a data lake and BigQuery as a warehouse"
+      - "Use Kestra AI Copilot and context engineering for flow creation"
+      - "Optional RAG example using Kestra workflows"
+      - "Optional deployment of Kestra to Google Cloud and Git-backed flow sync"
+  - number: 2.5
+    title: "Workshop: Data Ingestion with dlt"
+    source_path: "cohorts/2026/workshops/dlt/"
+    highlights:
+      - "Build an API-to-warehouse pipeline from the Open Library API"
+      - "Use dlt to extract, normalize, and load data"
+      - "Store normalized tables in DuckDB"
+      - "Use dlt MCP with an agentic IDE"
+      - "Inspect pipeline state, schemas, and tables with the dlt dashboard"
+      - "Optional visualizations with marimo and ibis"
+  - number: 3
+    title: "Data Warehouse and BigQuery"
+    source_path: "03-data-warehouse/"
+    primary_tool: "BigQuery"
+    highlights:
+      - "Data warehouse concepts"
+      - "BigQuery SQL basics"
+      - "Partitioning and clustering"
+      - "BigQuery best practices and internals"
+      - "Cost and query optimization"
+      - "BigQuery ML"
+      - "Exporting and deploying a BigQuery ML model with Docker"
+  - number: 4
+    title: "Analytics Engineering"
+    source_path: "04-analytics-engineering/"
+    primary_tool: "dbt"
+    highlights:
+      - "Transform warehouse data into analytical views"
+      - "Analytics engineering and data modeling"
+      - "dbt project structure"
+      - "Sources, models, seeds, macros, packages, tests, and documentation"
+      - "Cloud setup with BigQuery and dbt Platform"
+      - "Local setup with DuckDB and dbt Core"
+      - "SQL refresher on CTEs and window functions"
+    module_prerequisites:
+      - "Cloud setup expects Module 3 with BigQuery enabled and taxi data loaded"
+      - "Local DuckDB setup has no prior module dependency"
+  - number: 5
+    title: "Data Platforms"
+    source_path: "05-data-platforms/"
+    primary_tool: "Bruin"
+    highlights:
+      - "Modern data platform concepts"
+      - "Data ingestion, transformation, orchestration, quality, metadata, and lineage in one project"
+      - "Create a project with bruin init"
+      - "Build an end-to-end NYC taxi pipeline with ingestion, staging, and reports layers"
+      - "Run SQL, Python, and YAML assets"
+      - "Use Bruin MCP with AI agents"
+      - "Deploy and monitor pipelines with Bruin Cloud"
+  - number: 6
+    title: "Batch Processing"
+    source_path: "06-batch/"
+    primary_tool: "Apache Spark"
+    highlights:
+      - "Batch processing concepts"
+      - "Spark and PySpark fundamentals"
+      - "Local Spark setup for Windows, Linux, and macOS"
+      - "Spark DataFrames and Spark SQL"
+      - "Preparing yellow and green taxi data"
+      - "Spark cluster anatomy"
+      - "GroupBy and joins internals"
+      - "Optional RDD operations"
+      - "Connect Spark to Google Cloud Storage and BigQuery"
+      - "Run Spark on Google Dataproc"
+  - number: 7
+    title: "Stream Processing"
+    source_path: "07-streaming/"
+    current_guidance: "Current 2026 materials center the hands-on stream-processing work on a PyFlink workshop with Redpanda, while Kafka theory and older examples are optional."
+    highlights:
+      - "Build a real-time streaming pipeline: Python producer -> Kafka-compatible Redpanda -> Flink -> PostgreSQL"
+      - "Use Redpanda as a lightweight Kafka-compatible broker"
+      - "Produce and consume taxi ride messages with Python"
+      - "Add a database sink"
+      - "Use PyFlink for stream processing"
+      - "Study optional Kafka theory with Java examples"
+      - "Review supplementary Python and PyFlink examples from previous years"
+
+projects:
+  final_project:
+    source_path: "projects/README.md"
+    goal: "Build an end-to-end data pipeline and dashboard using a dataset other than NYC taxi data."
+    duration: "2-3 weeks"
+    attempts: 2
+    dataset_rule: "NYC taxi data cannot be used for the final project because it is used throughout the modules and homework."
+    required_deliverables:
+      - "problem description"
+      - "pipeline that ingests data from a chosen source"
+      - "data lake storage"
+      - "data warehouse layer"
+      - "transformations for analysis"
+      - "dashboard with at least two visualizations"
+      - "clear reproducibility instructions"
+    choices_allowed:
+      - "batch or streaming pipeline"
+      - "GCP, AWS, Azure, or another cloud/local approach if justified"
+      - "course tools or equivalent alternatives"
+      - "Looker Studio, Streamlit, Metabase, Superset, or another BI/dashboarding tool"
+    evaluation_criteria:
+      - "problem description"
+      - "cloud and infrastructure as code"
+      - "data ingestion: batch/workflow orchestration or streaming"
+      - "data warehouse optimization"
+      - "transformations with dbt, Spark, or similar tools"
+      - "dashboard"
+      - "reproducibility"
+    peer_review:
+      required_reviews: 3
+      note: "A project is not complete until the learner evaluates three peers."
+    optional_extra_mile:
+      - "tests"
+      - "make"
+      - "CI/CD pipeline"
+
+outcomes:
+  - "Run local development environments with Docker, Postgres, and pgAdmin"
+  - "Provision cloud infrastructure with Terraform"
+  - "Build scheduled and backfilled pipelines with an orchestrator"
+  - "Load data into a data lake and data warehouse"
+  - "Optimize warehouse tables with partitioning and clustering"
+  - "Create dbt models, tests, documentation, and analytical marts"
+  - "Use a data platform to manage ingestion, transformations, quality, and deployment"
+  - "Use Spark for batch processing and cloud-scale data jobs"
+  - "Build a simple real-time streaming pipeline"
+  - "Deliver a portfolio-ready end-to-end data engineering project"
+
+community:
+  support_channels:
+    - "DataTalks.Club Slack"
+    - "#course-data-engineering Slack channel"
+    - "Telegram announcements"
+  practices:
+    - "ask questions in Slack using course guidelines"
+    - "share progress via learning in public"
+    - "participate in peer review during live cohorts"
+
+people:
+  instructors:
+    - "Alexey Grigorev"
+    - "Michael Shoemaker"
+    - "Will Russell"
+    - "Anna Geller"
+    - "Juan Manuel Perafan"
+    - "Arsalan Noorafkan"
+  past_instructors:
+    - "Victoria Perez Mola"
+    - "Ankush Khanna"
+    - "Sejal Vaidya"
+    - "Irem Erturk"
+    - "Luis Oliveira"
+    - "Zach Wilson"
+  testimonial_names:
+    - "Tim Claytor"
+    - "Nevenka Lukic"
+    - "Siddhartha Gogoi"
+    - "Assitan NIARE"
+    - "Wady Osama"
+
+sponsors:
+  - "Kestra"
+  - "Bruin"
+  - "dltHub"
+
+repo_stats:
+  stars: "43.1k"
+  forks: "8.5k"
+  commits: 1237
+  languages:
+    - "Jupyter Notebook"
+    - "Python"
+    - "Java"
+    - "Shell"
+    - "HCL"
+    - "Dockerfile"
+
+research_metadata:
+  researched_on: "2026-07-06"
+  source_repo: "https://github.com/DataTalksClub/data-engineering-zoomcamp"
+  source_repo_branch: "main"
+  source_repo_commit:
+    sha: "5cd686a16ee3bb982a0eb67ea73773271a20b51a"
+    date: "2026-06-10"
+    message: "Add a short FAQ section linking to the full FAQ"
+  primary_sources:
+    - "repository README"
+    - "module README files and subfiles"
+    - "cohorts/2026 README, workshop, homework, and project files"
+    - "projects README and dataset suggestions"
+    - "DataTalks.Club course documentation"
+  notes:
+    - "The GitHub README body lists January 2027 as the next live cohort, while the GitHub repository About box still says January 2026; January 2027 was treated as current because it appears in the maintained README body."
+    - "The DataTalks docs curriculum page says six modules over seven weeks, but the current repository has seven numbered modules plus workshops; the module list here follows the current repository."
+    - "The docs still describe streaming with Kafka/Flink broadly, while the current 2026 repository uses a PyFlink workshop with Redpanda as the hands-on path."

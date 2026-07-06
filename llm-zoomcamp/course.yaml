@@ -1,0 +1,427 @@
+course:
+  name: "LLM Zoomcamp"
+  slug: "llm-zoomcamp"
+  short_name: "LLM Zoomcamp"
+  status: "active"
+  description: "Free hands-on course on building production-style LLM applications with RAG, agents, vector search, evaluation, and monitoring."
+  primary_goal: "Help learners build, evaluate, monitor, and document end-to-end LLM-powered applications on their own knowledge bases."
+  format:
+    - "self-paced"
+    - "live cohort"
+  cost: "free"
+  current_docs_status: "2026 cohort started June 8, 2026; self-paced materials are available anytime"
+
+urls:
+  github: "https://github.com/DataTalksClub/llm-zoomcamp"
+  course_article: "https://datatalks.club/blog/llm-zoomcamp.html"
+  landing_page: "-"
+  registration: "https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q"
+  course_platform: "https://courses.datatalks.club/llm-zoomcamp-2026/"
+  previous_cohort_platform: "https://courses.datatalks.club/llm-zoomcamp-2025/"
+  previous_projects_2025: "https://courses.datatalks.club/llm-zoomcamp-2025/projects"
+  previous_projects_2024: "https://courses.datatalks.club/llm-zoomcamp-2024/projects"
+  youtube_playlist: "https://www.youtube.com/playlist?list=PL3MmuxUbc_hLZFNgSad56pDBKK8KO0XIv"
+  slack_channel: "https://app.slack.com/client/T01ATQK62F8/C06TEGTGM3J"
+  slack_invite: "https://datatalks.club/slack.html"
+  telegram_channel: "https://t.me/llm_zoomcamp"
+  documentation: "https://datatalks.club/docs/courses/llm-zoomcamp/"
+  logistics_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/"
+  certification_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/certification/"
+  project_docs: "https://datatalks.club/docs/courses/llm-zoomcamp/project/"
+  curriculum_docs: "https://datatalks.club/docs/courses/llm-zoomcamp/curriculum/"
+  prerequisites_docs: "https://datatalks.club/docs/courses/llm-zoomcamp/prerequisites/"
+  environment_docs: "https://datatalks.club/docs/courses/llm-zoomcamp/environment-setup/"
+  resources_docs: "https://datatalks.club/docs/courses/llm-zoomcamp/resources/"
+  whats_new_docs: "https://datatalks.club/docs/courses/llm-zoomcamp/whats-new/"
+  faq: "https://datatalks.club/faq/llm-zoomcamp.html"
+  question_guidelines: "https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/"
+  community_guidelines: "https://datatalks.club/slack/guidelines.html"
+  ai_shipping_labs: "https://datatalks.club/docs/courses/llm-zoomcamp/ai-shipping-labs/"
+  project_guidelines: "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md"
+  awesome_llms: "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/awesome-llms.md"
+  cohort_2026: "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2026"
+  dlt_workshop: "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2026/workshops/dlt.md"
+  project_example_repo: "https://github.com/alexeygrigorev/fitness-assistant"
+  projects_gallery: "https://datatalksclub-projects.streamlit.app/"
+
+cohort_cadence:
+  usual_start_month: "June"
+  usual_duration: "10 weeks plus project peer review"
+  frequency: "once per year"
+  current_live_cohort:
+    year: 2026
+    start_date: "2026-06-08"
+    start: "June 8, 2026, 17:00 CET"
+    status: "in progress as of 2026-07-06"
+    registration_status: "open in README"
+  live_cohort_note: "Lectures are pre-recorded; live cohort means shared deadlines, scored homework, leaderboard, peer review, and certificate eligibility."
+
+delivery:
+  lectures: "pre-recorded"
+  live_sessions: "Q&A, launch, office hours, and updates announced during the cohort"
+  homework:
+    live_cohort: "graded"
+    self_paced: "available but not scored"
+    certificate_requirement: "not required for certificate, but recommended for learning"
+  submissions_platform: "courses.datatalks.club"
+  certificate_available:
+    live_cohort: true
+    self_paced: false
+  certificate_requirements:
+    - "complete the final project during the live cohort"
+    - "peer review three projects"
+    - "meet the cohort deadlines"
+
+level:
+  label: "Intermediate for programmers"
+  notes: "No ML or AI background is required, but learners should already be comfortable writing code, reading code, using Git, and running Docker."
+
+prerequisites:
+  required:
+    - "Comfortable programming, preferably in Python"
+    - "Command line basics"
+    - "Git basics"
+    - "Docker installed and runnable"
+    - "An LLM provider API key or local LLM setup"
+  recommended:
+    - "Python 3.10+; Python 3.11 or 3.12 for a fresh setup"
+    - "uv for Python dependency management"
+    - "Jupyter-capable local environment or VS Code"
+    - "A few dollars of hosted LLM API credit if using OpenAI"
+  not_required:
+    - "Prior machine-learning experience"
+    - "Prior LLM engineering experience"
+    - "Advanced math"
+    - "GPU"
+    - "Paid cloud account"
+    - "A degree"
+
+audience:
+  primary:
+    - "software engineers"
+    - "backend engineers"
+    - "data engineers"
+    - "ML practitioners"
+    - "AI engineering learners"
+  secondary:
+    - "data scientists who want stronger engineering and evaluation patterns"
+    - "MLOps engineers working with LLM applications"
+    - "developers adding RAG, agents, or modern search to products"
+    - "career switchers who can already program"
+  not_the_focus:
+    - "Training LLMs from scratch"
+    - "Fine-tuning and deploying open-source LLMs"
+    - "Deep prompt-engineering as a standalone discipline"
+    - "Image generation and multimodal systems"
+    - "Guardrails as a dedicated topic"
+    - "Distributed training"
+
+time_commitment:
+  weekly_estimate: "around 10 hours"
+  typical_week:
+    - "3-5 hours watching module videos"
+    - "3-5 hours coding along and experimenting"
+    - "2-5 hours completing homework"
+  special_notes:
+    - "Module 1 takes roughly two weeks."
+    - "Vector search historically takes more time than other modules."
+    - "Capstone project is planned as two weeks of focused work plus one week of peer review."
+
+topics:
+  - "LLM applications"
+  - "AI engineering"
+  - "Retrieval-Augmented Generation"
+  - "agentic RAG"
+  - "function calling"
+  - "tool use"
+  - "agent loops"
+  - "vector search"
+  - "embeddings"
+  - "semantic search"
+  - "hybrid search"
+  - "reranking"
+  - "workflow orchestration"
+  - "context engineering"
+  - "RAG evaluation"
+  - "LLM-as-a-judge"
+  - "agent evaluation"
+  - "monitoring"
+  - "feedback loops"
+  - "dashboarding"
+  - "capstone project"
+
+tools:
+  - "Python"
+  - "uv"
+  - "Jupyter Notebook"
+  - "Docker"
+  - "Docker Compose"
+  - "OpenAI"
+  - "Groq"
+  - "Anthropic"
+  - "AWS Bedrock"
+  - "Google AI Studio"
+  - "Ollama"
+  - "minsearch"
+  - "sqlitesearch"
+  - "SQLite"
+  - "PostgreSQL"
+  - "PGVector"
+  - "sentence-transformers"
+  - "NumPy"
+  - "ONNX Runtime"
+  - "Kestra"
+  - "dlt"
+  - "Streamlit"
+  - "Grafana"
+  - "FastAPI"
+  - "Flask"
+  - "LangChain"
+  - "Elasticsearch"
+  - "ToyAIKit"
+
+modules:
+  - number: 1
+    title: "Agentic RAG"
+    source_path: "01-agentic-rag/"
+    highlights:
+      - "LLM and RAG fundamentals"
+      - "Fetch and explore the DataTalks.Club FAQ dataset"
+      - "Build a keyword-search RAG pipeline with minsearch"
+      - "Construct prompts from retrieved context"
+      - "Call an LLM from Python"
+      - "Create reusable RAG helper code"
+      - "Persist keyword search with sqlitesearch"
+      - "Use function calling to expose search as a tool"
+      - "Implement an agentic loop where the model decides when and what to search"
+      - "Discuss ToyAIKit and other agent frameworks"
+    subfiles:
+      - "01-agentic-rag/code/"
+      - "01-agentic-rag/lessons/"
+  - number: 2
+    title: "Vector Search"
+    source_path: "02-vector-search/"
+    highlights:
+      - "Keyword search vs semantic vector search"
+      - "Generate embeddings with sentence-transformers"
+      - "Create embeddings for the course FAQ dataset"
+      - "Implement vector search with NumPy"
+      - "Use minsearch for in-memory vector search"
+      - "Replace keyword retrieval with vector retrieval in a RAG pipeline"
+      - "Use sqlitesearch for persistent vector search"
+      - "Use PostgreSQL with pgvector for production-style vector search"
+      - "Optional ONNX Runtime embedder for lightweight deployment"
+    subfiles:
+      - "02-vector-search/code/"
+      - "02-vector-search/embed/"
+      - "02-vector-search/lessons/"
+  - number: 3
+    title: "AI Orchestration with Kestra"
+    source_path: "03-orchestration/"
+    primary_tool: "Kestra"
+    instructor_note: "Created and taught by Will Russell from Kestra."
+    highlights:
+      - "Why context matters when using AI for workflows"
+      - "Why generic AI assistants can produce unreliable orchestration code"
+      - "Set up Kestra, API keys, and example flows"
+      - "Use Kestra AI Copilot to generate and refine flows"
+      - "Create RAG workflows with embeddings and context retrieval"
+      - "Build agentic workflows with autonomous tool use"
+      - "Explore multi-agent research workflows"
+      - "Production best practices: cost, security, observability, and readiness"
+    subfiles:
+      - "03-orchestration/flows/"
+      - "03-orchestration/lessons/"
+      - "03-orchestration/docker-compose.yml"
+  - number: 3.5
+    title: "Workshop: Data Ingestion with dlt"
+    source_path: "cohorts/2026/workshops/dlt.md"
+    current_guidance: "The current repository file is a placeholder with details marked TBD."
+    highlights:
+      - "Use dlt to pull LLM traces from a monitoring service"
+      - "Prepare trace data for analytics"
+      - "Runs between orchestration and evaluation in the 2026 syllabus"
+  - number: 4
+    title: "Evaluation"
+    source_path: "04-evaluation/"
+    highlights:
+      - "Systematic evaluation for search, RAG, and agent systems"
+      - "Offline vs online evaluation"
+      - "Generate ground truth data with an LLM"
+      - "Batch-generate evaluation data"
+      - "Evaluate retrieval quality with Hit Rate and MRR"
+      - "Tune search parameters based on metrics"
+      - "Generate RAG answers for evaluation"
+      - "Use LLM-as-a-judge for answer quality"
+      - "Capture final answers and tool-call trajectories for agent evaluation"
+    subfiles:
+      - "04-evaluation/code/"
+      - "04-evaluation/data/"
+      - "04-evaluation/lessons/"
+  - number: 5
+    title: "Monitoring"
+    source_path: "05-monitoring/"
+    highlights:
+      - "Online monitoring for deployed RAG systems"
+      - "Build a Streamlit chat app"
+      - "Capture LLM call metrics, latency, and cost"
+      - "Store conversations in PostgreSQL"
+      - "Collect thumbs up/down user feedback"
+      - "Use built-in LLM-as-a-judge checks"
+      - "Build Streamlit dashboards"
+      - "Generate synthetic data for dashboard testing"
+      - "Create Grafana dashboards from SQL queries"
+      - "Run app, database, and dashboards together with Docker Compose"
+      - "Discuss OpenTelemetry, alerting, and next-step monitoring frameworks"
+    subfiles:
+      - "05-monitoring/code/"
+      - "05-monitoring/lessons/"
+  - number: 6
+    title: "Best Practices"
+    source_path: "06-best-practices/"
+    optional: true
+    current_guidance: "Recorded in 2024 and not updated since; techniques remain relevant, but some code uses older libraries and approaches."
+    highlights:
+      - "Five techniques for improving RAG pipelines"
+      - "Hybrid search with Elasticsearch"
+      - "Document reranking with Reciprocal Rank Fusion"
+      - "Hybrid search with LangChain"
+      - "Additional techniques and further reading"
+  - number: 7
+    title: "End-to-End Project Example"
+    source_path: "07-project-example/"
+    optional: true
+    current_guidance: "Recorded in 2024 and optional; still useful as a model for the capstone project."
+    project_example: "fitness assistant"
+    highlights:
+      - "Build a complete RAG project from scratch"
+      - "Generate data and build an initial RAG flow"
+      - "Evaluate retrieval with Hit Rate, MRR, and boosting"
+      - "Evaluate RAG output with LLM-as-a-judge"
+      - "Create Flask API and ingestion pipeline"
+      - "Add project structure, monitoring, Docker Compose, PostgreSQL logging, and Grafana"
+      - "Review cost analysis and project tips"
+      - "Chunk longer sources such as articles, transcripts, and slides"
+
+projects:
+  capstone:
+    source_path: "project.md"
+    goal: "Build an end-to-end RAG or agent application on a knowledge base or API-backed data source of your choice."
+    duration: "two weeks of focused work plus one week for peer review"
+    attempts: 2
+    dataset_rule: "DataTalks.Club Zoomcamp FAQ documents are used in course modules and homework and cannot be used for the project."
+    required_deliverables:
+      - "clear problem statement and motivation"
+      - "chosen domain and knowledge base"
+      - "ingestion path that makes raw data searchable"
+      - "retrieval system: keyword, vector, hybrid, or equivalent"
+      - "LLM-powered answering or agent layer using retrieved context and optional tools"
+      - "retrieval evaluation"
+      - "end-to-end RAG or agent evaluation"
+      - "interface reviewers can use: script, notebook, API, or UI"
+      - "README with setup, dependencies, configuration, environment variables, and examples"
+    recommended_deliverables:
+      - "user feedback collection"
+      - "monitoring dashboard"
+      - "screenshots or short app preview"
+      - "containerization"
+      - "separate setup or usage docs for larger projects"
+    choices_allowed:
+      - "RAG application, agent application, or both"
+      - "any text corpus, API-backed data source, or public knowledge base not used in the course"
+      - "any LLM provider, vector database, framework, or programming language"
+      - "frameworks such as LangChain, LlamaIndex, Haystack, or similar tools"
+      - "interfaces such as Streamlit, Dash, Flask, FastAPI, Django, notebook, or CLI"
+    evaluation_criteria:
+      - "problem description"
+      - "retrieval flow"
+      - "retrieval evaluation"
+      - "LLM evaluation"
+      - "interface"
+      - "ingestion pipeline"
+      - "monitoring"
+      - "containerization"
+      - "reproducibility"
+      - "best practices: hybrid search, reranking, query rewriting"
+      - "bonus: cloud deployment or extra high-quality additions"
+    peer_review:
+      required_reviews: 3
+      note: "Peer review is required for certificate eligibility during a live cohort."
+    project_ideas:
+      - "fitness and nutrition assistant"
+      - "study companion for textbooks or notes"
+      - "public clinical guideline FAQ assistant"
+      - "codebase Q&A bot"
+      - "news summarization and retrieval tool"
+      - "open-source documentation assistant"
+      - "product manual support assistant"
+      - "job-description skills search assistant"
+
+outcomes:
+  - "Build a RAG pipeline from scratch"
+  - "Make retrieval agentic with function calling and tool use"
+  - "Use embeddings and vector indexes for semantic search"
+  - "Choose among keyword, vector, persistent, and pgvector-backed retrieval"
+  - "Orchestrate AI workflows and agentic workflows with Kestra"
+  - "Evaluate retrieval with Hit Rate and MRR"
+  - "Evaluate generated answers with LLM-as-a-judge"
+  - "Monitor a RAG app with metrics, feedback, PostgreSQL, Streamlit, and Grafana"
+  - "Apply optional hybrid search and reranking techniques"
+  - "Ship a portfolio-ready LLM application with documentation and reproducibility"
+
+community:
+  support_channels:
+    - "DataTalks.Club Slack"
+    - "#course-llm-zoomcamp Slack channel"
+    - "Telegram announcements"
+  practices:
+    - "ask questions in Slack using course guidelines"
+    - "share progress via learning in public"
+    - "participate in peer review during live cohorts"
+  optional_paid_support:
+    name: "AI Shipping Labs"
+    note: "Optional paid community with office hours, accountability sprints, onboarding, and member-only workshops; not required for the free course."
+
+people:
+  instructors:
+    - "Alexey Grigorev"
+    - "Will Russell"
+    - "Timur Kamaliev"
+  testimonial_names:
+    - "Alexander Daniel Rios"
+    - "Vasiliy Chernykh"
+
+sponsors:
+  - "Kestra"
+  - "dltHub"
+
+repo_stats:
+  stars: "6.7k"
+  forks: "1.2k"
+  commits: 558
+  languages:
+    - "Jupyter Notebook"
+    - "Python"
+    - "Dockerfile"
+    - "YAML"
+    - "Markdown"
+
+research_metadata:
+  researched_on: "2026-07-06"
+  source_repo: "https://github.com/DataTalksClub/llm-zoomcamp"
+  source_repo_branch: "main"
+  source_repo_commit:
+    sha: "9efc9fc756737b0ed776d4876a386dd72b06efc7"
+    date: "2026-07-04"
+    message: "Fix typo in nearest neighbor search description (#165)"
+  primary_sources:
+    - "repository README"
+    - "module README files and lesson/code folder structure"
+    - "cohorts/2026 README and workshop/homework files"
+    - "project README"
+    - "DataTalks.Club course documentation"
+  notes:
+    - "The 2026 cohort is in progress on 2026-07-06, after the June 8, 2026 start date."
+    - "The current 2026 spine is modules 1-5 plus a dlt workshop and capstone; modules 6 and 7 are optional 2024 material."
+    - "The dlt workshop file currently says details are TBD, so only the documented trace-ingestion scope is recorded."
+    - "The course treats LLMs as black boxes and focuses on building applications rather than training, fine-tuning, or deploying open-source LLMs."
