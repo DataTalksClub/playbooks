@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transcript Post Miner"
+  short_description: "Fetch transcripts and find post ideas"
+  default_prompt: "Use $transcript-post-miner to fetch this YouTube transcript if needed, then create post ideas with raw transcript excerpt briefs and clip recommendations."

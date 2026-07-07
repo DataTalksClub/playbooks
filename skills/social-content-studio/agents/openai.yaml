@@ -1,0 +1,4 @@
+interface:
+  display_name: "Social Content Studio"
+  short_description: "Draft, review, and save structured social post artifacts"
+  default_prompt: "Use $social-content-studio to draft, review, and save structured social media post files for Alexey."

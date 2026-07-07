@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alexey Carousel Generator"
+  short_description: "Generate and render Alexey post media"
+  default_prompt: "Use $alexey-carousel-generator to create and render LinkedIn carousel and X resource media for these Alexey post folders."

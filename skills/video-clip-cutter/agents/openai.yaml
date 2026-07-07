@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Clip Cutter"
+  short_description: "Cut videos into timestamped clips"
+  default_prompt: "Use $video-clip-cutter to cut this video into timestamped clips."

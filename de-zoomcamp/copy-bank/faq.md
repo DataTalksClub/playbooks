@@ -1,0 +1,1 @@
+Collect all the FAQ questions and answers for the course from pre-course Q&A and launch stream.

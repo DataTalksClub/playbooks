@@ -42,9 +42,9 @@ TYPEFULLY_API_KEY=... python3 scripts/download_typefully_posts.py \
 The exporter writes:
 
 - `raw/typefully-raw-*.json`: raw paginated API responses.
-- `filtered/typefully-matches-*.json`: normalized matching records.
-- `filtered/typefully-matches-*.csv`: spreadsheet-friendly matching records.
-- `filtered/typefully-matches-*.md`: human-readable post digest.
+- `filtered/typefully-matches-*.json`: normalized matching records. (renamed as `typefully-examples.json` right now)
+- `filtered/typefully-matches-*.csv`: spreadsheet-friendly matching records. (renamed as `typefully-examples.csv` right now)
+- `filtered/typefully-matches-*.md`: human-readable post digest. (renamed as `typefully-examples.md` right now)
 - `manifest.json`: latest export summary and file pointers.
 
 Do not commit or store the Typefully API key in this repo.
