@@ -1,30 +1,49 @@
-Webinar: AI Dev Tools Zoomcamp {{ year }}, Course Launch
-Title: AI Dev Tools Zoomcamp {{ year }} Course Launch
-Date: {{ day, month, year }} - the day the course starts, 17:00-18:00 Europe/Madrid time.
+Title: AI Dev Tools Zoomcamp 2026 Course Launch
+Hosted by Alexey Grigorev
+Date: {{ launch_stream_date }}
+Time: {{ launch_stream_time }} Europe/Madrid
+Location: YouTube
+Registration: {{ launch_stream_luma_url }}
 
-The new cohort of [AI Dev Tools Zoomcamp {{ year }}]({{ registration_url }}) starts today.
+## About Event
 
-In this launch session, course creator Alexey Grigorev will help you turn the current AI coding chaos into a usable workflow. The course is not about trying every tool for its own sake. It is about learning how to use assistants, agents, tests, specs, and automation to ship software you can still understand.
+The new cohort of [AI Dev Tools Zoomcamp 2026](https://courses.datatalks.club/register/ai-dev-tools/?utm_source=luma) starts on August 31, 2026.
+
+In this launch session, course creator Alexey Grigorev will help you start the cohort with a clear workflow for using AI developer tools without losing control of the code you ship.
+
+The course is not about collecting every new AI tool. It is about learning how to choose the right tool, give it the right context, extend it with the right capabilities, and ship safely with review, audit, security, and DevOps controls.
 
 ## What We'll Cover
 
 Alexey will walk through:
 
-- The app you'll build toward: a complete AI-assisted project with frontend, backend, API contract, database, tests, deployment, and CI/CD
-- The first week: how to choose your tools, set up your workflow, and avoid getting stuck comparing every assistant
-- The cohort rhythm: homework, deadlines, scoring, leaderboard, peer review, and certificates
-- The course map: coding assistants, AI IDEs, agents, MCP, OpenAPI, testing, CI/CD, deployment, and automation
-- The support system: Slack, Telegram updates, FAQ, workflow sharing, and community support
+- What changed in AI Dev Tools Zoomcamp 2026
+- The four-module course path and how the modules fit together
+- How to use AI tools for planning, coding, review, testing, and shipping
+- The cohort rhythm: lectures, homework, deadlines, leaderboard, peer review, and certificates
+- How to set up your environment and pick your first tools
+- How to avoid getting stuck comparing every assistant
+- How to ask questions and get help in the DataTalks.Club community
+- What to expect from the final project
 
-There will also be time for live questions, so bring anything about ChatGPT, Claude, Codex, Cursor, GitHub Copilot, MCP, Lovable, FastAPI, React, testing, or your project idea.
+There will also be time for live questions, so bring anything about ChatGPT, Claude, Codex, Cursor, GitHub Copilot, MCP, coding agents, AI-assisted testing, GitHub Actions, deployment, security, DevOps, or your project idea.
+
+## Course Modules
+
+The 2026 cohort is built around four updated modules:
+
+- [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview?utm_source=luma)
+- [Module 2: Build and Ship an AI-Assisted Full-Stack App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end?utm_source=luma)
+- [Module 3: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp?utm_source=luma)
+- [Module 4: Open-Source AI Tools for Security, Audit, and DevOps](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-ai-security-audit-devops?utm_source=luma)
 
 ## Starting AI Dev Tools Zoomcamp?
 
-AI Dev Tools Zoomcamp is a free hands-on course for people who write code and want to use AI tools in a more structured, reliable way. It is about real developer workflows: coding assistants, AI IDEs, coding agents, MCP, OpenAPI-driven development, testing, CI/CD, deployment, and automation.
+AI Dev Tools Zoomcamp is a free hands-on course for people who write code and want to use AI tools in a more structured, reliable way.
 
-You should be comfortable with basic programming, Git, GitHub, and the command line. You do not need previous AI tools experience, web development experience, Django experience, a powerful machine, or a GPU.
+You should be comfortable with basic programming, Git, GitHub, and the command line. You do not need previous AI tools experience, a powerful machine, or a GPU.
 
-The cohort starts on {{ day, month, year }}. If you haven't joined yet, you can [register here]({{ registration_url }}).
+The cohort starts on August 31, 2026. If you haven't joined yet, you can [register here](https://courses.datatalks.club/register/ai-dev-tools/?utm_source=luma).
 
 ## About the Speaker
 

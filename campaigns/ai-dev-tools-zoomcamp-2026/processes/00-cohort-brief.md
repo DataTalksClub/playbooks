@@ -13,9 +13,9 @@ Cohort year:
 Start date:
 Registration link:
 
-Current registrations:
-Target registrations:
-Stretch goal:
+Current registrations: 145
+Target registrations: 10,000
+Stretch goal: 20,000
 Days until start:
 
 Campaign intensity:
@@ -81,8 +81,9 @@ Default channels:
 
 Extra channels for this cohort:
 
-- [ ] Alumni outreach
-- [ ] Influencer / practitioner outreach
+- [x] Alumni outreach
+- [x] Influencer / practitioner outreach
+- [x] Downloadable lead magnet
 - [ ] Partner and sponsor posts
 - [ ] External newsletters
 - [ ] External communities
@@ -91,7 +92,6 @@ Extra channels for this cohort:
 - [ ] Podcasts and guest appearances
 - [ ] Short-form video clips
 - [ ] SEO articles
-- [ ] Downloadable lead magnet
 - [ ] Referral experiment
 - [ ] Paid or boosted distribution
 - [ ] University / student club outreach
@@ -102,7 +102,7 @@ Decision notes:
 
 ## 5. Event Decisions
 
-- Pre-course workshops: [Yes / No] + Number of workshops: [Number] + Topics: [List of topics]
+- Pre-course workshops: Yes (All 4 modules)
 - Graduate podcast or interview stories: [Yes / No]
 - Pre-course Q&A: Yes
 - Launch stream: Yes

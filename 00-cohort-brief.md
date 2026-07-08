@@ -54,7 +54,6 @@ Extra push means we add one or more of these:
 ## 3. What Changed This Year?
 
 - Curriculum changed: Yes / No
-- Certificate rules changed: Yes / No
 - Tools changed: Yes / No
 - GitHub README needs major rewrite: Yes / No
 - FAQ needs update: Yes / No
