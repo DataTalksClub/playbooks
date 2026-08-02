@@ -1,7 +1,7 @@
 Title: AI Dev Tools Zoomcamp 2026 Course Launch
 Hosted by Alexey Grigorev
 Date: {{ launch_stream_date }}
-Time: {{ launch_stream_time }} Europe/Madrid
+Time: {{ launch_stream_time }} Europe/Berlin
 Location: YouTube
 Registration: {{ launch_stream_luma_url }}
 

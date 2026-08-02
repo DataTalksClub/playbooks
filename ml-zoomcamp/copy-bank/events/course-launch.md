@@ -1,6 +1,6 @@
 Webinar: ML Zoomcamp {{ year }}, Course Launch
 Title: ML Zoomcamp {{ year }} Course Launch
-Date: {{ day, month, year }} - the day the course starts, 17:00-18:00 Europe/Madrid time.
+Date: {{ day, month, year }} - the day the course starts, 17:00-18:00 Europe/Berlin time.
 
 The new cohort of [Machine Learning Zoomcamp {{ year }}]({{ registration_url }}) starts today.
 

@@ -1,7 +1,7 @@
 Title: Open-Source AI Tools for Security, Audit, and DevOps
 Hosted by {{ workshop_4_host }} & Alexey Grigorev
 Date: {{ workshop_4_date }}
-Time: {{ workshop_4_time }} Europe/Madrid
+Time: {{ workshop_4_time }} Europe/Berlin
 Location: YouTube
 Registration: {{ workshop_4_luma_url }}
 

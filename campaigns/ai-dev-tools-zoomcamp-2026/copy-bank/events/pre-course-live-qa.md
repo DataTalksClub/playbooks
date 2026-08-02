@@ -1,7 +1,7 @@
 Title: AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A
 Hosted by Alexey Grigorev
 Date: {{ pre_course_qna_date }}
-Time: {{ pre_course_qna_time }} Europe/Madrid
+Time: {{ pre_course_qna_time }} Europe/Berlin
 Location: YouTube
 Registration: {{ pre_course_qna_luma_url }}
 

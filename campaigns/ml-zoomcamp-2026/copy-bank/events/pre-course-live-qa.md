@@ -1,9 +1,9 @@
 Title: ML Zoomcamp 2026 Pre-Course Live Q&A
-Date: Tuesday, 1 September 2026, 17:00-18:00 Europe/Madrid time.
+Date: Tuesday, 1 September 2026, 17:00-18:00 Europe/Berlin time.
 
 Thinking about joining [Machine Learning Zoomcamp 2026](https://courses.datatalks.club/register/ml-zoomcamp/)? Come to this live Q&A with course creator Alexey Grigorev and get a clear picture of what the course is like before the cohort starts on 14 September 2026.
 
-**When:** Tuesday, 1 September 2026, 17:00-18:00 Europe/Madrid time.
+**When:** Tuesday, 1 September 2026, 17:00-18:00 Europe/Berlin time.
 
 Bring your questions about the curriculum, projects, homework, certificates, or whether this is the right next step for you.
 
