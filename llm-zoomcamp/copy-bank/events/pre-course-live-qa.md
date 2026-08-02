@@ -1,7 +1,9 @@
 # LLM Zoomcamp {{ year }} Pre-Course Live Q&A
 
-- **Date:** TBD - schedule two weeks before the confirmed {{ day, month, year }} course start date. Example: if the course starts on {{ day, month, year }}, this event should be on {{ day, month, year }}
+- **Date:** {{ day, month, year }}
 - **Time:** 17:00-18:00 Europe/Berlin
+
+> Schedule this two weeks before the course start date.
 
 Thinking about joining [LLM Zoomcamp {{ year }}]({{ registration_url }})? Come to this live Q&A with course creator Alexey Grigorev and get a clear picture of what the course is like before the cohort starts on {{ day, month, year }}.
 

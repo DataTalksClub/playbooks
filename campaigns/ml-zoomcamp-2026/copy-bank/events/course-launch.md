@@ -1,6 +1,6 @@
 # ML Zoomcamp 2026 Course Launch
 
-- **Date:** Monday, 14 September 2026 - the day the course starts
+- **Date:** Monday, 14 September 2026
 - **Time:** 17:00-18:00 Europe/Berlin
 
 The new cohort of [Machine Learning Zoomcamp 2026](https://courses.datatalks.club/register/ml-zoomcamp/) starts today.
