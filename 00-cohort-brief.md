@@ -13,6 +13,8 @@ Cohort year:
 Start date:
 Registration link:
 
+Course platform URL:
+
 Current registrations:
 Target registrations:
 Stretch goal:
@@ -21,7 +23,23 @@ Days until start:
 Campaign intensity:
 Normal / Extra push
 
-## 2. Registration Gap
+## 2. Course Outline
+
+The confirmed deadline schedule from `01-course-platform-setup.md`. Fill this in after the outline exists on the platform, and use it when filling the campaign calendar.
+
+Deadlines are always Monday at 23:00 UTC.
+
+| Item | Slug | Deadline | Notes |
+| --- | --- | --- | --- |
+| | | | |
+
+Project blocks and their submission and peer review deadlines:
+
+| Project | Slug | Submission | Peer review |
+| --- | --- | --- | --- |
+| | | | |
+
+## 3. Registration Gap
 
 Registrations needed for target:
 Weeks until start:
@@ -51,7 +69,7 @@ Extra push means we add one or more of these:
 - [ ] Company / team learning outreach
 - [ ] Product Hunt or launch platforms
 
-## 3. What Changed This Year?
+## 4. What Changed This Year?
 
 - Curriculum changed: Yes / No
 - Tools changed: Yes / No
@@ -61,7 +79,7 @@ Extra push means we add one or more of these:
 
 Notes:
 
-## 4. Channel Decisions
+## 5. Channel Decisions
 
 Default channels:
 
@@ -99,16 +117,18 @@ Extra channels for this cohort:
 
 Decision notes:
 
-## 5. Event Decisions
+## 6. Event Decisions
+
+Events start at **17:00 CET**, on a Monday or sometimes a Tuesday. The launch stream is on the course start date, which is always a Monday.
 
 - Pre-course workshops: [Yes / No] + Number of workshops: [Number] + Topics: [List of topics]
 - Graduate podcast or interview stories: [Yes / No]
-- Pre-course Q&A: Yes
-- Launch stream: Yes
+- Pre-course Q&A: Yes — date:
+- Launch stream: Yes — date: course start date
 
 Decision notes:
 
-## 6. Owners and Approval
+## 7. Owners and Approval
 
 - Website/GitHub owner:
 - Newsletter owner:
@@ -122,6 +142,9 @@ Decision notes:
 This brief is complete when:
 
 - [ ] Start date is confirmed
+- [ ] Course exists on the platform
+- [ ] Registration campaign points to this cohort
+- [ ] Course outline is created and verified
 - [ ] Registration link is confirmed
 - [ ] Registration target is set
 - [ ] Registration gap is calculated

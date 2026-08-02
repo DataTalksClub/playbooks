@@ -6,21 +6,21 @@ Run this first. The registration link and the deadline schedule block most other
 
 See `01-course-platform-setup.md` for the full process.
 
-- [ ] Confirm start date and project blocks (deadlines are always Monday 23:00 UTC)
-- [ ] Create the course on the platform
-- [ ] Create the registration campaign, or repoint the existing one to this cohort
-- [ ] Create the course outline: homeworks closed and empty, projects with both deadlines
-- [ ] Verify the outline and the registration page
-- [ ] Record the schedule in `00-cohort-brief.md` and the campaign `course.yaml`
+- [x] Confirm start date and project blocks (deadlines are always Monday 23:00 UTC) — starts Monday September 14, 2026
+- [x] Create the course on the platform — https://courses.datatalks.club/ml-zoomcamp-2026/
+- [x] Create the registration campaign, or repoint the existing one to this cohort — https://courses.datatalks.club/register/ml-zoomcamp/, active, pointing at this cohort
+- [x] Create the course outline: homeworks closed and empty, projects with both deadlines — 9 homeworks, 3 projects
+- [x] Verify the outline and the registration page — all deadlines land on Mondays; registration page returns HTTP 200
+- [x] Record the schedule in `00-cohort-brief.md` and the campaign `course.yaml`
 
 ## Asset updates
 
 `01-course-assets-map.md` lists the exact file to edit for each item below, per course.
 
-- [ ] Update course GitHub README
-- [ ] Update course article
-- [ ] Update all-courses article
-- [ ] Update registration page
+- [x] Update course GitHub README — cohorts/2026/ added and linked, registration and platform links updated
+- [x] Update course article — registration links and dates updated on the website
+- [x] Update all-courses article — ML registration button repointed
+- [ ] Update registration page — the marketing blurb and page description are still placeholder copy, and the video link is empty
 - [ ] Update website CTA banner
 - [ ] Update welcome email
 - [ ] Update course FAQ in the copy-bank

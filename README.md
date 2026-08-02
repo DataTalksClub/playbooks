@@ -11,19 +11,22 @@ For a new cohort:
 1. Create or open a folder under `campaigns/`, for example `campaigns/ai-dev-tools-zoomcamp-2026/`.
 2. Copy the root process templates into `campaigns/<course>-<year>/processes/` if they are not already there.
 3. Fill `00-cohort-brief.md` with the course, dates, registration target, campaign intensity, channels, events, and owners.
-4. Use `01-launch-checklist.md` to track asset updates, events, promotion tasks, and outreach.
-5. Use `02-course-launch-social-system.md` to choose campaign phases, post types, cadence, CTAs, and channel adaptations.
-6. Fill `02-campaign-calendar.csv` with the planned announcement schedule. Replace placeholders such as `{{ course_name }}`, `{{ course_topic }}`, and registration links with cohort-specific values.
-7. Adapt the relevant course folder's `course.yaml`, `copy-bank/`, and `proof-library/` assets into the campaign folder when the campaign needs cohort-specific versions.
-8. Use `typefully/` when you need examples of past course-promotion posts or a taxonomy for social post ideas.
-9. After the cohort, complete `03-retrospective.md` so next year's launch has numbers, reusable proof, and lessons learned.
+4. Use `01-course-platform-setup.md` to create the cohort on `courses.datatalks.club` through the course management agent project. Do this early: the registration link and the deadline schedule block most other launch tasks.
+5. Use `01-launch-checklist.md` to track asset updates, events, promotion tasks, and outreach. `01-course-assets-map.md` says which file each asset is.
+6. Use `02-course-launch-social-system.md` to choose campaign phases, post types, cadence, CTAs, and channel adaptations.
+7. Fill `02-campaign-calendar.csv` with the planned announcement schedule. Replace placeholders such as `{{ course_name }}`, `{{ course_topic }}`, and registration links with cohort-specific values.
+8. Adapt the relevant course folder's `course.yaml`, `copy-bank/`, and `proof-library/` assets into the campaign folder when the campaign needs cohort-specific versions.
+9. Use `typefully/` when you need examples of past course-promotion posts or a taxonomy for social post ideas.
+10. After the cohort, complete `03-retrospective.md` so next year's launch has numbers, reusable proof, and lessons learned.
 
 ## Repository Map
 
 | Path | Purpose |
 | --- | --- |
 | `00-cohort-brief.md` | Planning template for cohort basics, registration gap, channel decisions, event decisions, owners, and approval. |
-| `01-launch-checklist.md` | Execution checklist for asset updates, events, promotion, and outreach. |
+| `01-course-assets-map.md` | Where every course asset lives: repos, website article, FAQ data, schema.org data, slugs, and registration URLs, per course. Use it so a launch is a list of known files instead of a search. |
+| `01-course-platform-setup.md` | Process for creating the cohort on the course platform: the course record, the registration campaign, and the course outline of homework and project deadlines. Changes are made through the course management agent project. |
+| `01-launch-checklist.md` | Execution checklist for course platform setup, asset updates, events, promotion, and outreach. |
 | `02-course-launch-social-system.md` | Main social launch system: campaign phases, post types, cadence, channel adaptation, metrics, and reusable strategy. |
 | `02-campaign-calendar.csv` | Campaign calendar skeleton with relative timing, phase, platform, post type, CTA, needed assets, and status. |
 | `03-retrospective.md` | Post-cohort retrospective template for final numbers, best channels, best posts, repeated questions, and next-year improvements. |
@@ -82,9 +85,10 @@ Use `ai-dev-tools-zoomcamp/` as the reference implementation when deepening the 
 
 `campaigns/` stores campaign-specific copies of reusable assets. Use it for work tied to a particular course cohort, year, registration target, and launch calendar.
 
-Current campaign workspace:
+Current campaign workspaces:
 
 - `campaigns/ai-dev-tools-zoomcamp-2026/`
+- `campaigns/ml-zoomcamp-2026/`
 
 Typical structure:
 
@@ -110,6 +114,18 @@ Start from `campaigns/<course>-<year>/processes/00-cohort-brief.md`. If the camp
 The most important decision is whether this is a normal launch or an extra-push launch. Extra-push launches add channels such as alumni outreach, influencer outreach, partner posts, external newsletters, communities, podcasts, short clips, SEO, or paid distribution.
 
 Once the brief is complete, use `01-launch-checklist.md` to track execution. The checklist intentionally separates asset updates, events, promotion, and outreach so owners can work in parallel.
+
+### Set Up the Course Platform
+
+Use `01-course-platform-setup.md`. Use the course management agent project (`~/git/course-management-agent`) to make the actual changes; the playbook covers the decisions.
+
+Three things must exist before the campaign can promote anything:
+
+- The course record on `courses.datatalks.club`, with the cohort slug, start date, and certificate settings.
+- The registration campaign, which owns the public registration page and produces the registration link used in every piece of launch copy.
+- The course outline: homeworks and projects with their deadlines. Homeworks are created closed and empty; questions are added later, per module.
+
+Copy the previous cohort's outline and shift it rather than designing a new schedule. Keep the previous homework and project slugs. Deadlines are always Monday at 23:00 UTC. Record the confirmed schedule in the cohort brief, then use those dates when filling the campaign calendar.
 
 ### Build the Campaign Calendar
 
