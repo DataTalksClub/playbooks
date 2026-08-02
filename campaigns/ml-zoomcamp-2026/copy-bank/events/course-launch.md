@@ -4,6 +4,8 @@ Date: Monday, 14 September 2026 - the day the course starts, 17:00-18:00 Europe/
 
 The new cohort of [Machine Learning Zoomcamp 2026](https://courses.datatalks.club/register/ml-zoomcamp/) starts today.
 
+**When:** Monday, 14 September 2026, 17:00-18:00 Europe/Madrid time.
+
 In this launch session, course creator Alexey Grigorev will help you get oriented before the first videos, notebooks, homework, and project ideas start piling up. The goal is simple: leave the session knowing what to do first, what matters most, and how to avoid turning the course into a folder of unfinished notebooks.
 
 ## What We'll Cover
