@@ -31,7 +31,7 @@ Only run if selected in `00-cohort-brief.md`.
 
 Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
 
-- [ ] Create pre-course workshop events — not decided yet, see `00-cohort-brief.md`
+- [x] Create pre-course workshop events — not applicable, no workshops this year
 - [ ] Create pre-course Q&A — Tuesday 1 September 2026, 17:00-18:00 Europe/Berlin. Copy ready at `copy-bank/events/pre-course-live-qa.md`; the event page itself is not created
 - [ ] Create launch stream — Monday 14 September 2026, 17:00-18:00 Europe/Berlin. Copy ready at `copy-bank/events/course-launch.md`; the event page itself is not created
 - [ ] Add event links to `02-campaign-calendar.csv` — blocked until the events exist and have URLs

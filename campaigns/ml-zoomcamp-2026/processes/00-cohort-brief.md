@@ -150,7 +150,7 @@ Decision notes:
 
 Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday.
 
-- Pre-course workshops: [Yes / No] + Number of workshops: [Number] + Topics: [List of topics]
+- Pre-course workshops: No — none this year
 - Graduate podcast or interview stories: [Yes / No]
 - Pre-course Q&A: Yes — Tuesday 1 September 2026, 17:00 Europe/Berlin
 - Launch stream: Yes — Monday 14 September 2026, 17:00 Europe/Berlin (course start date)
@@ -159,6 +159,7 @@ Decision notes:
 
 - The 2025 cohort ran a pre-course Q&A and a launch stream with course overview. Both are repeated this year.
 - The Q&A is 13 days before the start, which puts it in the Decision phase of the campaign calendar with time left to register.
+- No pre-course workshops this year. The workshop announcement row in `02-campaign-calendar.csv` is marked dropped.
 
 ## 7. Owners and Approval
 
@@ -183,5 +184,5 @@ This brief is complete when:
 - [ ] Campaign intensity is selected
 - [x] Changes from last year are listed
 - [ ] Channels are selected
-- [ ] Events are selected
+- [x] Events are selected — no workshops; Q&A 1 Sep, launch stream 14 Sep. Graduate podcast still open
 - [ ] Owners are assigned
