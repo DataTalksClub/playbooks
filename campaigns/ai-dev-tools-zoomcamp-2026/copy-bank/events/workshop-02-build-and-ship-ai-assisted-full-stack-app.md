@@ -1,9 +1,10 @@
-Title: Build and Ship an AI-Assisted Full-Stack App
-Hosted by {{ workshop_2_host }} & Alexey Grigorev
-Date: {{ workshop_2_date }}
-Time: {{ workshop_2_time }} Europe/Berlin
-Location: YouTube
-Registration: {{ workshop_2_luma_url }}
+# Build and Ship an AI-Assisted Full-Stack App
+
+- **Hosted by:** {{ workshop_2_host }} & Alexey Grigorev
+- **Date:** {{ workshop_2_date }}
+- **Time:** {{ workshop_2_time }} Europe/Berlin
+- **Location:** YouTube
+- **Registration:** {{ workshop_2_luma_url }}
 
 ## About Event
 

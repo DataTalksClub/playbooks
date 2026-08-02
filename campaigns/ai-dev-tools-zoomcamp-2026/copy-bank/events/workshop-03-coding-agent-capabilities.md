@@ -1,9 +1,10 @@
-Title: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
-Hosted by {{ workshop_3_host }} & Alexey Grigorev
-Date: {{ workshop_3_date }}
-Time: {{ workshop_3_time }} Europe/Berlin
-Location: YouTube
-Registration: {{ workshop_3_luma_url }}
+# Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
+
+- **Hosted by:** {{ workshop_3_host }} & Alexey Grigorev
+- **Date:** {{ workshop_3_date }}
+- **Time:** {{ workshop_3_time }} Europe/Berlin
+- **Location:** YouTube
+- **Registration:** {{ workshop_3_luma_url }}
 
 ## About Event
 

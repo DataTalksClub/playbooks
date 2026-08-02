@@ -1,9 +1,9 @@
-Title: ML Zoomcamp 2026 Pre-Course Live Q&A
-Date: Tuesday, 1 September 2026, 17:00-18:00 Europe/Berlin time.
+# ML Zoomcamp 2026 Pre-Course Live Q&A
+
+- **Date:** Tuesday, 1 September 2026
+- **Time:** 17:00-18:00 Europe/Berlin
 
 Thinking about joining [Machine Learning Zoomcamp 2026](https://courses.datatalks.club/register/ml-zoomcamp/)? Come to this live Q&A with course creator Alexey Grigorev and get a clear picture of what the course is like before the cohort starts on 14 September 2026.
-
-**When:** Tuesday, 1 September 2026, 17:00-18:00 Europe/Berlin time.
 
 Bring your questions about the curriculum, projects, homework, certificates, or whether this is the right next step for you.
 
@@ -23,7 +23,19 @@ You'll also hear practical advice on how to approach the course, keep momentum, 
 
 ML Zoomcamp is a free 4-month course for people who want to become practical machine learning engineers. It starts with the basics and gradually moves toward production-style work: model evaluation, deployment, deep learning, serverless inference, Kubernetes, and model serving.
 
-You should be comfortable with programming, the command line, Git, and Docker basics. You do not need previous machine learning experience, advanced math, cloud experience, or a degree.
+**You should be comfortable with:**
+
+- programming
+- the command line
+- Git
+- Docker basics
+
+**You don't need:**
+
+- previous machine learning experience
+- advanced math
+- cloud experience
+- a degree
 
 The next live cohort starts on 14 September 2026. You can join it by [registering here](https://courses.datatalks.club/register/ml-zoomcamp/).
 

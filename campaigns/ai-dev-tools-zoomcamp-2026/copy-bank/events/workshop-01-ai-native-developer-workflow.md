@@ -1,9 +1,10 @@
-Title: AI-Native Developer Workflow: Using AI Tools Without Losing Control
-Hosted by {{ workshop_1_host }} & Alexey Grigorev
-Date: {{ workshop_1_date }}
-Time: {{ workshop_1_time }} Europe/Berlin
-Location: YouTube
-Registration: {{ workshop_1_luma_url }}
+# AI-Native Developer Workflow: Using AI Tools Without Losing Control
+
+- **Hosted by:** {{ workshop_1_host }} & Alexey Grigorev
+- **Date:** {{ workshop_1_date }}
+- **Time:** {{ workshop_1_time }} Europe/Berlin
+- **Location:** YouTube
+- **Registration:** {{ workshop_1_luma_url }}
 
 ## About Event
 

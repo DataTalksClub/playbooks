@@ -1,5 +1,7 @@
-Title: Data Engineering Zoomcamp {{ year }} Pre-Course Live Q&A
-Date: TBD - schedule two weeks before the confirmed {{ day, month, year }} course start date. Example: if the course starts on {{ day, month, year }}, this event should be on {{ day, month, year }}, 17:00-18:00 Europe/Berlin time.
+# Data Engineering Zoomcamp {{ year }} Pre-Course Live Q&A
+
+- **Date:** TBD - schedule two weeks before the confirmed {{ day, month, year }} course start date. Example: if the course starts on {{ day, month, year }}, this event should be on {{ day, month, year }}
+- **Time:** 17:00-18:00 Europe/Berlin
 
 Thinking about joining [Data Engineering Zoomcamp {{ year }}]({{ registration_url }})? Come to this live Q&A with course creator Alexey Grigorev and get a clear picture of what the course is like before the cohort starts on {{ day, month, year }}.
 
@@ -21,7 +23,19 @@ You'll also hear practical advice on how to pace the course and avoid getting st
 
 DE Zoomcamp is a free hands-on course for people who want to learn modern data engineering by building real pipelines. It covers the full path from local development to cloud warehouses, orchestration, transformations, batch processing, streaming, and project delivery.
 
-You should be comfortable with command line basics, basic programming concepts, SQL fundamentals, and Git basics. You do not need previous data engineering experience, prior cloud experience, advanced Python, or a degree.
+**You should be comfortable with:**
+
+- command line basics
+- basic programming concepts
+- SQL fundamentals
+- Git basics
+
+**You don't need:**
+
+- previous data engineering experience
+- prior cloud experience
+- advanced Python
+- a degree
 
 The next live cohort starts on {{ day, month, year }}. You can join it by [registering here]({{ registration_url }}).
 

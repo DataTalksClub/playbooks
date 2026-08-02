@@ -1,6 +1,7 @@
-Webinar: LLM Zoomcamp {{ year }}, Course Launch
-Title: LLM Zoomcamp {{ year }} Course Launch
-Date: {{ day, month, year }} - the day the course starts, 17:00-18:00 Europe/Berlin time.
+# LLM Zoomcamp {{ year }} Course Launch
+
+- **Date:** {{ day, month, year }} - the day the course starts
+- **Time:** 17:00-18:00 Europe/Berlin
 
 The new cohort of [LLM Zoomcamp {{ year }}]({{ registration_url }}) starts today.
 

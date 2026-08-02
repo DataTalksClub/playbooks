@@ -1,9 +1,10 @@
-Title: AI Dev Tools Zoomcamp 2026 Course Launch
-Hosted by Alexey Grigorev
-Date: {{ launch_stream_date }}
-Time: {{ launch_stream_time }} Europe/Berlin
-Location: YouTube
-Registration: {{ launch_stream_luma_url }}
+# AI Dev Tools Zoomcamp 2026 Course Launch
+
+- **Hosted by:** Alexey Grigorev
+- **Date:** {{ launch_stream_date }}
+- **Time:** {{ launch_stream_time }} Europe/Berlin
+- **Location:** YouTube
+- **Registration:** {{ launch_stream_luma_url }}
 
 ## About Event
 
@@ -41,7 +42,18 @@ The 2026 cohort is built around four updated modules:
 
 AI Dev Tools Zoomcamp is a free hands-on course for people who write code and want to use AI tools in a more structured, reliable way.
 
-You should be comfortable with basic programming, Git, GitHub, and the command line. You do not need previous AI tools experience, a powerful machine, or a GPU.
+**You should be comfortable with:**
+
+- basic programming
+- Git
+- GitHub
+- the command line
+
+**You don't need:**
+
+- previous AI tools experience
+- a powerful machine
+- a GPU
 
 The cohort starts on August 31, 2026. If you haven't joined yet, you can [register here](https://courses.datatalks.club/register/ai-dev-tools/?utm_source=luma).
 

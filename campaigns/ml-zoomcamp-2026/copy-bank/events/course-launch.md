@@ -1,10 +1,9 @@
-Webinar: ML Zoomcamp 2026, Course Launch
-Title: ML Zoomcamp 2026 Course Launch
-Date: Monday, 14 September 2026 - the day the course starts, 17:00-18:00 Europe/Berlin time.
+# ML Zoomcamp 2026 Course Launch
+
+- **Date:** Monday, 14 September 2026 - the day the course starts
+- **Time:** 17:00-18:00 Europe/Berlin
 
 The new cohort of [Machine Learning Zoomcamp 2026](https://courses.datatalks.club/register/ml-zoomcamp/) starts today.
-
-**When:** Monday, 14 September 2026, 17:00-18:00 Europe/Berlin time.
 
 In this launch session, course creator Alexey Grigorev will help you get oriented before the first videos, notebooks, homework, and project ideas start piling up. The goal is simple: leave the session knowing what to do first, what matters most, and how to avoid turning the course into a folder of unfinished notebooks.
 
@@ -24,7 +23,19 @@ There will also be time for live questions, so bring whatever is on your mind: p
 
 ML Zoomcamp is a free 4-month course for people who want to become practical machine learning engineers. You'll learn the full flow: prepare data, train models, evaluate them, deploy them, and package the work clearly enough that other people can run it.
 
-You should be comfortable with programming, the command line, Git, and Docker basics. You do not need previous machine learning experience, advanced math, cloud experience, or a degree.
+**You should be comfortable with:**
+
+- programming
+- the command line
+- Git
+- Docker basics
+
+**You don't need:**
+
+- previous machine learning experience
+- advanced math
+- cloud experience
+- a degree
 
 The cohort starts on 14 September 2026. If you haven't joined yet, you can [register here](https://courses.datatalks.club/register/ml-zoomcamp/).
 

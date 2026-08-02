@@ -1,6 +1,7 @@
-Webinar: MLOps Zoomcamp {{ year }}, Course Launch
-Title: MLOps Zoomcamp {{ year }} Course Launch
-Date: {{ day, month, year }} - the day the course starts, 17:00-18:00 Europe/Berlin time.
+# MLOps Zoomcamp {{ year }} Course Launch
+
+- **Date:** {{ day, month, year }} - the day the course starts
+- **Time:** 17:00-18:00 Europe/Berlin
 
 The new cohort of [MLOps Zoomcamp {{ year }}]({{ registration_url }}) starts today.
 
