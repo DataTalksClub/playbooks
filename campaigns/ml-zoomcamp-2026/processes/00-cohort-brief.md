@@ -101,7 +101,7 @@ Notes:
 
 - **Materials are reused from 2025, and homeworks are new.** 2025 was the big content refresh: FastAPI for deployment, PyTorch for neural networks, ONNX Runtime on AWS Lambda. Those materials stay. What changes for 2026 is the homework.
 - Copy angle: the content is current and proven, not stale, and returning learners get fresh homework. Do not promise a refreshed curriculum, because there is not one this year.
-- Because there is no big "what's new" curriculum story, the campaign leans on proof and outcomes. That makes the empty proof library a harder blocker than usual.
+- Because there is no big "what's new" curriculum story, the campaign leans on proof and outcomes. The 2025 numbers and project proof are now in `ml-zoomcamp/proof-library/`; testimonials are still empty and need a human pass.
 - New homeworks mean the questions cannot be copied from 2025. Each homework's questions are written from that module's `homework.md` when the module opens.
 - What else changed is logistics, not content:
   - Registration moved from Airtable to the platform registration page at `https://courses.datatalks.club/register/ml-zoomcamp/`.
