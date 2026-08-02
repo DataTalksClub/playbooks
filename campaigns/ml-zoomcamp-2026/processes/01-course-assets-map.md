@@ -43,6 +43,29 @@ Stock Markets Analytics has no website article, FAQ, or structured data. Creatin
 
 Hashtags are the `social_media_hashtag` values stored on the platform. MLOps is stored without the leading `#`; that is how it is on the platform today, not a typo in this table.
 
+## Subreddits
+
+Each course gets two Reddit posts: one a month before the start announcing the cohort, and one on the start day.
+
+| Course | Subreddit | Size | Confirmed |
+| --- | --- | --- | --- |
+| Machine Learning | `r/learnmachinelearning` | ~200k | Yes |
+| Data Engineering | `r/dataengineering` | — | Yes |
+| MLOps | `r/mlops` | — | **No, check first** |
+| LLM | `r/LLMDevs` | ~161k | Proposed |
+| AI Dev Tools | `r/ChatGPTCoding` | ~383k | Proposed |
+| Stock Markets Analytics | `r/algotrading` | ~1.9M | Proposed |
+
+Machine Learning and Data Engineering are settled. The rest are proposals picked on topic fit and size, not yet posted to.
+
+`r/mlops` needs checking before it is used: it exists, but one stats source reports it as quarantined, and a quarantined subreddit is a bad place to launch. If it is not usable, `r/MachineLearning` and `r/datascience` are the fallbacks.
+
+Before posting anywhere:
+
+- Read the subreddit's self-promotion rules. Several of these remove course launches posted as plain ads.
+- Rewrite for the community. Do not paste the launch tweet.
+- Check whether the subreddit wants a flair, and whether it has a dedicated thread for this kind of post.
+
 Note that AI Dev Tools drops `zoomcamp` from its platform slug. Confirm the slug against the previous cohort rather than assuming the pattern.
 
 The registration campaign slug carries no year and stays stable across cohorts. Only `current_course` is repointed each year.

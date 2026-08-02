@@ -48,6 +48,10 @@ Plan the following announcements and promotions in the campaign calendar:
 - [ ] Alexey Twitter/X
 - [ ] DTC Slack
 - [ ] YouTube community post, if used
+- [ ] Reddit post, one month before the start: the cohort is coming, registration is open — r/learnmachinelearning
+- [ ] Reddit post, on the start day: the cohort starts today — r/learnmachinelearning
+
+`01-course-assets-map.md` lists the subreddit for each course. Read the subreddit's self-promotion rules before posting, and write for that community rather than pasting launch copy.
 
 ## Outreach
 
