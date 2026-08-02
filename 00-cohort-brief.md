@@ -89,6 +89,7 @@ Default channels:
 - [ ] DTC Twitter/X
 - [ ] Alexey Twitter/X
 - [ ] DTC Slack
+- [ ] Reddit (two posts: one month before, and start day)
 - [ ] Website banner
 - [ ] Course article
 - [ ] Course landing page

@@ -406,6 +406,7 @@ If time is limited, use this minimal sequence:
 
 | Relative date | Post type |
 | --- | --- |
+| `T-30 days` | Reddit: cohort starts in a month |
 | `T-28 days` | Main registration announcement |
 | `T-24 days` | Who it is for / prerequisites |
 | `T-21 days` | Educational micro-lesson |
@@ -415,6 +416,7 @@ If time is limited, use this minimal sequence:
 | `T-7 days` | Final registration reminder |
 | `T-3 days` | Setup checklist |
 | `T+0 days` | Starts today |
+| `T+0 days` | Reddit: starts today |
 | `T+1 day` | Module 1 announcement |
 | `project start` | Project announcement |
 | `course end` | Completion milestone |
@@ -452,6 +454,7 @@ Use this library to generate a calendar. Each post should have one primary job.
 | Resource | Repo update, docs update, article update, FAQ update, recording, checklist, reading list, templates. |
 | Project | Project announcement, idea list, rubric, examples, deadline reminder, peer review, winner/results, gallery. |
 | Partner | Sponsor thanks, tool challenge, guest instructor, partner workshop, contributor call. |
+| Community post | Reddit cohort announcement, Reddit start-day post. Written for a community that is not our audience. |
 | Urgency | Starts soon, starts tomorrow, starts today, deadline approaching, registration closes, last call. |
 | Retention | Catch-up guide, troubleshooting, motivation, weekly rhythm, homework reminder. |
 | Wrap-up | Results, thank-you, lessons learned, certificate/project sharing, next-cohort teaser. |
@@ -467,6 +470,28 @@ Use this library to generate a calendar. Each post should have one primary job.
 | Slack/Telegram | Operational reminders, links, deadlines, troubleshooting, community prompts. |
 | YouTube/Live | Workshops, Q&A, launch stream, office hours, recording recaps. |
 | GitHub/Docs | Source of truth for curriculum, setup, homework, project, FAQ. |
+| Reddit | Two posts per cohort: one a month before the start, one on the start day. Reaches people outside our channels who are actively looking for a course. |
+
+### Reddit
+
+Reddit is the one channel where our own audience is not the audience, so it does not take the same copy as the rest.
+
+Cadence is fixed at two posts per cohort:
+
+| When | Job |
+| --- | --- |
+| One month before the start | Announce the cohort while readers still have time to plan. Lead with what the course covers. |
+| On the start day | Catch anyone who missed the first post. Late joiners can still start in week 1. |
+
+`01-course-assets-map.md` lists the subreddit for each course.
+
+Rules specific to this channel:
+
+- Read the subreddit's self-promotion rules first. Several remove course launches posted as plain ads, and some require a flair or route them to a weekly thread.
+- Write for that community. Do not paste the launch tweet or the LinkedIn post.
+- Lead with the curriculum and what a learner will build, not the brand.
+- Answer comments. On Reddit the comment thread is most of the value, and unanswered questions read as an ad.
+- Two posts is the ceiling, not a starting point. More reads as spam and risks the account.
 
 ## Quality Rules
 
