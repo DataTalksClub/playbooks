@@ -29,12 +29,12 @@ See `01-course-platform-setup.md` for the full process.
 
 Only run if selected in `00-cohort-brief.md`.
 
-Events start at 17:00 CET, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
+Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
 
 - [ ] Create pre-course workshop events
 - [ ] Create pre-course Q&A
 - [ ] Create launch stream
-- [ ] Add event links to `02-campaign-calendar.md`
+- [ ] Add event links to `02-campaign-calendar.csv`
 
 ## Promotion
 

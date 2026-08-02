@@ -18,23 +18,23 @@ See `01-course-platform-setup.md` for the full process.
 `01-course-assets-map.md` lists the exact file to edit for each item below, per course.
 
 - [x] Update course GitHub README — cohorts/2026/ added and linked, registration and platform links updated
-- [x] Update course article — registration links and dates updated on the website
+- [x] Update course article — registration links and dates updated on the website, plus the FAQ data and the schema.org course data
 - [x] Update all-courses article — ML registration button repointed
 - [ ] Update registration page — the marketing blurb and page description are still placeholder copy, and the video link is empty
 - [ ] Update website CTA banner
 - [ ] Update welcome email
-- [ ] Update course FAQ in the copy-bank
+- [ ] Update course FAQ in the copy-bank — `ml-zoomcamp/copy-bank/faq.md` is a 95-byte stub. Separate from the website FAQ, which is already done
 
 ## Events
 
 Only run if selected in `00-cohort-brief.md`.
 
-Events start at 17:00 CET, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
+Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
 
-- [ ] Create pre-course workshop events
-- [ ] Create pre-course Q&A
-- [ ] Create launch stream
-- [ ] Add event links to `02-campaign-calendar.md`
+- [ ] Create pre-course workshop events — not decided yet, see `00-cohort-brief.md`
+- [ ] Create pre-course Q&A — Tuesday 1 September 2026, 17:00-18:00 Europe/Berlin. Copy ready at `copy-bank/events/pre-course-live-qa.md`; the event page itself is not created
+- [ ] Create launch stream — Monday 14 September 2026, 17:00-18:00 Europe/Berlin. Copy ready at `copy-bank/events/course-launch.md`; the event page itself is not created
+- [ ] Add event links to `02-campaign-calendar.csv` — blocked until the events exist and have URLs
 
 ## Promotion
 

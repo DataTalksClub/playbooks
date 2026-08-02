@@ -17,7 +17,7 @@ Only run if selected in `00-cohort-brief.md`.
 - [ ] Create pre-course workshop events
 - [ ] Create pre-course Q&A
 - [ ] Create launch stream
-- [ ] Add event links to `02-campaign-calendar.md`
+- [ ] Add event links to `02-campaign-calendar.csv`
 
 ## Promotion
 

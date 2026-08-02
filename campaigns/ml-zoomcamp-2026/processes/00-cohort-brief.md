@@ -148,12 +148,12 @@ Decision notes:
 
 ## 6. Event Decisions
 
-Events start at 17:00 CET, on a Monday or sometimes a Tuesday.
+Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday.
 
 - Pre-course workshops: [Yes / No] + Number of workshops: [Number] + Topics: [List of topics]
 - Graduate podcast or interview stories: [Yes / No]
-- Pre-course Q&A: Yes — Tuesday 1 September 2026, 17:00 CET
-- Launch stream: Yes — Monday 14 September 2026, 17:00 CET (course start date)
+- Pre-course Q&A: Yes — Tuesday 1 September 2026, 17:00 Europe/Berlin
+- Launch stream: Yes — Monday 14 September 2026, 17:00 Europe/Berlin (course start date)
 
 Decision notes:
 
