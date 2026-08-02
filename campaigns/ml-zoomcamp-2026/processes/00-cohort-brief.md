@@ -142,14 +142,17 @@ Decision notes:
 
 ## 6. Event Decisions
 
+Events start at 17:00 CET, on a Monday or sometimes a Tuesday.
+
 - Pre-course workshops: [Yes / No] + Number of workshops: [Number] + Topics: [List of topics]
 - Graduate podcast or interview stories: [Yes / No]
-- Pre-course Q&A: Yes
-- Launch stream: Yes
+- Pre-course Q&A: Yes — Tuesday 1 September 2026, 17:00 CET
+- Launch stream: Yes — Monday 14 September 2026, 17:00 CET (course start date)
 
 Decision notes:
 
-- The 2025 cohort ran a pre-course Q&A and a launch stream with course overview. Both are worth repeating.
+- The 2025 cohort ran a pre-course Q&A and a launch stream with course overview. Both are repeated this year.
+- The Q&A is 13 days before the start, which puts it in the Decision phase of the campaign calendar with time left to register.
 
 ## 7. Owners and Approval
 

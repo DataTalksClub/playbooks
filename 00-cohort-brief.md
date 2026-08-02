@@ -119,10 +119,12 @@ Decision notes:
 
 ## 6. Event Decisions
 
+Events start at **17:00 CET**, on a Monday or sometimes a Tuesday. The launch stream is on the course start date, which is always a Monday.
+
 - Pre-course workshops: [Yes / No] + Number of workshops: [Number] + Topics: [List of topics]
 - Graduate podcast or interview stories: [Yes / No]
-- Pre-course Q&A: Yes
-- Launch stream: Yes
+- Pre-course Q&A: Yes — date:
+- Launch stream: Yes — date: course start date
 
 Decision notes:
 

@@ -15,6 +15,8 @@ See `01-course-platform-setup.md` for the full process.
 
 ## Asset updates
 
+`01-course-assets-map.md` lists the exact file to edit for each item below, per course.
+
 - [ ] Update course GitHub README
 - [ ] Update course article
 - [ ] Update all-courses article
@@ -26,6 +28,8 @@ See `01-course-platform-setup.md` for the full process.
 ## Events
 
 Only run if selected in `00-cohort-brief.md`.
+
+Events start at 17:00 CET, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
 
 - [ ] Create pre-course workshop events
 - [ ] Create pre-course Q&A
