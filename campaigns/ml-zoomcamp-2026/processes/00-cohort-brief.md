@@ -90,17 +90,23 @@ Note: the standard campaign calendar opens at T-12 weeks. This cohort is at T-6 
 
 ## 4. What Changed This Year?
 
-- Curriculum changed: Yes / No
-- Tools changed: Yes / No
-- GitHub README needs major rewrite: Yes / No
-- FAQ needs update: Yes / No
-- Welcome email needs update: Yes / No
+- Curriculum changed: No — the 2025 materials are reused
+- Tools changed: No
+- Homework changed: Yes — new homeworks this year
+- GitHub README needs major rewrite: No
+- FAQ needs update: Done — year-stamped questions rewritten
+- Welcome email needs update: Not yet checked
 
 Notes:
 
-- Registration moved from Airtable to the platform registration page at `https://courses.datatalks.club/register/ml-zoomcamp/`. Every asset that still points at the old Airtable form needs updating.
-- Deadlines are now on a single weekday. The 2025 cohort used mixed weekdays.
-- Three capstone slots in 2025 became two in 2026.
+- **Materials are reused from 2025, and homeworks are new.** 2025 was the big content refresh: FastAPI for deployment, PyTorch for neural networks, ONNX Runtime on AWS Lambda. Those materials stay. What changes for 2026 is the homework.
+- Copy angle: the content is current and proven, not stale, and returning learners get fresh homework. Do not promise a refreshed curriculum, because there is not one this year.
+- Because there is no big "what's new" curriculum story, the campaign leans on proof and outcomes. That makes the empty proof library a harder blocker than usual.
+- New homeworks mean the questions cannot be copied from 2025. Each homework's questions are written from that module's `homework.md` when the module opens.
+- What else changed is logistics, not content:
+  - Registration moved from Airtable to the platform registration page at `https://courses.datatalks.club/register/ml-zoomcamp/`.
+  - Deadlines are now all on Mondays. The 2025 cohort used mixed weekdays.
+  - Three capstone slots in 2025 became two in 2026.
 
 ## 5. Channel Decisions
 
@@ -175,7 +181,7 @@ This brief is complete when:
 - [ ] Registration target is set
 - [ ] Registration gap is calculated
 - [ ] Campaign intensity is selected
-- [ ] Changes from last year are listed
+- [x] Changes from last year are listed
 - [ ] Channels are selected
 - [ ] Events are selected
 - [ ] Owners are assigned
