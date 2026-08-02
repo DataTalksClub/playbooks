@@ -11,7 +11,7 @@ For a new cohort:
 1. Create or open a folder under `campaigns/`, for example `campaigns/ai-dev-tools-zoomcamp-2026/`.
 2. Copy the root process templates into `campaigns/<course>-<year>/processes/` if they are not already there.
 3. Fill `00-cohort-brief.md` with the course, dates, registration target, campaign intensity, channels, events, and owners.
-4. Use `01-course-platform-setup.md` to create the course, the registration campaign, and the course outline on `courses.datatalks.club`. Do this early: the registration link and the deadline schedule block most other launch tasks.
+4. Use `01-course-platform-setup.md` to create the cohort on `courses.datatalks.club` through the course management agent project. Do this early: the registration link and the deadline schedule block most other launch tasks.
 5. Use `01-launch-checklist.md` to track asset updates, events, promotion tasks, and outreach.
 6. Use `02-course-launch-social-system.md` to choose campaign phases, post types, cadence, CTAs, and channel adaptations.
 7. Fill `02-campaign-calendar.csv` with the planned announcement schedule. Replace placeholders such as `{{ course_name }}`, `{{ course_topic }}`, and registration links with cohort-specific values.
@@ -24,7 +24,7 @@ For a new cohort:
 | Path | Purpose |
 | --- | --- |
 | `00-cohort-brief.md` | Planning template for cohort basics, registration gap, channel decisions, event decisions, owners, and approval. |
-| `01-course-platform-setup.md` | Process for creating the course, the registration campaign, and the course outline of homework and project deadlines on the course platform. |
+| `01-course-platform-setup.md` | Process for creating the cohort on the course platform: the course record, the registration campaign, and the course outline of homework and project deadlines. Changes are made through the course management agent project. |
 | `01-launch-checklist.md` | Execution checklist for course platform setup, asset updates, events, promotion, and outreach. |
 | `02-course-launch-social-system.md` | Main social launch system: campaign phases, post types, cadence, channel adaptation, metrics, and reusable strategy. |
 | `02-campaign-calendar.csv` | Campaign calendar skeleton with relative timing, phase, platform, post type, CTA, needed assets, and status. |
@@ -116,7 +116,9 @@ Once the brief is complete, use `01-launch-checklist.md` to track execution. The
 
 ### Set Up the Course Platform
 
-Use `01-course-platform-setup.md`. It covers three things that must exist before the campaign can promote anything:
+Use `01-course-platform-setup.md`. Use the course management agent project (`~/git/course-management-agent`) to make the actual changes; the playbook covers the decisions.
+
+Three things must exist before the campaign can promote anything:
 
 - The course record on `courses.datatalks.club`, with the cohort slug, start date, and certificate settings.
 - The registration campaign, which owns the public registration page and produces the registration link used in every piece of launch copy.
