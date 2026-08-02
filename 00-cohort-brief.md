@@ -13,10 +13,7 @@ Cohort year:
 Start date:
 Registration link:
 
-Course platform slug:
-Registration campaign slug:
-Deadline weekday:
-Deadline time:
+Course platform URL:
 
 Current registrations:
 Target registrations:
@@ -29,6 +26,8 @@ Normal / Extra push
 ## 2. Course Outline
 
 The confirmed deadline schedule from `01-course-platform-setup.md`. Fill this in after the outline exists on the platform, and use it when filling the campaign calendar.
+
+Deadlines are always Monday at 23:00 UTC.
 
 | Item | Slug | Deadline | Notes |
 | --- | --- | --- | --- |

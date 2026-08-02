@@ -124,7 +124,7 @@ Three things must exist before the campaign can promote anything:
 - The registration campaign, which owns the public registration page and produces the registration link used in every piece of launch copy.
 - The course outline: homeworks and projects with their deadlines. Homeworks are created closed and empty; questions are added later, per module.
 
-Copy the previous cohort's outline and shift it rather than designing a new schedule. Keep the previous slugs and the previous deadline time-of-day. Record the confirmed schedule in the cohort brief, then use those dates when filling the campaign calendar.
+Copy the previous cohort's outline and shift it rather than designing a new schedule. Keep the previous homework and project slugs. Deadlines are always Monday at 23:00 UTC. Record the confirmed schedule in the cohort brief, then use those dates when filling the campaign calendar.
 
 ### Build the Campaign Calendar
 

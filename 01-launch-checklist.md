@@ -6,7 +6,7 @@ Run this first. The registration link and the deadline schedule block most other
 
 See `01-course-platform-setup.md` for the full process.
 
-- [ ] Confirm start date, deadline weekday, and deadline time
+- [ ] Confirm start date and project blocks (deadlines are always Monday 23:00 UTC)
 - [ ] Create the course on the platform
 - [ ] Create the registration campaign, or repoint the existing one to this cohort
 - [ ] Create the course outline: homeworks closed and empty, projects with both deadlines

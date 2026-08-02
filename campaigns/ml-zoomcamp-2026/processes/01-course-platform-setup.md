@@ -21,14 +21,14 @@ This playbook covers the decisions. The project covers the execution.
 
 ## 1. Decide the Schedule
 
-Before creating anything, fix these four values:
+Every deadline is **Monday at 23:00 UTC**, for homeworks and for both project deadlines. That is fixed, not a per-cohort decision: learners only have to remember one rule, and the leaderboard and scoring stay consistent across cohorts.
+
+That leaves two things to decide:
 
 - **Start date.** Zoomcamps start on a Monday.
-- **Deadline weekday.** Keep one weekday for every homework and project deadline so learners only have to remember one rule.
-- **Deadline time.** Reuse the previous cohort's time of day so the leaderboard and scoring behave the same way.
 - **Project blocks.** Where the midterm and capstone slots sit between the modules, and how many weeks each block gets.
 
-Start from the previous cohort's outline and shift it rather than designing a new schedule. Ask the project for last year's outline, then adjust: change the year, move every deadline onto the chosen weekday, and widen the gaps that fall across holidays. December and early January usually need more room.
+Start from the previous cohort's outline and shift it rather than designing a new schedule. Ask the project for last year's outline, then adjust: change the year, move every deadline onto a Monday, and widen the gaps that fall across holidays. December and early January usually need more room.
 
 Record the final schedule in the campaign's `00-cohort-brief.md` before anything is created.
 
@@ -66,7 +66,7 @@ Each homework is opened when its module goes live, not during setup.
 
 Ask the project to read the outline back, then confirm:
 
-- Every deadline falls on the intended weekday.
+- Every deadline falls on a Monday at 23:00 UTC.
 - Every homework is closed with no questions.
 - Every project has both deadlines.
 - No holiday week swallows a deadline.
@@ -83,12 +83,12 @@ Write the confirmed schedule into the campaign folder:
 ## Checklist
 
 - [ ] Previous cohort outline reviewed
-- [ ] Start date, deadline weekday, and deadline time confirmed
+- [ ] Start date and project blocks confirmed
 - [ ] Course created with the correct slug, dates, and certificate settings
 - [ ] Registration campaign created or repointed to the new course
 - [ ] Registration page loads and shows the right cohort
 - [ ] Homeworks created, closed, and empty
 - [ ] Projects created with both deadlines
-- [ ] Outline verified against the intended weekday and holiday weeks
+- [ ] Outline verified against Monday deadlines and holiday weeks
 - [ ] Registration page copy written, not left as placeholder
 - [ ] Schedule recorded in the cohort brief and campaign `course.yaml`

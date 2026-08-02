@@ -13,10 +13,7 @@ Cohort year: 2026
 Start date: Monday, September 14, 2026
 Registration link: https://courses.datatalks.club/register/ml-zoomcamp/
 
-Course platform slug: `ml-zoomcamp-2026`
-Registration campaign slug: `ml-zoomcamp`
-Deadline weekday: Monday
-Deadline time: 23:00 UTC
+Course platform URL: https://courses.datatalks.club/ml-zoomcamp-2026/
 
 Current registrations: 0 (as of August 2, 2026)
 Target registrations:
@@ -30,9 +27,7 @@ Normal / Extra push
 
 The confirmed deadline schedule from `01-course-platform-setup.md`. Fill this in after the outline exists on the platform, and use it when filling the campaign calendar.
 
-Course page: https://courses.datatalks.club/ml-zoomcamp-2026/
-
-All deadlines are Mondays at 23:00 UTC. Every homework is closed with no questions; questions are added per module before that module opens.
+Deadlines are always Monday at 23:00 UTC. Every homework is closed with no questions; questions are added per module before that module opens.
 
 | Item | Slug | Deadline | Notes |
 | --- | --- | --- | --- |
