@@ -13,6 +13,15 @@ See `01-course-platform-setup.md` for the full process.
 - [ ] Verify the outline and the registration page
 - [ ] Record the schedule in `00-cohort-brief.md` and the campaign `course.yaml`
 
+## Course repo cohort setup
+
+See `01-course-repo-cohort-setup.md` for the full process.
+
+- [ ] Create `cohorts/<year>/` with the cohort README and per-module homework folders
+- [ ] Archive any replaced or renamed module under `cohorts/<year-1>/`, keeping its old folder name
+- [ ] Link the archived module from the new one under "Previous Cohort Materials"
+- [ ] Re-solve carried-over homework against the current materials before opening it
+
 ## Asset updates
 
 `01-course-assets-map.md` lists the exact file to edit for each item below, per course.
