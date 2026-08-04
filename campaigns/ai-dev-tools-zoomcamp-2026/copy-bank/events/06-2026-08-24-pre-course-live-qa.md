@@ -37,7 +37,7 @@ The 2026 cohort updates five modules:
 - [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow?utm_source=luma)
 - [Module 2: Build and Ship an AI-Assisted Full-Stack App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end?utm_source=luma)
 - [Module 3: Test, Containerize, and Deploy an AI-Assisted App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-deployment?utm_source=luma)
-- [Module 4: Open-Source AI Tools for Security, Audit, and DevOps](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops?utm_source=luma)
+- [Module 4: DevOps and Observability for AI-Built Apps](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops?utm_source=luma)
 - [Module 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma)
 
 ## Is This Course for You?
