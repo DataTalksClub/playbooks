@@ -1,10 +1,11 @@
 # Build and Ship an AI-Assisted Full-Stack App
 
-- **Instructor:** Alexey Grigorev
+- **Type:** Workshop
 - **Date:** Monday, August 3, 2026
 - **Time:** 15:00 Europe/Berlin
-- **Location:** YouTube
-- **Registration:** https://luma.com/50kvfku2
+- **Instructor:** Alexey Grigorev
+- **Luma:** https://luma.com/50kvfku2
+- **Course:** AI Dev Tools Zoomcamp, Module 2
 
 ## About Event
 
@@ -18,18 +19,29 @@ You will see how AI can help with product planning, frontend and backend develop
 
 ## What You'll Learn
 
-- How to turn an app idea into a product spec
-- How to write acceptance criteria before building
-- How to work with AI on frontend implementation
-- How to define frontend/backend communication with an OpenAPI contract
-- How OpenAPI specs help keep AI-generated frontend and backend code aligned
-- How to build a FastAPI or Django backend with AI assistance
-- How to add database support without losing track of the data model
-- How to ask AI for unit and integration tests
-- How to debug when the generated app does not work on the first try
-- How to containerize the app with Docker
-- How to prepare a deployment and CI/CD workflow
-- How to make the development workflow reproducible for the final project
+*   How to turn an app idea into a product spec
+
+*   How to write acceptance criteria before building
+
+*   How to work with AI on frontend implementation
+
+*   How to define frontend/backend communication with an OpenAPI contract
+
+*   How OpenAPI specs help keep AI-generated frontend and backend code aligned
+
+*   How to build a FastAPI or Django backend with AI assistance
+
+*   How to add database support without losing track of the data model
+
+*   How to ask AI for unit and integration tests
+
+*   How to debug when the generated app does not work on the first try
+
+*   How to containerize the app with Docker
+
+*   How to prepare a deployment and CI/CD workflow
+
+*   How to make the development workflow reproducible for the final project
 
 By the end, you'll understand how AI tools fit into a real end-to-end application workflow, not just isolated code generation.
 
@@ -37,13 +49,17 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://luma.com/lmkti8zj)
-- [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
-- [Test, Containerize, and Deploy an AI-Assisted App]({{ workshop_3_luma_url }})
-- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
-- [Open-Source AI Tools for Security, Audit, and DevOps](https://luma.com/ycsfxigi)
-- [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
-- [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
+*   [How to Work with AI Coding Agents: Spec-Driven Development, Context and Loop Engineering, Workflows](https://luma.com/lmkti8zj)
+
+*   [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
+
+*   [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
+
+*   [Open-Source AI Tools for Security, Audit, and DevOps](https://luma.com/ycsfxigi)
+
+*   [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
+
+*   [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
 
 ## Thinking About Joining AI Dev Tools Zoomcamp?
 
@@ -55,7 +71,7 @@ The new cohort of AI Dev Tools Zoomcamp starts on August 31, 2026. You can join 
 
 ## About the Speaker
 
-Alexey Grigorev is the Founder of DataTalks.Club and creator of the Zoomcamp series.
+**Alexey Grigorev** is the Founder of DataTalks.Club and creator of the Zoomcamp series.
 
 Alexey is a software and ML engineer with over 10 years in engineering and 6+ years in machine learning. He has deployed large-scale ML systems at companies like OLX Group and Simplaex, authored several technical books, including Machine Learning Bookcamp, and is a Kaggle Master with a 1st place finish in the NIPS'17 Criteo Challenge.
 

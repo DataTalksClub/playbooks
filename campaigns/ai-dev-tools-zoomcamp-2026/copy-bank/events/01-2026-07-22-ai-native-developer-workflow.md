@@ -4,7 +4,9 @@
 - **Date:** Wednesday, July 22, 2026
 - **Time:** 09:00 Europe/Berlin
 - **Location:** YouTube
-- **Registration:** https://www.youtube.com/watch?v=VUJxJGpaDEs
+- **Registration:** https://luma.com/lmkti8zj
+- **Recording:** https://www.youtube.com/watch?v=VUJxJGpaDEs
+- **Published as:** How to Work with AI Coding Agents: Spec-Driven Development, Context and Loop Engineering, Workflows
 
 ## About Event
 
@@ -36,7 +38,7 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
+- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://luma.com/lmkti8zj)
 - [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
 - [Test, Containerize, and Deploy an AI-Assisted App]({{ workshop_3_luma_url }})
 - [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)

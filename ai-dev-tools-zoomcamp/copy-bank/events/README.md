@@ -13,6 +13,10 @@ Workshops are specific to a cohort and its syllabus, so the drafts live in the c
 
 Reuse them when the same module comes back: the structure, the "What You'll Learn" framing, and the series cross-links carry over even when the tools change.
 
+### 2025
+
+Copy from the 2025 cohort's events is archived in [`events-archive/ai-dev-tools-zoomcamp/`](../../../events-archive/ai-dev-tools-zoomcamp/), together with the vibe-coding, MCP, and n8n workshops that ran around it.
+
 ### 2026
 
 Pre-course series of five workshops, one per module, run between July 22 and August 18, 2026. Written by Alexey Grigorev except where noted.
@@ -26,3 +30,5 @@ Pre-course series of five workshops, one per module, run between July 22 and Aug
 | Open-Source AI Tools for Security, Audit, and DevOps | Aug 18, 2026 | 4 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/05-2026-08-18-open-source-ai-security-audit-devops.md) |
 
 The 2026 syllabus reordered the modules: deployment split out of the end-to-end module into Module 3, which pushed agent capabilities to Module 5. The workshops ran in date order, so workshop 4 covers Module 5 and workshop 5 covers Module 4.
+
+The published version of each event, scraped from its Luma page, is in [`events-archive/ai-dev-tools-zoomcamp/`](../../../events-archive/ai-dev-tools-zoomcamp/). The drafts above are what we wrote; the archive is what went out.
