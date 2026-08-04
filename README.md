@@ -155,6 +155,7 @@ Use `copy-bank/` for reusable copy:
 
 - Put event descriptions in `copy-bank/events/`, named so they sort by date: `NN-YYYY-MM-DD-slug.md` in a campaign folder, `NN-yyyy-mm-dd-slug.md` in a reusable course folder.
 - Keep recurring events in the reusable course folder: the launch session and the pre-course Q&A. Cohort-specific workshops belong in the campaign folder only.
+- Index past workshops from `copy-bank/events/README.md` in the course folder, so the drafts stay findable after the campaign folder goes quiet.
 - Name the person running an event the **Instructor**, not the host.
 - Put newsletter and module email copy in `copy-bank/email/`.
 - Put Telegram announcements in `copy-bank/telegram/`.
