@@ -1,6 +1,6 @@
 # Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
 
-- **Instructor:** {{ workshop_5_instructor }}
+- **Instructor:** Bhavani Ravi
 - **Date:** Monday, August 17, 2026
 - **Time:** 14:00 Europe/Berlin
 - **Location:** YouTube
@@ -12,7 +12,7 @@ This is the 5th workshop in our series to update the AI Dev Tools Zoomcamp conte
 
 This workshop updates [Module 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma).
 
-In this hands-on session, we will look at how modern coding agents are extended and customized.
+In this hands-on session, Bhavani Ravi will show how modern coding agents are extended and customized.
 
 You will see how agents use project instructions, MCP, reusable workflows, skills, commands, hooks, specialized subagents, plugins, extensions, and custom agent patterns.
 
@@ -55,8 +55,8 @@ The new cohort of AI Dev Tools Zoomcamp starts on August 31, 2026. You can join 
 
 ## About the Speaker
 
-Alexey Grigorev is the Founder of DataTalks.Club and creator of the Zoomcamp series.
+**Bhavani Ravi** runs [Flowexperts.ai](http://flowexperts.ai/?utm_source=luma), a consulting agency that helps companies adopt and build AI agents backed by data systems. She has a decade of experience building Backend systems and data platforms.
 
-Alexey is a software and ML engineer with over 10 years in engineering and 6+ years in machine learning. He has deployed large-scale ML systems at companies like OLX Group and Simplaex, authored several technical books, including Machine Learning Bookcamp, and is a Kaggle Master with a 1st place finish in the NIPS'17 Criteo Challenge.
+Bhavani is also an Apache Airflow Champion, international tech speaker, and LinkedIn Learning instructor. She loves teaching and explores that via corporate training under TheLearningDev. She has taught companies Python Backend, Langgraph, and MCP.
 
 [DataTalks.Club](http://datatalks.club/?utm_source=luma) is the place to talk about data. [Join our Slack community](https://datatalks.club/slack.html?utm_source=luma)!
