@@ -1,10 +1,10 @@
 # AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A
 
-- **Hosted by:** Alexey Grigorev
-- **Date:** {{ pre_course_qna_date }}
-- **Time:** {{ pre_course_qna_time }} Europe/Berlin
+- **Instructor:** Alexey Grigorev
+- **Date:** Monday, August 24, 2026
+- **Time:** 17:00 Europe/Berlin
 - **Location:** YouTube
-- **Registration:** {{ pre_course_qna_luma_url }}
+- **Registration:** https://luma.com/a8qa5s2s
 
 ## About Event
 
@@ -21,7 +21,7 @@ Alexey will walk through:
 - Who AI Dev Tools Zoomcamp is for
 - What you need before joining
 - What you do not need: prior AI tools experience, web development experience, a powerful machine, or a GPU
-- The four-module course structure
+- The five-module course structure
 - How lectures, homework, deadlines, leaderboard, peer review, and certificates work
 - How the final project works
 - How to choose tools without getting trapped in tool-hopping
@@ -32,12 +32,13 @@ You'll also hear practical advice on preparing your environment, choosing a firs
 
 ## Course Modules
 
-The 2026 cohort updates four modules:
+The 2026 cohort updates five modules:
 
-- [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview?utm_source=luma)
+- [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow?utm_source=luma)
 - [Module 2: Build and Ship an AI-Assisted Full-Stack App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end?utm_source=luma)
-- [Module 3: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp?utm_source=luma)
-- [Module 4: Open-Source AI Tools for Security, Audit, and DevOps](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-ai-security-audit-devops?utm_source=luma)
+- [Module 3: Test, Containerize, and Deploy an AI-Assisted App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-deployment?utm_source=luma)
+- [Module 4: Open-Source AI Tools for Security, Audit, and DevOps](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops?utm_source=luma)
+- [Module 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma)
 
 ## Is This Course for You?
 

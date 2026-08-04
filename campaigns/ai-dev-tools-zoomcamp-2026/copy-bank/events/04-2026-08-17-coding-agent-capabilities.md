@@ -1,18 +1,18 @@
 # Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
 
-- **Hosted by:** {{ workshop_3_host }} & Alexey Grigorev
-- **Date:** {{ workshop_3_date }}
-- **Time:** {{ workshop_3_time }} Europe/Berlin
+- **Instructor:** {{ workshop_4_instructor }}
+- **Date:** Monday, August 17, 2026
+- **Time:** 14:00 Europe/Berlin
 - **Location:** YouTube
-- **Registration:** {{ workshop_3_luma_url }}
+- **Registration:** https://luma.com/ap4l3qlj
 
 ## About Event
 
-This is the 3rd workshop in our series to update the AI Dev Tools Zoomcamp content.
+This is the 4th workshop in our series to update the AI Dev Tools Zoomcamp content.
 
-This workshop updates [Module 3: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp?utm_source=luma).
+This workshop updates [Module 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma).
 
-In this hands-on session, Alexey Grigorev will show how modern coding agents are extended and customized.
+In this hands-on session, we will look at how modern coding agents are extended and customized.
 
 You will see how agents use project instructions, MCP, reusable workflows, skills, commands, hooks, specialized subagents, plugins, extensions, and custom agent patterns.
 
@@ -37,16 +37,17 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control]({{ workshop_1_luma_url }})
-- [Build and Ship an AI-Assisted Full-Stack App]({{ workshop_2_luma_url }})
-- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents]({{ workshop_3_luma_url }})
-- [Open-Source AI Tools for Security, Audit, and DevOps]({{ workshop_4_luma_url }})
-- [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A]({{ pre_course_qna_luma_url }})
-- [AI Dev Tools Zoomcamp 2026 Course Launch]({{ launch_stream_luma_url }})
+- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
+- [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
+- [Test, Containerize, and Deploy an AI-Assisted App]({{ workshop_3_luma_url }})
+- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
+- [Open-Source AI Tools for Security, Audit, and DevOps](https://luma.com/ycsfxigi)
+- [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
+- [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
 
 ## Thinking About Joining AI Dev Tools Zoomcamp?
 
-This workshop covers the updated content for [Module 3](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp?utm_source=luma) of [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp?utm_source=luma), our free course on using AI tools in practical software development workflows.
+This workshop covers the updated content for [Module 5](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma) of [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp?utm_source=luma), our free course on using AI tools in practical software development workflows.
 
 The course covers AI-assisted planning, coding, review, testing, coding agent capabilities, MCP, skills, plugins, security, audit, DevOps, and a complete final project.
 

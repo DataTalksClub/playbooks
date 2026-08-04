@@ -102,7 +102,7 @@ Decision notes:
 
 ## 5. Event Decisions
 
-- Pre-course workshops: Yes (All 4 modules)
+- Pre-course workshops: Yes (all 5 modules)
 - Graduate podcast or interview stories: [Yes / No]
 - Pre-course Q&A: Yes
 - Launch stream: Yes
