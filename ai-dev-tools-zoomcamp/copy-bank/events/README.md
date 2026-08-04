@@ -26,9 +26,9 @@ Pre-course series of five workshops, one per module, run between July 22 and Aug
 | AI-Native Developer Workflow | Jul 22, 2026 | 1 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md) |
 | Build and Ship an AI-Assisted Full-Stack App | Aug 3, 2026 | 2 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/02-2026-08-03-build-and-ship-ai-assisted-full-stack-app.md) |
 | Test, Containerize, and Deploy an AI-Assisted App | Aug 10, 2026 | 3 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/03-2026-08-10-test-containerize-deploy.md) |
-| Coding Agent Capabilities | Aug 17, 2026 | 5 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/04-2026-08-17-coding-agent-capabilities.md) |
-| Open-Source AI Tools for Security, Audit, and DevOps | Aug 18, 2026 | 4 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/05-2026-08-18-open-source-ai-security-audit-devops.md) |
+| Open-Source AI Tools for Security, Audit, and DevOps | Aug 18, 2026 | 4 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/04-2026-08-18-open-source-ai-security-audit-devops.md) |
+| Coding Agent Capabilities | Aug 17, 2026 | 5 | [Draft](../../../campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/05-2026-08-17-coding-agent-capabilities.md) |
 
-The 2026 syllabus reordered the modules: deployment split out of the end-to-end module into Module 3, which pushed agent capabilities to Module 5. The workshops ran in date order, so workshop 4 covers Module 5 and workshop 5 covers Module 4.
+The 2026 syllabus reordered the modules: deployment split out of the end-to-end module into Module 3, which pushed agent capabilities to Module 5. Workshops are numbered by module, so workshop 4 (Module 4) ran on August 18, a day after workshop 5 (Module 5).
 
 The published version of each event, scraped from its Luma page, is in [`events-archive/ai-dev-tools-zoomcamp/`](../../../events-archive/ai-dev-tools-zoomcamp/). The drafts above are what we wrote; the archive is what went out.

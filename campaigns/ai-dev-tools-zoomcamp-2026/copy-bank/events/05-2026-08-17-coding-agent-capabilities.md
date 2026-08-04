@@ -1,6 +1,6 @@
 # Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents
 
-- **Instructor:** {{ workshop_4_instructor }}
+- **Instructor:** {{ workshop_5_instructor }}
 - **Date:** Monday, August 17, 2026
 - **Time:** 14:00 Europe/Berlin
 - **Location:** YouTube
@@ -8,7 +8,7 @@
 
 ## About Event
 
-This is the 4th workshop in our series to update the AI Dev Tools Zoomcamp content.
+This is the 5th workshop in our series to update the AI Dev Tools Zoomcamp content.
 
 This workshop updates [Module 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma).
 
@@ -37,11 +37,11 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://luma.com/lmkti8zj)
-- [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
+- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
+- [Build and Ship an AI-Assisted Full-Stack App](https://www.youtube.com/watch?v=x9dq5nBpDg8)
 - [Test, Containerize, and Deploy an AI-Assisted App]({{ workshop_3_luma_url }})
-- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [Open-Source AI Tools for Security, Audit, and DevOps](https://luma.com/ycsfxigi)
+- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
 - [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
 

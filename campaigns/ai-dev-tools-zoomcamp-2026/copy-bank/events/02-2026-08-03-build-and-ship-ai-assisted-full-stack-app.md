@@ -5,6 +5,7 @@
 - **Time:** 15:00 Europe/Berlin
 - **Location:** YouTube
 - **Registration:** https://luma.com/50kvfku2
+- **Recording:** https://www.youtube.com/watch?v=x9dq5nBpDg8
 
 ## About Event
 
@@ -37,11 +38,11 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://luma.com/lmkti8zj)
-- [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
+- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
+- [Build and Ship an AI-Assisted Full-Stack App](https://www.youtube.com/watch?v=x9dq5nBpDg8)
 - [Test, Containerize, and Deploy an AI-Assisted App]({{ workshop_3_luma_url }})
-- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [Open-Source AI Tools for Security, Audit, and DevOps](https://luma.com/ycsfxigi)
+- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
 - [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
 
