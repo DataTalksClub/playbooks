@@ -42,7 +42,7 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 - [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
 - [Build and Ship an AI-Assisted Full-Stack App](https://www.youtube.com/watch?v=x9dq5nBpDg8)
-- [Test, Containerize, and Deploy an AI-Assisted App]({{ workshop_3_luma_url }})
+- [Test, Containerize, and Deploy an AI-Assisted App](https://luma.com/v5tjy562)
 - [DevOps and Observability for AI-Built Apps](https://luma.com/ycsfxigi)
 - [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
