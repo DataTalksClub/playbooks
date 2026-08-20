@@ -24,7 +24,7 @@ Only run if selected in `00-cohort-brief.md`.
 Plan the following announcements and promotions in the campaign calendar:
 
 - [ ] DTC newsletter
-- [ ] Alexey newsletter (Alexey on Data)
+- [ ] Alexey newsletter (AI Shipping Blog)
 - [ ] DTC LinkedIn
 - [ ] DTC Twitter/X
 - [ ] Alexey LinkedIn

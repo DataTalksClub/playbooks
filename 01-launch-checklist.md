@@ -50,7 +50,7 @@ Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday. The lau
 Plan the following announcements and promotions in the campaign calendar:
 
 - [ ] DTC newsletter
-- [ ] Alexey newsletter (Alexey on Data)
+- [ ] Alexey newsletter (AI Shipping Blog)
 - [ ] DTC LinkedIn
 - [ ] DTC Twitter/X
 - [ ] Alexey LinkedIn

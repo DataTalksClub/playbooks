@@ -1,6 +1,6 @@
 # Newsletter Announcement Blocks
 
-Use these blocks inside the DataTalks.Club newsletter or Alexey on Data when the course needs a compact owned-channel announcement.
+Use these blocks inside the DataTalks.Club newsletter or AI Shipping Blog when the course needs a compact owned-channel announcement.
 
 ## Early Registration Block
 
