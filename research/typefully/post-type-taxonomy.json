@@ -1,0 +1,133 @@
+{
+  "source": "research/typefully/typefully-examples.json",
+  "analyzed_posts": 216,
+  "classification_model": {
+    "primary_type": "Main reason the post exists",
+    "course_phase": [
+      "interest_validation",
+      "pre_launch",
+      "launch",
+      "active_cohort",
+      "project_phase",
+      "wrap_up",
+      "evergreen"
+    ],
+    "modifiers": [
+      "urgency",
+      "proof",
+      "event",
+      "resource",
+      "community",
+      "partner",
+      "technical_depth",
+      "course_logistics"
+    ]
+  },
+  "post_types": [
+    {
+      "id": "course_launch",
+      "name": "Course Launch Announcement",
+      "phase": ["pre_launch", "launch"],
+      "purpose": "Open or promote a cohort with date, promise, outcomes, and registration CTA.",
+      "examples": ["8960565", "6918323", "5695158"]
+    },
+    {
+      "id": "interest_validation",
+      "name": "Interest Validation / Coming Soon",
+      "phase": ["interest_validation", "pre_launch"],
+      "purpose": "Test demand, announce that a course will happen, or collect early signups.",
+      "examples": ["5695158", "6814599", "7147871"]
+    },
+    {
+      "id": "course_positioning_faq",
+      "name": "Course Positioning / FAQ Answer",
+      "phase": ["pre_launch", "launch", "evergreen"],
+      "purpose": "Answer learner objections about fit, prerequisites, practicality, and logistics.",
+      "examples": ["7147871", "7228631", "7482218"]
+    },
+    {
+      "id": "module_announcement",
+      "name": "Module / Week Announcement",
+      "phase": ["active_cohort"],
+      "purpose": "Tell learners what starts this week and what they will build or study.",
+      "examples": ["9549329", "8111970", "8048693"]
+    },
+    {
+      "id": "educational_micro_lesson",
+      "name": "Educational Micro-Lesson",
+      "phase": ["pre_launch", "active_cohort", "evergreen"],
+      "purpose": "Teach one course-relevant concept and softly connect it to course materials.",
+      "examples": ["9333232", "9164504", "9341648", "9333135"]
+    },
+    {
+      "id": "opinion_principle",
+      "name": "Opinion / Principle",
+      "phase": ["pre_launch", "active_cohort", "evergreen"],
+      "purpose": "State a course philosophy or counterintuitive technical stance.",
+      "examples": ["9333232", "9176590", "8802566"]
+    },
+    {
+      "id": "live_event_workshop",
+      "name": "Live Event / Workshop",
+      "phase": ["pre_launch", "launch", "active_cohort"],
+      "purpose": "Promote a live session, Q&A, office hour, or workshop connected to the course.",
+      "examples": ["9328336", "9174752", "9047907"]
+    },
+    {
+      "id": "resource_update",
+      "name": "Resource / Materials Update",
+      "phase": ["pre_launch", "active_cohort", "evergreen"],
+      "purpose": "Announce or explain a repo, README, article, list, recording, or docs update.",
+      "examples": ["9709998", "6814872", "7482218"]
+    },
+    {
+      "id": "social_proof",
+      "name": "Social Proof / Testimonial",
+      "phase": ["pre_launch", "launch", "wrap_up", "evergreen"],
+      "purpose": "Use learner stories, rankings, metrics, or reviews to prove value.",
+      "examples": ["8802681", "8518298", "8986489", "7314383"]
+    },
+    {
+      "id": "project_challenge",
+      "name": "Project / Challenge / Competition",
+      "phase": ["project_phase", "active_cohort"],
+      "purpose": "Ask learners to build, submit, compete, share, or complete a project.",
+      "examples": ["8388879", "8115013", "7229150"]
+    },
+    {
+      "id": "partner_sponsor_instructor",
+      "name": "Partner / Sponsor / Instructor Call",
+      "phase": ["pre_launch", "active_cohort", "wrap_up"],
+      "purpose": "Feature a sponsor, partner workshop, guest instructor, or contributor need.",
+      "examples": ["9159711", "8388879", "6825728"]
+    },
+    {
+      "id": "milestone_results",
+      "name": "Milestone / Wrap-Up / Results",
+      "phase": ["active_cohort", "wrap_up"],
+      "purpose": "Mark cohort progress, completion, certificates, competition results, stars, or growth.",
+      "examples": ["9159705", "8913769", "7482340"]
+    },
+    {
+      "id": "career_audience_framing",
+      "name": "Career / Audience Framing",
+      "phase": ["pre_launch", "launch", "evergreen"],
+      "purpose": "Connect the course to learner backgrounds, role transitions, or job-market context.",
+      "examples": ["7650176", "7800561", "6951674"]
+    },
+    {
+      "id": "community_learning_public",
+      "name": "Community / Learning In Public",
+      "phase": ["active_cohort", "project_phase", "evergreen"],
+      "purpose": "Encourage sharing, asking questions, peer review, Slack participation, or public progress.",
+      "examples": ["8519005", "7800221", "6919241"]
+    },
+    {
+      "id": "companion_offer_support_layer",
+      "name": "Companion Offer / Support Layer",
+      "phase": ["pre_launch", "launch", "active_cohort"],
+      "purpose": "Explain optional paid or high-touch support while preserving the free course promise.",
+      "examples": ["9531386", "9482899", "9435750"]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+course:
+  name: "AI Dev Tools Zoomcamp"
+  slug: "ai-dev-tools-zoomcamp"
+  short_name: "AI Dev Tools Zoomcamp"
+  status: "active"
+  description: "Free hands-on course on using AI coding tools to write better code, faster."
+  primary_goal: "Help learners use AI assistants, agents, MCP, testing, CI/CD, and automation in disciplined software development workflows."
+  format:
+    - "self-paced"
+    - "live cohort"
+  cost: "free"
+  current_docs_status: "first cohort ran in November 2025; 2026 cohort starts August 31, 2026"
+
+urls:
+  github: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp"
+  course_article: "https://datatalks.club/blog/ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation.html"
+  landing_page: "-"
+  registration: "https://courses.datatalks.club/register/ai-dev-tools/"
+  course_platform: "https://courses.datatalks.club/ai-dev-tools-2026/"
+  previous_cohort_platform: "https://courses.datatalks.club/ai-dev-tools-2025/"
+  youtube_playlist: "https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43"
+  slack_channel: "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95"
+  slack_invite: "https://datatalks.club/slack.html"
+  telegram_channel: "https://t.me/aidevtoolszoomcamp"
+  documentation: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/"
+  logistics_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/"
+  certification_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/certification/"
+  project_docs: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/"
+  curriculum_docs: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/curriculum/"
+  environment_docs: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/"
+  faq: "https://datatalks.club/faq/ai-dev-tools-zoomcamp.html"
+  question_guidelines: "https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/"
+  community_guidelines: "https://datatalks.club/slack/guidelines.html"
+  learning_in_public: "https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/"
+  projects: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/project"
+  module_1_examples:
+    chatgpt_snake: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview/snake-chatgpt"
+    claude_code_snake: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview/snake-claude-code"
+  module_2_reference_app: "https://github.com/alexeygrigorev/snake-arena-online"
+  module_3_demo_repo: "https://github.com/thelearningdev/mcp-ai-dev-workflow"
+  module_6_workshop: "https://github.com/moeinforoughi/n8n_base"
+
+cohort_cadence:
+  first_cohort:
+    year: 2025
+    start: "November 18, 2025"
+    status: "completed"
+  next_live_cohort:
+    year: 2026
+    start_date: "2026-08-31"
+    start: "August 31, 2026"
+    registration_status: "open"
+  live_cohort_note: "Lectures are pre-recorded; live cohort means shared deadlines, scored homework, leaderboard, peer review, and certificate eligibility."
+
+delivery:
+  lectures: "pre-recorded"
+  live_sessions: "Q&A and updates announced separately"
+  homework:
+    live_cohort: "graded"
+    self_paced: "available but not scored"
+    certificate_requirement: "not required for certificate"
+  submissions_platform: "courses.datatalks.club"
+  certificate_available:
+    live_cohort: true
+    self_paced: false
+
+level:
+  label: "Beginner-friendly for programmers"
+  notes: "Approachable for anyone who writes code; the focus is software development workflows, not AI model building."
+
+prerequisites:
+  required:
+    - "Basic ability to program in Python, JavaScript, or a similar language"
+    - "Comfort with the command line"
+    - "Git and GitHub basics"
+  recommended:
+    - "Willingness to read, review, debug, and maintain AI-generated code"
+    - "Familiarity with a code editor such as VS Code, Cursor, or a similar IDE"
+  not_required:
+    - "Prior AI tools experience"
+    - "Prior experience with coding assistants or agents"
+    - "Web development experience"
+    - "Django experience"
+    - "A powerful machine or GPU"
+
+audience:
+  primary:
+    - "software developers"
+    - "ML engineers"
+    - "MLOps engineers"
+    - "AI engineers"
+    - "data scientists"
+    - "analysts who write code"
+  secondary:
+    - "career switchers with programming basics"
+    - "technical professionals who want faster prototyping workflows"
+    - "developers evaluating AI coding tools for day-to-day engineering"
+  not_the_focus:
+    - "Building LLM applications with RAG, LangChain, vector databases, or reranking"
+    - "Training or fine-tuning AI models"
+    - "Data-specific analytics workflows"
+
+time_commitment:
+  weekly_estimate: "not explicitly published"
+  notes:
+    - "Expect hands-on time for coding, debugging, testing, and project work."
+    - "Free tiers can have quota limits, so learners may need to switch tools or wait."
+
+topics:
+  - "AI-assisted software development"
+  - "vibe coding"
+  - "coding assistants"
+  - "AI IDEs"
+  - "project bootstrapping"
+  - "coding agents"
+  - "Model Context Protocol"
+  - "MCP servers and clients"
+  - "OpenAPI-driven development"
+  - "frontend/backend integration"
+  - "automated testing"
+  - "CI/CD"
+  - "AI-assisted pull request review"
+  - "LLM evaluation in CI"
+  - "deployment"
+  - "low-code automation"
+  - "no-code automation"
+
+tools:
+  - "ChatGPT"
+  - "Claude"
+  - "Gemini"
+  - "DeepSeek"
+  - "Groq"
+  - "Microsoft Copilot"
+  - "Claude Code"
+  - "GitHub Copilot"
+  - "Cursor"
+  - "Pear"
+  - "OpenAI Codex"
+  - "Gemini CLI"
+  - "Antigravity"
+  - "Bolt"
+  - "Lovable"
+  - "Anthropic Computer Use"
+  - "PR Agent"
+  - "CodeRabbit"
+  - "Model Context Protocol"
+  - "MCP Inspector"
+  - "Context7"
+  - "VS Code"
+  - "GitHub Codespaces"
+  - "GitHub CLI"
+  - "GitHub Actions"
+  - "React"
+  - "TypeScript"
+  - "JavaScript"
+  - "Node.js"
+  - "OpenAPI"
+  - "FastAPI"
+  - "Python"
+  - "uv"
+  - "SQLAlchemy"
+  - "SQLite"
+  - "Postgres"
+  - "Docker"
+  - "Docker Compose"
+  - "Render"
+  - "Django"
+  - "Jupyter Notebook"
+  - "OpenAI Responses API"
+  - "ToyAIKit"
+  - "OpenAI Agents SDK"
+  - "PydanticAI"
+  - "Z.ai"
+  - "n8n"
+  - "Hashnode"
+  - "Notion"
+  - "Evidently"
+  - "Deepchecks"
+
+modules:
+  - number: 1
+    title: "Introduction to Vibe Coding / AI Tools Overview"
+    source_path: "01-overview/"
+    project_example: "Snake game"
+    highlights:
+      - "AI-assisted development with a Snake game example"
+      - "Chat applications for exploration and prototyping"
+      - "Coding assistants and IDE integrations"
+      - "Project bootstrappers"
+      - "Agents that read/write files, run commands, and automate workflows"
+      - "Tool comparison: ChatGPT, Claude, DeepSeek, Microsoft Copilot, Claude Code, GitHub Copilot, Cursor, Pear, Bolt, Lovable, Anthropic Computer Use, PR Agent"
+  - number: 2
+    title: "End-to-End Project (Snake)"
+    source_path: "02-end-to-end/"
+    project_example: "Snake Arena Online"
+    highlights:
+      - "Build frontend with Lovable, React, and tests"
+      - "Use GitHub Codespaces with Antigravity, Cursor, Copilot, Codex, or local tools"
+      - "Extract OpenAPI specs from frontend needs"
+      - "Generate a FastAPI backend from OpenAPI specs"
+      - "Use AGENTS.md to guide AI agents"
+      - "Integrate frontend and backend"
+      - "Add database support with SQLAlchemy, SQLite, and Postgres"
+      - "Add unit and integration tests"
+      - "Containerize with Docker Compose"
+      - "Deploy a single-container app to Render"
+      - "Create CI/CD with GitHub Actions for tests and deployment"
+  - number: 3
+    title: "Model-Context Protocol"
+    source_path: "03-mcp/"
+    highlights:
+      - "Understand MCP clients, servers, tools, resources, and prompts"
+      - "Compare stdio and HTTPS communication modes"
+      - "Run a Python MCP server and call tools with JSON-RPC"
+      - "Use MCP Inspector"
+      - "Configure MCP clients including VS Code, Codex, Cursor, and Antigravity"
+      - "Use Context7 for live documentation and debugging"
+      - "Try developer workflows such as repo triage, PR summarization, scripted edits, data queries, and publishing posts"
+      - "Discuss local vs. remote servers, security, and permissions"
+  - number: 4
+    title: "Build an AI Coding Agent (Django)"
+    source_path: "04-build-coding-agent/"
+    highlights:
+      - "Build a coding agent that scaffolds and extends projects"
+      - "Use a Django template as the base project"
+      - "Review OpenAI Responses API and function calling"
+      - "Define tools for file reading/writing, command execution, search, and file tree inspection"
+      - "Create a developer prompt for the Django project"
+      - "Run an agent with ToyAIKit"
+      - "Explore OpenAI Agents SDK, PydanticAI, and Z.ai"
+      - "Outcome: a Django app created and modified by an AI agent"
+    module_prerequisites:
+      - "Python 3.8+"
+      - "Jupyter Notebook"
+      - "OpenAI API key"
+      - "Anthropic API key optional"
+      - "GitHub account optional for Codespaces"
+  - number: 5
+    title: "AI for Testing, CI/CD and DevOps"
+    source_path: "05-cicd-devops/"
+    highlights:
+      - "AI-assisted PR reviews and summaries"
+      - "Change-risk hints"
+      - "Automated test generation"
+      - "Coverage gates"
+      - "LLM evals and regression checks in CI"
+      - "Release notes and changelog drafting"
+      - "Deployment runbooks"
+      - "Incident postmortems and on-call copilots"
+      - "Secure AI usage: secrets, data redaction, OSS policy, artifact retention, and audit"
+    deliverable: "A repository with CI that auto-summarizes PRs, generates draft tests, and composes release notes on tag."
+  - number: 6
+    title: "Automation with Low-Code and No-Code AI (n8n)"
+    source_path: "06-automation-lowcode/"
+    highlights:
+      - "Install n8n"
+      - "Build low-code/no-code AI workflows"
+      - "Create posts for LinkedIn"
+      - "Tailor a CV for a specific position"
+
+outcomes:
+  main_outcome: "Use AI coding tools in real development workflows without giving up engineering discipline."
+  portfolio_outcome: "A complete deployed application that demonstrates AI-assisted development, API design, testing, containerization, deployment, and CI/CD."
+  certificate_rule_summary: "Certificate available during a live cohort after passing the final project and completing 3 peer reviews."
+
+projects:
+  slots:
+    - "attempt 1"
+    - "attempt 2"
+  certificate_requirement:
+    required_projects_count: 1
+    peer_reviews_required: 3
+    note: "Skipping required peer reviews fails the project."
+  project_goal: "Build a complete application of your own, end to end, using AI tools."
+  project_expectations:
+    - "Choose a problem that interests you"
+    - "Describe the problem and expected system functionality"
+    - "Create a frontend"
+    - "Create a backend"
+    - "Describe frontend/backend communication with OpenAPI specs"
+    - "Use any order: frontend first, specs first, or backend first"
+    - "Use any tech stack; Python or Django are not required"
+    - "A typical project has a frontend, backend, database, and a public deployment"
+    - "Document how AI tools, prompts, workflows, AGENTS.md, or MCP were used"
+    - "Test the application thoroughly"
+    - "Containerize the application"
+    - "Deploy the application so others can try it"
+  optional_project_elements:
+    - "machine learning component"
+    - "MCP server or MCP-based workflow"
+    - "CI/CD deployment automation"
+  deliverables:
+    - "README.md with problem description, system functionality, setup, run, test, and deployment instructions"
+    - "Frontend implementation with centralized backend communication"
+    - "OpenAPI specification that reflects frontend requirements"
+    - "Backend implementation that follows the OpenAPI contract"
+    - "Database or persistent storage"
+    - "Unit and/or integration tests"
+    - "Dockerfile or docker-compose setup"
+    - "Deployment URL or clear proof of deployment"
+    - "CI/CD pipeline where possible"
+  rubric:
+    total_max_points: 26
+    criteria:
+      - "problem description"
+      - "AI system development: tools, workflow, MCP"
+      - "technologies and system architecture"
+      - "front-end implementation"
+      - "API contract / OpenAPI specifications"
+      - "back-end implementation"
+      - "database integration"
+      - "containerization"
+      - "integration testing"
+      - "deployment"
+      - "CI/CD pipeline"
+      - "reproducibility"
+
+live_cohort_benefits:
+  - "deadlines"
+  - "graded homework"
+  - "leaderboard"
+  - "peer review"
+  - "certificate eligibility"
+
+self_paced_benefits:
+  - "start anytime"
+  - "use open course materials"
+  - "learn without graded homework or certificate path"
+
+community:
+  primary_support_channel: "DataTalks.Club Slack #course-ai-dev-tools-zoomcamp"
+  announcements_channel: "Telegram"
+  learning_in_public_hashtag: "#aidevtools"
+  support_expectations:
+    - "Use the course Slack channel for discussions and troubleshooting"
+    - "Follow the course question guidelines"
+    - "Review the community guidelines"
+    - "Share progress publicly and tag Alexey Grigorev or DataTalksClub for learning-in-public points during live cohorts"
+
+people:
+  instructors:
+    - name: "Alexey Grigorev"
+      url: "https://linkedin.com/in/agrigorev"
+    - name: "Bhavani Ravi"
+      url: "https://www.linkedin.com/in/bhavanicodes"
+    - name: "Moein Foroughi"
+      url: "https://www.linkedin.com/in/moein-foroughi-ce/"
+
+proof_assets:
+  github_stars: "1.1k"
+  github_forks: "190"
+  repository_activity: "54 commits"
+  testimonials:
+    - "Yann Pham-Van"
+    - "Revathy Ramalingam"
+    - "Kaiquan Mah"
+  example_projects_from_testimonials:
+    - "portfolio optimization tool powered by AI-assisted development"
+    - "full-stack application using ChatGPT, Lovable, and Antigravity"
+    - "Finnish learning website using Antigravity, Gemini, Claude, Context7 MCP, TypeScript, Python, Next.js, FastAPI, SQLite, and GitHub Actions"
+
+research_metadata:
+  researched_on: "2026-07-06"
+  source_repo_commit:
+    sha: "32fa4101a0d2bd284b6c56077946df9157d0f7a7"
+    date: "2026-07-04"
+    message: "Antigravity MCP server setup process (#8)"
+  notes:
+    - "The DataTalks docs page still says the 2026 date is TBA, but the current GitHub README and cohorts/2026 README list August 31, 2026."
+    - "The course is explicitly about AI dev tools and developer productivity, not LLM application engineering topics such as RAG."
+  sources:
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-build-coding-agent"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-cicd-devops"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/06-automation-lowcode"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/project"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/cohorts/2026"
+    - "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/"
+    - "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/prerequisites/"
+    - "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/curriculum/"
+    - "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/"
+    - "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/"
+    - "https://datatalks.club/faq/ai-dev-tools-zoomcamp.html"
+    - "https://courses.datatalks.club/"

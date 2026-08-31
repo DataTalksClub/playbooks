@@ -1,9 +1,11 @@
 ---
 name: social-content-studio
-description: Create, critique, revise, and save structured social media post artifacts for Alexey and related DataTalksClub/course content. Use when drafting LinkedIn/X/social posts, adapting source material into posts, reviewing copy for Alexey's audience and voice, preparing course/community/event announcements, turning transcript or video ideas into post files, or producing machine-readable records for later scheduling, clipping, API publishing, or file-based editing.
+description: Create, critique, revise, and save structured social media post artifacts for Alexey. Use when drafting LinkedIn/X posts in Alexey's voice, adapting source material into Alexey-style posts, reviewing copy for Alexey's audience, preparing Alexey course/community announcements, turning transcript or video ideas into post files, or producing machine-readable records for later scheduling, clipping, API publishing, or file-based editing. Do not use for posts published by DataTalks.Club as an organization.
 ---
 
 # Social Content Studio
+
+This skill is for Alexey's accounts. DataTalks.Club may be the subject of his post, but that does not make it a DataTalks.Club account post. Use `$datatalks-event-promotion` for copy published in DataTalks.Club's organizational voice.
 
 ## Core Workflow
 

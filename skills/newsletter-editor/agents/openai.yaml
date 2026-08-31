@@ -1,0 +1,4 @@
+interface:
+  display_name: "Newsletter Editor"
+  short_description: "Edit Alexey on Data newsletter drafts"
+  default_prompt: "Use $newsletter-editor to edit this Alexey on Data newsletter draft in Alexey's voice."

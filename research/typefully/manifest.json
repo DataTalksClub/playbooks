@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-07-06T17:36:51.396785+00:00",
+  "source": "typefully",
+  "raw_path": null,
+  "filtered_json_path": "research/typefully/typefully-examples.json",
+  "filtered_csv_path": "research/typefully/typefully-examples.csv",
+  "filtered_markdown_path": "research/typefully/typefully-examples.md",
+  "terms": [
+    "zoomcamp",
+    "free course"
+  ],
+  "downloaded_items": 557,
+  "matches": 216
+}

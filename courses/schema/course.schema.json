@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://datatalks.club/schemas/course.schema.json",
+  "title": "DataTalks.Club course reference",
+  "description": "Canonical structure for reusable course reference files in courses/<course>/course.yaml.",
+  "type": "object",
+  "required": [
+    "course",
+    "urls",
+    "cohort_cadence",
+    "delivery",
+    "level",
+    "prerequisites",
+    "audience",
+    "time_commitment",
+    "topics",
+    "tools",
+    "modules",
+    "outcomes",
+    "projects",
+    "community",
+    "research_metadata"
+  ],
+  "properties": {
+    "course": {
+      "type": "object",
+      "required": [
+        "name",
+        "slug",
+        "short_name",
+        "status",
+        "description",
+        "primary_goal",
+        "format",
+        "cost",
+        "current_docs_status"
+      ],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "short_name": { "type": "string", "minLength": 1 },
+        "status": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "primary_goal": { "type": "string", "minLength": 1 },
+        "format": { "type": "string", "minLength": 1 },
+        "cost": { "type": ["string", "number"], "minLength": 1 },
+        "current_docs_status": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "urls": {
+      "type": "object",
+      "required": [
+        "github",
+        "course_article",
+        "landing_page",
+        "registration",
+        "course_platform",
+        "youtube_playlist",
+        "slack_channel",
+        "slack_invite",
+        "telegram_channel",
+        "documentation",
+        "faq"
+      ],
+      "additionalProperties": {
+        "type": ["string", "object", "null"]
+      }
+    },
+    "cohort_cadence": {
+      "type": "object",
+      "required": ["live_cohort_note"],
+      "additionalProperties": true
+    },
+    "delivery": {
+      "type": "object",
+      "required": [
+        "lectures",
+        "live_sessions",
+        "homework",
+        "submissions_platform",
+        "certificate_available"
+      ],
+      "additionalProperties": true
+    },
+    "level": {
+      "type": "object",
+      "required": ["label", "notes"],
+      "additionalProperties": true
+    },
+    "prerequisites": {
+      "type": "object",
+      "required": ["required", "recommended", "not_required"],
+      "additionalProperties": true
+    },
+    "audience": {
+      "type": "object",
+      "required": ["primary", "secondary"],
+      "additionalProperties": true
+    },
+    "time_commitment": {
+      "type": "object",
+      "required": ["weekly_estimate"],
+      "additionalProperties": true
+    },
+    "topics": { "type": "array", "minItems": 1 },
+    "tools": { "type": "array", "minItems": 1 },
+    "modules": { "type": "array", "minItems": 1 },
+    "outcomes": { "type": ["array", "object"] },
+    "projects": { "type": ["array", "object"] },
+    "community": {
+      "type": "object",
+      "anyOf": [
+        { "required": ["support_channels"] },
+        { "required": ["primary_support_channel"] }
+      ],
+      "additionalProperties": true
+    },
+    "people": {
+      "type": "object",
+      "required": ["instructors"],
+      "properties": {
+        "instructors": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "type": "string", "minLength": 1 },
+              {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": { "type": "string", "minLength": 1 },
+                  "url": { "type": "string" }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "research_metadata": {
+      "type": "object",
+      "required": ["researched_on"],
+      "properties": {
+        "researched_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      },
+      "additionalProperties": true
+    },
+    "community_and_support": false,
+    "instructors": false
+  },
+  "additionalProperties": true
+}

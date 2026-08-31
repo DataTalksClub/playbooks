@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# JavaScript
+node_modules/
+
+# Generated content artifacts
+content-runs/
+
+# Raw Typefully exports; curated research files remain tracked
+research/typefully/raw/
+research/typefully/filtered/
+
+# Editor and temporary files
+*.swp
+*.tmp
+*~

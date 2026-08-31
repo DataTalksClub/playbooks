@@ -1,0 +1,4 @@
+interface:
+  display_name: "DataTalks Event Promotion"
+  short_description: "Create campaign-style posts for DataTalks.Club events"
+  default_prompt: "Use $datatalks-event-promotion to create a social media campaign for this DataTalks.Club event."
