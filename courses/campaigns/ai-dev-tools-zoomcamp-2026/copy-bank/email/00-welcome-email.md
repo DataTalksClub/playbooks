@@ -1,124 +1,49 @@
-Hello!
+# Welcome to AI Dev Tools Zoomcamp 2026
 
-Thank you for signing up for **AI Dev Tools Zoomcamp**. I hope you will enjoy it.
+Hello there,
 
-The next live cohort starts on **{{ cohort_start_date }}**.
+Welcome to AI Dev Tools Zoomcamp! The live cohort starts on **August 31, 2026**.
 
-AI Dev Tools Zoomcamp is a free, hands-on course about using AI coding tools in real software development workflows.
+Over the next five modules, you will learn how to take a product idea from a vague starting point to tested, deployed software with coding agents. The agents will help with implementation, but you will still define the requirements, make the important decisions, and review the result.
 
-The focus is not RAG, fine-tuning, or chasing every new tool. The focus is the day-to-day engineering loop: using AI assistants and coding agents, giving them context, reviewing their code, adding tests, setting up CI/CD, deploying, and documenting the work.
+## What Is Waiting for You
 
-## Before the course starts
+We will begin with an [AI-native developer workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow): turning an idea into a specification and backlog, giving agents durable context, and separating implementation from QA.
 
-Most course discussions and support happen in Slack.
+Then you will build a [full-stack application](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-development), test and deploy it, add observability and DevOps practices, and finish by creating reusable coding-agent skills and subagents.
 
-First, join the DataTalks.Club Slack workspace:
+Lectures are pre-recorded, so you can study when it works for you. The live cohort adds deadlines, homework, community support, peer review, and the certificate path.
 
-[Join DataTalks.Club Slack](https://datatalks.club/slack.html)
+## Before You Begin
 
-If the invite link does not work, fill in this form:
+Open the [course platform](https://courses.datatalks.club/ai-dev-tools-2026/) first. It is where you will find the schedule, submissions, scores, and project deadlines.
 
-[Slack invite request form](https://airtable.com/shrhUBN51Jy10fjJq)
+The code, module materials, and homework instructions live in the [course repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp). You can also bookmark the [course documentation](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/) and complete the [environment setup](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/) before starting Homework 1.
 
-Once you are in Slack, join the course channel:
+Most questions and discussions happen in [#course-ai-dev-tools-zoomcamp](https://app.slack.com/client/T01ATQK62F8/C09HWT76L95). Join the [DataTalks.Club Slack workspace](https://datatalks.club/slack.html) if you are not there yet, and follow the [Telegram channel](https://t.me/aidevtoolszoomcamp) for announcements.
 
-[#course-ai-dev-tools-zoomcamp](https://app.slack.com/client/T01ATQK62F8/C09HWT76L95)
+You can also watch the [pre-course Q&A](https://luma.com/a8qa5s2s) and the [course launch session](https://luma.com/tsiusx8s) for an overview of homework, projects, peer review, and certificates.
 
-Use this channel for course questions, homework discussions, troubleshooting, and cohort announcements. Please do not post course-related questions outside this channel, so we can keep the discussion organized.
+## Share That You Are Joining
 
-If you are new to Slack, check this guide:
-
-[How to use Slack](https://datatalks.club/docs/general/slack/)
-
-## What to expect
-
-The lectures are pre-recorded, so you can watch them when it works for you. The live cohort adds structure: deadlines, scored homework, leaderboard participation, peer review, community support, and certificate eligibility.
-
-During the course, you will work toward a complete application that shows how you used AI tools to plan, build, review, test, document, and ship code.
-
-The course covers coding assistants, AI IDEs, coding agents, MCP, frontend/backend development, OpenAPI, testing, CI/CD, deployment, and automation.
-
-## Start here
-
-You can already open the main materials:
-
-- [Course platform](https://courses.datatalks.club/ai-dev-tools-2026/)
-- [Environment setup](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/)
-- [GitHub repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp)
-- [Course documentation](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/)
-
-Start with the course platform, then check the environment setup before the first homework.
-
-## Course Q&A streams
-
-We’ll run two live sessions around the course start:
-
-Pre-course Q&A: [{{ pre_course_qna_title }}]({{ pre_course_qna_url }})
-Launch stream: [{{ launch_stream_title }}]({{ launch_stream_url }})
-
-We’ll use these sessions to explain how the course works, how to start, how homework and peer review work, and how to earn the certificate.
-
-## Prerequisites
-
-You do not need prior experience with AI coding tools, coding agents, MCP, web development, Django, or a powerful machine.
-
-You should be comfortable with basic programming, the command line, and Git/GitHub.
-
-During the course, AI tools will help you generate and edit code, but you will still need to read, run, debug, test, and review what they produce.
-
-## Announcements
-
-We also have a Telegram channel for course announcements:
-
-[Join the AI Dev Tools Zoomcamp Telegram channel](https://t.me/aidevtoolszoomcamp)
-
-If you do not use Telegram, no problem. Important course updates will also be shared in Slack.
-
-## Spread the word
-
-We would also appreciate it if you help us spread the word about the course.
-
-You can use this template for LinkedIn:
+Here is a template you can adapt:
 
 ```text
-I’ve joined AI Dev Tools Zoomcamp {{ cohort_year }} by @DataTalksClub.
+I've joined AI Dev Tools Zoomcamp 2026 by @DataTalksClub.
 
-Over the course, I’ll be learning how to use AI coding assistants, AI IDEs, coding agents, MCP, testing, CI/CD, deployment, and automation in real software development workflows.
+Over the next few weeks, I'll learn how to turn product ideas into tested and deployed software with coding agents while keeping human decisions and review central.
 
-The course is hands-on and open source. The goal is not to blindly trust generated code, but to build, review, test, document, and ship software with AI tools.
-
-Thanks to @Alexey Grigorev and the @DataTalksClub team for putting this together.
-
-You can register here: https://courses.datatalks.club/register/ai-dev-tools/
-```
-
-Or for X:
-
-```text
-Joined AI Dev Tools Zoomcamp {{ cohort_year }} by @DataTalksClub!
-
-I’ll learn coding assistants, agents, MCP, testing, CI/CD, deployment, and automation for real dev workflows.
-
-Thanks @Al_Grigor and team.
+I'm starting with the AI-native developer workflow and will share what I build along the way.
 
 https://courses.datatalks.club/register/ai-dev-tools/
+
+#aidevtools
 ```
 
-## A few other things
+## Coming Up in Module 1
 
-- Star [the course repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp) on GitHub.
-- Subscribe to [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) and check [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43).
-- If you want, you can already start going through the course content.
-- Check the [FAQ](https://datatalks.club/faq/ai-dev-tools-zoomcamp.html) for frequent questions.
-
-## More links
-
-- [Curriculum](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/curriculum/)
-- [Final project](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/)
-- [Certificate information](https://datatalks.club/docs/courses/zoomcamp-logistics/certification/)
-- [How to ask questions](https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/)
-- [Community guidelines](https://datatalks.club/slack/guidelines.html)
+You will start with a deliberately vague product idea and turn it into something a coding agent can implement and another agent can verify. By the end of the module, you will have practiced specifications, backlog design, durable context, implementation loops, and independent QA.
 
 See you in Slack!
 
-Alexey
+Alexey and the DataTalks.Club Team

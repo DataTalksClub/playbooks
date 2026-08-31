@@ -1,70 +1,55 @@
-# Newsletter Announcement Blocks
+# AI Dev Tools Zoomcamp 2026 Newsletter Blocks
 
-Use these blocks inside the DataTalks.Club newsletter or AI Shipping Blog when the course needs a compact owned-channel announcement.
+Use these blocks inside a DataTalks.Club newsletter or AI Shipping Blog issue.
 
-## Early Registration Block
+## Registration Block
 
-### AI Dev Tools Zoomcamp {{ cohort_year }} registration is open
+### AI Dev Tools Zoomcamp 2026
 
 AI Dev Tools Zoomcamp is a free hands-on course about using AI coding tools in real software development workflows.
 
-The course is for people who write code and want to use AI assistants, coding agents, MCP, tests, CI/CD, deployment, and automation with more discipline.
+The 2026 live cohort starts on **August 31, 2026**. You will learn how to move from a product idea to tested, deployed software with coding agents while keeping human decisions and review central.
 
-You will practice:
-
-- Comparing AI coding tools on real tasks.
-- Building an end-to-end application with frontend, backend, API contract, database, tests, deployment, and CI/CD.
-- Using MCP and coding agents with more visibility into tools, context, and failure modes.
-- Documenting how AI tools helped and what you reviewed manually.
-
-The next live cohort starts on {{ cohort_start_date }}.
-
-Register here:
-{{ registration_url }}
+Register:
+https://courses.datatalks.club/register/ai-dev-tools/
 
 ## One-Paragraph Version
 
-AI Dev Tools Zoomcamp {{ cohort_year }} starts on {{ cohort_start_date }}. It is a free hands-on course about using AI coding tools in real software development workflows: assistants, coding agents, MCP, testing, CI/CD, deployment, and automation. The goal is not to accept generated code blindly, but to read it, run it, debug it, test it, and document the workflow. Register here: {{ registration_url }}
+AI Dev Tools Zoomcamp 2026 starts on August 31, 2026. It is a free hands-on course about specifications, coding agents, full-stack development, testing, deployment, DevOps, observability, and reusable agent capabilities. Register at https://courses.datatalks.club/register/ai-dev-tools/.
 
 ## Launch Week Block
 
 ### AI Dev Tools Zoomcamp starts this week
 
-AI Dev Tools Zoomcamp {{ cohort_year }} starts on {{ cohort_start_date }}.
+AI Dev Tools Zoomcamp 2026 starts on August 31.
 
-The first module gives learners a practical map of AI coding tools. You will try assistants and coding agents on small coding tasks, compare their outputs, and practice reviewing generated code before trusting it.
+Module 1 shows how to turn a vague product idea into a specification and focused backlog, give coding agents durable context, separate implementation from independent QA, and continue work around checkable conditions.
 
 Start here:
 
-- Registration: {{ registration_url }}
-- Course platform: {{ course_platform_url }}
+- Registration: https://courses.datatalks.club/register/ai-dev-tools/
+- Course platform: https://courses.datatalks.club/ai-dev-tools-2026/
 - GitHub repository: https://github.com/DataTalksClub/ai-dev-tools-zoomcamp
 - Environment setup: https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/
 
 ## Launch Stream Block
 
-### Launch stream: AI Dev Tools Zoomcamp {{ cohort_year }}
+### AI Dev Tools Zoomcamp 2026 Course Launch
 
-The AI Dev Tools Zoomcamp launch stream is on {{ launch_stream_date }} at {{ launch_stream_time }}.
+The course launch is on **Monday, August 31, 2026 at 5:00 PM Europe/Berlin**.
 
-We will cover:
+We will cover the cohort workflow, first-week actions, homework, Slack support, final projects, peer review, and certificates.
 
-- How the live cohort works.
-- What to expect in the first week.
-- Which tools and workflows the course covers.
-- How homework, Slack support, final project, peer review, and certificates work.
-- How to avoid getting stuck comparing every AI coding tool.
-
-Join here:
-{{ launch_stream_url }}
+Join:
+https://luma.com/tsiusx8s
 
 ## Final Reminder Block
 
-AI Dev Tools Zoomcamp starts on {{ cohort_start_date }}.
+AI Dev Tools Zoomcamp starts on August 31, 2026.
 
-If you want to join the live cohort, register before the course starts:
-{{ registration_url }}
+You do not need prior AI coding-tool experience. You should be comfortable with basic programming, Git/GitHub, and the command line.
 
-You do not need prior AI coding tools experience. You should be comfortable with basic programming, Git/GitHub, and the command line.
+The live cohort adds deadlines, scored homework, community support, peer review, and certificate eligibility.
 
-The live cohort adds deadlines, scored homework, leaderboard participation, Slack support, peer review, and certificate eligibility.
+Register:
+https://courses.datatalks.club/register/ai-dev-tools/

@@ -1,58 +1,19 @@
-AI Dev Tools Zoomcamp: Module {{ module_number }} starts
+# Telegram Module Announcement Assembly Guide
 
-This week we start Module {{ module_number }}: {{ module_title }}.
+The 2026 Telegram announcements in this folder are fully resolved and ready for editorial review. This file is a guide, not publishable copy.
 
-{{ module_short_description }}
+For a future cohort, create each announcement from the target course's `course.yaml` and include:
 
-In this module, you will:
+- A short opening that connects the module to the learner's current stage.
+- A concise explanation of why the module matters.
+- The module materials, recording, and companion article near the relevant text.
+- Homework instructions, submission URL, and deadline only when they are confirmed.
+- An explicit label when homework is a draft, a placeholder, or not yet published.
+- A one-sentence preview of the next module or final project.
+- The course Slack channel for questions.
 
-- {{ module_highlight_1 }}
-- {{ module_highlight_2 }}
-- {{ module_highlight_3 }}
-- {{ module_highlight_4 }}
-- {{ module_highlight_5 }}
+Keep paragraphs short and use bullets only when they improve scanning. Use a practical, community-oriented DataTalks.Club voice.
 
-Materials:
-{{ module_url }}
+Never turn a draft homework outline into a final assignment description. Do not publish unresolved placeholders, dynamic countdowns, or temporary open/closed status labels.
 
-Course platform:
-{{ course_platform_url }}
-
-Course playlist:
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
-
-{{#if homework_available}}
-Homework {{ homework_number }}:
-{{ homework_url }}
-
-Submission form:
-{{ homework_submission_url }}
-
-Deadline:
-{{ homework_deadline }}
-
-Submission forms close automatically after the deadline.
-{{/if}}
-
-{{#unless homework_available}}
-There is no graded homework documented for this module in the course notes we have.
-
-Use this week to go through the materials, run the examples, and keep moving on your final project.
-
-If this cohort adds homework for this module:
-{{ homework_submission_url }}
-
-Deadline, if added:
-{{ homework_deadline }}
-{{/unless}}
-
-Questions:
-Ask in the course-ai-dev-tools-zoomcamp Slack channel.
-
-Slack:
-https://datatalks.club/slack.html
-
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
-
-Remember: the goal is not to blindly accept generated code. Read it, run it, debug it, test it, and document what you did.
+For the 2026 cohort, module resources are under `urls.cohort_2026_module_resources`, homework locations are under `delivery.homework.source`, and confirmed deadlines and submission pages are under `cohort_schedule` in `course.yaml`.

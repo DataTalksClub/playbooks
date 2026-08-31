@@ -1,79 +1,46 @@
-START HERE
+START HERE: AI Dev Tools Zoomcamp 2026
 
-Welcome to the AI Dev Tools Zoomcamp Telegram channel.
+Welcome to the course announcement channel. The live cohort starts on August 31, 2026.
 
-The next live cohort starts on {{ cohort_start_date }}.
+AI Dev Tools Zoomcamp is a free, hands-on course about using AI coding tools in real software development workflows. Across five modules, you will move from specifications and agent workflows to full-stack development, testing, deployment, DevOps, observability, and reusable agent capabilities.
 
-AI Dev Tools Zoomcamp is a free, hands-on course about using AI coding tools in real software development workflows.
-
-The focus is the day-to-day engineering loop:
-
-- Using AI assistants and coding agents.
-- Giving tools enough context.
-- Reviewing generated code.
-- Adding tests.
-- Setting up CI/CD.
-- Deploying and documenting the work.
-
-This channel is for announcements.
-
-For questions, homework discussions, and troubleshooting, use Slack:
-https://datatalks.club/slack.html
-
-After joining Slack, join the course channel:
-https://app.slack.com/client/T01ATQK62F8/C09HWT76L95
-
-If the Slack invite does not work, use this form:
-https://airtable.com/shrhUBN51Jy10fjJq
+The lectures are pre-recorded, so you can study on your own schedule. The live cohort adds homework deadlines, a leaderboard, peer review, community support, and certificate eligibility.
 
 Start here:
 
 Course platform:
-{{ course_platform_url }}
-
-Environment setup:
-https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/
+https://courses.datatalks.club/ai-dev-tools-2026/
 
 GitHub repository:
 https://github.com/DataTalksClub/ai-dev-tools-zoomcamp
 
-Course documentation:
+Environment setup:
+https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/
+
+Course documentation and FAQ:
 https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/
+https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
 
 Course playlist:
 https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
 
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
+This Telegram channel is for announcements. For questions, homework discussions, and troubleshooting, join Slack and open the course channel:
 
-How the live cohort works:
+https://datatalks.club/slack.html
+https://app.slack.com/client/T01ATQK62F8/C09HWT76L95
 
-Lectures are pre-recorded, so you can watch them when it works for you.
-
-The live cohort adds deadlines, scored homework, leaderboard participation, peer review, community support, and certificate eligibility.
-
-The final goal is a complete application that shows how you used AI tools to plan, build, review, test, document, and ship code.
-
-Live sessions:
+Cohort sessions:
 
 Pre-course Q&A:
-{{ pre_course_qna_url }}
+https://luma.com/a8qa5s2s
 
-Launch stream:
-{{ launch_stream_url }}
+Course launch:
+https://luma.com/tsiusx8s
+
+Final project requirements:
+https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/
 
 Certificate information:
 https://datatalks.club/docs/courses/zoomcamp-logistics/certification/
 
-Final project:
-https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/
-
-How to ask questions:
-https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/
-
-Community guidelines:
-https://datatalks.club/slack/guidelines.html
-
-Important reminder:
-
-AI tools will help you generate and edit code, but you still need to read, run, debug, test, and review what they produce.
+AI tools can help you generate and edit code, but you are still responsible for reading, running, debugging, testing, and reviewing what they produce.

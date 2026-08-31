@@ -10,25 +10,29 @@ Learners finish with a complete deployed application and a clearer workflow for 
 
 ## Modules
 
-### Module 1: Introduction to Vibe Coding / AI Tools Overview
+### Module 1: AI-Native Developer Workflow
 
 What learners study:
 
-- The landscape of AI-assisted software development tools
-- Chat-based tools, coding assistants, AI IDEs, project bootstrappers, and agents
-- How different tools behave when asked to build the same simple app
-- Where AI-generated code helps and where it creates risk
+- How to refine a vague product idea into a specification and choose a technology stack they can review
+- How to turn the specification into focused backlog tasks with goals, acceptance criteria, constraints, and boundaries
+- How `AGENTS.md` and supporting project documents give coding agents durable context
+- How product manager, software engineer, and QA roles separate task grooming, implementation, and independent verification
+- How loop engineering continues work until a checkable condition is met
+- How graph engineering orchestrates specialized agents and returns failed tasks to implementation
 
 What learners practice:
 
-- Building a Snake game with different AI tools
-- Comparing outputs from tools like ChatGPT, Claude, Claude Code, GitHub Copilot, Cursor, Bolt, Lovable, and similar assistants
-- Reading, reviewing, and debugging generated code
-- Thinking critically about tool choice instead of chasing every new product
+- Defining requirements and making the product and technology decisions that remain human responsibilities
+- Creating a backlog that coding agents can execute one focused task at a time
+- Preparing durable project context for agents
+- Running separate implementation and QA roles so work is independently verified
+- Designing loops around explicit, checkable completion conditions
+- Coordinating specialized agents across the backlog while keeping human review central
 
 Marketing angle:
 
-This module gives learners a grounded map of the AI coding tool space. It turns "vibe coding" from a vague trend into something they can test, compare, and use with judgment.
+This module turns a vague product idea into a controlled AI-native development process. Learners leave able to move from specification through implementation and independent QA without handing product decisions or final review to coding agents.
 
 ### Module 2: End-to-End Project (Snake)
 

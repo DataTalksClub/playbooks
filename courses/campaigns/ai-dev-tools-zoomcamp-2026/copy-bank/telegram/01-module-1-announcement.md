@@ -1,46 +1,37 @@
 AI Dev Tools Zoomcamp: Module 1 starts
 
-This week we start Module 1: Introduction to Vibe Coding / AI Tools Overview.
+This week we begin with AI-Native Developer Workflow.
 
-This module gives you a map of the AI coding tool space. You will try different tools on a small Snake game example and practice reviewing generated code instead of accepting it blindly.
+The goal is to turn a vague product idea into specified, implemented, and independently verified software with coding agents, while keeping requirements, key decisions, and final review in human hands.
 
-In this module, you will:
+You will work on:
 
-- Build a Snake game with AI assistance.
-- Use chat applications for exploration and prototyping.
-- Try coding assistants and IDE integrations.
-- Look at project bootstrappers and coding agents.
-- Compare tools such as ChatGPT, Claude, Claude Code, GitHub Copilot, Cursor, Bolt, Lovable, and similar assistants.
+- Turning an idea into a product specification and focused backlog.
+- Giving agents durable context with `AGENTS.md` and project documents.
+- Separating product manager, software engineer, and QA roles.
+- Using loop engineering around checkable completion conditions.
+- Coordinating specialized agents across a backlog with graph engineering.
 
 Materials:
-https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow
 
-Course platform:
-{{ course_platform_url }}
+Recording:
+https://www.youtube.com/watch?v=VUJxJGpaDEs
 
-Course playlist:
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
+Companion article:
+https://aishippingblog.com/p/ai-native-development-specifications
 
-Homework 1:
-{{ homework_1_url }}
+Homework 1 asks you to apply this workflow to a spec-driven Django application based on a deliberately vague shared-household-chores idea.
 
-Submission form:
-{{ homework_1_submission_url }}
+Instructions:
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/01-overview/homework.md
 
-Deadline:
-{{ homework_1_deadline }}
+Submit here:
+https://courses.datatalks.club/ai-dev-tools-2026/homework/hw1
 
-Submission forms close automatically after the deadline.
+Deadline: September 8, 2026 at 01:00 Europe/Madrid (September 7 at 23:00 UTC).
 
-Homework 1 is a small TODO application built with AI assistance. You do not need prior Django experience. The point is to use AI as a guide while still running, debugging, testing, and committing the work yourself.
+The homework is useful practice, but it is not required for the certificate.
 
-Questions:
-Ask in the course-ai-dev-tools-zoomcamp Slack channel.
-
-Slack:
-https://datatalks.club/slack.html
-
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
-
-Remember: the homework is for practice. It does not affect your certificate.
+Questions belong in the course Slack channel:
+https://app.slack.com/client/T01ATQK62F8/C09HWT76L95

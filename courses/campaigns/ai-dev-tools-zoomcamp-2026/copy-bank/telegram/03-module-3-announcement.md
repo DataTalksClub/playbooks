@@ -1,49 +1,31 @@
 AI Dev Tools Zoomcamp: Module 3 starts
 
-This week we start Module 3: Model Context Protocol.
+Getting an application to work once is different from making it reproducible and ready for other people to run.
 
-MCP is one of the pieces that makes AI developer tools more useful. In this module, you will run an MCP server, call tools, inspect requests, and connect AI assistants to external context and actions.
-
-In this module, you will:
-
-- Understand MCP clients, servers, tools, resources, and prompts.
-- Compare stdio and HTTPS communication modes.
-- Run a Python MCP server and call tools with JSON-RPC.
-- Use MCP Inspector.
-- Configure MCP clients such as VS Code, Codex, Cursor, and Antigravity.
+Module 3 is Test, Containerize, and Deploy an AI-Assisted App. This week, you will strengthen the checks around your application, package it consistently, document how to run it, and deploy it somewhere others can inspect.
 
 Materials:
-https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-deployment
 
-Demo repo:
-https://github.com/thelearningdev/mcp-ai-dev-workflow
+Recording:
+https://www.youtube.com/watch?v=gxt5ZDVnBMM
 
-Course platform:
-{{ course_platform_url }}
+Companion article:
+https://aishippingblog.com/p/deploy-a-full-stack-app-with-ai-coding
 
-Course playlist:
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
+Homework 3 is not published yet.
 
-Homework 3:
-{{ homework_3_url }}
+The repository page is currently a draft placeholder saying that the questions are being prepared and will likely change. Do not plan your submission from the placeholder; check the page again when Homework 3 is announced.
 
-Submission form:
-{{ homework_3_submission_url }}
+Homework page:
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/03-deployment/homework.md
 
-Deadline:
-{{ homework_3_deadline }}
+Submission page:
+https://courses.datatalks.club/ai-dev-tools-2026/homework/hw3
 
-Submission forms close automatically after the deadline.
+Deadline: September 22, 2026 at 01:00 Europe/Madrid (September 21 at 23:00 UTC).
 
-Homework 3 is about building your own MCP server. You will make documentation searchable and expose tools to an AI assistant.
+Next week, Module 4 will cover DevOps and observability for applications built with AI assistance.
 
-Questions:
-Ask in the course-ai-dev-tools-zoomcamp Slack channel.
-
-Slack:
-https://datatalks.club/slack.html
-
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
-
-Remember: tools and context are useful only when you can inspect, test, and understand what is happening.
+Questions belong in the course Slack channel:
+https://app.slack.com/client/T01ATQK62F8/C09HWT76L95

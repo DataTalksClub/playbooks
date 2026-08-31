@@ -25,7 +25,22 @@ Use `../course.yaml` for facts before adapting copy:
 - Course platform and GitHub URL.
 - Slack, Telegram, documentation, FAQ, and environment setup links.
 - Module names, tools, outcomes, and project requirements.
+- Homework repository paths and folder names from `delivery.homework.source`.
+- Homework and project deadlines from `cohort_schedule`.
+- Cohort module materials, companion articles, and recordings from `urls.cohort_2026_module_resources`.
 - Certificate and peer review rules.
+
+Resolve homework placeholders from `course.yaml`. For the 2026 cohort, use the explicit
+`homework_url` entries under `delivery.homework.source.locations`. Do not derive homework folders
+from the current module materials folder names because the two structures are different.
+
+Resolve deadline placeholders from `cohort_schedule`. Use `deadline_utc` for scheduling and
+`deadline_local` when publishing the supplied Europe/Madrid cohort time. Do not save or reuse
+countdowns and open/closed statuses because they change over time.
+
+Resolve homework and project submission placeholders from the matching `submission_url` in
+`cohort_schedule`; use the logistics links under `urls` for homework, leaderboard, peer-review,
+and mid-cohort guidance.
 
 Use placeholders for cohort-specific values:
 
@@ -36,6 +51,10 @@ Use placeholders for cohort-specific values:
 - `{{ launch_stream_url }}`
 - `{{ pre_course_qna_url }}`
 - `{{ homework_deadline }}`
+
+Exception: files under `email/` are currently resolved for the 2026 cohort and should not contain
+unfilled placeholders. For a future cohort, regenerate or update them from `course.yaml` and use
+`email/module-email-template.md` as an assembly guide.
 
 ## Positioning Reminder
 

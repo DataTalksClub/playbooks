@@ -1,118 +1,55 @@
-[View this email in your browser]({{ browser_view_url }})
+# Module 1: From a Vague Idea to a Verifiable Workflow
 
-# We Start Module 1
+Hello there,
 
-Hey there,
+Welcome to Module 1 of AI Dev Tools Zoomcamp.
 
-This week, we start [Module 1: Introduction to Vibe Coding / AI Tools Overview](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview).
+This week is about everything that happens before and around code generation. You will take a vague product idea, turn it into a specification and focused backlog, give coding agents durable context, and define how completed work will be independently checked.
 
-This module gives you a map of the AI coding tool space. You will try different tools on a small Snake game example, compare how they behave, and practice reading and reviewing generated code instead of accepting it blindly.
+Start with the [Module 1 materials](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow). You can also watch the [recording](https://www.youtube.com/watch?v=VUJxJGpaDEs) or read the [companion article on specifications, loop engineering, and graph engineering](https://aishippingblog.com/p/ai-native-development-specifications).
 
-## Module 1
+## What You Will Practice
 
-In this module, you will:
+You will learn how to:
 
-- Build a Snake game with AI assistance.
-- Use chat applications for exploration and prototyping.
-- Try coding assistants and IDE integrations.
-- Look at project bootstrappers and coding agents.
-- Compare tools such as ChatGPT, Claude, Claude Code, GitHub Copilot, Cursor, Bolt, Lovable, and similar assistants.
-
-Important links:
-
-- [Module 1 materials](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview)
-- [Homework 1]({{ homework_1_url }})
-- [Submission form]({{ homework_1_submission_url }})
-- [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43)
-- [Course platform]({{ course_platform_url }})
-
-Deadline: {{ homework_1_deadline }}.
-
-Submission forms close automatically after the deadline.
-
-[Start Module 1](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview)
-
-## Where to Find Materials
-
-All course materials live in the [GitHub repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp).
-
-Each module has its own folder. For this module, use `01-overview`. Cohort-specific homework and announcements live in the `cohorts/{{ cohort_year }}` folder.
-
-Lectures are pre-recorded and linked from GitHub. The [YouTube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43) contains the course videos. If we add updated videos, workshops, or live-session recordings, we will announce them in Slack and Telegram.
+- Refine a vague idea into a product specification.
+- Choose a technology stack you can review.
+- Break the specification into focused backlog tasks.
+- Give agents durable context through `AGENTS.md` and project documents.
+- Separate implementation from independent QA.
+- Continue work until an explicit, checkable condition is met.
 
 ## Homework 1
 
-For [Homework 1]({{ homework_1_url }}), you will build a small TODO application with AI assistance.
+For [Homework 1](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/01-overview/homework.md), you will start with a one-line idea for a shared household chores tool.
 
-The app supports creating, editing, and deleting TODOs, assigning due dates, and marking tasks as resolved. You do not need prior Django experience for this homework.
+You will decide what the product should do, write the specification, create a backlog, implement the first tasks as a Django application with one coding agent, and add tests. Different decisions will lead to different applications, and that is part of the exercise.
 
-The goal is to practice using AI as a guide while still understanding each step enough to run the app, debug it, generate tests, fix issues, and commit the work to GitHub.
+Submit your repository through the [Homework 1 form](https://courses.datatalks.club/ai-dev-tools-2026/homework/hw1) by **September 8, 2026 at 01:00 Europe/Madrid** (**September 7 at 23:00 UTC**).
 
-Due date: {{ homework_1_deadline }}.
+## Share Your Progress
 
-[Submit Homework 1]({{ homework_1_submission_url }})
+```text
+Week 1 of AI Dev Tools Zoomcamp is complete.
 
-## How Homework Works
+I started with one vague product idea and turned it into:
+- a written specification
+- a focused backlog
+- a working Django application
+- tests for the behavior I implemented
 
-For homework, you are expected to:
+I used [add the coding agent you chose], but the important part was defining the work and reviewing the result.
 
-- Work through the tasks locally.
-- Use the tools and workflows introduced in the module.
-- Publish your solution in a public GitHub repository or similar place when the form asks for a link.
-- Submit everything through the course platform before the deadline.
+Project: [add your repository link]
 
-Each homework has a fixed deadline. After the deadline passes, the submission form closes automatically, and late submissions are not accepted.
+#aidevtools
+```
 
-Homework submissions are available only during the live cohort. In self-paced mode, you can still complete the homework for practice, but you will not receive credit.
+## Coming Up in Module 2
 
-Submissions also appear on the [leaderboard]({{ leaderboard_url }}).
+Next, you will move from workflow design to a complete full-stack application. You will build a collaborative coding interview platform, connect frontend and backend behavior, add tests, run code safely in the browser, containerize the app, and deploy it.
 
-You can also get extra points by sharing your learning publicly with the hashtag `#aidevtools` and tagging Alexey Grigorev or DataTalksClub.
-
-## Homework Grade
-
-Homework grade = points for questions + 1 point for the FAQ + a maximum of 7 points for learning in public.
-
-Learning in public gives up to 7 points, depending on how many platforms you shared your post on and the quality of the post.
-
-The FAQ contribution is worth 1 point. If you want to get a score for it, contribute to the [FAQ repo](https://github.com/DataTalksClub/faq) and add a link to your PR to your homework submission.
-
-Optional questions are scored as well. Read the submission form carefully, because the details are listed there.
-
-The homework is for practice. It does not affect your certificate.
-
-## Got Stuck?
-
-Having questions is a normal part of the learning process.
-
-Here is what to do:
-
-- Check the [AI Dev Tools Zoomcamp FAQ](https://datatalks.club/faq/ai-dev-tools-zoomcamp.html).
-- Check the [course documentation](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/).
-- Check the [how to ask questions guide](https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/).
-- Ask your question in [#course-ai-dev-tools-zoomcamp](https://app.slack.com/client/T01ATQK62F8/C09HWT76L95).
-
-Please ask course-related questions in the course Slack channel, not in private messages. This helps other learners find the answer later.
-
-[Join Our Slack Channel](https://datatalks.club/slack.html)
-
-## Quick Links
-
-- [Course repository](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp)
-- [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43)
-- [Course platform]({{ course_platform_url }})
-- [Course documentation](https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/)
-- [FAQ](https://datatalks.club/faq/ai-dev-tools-zoomcamp.html)
-- [Slack](https://datatalks.club/slack.html)
-- [Telegram announcements](https://t.me/aidevtoolszoomcamp)
-
-## Keep Going
-
-This is Module 1 of 6. Completing the homework brings you one step closer to the final project.
-
-It is okay if you do not get everything right away. Most students do not.
-
-Every attempt helps you get better at using AI tools without giving up engineering discipline.
+If you get stuck, check the [course FAQ](https://datatalks.club/faq/ai-dev-tools-zoomcamp.html) or ask in the [course Slack channel](https://app.slack.com/client/T01ATQK62F8/C09HWT76L95).
 
 Good luck!
 

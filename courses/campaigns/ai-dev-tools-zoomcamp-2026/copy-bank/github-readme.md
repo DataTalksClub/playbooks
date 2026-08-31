@@ -126,7 +126,7 @@ The sessions are optional, but useful if you want to see the workflows in action
 
 | Event | What it covers | Link |
 | --- | --- | --- |
-| Workshop 1: AI-Native Developer Workflow | How to use AI coding tools for planning, implementation, review, testing, and debugging without losing control of the code. | [RSVP](https://luma.com/lmkti8zj) |
+| Workshop 1: AI-Native Developer Workflow | How to move from a vague idea through specification, implementation, and independent QA while keeping human decisions and review central. | [RSVP](https://luma.com/lmkti8zj) |
 | Workshop 2: Build and Ship an AI-Assisted Full-Stack App | How to move from product spec to frontend, backend, OpenAPI contract, tests, Docker, deployment, and CI/CD. | [RSVP](https://luma.com/50kvfku2) |
 | Workshop 3: Coding Agent Capabilities | How MCP, skills, plugins, hooks, subagents, and custom agents fit into practical coding-agent workflows. | [RSVP](https://luma.com/ap4l3qlj) |
 | Workshop 4: DevOps and Observability for AI-Built Apps | How to observe user impact, alert with context, investigate from evidence, and involve a read-only coding agent without production credentials. | [RSVP](https://luma.com/ycsfxigi) |
@@ -135,18 +135,20 @@ The sessions are optional, but useful if you want to see the workflows in action
 
 ## Syllabus
 
-### [Module 1: AI-Native Developer Workflow](01-overview/)
+### [Module 1: AI-Native Developer Workflow](01-ai-native-workflow/)
 
-Learn how to use AI developer tools without handing over control of the codebase.
+Learn how to turn a vague product idea into specified, implemented, and independently verified software with coding agents. You define the requirements, make the key decisions, and review the results.
 
 You will:
 
-- Compare chat assistants, terminal coding agents, agentic IDEs, cloud agents, and project bootstrappers.
-- Learn when to use tools such as ChatGPT, Claude, Gemini, Claude Code, Codex, Gemini CLI, Cursor, GitHub Copilot, Antigravity, Lovable, Bolt, and similar systems.
-- Practice context engineering with `AGENTS.md`, repository instructions, product specs, architecture notes, testing guidelines, and security checklists.
-- Complete a small feature using a disciplined loop: spec, context, plan, edit, run, test, inspect diff, review, commit.
+- Refine a vague idea into a product specification and choose a technology stack you can review.
+- Break the specification into focused backlog tasks with goals, acceptance criteria, constraints, and boundaries.
+- Give coding agents durable context through `AGENTS.md` and supporting project documents.
+- Define product manager, software engineer, and QA roles that separate task grooming, implementation, and independent verification.
+- Use loop engineering to continue work until a checkable condition is met.
+- Use graph engineering to orchestrate specialized agents across the backlog and return failed tasks to implementation.
 
-Outcome: a repeatable AI-assisted development workflow you can use in your own repositories.
+Outcome: an AI-native development workflow that takes a product from an initial idea through implementation and independent QA while keeping human decisions and review central.
 
 ### [Module 2: Build and Ship an AI-Assisted Full-Stack App](02-end-to-end/)
 

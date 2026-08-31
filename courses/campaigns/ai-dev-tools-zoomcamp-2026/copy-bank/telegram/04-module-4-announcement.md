@@ -1,49 +1,31 @@
 AI Dev Tools Zoomcamp: Module 4 starts
 
-This week we start Module 4: Build an AI Coding Agent.
+Deployment is not the end of the development workflow. Once an application is running, you need evidence about what it is doing and a disciplined way to respond when something fails.
 
-This module goes behind the curtain. Instead of only using coding agents, you will look at how they are structured, how they call tools, and how prompts guide them inside a real codebase.
-
-In this module, you will:
-
-- Build a coding agent that scaffolds and extends projects.
-- Use a Django template as the base project.
-- Review OpenAI Responses API and function calling.
-- Define tools for file reading, file writing, command execution, search, and file tree inspection.
-- Run an agent with ToyAIKit and explore frameworks such as OpenAI Agents SDK, PydanticAI, and Z.ai.
+Module 4 is DevOps and Observability for AI-Built Apps. You will think about what to observe, which failures should trigger alerts, what context an investigation needs, where coding agents can help safely, and which production permissions must remain human-controlled.
 
 Materials:
-https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-build-coding-agent
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops
 
-Course platform:
-{{ course_platform_url }}
+Recording:
+https://www.youtube.com/watch?v=YkxLo_FRoQw
 
-Course playlist:
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
+Companion article:
+https://aishippingblog.com/p/devops-and-observability-for-an-ai
 
-There is no graded homework documented for this module in the course notes we have.
+Homework 4 is not published yet.
 
-Use this week to run the examples and understand the agent loop:
+The repository page is currently a draft placeholder saying that the questions are being prepared and will likely change. Do not plan your submission from the placeholder; check the page again when Homework 4 is announced.
 
-- How the agent receives a developer prompt.
-- How it reads and writes files.
-- How it runs commands.
-- How it searches the project.
-- How it uses tool results to make the next change.
+Homework page:
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/04-devops/homework.md
 
-If this cohort adds homework for Module 4:
-{{ homework_4_submission_url }}
+Submission page:
+https://courses.datatalks.club/ai-dev-tools-2026/homework/hw4
 
-Deadline, if added:
-{{ homework_4_deadline }}
+Deadline: September 29, 2026 at 01:00 Europe/Madrid (September 28 at 23:00 UTC).
 
-Questions:
-Ask in the course-ai-dev-tools-zoomcamp Slack channel.
+Next week, the final module will focus on reusable coding-agent capabilities.
 
-Slack:
-https://datatalks.club/slack.html
-
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
-
-Remember: agents are easier to use when you understand their tools, prompts, and failure modes.
+Questions belong in the course Slack channel:
+https://app.slack.com/client/T01ATQK62F8/C09HWT76L95

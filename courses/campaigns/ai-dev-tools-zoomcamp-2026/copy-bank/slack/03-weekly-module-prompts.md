@@ -2,20 +2,21 @@
 
 Use one prompt per module week after the automatic module announcement has already reached Slack.
 
-## Module 1: Tool Comparison
+## Module 1: AI-Native Workflow Design
 
 Module 1 question:
 
-Which AI coding tool surprised you most so far, positively or negatively?
+Which part of your workflow made the agent's work easiest to execute and independently verify?
 
 Please include:
 
-- Tool name.
-- What you asked it to do.
-- What worked.
-- What you had to fix or review manually.
+- The requirement or backlog task.
+- Its acceptance criteria and boundaries.
+- The durable context you provided.
+- The implementation role and the independent QA check.
+- What failed, looped back to implementation, or required a human decision.
 
-The most useful answers are concrete. "It was good" is less helpful than "it generated a working UI but missed the keyboard controls".
+The most useful answers are concrete. "The agent did well" is less helpful than "the task passed the API tests but QA returned it because it missed an accessibility acceptance criterion."
 
 ## Module 2: End-to-End Workflow
 

@@ -15,11 +15,11 @@ Alexey will walk through:
 
 - What you'll build: a complete AI-assisted app with frontend, backend, API contract, database, tests, deployment, and CI/CD
 - How the course works: videos, homework, deadlines, leaderboard, peer review, and certificate path
-- The tool landscape: ChatGPT, Claude, GitHub Copilot, Cursor, Codex, Claude Code, Lovable, Bolt, MCP, FastAPI, React, Docker, GitHub Actions, and n8n
-- How to use AI without losing control: prompts, reviews, tests, debugging, and keeping the code maintainable
+- How Module 1 turns a vague idea into a specification, focused backlog, implementation workflow, and independent QA process
+- How durable context, agent roles, loop engineering, graph engineering, and human review keep the work controlled
 - Where to get help: DataTalks.Club Slack, Telegram updates, FAQ, and community support
 
-You'll also hear practical advice on choosing tools, avoiding tool-hopping, and getting the most from coding assistants during the cohort.
+You'll also hear practical advice on making product decisions, writing checkable acceptance criteria, and reviewing agent work during the cohort.
 
 ## Is This Course for You?
 

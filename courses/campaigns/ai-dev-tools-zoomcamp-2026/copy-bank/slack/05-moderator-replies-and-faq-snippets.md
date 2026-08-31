@@ -37,7 +37,7 @@ You do not need to use one specific paid tool for the whole course.
 
 The course covers several tools and workflows. Some tools may have free-tier limits, and some optional workflows may use API keys or paid services.
 
-The main skill is learning how to use AI tools with context, review, tests, debugging, and documentation.
+The main skill is learning how to specify work, give agents durable context, separate implementation from independent QA, and keep human decisions and review central.
 
 ## I Am New to AI Coding Tools
 
@@ -50,7 +50,7 @@ You should be comfortable with:
 - Git and GitHub basics.
 - Reading and debugging code.
 
-Start with Module 1 and focus on the workflow, not on mastering every tool at once.
+Start with Module 1 and focus on the workflow: specification, backlog tasks, durable context, implementation, independent QA, and human review. You do not need to master every tool at once.
 
 ## I Do Not Know Web Development
 

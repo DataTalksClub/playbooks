@@ -1,49 +1,27 @@
 AI Dev Tools Zoomcamp: Module 5 starts
 
-This week we start Module 5: AI for Testing, CI/CD and DevOps.
+Across the course, you have used coding agents for planning, implementation, testing, deployment, and operations. The final module asks how to make useful agent behavior reusable without giving every task the same context and permissions.
 
-This module connects AI tools to engineering quality. The point is not to let AI write everything. The point is to use AI around review, testing, delivery, and operations while keeping the engineering checks.
-
-In this module, you will:
-
-- Use AI for PR reviews and summaries.
-- Work with change-risk hints and automated test generation.
-- Add coverage gates, LLM evals, and regression checks in CI.
-- Draft release notes, changelogs, deployment runbooks, and incident postmortems.
-- Think through secure AI usage around secrets, data redaction, OSS policy, artifact retention, and audit.
+Module 5 is Coding Agent Capabilities. You will work with reusable skills and specialized subagents, decide which instructions and tools each task needs, define boundaries, and make the result verifiable by another person.
 
 Materials:
-https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-cicd-devops
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities
 
-Course platform:
-{{ course_platform_url }}
+Recording:
+https://www.youtube.com/watch?v=t8OrAjNO2Zs
 
-Course playlist:
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
+Companion article:
+https://aishippingblog.com/p/coding-agent-building-blocks-reusable
 
-There is no graded homework documented for this module in the course notes we have.
+There is no graded Homework 5 in the 2026 cohort. Use this week to create or improve one reusable capability and apply it to a real task in your project.
 
-Use this week to practice the parts that fit your project:
+After Module 5, the course moves to the final project. Review the requirements early so you have time to choose a clear problem and build something another person can run, test, and review:
 
-- Add or improve tests.
-- Add CI checks.
-- Try an AI-assisted PR summary or review.
-- Draft release notes or a changelog.
-- Document where AI was used and what you reviewed manually.
+https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/
 
-If this cohort adds homework for Module 5:
-{{ homework_5_submission_url }}
+Project 1 deadline: October 20, 2026 at 01:00 Europe/Madrid (October 19 at 23:00 UTC).
 
-Deadline, if added:
-{{ homework_5_deadline }}
+Project 2 deadline: November 10, 2026 at 00:00 Europe/Madrid (November 9 at 23:00 UTC).
 
-Questions:
-Ask in the course-ai-dev-tools-zoomcamp Slack channel.
-
-Slack:
-https://datatalks.club/slack.html
-
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
-
-Remember: AI can help with testing and delivery, but the checks still matter.
+Questions and project-scope discussions belong in the course Slack channel:
+https://app.slack.com/client/T01ATQK62F8/C09HWT76L95

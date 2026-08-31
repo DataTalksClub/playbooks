@@ -1,49 +1,31 @@
 AI Dev Tools Zoomcamp: Module 2 starts
 
-This week we start Module 2: End-to-End Project.
+This week we move from designing an AI-native workflow to using it across a full-stack application.
 
-This module is about using AI tools across a full application workflow. You will work with frontend/backend integration, API contracts, tests, database support, containers, deployment, and CI/CD.
-
-In this module, you will:
-
-- Build a frontend with Lovable, React, and tests.
-- Use GitHub Codespaces with Antigravity, Cursor, Copilot, Codex, or local tools.
-- Extract OpenAPI specs from frontend needs.
-- Generate a FastAPI backend from OpenAPI specs.
-- Add database support, tests, Docker Compose, Render deployment, and GitHub Actions.
+Module 2 is Build and Ship an AI-Assisted Full-Stack App. The focus is the complete development loop: planning the application, coordinating frontend and backend work, testing the integration, documenting the result, and getting it deployed.
 
 Materials:
-https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-development
 
-Reference app:
-https://github.com/alexeygrigorev/snake-arena-online
+Recording:
+https://www.youtube.com/watch?v=x9dq5nBpDg8
 
-Course platform:
-{{ course_platform_url }}
+Companion article:
+https://aishippingblog.com/p/build-and-ship-a-full-stack-app-with
 
-Course playlist:
-https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
+Important homework note:
 
-Homework 2:
-{{ homework_2_url }}
+The current Homework 2 page is explicitly marked DRAFT. It sketches a collaborative coding interview platform, but it also says that the questions will very likely change. Treat the page as a preview, not as the final assignment, and check it again before you start and before you submit.
 
-Submission form:
-{{ homework_2_submission_url }}
+Draft instructions:
+https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/02-development/homework.md
 
-Deadline:
-{{ homework_2_deadline }}
+Submission page:
+https://courses.datatalks.club/ai-dev-tools-2026/homework/hw2
 
-Submission forms close automatically after the deadline.
+Deadline: September 15, 2026 at 01:00 Europe/Madrid (September 14 at 23:00 UTC).
 
-Homework 2 is a real-time collaborative coding interview platform built with AI assistance. The goal is to practice the messy middle: tests, client/server integration, local dev commands, containerization, deployment, and demoing the result.
+Next week, Module 3 will focus on testing, containerizing, and deploying the application.
 
-Questions:
-Ask in the course-ai-dev-tools-zoomcamp Slack channel.
-
-Slack:
-https://datatalks.club/slack.html
-
-FAQ:
-https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
-
-Remember: use AI tools, but review what they produce.
+Questions belong in the course Slack channel:
+https://app.slack.com/client/T01ATQK62F8/C09HWT76L95

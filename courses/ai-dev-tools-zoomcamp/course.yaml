@@ -14,6 +14,7 @@ course:
 urls:
   github: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp"
   course_article: "https://datatalks.club/blog/ai-dev-tools-zoomcamp-2025-free-course-to-master-coding-assistants-agents-and-automation.html"
+  cohort_2026_guide: "https://aishippingblog.com/p/ai-dev-tools-zoomcamp-2026-starts"
   landing_page: "-"
   registration: "https://courses.datatalks.club/register/ai-dev-tools/"
   course_platform: "https://courses.datatalks.club/ai-dev-tools-2026/"
@@ -24,18 +25,43 @@ urls:
   telegram_channel: "https://t.me/aidevtoolszoomcamp"
   documentation: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/"
   logistics_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/"
+  course_work_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/course-work/"
+  homework_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/homework/"
+  joining_mid_cohort_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/joining-mid-cohort/"
+  leaderboard_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/leaderboard/"
+  peer_review_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/peer-review/"
   certification_docs: "https://datatalks.club/docs/courses/zoomcamp-logistics/certification/"
   project_docs: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/"
   curriculum_docs: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/curriculum/"
   environment_docs: "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/"
   faq: "https://datatalks.club/faq/ai-dev-tools-zoomcamp.html"
+  faq_proposal: "https://github.com/DataTalksClub/faq/issues/new?template=faq-proposal.yml"
   question_guidelines: "https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/"
   community_guidelines: "https://datatalks.club/slack/guidelines.html"
   learning_in_public: "https://datatalks.club/docs/courses/zoomcamp-logistics/learning-in-public/"
   projects: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/project"
-  module_1_examples:
-    chatgpt_snake: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview/snake-chatgpt"
-    claude_code_snake: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview/snake-claude-code"
+  module_1_materials: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow"
+  cohort_2026_module_resources:
+    module_1:
+      materials: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow"
+      companion_article: "https://aishippingblog.com/p/ai-native-development-specifications"
+      recording: "https://www.youtube.com/watch?v=VUJxJGpaDEs"
+    module_2:
+      materials: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-development"
+      companion_article: "https://aishippingblog.com/p/build-and-ship-a-full-stack-app-with"
+      recording: "https://www.youtube.com/watch?v=x9dq5nBpDg8"
+    module_3:
+      materials: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-deployment"
+      companion_article: "https://aishippingblog.com/p/deploy-a-full-stack-app-with-ai-coding"
+      recording: "https://www.youtube.com/watch?v=gxt5ZDVnBMM"
+    module_4:
+      materials: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops"
+      companion_article: "https://aishippingblog.com/p/devops-and-observability-for-an-ai"
+      recording: "https://www.youtube.com/watch?v=YkxLo_FRoQw"
+    module_5:
+      materials: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities"
+      companion_article: "https://aishippingblog.com/p/coding-agent-building-blocks-reusable"
+      recording: "https://www.youtube.com/watch?v=t8OrAjNO2Zs"
   module_2_reference_app: "https://github.com/alexeygrigorev/snake-arena-online"
   module_3_demo_repo: "https://github.com/thelearningdev/mcp-ai-dev-workflow"
   module_6_workshop: "https://github.com/moeinforoughi/n8n_base"
@@ -52,6 +78,45 @@ cohort_cadence:
     registration_status: "open"
   live_cohort_note: "Lectures are pre-recorded; live cohort means shared deadlines, scored homework, leaderboard, peer review, and certificate eligibility."
 
+cohort_schedule:
+  cohort_year: 2026
+  canonical_timezone: "UTC"
+  display_timezone: "Europe/Madrid"
+  homework_deadlines:
+    - number: 1
+      title: "AI-Native Developer Workflow"
+      folder: "01-overview"
+      submission_url: "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw1"
+      deadline_utc: "2026-09-07T23:00:00Z"
+      deadline_local: "2026-09-08T01:00:00+02:00"
+    - number: 2
+      title: "Build and Ship an AI-Assisted Full-Stack App"
+      folder: "02-development"
+      submission_url: "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw2"
+      deadline_utc: "2026-09-14T23:00:00Z"
+      deadline_local: "2026-09-15T01:00:00+02:00"
+    - number: 3
+      title: "Test, Containerize, and Deploy an AI-Assisted App"
+      folder: "03-deployment"
+      submission_url: "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw3"
+      deadline_utc: "2026-09-21T23:00:00Z"
+      deadline_local: "2026-09-22T01:00:00+02:00"
+    - number: 4
+      title: "DevOps and Observability for AI-Built Apps"
+      folder: "04-devops"
+      submission_url: "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw4"
+      deadline_utc: "2026-09-28T23:00:00Z"
+      deadline_local: "2026-09-29T01:00:00+02:00"
+  project_deadlines:
+    - number: 1
+      submission_url: "https://courses.datatalks.club/ai-dev-tools-2026/project/project1"
+      deadline_utc: "2026-10-19T23:00:00Z"
+      deadline_local: "2026-10-20T01:00:00+02:00"
+    - number: 2
+      submission_url: "https://courses.datatalks.club/ai-dev-tools-2026/project/project2"
+      deadline_utc: "2026-11-09T23:00:00Z"
+      deadline_local: "2026-11-10T00:00:00+01:00"
+
 delivery:
   lectures: "pre-recorded"
   live_sessions: "Q&A and updates announced separately"
@@ -59,6 +124,23 @@ delivery:
     live_cohort: "graded"
     self_paced: "available but not scored"
     certificate_requirement: "not required for certificate"
+    source:
+      cohort_year: 2026
+      cohort_base_url: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/cohorts/2026"
+      file_name: "homework.md"
+      folder_url_pattern: "{cohort_base_url}/{folder}"
+      homework_url_pattern: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/{cohort_year}/{folder}/homework.md"
+      locations:
+        - folder: "01-overview"
+          homework_url: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/01-overview/homework.md"
+        - folder: "02-development"
+          homework_url: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/02-development/homework.md"
+        - folder: "03-deployment"
+          homework_url: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/03-deployment/homework.md"
+        - folder: "04-devops"
+          homework_url: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/04-devops/homework.md"
+        - folder: "05-agent-capabilities"
+          homework_url: "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/05-agent-capabilities/homework.md"
   submissions_platform: "courses.datatalks.club"
   certificate_available:
     live_cohort: true
@@ -108,6 +190,13 @@ time_commitment:
 
 topics:
   - "AI-assisted software development"
+  - "product specifications"
+  - "backlog design"
+  - "context engineering"
+  - "loop engineering"
+  - "graph engineering"
+  - "multi-agent orchestration"
+  - "independent QA"
   - "vibe coding"
   - "coding assistants"
   - "AI IDEs"
@@ -180,16 +269,16 @@ tools:
 
 modules:
   - number: 1
-    title: "Introduction to Vibe Coding / AI Tools Overview"
-    source_path: "01-overview/"
-    project_example: "Snake game"
+    title: "AI-Native Developer Workflow"
+    source_path: "01-ai-native-workflow/"
     highlights:
-      - "AI-assisted development with a Snake game example"
-      - "Chat applications for exploration and prototyping"
-      - "Coding assistants and IDE integrations"
-      - "Project bootstrappers"
-      - "Agents that read/write files, run commands, and automate workflows"
-      - "Tool comparison: ChatGPT, Claude, DeepSeek, Microsoft Copilot, Claude Code, GitHub Copilot, Cursor, Pear, Bolt, Lovable, Anthropic Computer Use, PR Agent"
+      - "Refine a vague product idea into a specification and choose a technology stack you can review"
+      - "Break the specification into focused backlog tasks with goals, acceptance criteria, constraints, and boundaries"
+      - "Give coding agents durable context through AGENTS.md and supporting project documents"
+      - "Separate task grooming, implementation, and independent verification with product manager, software engineer, and QA roles"
+      - "Use loop engineering to continue work until a checkable condition is met"
+      - "Use graph engineering to orchestrate specialized agents and return failed tasks to implementation"
+    outcome: "Design and run an AI-native workflow from initial idea through implementation and independent QA while keeping human decisions and review central."
   - number: 2
     title: "End-to-End Project (Snake)"
     source_path: "02-end-to-end/"
@@ -361,17 +450,14 @@ proof_assets:
     - "Finnish learning website using Antigravity, Gemini, Claude, Context7 MCP, TypeScript, Python, Next.js, FastAPI, SQLite, and GitHub Actions"
 
 research_metadata:
-  researched_on: "2026-07-06"
-  source_repo_commit:
-    sha: "32fa4101a0d2bd284b6c56077946df9157d0f7a7"
-    date: "2026-07-04"
-    message: "Antigravity MCP server setup process (#8)"
+  researched_on: "2026-08-31"
   notes:
     - "The DataTalks docs page still says the 2026 date is TBA, but the current GitHub README and cohorts/2026 README list August 31, 2026."
     - "The course is explicitly about AI dev tools and developer productivity, not LLM application engineering topics such as RAG."
   sources:
     - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp"
-    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview"
+    - "https://aishippingblog.com/p/ai-dev-tools-zoomcamp-2026-starts"
+    - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow"
     - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end"
     - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp"
     - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-build-coding-agent"

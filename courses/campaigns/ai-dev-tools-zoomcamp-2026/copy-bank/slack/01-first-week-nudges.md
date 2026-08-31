@@ -18,35 +18,36 @@ If you are blocked, include your OS, the command you ran, and the error message.
 Environment setup:
 https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/
 
-## First Tool Comparison Prompt
+## First Workflow Design Prompt
 
-Module 1 is a good time to compare tools without overthinking the whole landscape.
+Module 1 starts before implementation: make the work explicit enough that an agent can execute it and another agent can verify it.
 
-If you tried more than one assistant, what was the difference?
+What did you define before asking a coding agent to implement anything?
 
-Useful things to compare:
+Useful details to share:
 
-- Did it understand the task?
-- Did it create runnable code?
-- Did it explain the changes?
-- Did it add tests?
-- Did it make mistakes you had to catch?
-- Was it easy to continue after the first result?
+- The product requirement or user problem.
+- The technology stack and why you can review it.
+- One focused backlog task and its acceptance criteria.
+- Important constraints or boundaries.
+- Context you added to `AGENTS.md` or another project document.
+- How independent QA will decide whether the task passes.
 
-Reply with the tool name and one concrete observation.
+Reply with one decision that made the task clearer or easier to verify.
 
 ## Getting Unstuck Prompt
 
-If an AI tool gives you code that almost works, do not immediately ask it to rewrite everything.
+If an implementation almost works, define the condition that is still failing before starting another agent run.
 
 Try this loop:
 
-1. Run the app or tests.
-2. Copy the exact error.
-3. Ask the tool to explain the failure.
-4. Ask for the smallest fix.
-5. Re-run the command.
-6. Commit only after you understand the change.
+1. Write the checkable condition the task must satisfy.
+2. Run the relevant app, test, or verification command.
+3. Capture the evidence for what failed.
+4. Return the focused task to implementation with that evidence.
+5. Repeat until the condition passes or a human decision is needed.
+6. Run independent QA against the original acceptance criteria.
+7. Review the result before accepting or committing it.
 
 If you are stuck in this loop, post the command, error, and what changed between attempts.
 
@@ -56,12 +57,13 @@ For Homework 1, start small.
 
 The goal is not to create a perfect app on the first try. The goal is to practice the workflow:
 
-- Ask the AI tool for a plan.
-- Create one piece at a time.
-- Run the app.
-- Debug failures.
-- Add or run tests.
-- Document what you did.
+- Write the requirement and acceptance criteria.
+- Break the work into focused backlog tasks.
+- Give the agent the required project context.
+- Implement one task at a time.
+- Verify the result independently against the acceptance criteria.
+- Return failed tasks to implementation with concrete evidence.
+- Review and document what you accepted.
 
 If you want feedback, share your repo and the part you want someone to look at.
 
@@ -71,4 +73,4 @@ Quick check:
 
 What was the first thing that confused you in Module 1?
 
-It can be a tool, a setup step, a generated code change, a command, or a concept. Short answers are useful. If several people mention the same thing, we can clarify it for everyone.
+It can be a requirement, backlog task, acceptance criterion, agent role, piece of context, QA check, setup step, or command. Short answers are useful. If several people mention the same thing, we can clarify it for everyone.
