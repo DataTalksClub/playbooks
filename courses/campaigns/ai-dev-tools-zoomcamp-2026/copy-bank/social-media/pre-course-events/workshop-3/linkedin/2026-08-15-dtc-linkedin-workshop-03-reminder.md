@@ -21,4 +21,4 @@ Join to see these mechanisms combined around one application and learn where per
 
 - Angle: Final community reminder centered on the capability framework and safe application.
 - CTA: RSVP for Workshop 3.
-- Source material: `copy-bank/events/workshop-03-coding-agent-capabilities.md`.
+- Source material: `copy-bank/events/05-2026-08-17-coding-agent-capabilities.md`.

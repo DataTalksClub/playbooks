@@ -4403,7 +4403,7 @@ I've seen this repeatedly from people I know personally.
 
 This is one of the core benefits of learning in public: when your work is visible, you attract opportunities.
 
-I wrote more about other benefits of learning in public and other examples in my latest newsletter: https://alexeyondata.substack.com/p/benefits-of-learning-in-public-and
+I wrote more about other benefits of learning in public and other examples in my latest newsletter: https://aishippingblog.com/p/benefits-of-learning-in-public-and
 
 Learning in public makes your work visible, and that widens the range of possible outcomes for you.
 
@@ -4417,7 +4417,7 @@ I've seen this repeatedly from people I know personally.
 
 This is one of the core benefits of learning in public: when your work is visible, you attract opportunities.
 
-I wrote more about other benefits of learning in public and other examples in my latest newsletter: https://alexeyondata.substack.com/p/benefits-of-learning-in-public-and
+I wrote more about other benefits of learning in public and other examples in my latest newsletter: https://aishippingblog.com/p/benefits-of-learning-in-public-and
 
 ## 2026-01-30T15:00:13.448Z
 
@@ -5016,7 +5016,7 @@ These scores reflect consistent effort over the course of months.
 
 You can check your personal Wrapped, course-level metrics, and other community stats here: https://courses.datatalks.club/wrapped/2025/
 
-I've also shared how I built this interface and metrics pipeline in my latest free newsletter: https://alexeyondata.substack.com/
+I've also shared how I built this interface and metrics pipeline in my latest free newsletter: https://aishippingblog.com/
 
 Huge thanks to everyone who participated in the DataTalksClub community and our courses in 2025!
 
@@ -5043,7 +5043,7 @@ These scores reflect consistent effort over the course of months.
 
 You can check your personal Wrapped, course-level metrics, and other community stats here: https://courses.datatalks.club/wrapped/2025/
 
-I've also shared how I built this interface and metrics pipeline in my latest free newsletter: https://alexeyondata.substack.com/
+I've also shared how I built this interface and metrics pipeline in my latest free newsletter: https://aishippingblog.com/
 
 Huge thanks to everyone who participated in the DataTalksClub community and our courses in 2025!
 
@@ -5139,7 +5139,7 @@ You can check:
 
 here: https://courses.datatalks.club/wrapped/2025/
 
-I'll also share how I built this interface in my next free newsletter: https://alexeyondata.substack.com/
+I'll also share how I built this interface in my next free newsletter: https://aishippingblog.com/
 
 5,000+ people submitted at least one homework in our free Zoomcamps in 2025.
 
@@ -5161,7 +5161,7 @@ You can check:
 
 here: https://courses.datatalks.club/wrapped/2025/
 
-I'll also share how I built this interface in my next free newsletter: https://alexeyondata.substack.com/
+I'll also share how I built this interface in my next free newsletter: https://aishippingblog.com/
 
 ## 2026-01-02T15:00:24.147Z
 
@@ -5306,7 +5306,7 @@ Check out my profile: https://www.trygitwrap.com/alexeygrigorev
 
 And something a bit more personal: here's my Spotify Recap with the music I've been listening to while working.
 
-I share more updates like this in my newsletter: https://alexeyondata.substack.com/subscribe
+I share more updates like this in my newsletter: https://aishippingblog.com/subscribe
 
 Here's a quick look at what I’ve been up to lately and a bit of my 2025 wrapped 👇🏼
 

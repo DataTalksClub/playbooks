@@ -42,4 +42,4 @@ https://courses.datatalks.club/register/ai-dev-tools/
 
 - Angle: AI Dev Tools Zoomcamp launch update and Workshop 1 invitation
 - CTA: Register and RSVP for Workshop 1
-- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv
+- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv

@@ -38,4 +38,4 @@ https://luma.com/lmkti8zj
 
 - Angle: Telegram launch announcement; auto-reposts to DTC Slack.
 - CTA: Register for cohort and Workshop 1.
-- Source material: `copy-bank/telegram/00-start-here-pinned.md`, `copy-bank/events/workshop-01-ai-native-developer-workflow.md`.
+- Source material: `copy-bank/telegram/00-start-here-pinned.md`, `copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md`.

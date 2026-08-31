@@ -31,4 +31,4 @@ RSVP: https://luma.com/50kvfku2
 
 - Angle: Explain how reviewed artifacts create reliable handoffs between AI-assisted tasks.
 - CTA: RSVP for Workshop 2.
-- Source material: `copy-bank/events/workshop-02-build-and-ship-ai-assisted-full-stack-app.md`.
+- Source material: `copy-bank/events/02-2026-08-03-build-and-ship-ai-assisted-full-stack-app.md`.

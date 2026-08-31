@@ -42,4 +42,4 @@ https://courses.datatalks.club/register/ai-dev-tools/
 
 - Angle: Explain why faster code generation requires specifications, context, loops, and agent handoffs, then share the recording and notes.
 - CTA: Watch the recording, read the notes, and register for the cohort.
-- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv.
+- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv.

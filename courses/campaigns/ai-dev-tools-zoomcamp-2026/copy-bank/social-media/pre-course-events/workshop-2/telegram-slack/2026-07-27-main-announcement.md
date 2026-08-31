@@ -13,7 +13,7 @@ event_location: "YouTube"
 rsvp_url: "https://luma.com/50kvfku2"
 created: "2026-07-21"
 source_material:
-  - "courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-02-build-and-ship-ai-assisted-full-stack-app.md"
+  - "courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/02-2026-08-03-build-and-ship-ai-assisted-full-stack-app.md"
   - "courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/00-cohort-brief.md"
   - "courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv"
   - "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/cohorts/2025/02-end-to-end"

@@ -35,4 +35,4 @@ https://luma.com/lmkti8zj
 
 - Angle: What do you want covered in Workshop 1?
 - CTA: Reply with questions
-- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv
+- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv

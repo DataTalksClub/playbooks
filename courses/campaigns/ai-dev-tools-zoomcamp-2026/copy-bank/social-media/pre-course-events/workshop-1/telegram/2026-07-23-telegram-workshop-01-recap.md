@@ -39,4 +39,4 @@ If you work with coding agents and want a more structured way to use them, check
 
 - Angle: Explain why AI-native development needs specifications, context, loops, and agent handoffs, then share the Workshop 1 recording and notes.
 - CTA: Watch the recording and read the notes.
-- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md.
+- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md.

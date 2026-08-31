@@ -46,4 +46,4 @@ https://luma.com/50kvfku2
 
 - Angle: Share the Workshop 1 recording, three takeaways, written notes, and the next workshop.
 - CTA: Watch the recording, read the notes, and RSVP for Workshop 2.
-- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv.
+- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv.

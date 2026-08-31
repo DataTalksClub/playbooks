@@ -1,11 +1,11 @@
 ---
 name: newsletter-editor
-description: Edit, critique, rewrite, and polish Alexey on Data newsletter drafts in Alexey's first-person engineering voice. Use for long-form newsletter posts by Alexey about DataTalks.Club, AI, ML engineering, MLOps, courses, incidents, experiments, tools, or practical technical workflows. Do not use for newsletters sent in DataTalks.Club's organizational voice.
+description: Edit, critique, rewrite, and polish AI Shipping Blog newsletter drafts in Alexey's first-person engineering voice. Use for long-form newsletter posts by Alexey about DataTalks.Club, AI, ML engineering, MLOps, courses, incidents, experiments, tools, or practical technical workflows. Do not use for newsletters sent in DataTalks.Club's organizational voice.
 ---
 
 # Newsletter Editor
 
-Use this skill for Alexey on Data newsletter work. The subject may be DataTalks.Club, a course, or a community event, but the writer remains Alexey. Use `$datatalks-event-promotion` for copy sent by DataTalks.Club as an organization.
+Use this skill for AI Shipping Blog newsletter work. The subject may be DataTalks.Club, a course, or a community event, but the writer remains Alexey. Use `$datatalks-event-promotion` for copy sent by DataTalks.Club as an organization.
 
 ## Workflow
 

@@ -31,4 +31,4 @@ Join if you want to customize a coding agent for your own repository without los
 
 - Angle: Announce who should join and the capability framework attendees will learn.
 - CTA: RSVP for Workshop 3.
-- Source material: `copy-bank/events/workshop-03-coding-agent-capabilities.md`.
+- Source material: `copy-bank/events/05-2026-08-17-coding-agent-capabilities.md`.

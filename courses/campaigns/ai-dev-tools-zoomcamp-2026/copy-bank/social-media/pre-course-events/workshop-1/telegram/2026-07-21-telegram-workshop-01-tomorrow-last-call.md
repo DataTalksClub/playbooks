@@ -7,7 +7,7 @@ calendar_angle: "Tomorrow: Workshop 1 on AI-native developer workflow"
 relative_week: "T-6"
 phase: "Demonstrate the course approach"
 created: "2026-07-21"
-source_pack: "courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md"
+source_pack: "courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md"
 ---
 
 # Post
@@ -36,4 +36,4 @@ https://luma.com/lmkti8zj
 
 - Angle: Telegram last-call reminder.
 - CTA: RSVP for Workshop 1.
-- Source material: User-provided Luma event copy; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md
+- Source material: User-provided Luma event copy; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md

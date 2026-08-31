@@ -24,6 +24,9 @@ For a new cohort:
 | --- | --- |
 | `courses/00-cohort-brief.md` | Planning template for cohort basics, registration gap, channel decisions, event decisions, owners, and approval. |
 | `courses/01-launch-checklist.md` | Execution checklist for asset updates, events, promotion, and outreach. |
+| `courses/01-course-assets-map.md` | Cross-repository map of course assets, URLs, and launch destinations. |
+| `courses/01-course-platform-setup.md` | Process for opening a cohort on the course management platform. |
+| `courses/01-course-repo-cohort-setup.md` | Process for opening and archiving cohort material in the course repository. |
 | `courses/02-course-launch-social-system.md` | Main social launch system: campaign phases, post types, cadence, channel adaptation, metrics, and reusable strategy. |
 | `courses/02-campaign-calendar.csv` | Campaign calendar skeleton with relative timing, phase, platform, post type, CTA, needed assets, and status. |
 | `courses/03-retrospective.md` | Post-cohort retrospective template for final numbers, best channels, best posts, repeated questions, and next-year improvements. |
@@ -53,7 +56,7 @@ Common structure:
 | `course.yaml` | Structured source of truth for course metadata: URLs, cadence, delivery, prerequisites, audience, topics, tools, certificate rules, CTAs, and logistics. |
 | `copy-bank/faq.md` | Reusable FAQ copy and objection-handling snippets. |
 | `copy-bank/email/` | Email copy and reusable newsletter/module-email templates. |
-| `copy-bank/events/` | Event descriptions such as course launch sessions and pre-course live Q&A sessions. |
+| `copy-bank/events/` | Event descriptions such as pre-course workshops, launch sessions, and live Q&A sessions. |
 | `copy-bank/website/` | Website banner, landing page, and page-copy blocks where available. |
 | `copy-bank/github/` | GitHub README update blocks where available. |
 | `copy-bank/youtube/` | YouTube descriptions and pinned comment blocks where available. |
@@ -81,9 +84,10 @@ Use `ai-dev-tools-zoomcamp/` as the reference implementation when deepening the 
 
 `courses/campaigns/` stores campaign-specific decisions and assets. Use it for work tied to a particular course cohort, year, registration target, and launch calendar.
 
-Current campaign workspace:
+Current campaign workspaces:
 
 - `courses/campaigns/ai-dev-tools-zoomcamp-2026/`
+- `courses/campaigns/ml-zoomcamp-2026/`
 
 Typical structure:
 
@@ -109,6 +113,18 @@ Start from `courses/campaigns/<course>-<year>/processes/00-cohort-brief.md`. If 
 The most important decision is whether this is a normal launch or an extra-push launch. Extra-push launches add channels such as alumni outreach, influencer outreach, partner posts, external newsletters, communities, podcasts, short clips, SEO, or paid distribution.
 
 Once the brief is complete, use `01-launch-checklist.md` to track execution. The checklist intentionally separates asset updates, events, promotion, and outreach so owners can work in parallel.
+
+### Set Up the Course Platform
+
+Use `courses/01-course-platform-setup.md`. Use the course management agent project (`~/git/course-management-agent`) to make the actual changes; the playbook covers the decisions.
+
+Three things must exist before the campaign can promote anything:
+
+- The course record on `courses.datatalks.club`, with the cohort slug, start date, and certificate settings.
+- The registration campaign, which owns the public registration page and produces the registration link used in every piece of launch copy.
+- The course outline: homeworks and projects with their deadlines. Homeworks are created closed and empty; questions are added later, per module.
+
+Copy the previous cohort's outline and shift it rather than designing a new schedule. Keep the previous homework and project slugs. Deadlines are always Monday at 23:00 UTC. Record the confirmed schedule in the cohort brief, then use those dates when filling the campaign calendar.
 
 ### Build the Campaign Calendar
 
@@ -144,7 +160,10 @@ If a campaign has its own `courses/campaigns/<course>-<year>/course.yaml`, use i
 
 Use `copy-bank/` for reusable copy:
 
-- Put event descriptions in `copy-bank/events/`.
+- Put event descriptions in `copy-bank/events/`, named so they sort by date: `NN-YYYY-MM-DD-slug.md` in a campaign folder, `NN-yyyy-mm-dd-slug.md` in a reusable course folder.
+- Keep recurring events in the reusable course folder: the launch session and the pre-course Q&A. Cohort-specific workshops belong in the campaign folder only.
+- Index past workshops from `copy-bank/events/README.md` in the course folder, so the drafts stay findable after the campaign folder goes quiet.
+- Name the person running an event the **Instructor**, not the host.
 - Put newsletter and module email copy in `copy-bank/email/`.
 - Put Telegram announcements in `copy-bank/telegram/`.
 - Put Slack support prompts in `copy-bank/slack/`.
@@ -216,7 +235,7 @@ Typical workflow:
 The `skills/` folder is the canonical source for Codex behavior and reusable writing guidance in this repository. Each skill keeps routing and essential constraints in `SKILL.md`; substantial style, audience, channel, format, and domain guidance belongs in that skill's `references/` folder.
 
 - `skills/social-content-studio/`: Alexey's social voice, audience, examples, structured post creation, and export workflows.
-- `skills/newsletter-editor/`: Alexey on Data newsletter voice and editing guidance.
+- `skills/newsletter-editor/`: AI Shipping Blog voice and editing guidance for Alexey's newsletter.
 - `skills/datatalks-event-promotion/`: DataTalks.Club event campaign strategy, audience, channel, owner, and platform guidance.
 - `skills/alexey-carousel-generator/`: social carousel and resource-image rendering workflows.
 - `skills/transcript-post-miner/`: transcript analysis for post ideas and clip recommendations.

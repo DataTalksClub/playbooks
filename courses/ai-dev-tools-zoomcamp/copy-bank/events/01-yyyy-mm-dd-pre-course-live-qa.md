@@ -1,5 +1,9 @@
-Title: AI Dev Tools Zoomcamp {{ year }} Pre-Course Live Q&A
-Date: TBD - schedule two weeks before the confirmed {{ day, month, year }} course start date. Example: if the course starts on {{ day, month, year }}, this event should be on {{ day, month, year }}, 17:00-18:00 Europe/Madrid time.
+# AI Dev Tools Zoomcamp {{ year }} Pre-Course Live Q&A
+
+- **Date:** {{ day, month, year }}
+- **Time:** 17:00-18:00 Europe/Berlin
+
+> Schedule this two weeks before the course start date.
 
 Thinking about joining [AI Dev Tools Zoomcamp {{ year }}]({{ registration_url }})? Come to this live Q&A with course creator Alexey Grigorev and get a clear picture of what the course is like before the cohort starts on {{ day, month, year }}.
 
@@ -21,7 +25,20 @@ You'll also hear practical advice on choosing tools, avoiding tool-hopping, and 
 
 AI Dev Tools Zoomcamp is a free hands-on course for people who write code and want to use AI tools in a more structured, reliable way. It is about real developer workflows: coding assistants, AI IDEs, coding agents, MCP, OpenAPI-driven development, testing, CI/CD, deployment, and automation.
 
-You should be comfortable with basic programming, Git, GitHub, and the command line. You do not need previous AI tools experience, web development experience, Django experience, a powerful machine, or a GPU.
+**You should be comfortable with:**
+
+- basic programming
+- Git
+- GitHub
+- the command line
+
+**You don't need:**
+
+- previous AI tools experience
+- web development experience
+- Django experience
+- a powerful machine
+- a GPU
 
 The next live cohort starts on {{ day, month, year }}. You can join it by [registering here]({{ registration_url }}).
 

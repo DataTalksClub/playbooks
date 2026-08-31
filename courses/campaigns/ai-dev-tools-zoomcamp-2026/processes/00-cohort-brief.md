@@ -48,7 +48,7 @@ Notes:
 Default channels:
 
 - [x] DTC newsletter
-- [x] Alexey newsletter
+- [x] Alexey newsletter (AI Shipping Blog)
 - [x] DTC LinkedIn
 - [x] Alexey LinkedIn
 - [x] DTC Twitter/X
@@ -83,7 +83,7 @@ Extra channels for this cohort:
 
 ## 5. Event Decisions
 
-- Pre-course workshops: Yes (All 4 modules)
+- Pre-course workshops: Yes (all 5 modules)
 - Graduate podcast or interview stories: [Yes / No]
 - Pre-course Q&A: Yes
 - Launch stream: Yes
@@ -94,8 +94,9 @@ Confirmed Luma event links:
 
 - Workshop 1: AI-Native Developer Workflow: Using AI Tools Without Losing Control — https://luma.com/lmkti8zj
 - Workshop 2: Build and Ship an AI-Assisted Full-Stack App — https://luma.com/50kvfku2
-- Workshop 3: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents — https://luma.com/ap4l3qlj
+- Workshop 3: Test, Containerize, and Deploy an AI-Assisted App — https://luma.com/v5tjy562
 - Workshop 4: DevOps and Observability for AI-Built Apps — https://luma.com/ycsfxigi
+- Workshop 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents — https://luma.com/ap4l3qlj
 - Pre-Course: AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A — https://luma.com/a8qa5s2s
 - Course Launch: AI Dev Tools Zoomcamp 2026 Course Launch — https://luma.com/tsiusx8s
 

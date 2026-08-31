@@ -52,4 +52,4 @@ https://courses.datatalks.club/register/ai-dev-tools/
 
 - Angle: What you will build in AI Dev Tools Zoomcamp
 - CTA: Register for the cohort
-- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-02-build-and-ship-ai-assisted-full-stack-app.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv
+- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/02-2026-08-03-build-and-ship-ai-assisted-full-stack-app.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv

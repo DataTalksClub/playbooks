@@ -23,4 +23,4 @@ Join if you already use coding agents and want to adapt them to your own reposit
 
 - Angle: Announce a practical framework for choosing and combining coding-agent extensions.
 - CTA: RSVP for Workshop 3.
-- Source material: `copy-bank/events/workshop-03-coding-agent-capabilities.md`.
+- Source material: `copy-bank/events/05-2026-08-17-coding-agent-capabilities.md`.

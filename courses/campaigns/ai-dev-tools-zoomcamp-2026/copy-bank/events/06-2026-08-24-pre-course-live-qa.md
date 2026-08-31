@@ -1,19 +1,10 @@
-Title: AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A
-Hosted by Alexey Grigorev
-Date: Monday, August 24, 2026
-Time: 5:00 PM - 6:00 PM GMT+2 / Europe/Madrid
-Location: YouTube
-Registration: https://luma.com/a8qa5s2s
+# AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A
 
-## Launch Positioning
-
-Role in launch: Converts interested prospects into prepared learners by resolving questions one week before the cohort starts.
-
-Main audience: People considering AI Dev Tools Zoomcamp, registered learners who want orientation, and anyone unsure about prerequisites, tools, workload, or fit.
-
-Main promise: You will get clear answers about the course structure, prerequisites, tools, homework, deadlines, final project, peer review, certificates, and support channels.
-
-Course connection: Bridges the pre-course workshop series into the live cohort starting on August 31, 2026.
+- **Instructor:** Alexey Grigorev
+- **Date:** Monday, August 24, 2026
+- **Time:** 17:00 Europe/Berlin
+- **Location:** YouTube
+- **Registration:** https://luma.com/a8qa5s2s
 
 ## About Event
 
@@ -30,7 +21,7 @@ Alexey will walk through:
 - Who AI Dev Tools Zoomcamp is for
 - What you need before joining
 - What you do not need: prior AI tools experience, web development experience, a powerful machine, or a GPU
-- The four-module course structure
+- The five-module course structure
 - How lectures, homework, deadlines, leaderboard, peer review, and certificates work
 - How the final project works
 - How to choose tools without getting trapped in tool-hopping
@@ -41,18 +32,30 @@ You'll also hear practical advice on preparing your environment, choosing a firs
 
 ## Course Modules
 
-The 2026 cohort updates four modules:
+The 2026 cohort updates five modules:
 
-- [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview?utm_source=luma)
+- [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow?utm_source=luma)
 - [Module 2: Build and Ship an AI-Assisted Full-Stack App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end?utm_source=luma)
-- [Module 3: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-mcp?utm_source=luma)
+- [Module 3: Test, Containerize, and Deploy an AI-Assisted App](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/03-deployment?utm_source=luma)
 - [Module 4: DevOps and Observability for AI-Built Apps](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops?utm_source=luma)
+- [Module 5: Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities?utm_source=luma)
 
 ## Is This Course for You?
 
 AI Dev Tools Zoomcamp is a free hands-on course for people who write code and want to use AI tools in a more structured, reliable way. It is about real developer workflows: planning, coding, reviewing, testing, extending agents, auditing changes, securing software, deployment, and DevOps with AI assistance.
 
-You should be comfortable with basic programming, Git, GitHub, and the command line. You do not need previous AI tools experience, a powerful machine, or a GPU.
+**You should be comfortable with:**
+
+- basic programming
+- Git
+- GitHub
+- the command line
+
+**You don't need:**
+
+- previous AI tools experience
+- a powerful machine
+- a GPU
 
 The next live cohort starts on August 31, 2026. You can join it by [registering here](https://courses.datatalks.club/register/ai-dev-tools/?utm_source=luma).
 

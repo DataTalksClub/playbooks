@@ -26,4 +26,4 @@ RSVP: https://luma.com/ap4l3qlj
 
 - Angle: Final YouTube reminder focused on choosing and combining capabilities safely.
 - CTA: RSVP for Workshop 3.
-- Source material: `copy-bank/events/workshop-03-coding-agent-capabilities.md`.
+- Source material: `copy-bank/events/05-2026-08-17-coding-agent-capabilities.md`.

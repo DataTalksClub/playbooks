@@ -1,6 +1,6 @@
 # Newsletter Announcement Block
 
-Use this block inside DataTalks.Club newsletter or Alexey on Data when AI Dev Tools Zoomcamp needs a compact course announcement.
+Use this block inside the DataTalks.Club newsletter or AI Shipping Blog when AI Dev Tools Zoomcamp needs a compact course announcement.
 
 Source of truth: `courses/campaigns/ai-dev-tools-zoomcamp-2026/course.yaml`
 

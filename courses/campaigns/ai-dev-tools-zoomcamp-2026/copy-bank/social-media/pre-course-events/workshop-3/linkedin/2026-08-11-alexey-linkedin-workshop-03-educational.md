@@ -23,4 +23,4 @@ I will use this map in Workshop 3 to build an extension pack around an applicati
 
 - Angle: Choose a coding-agent extension by identifying the missing capability first.
 - CTA: RSVP for Workshop 3.
-- Source material: `copy-bank/events/workshop-03-coding-agent-capabilities.md`.
+- Source material: `copy-bank/events/05-2026-08-17-coding-agent-capabilities.md`.

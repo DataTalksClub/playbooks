@@ -26,4 +26,4 @@ https://luma.com/50kvfku2
 
 - Angle: Final reminder focused on the complete live demonstration and developer responsibilities.
 - CTA: Register for Workshop 2
-- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-02-build-and-ship-ai-assisted-full-stack-app.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv
+- Source material: courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/02-2026-08-03-build-and-ship-ai-assisted-full-stack-app.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv

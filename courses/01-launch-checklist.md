@@ -1,6 +1,30 @@
 # Launch Checklist
 
+## Course platform setup
+
+Run this first. The registration link and the deadline schedule block most other tasks.
+
+See `01-course-platform-setup.md` for the full process.
+
+- [ ] Confirm start date and project blocks (deadlines are always Monday 23:00 UTC)
+- [ ] Create the course on the platform
+- [ ] Create the registration campaign, or repoint the existing one to this cohort
+- [ ] Create the course outline: homeworks closed and empty, projects with both deadlines
+- [ ] Verify the outline and the registration page
+- [ ] Record the schedule in `00-cohort-brief.md` and the campaign `course.yaml`
+
+## Course repo cohort setup
+
+See `01-course-repo-cohort-setup.md` for the full process.
+
+- [ ] Create `cohorts/<year>/` with the cohort README and per-module homework folders
+- [ ] Archive any replaced or renamed module under `cohorts/<year-1>/`, keeping its old folder name
+- [ ] Link the archived module from the new one under "Previous Cohort Materials"
+- [ ] Re-solve carried-over homework against the current materials before opening it
+
 ## Asset updates
+
+`01-course-assets-map.md` lists the exact file to edit for each item below, per course.
 
 - [ ] Update course GitHub README
 - [ ] Update course article
@@ -14,23 +38,29 @@
 
 Only run if selected in `00-cohort-brief.md`.
 
+Events start at 17:00 Europe/Berlin, on a Monday or sometimes a Tuesday. The launch stream is on the course start date.
+
 - [ ] Create pre-course workshop events
 - [ ] Create pre-course Q&A
 - [ ] Create launch stream
-- [ ] Add event links to `02-campaign-calendar.md`
+- [ ] Add event links to `02-campaign-calendar.csv`
 
 ## Promotion
 
 Plan the following announcements and promotions in the campaign calendar:
 
 - [ ] DTC newsletter
-- [ ] Alexey newsletter (Alexey on Data)
+- [ ] Alexey newsletter (AI Shipping Blog)
 - [ ] DTC LinkedIn
 - [ ] DTC Twitter/X
 - [ ] Alexey LinkedIn
 - [ ] Alexey Twitter/X
 - [ ] DTC Slack
 - [ ] YouTube community post, if used
+- [ ] Reddit post, one month before the start: the cohort is coming, registration is open
+- [ ] Reddit post, on the start day: the cohort starts today
+
+`01-course-assets-map.md` lists the subreddit for each course. Read the subreddit's self-promotion rules before posting, and write for that community rather than pasting launch copy.
 
 ## Outreach
 

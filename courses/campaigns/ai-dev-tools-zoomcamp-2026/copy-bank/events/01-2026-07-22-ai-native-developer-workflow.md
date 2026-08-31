@@ -1,25 +1,18 @@
-Title: AI-Native Developer Workflow: Using AI Tools Without Losing Control
-Hosted by {{ workshop_1_host }} & Alexey Grigorev
-Date: Wednesday, July 22, 2026
-Time: 9:00 AM - 10:30 AM GMT+2 / Europe/Madrid
-Location: YouTube
-Registration: https://luma.com/lmkti8zj
+# AI-Native Developer Workflow: Using AI Tools Without Losing Control
 
-## Launch Positioning
-
-Role in launch: Opens the workshop series with the core course philosophy: use AI coding tools faster while keeping engineering control.
-
-Main audience: Developers, ML engineers, data engineers, and technical data professionals who are trying AI coding tools but want a more disciplined workflow.
-
-Main promise: You will leave with a practical loop for moving from spec to context, plan, edit, test, diff inspection, review, and commit.
-
-Course connection: Previews Module 1 and gives learners the workflow they will use throughout the cohort.
+- **Instructor:** Alexey Grigorev
+- **Date:** Wednesday, July 22, 2026
+- **Time:** 09:00 Europe/Berlin
+- **Location:** YouTube
+- **Registration:** https://luma.com/lmkti8zj
+- **Recording:** https://www.youtube.com/watch?v=VUJxJGpaDEs
+- **Published as:** How to Work with AI Coding Agents: Spec-Driven Development, Context and Loop Engineering, Workflows
 
 ## About Event
 
 This is the 1st workshop in our series to update the AI Dev Tools Zoomcamp content.
 
-This workshop updates [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview?utm_source=luma).
+This workshop updates [Module 1: AI-Native Developer Workflow](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow?utm_source=luma).
 
 In this hands-on session, Alexey Grigorev will show how to turn AI coding tools into a disciplined developer workflow.
 
@@ -45,16 +38,17 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://luma.com/lmkti8zj)
-- [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
-- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
+- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
+- [Build and Ship an AI-Assisted Full-Stack App](https://www.youtube.com/watch?v=x9dq5nBpDg8)
+- [Test, Containerize, and Deploy an AI-Assisted App](https://luma.com/v5tjy562)
 - [DevOps and Observability for AI-Built Apps](https://luma.com/ycsfxigi)
+- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
 - [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
 
 ## Thinking About Joining AI Dev Tools Zoomcamp?
 
-This workshop covers the updated content for [Module 1](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview?utm_source=luma) of [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp?utm_source=luma), our free course on using AI tools in practical software development workflows.
+This workshop covers the updated content for [Module 1](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow?utm_source=luma) of [AI Dev Tools Zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp?utm_source=luma), our free course on using AI tools in practical software development workflows.
 
 The course covers AI-assisted planning, coding, review, testing, coding agent capabilities, MCP, skills, plugins, security, audit, DevOps, and a complete final project.
 

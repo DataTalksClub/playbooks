@@ -38,4 +38,4 @@ https://luma.com/50kvfku2
 
 - Angle: Ask community members which Workshop 1 workflow idea they want to apply.
 - CTA: Reply with a takeaway or question; watch the recording and read the notes.
-- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv.
+- Source material: User-provided Workshop 1 article; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md; courses/campaigns/ai-dev-tools-zoomcamp-2026/processes/02-campaign-calendar.csv.

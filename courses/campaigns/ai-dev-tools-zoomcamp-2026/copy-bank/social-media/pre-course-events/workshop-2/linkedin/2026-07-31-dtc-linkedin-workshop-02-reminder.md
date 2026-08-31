@@ -30,4 +30,4 @@ RSVP: https://luma.com/50kvfku2
 
 - Angle: Final DTC LinkedIn reminder focused on who should attend and what process they will gain.
 - CTA: RSVP for Workshop 2.
-- Source material: `copy-bank/events/workshop-02-build-and-ship-ai-assisted-full-stack-app.md`.
+- Source material: `copy-bank/events/02-2026-08-03-build-and-ship-ai-assisted-full-stack-app.md`.

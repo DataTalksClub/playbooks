@@ -29,4 +29,4 @@ https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43
 
 - Angle: YouTube community announcement for video-oriented audience.
 - CTA: RSVP for Workshop 1 and register for cohort.
-- Source material: `copy-bank/events/workshop-01-ai-native-developer-workflow.md`, `course.yaml`.
+- Source material: `copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md`, `course.yaml`.

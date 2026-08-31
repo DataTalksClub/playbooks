@@ -40,4 +40,4 @@ The 2026 cohort of AI Dev Tools Zoomcamp starts on August 31: https://courses.da
 
 - Angle: Personal workshop invitation in Alexey's practical voice.
 - CTA: RSVP for Workshop 1; secondary cohort registration.
-- Source material: `copy-bank/events/workshop-01-ai-native-developer-workflow.md`, `positioning.md`.
+- Source material: `copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md`, `positioning.md`.

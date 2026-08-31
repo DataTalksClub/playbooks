@@ -1,6 +1,9 @@
-Webinar: Data Engineering Zoomcamp {{ year }}, Course Launch
-Title: Data Engineering Zoomcamp {{ year }} Course Launch
-Date: {{ day, month, year }} - the day the course starts, 17:00-18:00 Europe/Madrid time.
+# Data Engineering Zoomcamp {{ year }} Course Launch
+
+- **Date:** {{ day, month, year }}
+- **Time:** 17:00-18:00 Europe/Berlin
+
+> This runs on the course start date.
 
 The new cohort of [Data Engineering Zoomcamp {{ year }}]({{ registration_url }}) starts today.
 
@@ -22,7 +25,19 @@ There will also be time for live questions, so bring anything about prerequisite
 
 DE Zoomcamp is a free hands-on course for people who want to learn modern data engineering by building real pipelines. The course takes you from local development to cloud warehouses, orchestration, transformations, batch processing, streaming, and project delivery.
 
-You should be comfortable with command line basics, basic programming concepts, SQL fundamentals, and Git basics. You do not need previous data engineering experience, prior cloud experience, advanced Python, or a degree.
+**You should be comfortable with:**
+
+- command line basics
+- basic programming concepts
+- SQL fundamentals
+- Git basics
+
+**You don't need:**
+
+- previous data engineering experience
+- prior cloud experience
+- advanced Python
+- a degree
 
 The cohort starts on {{ day, month, year }}. If you haven't joined yet, you can [register here]({{ registration_url }}).
 

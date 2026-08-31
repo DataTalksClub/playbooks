@@ -7,7 +7,7 @@ calendar_angle: "Tomorrow: Workshop 1 on AI-native developer workflow"
 relative_week: "T-6"
 phase: "Demonstrate the course approach"
 created: "2026-07-21"
-source_pack: "courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md"
+source_pack: "courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md"
 ---
 
 # Post
@@ -44,4 +44,4 @@ https://courses.datatalks.club/register/ai-dev-tools/
 
 - Angle: Last-call LinkedIn post for Workshop 1.
 - CTA: RSVP for the July 22 workshop.
-- Source material: User-provided Luma event copy; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/workshop-01-ai-native-developer-workflow.md
+- Source material: User-provided Luma event copy; courses/campaigns/ai-dev-tools-zoomcamp-2026/copy-bank/events/01-2026-07-22-ai-native-developer-workflow.md

@@ -1,19 +1,11 @@
-Title: Build and Ship an AI-Assisted Full-Stack App
-Hosted by {{ workshop_2_host }} & Alexey Grigorev
-Date: Monday, August 3, 2026
-Time: 3:00 PM - 4:30 PM GMT+2 / Europe/Madrid
-Location: YouTube
-Registration: https://luma.com/50kvfku2
+# Build and Ship an AI-Assisted Full-Stack App
 
-## Launch Positioning
-
-Role in launch: Turns course awareness into a concrete build outcome by showing what an AI-assisted end-to-end project looks like.
-
-Main audience: Developers and technical data professionals who want to use AI tools for complete applications, not isolated code snippets.
-
-Main promise: You will understand how to move from product spec to frontend, backend, OpenAPI contract, database, tests, Docker, deployment, and CI/CD.
-
-Course connection: Previews Module 2 and connects directly to the kind of workflow learners can reuse for the final project.
+- **Instructor:** Alexey Grigorev
+- **Date:** Monday, August 3, 2026
+- **Time:** 15:00 Europe/Berlin
+- **Location:** YouTube
+- **Registration:** https://luma.com/50kvfku2
+- **Recording:** https://www.youtube.com/watch?v=x9dq5nBpDg8
 
 ## About Event
 
@@ -46,10 +38,11 @@ Like the other workshops, this will be a live demo with practical tips and time 
 
 ## All Events in This Series
 
-- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://luma.com/lmkti8zj)
-- [Build and Ship an AI-Assisted Full-Stack App](https://luma.com/50kvfku2)
-- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
+- [AI-Native Developer Workflow: Using AI Tools Without Losing Control](https://www.youtube.com/watch?v=VUJxJGpaDEs)
+- [Build and Ship an AI-Assisted Full-Stack App](https://www.youtube.com/watch?v=x9dq5nBpDg8)
+- [Test, Containerize, and Deploy an AI-Assisted App](https://luma.com/v5tjy562)
 - [DevOps and Observability for AI-Built Apps](https://luma.com/ycsfxigi)
+- [Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents](https://luma.com/ap4l3qlj)
 - [AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A](https://luma.com/a8qa5s2s)
 - [AI Dev Tools Zoomcamp 2026 Course Launch](https://luma.com/tsiusx8s)
 
