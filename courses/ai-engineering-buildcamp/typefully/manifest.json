@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-09-08T14:30:51.945781+00:00",
+  "source": "typefully",
+  "social_set_id": 188312,
+  "tag": "ai-engineering-buildcamp",
+  "records": 106,
+  "platform_post_parts": 332,
+  "statuses": {
+    "draft": 11,
+    "published": 94,
+    "scheduled": 1
+  },
+  "enabled_platforms": {
+    "x": 101,
+    "linkedin": 104,
+    "substack": 1
+  },
+  "files": {
+    "normalized_json": "posts.json",
+    "platform_posts_csv": "posts.csv",
+    "human_readable_markdown": "posts.md",
+    "raw_api_export": "raw-export.json"
+  }
+}
