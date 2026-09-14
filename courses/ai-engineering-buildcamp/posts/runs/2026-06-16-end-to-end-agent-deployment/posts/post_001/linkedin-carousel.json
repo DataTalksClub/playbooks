@@ -1,0 +1,40 @@
+{
+  "title": "Build a deployable agent first",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Build a deployable agent first",
+      "subtitle": "Make the full path work before adding more agent features.",
+      "swipeLabel": "Swipe for the build order"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Start with the path",
+      "body": "The first milestone is not a perfect agent. It is a working path from question to backend, frontend, container, and deployment."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Keep version one small",
+      "body": "A simple tool loop is enough for the first slice. Add memory, vector search, and structured outputs after the deployed version works."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Streaming adds complexity",
+      "body": "Structured outputs are useful, but combining them with streaming and tool events can make the first version harder to reason about."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Then improve the system",
+      "body": "Once the vertical slice runs, add traces, tests, retrieval improvements, auth, and evaluation against a real workflow."
+    },
+    {
+      "type": "outro",
+      "ctaText": "follow for practical AI engineering notes",
+      "supportingText": "Full recording: End-to-End Agent Deployment",
+      "url": "https://youtu.be/h84rcRezNM4"
+    }
+  ]
+}

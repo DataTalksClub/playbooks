@@ -1,0 +1,19 @@
+{
+  "post_id": "post_002",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Grounded in the observed frontend iteration from the transcript.",
+    "Avoids overclaiming that this replaces logging or tracing."
+  ],
+  "changed": [
+    "Reframed visible tool calls as observability, not only UX.",
+    "Kept examples concrete and implementation-level."
+  ]
+}

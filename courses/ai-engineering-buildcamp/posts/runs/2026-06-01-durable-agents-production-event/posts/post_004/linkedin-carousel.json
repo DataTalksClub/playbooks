@@ -1,0 +1,45 @@
+{
+  "title": "Traces Make Agent Failures Debuggable",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "When an agent fails, logs are not enough",
+      "subtitle": "You need to see the exact step, tool call, model call, timing, and retry path.",
+      "swipeLabel": "Swipe for the trace"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The wrong question",
+      "body": "If the answer is wrong, saying the model did something weird does not help. You need to know which step changed the workflow."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Questions traces answer",
+      "body": "Which tool was called? What arguments were sent? What came back? Was it a timeout, bad input, rate limit, or LLM decision?"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What I would record",
+      "body": "Run ID, step ID, prompt version, model response, tool name, tool arguments, tool response, latency, token usage, error, and retry count."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Debug before retrying",
+      "body": "Before you retry or resume, you need to inspect what happened. Otherwise you are mostly reading logs and guessing."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Workshop focus",
+      "body": "We will talk about the execution layer around agents: state, retries, recovery, human approvals, observability, and deployment."
+    },
+    {
+      "type": "outro",
+      "ctaText": "join the observability discussion",
+      "supportingText": "Running Durable Agents in Production, June 16, 4:30-6:00 PM GMT+2 on YouTube.",
+      "url": "https://luma.com/wz20rm8n"
+    }
+  ]
+}

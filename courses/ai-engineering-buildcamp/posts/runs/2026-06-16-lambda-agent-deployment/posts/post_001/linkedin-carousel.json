@@ -1,0 +1,11 @@
+{
+  "title": "Lambda for low-traffic agents",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Lambda for low-traffic agents", "subtitle": "Small agent tools do not always need an always-on server.", "swipeLabel": "Swipe for the trade-off"},
+    {"type": "title-paragraph", "title": "The previous setup", "body": "The first deployment used a containerized web app. It worked, but the service still had to run somewhere."},
+    {"type": "title-paragraph", "variant": "light", "title": "Lambda changes the cost model", "body": "The function wakes up on invocation. If nobody uses the tool, there is no always-on server to pay for."},
+    {"type": "title-paragraph", "title": "Still a full app", "body": "The Lambda Function URL served the frontend, handled the agent API, and streamed responses back to the browser."},
+    {"type": "title-paragraph", "variant": "light", "title": "Use it for the right workload", "body": "Lambda fits personal agents, internal tools, and occasional workflows. A steady public product may be simpler as a normal web service."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: Lambda agent deployment", "url": "https://youtu.be/zoAvc8VU6Qs"}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents - reminder",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Reminder: Module 3",
+      "subtitle": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents | August 17, 2026 at 5:00 AM PDT",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why join",
+      "body": "A coding agent becomes more useful when it has the right instructions, tools, permissions, and repeatable workflows."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What we will cover",
+      "body": "How modern coding agents are extended and customized.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "For the cohort",
+      "body": "Use this session to prepare for AI Dev Tools Zoomcamp 2026 and the final project."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Bring questions",
+      "body": "There will be time for practical questions about tools, workflow, review, testing, and shipping.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+      "url": "https://luma.com/ap4l3qlj"
+    }
+  ]
+}

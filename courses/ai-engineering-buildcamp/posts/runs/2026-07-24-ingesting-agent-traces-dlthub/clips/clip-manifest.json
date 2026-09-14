@@ -1,0 +1,71 @@
+{
+  "source_video_path": "/Users/valeria/Downloads/Ingesting Agent Traces with dlthub - Alena Astrakhantseva.mp4",
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "idea_id": "idea_001",
+      "post_id": "post_001",
+      "title": "From Raw Agent Logs To Usage Dashboards",
+      "start": "00:06:04",
+      "end": "00:07:50",
+      "quality": "high",
+      "reason": "Clean contrast between unreadable logs and usage dashboards.",
+      "output_file": "post_001.mp4"
+    },
+    {
+      "clip_id": "clip_002",
+      "idea_id": "idea_002",
+      "post_id": "post_002",
+      "title": "Why Re-Reading Agent Logs Gets Expensive",
+      "start": "00:09:32",
+      "end": "00:11:13",
+      "quality": "high",
+      "reason": "Explains repeated raw-log aggregation and motivates reusable dashboards.",
+      "output_file": "post_002.mp4"
+    },
+    {
+      "clip_id": "clip_003",
+      "idea_id": "idea_003",
+      "post_id": "post_003",
+      "title": "Why Agent Traces Become Many Tables",
+      "start": "00:24:14",
+      "end": "00:25:11",
+      "quality": "high",
+      "reason": "Clear explanation of why raw JSON turns into many relational tables.",
+      "output_file": "post_003.mp4"
+    },
+    {
+      "clip_id": "clip_004",
+      "idea_id": "idea_004",
+      "post_id": "post_004",
+      "title": "Skills Versus Tools In Coding Agents",
+      "start": "00:30:06",
+      "end": "00:31:23",
+      "quality": "high",
+      "reason": "Direct definition and practical distinction between skills and tools.",
+      "output_file": "post_004.mp4"
+    },
+    {
+      "clip_id": "clip_005",
+      "idea_id": "idea_005",
+      "post_id": "post_005",
+      "title": "What Agent Logs Should Capture",
+      "start": "00:48:11",
+      "end": "00:49:23",
+      "quality": "high",
+      "reason": "Introduces agent logging and the metadata that matters.",
+      "output_file": "post_005.mp4"
+    },
+    {
+      "clip_id": "clip_006",
+      "idea_id": "idea_006",
+      "post_id": "post_006",
+      "title": "From Local Pipeline To Shared Dashboard",
+      "start": "01:19:08",
+      "end": "01:20:18",
+      "quality": "medium",
+      "reason": "Explains why deployment matters beyond the local pipeline.",
+      "output_file": "post_006.mp4"
+    }
+  ]
+}

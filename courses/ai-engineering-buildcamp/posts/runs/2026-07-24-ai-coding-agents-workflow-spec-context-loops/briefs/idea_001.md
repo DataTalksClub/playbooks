@@ -1,0 +1,11 @@
+# Handoff Brief: One-Shot Prompting Makes The Agent Decide Your Product
+
+Source: /Users/valeria/.codex/content-runs/2026-07-24-ai-coding-agents-workflow-spec-context-loops/source/transcript.json
+
+## 00:16:34 - 00:17:38
+
+so it will implement something So you decided for uh for stack. So yeah I I'll just leave it alone. But then what I want to do in parallel is [snorts] I uh want to create specification. So here I am in this section right now specification before code. Um because um the problem with uh this one short implementations is when we give it little prompt the model uh the agent has to make a lot of assumptions right. So it does it didn't ask me anything right? So it didn't ask me what tool stack I want to use. What is this problem I want to implement? Like it didn't ask me any of this stuff. And this is a problem because it cannot read my mind, right? And perhaps I had something on my mind that um the agent will like I didn't express it properly in my prompt. So the agent will fill these gaps and the decisions it will make it will most they will most likely not be what I had in mind right so that's why we want to first build the specification so this is the first step
+
+## 00:30:18 - 00:31:36
+
+So what is doing is writing some Python code or creating producing this file doesn't really matter. What matters at the end is I will have a markdown document that I can download. Um, in the meantime, let me see what this thing did, right? Uh, is there a dependency Python CLI for tracking weekly project health? Uh, okay. So, it did something completely different, right? So, it did a CLI for tracking weekly project health. Okay. Um so project at API name building API onexi. Okay I small command line register the project you care about local short entry per project per week and get a digest you can paste into weekly update. I mean it could be useful right um but this is not what we wanted at least uh you can see my point right. So this is a very different thing at the end very very different right so you just made a lot of assumptions and it just went with these assumptions I didn't stop it I didn't ask it to uh I didn't correct it so then the result is a working app but this app is absolutely not what we need right so

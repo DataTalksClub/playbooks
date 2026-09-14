@@ -1,0 +1,30 @@
+{
+  "run_id": "2026-07-25-ai-dev-tools-zoomcamp-2026-workshop-promotion",
+  "created": "2026-07-25",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "ai-dev-tools-zoomcamp-2026-workshop-series",
+    "type": "event_series",
+    "title": "AI Dev Tools Zoomcamp 2026 workshop promotion",
+    "url": "https://datatalks.club/",
+    "video_id": "",
+    "transcript_path": "",
+    "duration_seconds": 0,
+    "events_path": "source/events.json"
+  },
+  "campaign": {
+    "events": 6,
+    "posts": 18,
+    "post_types": [
+      "announcement",
+      "educational",
+      "reminder"
+    ],
+    "note": "Module 1 is a past event as of 2026-07-25, so its reminder draft is a replay/follow-up reminder."
+  }
+}

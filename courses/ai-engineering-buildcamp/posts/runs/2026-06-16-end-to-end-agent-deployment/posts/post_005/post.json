@@ -1,0 +1,57 @@
+{
+  "post_id": "post_005",
+  "idea_id": "idea_005",
+  "source_id": "youtube_h84rcreznm4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Run coding agents where the work can continue",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "A remote machine plus tmux is useful when coding-agent work should survive SSH disconnects and laptop sleep.",
+  "cta": "Watch the full recording.",
+  "source_moments": [
+    {
+      "start": "00:32:51",
+      "end": "00:33:17",
+      "note": "tmux keeps work running if SSH is interrupted.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    },
+    {
+      "start": "00:42:28",
+      "end": "00:45:22",
+      "note": "SSH-attached processes die when the connection dies; tmux allows reconnecting.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    },
+    {
+      "start": "00:45:45",
+      "end": "00:46:31",
+      "note": "Remote machines help with long-running bots and agent sessions.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_005",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 174
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

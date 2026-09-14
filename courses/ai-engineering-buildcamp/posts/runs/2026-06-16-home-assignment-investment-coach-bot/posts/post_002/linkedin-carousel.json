@@ -1,0 +1,11 @@
+{
+  "title": "CLI First",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "CLI first", "subtitle": "Even if the final agent is a Telegram bot.", "swipeLabel": "Swipe for the workflow"},
+    {"type": "title-paragraph", "title": "The temptation", "body": "The assignment says Telegram bot, so it is tempting to start with Telegram."},
+    {"type": "title-paragraph", "variant": "light", "title": "Start smaller", "body": "Use a terminal app to debug the user question, tool calls, data fetches, and final answer."},
+    {"type": "title-paragraph", "title": "What to inspect", "body": "Check whether the agent calls tools, avoids raw data dumps, gives useful analysis, and respects safety rules."},
+    {"type": "title-paragraph", "variant": "light", "title": "Then wrap it", "body": "After the core loop works, Telegram becomes an interface problem instead of an agent-debugging problem."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: real AI engineer take-home", "url": "https://youtu.be/aPq-y5PO9m4"}
+  ]
+}

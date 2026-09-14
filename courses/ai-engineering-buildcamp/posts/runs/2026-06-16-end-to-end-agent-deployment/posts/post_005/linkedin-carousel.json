@@ -1,0 +1,40 @@
+{
+  "title": "Run coding agents where work can continue",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Run coding agents where work can continue",
+      "subtitle": "Long-running agent work should survive disconnects.",
+      "swipeLabel": "Swipe for the setup"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Local is fine first",
+      "body": "For small experiments, your laptop is enough. Do not add remote infrastructure before you need it."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The failure mode",
+      "body": "If a process is attached directly to SSH, it can die when the connection dies."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "tmux helps",
+      "body": "Run the coding-agent session inside tmux, disconnect, and attach again later when you are back."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Why it matters",
+      "body": "Agent tasks can read a repo, edit files, run tests, inspect errors, and try again. That work can take time."
+    },
+    {
+      "type": "outro",
+      "ctaText": "follow for practical AI engineering notes",
+      "supportingText": "Full recording: End-to-End Agent Deployment",
+      "url": "https://youtu.be/h84rcRezNM4"
+    }
+  ]
+}

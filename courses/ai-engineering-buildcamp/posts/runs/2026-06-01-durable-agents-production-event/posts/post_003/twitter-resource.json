@@ -1,0 +1,39 @@
+{
+  "resourceTitle": "Human Approval In Durable Agent Workflows",
+  "subtitle": "What a workflow must remember while waiting for a person",
+  "sections": [
+    {
+      "heading": "The simple diagram",
+      "bullets": [
+        "Propose action",
+        "Review",
+        "Continue"
+      ]
+    },
+    {
+      "heading": "The production issue",
+      "body": "Approval may arrive hours later, after a worker restart or deploy."
+    },
+    {
+      "heading": "What to persist",
+      "bullets": [
+        "Workflow ID",
+        "Pending approval state",
+        "Proposed action"
+      ]
+    },
+    {
+      "heading": "What happens next",
+      "body": "The approval event should resume the workflow from the waiting step."
+    },
+    {
+      "heading": "Why it matters",
+      "body": "Human-in-the-loop steps become fragile if they depend on one live process."
+    },
+    {
+      "heading": "Workshop",
+      "body": "June 16 with Nicholas Lotz: approvals, retries, timeouts, traces, recovery, and deployment."
+    }
+  ],
+  "cta": "Register: https://luma.com/wz20rm8n"
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents - educational",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Practical workflow: Module 3",
+      "subtitle": "A practical note for Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The problem",
+      "body": "A coding agent becomes more useful when it has the right instructions, tools, permissions, and repeatable workflows."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 1",
+      "body": "Use project instructions for repository-specific behavior.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 2",
+      "body": "Use MCP when the agent needs external tools or context."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 3",
+      "body": "Use skills and commands for repeatable workflows.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+      "url": "https://luma.com/ap4l3qlj"
+    }
+  ]
+}

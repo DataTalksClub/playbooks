@@ -1,0 +1,40 @@
+{
+  "title": "Build and Ship an AI-Assisted Full-Stack App - reminder",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Reminder: Module 2",
+      "subtitle": "Build and Ship an AI-Assisted Full-Stack App | August 3, 2026 at 6:00 AM PDT",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why join",
+      "body": "AI can generate frontend or backend code, but full-stack work fails when the parts drift apart."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What we will cover",
+      "body": "How to use AI tools from product spec to deployed full-stack app.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "For the cohort",
+      "body": "Use this session to prepare for AI Dev Tools Zoomcamp 2026 and the final project."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Bring questions",
+      "body": "There will be time for practical questions about tools, workflow, review, testing, and shipping.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Build and Ship an AI-Assisted Full-Stack App",
+      "url": "https://luma.com/50kvfku2"
+    }
+  ]
+}

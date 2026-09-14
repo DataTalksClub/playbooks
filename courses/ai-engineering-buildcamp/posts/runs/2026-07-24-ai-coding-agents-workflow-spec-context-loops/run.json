@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-07-24-ai-coding-agents-workflow-spec-context-loops",
+  "created": "2026-07-24",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "youtube_vujxjgpades",
+    "type": "youtube",
+    "title": "How to Work with AI Coding Agents: Spec-Driven Development, Context and Loop Engineering, Workflows",
+    "url": "https://www.youtube.com/live/VUJxJGpaDEs?si=AKuzzOhHXCGps0ts",
+    "video_id": "VUJxJGpaDEs",
+    "transcript_path": "source/transcript.json",
+    "duration_seconds": 6874,
+    "local_video_path": "/Users/valeria/Downloads/How to Work with AI Coding Agents_ Spec-Driven Development, Context and Loop Engineering, Workflows.mp4"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Phone-Controlled AWS Access",
+  "subtitle": "Temporary sandbox credentials for coding agents.",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "I want agents to run AWS experiments while I'm away from my laptop."
+    },
+    {
+      "heading": "Constraints",
+      "bullets": [
+        "No admin credentials on phone",
+        "No production access",
+        "No always-on AWS access"
+      ]
+    },
+    {
+      "heading": "Mechanism",
+      "body": "A phone app toggles the credential Lambda used by the remote sandbox."
+    },
+    {
+      "heading": "Access window",
+      "body": "Turn access on, let the agent run, then turn access off again."
+    },
+    {
+      "heading": "Same pattern",
+      "body": "Temporary, revocable AWS access without long-lived keys on the machine."
+    }
+  ],
+  "cta": "Read: https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access"
+}

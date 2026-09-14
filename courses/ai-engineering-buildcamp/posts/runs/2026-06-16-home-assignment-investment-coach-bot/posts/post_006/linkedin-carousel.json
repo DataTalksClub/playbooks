@@ -1,0 +1,11 @@
+{
+  "title": "README As Interview",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Your README is part of the interview", "subtitle": "For take-home assignments, the repo story matters.", "swipeLabel": "Swipe for the checklist"},
+    {"type": "title-paragraph", "title": "Why it matters", "body": "A hiring manager may only have a few minutes before the interview. They may read the README before the code."},
+    {"type": "title-paragraph", "variant": "light", "title": "Show the work", "body": "Explain the assignment, product scope, data sources, safety boundaries, and how to run the project."},
+    {"type": "title-paragraph", "title": "Show engineering", "body": "List tests, evals, monitoring, known limitations, and next improvements."},
+    {"type": "title-paragraph", "variant": "light", "title": "Be honest", "body": "If code was AI-generated, say what you reviewed, what remains weak, and how you would improve it."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: real AI engineer take-home", "url": "https://youtu.be/aPq-y5PO9m4"}
+  ]
+}

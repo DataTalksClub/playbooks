@@ -1,0 +1,40 @@
+{
+  "title": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A - announcement",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Workshop: Pre-course Q&A",
+      "subtitle": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A | August 24, 2026",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What this covers",
+      "body": "A clear picture of AI Dev Tools Zoomcamp before the cohort starts."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why it matters",
+      "body": "Before joining a cohort, it helps to know the workload, prerequisites, project expectations, and how to get unstuck.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Main workflow",
+      "body": "Who the course is for and what you need before joining. What you do not need: prior AI tools experience, web development experience, a powerful machine, or a GPU."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What you will leave with",
+      "body": "How to prepare your environment and choose a first workflow.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+      "url": "https://luma.com/a8qa5s2s"
+    }
+  ]
+}

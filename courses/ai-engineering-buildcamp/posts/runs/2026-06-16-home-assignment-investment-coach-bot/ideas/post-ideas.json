@@ -1,0 +1,108 @@
+{
+  "source": {
+    "title": "Solving a Real AI Engineer Take-Home Assignment",
+    "video_id": "aPq-y5PO9m4",
+    "url": "https://youtu.be/aPq-y5PO9m4",
+    "transcript_path": "../source/transcript.json",
+    "duration_seconds": 7542
+  },
+  "ideas": [
+    {
+      "id": "idea_001",
+      "title": "Do not start a vague take-home by coding",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "A vague AI engineer take-home should start with scoping, assumptions, clarifying questions, and data-source choices before implementation.",
+      "why_worth_posting": "This is the career lesson that frames the whole workshop and is useful to anyone interviewing for AI engineer roles.",
+      "source_moments": [
+        {"start": "00:11:55", "end": "00:13:31", "note": "The assignment is vague, so the first step is brainstorming scope, data sources, and clarifying questions."},
+        {"start": "00:14:16", "end": "00:15:16", "note": "The implementation should be shaped by available data sources and APIs."}
+      ],
+      "clip": {"recommended": true, "start": "00:11:55", "end": "00:15:16", "title": "Scope before coding", "reason": "Clear opening section about handling an underspecified take-home assignment.", "quality": "high", "trim_notes": "Start when the assignment is introduced; end after the data-source framing."},
+      "writing_brief": "Write a post about how to approach vague AI engineer take-home assignments before writing code.",
+      "status": "written"
+    },
+    {
+      "id": "idea_002",
+      "title": "Build the CLI before the Telegram bot",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "For an agent product, start with a simple terminal app before adding UI or Telegram because it makes the core loop easier to inspect.",
+      "why_worth_posting": "This is a tactical engineering pattern that applies to many agent projects, not only this assignment.",
+      "source_moments": [
+        {"start": "00:19:16", "end": "00:20:04", "note": "Instead of starting with Telegram, the workshop starts with a terminal app and adds Telegram later."},
+        {"start": "00:48:59", "end": "00:51:27", "note": "The CLI makes it possible to inspect tool use and improve answer structure."}
+      ],
+      "clip": {"recommended": true, "start": "00:19:16", "end": "00:20:04", "title": "CLI first, Telegram later", "reason": "Short, clear explanation of why the implementation starts with the terminal.", "quality": "high", "trim_notes": "Keep the Python/UV setup if it helps the flow."},
+      "writing_brief": "Write a post about reducing agent-project risk by building the core interaction in a CLI first.",
+      "status": "written"
+    },
+    {
+      "id": "idea_003",
+      "title": "Pointless tests are worse than no signal",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Agent-generated tests often assert imports, names, or prompt wording instead of behavior, so the engineer needs to delete and rewrite them.",
+      "why_worth_posting": "The transcript has an unusually concrete and opinionated testing lesson that many AI-assisted developers will recognize.",
+      "source_moments": [
+        {"start": "00:37:48", "end": "00:39:10", "note": "The generated tests are called pointless because they test imports and method names, not behavior."},
+        {"start": "01:15:38", "end": "01:19:45", "note": "Bad tests are removed and replaced with behavior-oriented agent tests."},
+        {"start": "01:27:27", "end": "01:28:22", "note": "The workshop prioritizes cleaning tests before cleaning the rest of the code."}
+      ],
+      "clip": {"recommended": true, "start": "01:15:38", "end": "01:19:45", "title": "Delete pointless tests", "reason": "Strongest section for a testing-focused social clip.", "quality": "high", "trim_notes": "Start at reviewing test_agent; end after the desired test shape is described."},
+      "writing_brief": "Write a post about useful tests for AI-generated agent code and why shallow generated tests should be rewritten.",
+      "status": "written"
+    },
+    {
+      "id": "idea_004",
+      "title": "Evaluate both the answer and the trajectory",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Agent evaluations should check the final answer and the trajectory: which tools were called, in what order, and whether the path made sense.",
+      "why_worth_posting": "This is the most technical agent-evaluation lesson in the session and turns vague eval advice into a practical pattern.",
+      "source_moments": [
+        {"start": "01:45:18", "end": "01:47:27", "note": "The eval framework runs scenarios, judges outputs, and inspects tool-call trajectories."},
+        {"start": "01:49:32", "end": "01:51:38", "note": "The README should document scenarios, limitations, tests, and evals."}
+      ],
+      "clip": {"recommended": true, "start": "01:45:18", "end": "01:47:27", "title": "Judge answers and trajectories", "reason": "Compact explanation of input, expected output, judge, and trajectory evaluation.", "quality": "high", "trim_notes": "Keep the definition of trajectory."},
+      "writing_brief": "Write a post about evaluating agents by checking both the final response and the sequence of tool calls.",
+      "status": "written"
+    },
+    {
+      "id": "idea_005",
+      "title": "The best bug came from using the bot",
+      "priority": 4,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "good"},
+      "post_angle": "A live Telegram test found that the agent could loop on a tool call, which is exactly the kind of failure that should become an eval or unit test.",
+      "why_worth_posting": "It is a memorable real failure from the workshop and shows why demos and monitoring are part of engineering, not decoration.",
+      "source_moments": [
+        {"start": "01:52:46", "end": "01:56:38", "note": "The CLI agent is wrapped as a Telegram bot and tested in Telegram."},
+        {"start": "01:59:15", "end": "02:02:01", "note": "A query makes the bot loop on search calls, so the next step is a tool-call limit and an assertion."}
+      ],
+      "clip": {"recommended": true, "start": "01:59:15", "end": "02:02:01", "title": "The bot looped, so write the test", "reason": "A concrete failure turns into a clear engineering follow-up.", "quality": "high", "trim_notes": "Start when the bot is working in monitoring; end after the five-tool-call assertion idea."},
+      "writing_brief": "Write a post about turning a live agent failure into a regression test and eval scenario.",
+      "status": "written"
+    },
+    {
+      "id": "idea_006",
+      "title": "Your README is part of the interview",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "For AI engineer take-homes and portfolio projects, a polished README can matter as much as the code because reviewers may only have a few minutes.",
+      "why_worth_posting": "This is the strongest closing career takeaway and gives candidates a practical checklist.",
+      "source_moments": [
+        {"start": "01:50:29", "end": "01:52:46", "note": "The README should explain the storyline, decisions, limitations, generated code, and follow-up work."},
+        {"start": "02:02:30", "end": "02:05:10", "note": "Hiring managers may start with the README, so it should show tests, evals, monitoring, screenshots, and next steps."}
+      ],
+      "clip": {"recommended": true, "start": "02:02:30", "end": "02:05:10", "title": "Polish the README", "reason": "A strong closing clip about portfolio and interview presentation.", "quality": "high", "trim_notes": "End before the final wrap-up."},
+      "writing_brief": "Write a post about treating the README as the first interview artifact for take-home assignments.",
+      "status": "written"
+    }
+  ]
+}

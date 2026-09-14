@@ -1,0 +1,7 @@
+idea_id,title,clip_start,clip_end,clip_quality,clip_reason,output_file
+idea_001,Why One-Shot Coding Prompts Drift,00:16:34,00:17:38,high,The segment explains the problem crisply and stands alone.,idea_001-why-one-shot-coding-prompts-drift.mp4
+idea_002,A Scoping Prompt Before Coding,00:19:06,00:20:20,high,It shows the exact interaction pattern for project scoping.,idea_002-a-scoping-prompt-before-coding.mp4
+idea_003,Choose A Stack You Can Maintain,00:39:45,00:41:15,high,The clip has a clear practical decision about stack familiarity.,idea_003-choose-a-stack-you-can-maintain.mp4
+idea_004,Context Engineering For Coding Agents,01:02:26,01:03:45,high,The segment defines context engineering in practical repo terms.,idea_004-context-engineering-for-coding-agents.mp4
+idea_005,Groom Issues Before Agents Implement,01:16:27,01:18:05,high,It explains the PM/grooming role and checkable acceptance criteria.,idea_005-groom-issues-before-agents-implement.mp4
+idea_006,The PM Engineer QA Agent Loop,01:37:27,01:39:11,high,The segment explains the workflow graph and pass/fail loop clearly.,idea_006-the-pm-engineer-qa-agent-loop.mp4

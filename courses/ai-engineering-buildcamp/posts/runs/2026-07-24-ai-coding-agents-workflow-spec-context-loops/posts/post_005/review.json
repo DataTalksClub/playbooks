@@ -1,0 +1,1 @@
+{"post_id":"post_005","checks":{"audience_fit":"pass","specificity":"pass","voice":"pass","unsupported_claims":"pass","style_rules":"pass","cta":"pass"},"notes":[],"changed":["Used the authentication-without-email example to make the post concrete.","Added out-of-scope framing because it is a strong MVP lesson."]}

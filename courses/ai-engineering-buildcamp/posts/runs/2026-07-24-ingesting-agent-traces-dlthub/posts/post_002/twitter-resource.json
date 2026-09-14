@@ -1,0 +1,27 @@
+{
+  "resourceTitle": "Ingest Once, Query Many Times",
+  "subtitle": "A better pattern for agent trace analytics",
+  "sections": [
+    {
+      "heading": "One-Off",
+      "body": "Prompting over raw logs is useful when you only need one quick answer."
+    },
+    {
+      "heading": "Repeated Work",
+      "body": "New questions can force the agent to read and aggregate the same logs again."
+    },
+    {
+      "heading": "Pipeline",
+      "bullets": ["Ingest traces", "Normalize structure", "Refresh on schedule"]
+    },
+    {
+      "heading": "Destination",
+      "bullets": ["DuckDB", "Postgres", "BigQuery or Snowflake"]
+    },
+    {
+      "heading": "Analytics",
+      "body": "Usage, models, projects, and cost patterns become dashboard queries."
+    }
+  ],
+  "cta": "Workshop: youtube.com/live/A0LmmZf-ggM"
+}

@@ -1,0 +1,18 @@
+{
+  "post_id": "post_001",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Strong production-pain hook for ML engineers, AI engineers, and software engineers.",
+    "Registration link is a placeholder because no URL was provided."
+  ],
+  "changed": [
+    "Kept the event description practical and focused on failure modes, state, retries, approvals, and traces."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "post_id": "post_004",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["Anchors the technical claim in transcript and workshop-page architecture notes."],
+  "changed": ["Focused on the web adapter rather than explaining every Lambda runtime detail."]
+}

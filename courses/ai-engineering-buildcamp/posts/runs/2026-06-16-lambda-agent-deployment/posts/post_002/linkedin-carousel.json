@@ -1,0 +1,11 @@
+{
+  "title": "Give agents a sandboxed AWS account",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Give agents a sandboxed AWS account", "subtitle": "Trust is easier when the blast radius is small.", "swipeLabel": "Swipe for the setup"},
+    {"type": "title-paragraph", "title": "Start with the risk", "body": "Before giving a coding agent AWS credentials, decide what it is allowed to break."},
+    {"type": "title-paragraph", "variant": "light", "title": "Keep production away", "body": "The remote machine did not have production AWS access. The experiment used a separate AWS account."},
+    {"type": "title-paragraph", "title": "Scope the credentials", "body": "Use temporary credentials and project-local environment files instead of global shell variables when possible."},
+    {"type": "title-paragraph", "variant": "light", "title": "Better question", "body": "Do not ask whether you fully trust the agent. Ask what damage can happen if it makes a mistake."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: Lambda agent deployment", "url": "https://youtu.be/zoAvc8VU6Qs"}
+  ]
+}

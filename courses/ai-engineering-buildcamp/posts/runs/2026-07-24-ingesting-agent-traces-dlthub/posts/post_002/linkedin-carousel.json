@@ -1,0 +1,40 @@
+{
+  "title": "Stop Re-Scanning Raw Logs",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Asking an agent to re-scan logs does not scale",
+      "subtitle": "A one-off question is fine. Repeated analytics needs a pipeline.",
+      "swipeLabel": "Swipe for the pattern"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The one-off prompt works",
+      "body": "You can ask an agent: how many tokens did I use last month? It can read local trace files, aggregate them, and answer."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The next question repeats work",
+      "body": "Change the time range or grouping and the agent may need to read and aggregate the same raw logs again. This spends time and tokens."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Make it reusable",
+      "body": "Ingest the traces once, normalize the structure, store them in a queryable destination, and refresh on a schedule."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Then it becomes analytics",
+      "body": "Token usage, model usage, project activity, and cost patterns become normal dashboard questions."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Watch the workshop",
+      "supportingText": "Alena Astrakhantseva shows the workflow with dlt and agent traces.",
+      "url": "https://youtube.com/live/A0LmmZf-ggM"
+    }
+  ]
+}

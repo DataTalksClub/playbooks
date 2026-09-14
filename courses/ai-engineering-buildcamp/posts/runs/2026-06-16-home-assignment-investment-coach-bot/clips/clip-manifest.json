@@ -1,0 +1,12 @@
+{
+  "source_video_path": "/Users/valeria/Downloads/Solving a Real AI Engineer Take-Home Assignment.mp4",
+  "source_url": "https://youtu.be/aPq-y5PO9m4",
+  "clips": [
+    {"clip_id": "clip_001", "idea_id": "idea_001", "post_id": "post_001", "title": "Scope before coding", "start": "00:11:55", "end": "00:15:16", "duration_seconds": 201, "output_file": "post_001.mp4", "status": "planned"},
+    {"clip_id": "clip_002", "idea_id": "idea_002", "post_id": "post_002", "title": "CLI first, Telegram later", "start": "00:19:16", "end": "00:20:04", "duration_seconds": 48, "output_file": "post_002.mp4", "status": "planned"},
+    {"clip_id": "clip_003", "idea_id": "idea_003", "post_id": "post_003", "title": "Delete pointless tests", "start": "01:15:38", "end": "01:19:45", "duration_seconds": 247, "output_file": "post_003.mp4", "status": "planned"},
+    {"clip_id": "clip_004", "idea_id": "idea_004", "post_id": "post_004", "title": "Judge answers and trajectories", "start": "01:45:18", "end": "01:47:27", "duration_seconds": 129, "output_file": "post_004.mp4", "status": "planned"},
+    {"clip_id": "clip_005", "idea_id": "idea_005", "post_id": "post_005", "title": "The bot looped, so write the test", "start": "01:59:15", "end": "02:02:01", "duration_seconds": 166, "output_file": "post_005.mp4", "status": "planned"},
+    {"clip_id": "clip_006", "idea_id": "idea_006", "post_id": "post_006", "title": "Polish the README", "start": "02:02:30", "end": "02:05:10", "duration_seconds": 160, "output_file": "post_006.mp4", "status": "planned"}
+  ]
+}

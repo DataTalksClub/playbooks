@@ -1,0 +1,57 @@
+{
+  "post_id": "post_005",
+  "idea_id": "idea_005",
+  "source_id": "youtube_zoavc8vu6qs",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Let the agent get it working, then simplify",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Use the agent to get a working version, then review, commit, simplify, and understand the platform-specific code.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "00:52:43",
+      "end": "00:56:59",
+      "note": "Working version is committed, then simplified and understood.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    },
+    {
+      "start": "01:04:13",
+      "end": "01:06:16",
+      "note": "Reference projects and maintainability help control agent output.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    },
+    {
+      "start": "01:25:04",
+      "end": "01:26:35",
+      "note": "Before real use, understand the Lambda-specific code.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_005",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 256
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

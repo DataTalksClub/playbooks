@@ -1,0 +1,18 @@
+{
+  "post_id": "post_002",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Good fit for people already building agents and realizing the demo loop is not enough.",
+    "Registration link is a placeholder because no URL was provided."
+  ],
+  "changed": [
+    "Framed the workshop around concrete execution-layer mechanisms."
+  ]
+}

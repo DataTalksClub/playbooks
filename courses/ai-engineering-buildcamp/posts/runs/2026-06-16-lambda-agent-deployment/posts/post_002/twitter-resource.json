@@ -1,0 +1,12 @@
+{
+  "resourceTitle": "Safe AWS Access for Agents",
+  "subtitle": "Reduce the blast radius before deployment",
+  "sections": [
+    {"heading": "Wrong question", "body": "Do I fully trust the agent?"},
+    {"heading": "Better question", "body": "What damage can happen if the agent makes a mistake?"},
+    {"heading": "Setup", "bullets": ["Separate AWS account", "Temporary credentials", "Project-scoped env file"]},
+    {"heading": "Avoid", "bullets": ["Production credentials", "Global shell secrets", "Pasting tokens into chat"]},
+    {"heading": "Result", "body": "The agent can help without reaching production."}
+  ],
+  "cta": "Recording: youtu.be/zoAvc8VU6Qs"
+}

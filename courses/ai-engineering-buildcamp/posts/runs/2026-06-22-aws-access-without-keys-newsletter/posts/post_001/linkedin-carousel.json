@@ -1,0 +1,40 @@
+{
+  "title": "AWS access without keys",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "AWS access without keys",
+      "subtitle": "How a workshop problem became useful for coding agents too.",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The workshop constraint",
+      "body": "I needed 50 or 60 people to provision AWS resources from their own machines. No keys to copy. Nothing to install. No access to my main AWS account."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The credential endpoint",
+      "body": "A Lambda assumes an AWS role and returns temporary credentials. The AWS SDK fetches them through AWS_CONTAINER_CREDENTIALS_FULL_URI."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why this matters",
+      "body": "Long-lived keys are hard to control once they leave your machine. Temporary credentials give you a way to scope, expire, and revoke access."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Same pattern for agents",
+      "body": "Coding agents can experiment in a sandbox AWS account without getting permanent access or a path to production."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Read the full newsletter",
+      "supportingText": "The System I Built for AWS Access Without Keys.",
+      "url": "https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access"
+    }
+  ]
+}

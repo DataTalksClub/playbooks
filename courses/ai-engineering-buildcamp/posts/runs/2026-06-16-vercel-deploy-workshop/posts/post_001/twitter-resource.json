@@ -1,0 +1,39 @@
+{
+  "resourceTitle": "Exploring Vercel",
+  "subtitle": "What it is and how to deploy | June 25",
+  "sections": [
+    {
+      "heading": "The workshop",
+      "body": "A hands-on session to understand Vercel end to end and ship a project to a live URL."
+    },
+    {
+      "heading": "Where Vercel fits",
+      "bullets": [
+        "Hosting",
+        "Serverless and edge functions",
+        "Preview deployments"
+      ]
+    },
+    {
+      "heading": "Deploy from scratch",
+      "body": "Go from git push to a live URL and understand what happens along the way."
+    },
+    {
+      "heading": "Production details",
+      "bullets": [
+        "Environment variables",
+        "Preview deployments",
+        "Custom domains"
+      ]
+    },
+    {
+      "heading": "Serverless vs edge",
+      "body": "We will look at when to reach for each and what trade-offs to expect."
+    },
+    {
+      "heading": "Gotchas",
+      "body": "Limits, pricing, and the cases where Vercel may not be the right fit."
+    }
+  ],
+  "cta": "June 25, 12:00-14:00 Europe/Madrid | aishippinglabs.com/events"
+}

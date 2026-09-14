@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "One Docker Image",
+  "subtitle": "A simple deployment pattern for small agent apps",
+  "sections": [
+    {
+      "heading": "Use when",
+      "body": "The frontend is small and can be served by the backend."
+    },
+    {
+      "heading": "Build steps",
+      "bullets": [
+        "Build frontend in Node.js stage",
+        "Copy dist into backend image",
+        "Serve static files with FastAPI"
+      ]
+    },
+    {
+      "heading": "Result",
+      "body": "One service, one container, one deployment target."
+    },
+    {
+      "heading": "Benefit",
+      "body": "Node.js stays out of the runtime image."
+    },
+    {
+      "heading": "Check",
+      "body": "Test secrets and env vars inside Docker before deploying."
+    }
+  ],
+  "cta": "Recording: youtu.be/h84rcRezNM4"
+}

@@ -1,0 +1,114 @@
+{
+  "source": {
+    "title": "Agent AWS Lambda Deployment - AI Shipping Labs Freestyle Workshop",
+    "video_id": "zoAvc8VU6Qs",
+    "url": "https://youtu.be/zoAvc8VU6Qs",
+    "transcript_path": "../source/transcript.json",
+    "duration_seconds": 5311
+  },
+  "ideas": [
+    {
+      "id": "idea_001",
+      "title": "Lambda fits low-traffic agent tools",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "AWS Lambda is a good fit for small internal agent tools that are used occasionally because you pay per invocation instead of running an always-on server.",
+      "why_worth_posting": "This is the clearest continuation from the previous Railway workshop and gives practitioners a deployment trade-off they can reuse.",
+      "source_moments": [
+        {"start": "00:05:11", "end": "00:07:04", "note": "Railway-style deployment means an always-on server; Lambda only charges for invocation."},
+        {"start": "01:08:44", "end": "01:10:41", "note": "The deployed Lambda app works and the cost model is explained for rarely used tools."}
+      ],
+      "clip": {"recommended": true, "start": "01:08:44", "end": "01:10:41", "title": "Lambda for occasional-use agents", "reason": "This section clearly explains why serverless is useful after the deployment works.", "quality": "high", "trim_notes": "Start when the deployed app works; end before the gitignore discussion."},
+      "writing_brief": "Write a practical post about using Lambda for low-traffic agent tools and the cost trade-off versus always-on hosting.",
+      "status": "written"
+    },
+    {
+      "id": "idea_002",
+      "title": "Isolate AWS before giving agents credentials",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Before letting a coding agent touch AWS, isolate the experiment from production with a separate account and short-lived, project-scoped credentials.",
+      "why_worth_posting": "The transcript has a concrete security workflow and a useful discussion about why global environment credentials are risky.",
+      "source_moments": [
+        {"start": "00:08:19", "end": "00:11:14", "note": "The remote machine has no production AWS access; a separate AWS account is created for experiments."},
+        {"start": "00:17:31", "end": "00:18:15", "note": "Trust is bounded by keeping the agent away from production."},
+        {"start": "00:25:04", "end": "00:25:39", "note": "Temporary STS credentials are preferred for a session."},
+        {"start": "00:42:17", "end": "00:44:27", "note": "Project-local credentials are compared with global shell environment variables."}
+      ],
+      "clip": {"recommended": true, "start": "00:08:19", "end": "00:11:14", "title": "Create an isolated AWS account for agent experiments", "reason": "This clip has the full motivation and concrete account-isolation setup.", "quality": "high", "trim_notes": "Keep the parts about no production access and creating a new account."},
+      "writing_brief": "Write a security-minded post about safe AWS access for agent-assisted deployment.",
+      "status": "written"
+    },
+    {
+      "id": "idea_003",
+      "title": "AI engineers still own the code",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "good"},
+      "post_angle": "Using coding agents is becoming normal, but the engineer still owns the system and must understand, document, and review what the agent did.",
+      "why_worth_posting": "This is a high-level but practical career and workflow lesson from the session.",
+      "source_moments": [
+        {"start": "00:12:41", "end": "00:14:50", "note": "AI engineers are expected to use coding tools but still understand the output."},
+        {"start": "00:15:56", "end": "00:17:25", "note": "Agent-generated work should be documented so it can be repeated without the agent."},
+        {"start": "00:20:55", "end": "00:21:36", "note": "Documentation matters when the path involved experimentation."},
+        {"start": "01:27:55", "end": "01:28:23", "note": "Generated documentation should still be cleaned and processed."}
+      ],
+      "clip": {"recommended": true, "start": "00:12:41", "end": "00:14:50", "title": "You still own the code", "reason": "This is the clearest statement of the workflow expectation for AI engineers.", "quality": "high", "trim_notes": "Start at the AI engineer role question; end after ownership and documentation."},
+      "writing_brief": "Write a post about agent-assisted engineering where the engineer uses agents but keeps ownership of the system.",
+      "status": "written"
+    },
+    {
+      "id": "idea_004",
+      "title": "FastAPI to custom Lambda runtime for SSE",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Moving the previous FastAPI app to Lambda required replacing the web layer with custom routing and a custom runtime because SSE streaming is not the default Lambda path.",
+      "why_worth_posting": "This is the main technical architecture lesson of the workshop.",
+      "source_moments": [
+        {"start": "00:35:23", "end": "00:38:25", "note": "The goal is to serve frontend, backend, and streaming events through Lambda."},
+        {"start": "00:45:56", "end": "00:49:30", "note": "The Lambda handler routes GET/POST paths and streams ask responses."},
+        {"start": "01:16:13", "end": "01:16:48", "note": "A custom runtime is needed because the default path is buffered."}
+      ],
+      "clip": {"recommended": true, "start": "00:45:56", "end": "00:49:30", "title": "What replaces FastAPI in Lambda", "reason": "This segment explains handler routing and why Lambda is lower-level than FastAPI.", "quality": "high", "trim_notes": "Keep the explanation of route handling and stream response."},
+      "writing_brief": "Write a technical post explaining what changed when moving a streaming agent app from FastAPI to Lambda.",
+      "status": "written"
+    },
+    {
+      "id": "idea_005",
+      "title": "Let the agent get it working, then simplify",
+      "priority": 4,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "good"},
+      "post_angle": "A useful agent workflow is to let the agent produce a working version, commit it, then read and simplify the parts you do not understand.",
+      "why_worth_posting": "This captures the realistic workflow from the session: fast progress first, followed by review and simplification.",
+      "source_moments": [
+        {"start": "00:52:43", "end": "00:56:59", "note": "The first working version is committed, then simplified and understood."},
+        {"start": "01:04:13", "end": "01:06:16", "note": "Agents can create complex abstractions, so references and review help control output."},
+        {"start": "01:25:04", "end": "01:26:35", "note": "Before using this in real apps, every Lambda-specific line should be understood."}
+      ],
+      "clip": {"recommended": true, "start": "00:52:43", "end": "00:56:59", "title": "Working first, simplification second", "reason": "This section names the workflow and the overengineering trade-off clearly.", "quality": "high", "trim_notes": "End after the reflection on understanding functions and code structure."},
+      "writing_brief": "Write a post about using agents to get a working version quickly, then simplifying and reviewing it before treating it as production code.",
+      "status": "written"
+    },
+    {
+      "id": "idea_006",
+      "title": "Lambda deployment has small hidden gotchas",
+      "priority": 4,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "good"},
+      "post_angle": "Deploying a Lambda container is not only code changes. You need ECR, CloudFormation, the Lambda runtime, local testing, and even Docker image metadata details.",
+      "why_worth_posting": "This is a practical checklist-style post for engineers who expect Lambda deployment to be a single command.",
+      "source_moments": [
+        {"start": "01:02:25", "end": "01:06:16", "note": "The deployment creates ECR, pushes the image, and succeeds after agent-assisted fixes."},
+        {"start": "01:13:42", "end": "01:18:54", "note": "The deploy scripts, CloudFormation, ECR, Lambda URL, and Docker provenance issue are discussed."},
+        {"start": "01:19:14", "end": "01:21:28", "note": "The custom bootstrap and exec process are explained."}
+      ],
+      "clip": {"recommended": true, "start": "01:13:42", "end": "01:18:54", "title": "The deployment gotchas", "reason": "This section contains the practical AWS/ECR/CloudFormation checklist and Docker metadata gotcha.", "quality": "medium", "trim_notes": "Trim pauses and keep the provenance explanation short."},
+      "writing_brief": "Write a practical Lambda deployment checklist post for an agent container.",
+      "status": "written"
+    }
+  ]
+}

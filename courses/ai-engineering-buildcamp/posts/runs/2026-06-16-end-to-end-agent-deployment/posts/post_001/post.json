@@ -1,0 +1,57 @@
+{
+  "post_id": "post_001",
+  "idea_id": "idea_001",
+  "source_id": "youtube_h84rcreznm4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Build the smallest deployable agent first",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Make the agent work end to end before adding structured outputs, memory, vector databases, or heavier frameworks.",
+  "cta": "Watch the full recording.",
+  "source_moments": [
+    {
+      "start": "00:31:02",
+      "end": "00:32:46",
+      "note": "Notebook becomes a proper Python project and FastAPI backend.",
+      "excerpt_path": "../../briefs/idea_001.md"
+    },
+    {
+      "start": "00:58:30",
+      "end": "00:59:49",
+      "note": "Structured output is useful later, but first make it work end to end.",
+      "excerpt_path": "../../briefs/idea_001.md"
+    },
+    {
+      "start": "01:18:13",
+      "end": "01:19:31",
+      "note": "The working app is packaged for deployment.",
+      "excerpt_path": "../../briefs/idea_001.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_001",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 79
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

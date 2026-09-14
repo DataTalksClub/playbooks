@@ -1,0 +1,27 @@
+{
+  "resourceTitle": "Agent Observability",
+  "subtitle": "Start with ingestion",
+  "sections": [
+    {
+      "heading": "Trace Sources",
+      "bullets": ["Local files", "Logfire or Langfuse", "Platform and vendor APIs"]
+    },
+    {
+      "heading": "Trace Fields",
+      "bullets": ["Tool calls", "Model usage", "Sessions and metadata"]
+    },
+    {
+      "heading": "Ingestion",
+      "body": "Collect traces and load them into a queryable destination."
+    },
+    {
+      "heading": "Validation",
+      "body": "Check that important fields are present and the schema matches the source."
+    },
+    {
+      "heading": "Questions",
+      "body": "Which models are used? Which tools are called? Which sessions fail?"
+    }
+  ],
+  "cta": "Workshop: youtube.com/live/A0LmmZf-ggM"
+}

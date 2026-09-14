@@ -1,0 +1,12 @@
+{
+  "source_video_path": "/Users/valeria/Downloads/Agent AWS Lambda Deployment - AI Shipping Labs Freestyle Workshop.mp4",
+  "source_url": "https://youtu.be/zoAvc8VU6Qs",
+  "clips": [
+    {"clip_id": "clip_001", "idea_id": "idea_001", "post_id": "post_001", "title": "Lambda for occasional-use agents", "start": "01:08:44", "end": "01:10:41", "duration_seconds": 117, "output_file": "post_001.mp4", "status": "planned"},
+    {"clip_id": "clip_002", "idea_id": "idea_002", "post_id": "post_002", "title": "Create an isolated AWS account for agent experiments", "start": "00:08:19", "end": "00:11:14", "duration_seconds": 175, "output_file": "post_002.mp4", "status": "planned"},
+    {"clip_id": "clip_003", "idea_id": "idea_003", "post_id": "post_003", "title": "You still own the code", "start": "00:12:41", "end": "00:14:50", "duration_seconds": 129, "output_file": "post_003.mp4", "status": "planned"},
+    {"clip_id": "clip_004", "idea_id": "idea_004", "post_id": "post_004", "title": "What replaces FastAPI in Lambda", "start": "00:45:56", "end": "00:49:30", "duration_seconds": 214, "output_file": "post_004.mp4", "status": "planned"},
+    {"clip_id": "clip_005", "idea_id": "idea_005", "post_id": "post_005", "title": "Working first, simplification second", "start": "00:52:43", "end": "00:56:59", "duration_seconds": 256, "output_file": "post_005.mp4", "status": "planned"},
+    {"clip_id": "clip_006", "idea_id": "idea_006", "post_id": "post_006", "title": "The deployment gotchas", "start": "01:13:42", "end": "01:18:54", "duration_seconds": 312, "output_file": "post_006.mp4", "status": "planned"}
+  ]
+}

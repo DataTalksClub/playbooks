@@ -1,0 +1,35 @@
+{
+  "post_id": "post_003",
+  "idea_id": "idea_003",
+  "source_id": "running-durable-agents-in-production",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Human approval in durable agent workflows",
+  "created": "2026-06-01",
+  "updated": "2026-06-01",
+  "angle": "Use human-in-the-loop approval as a concrete example of why durable execution matters.",
+  "cta": "Register for the YouTube workshop.",
+  "source_moments": [],
+  "clip": {
+    "recommended": false
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png",
+    "datatalksclub_twitter_resource_image": "datatalksclub-twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "2026-06-09 10:00 Europe/Madrid",
+    "external_id": ""
+  }
+}

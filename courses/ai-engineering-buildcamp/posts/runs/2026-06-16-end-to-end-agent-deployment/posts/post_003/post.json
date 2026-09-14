@@ -1,0 +1,57 @@
+{
+  "post_id": "post_003",
+  "idea_id": "idea_003",
+  "source_id": "youtube_h84rcreznm4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Use one Docker image for a small agent app",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Use a multi-stage Docker build to package a small frontend and FastAPI backend into one deployable image.",
+  "cta": "Watch the full recording.",
+  "source_moments": [
+    {
+      "start": "01:18:13",
+      "end": "01:21:32",
+      "note": "One Docker container serves both frontend and backend.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "01:23:24",
+      "end": "01:26:29",
+      "note": "Multi-stage build explained with frontend build output copied to backend static files.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "01:28:23",
+      "end": "01:30:04",
+      "note": "Docker env var issue found during local container testing.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_003",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 185
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

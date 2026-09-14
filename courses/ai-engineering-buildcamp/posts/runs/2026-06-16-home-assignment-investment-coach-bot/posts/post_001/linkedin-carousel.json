@@ -1,0 +1,11 @@
+{
+  "title": "Scope Before Coding",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Scope before coding", "subtitle": "A vague take-home is an engineering problem before it is a coding task.", "swipeLabel": "Swipe for the checklist"},
+    {"type": "title-paragraph", "title": "The assignment", "body": "Build a Telegram bot for investment coaching with safety filtering. Useful idea, but too vague to implement directly."},
+    {"type": "title-paragraph", "variant": "light", "title": "First step", "body": "Clarify the user, allowed questions, refusal policy, data sources, and smallest useful version."},
+    {"type": "title-paragraph", "title": "Key constraint", "body": "For this bot, the design depends on available public market data and a clear no-financial-advice boundary."},
+    {"type": "title-paragraph", "variant": "light", "title": "What it shows", "body": "A good take-home shows that you can turn an unclear request into a scoped engineering problem."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: real AI engineer take-home", "url": "https://youtu.be/aPq-y5PO9m4"}
+  ]
+}

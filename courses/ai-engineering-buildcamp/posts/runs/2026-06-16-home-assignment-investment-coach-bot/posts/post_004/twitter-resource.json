@@ -1,0 +1,11 @@
+{
+  "resourceTitle": "Agent Eval Pattern",
+  "subtitle": "Answer plus trajectory",
+  "sections": [
+    {"heading": "Check answer", "bullets": ["Correct enough", "Safe", "Useful"]},
+    {"heading": "Check path", "bullets": ["Tool calls", "Inputs", "Call count", "Data source"]},
+    {"heading": "Catch", "body": "Wrong tools, skipped data, loops, and prompt-only answers."},
+    {"heading": "Record", "body": "Input, expected behavior, output, trajectory, judge/check result."}
+  ],
+  "cta": "Recording: youtu.be/aPq-y5PO9m4"
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-16-lambda-agent-deployment",
+  "created": "2026-06-16",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "youtube_zoavc8vu6qs",
+    "type": "youtube",
+    "title": "Agent AWS Lambda Deployment - AI Shipping Labs Freestyle Workshop",
+    "url": "https://youtu.be/zoAvc8VU6Qs",
+    "video_id": "zoAvc8VU6Qs",
+    "transcript_path": "source/transcript.json",
+    "duration_seconds": 5311
+  }
+}

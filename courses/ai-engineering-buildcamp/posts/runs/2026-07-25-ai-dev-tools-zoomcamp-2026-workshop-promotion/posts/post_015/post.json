@@ -1,0 +1,51 @@
+{
+  "post_id": "post_015",
+  "idea_id": "idea_015",
+  "source_id": "ai-dev-tools-zoomcamp-2026-workshop-series",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Reminder: AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+  "created": "2026-07-25",
+  "updated": "2026-07-25",
+  "angle": "reminder post promoting AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A.",
+  "cta": "Register: https://luma.com/a8qa5s2s",
+  "source_moments": [],
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "event": {
+    "title": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+    "module": "Pre-course Q&A",
+    "date": "August 24, 2026",
+    "time": "",
+    "url": "https://luma.com/a8qa5s2s",
+    "status_note": "Upcoming",
+    "post_type": "reminder"
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053720,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053720&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:53:51.620Z",
+      "updated_at": "2026-07-25T10:53:51.619Z"
+    }
+  ]
+}

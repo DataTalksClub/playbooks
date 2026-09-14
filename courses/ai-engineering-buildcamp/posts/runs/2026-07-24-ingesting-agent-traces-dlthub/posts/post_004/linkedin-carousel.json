@@ -1,0 +1,40 @@
+{
+  "title": "Skills And Tools",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Skills describe the workflow. Tools do the repeated work.",
+      "subtitle": "A practical mental model for coding agents.",
+      "swipeLabel": "Swipe for examples"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "A skill can be markdown",
+      "body": "It tells the agent when to use a file-system pipeline, a REST API pipeline, debugging steps, or data validation steps."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "A tool is executable",
+      "body": "It reads files, counts rows, queries tables, runs pipelines, and inspects schemas through deterministic code."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why this matters",
+      "body": "The model can plan and choose the right workflow. Reusable code handles the operations that should not be invented every time."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "In the workshop",
+      "body": "The dlt workbench routed the agent to the right pipeline toolkit, then tools handled reading, loading, debugging, and validation."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Watch the workshop",
+      "supportingText": "A concrete example of skills and tools in an AI engineering workflow.",
+      "url": "https://youtube.com/live/A0LmmZf-ggM"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "resourceTitle": "You Still Own the Code",
+  "subtitle": "A workflow for agent-assisted engineering",
+  "sections": [
+    {"heading": "Use agents for", "bullets": ["Syntax", "Boilerplate", "Platform details"]},
+    {"heading": "Do not outsource", "body": "Understanding, review, and ownership stay with the engineer."},
+    {"heading": "Ask questions", "bullets": ["Why this file?", "Where is it invoked?", "Can it be simpler?"]},
+    {"heading": "Document", "body": "Save the final working path after exploration and failed attempts."},
+    {"heading": "Reuse", "body": "Next time, give the document to yourself or to an agent."}
+  ],
+  "cta": "Recording: youtu.be/zoAvc8VU6Qs"
+}

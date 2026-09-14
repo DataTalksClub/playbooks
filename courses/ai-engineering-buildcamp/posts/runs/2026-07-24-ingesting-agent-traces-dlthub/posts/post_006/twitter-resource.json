@@ -1,0 +1,27 @@
+{
+  "resourceTitle": "Local To Team Observability",
+  "subtitle": "The path for agent trace dashboards",
+  "sections": [
+    {
+      "heading": "Local",
+      "bullets": ["Read traces", "Load into DuckDB", "Open a report"]
+    },
+    {
+      "heading": "Validate",
+      "body": "Check the schema, charts, and fields with human context."
+    },
+    {
+      "heading": "Team",
+      "bullets": ["Scheduled ingestion", "Durable destination", "Shared dashboard"]
+    },
+    {
+      "heading": "Privacy",
+      "body": "Use private storage or a warehouse when raw logs contain sensitive data."
+    },
+    {
+      "heading": "Result",
+      "body": "A dashboard that keeps working without someone's laptop."
+    }
+  ],
+  "cta": "Recording: youtube.com/live/A0LmmZf-ggM"
+}

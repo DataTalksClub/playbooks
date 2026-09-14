@@ -1,0 +1,6 @@
+{
+  "post_id": "post_002",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post gives a reusable agent workflow and ties it to the workshop implementation path."],
+  "changed": ["Made the CLI argument about debugging the core loop rather than preferring terminals in general."]
+}

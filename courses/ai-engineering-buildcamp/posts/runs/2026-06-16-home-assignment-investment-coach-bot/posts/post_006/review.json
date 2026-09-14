@@ -1,0 +1,6 @@
+{
+  "post_id": "post_006",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post turns the closing workshop advice into a practical README checklist for candidates."],
+  "changed": ["Added the AI-generated-code defense angle because it is explicitly discussed in the source section."]
+}

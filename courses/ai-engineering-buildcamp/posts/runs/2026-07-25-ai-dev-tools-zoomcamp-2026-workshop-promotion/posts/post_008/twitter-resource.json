@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Practical workflow: Module 3",
+  "subtitle": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "A coding agent becomes more useful when it has the right instructions, tools, permissions, and repeatable workflows."
+    },
+    {
+      "heading": "Workflow controls",
+      "bullets": [
+        "Use project instructions for repository-specific behavior",
+        "Use MCP when the agent needs external tools or context",
+        "Use skills and commands for repeatable workflows"
+      ]
+    },
+    {
+      "heading": "Reason",
+      "body": "Make AI-assisted work easier to review, test, debug, and ship."
+    },
+    {
+      "heading": "Workshop",
+      "body": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents"
+    },
+    {
+      "heading": "Link",
+      "body": "https://luma.com/ap4l3qlj"
+    }
+  ],
+  "cta": "https://luma.com/ap4l3qlj"
+}

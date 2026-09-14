@@ -1,0 +1,16 @@
+{
+  "post_id": "post_001",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [],
+  "changed": [
+    "Kept the hook concrete and focused on trace metadata.",
+    "Removed generic observability wording that was not tied to the transcript."
+  ]
+}

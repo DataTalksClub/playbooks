@@ -1,0 +1,57 @@
+{
+  "post_id": "post_003",
+  "idea_id": "idea_003",
+  "source_id": "youtube_apq-y5po9m4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Rewrite shallow agent-generated tests",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Agent-generated tests often assert imports, names, or prompt wording instead of behavior, so the engineer needs to delete and rewrite them.",
+  "cta": "Watch the recording.",
+  "source_moments": [
+    {
+      "start": "00:37:48",
+      "end": "00:39:10",
+      "note": "Generated tests check imports and method names instead of useful behavior.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "01:15:38",
+      "end": "01:19:45",
+      "note": "Bad tests are removed and replaced with behavior-oriented tests.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "01:27:27",
+      "end": "01:28:22",
+      "note": "Tests are cleaned before the rest of the code.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_003",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 247
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

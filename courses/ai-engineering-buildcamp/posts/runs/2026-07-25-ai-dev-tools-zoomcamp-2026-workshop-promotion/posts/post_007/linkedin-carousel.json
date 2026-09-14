@@ -1,0 +1,40 @@
+{
+  "title": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents - announcement",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Workshop: Module 3",
+      "subtitle": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents | August 17, 2026 at 5:00 AM PDT",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What this covers",
+      "body": "How modern coding agents are extended and customized."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why it matters",
+      "body": "A coding agent becomes more useful when it has the right instructions, tools, permissions, and repeatable workflows.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Main workflow",
+      "body": "Use project instructions to guide agents inside a repository. Connect assistants to tools, context, and actions with MCP."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What you will leave with",
+      "body": "Review agent output with tests, diffs, and human judgment.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+      "url": "https://luma.com/ap4l3qlj"
+    }
+  ]
+}

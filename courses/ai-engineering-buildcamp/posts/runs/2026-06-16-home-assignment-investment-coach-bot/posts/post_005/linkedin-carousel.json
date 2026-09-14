@@ -1,0 +1,11 @@
+{
+  "title": "When The Bot Breaks",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "When the bot breaks", "subtitle": "A live failure is often your best eval scenario.", "swipeLabel": "Swipe for the pattern"},
+    {"type": "title-paragraph", "title": "What happened", "body": "The Telegram bot worked, then one query made the agent call the same search tool repeatedly."},
+    {"type": "title-paragraph", "variant": "light", "title": "Good news", "body": "That failure is now a concrete scenario, not a vague concern about agent reliability."},
+    {"type": "title-paragraph", "title": "Encode it", "body": "Add a tool-call limit, graceful fallback, regression test, and eval scenario."},
+    {"type": "title-paragraph", "variant": "light", "title": "Rule", "body": "Every weird demo failure is a future test case."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: real AI engineer take-home", "url": "https://youtu.be/aPq-y5PO9m4"}
+  ]
+}

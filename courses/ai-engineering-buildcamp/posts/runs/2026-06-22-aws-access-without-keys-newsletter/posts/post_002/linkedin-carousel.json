@@ -1,0 +1,40 @@
+{
+  "title": "Agents need sandbox AWS access",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Agents need sandbox AWS access",
+      "subtitle": "The agent can experiment, but it should not reach production.",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The rule",
+      "body": "A coding agent should never have a path to production. If it can reach production AWS resources, the setup needs to change."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Disposable environment",
+      "body": "Agents run on a remote sandbox server. If the server breaks, I can recreate it. Real infrastructure changes still go through CI/CD."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Temporary AWS access",
+      "body": "When an agent needs AWS for an experiment, it gets temporary credentials for a separate sandbox account."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The useful boundary",
+      "body": "The agent has enough room to explore and break things, but only in the sandbox and only for a limited time."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Read the full setup",
+      "supportingText": "The System I Built for AWS Access Without Keys.",
+      "url": "https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access"
+    }
+  ]
+}

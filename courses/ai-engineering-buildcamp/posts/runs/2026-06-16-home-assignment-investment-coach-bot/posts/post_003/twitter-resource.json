@@ -1,0 +1,11 @@
+{
+  "resourceTitle": "Better Agent Tests",
+  "subtitle": "What to check instead",
+  "sections": [
+    {"heading": "Avoid", "bullets": ["Import checks", "Method-name checks", "Prompt-word checks"]},
+    {"heading": "Check", "bullets": ["Tool calls", "Safety boundary", "Useful answer", "Stop condition"]},
+    {"heading": "Priority", "body": "Clean tests before trusting generated code."},
+    {"heading": "Reason", "body": "Bad tests create false confidence."}
+  ],
+  "cta": "Recording: youtu.be/aPq-y5PO9m4"
+}

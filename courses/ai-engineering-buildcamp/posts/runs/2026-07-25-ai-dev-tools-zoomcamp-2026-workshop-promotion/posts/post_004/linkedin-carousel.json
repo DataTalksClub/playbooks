@@ -1,0 +1,40 @@
+{
+  "title": "Build and Ship an AI-Assisted Full-Stack App - announcement",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Workshop: Module 2",
+      "subtitle": "Build and Ship an AI-Assisted Full-Stack App | August 3, 2026 at 6:00 AM PDT",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What this covers",
+      "body": "How to use AI tools from product spec to deployed full-stack app."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why it matters",
+      "body": "AI can generate frontend or backend code, but full-stack work fails when the parts drift apart.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Main workflow",
+      "body": "Turn an app idea into a product spec and acceptance criteria. Use OpenAPI contracts to align frontend and backend work."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What you will leave with",
+      "body": "Add tests, Docker, deployment, and CI/CD without losing the workflow.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Build and Ship an AI-Assisted Full-Stack App",
+      "url": "https://luma.com/50kvfku2"
+    }
+  ]
+}

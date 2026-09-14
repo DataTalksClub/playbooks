@@ -1,0 +1,43 @@
+{
+  "resourceTitle": "Running Durable Agents In Production",
+  "subtitle": "DataTalksClub workshop with Nicholas Lotz, June 16",
+  "sections": [
+    {
+      "heading": "Agent demos often stop at",
+      "bullets": [
+        "Plan",
+        "Call tools",
+        "Return an answer"
+      ]
+    },
+    {
+      "heading": "Production needs more",
+      "body": "The layer around the loop handles state, retries, recovery, approvals, traces, and deployment."
+    },
+    {
+      "heading": "Failures to handle",
+      "bullets": [
+        "Process death",
+        "Deploy interruptions",
+        "Tool timeouts"
+      ]
+    },
+    {
+      "heading": "Workflow features",
+      "bullets": [
+        "Durable state",
+        "Safe retries",
+        "Human approval steps"
+      ]
+    },
+    {
+      "heading": "Debugging features",
+      "body": "Inspect LLM calls, tool calls, timing, token usage, errors, retry attempts, and execution history."
+    },
+    {
+      "heading": "Event details",
+      "body": "Tuesday, June 16, 4:30-6:00 PM GMT+2 on YouTube."
+    }
+  ],
+  "cta": "Register: https://luma.com/wz20rm8n"
+}

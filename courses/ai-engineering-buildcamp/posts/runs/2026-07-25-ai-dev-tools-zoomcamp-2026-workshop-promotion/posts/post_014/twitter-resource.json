@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Practical workflow: Pre-course Q&A",
+  "subtitle": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "Before joining a cohort, it helps to know the workload, prerequisites, project expectations, and how to get unstuck."
+    },
+    {
+      "heading": "Workflow controls",
+      "bullets": [
+        "You should be comfortable with basic programming, Git, GitHub, and the command line",
+        "You do not need a GPU or previous AI tools experience",
+        "The course focuses on planning, coding, review, testing, agents, security, DevOps, and a final project"
+      ]
+    },
+    {
+      "heading": "Reason",
+      "body": "Make AI-assisted work easier to review, test, debug, and ship."
+    },
+    {
+      "heading": "Workshop",
+      "body": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A"
+    },
+    {
+      "heading": "Link",
+      "body": "https://luma.com/a8qa5s2s"
+    }
+  ],
+  "cta": "https://luma.com/a8qa5s2s"
+}

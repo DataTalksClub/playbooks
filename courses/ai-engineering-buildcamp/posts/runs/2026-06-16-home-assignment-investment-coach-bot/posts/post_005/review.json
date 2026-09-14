@@ -1,0 +1,6 @@
+{
+  "post_id": "post_005",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post frames a live failure as a practical eval discovery, which matches the workshop section."],
+  "changed": ["Added concrete follow-up checks so the post is more actionable than a bug story."]
+}

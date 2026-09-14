@@ -1,0 +1,45 @@
+{
+  "title": "Durable Agents Need State Outside The Loop",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Agent demos skip the boring failures",
+      "subtitle": "The hard part starts when the worker restarts, a tool fails, or approval arrives later.",
+      "swipeLabel": "Swipe for the production layer"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The demo works",
+      "body": "The agent plans a step, calls a tool, gets a result, and continues. In a notebook or small app, that can look complete."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Then production happens",
+      "body": "Workers restart. Deploys happen mid-run. Tool calls fail on step 6. A person approves the next action hours later."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Memory is not enough",
+      "body": "If all state is in memory, there is not much to inspect or resume. The workflow needs durable state outside the agent process."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "What should be stored",
+      "body": "Run ID, current step, tool inputs, tool outputs, errors, retries, approval state, and enough history to continue safely."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Workshop focus",
+      "body": "Nicholas Lotz will cover durable workflows for agents: persisting state, resuming after failures, retrying tools, approvals, traces, and deployment."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Join the workshop",
+      "supportingText": "Running Durable Agents in Production, June 16, 4:30-6:00 PM GMT+2 on YouTube.",
+      "url": "https://luma.com/wz20rm8n"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Workshop: Module 1",
+  "subtitle": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+  "sections": [
+    {
+      "heading": "Workshop",
+      "body": "AI-Native Developer Workflow: Using AI Tools Without Losing Control"
+    },
+    {
+      "heading": "Date",
+      "body": "July 22, 2026"
+    },
+    {
+      "heading": "Focus",
+      "body": "How to turn AI coding tools into a disciplined developer workflow."
+    },
+    {
+      "heading": "You will learn",
+      "bullets": [
+        "Compare chat assistants, terminal agents, agentic IDEs, cloud agents, and project bootstrappers",
+        "Use repository instructions, specs, architecture notes, testing guidelines, and security checklists",
+        "Break work into spec, context, plan, edit, run, test, inspect diff, review, and commit"
+      ]
+    },
+    {
+      "heading": "Register",
+      "body": "https://luma.com/lmkti8zj"
+    }
+  ],
+  "cta": "https://luma.com/lmkti8zj"
+}

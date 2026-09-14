@@ -1,0 +1,16 @@
+{
+  "post_id": "post_003",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [],
+  "changed": [
+    "Used the 78-to-40 table example as the concrete evidence.",
+    "Kept the takeaway focused on schema design rather than tool promotion."
+  ]
+}

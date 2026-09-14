@@ -1,0 +1,16 @@
+{
+  "post_id": "post_006",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [],
+  "changed": [
+    "Kept deployment claims grounded in the transcript.",
+    "Included privacy notes only at the level discussed in the workshop."
+  ]
+}

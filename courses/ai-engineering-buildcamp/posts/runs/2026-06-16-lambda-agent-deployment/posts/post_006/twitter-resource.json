@@ -1,0 +1,12 @@
+{
+  "resourceTitle": "Lambda Deployment Gotchas",
+  "subtitle": "Checklist for an agent container",
+  "sections": [
+    {"heading": "Pieces", "bullets": ["Container image", "ECR", "CloudFormation", "Function URL"]},
+    {"heading": "Streaming", "body": "Function URL must support response streaming for the SSE agent UI."},
+    {"heading": "Docker gotcha", "body": "Lambda rejected image metadata until provenance was disabled."},
+    {"heading": "Scripts", "body": "Keep build, push, deploy, and URL lookup repeatable."},
+    {"heading": "Document", "body": "Record commands, failed attempts, required flags, and cleanup notes."}
+  ],
+  "cta": "Recording: youtu.be/zoAvc8VU6Qs"
+}

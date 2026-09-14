@@ -1,0 +1,51 @@
+{
+  "post_id": "post_003",
+  "idea_id": "idea_003",
+  "source_id": "ai-dev-tools-zoomcamp-2026-workshop-series",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Reminder: AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+  "created": "2026-07-25",
+  "updated": "2026-07-25",
+  "angle": "reminder post promoting AI-Native Developer Workflow: Using AI Tools Without Losing Control.",
+  "cta": "Register: https://luma.com/lmkti8zj",
+  "source_moments": [],
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "event": {
+    "title": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+    "module": "Module 1",
+    "date": "July 22, 2026",
+    "time": "",
+    "url": "https://luma.com/lmkti8zj",
+    "status_note": "Past event, use replay/follow-up reminder",
+    "post_type": "reminder"
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053706,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053706&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:53:37.318Z",
+      "updated_at": "2026-07-25T10:53:37.317Z"
+    }
+  ]
+}

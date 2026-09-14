@@ -1,0 +1,11 @@
+{
+  "title": "FastAPI to Lambda for SSE",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "FastAPI to Lambda for SSE", "subtitle": "The agent logic stayed similar. The web adapter changed.", "swipeLabel": "Swipe for the architecture"},
+    {"type": "title-paragraph", "title": "What stayed similar", "body": "The agent loop, search tool, renderer abstraction, and frontend remained close to the previous version."},
+    {"type": "title-paragraph", "variant": "light", "title": "What changed", "body": "FastAPI was removed. Lambda now receives raw requests and the handler routes method and path manually."},
+    {"type": "title-paragraph", "title": "Streaming matters", "body": "A normal buffered response is not enough for an agent UI. The browser needs SSE events while the agent is working."},
+    {"type": "title-paragraph", "variant": "light", "title": "The runtime choice", "body": "The workshop used a custom Lambda runtime and Function URL response streaming to keep the UI interactive."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: Lambda agent deployment", "url": "https://youtu.be/zoAvc8VU6Qs"}
+  ]
+}

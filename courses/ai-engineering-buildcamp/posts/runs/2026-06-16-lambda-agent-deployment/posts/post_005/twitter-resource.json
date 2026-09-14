@@ -1,0 +1,12 @@
+{
+  "resourceTitle": "Working First, Then Simplify",
+  "subtitle": "A coding-agent workflow",
+  "sections": [
+    {"heading": "Step 1", "body": "Let the agent get a version running."},
+    {"heading": "Step 2", "body": "Commit the working state as a checkpoint."},
+    {"heading": "Step 3", "bullets": ["Read the code", "Ask why files exist", "Trace invocation paths"]},
+    {"heading": "Step 4", "body": "Simplify wrappers and abstractions that do not have a clear reason."},
+    {"heading": "Rule", "body": "Working code is a checkpoint, not the finish line."}
+  ],
+  "cta": "Recording: youtu.be/zoAvc8VU6Qs"
+}

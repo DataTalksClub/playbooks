@@ -1,0 +1,40 @@
+{
+  "title": "Make agent tool use visible",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Make agent tool use visible",
+      "subtitle": "A silent UI makes working agents feel broken.",
+      "swipeLabel": "Swipe for the pattern"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Silence is confusing",
+      "body": "If the user asks a question and nothing changes for 20 seconds, the app feels stuck even when the backend is doing useful work."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Stream the work",
+      "body": "Show answer tokens as they arrive. Show tool calls, inputs, and results while the agent is still working."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Collapse noisy output",
+      "body": "Tool results can be long. Keep them visible for debugging, but collapsed by default so the interface stays readable."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "This is observability",
+      "body": "Visible tool events show whether retrieval happened, which tool was called, and what data came back before the answer."
+    },
+    {
+      "type": "outro",
+      "ctaText": "follow for practical AI engineering notes",
+      "supportingText": "Full recording: End-to-End Agent Deployment",
+      "url": "https://youtu.be/h84rcRezNM4"
+    }
+  ]
+}

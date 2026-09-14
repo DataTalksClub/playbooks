@@ -1,0 +1,63 @@
+{
+  "post_id": "post_002",
+  "idea_id": "idea_002",
+  "source_id": "youtube_zoavc8vu6qs",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Isolate AWS before giving agents credentials",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Use separate AWS accounts and temporary, project-scoped credentials before letting agents work on infrastructure.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "00:08:19",
+      "end": "00:11:14",
+      "note": "Create a separate AWS account for agent experiments.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    },
+    {
+      "start": "00:17:31",
+      "end": "00:18:15",
+      "note": "Trust is bounded by account isolation.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    },
+    {
+      "start": "00:25:04",
+      "end": "00:25:39",
+      "note": "Use temporary STS credentials.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    },
+    {
+      "start": "00:42:17",
+      "end": "00:44:27",
+      "note": "Project-local credentials reduce global exposure.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_002",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 175
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

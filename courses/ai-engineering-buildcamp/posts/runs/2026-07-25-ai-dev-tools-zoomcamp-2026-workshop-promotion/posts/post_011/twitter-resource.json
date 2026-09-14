@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Practical workflow: Module 4",
+  "subtitle": "Open-Source AI Tools for Security, Audit, and DevOps",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "AI-assisted projects still need security scanning, audit trails, incident investigation, and deployment discipline."
+    },
+    {
+      "heading": "Workflow controls",
+      "bullets": [
+        "Review generated code like any other production change",
+        "Make scanners available before the agent asks for deployment",
+        "Record what changed, which tools ran, and which checks passed"
+      ]
+    },
+    {
+      "heading": "Reason",
+      "body": "Make AI-assisted work easier to review, test, debug, and ship."
+    },
+    {
+      "heading": "Workshop",
+      "body": "Open-Source AI Tools for Security, Audit, and DevOps"
+    },
+    {
+      "heading": "Link",
+      "body": "https://luma.com/ycsfxigi"
+    }
+  ],
+  "cta": "https://luma.com/ycsfxigi"
+}

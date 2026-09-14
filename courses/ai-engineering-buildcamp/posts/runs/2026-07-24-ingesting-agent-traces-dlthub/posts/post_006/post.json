@@ -1,0 +1,81 @@
+{
+  "post_id": "post_006",
+  "idea_id": "idea_006",
+  "source_id": "youtube_a0lmmzf-ggm",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "From local dashboards to team dashboards",
+  "created": "2026-07-24",
+  "updated": "2026-07-24",
+  "angle": "Local dashboards help validate trace data; team observability needs scheduled pipelines, durable destinations, and deployed reports.",
+  "cta": "Watch the workshop recording.",
+  "source_moments": [
+    {
+      "start": "01:16:37",
+      "end": "01:17:32",
+      "note": "Alexey summarizes the move from local/API ingestion to a shareable dashboard.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    },
+    {
+      "start": "01:19:08",
+      "end": "01:20:18",
+      "note": "Alena explains running, scheduling, chaining pipelines, and deploying reports/notebooks/apps for the team.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_006",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "planned_output_path": "../../clips/post_006.mp4",
+    "duration_seconds": 70
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053496,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053496&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:17:41.386Z",
+      "updated_at": "2026-07-25T10:17:41.385Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10054292,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10054292&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T12:00:40.508Z",
+      "updated_at": "2026-07-25T12:00:40.507Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10090840,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10090840&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-28T07:38:10.908Z",
+      "updated_at": "2026-07-28T07:38:10.908Z"
+    }
+  ]
+}

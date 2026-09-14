@@ -1,0 +1,19 @@
+{
+  "post_id": "post_001",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Clear practical angle for engineers who run workshops, agents, or cloud sandboxes.",
+    "Preserves source details: Codespaces, Lambda, AWS_CONTAINER_CREDENTIALS_FULL_URI, temporary credentials, sandbox account."
+  ],
+  "changed": [
+    "Centered the post on the original workshop constraint.",
+    "Kept the final rule as the takeaway and CTA to the newsletter."
+  ]
+}

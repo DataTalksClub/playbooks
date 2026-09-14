@@ -1,0 +1,57 @@
+{
+  "post_id": "post_004",
+  "idea_id": "idea_004",
+  "source_id": "youtube_zoavc8vu6qs",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "FastAPI to custom Lambda runtime for SSE",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Moving from FastAPI to Lambda keeps most agent logic but replaces framework routing with Lambda-specific request handling and streaming runtime behavior.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "00:35:23",
+      "end": "00:38:25",
+      "note": "Goal: serve frontend, backend, and SSE through Lambda.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "00:45:56",
+      "end": "00:49:30",
+      "note": "Lambda handler routes method/path and streams ask responses.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "01:16:13",
+      "end": "01:16:48",
+      "note": "Custom runtime is needed for streaming instead of buffered responses.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_004",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 214
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

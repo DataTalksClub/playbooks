@@ -1,0 +1,51 @@
+{
+  "post_id": "post_002",
+  "idea_id": "idea_002",
+  "source_id": "youtube_apq-y5po9m4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Build a CLI before wrapping the agent in Telegram",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "For an agent product, start with a simple terminal app before adding UI or Telegram because it makes the core loop easier to inspect.",
+  "cta": "Watch the recording.",
+  "source_moments": [
+    {
+      "start": "00:19:16",
+      "end": "00:20:04",
+      "note": "Start with a terminal application and add Telegram later.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    },
+    {
+      "start": "00:48:59",
+      "end": "00:51:27",
+      "note": "The CLI helps inspect tool use and answer structure.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_002",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 48
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

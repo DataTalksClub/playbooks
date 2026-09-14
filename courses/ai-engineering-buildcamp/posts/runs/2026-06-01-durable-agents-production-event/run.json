@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-01-durable-agents-production-event",
+  "created": "2026-06-01",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "running-durable-agents-in-production",
+    "type": "event",
+    "title": "Running Durable Agents in Production",
+    "url": "",
+    "video_id": "",
+    "transcript_path": "",
+    "duration_seconds": 0
+  }
+}

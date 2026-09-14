@@ -1,0 +1,39 @@
+{
+  "resourceTitle": "Tool Calling Is Not Production Readiness",
+  "subtitle": "What has to exist around an agent's function calls",
+  "sections": [
+    {
+      "heading": "Tool calling gives you",
+      "body": "A function call with a schema and structured arguments."
+    },
+    {
+      "heading": "Production asks more",
+      "bullets": [
+        "Where is state stored?",
+        "What if the call times out?",
+        "Can retrying duplicate side effects?"
+      ]
+    },
+    {
+      "heading": "The ticket example",
+      "body": "If ticket creation times out, the retry may create a duplicate unless the workflow knows what happened."
+    },
+    {
+      "heading": "What to record",
+      "bullets": [
+        "Tool input and output",
+        "Timeouts and retry count",
+        "Idempotency and recovery path"
+      ]
+    },
+    {
+      "heading": "The useful outcome",
+      "body": "You can explain what ran, what failed, what retried, and where the workflow should continue."
+    },
+    {
+      "heading": "Workshop",
+      "body": "Nicholas Lotz will cover this on June 16, 4:30-6:00 PM GMT+2."
+    }
+  ],
+  "cta": "Register: https://luma.com/wz20rm8n"
+}

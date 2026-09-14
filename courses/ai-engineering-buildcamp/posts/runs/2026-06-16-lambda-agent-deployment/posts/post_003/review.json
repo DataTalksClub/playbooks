@@ -1,0 +1,6 @@
+{
+  "post_id": "post_003",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["Strong fit for AI engineers and practitioners adjusting their workflow."],
+  "changed": ["Converted the discussion into a repeatable workflow."]
+}

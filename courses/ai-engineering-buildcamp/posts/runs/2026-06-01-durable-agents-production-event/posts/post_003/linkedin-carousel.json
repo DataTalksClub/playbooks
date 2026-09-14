@@ -1,0 +1,45 @@
+{
+  "title": "Human Approval Is Part Of The Execution Model",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Human approval is not just a button",
+      "subtitle": "When an agent waits for a person, the workflow needs durable state.",
+      "swipeLabel": "Swipe for the execution model"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The diagram looks simple",
+      "body": "The agent prepares an action. A person reviews it. The agent continues. That looks small in code."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Waiting changes the system",
+      "body": "Approval can take two hours or two days. The worker can restart. A deploy can finish while the workflow is paused."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Approval needs storage",
+      "body": "The workflow should write pending approval state, keep the workflow ID, and store the proposed action."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Resume from the event",
+      "body": "When the approval event arrives, the workflow should continue from that step. It should not depend on one Python process still being alive."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Workshop focus",
+      "body": "Nicholas Lotz will cover human-in-the-loop workflows, retries, timeouts, traces, recovery, and deployment patterns."
+    },
+    {
+      "type": "outro",
+      "ctaText": "bring your approval workflow questions",
+      "supportingText": "Running Durable Agents in Production, June 16, 4:30-6:00 PM GMT+2 on YouTube.",
+      "url": "https://luma.com/wz20rm8n"
+    }
+  ]
+}

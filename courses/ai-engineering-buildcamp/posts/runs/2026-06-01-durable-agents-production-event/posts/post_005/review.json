@@ -1,0 +1,18 @@
+{
+  "post_id": "post_005",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Good as a direct reminder post near the event date.",
+    "Registration link is a placeholder because no URL was provided."
+  ],
+  "changed": [
+    "Condensed the event agenda into a practical registration-focused announcement."
+  ]
+}

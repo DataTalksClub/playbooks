@@ -1,0 +1,63 @@
+{
+  "post_id": "post_004",
+  "idea_id": "idea_004",
+  "source_id": "youtube_h84rcreznm4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Keep production deployment behind CI/CD",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Agents can help with deployment experiments, but production needs CI/CD, permissions, tests, and manual promotion.",
+  "cta": "Watch the full recording.",
+  "source_moments": [
+    {
+      "start": "01:34:42",
+      "end": "01:36:09",
+      "note": "Production credentials and destructive access should be limited.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "01:39:46",
+      "end": "01:44:09",
+      "note": "Dev/prod separation, CI/CD, and manual promotion explained.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "01:45:35",
+      "end": "01:46:12",
+      "note": "Tests should pass before deployment.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "01:47:15",
+      "end": "01:48:57",
+      "note": "Secrets should not be pasted into an agent conversation.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_004",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 87
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

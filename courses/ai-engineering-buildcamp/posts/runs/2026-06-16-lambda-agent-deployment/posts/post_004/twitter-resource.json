@@ -1,0 +1,12 @@
+{
+  "resourceTitle": "FastAPI to Lambda",
+  "subtitle": "What changes for a streaming agent app",
+  "sections": [
+    {"heading": "Mostly unchanged", "bullets": ["Agent loop", "Search tool", "Frontend"]},
+    {"heading": "Changed layer", "body": "The web adapter moved from FastAPI to Lambda request handling."},
+    {"heading": "Lambda handler", "bullets": ["Inspect method/path", "Parse request body", "Return response"]},
+    {"heading": "Streaming issue", "body": "Buffered responses are not enough for SSE agent UIs."},
+    {"heading": "Solution", "body": "Use Function URL response streaming and a custom runtime."}
+  ],
+  "cta": "Recording: youtu.be/zoAvc8VU6Qs"
+}

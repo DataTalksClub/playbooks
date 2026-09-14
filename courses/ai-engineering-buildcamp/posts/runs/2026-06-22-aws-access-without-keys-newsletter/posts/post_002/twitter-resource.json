@@ -1,0 +1,35 @@
+{
+  "resourceTitle": "AWS Access for Coding Agents",
+  "subtitle": "Enough access to experiment. No path to production.",
+  "sections": [
+    {
+      "heading": "Rule",
+      "body": "A coding agent should never have a path to production."
+    },
+    {
+      "heading": "Environment",
+      "bullets": [
+        "Remote sandbox server",
+        "Disposable machine",
+        "CI/CD for real deployments"
+      ]
+    },
+    {
+      "heading": "AWS boundary",
+      "bullets": [
+        "Separate sandbox account",
+        "Temporary credentials",
+        "Revocable access"
+      ]
+    },
+    {
+      "heading": "Agent workflow",
+      "body": "Agents can test services, resources, and permissions inside the sandbox only."
+    },
+    {
+      "heading": "Production",
+      "body": "If the agent can reach production, stop and fix the boundary first."
+    }
+  ],
+  "cta": "Read: https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access"
+}

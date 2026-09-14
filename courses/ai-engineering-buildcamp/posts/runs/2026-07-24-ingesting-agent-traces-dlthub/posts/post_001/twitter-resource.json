@@ -1,0 +1,27 @@
+{
+  "resourceTitle": "Agent Traces Are Data",
+  "subtitle": "A practical workflow for coding-agent usage analytics",
+  "sections": [
+    {
+      "heading": "Trace Signals",
+      "bullets": ["Token usage", "Models used", "Tool calls and cache"]
+    },
+    {
+      "heading": "Local Files",
+      "body": "Coding agents often store session metadata locally as JSON or JSONL."
+    },
+    {
+      "heading": "Useful Questions",
+      "bullets": ["Which models did I use?", "Which projects were active?", "Did sensitive data appear?"]
+    },
+    {
+      "heading": "Workflow",
+      "bullets": ["Read traces", "Load with dlt", "Query in DuckDB"]
+    },
+    {
+      "heading": "Result",
+      "body": "Unreadable logs become dashboards for usage by day, model, and project."
+    }
+  ],
+  "cta": "Watch: youtube.com/live/A0LmmZf-ggM"
+}

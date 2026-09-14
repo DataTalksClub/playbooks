@@ -1,0 +1,14 @@
+{
+  "source_id": "the-system-i-built-for-aws-access-without-keys",
+  "type": "newsletter",
+  "title": "The System I Built for AWS Access Without Keys",
+  "url": "https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access",
+  "published": "2026-06-19",
+  "author": "Alexey Grigorev",
+  "source_text_path": "source/newsletter.txt",
+  "verified_from": "Substack page opened on 2026-06-22",
+  "summary": "Newsletter about building temporary, revocable AWS access without long-lived keys for workshops, coding agents, and phone-controlled sandbox access.",
+  "video_id": "",
+  "transcript_path": "",
+  "duration_seconds": 0
+}

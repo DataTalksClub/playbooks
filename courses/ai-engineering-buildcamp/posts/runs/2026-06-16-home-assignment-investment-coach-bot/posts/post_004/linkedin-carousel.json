@@ -1,0 +1,11 @@
+{
+  "title": "Evaluate Trajectory",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Evaluate the trajectory", "subtitle": "For agents, the path matters as much as the final answer.", "swipeLabel": "Swipe for the eval pattern"},
+    {"type": "title-paragraph", "title": "Output-only eval", "body": "Does the answer look good? Useful, but incomplete for tool-using agents."},
+    {"type": "title-paragraph", "variant": "light", "title": "Trajectory eval", "body": "Which tools did the agent call, with what inputs, and did that path make sense?"},
+    {"type": "title-paragraph", "title": "What can go wrong", "body": "The answer may look fine while the agent skips data, calls the wrong tool, or loops."},
+    {"type": "title-paragraph", "variant": "light", "title": "Eval record", "body": "Store input, expected behavior, final answer, collected tool calls, and judge/check results."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: real AI engineer take-home", "url": "https://youtu.be/aPq-y5PO9m4"}
+  ]
+}

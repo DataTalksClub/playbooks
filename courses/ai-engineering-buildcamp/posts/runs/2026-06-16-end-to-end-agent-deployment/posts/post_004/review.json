@@ -1,0 +1,19 @@
+{
+  "post_id": "post_004",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Preserves the transcript's distinction between toy deployment and production deployment.",
+    "Avoids mentioning private incident details beyond the safe production-access lesson."
+  ],
+  "changed": [
+    "Made access control the central thesis.",
+    "Converted the deployment guidance into a practical checklist."
+  ]
+}

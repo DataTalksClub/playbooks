@@ -1,0 +1,6 @@
+{
+  "post_id": "post_002",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["Preserves the transcript's security argument without inventing a formal AWS architecture."],
+  "changed": ["Moved the hook from abstract trust to concrete blast radius."]
+}

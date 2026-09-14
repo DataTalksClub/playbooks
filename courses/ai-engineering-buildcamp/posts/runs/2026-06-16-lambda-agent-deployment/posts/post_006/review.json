@@ -1,0 +1,6 @@
+{
+  "post_id": "post_006",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["Practical checklist post grounded in the actual deployment discussion."],
+  "changed": ["Used provenance as an example rather than turning the post into a Docker metadata tutorial."]
+}

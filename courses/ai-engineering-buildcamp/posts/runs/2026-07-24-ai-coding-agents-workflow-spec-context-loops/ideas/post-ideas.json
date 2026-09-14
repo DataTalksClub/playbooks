@@ -1,0 +1,156 @@
+{
+  "source": {
+    "title": "How to Work with AI Coding Agents: Spec-Driven Development, Context and Loop Engineering, Workflows",
+    "video_id": "VUJxJGpaDEs",
+    "transcript_path": "source/transcript.json",
+    "duration_seconds": 6874
+  },
+  "ideas": [
+    {
+      "id": "idea_001",
+      "title": "One-Shot Prompting Makes The Agent Decide Your Product",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "A short prompt like \"implement a weekly feedback tool\" gives the agent too much room. It will choose the product shape, stack, interface, and scope. In the demo, the one-shot version produced a working CLI, but not the retrospective workflow Alexey actually wanted.",
+      "why_worth_posting": "This is a clear, practical correction to vague AI coding advice. The lesson is not that agents are bad. The lesson is that underspecified prompts push product decisions into the model.",
+      "source_moments": [
+        {"start": "00:16:34", "end": "00:17:38", "note": "A vague one-shot prompt makes the agent fill gaps and choose assumptions."},
+        {"start": "00:30:18", "end": "00:31:36", "note": "The one-shot result is a different app: a CLI for weekly project health."}
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "00:16:34",
+        "end": "00:17:38",
+        "title": "Why One-Shot Coding Prompts Drift",
+        "reason": "The segment explains the problem crisply and stands alone.",
+        "quality": "high",
+        "trim_notes": "Start when Alexey says the problem with one-shot implementations is a small prompt. End after he says the agent fills gaps."
+      },
+      "writing_brief": "Write a LinkedIn/X post for engineers explaining why one-shot coding-agent prompts often produce the wrong product, even when the code works. Emphasize specification before implementation.",
+      "status": "written"
+    },
+    {
+      "id": "idea_002",
+      "title": "Specification Starts As A Conversation",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "good"},
+      "post_angle": "Alexey uses a chat assistant before opening the coding agent. The job is not code generation. It is scoping: ask one question at a time, keep output short, decide who the users are, what workflow matters, what is anonymous, when feedback is revealed, and what is out of scope.",
+      "why_worth_posting": "Many practitioners jump directly into the coding agent. This post shows a repeatable front-end to the process: turn a vague idea into a project-level spec before writing code.",
+      "source_moments": [
+        {"start": "00:18:01", "end": "00:20:20", "note": "Alexey prompts ChatGPT to help scope the project, ask one question at a time, and keep output short."},
+        {"start": "00:20:22", "end": "00:29:59", "note": "The idea becomes an MVP with feedback cycles, anonymity, voting, action items, roles, screens, and exclusions."}
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "00:19:06",
+        "end": "00:20:20",
+        "title": "A Scoping Prompt Before Coding",
+        "reason": "It shows the exact interaction pattern for project scoping.",
+        "quality": "high",
+        "trim_notes": "Start when Alexey says he wants to turn a vague prompt into something specific. End after the first concise question appears."
+      },
+      "writing_brief": "Write a post explaining how to use a chat assistant as a scoping partner before coding. Include the one-question-at-a-time pattern and why it prevents walls of text.",
+      "status": "written"
+    },
+    {
+      "id": "idea_003",
+      "title": "Technology Choice Is Architecture Work",
+      "priority": 4,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "good"},
+      "post_angle": "After the product spec, Alexey asks the coding agent for multiple stack options, then challenges them. He chooses Django mostly because he can read and maintain it quickly. The lesson: even with agents, the architect still owns trade-offs, familiarity, hosting constraints, background jobs, APIs, and dependency choices.",
+      "why_worth_posting": "This is a useful counterweight to letting the agent pick the stack. Agents can propose options, but humans still need to decide what they can operate.",
+      "source_moments": [
+        {"start": "00:35:42", "end": "00:41:15", "note": "Alexey separates conceptual scoping from technical stack selection and chooses Django because he knows it well."},
+        {"start": "00:43:01", "end": "00:46:40", "note": "He descopes architecture choices and recommends challenging every line of the technology decision."}
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "00:39:45",
+        "end": "00:41:15",
+        "title": "Choose A Stack You Can Maintain",
+        "reason": "The clip has a clear practical decision about stack familiarity.",
+        "quality": "high",
+        "trim_notes": "Start when Alexey says he likes Django more than FastAPI. End after he says Django is a natural choice because he is familiar with it."
+      },
+      "writing_brief": "Write a post about the human architect role in AI-assisted development. Focus on trade-offs, familiarity, and challenging agent-suggested stack choices.",
+      "status": "written"
+    },
+    {
+      "id": "idea_004",
+      "title": "Context Engineering Is Mostly Documentation Discipline",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Context engineering for coding agents is mostly AGENTS.md, process.md, role files, and pointers to focused docs. The goal is to stop every new session from rediscovering project rules, commands, tools, and workflows.",
+      "why_worth_posting": "This is a concrete version of a buzzword. Alexey's audience can copy the pattern immediately: a small root context file plus task-specific docs.",
+      "source_moments": [
+        {"start": "01:00:35", "end": "01:05:59", "note": "Alexey explains that each new session needs project context and introduces AGENTS.md / CLAUDE.md."},
+        {"start": "01:07:35", "end": "01:12:16", "note": "He trims AGENTS.md and explains linking to focused docs instead of dumping everything into one file."}
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "01:02:26",
+        "end": "01:03:45",
+        "title": "Context Engineering For Coding Agents",
+        "reason": "The segment defines context engineering in practical repo terms.",
+        "quality": "high",
+        "trim_notes": "Start when Alexey says each new session needs to understand what is happening. End after he describes AGENTS.md as a simple markdown file."
+      },
+      "writing_brief": "Write a post explaining context engineering as repo documentation discipline. Mention AGENTS.md, process.md, and routing agents to focused docs only when needed.",
+      "status": "written"
+    },
+    {
+      "id": "idea_005",
+      "title": "Feature Specs Need Acceptance Criteria And Out-Of-Scope Items",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Project-level specs are not enough. Each feature needs grooming: a goal, concrete acceptance criteria, and explicit out-of-scope items. The acceptance criteria should be checkable: someone should be able to point at the screen and say yes or no.",
+      "why_worth_posting": "This maps product management practice directly onto coding-agent work. It reduces ambiguity before the implementation agent starts.",
+      "source_moments": [
+        {"start": "01:12:29", "end": "01:14:09", "note": "Alexey explains why vague GitHub issues still leave too much room for assumptions."},
+        {"start": "01:16:27", "end": "01:18:05", "note": "He creates a PM role and emphasizes checkable acceptance criteria."},
+        {"start": "01:21:50", "end": "01:23:56", "note": "A groomed authentication issue shows concrete criteria and out-of-scope items."}
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "01:16:27",
+        "end": "01:18:05",
+        "title": "Groom Issues Before Agents Implement",
+        "reason": "It explains the PM/grooming role and checkable acceptance criteria.",
+        "quality": "high",
+        "trim_notes": "Start when Alexey creates the PM role. End after he says acceptance criteria should be explicit."
+      },
+      "writing_brief": "Write a post about feature-level specifications for coding agents. Use the PM/grooming analogy and emphasize checkable acceptance criteria plus out-of-scope sections.",
+      "status": "written"
+    },
+    {
+      "id": "idea_006",
+      "title": "PM, Engineer, QA Is A Practical Agent Workflow",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {"linkedin": "strong", "x": "strong"},
+      "post_angle": "Alexey turns the coding process into a small workflow graph: PM grooms the issue, engineer implements it, QA checks acceptance criteria, and failed work loops back to the engineer. The orchestrator launches these roles instead of doing everything in one session.",
+      "why_worth_posting": "This makes loop engineering and graph engineering concrete. It also explains why quality improves but token usage increases.",
+      "source_moments": [
+        {"start": "01:27:15", "end": "01:30:15", "note": "Alexey explains goals/loops as a way to keep an agent working through a pile of issues."},
+        {"start": "01:35:29", "end": "01:41:46", "note": "He defines PM, engineer, QA, and the workflow graph with pass/fail looping."},
+        {"start": "01:52:37", "end": "01:53:30", "note": "He notes the quality/token trade-off of using PM, implementation, and testing roles."}
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "01:37:27",
+        "end": "01:39:11",
+        "title": "The PM Engineer QA Agent Loop",
+        "reason": "The segment explains the workflow graph and pass/fail loop clearly.",
+        "quality": "high",
+        "trim_notes": "Start when Alexey lists the three roles. End after failed tasks loop back to the implementer."
+      },
+      "writing_brief": "Write a post explaining agent workflows as a PM-engineer-QA loop. Mention acceptance criteria, QA verdicts, failed work looping back, and the token-versus-quality trade-off.",
+      "status": "written"
+    }
+  ]
+}

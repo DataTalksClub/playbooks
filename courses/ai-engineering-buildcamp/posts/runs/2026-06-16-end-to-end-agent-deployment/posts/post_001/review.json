@@ -1,0 +1,19 @@
+{
+  "post_id": "post_001",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Uses only transcript-supported sequencing from the workshop.",
+    "Avoids claiming structured output or vector databases are unnecessary."
+  ],
+  "changed": [
+    "Tightened the hook around the first milestone.",
+    "Kept the CTA to the recording only."
+  ]
+}

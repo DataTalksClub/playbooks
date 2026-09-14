@@ -1,0 +1,216 @@
+{
+  "source": {
+    "title": "End-to-End Agent Deployment",
+    "video_id": "h84rcRezNM4",
+    "url": "https://youtu.be/h84rcRezNM4",
+    "transcript_path": "../source/transcript.json",
+    "duration_seconds": 6972
+  },
+  "ideas": [
+    {
+      "id": "idea_001",
+      "title": "Build the smallest deployable agent first",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {
+        "linkedin": "strong",
+        "x": "good"
+      },
+      "post_angle": "For a first production pass, make the agent work end to end before adding structured outputs, more tools, conversation memory, or a vector database.",
+      "why_worth_posting": "The audience often overbuilds agent prototypes before there is a working backend, frontend, container, and deployment path. This idea gives a concrete order of operations.",
+      "source_moments": [
+        {
+          "start": "00:31:02",
+          "end": "00:32:46",
+          "note": "The notebook has to become a proper Python project and FastAPI backend before deployment."
+        },
+        {
+          "start": "00:58:30",
+          "end": "00:59:49",
+          "note": "Structured output is useful later, but it adds complexity when combined with streaming."
+        },
+        {
+          "start": "01:18:13",
+          "end": "01:19:31",
+          "note": "The working app is packaged into one container for deployment."
+        }
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "00:58:30",
+        "end": "00:59:49",
+        "title": "Make it work end to end first",
+        "reason": "This section states the trade-off clearly: ship the full path first, improve the agent later.",
+        "quality": "high",
+        "trim_notes": "Start when structured output is mentioned; end after the make-it-work-first conclusion."
+      },
+      "writing_brief": "Write a practical post for AI engineers explaining why the first milestone should be a deployed vertical slice: simple agent loop, backend, frontend, Docker, deploy. Mention that structured outputs, better retrieval, memory, and nicer UX can follow once the full path works.",
+      "status": "written"
+    },
+    {
+      "id": "idea_002",
+      "title": "Make agent tool use visible in the UI",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {
+        "linkedin": "strong",
+        "x": "strong"
+      },
+      "post_angle": "An agent UI should show streaming progress, tool calls, parameters, and tool results instead of waiting silently for the final answer.",
+      "why_worth_posting": "This is a concrete observability lesson for agent products. It connects backend event handling with user trust and debugging.",
+      "source_moments": [
+        {
+          "start": "00:53:27",
+          "end": "00:56:29",
+          "note": "FastAPI exposes an ask stream endpoint and sends events to the frontend."
+        },
+        {
+          "start": "01:08:26",
+          "end": "01:09:31",
+          "note": "The initial frontend waits for the final response, so Alexey asks for streaming events and visible tool calls."
+        },
+        {
+          "start": "01:12:27",
+          "end": "01:12:49",
+          "note": "The result works well enough after adding streaming and tool event visibility."
+        }
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "01:08:26",
+        "end": "01:09:31",
+        "title": "Show tool calls as they happen",
+        "reason": "This is a concise explanation of why waiting for the final response is not enough.",
+        "quality": "high",
+        "trim_notes": "Use the explanation of wanting streaming API, tool calls, parameters, and collapsible tool results."
+      },
+      "writing_brief": "Write a post for AI engineers about exposing agent internals in the product UI: stream tokens, show tool calls, show inputs and outputs, collapse noisy results, and make progress observable.",
+      "status": "written"
+    },
+    {
+      "id": "idea_003",
+      "title": "Use one Docker image for a small agent app",
+      "priority": 4,
+      "confidence": "high",
+      "platform_fit": {
+        "linkedin": "strong",
+        "x": "good"
+      },
+      "post_angle": "For a small agent application, one Docker image can serve the built frontend and the FastAPI backend. A multi-stage build keeps Node.js out of the runtime image.",
+      "why_worth_posting": "Many learners struggle with whether they need separate frontend and backend containers. This gives a useful deployment pattern and a real debugging note about environment variables.",
+      "source_moments": [
+        {
+          "start": "01:18:13",
+          "end": "01:21:32",
+          "note": "The app is packaged as one Docker container that builds the frontend and serves static files from FastAPI."
+        },
+        {
+          "start": "01:23:24",
+          "end": "01:26:29",
+          "note": "The multi-stage build is explained: frontend build output is copied into the backend image."
+        },
+        {
+          "start": "01:28:23",
+          "end": "01:30:04",
+          "note": "A Docker environment variable issue appears because the API key is not propagated as expected."
+        }
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "01:23:24",
+        "end": "01:26:29",
+        "title": "Multi-stage Docker build for frontend and backend",
+        "reason": "The explanation answers a real participant question and works as a standalone technical clip.",
+        "quality": "high",
+        "trim_notes": "Start with the Docker-step question; end after the throwaway-container explanation."
+      },
+      "writing_brief": "Write a practical post explaining when one container is enough for a small agent app, how a multi-stage Docker build works, and why environment variables should be tested inside the container.",
+      "status": "written"
+    },
+    {
+      "id": "idea_004",
+      "title": "Keep production deployment behind CI/CD",
+      "priority": 5,
+      "confidence": "high",
+      "platform_fit": {
+        "linkedin": "strong",
+        "x": "strong"
+      },
+      "post_angle": "Coding agents can help experiment with deployment, but production should be protected by CI/CD, separate environments, tests, manual promotion, and limited credentials.",
+      "why_worth_posting": "This is the strongest production safety lesson in the video. It includes a real incident, a deployment model, and specific guardrails.",
+      "source_moments": [
+        {
+          "start": "01:34:42",
+          "end": "01:36:09",
+          "note": "Alexey describes not keeping AWS credentials on the remote server and mentions a production database deletion incident."
+        },
+        {
+          "start": "01:39:46",
+          "end": "01:44:09",
+          "note": "The recommended setup uses separate dev/prod environments, tests, automatic dev deploys, manual production promotion, and CI/CD."
+        },
+        {
+          "start": "01:45:35",
+          "end": "01:46:12",
+          "note": "Tests should run before deployment, with fast unit tests and CI integration tests."
+        },
+        {
+          "start": "01:47:15",
+          "end": "01:48:57",
+          "note": "The transcript includes a warning not to paste tokens into an agent conversation."
+        }
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "01:34:42",
+        "end": "01:36:09",
+        "title": "Do not give agents destructive production access",
+        "reason": "The anecdote is specific, memorable, and naturally supports the CI/CD safety post.",
+        "quality": "high",
+        "trim_notes": "Keep the incident and the lesson; avoid extending into unrelated deployment setup."
+      },
+      "writing_brief": "Write a production engineering post about using coding agents for learning and experimentation while keeping real deployment behind CI/CD, separate dev/prod environments, tests, manual approval, and secrets management.",
+      "status": "written"
+    },
+    {
+      "id": "idea_005",
+      "title": "Run coding agents where the work can continue",
+      "priority": 4,
+      "confidence": "high",
+      "platform_fit": {
+        "linkedin": "good",
+        "x": "good"
+      },
+      "post_angle": "For long-running coding-agent work, a remote machine plus tmux keeps work alive when the laptop disconnects, closes, or moves networks.",
+      "why_worth_posting": "This is a practical workflow post for engineers who are starting to use coding agents for longer tasks.",
+      "source_moments": [
+        {
+          "start": "00:32:51",
+          "end": "00:33:17",
+          "note": "Alexey introduces tmux to keep the session running when SSH is interrupted."
+        },
+        {
+          "start": "00:42:28",
+          "end": "00:45:22",
+          "note": "He explains how an SSH-attached process dies and how tmux lets it continue."
+        },
+        {
+          "start": "00:45:45",
+          "end": "00:46:31",
+          "note": "A remote environment is useful for long-running bots and agent sessions."
+        }
+      ],
+      "clip": {
+        "recommended": true,
+        "start": "00:42:28",
+        "end": "00:45:22",
+        "title": "Keep remote agent work alive with tmux",
+        "reason": "The explanation is practical and easy to understand without the rest of the session.",
+        "quality": "medium",
+        "trim_notes": "Tighten pauses and keep the concrete SSH interruption example."
+      },
+      "writing_brief": "Write a practical workflow post explaining why long-running coding-agent work benefits from a remote machine and tmux. Keep it grounded and avoid telling every user they need this setup.",
+      "status": "written"
+    }
+  ]
+}

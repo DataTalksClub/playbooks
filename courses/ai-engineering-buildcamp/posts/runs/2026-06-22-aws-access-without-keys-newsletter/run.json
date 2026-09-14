@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-22-aws-access-without-keys-newsletter",
+  "created": "2026-06-22",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "the-system-i-built-for-aws-access-without-keys",
+    "type": "newsletter",
+    "title": "The System I Built for AWS Access Without Keys",
+    "url": "https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access",
+    "video_id": "",
+    "transcript_path": "",
+    "duration_seconds": 0
+  }
+}

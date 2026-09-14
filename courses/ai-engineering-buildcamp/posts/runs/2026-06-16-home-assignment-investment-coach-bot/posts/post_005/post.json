@@ -1,0 +1,51 @@
+{
+  "post_id": "post_005",
+  "idea_id": "idea_005",
+  "source_id": "youtube_apq-y5po9m4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Turn live agent failures into evals",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "A live Telegram test found that the agent could loop on a tool call, which is exactly the kind of failure that should become an eval or unit test.",
+  "cta": "Watch the recording.",
+  "source_moments": [
+    {
+      "start": "01:52:46",
+      "end": "01:56:38",
+      "note": "The CLI agent is wrapped as a Telegram bot and tested.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    },
+    {
+      "start": "01:59:15",
+      "end": "02:02:01",
+      "note": "A query makes the bot loop on a search tool; the next step is a call limit and assertion.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_005",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 166
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

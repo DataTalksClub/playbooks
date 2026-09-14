@@ -1,0 +1,39 @@
+{
+  "resourceTitle": "Durable Agents Need State Outside The Loop",
+  "subtitle": "What demos skip when agents become production workflows",
+  "sections": [
+    {
+      "heading": "The demo version",
+      "body": "The agent plans a step, calls a tool, gets a result, and continues."
+    },
+    {
+      "heading": "Production behavior",
+      "bullets": [
+        "Workers restart",
+        "Deploys happen mid-run",
+        "Tool calls fail late"
+      ]
+    },
+    {
+      "heading": "Approval can arrive later",
+      "body": "A workflow may need to pause, wait for a person, and continue hours or days later."
+    },
+    {
+      "heading": "State to persist",
+      "bullets": [
+        "Run ID and current step",
+        "Tool inputs and outputs",
+        "Errors, retries, approvals"
+      ]
+    },
+    {
+      "heading": "Why it matters",
+      "body": "If state lives only in memory, there is not much to inspect, resume, or retry safely."
+    },
+    {
+      "heading": "Workshop",
+      "body": "Running Durable Agents in Production with Nicholas Lotz, June 16, 4:30-6:00 PM GMT+2."
+    }
+  ],
+  "cta": "Register: https://luma.com/wz20rm8n"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "You still own the code",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "You still own the code", "subtitle": "Coding agents help, but they do not remove engineering ownership.", "swipeLabel": "Swipe for the workflow"},
+    {"type": "title-paragraph", "title": "Use the tools", "body": "AI engineers are increasingly expected to use coding agents for syntax, boilerplate, and platform details."},
+    {"type": "title-paragraph", "variant": "light", "title": "Keep ownership", "body": "You cannot say: the agent implemented it and I have no idea how it works. The system is still yours."},
+    {"type": "title-paragraph", "title": "Review and ask", "body": "Read what changed. Ask why files exist, where functions are invoked, and which pieces are platform-specific."},
+    {"type": "title-paragraph", "variant": "light", "title": "Document the path", "body": "When the agent finds a working route after failed attempts, save the commands and reasoning so the path is repeatable."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: Lambda agent deployment", "url": "https://youtu.be/zoAvc8VU6Qs"}
+  ]
+}

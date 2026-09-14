@@ -1,0 +1,27 @@
+{
+  "resourceTitle": "Trace Schema Design",
+  "subtitle": "Agent logs are deeply nested JSON",
+  "sections": [
+    {
+      "heading": "Source Shape",
+      "bullets": ["Messages", "Usage and cache", "Models and tool calls"]
+    },
+    {
+      "heading": "First Load",
+      "body": "The initial dlt pipeline created 78 tables from local trace files."
+    },
+    {
+      "heading": "Trade-Off",
+      "body": "Flattening improves querying, but too much flattening creates schema pollution."
+    },
+    {
+      "heading": "Adjustment",
+      "body": "Keeping selected fields as JSON reduced the schema to 40 tables."
+    },
+    {
+      "heading": "Takeaway",
+      "body": "Agent observability needs both ingestion and practical schema decisions."
+    }
+  ],
+  "cta": "Recording: youtube.com/live/A0LmmZf-ggM"
+}

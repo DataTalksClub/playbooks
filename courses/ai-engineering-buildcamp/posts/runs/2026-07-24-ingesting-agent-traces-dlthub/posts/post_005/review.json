@@ -1,0 +1,16 @@
+{
+  "post_id": "post_005",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [],
+  "changed": [
+    "Connected the workshop to broader agent observability without adding unsupported metrics.",
+    "Kept source examples aligned with the transcript."
+  ]
+}

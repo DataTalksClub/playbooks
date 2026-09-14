@@ -1,0 +1,15 @@
+{
+  "source_id": "running-durable-agents-in-production",
+  "type": "event",
+  "title": "Running Durable Agents in Production",
+  "url": "",
+  "platform": "YouTube",
+  "event_date": "2026-06-16",
+  "event_time": "4:30 PM - 6:00 PM GMT+2",
+  "speaker": "Nicholas Lotz",
+  "registration_url": "",
+  "summary": "Workshop on turning working LLM agents into durable production workflows with external state, recovery, retries, human approvals, observability, and deployment patterns.",
+  "video_id": "",
+  "transcript_path": "",
+  "duration_seconds": 0
+}

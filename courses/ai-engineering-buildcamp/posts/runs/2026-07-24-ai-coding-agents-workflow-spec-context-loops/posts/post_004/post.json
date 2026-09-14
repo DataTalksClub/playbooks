@@ -1,0 +1,72 @@
+{
+  "post_id": "post_004",
+  "idea_id": "idea_004",
+  "source_id": "youtube_vujxjgpades",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Context engineering through repository docs",
+  "created": "2026-07-24",
+  "updated": "2026-07-24",
+  "angle": "Context engineering is repo documentation discipline: small root context files plus focused docs agents can load when needed.",
+  "cta": "Watch the workshop recording.",
+  "source_moments": [
+    {
+      "start": "01:00:35",
+      "end": "01:05:59",
+      "note": "Alexey explains that each new session needs project context and introduces AGENTS.md / CLAUDE.md.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "01:07:35",
+      "end": "01:12:16",
+      "note": "He trims AGENTS.md and explains linking to focused docs instead of dumping everything into one file.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_004",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "planned_output_path": "../../clips/post_004.mp4",
+    "duration_seconds": 79
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053478,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053478&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:15:33.574Z",
+      "updated_at": "2026-07-25T10:15:33.572Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10054254,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10054254&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T11:55:45.085Z",
+      "updated_at": "2026-07-25T11:55:45.084Z"
+    }
+  ]
+}

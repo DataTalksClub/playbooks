@@ -1,0 +1,11 @@
+{
+  "source_video_path": "/Users/valeria/Downloads/How to Work with AI Coding Agents_ Spec-Driven Development, Context and Loop Engineering, Workflows.mp4",
+  "clips": [
+    {"clip_id": "clip_001", "idea_id": "idea_001", "post_id": "post_001", "title": "Why One-Shot Coding Prompts Drift", "start": "00:16:34", "end": "00:17:38", "quality": "high", "reason": "Explains why vague prompts make the agent fill product gaps.", "output_file": "post_001.mp4"},
+    {"clip_id": "clip_002", "idea_id": "idea_002", "post_id": "post_002", "title": "A Scoping Prompt Before Coding", "start": "00:19:06", "end": "00:20:20", "quality": "high", "reason": "Shows the one-question-at-a-time project scoping pattern.", "output_file": "post_002.mp4"},
+    {"clip_id": "clip_003", "idea_id": "idea_003", "post_id": "post_003", "title": "Choose A Stack You Can Maintain", "start": "00:39:45", "end": "00:41:15", "quality": "high", "reason": "Clear practical decision about stack familiarity.", "output_file": "post_003.mp4"},
+    {"clip_id": "clip_004", "idea_id": "idea_004", "post_id": "post_004", "title": "Context Engineering For Coding Agents", "start": "01:02:26", "end": "01:03:45", "quality": "high", "reason": "Defines context engineering in practical repo terms.", "output_file": "post_004.mp4"},
+    {"clip_id": "clip_005", "idea_id": "idea_005", "post_id": "post_005", "title": "Groom Issues Before Agents Implement", "start": "01:16:27", "end": "01:18:05", "quality": "high", "reason": "Explains PM grooming and checkable acceptance criteria.", "output_file": "post_005.mp4"},
+    {"clip_id": "clip_006", "idea_id": "idea_006", "post_id": "post_006", "title": "The PM Engineer QA Agent Loop", "start": "01:37:27", "end": "01:39:11", "quality": "high", "reason": "Explains the workflow graph and pass/fail loop.", "output_file": "post_006.mp4"}
+  ]
+}

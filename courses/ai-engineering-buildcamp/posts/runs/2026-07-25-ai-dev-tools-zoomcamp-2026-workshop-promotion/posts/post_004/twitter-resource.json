@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Workshop: Module 2",
+  "subtitle": "Build and Ship an AI-Assisted Full-Stack App",
+  "sections": [
+    {
+      "heading": "Workshop",
+      "body": "Build and Ship an AI-Assisted Full-Stack App"
+    },
+    {
+      "heading": "Date",
+      "body": "August 3, 2026 at 6:00 AM PDT"
+    },
+    {
+      "heading": "Focus",
+      "body": "How to use AI tools from product spec to deployed full-stack app."
+    },
+    {
+      "heading": "You will learn",
+      "bullets": [
+        "Turn an app idea into a product spec and acceptance criteria",
+        "Use OpenAPI contracts to align frontend and backend work",
+        "Build a FastAPI or Django backend with database support"
+      ]
+    },
+    {
+      "heading": "Register",
+      "body": "https://luma.com/50kvfku2"
+    }
+  ],
+  "cta": "https://luma.com/50kvfku2"
+}

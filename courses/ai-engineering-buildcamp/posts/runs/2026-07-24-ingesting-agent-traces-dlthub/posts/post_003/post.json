@@ -1,0 +1,81 @@
+{
+  "post_id": "post_003",
+  "idea_id": "idea_003",
+  "source_id": "youtube_a0lmmzf-ggm",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Nested JSON in agent traces",
+  "created": "2026-07-24",
+  "updated": "2026-07-24",
+  "angle": "Agent traces are deeply nested JSON, so ingestion requires schema choices that balance normalization and JSON preservation.",
+  "cta": "Watch the workshop recording.",
+  "source_moments": [
+    {
+      "start": "00:24:14",
+      "end": "00:25:11",
+      "note": "The first run creates 78 tables because dlt normalizes heavily nested data.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "00:35:35",
+      "end": "00:36:13",
+      "note": "Debugging reduces schema pollution by keeping selected fields as JSON.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_003",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "planned_output_path": "../../clips/post_003.mp4",
+    "duration_seconds": 57
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053492,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053492&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:17:34.377Z",
+      "updated_at": "2026-07-25T10:17:34.376Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10054288,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10054288&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T12:00:33.811Z",
+      "updated_at": "2026-07-25T12:00:33.810Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10090837,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10090837&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-28T07:38:03.935Z",
+      "updated_at": "2026-07-28T07:38:03.934Z"
+    }
+  ]
+}

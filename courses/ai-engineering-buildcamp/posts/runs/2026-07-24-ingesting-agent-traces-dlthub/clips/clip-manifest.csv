@@ -1,0 +1,7 @@
+idea_id,title,clip_start,clip_end,clip_quality,clip_reason,output_file
+idea_001,From Raw Agent Logs To Usage Dashboards,00:06:04,00:07:50,high,This segment has a clean contrast between unreadable logs and usage dashboards.,idea_001-from-raw-agent-logs-to-usage-dashboards.mp4
+idea_002,Why Re-Reading Agent Logs Gets Expensive,00:09:32,00:11:13,high,It explains repeated raw-log aggregation and motivates reusable dashboards.,idea_002-why-re-reading-agent-logs-gets-expensive.mp4
+idea_003,Why Agent Traces Become Many Tables,00:24:14,00:25:11,high,The clip clearly explains why raw JSON turns into many relational tables.,idea_003-why-agent-traces-become-many-tables.mp4
+idea_004,Skills Versus Tools In Coding Agents,00:30:06,00:31:23,high,The speaker gives a direct definition and practical distinction.,idea_004-skills-versus-tools-in-coding-agents.mp4
+idea_005,What Agent Logs Should Capture,00:48:11,00:49:23,high,It introduces agent logging and the metadata that matters.,idea_005-what-agent-logs-should-capture.mp4
+idea_006,From Local Pipeline To Shared Dashboard,01:19:08,01:20:18,medium,It gives a compact explanation of why deployment matters beyond the local pipeline.,idea_006-from-local-pipeline-to-shared-dashboard.mp4

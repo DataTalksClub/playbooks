@@ -1,0 +1,63 @@
+{
+  "post_id": "post_003",
+  "idea_id": "idea_003",
+  "source_id": "youtube_zoavc8vu6qs",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "AI engineers still own the code",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Coding agents can accelerate infrastructure work, but engineers still need to understand, document, and own the result.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "00:12:41",
+      "end": "00:14:50",
+      "note": "AI engineers are expected to use tools and understand outputs.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "00:15:56",
+      "end": "00:17:25",
+      "note": "Documenting makes the process repeatable.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "00:20:55",
+      "end": "00:21:36",
+      "note": "Document experiments after the path works.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    },
+    {
+      "start": "01:27:55",
+      "end": "01:28:23",
+      "note": "Generated documentation still needs cleanup.",
+      "excerpt_path": "../../briefs/idea_003.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_003",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 129
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

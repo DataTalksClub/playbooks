@@ -1,0 +1,61 @@
+{
+  "source_video_path": "/Users/valeria/Downloads/End-to-End Agent Deployment.mp4",
+  "source_url": "https://youtu.be/h84rcRezNM4",
+  "clips": [
+    {
+      "clip_id": "clip_001",
+      "idea_id": "idea_001",
+      "post_id": "post_001",
+      "title": "Make it work end to end first",
+      "start": "00:58:30",
+      "end": "00:59:49",
+      "duration_seconds": 79,
+      "output_file": "post_001.mp4",
+      "status": "planned"
+    },
+    {
+      "clip_id": "clip_002",
+      "idea_id": "idea_002",
+      "post_id": "post_002",
+      "title": "Show tool calls as they happen",
+      "start": "01:08:26",
+      "end": "01:09:31",
+      "duration_seconds": 65,
+      "output_file": "post_002.mp4",
+      "status": "planned"
+    },
+    {
+      "clip_id": "clip_003",
+      "idea_id": "idea_003",
+      "post_id": "post_003",
+      "title": "Multi-stage Docker build for frontend and backend",
+      "start": "01:23:24",
+      "end": "01:26:29",
+      "duration_seconds": 185,
+      "output_file": "post_003.mp4",
+      "status": "planned"
+    },
+    {
+      "clip_id": "clip_004",
+      "idea_id": "idea_004",
+      "post_id": "post_004",
+      "title": "Do not give agents destructive production access",
+      "start": "01:34:42",
+      "end": "01:36:09",
+      "duration_seconds": 87,
+      "output_file": "post_004.mp4",
+      "status": "planned"
+    },
+    {
+      "clip_id": "clip_005",
+      "idea_id": "idea_005",
+      "post_id": "post_005",
+      "title": "Keep remote agent work alive with tmux",
+      "start": "00:42:28",
+      "end": "00:45:22",
+      "duration_seconds": 174,
+      "output_file": "post_005.mp4",
+      "status": "planned"
+    }
+  ]
+}

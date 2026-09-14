@@ -1,0 +1,40 @@
+{
+  "title": "AI-Native Developer Workflow: Using AI Tools Without Losing Control - reminder",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Reminder: Module 1",
+      "subtitle": "AI-Native Developer Workflow: Using AI Tools Without Losing Control | recording available",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why watch",
+      "body": "The first session sets up the workflow for the rest of the series."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What it covers",
+      "body": "Specs, context, planning, tests, review, and control of generated code.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "For the cohort",
+      "body": "Use this session to prepare for AI Dev Tools Zoomcamp 2026 and the final project."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Bring questions",
+      "body": "There will be time for practical questions about tools, workflow, review, testing, and shipping.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+      "url": "https://luma.com/lmkti8zj"
+    }
+  ]
+}

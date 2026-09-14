@@ -1,0 +1,57 @@
+{
+  "post_id": "post_002",
+  "idea_id": "idea_002",
+  "source_id": "youtube_h84rcreznm4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Make agent tool use visible in the UI",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Stream agent progress and show tool calls, inputs, and outputs instead of waiting for the final answer.",
+  "cta": "Watch the full recording.",
+  "source_moments": [
+    {
+      "start": "00:53:27",
+      "end": "00:56:29",
+      "note": "The backend emits events to the frontend.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    },
+    {
+      "start": "01:08:26",
+      "end": "01:09:31",
+      "note": "The UI should stream and show tool calls as they happen.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    },
+    {
+      "start": "01:12:27",
+      "end": "01:12:49",
+      "note": "The streaming version is good enough to continue.",
+      "excerpt_path": "../../briefs/idea_002.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_002",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 65
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

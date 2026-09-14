@@ -1,0 +1,81 @@
+{
+  "post_id": "post_005",
+  "idea_id": "idea_005",
+  "source_id": "youtube_a0lmmzf-ggm",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Agent observability as ingestion",
+  "created": "2026-07-24",
+  "updated": "2026-07-24",
+  "angle": "Agent observability begins by collecting traces from different sources and loading them into a structured, queryable destination.",
+  "cta": "Watch the workshop recording.",
+  "source_moments": [
+    {
+      "start": "00:47:49",
+      "end": "00:49:23",
+      "note": "Logging captures metadata, usage, models, tools, skills, and performance.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    },
+    {
+      "start": "00:51:33",
+      "end": "00:52:48",
+      "note": "Different tools produce different trace structures; load them into a structured destination.",
+      "excerpt_path": "../../briefs/idea_005.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_005",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "planned_output_path": "../../clips/post_005.mp4",
+    "duration_seconds": 72
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053495,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053495&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:17:39.131Z",
+      "updated_at": "2026-07-25T10:17:39.130Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10054291,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10054291&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T12:00:38.412Z",
+      "updated_at": "2026-07-25T12:00:38.411Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10090839,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10090839&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-28T07:38:08.524Z",
+      "updated_at": "2026-07-28T07:38:08.523Z"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "resourceTitle": "Smallest Deployable Agent",
+  "subtitle": "A practical first milestone for agent apps",
+  "sections": [
+    {
+      "heading": "First target",
+      "body": "Make the whole path work before tuning the agent."
+    },
+    {
+      "heading": "The path",
+      "bullets": [
+        "Tool loop",
+        "FastAPI backend",
+        "Frontend",
+        "Docker image",
+        "Deployment"
+      ]
+    },
+    {
+      "heading": "Delay for version two",
+      "bullets": [
+        "Structured outputs",
+        "Conversation memory",
+        "Vector database"
+      ]
+    },
+    {
+      "heading": "Why",
+      "body": "Each extra layer adds complexity, especially when streaming is involved."
+    },
+    {
+      "heading": "After it runs",
+      "body": "Add traces, tests, better retrieval, auth, and evaluation."
+    }
+  ],
+  "cta": "Recording: youtu.be/h84rcRezNM4"
+}

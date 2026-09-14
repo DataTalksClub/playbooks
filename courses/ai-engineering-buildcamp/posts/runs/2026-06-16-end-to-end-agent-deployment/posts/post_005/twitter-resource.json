@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Long-Running Agent Work",
+  "subtitle": "A practical remote setup",
+  "sections": [
+    {
+      "heading": "Start local",
+      "body": "A laptop is fine for small experiments."
+    },
+    {
+      "heading": "Upgrade when",
+      "bullets": [
+        "Tasks run for a long time",
+        "The laptop may disconnect",
+        "You need to reconnect later"
+      ]
+    },
+    {
+      "heading": "Problem",
+      "body": "SSH-attached work can stop when the SSH connection dies."
+    },
+    {
+      "heading": "Pattern",
+      "body": "Run the coding-agent session inside tmux on a remote machine."
+    },
+    {
+      "heading": "Why now",
+      "body": "Agents often edit, test, debug, and retry across many steps."
+    }
+  ],
+  "cta": "Recording: youtu.be/h84rcRezNM4"
+}

@@ -1,0 +1,57 @@
+{
+  "post_id": "post_006",
+  "idea_id": "idea_006",
+  "source_id": "youtube_zoavc8vu6qs",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Lambda deployment has small hidden gotchas",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "Deploying an agent container to Lambda includes ECR, CloudFormation, Function URLs, streaming mode, local testing, and Docker metadata gotchas.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "01:02:25",
+      "end": "01:06:16",
+      "note": "The deployment creates ECR, pushes the image, and succeeds after fixes.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    },
+    {
+      "start": "01:13:42",
+      "end": "01:18:54",
+      "note": "Deployment scripts, CloudFormation, ECR, Lambda URL, and provenance are discussed.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    },
+    {
+      "start": "01:19:14",
+      "end": "01:21:28",
+      "note": "Custom bootstrap and exec process are explained.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_006",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 312
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

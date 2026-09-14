@@ -1,0 +1,40 @@
+{
+  "title": "AI-Native Developer Workflow: Using AI Tools Without Losing Control - educational",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Practical workflow: Module 1",
+      "subtitle": "A practical note for AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The problem",
+      "body": "AI coding tools can move quickly, but a vague request often turns into a vague implementation."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 1",
+      "body": "Start with a concrete spec, not a vague coding request.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 2",
+      "body": "Put reusable context in repository files, not only in chat."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 3",
+      "body": "Ask the agent to plan before it edits.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+      "url": "https://luma.com/lmkti8zj"
+    }
+  ]
+}

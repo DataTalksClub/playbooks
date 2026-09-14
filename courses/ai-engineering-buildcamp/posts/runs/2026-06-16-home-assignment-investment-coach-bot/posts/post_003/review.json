@@ -1,0 +1,6 @@
+{
+  "post_id": "post_003",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post uses concrete examples of shallow tests and better agent tests."],
+  "changed": ["Kept the criticism sharp but tied it to ownership and system reliability."]
+}

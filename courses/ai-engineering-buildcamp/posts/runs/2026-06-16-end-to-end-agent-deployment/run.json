@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-16-end-to-end-agent-deployment",
+  "created": "2026-06-16",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "youtube_h84rcreznm4",
+    "type": "youtube",
+    "title": "End-to-End Agent Deployment",
+    "url": "https://youtu.be/h84rcRezNM4",
+    "video_id": "h84rcRezNM4",
+    "transcript_path": "source/transcript.json",
+    "duration_seconds": 6972
+  }
+}

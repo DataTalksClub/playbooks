@@ -1,0 +1,40 @@
+{
+  "title": "Build and Ship an AI-Assisted Full-Stack App - educational",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Practical workflow: Module 2",
+      "subtitle": "A practical note for Build and Ship an AI-Assisted Full-Stack App",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The problem",
+      "body": "AI can generate frontend or backend code, but full-stack work fails when the parts drift apart."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 1",
+      "body": "Write acceptance criteria before implementation.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 2",
+      "body": "Use OpenAPI as the contract between frontend and backend."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 3",
+      "body": "Ask for tests while the implementation is still small.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Build and Ship an AI-Assisted Full-Stack App",
+      "url": "https://luma.com/50kvfku2"
+    }
+  ]
+}

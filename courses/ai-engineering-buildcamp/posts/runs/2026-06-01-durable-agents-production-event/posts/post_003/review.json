@@ -1,0 +1,18 @@
+{
+  "post_id": "post_003",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Concrete scenario makes the durability problem easy to understand.",
+    "Registration link is a placeholder because no URL was provided."
+  ],
+  "changed": [
+    "Expanded the approval step into practical production questions."
+  ]
+}

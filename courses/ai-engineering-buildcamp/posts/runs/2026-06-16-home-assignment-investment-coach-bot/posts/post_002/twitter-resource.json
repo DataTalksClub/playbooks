@@ -1,0 +1,11 @@
+{
+  "resourceTitle": "Agent Build Order",
+  "subtitle": "CLI before Telegram",
+  "sections": [
+    {"heading": "1. Core loop", "body": "Question -> tools -> data -> answer -> safety boundary."},
+    {"heading": "2. Inspect", "bullets": ["Tool calls", "Grounding", "Answer structure", "Refusals"]},
+    {"heading": "3. Improve", "body": "Fix prompts and tool behavior while the interface is simple."},
+    {"heading": "4. Wrap", "body": "Add Telegram after the agent loop works."}
+  ],
+  "cta": "Recording: youtu.be/aPq-y5PO9m4"
+}

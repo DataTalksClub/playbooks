@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Practical workflow: Course launch",
+  "subtitle": "AI Dev Tools Zoomcamp 2026 Course Launch",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "The new cohort starts with the same question many developers have: how do we use AI tools without losing control of the code we ship?"
+    },
+    {
+      "heading": "Workflow controls",
+      "bullets": [
+        "The course is about developer workflow, not collecting tools",
+        "The path goes from planning and coding to agent capabilities, security, audit, and DevOps",
+        "The final project is where the workflow becomes concrete"
+      ]
+    },
+    {
+      "heading": "Reason",
+      "body": "Make AI-assisted work easier to review, test, debug, and ship."
+    },
+    {
+      "heading": "Workshop",
+      "body": "AI Dev Tools Zoomcamp 2026 Course Launch"
+    },
+    {
+      "heading": "Link",
+      "body": "https://luma.com/tsiusx8s"
+    }
+  ],
+  "cta": "https://luma.com/tsiusx8s"
+}

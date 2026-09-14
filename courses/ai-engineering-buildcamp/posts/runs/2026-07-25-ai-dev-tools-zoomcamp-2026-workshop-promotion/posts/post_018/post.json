@@ -1,0 +1,51 @@
+{
+  "post_id": "post_018",
+  "idea_id": "idea_018",
+  "source_id": "ai-dev-tools-zoomcamp-2026-workshop-series",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Reminder: AI Dev Tools Zoomcamp 2026 Course Launch",
+  "created": "2026-07-25",
+  "updated": "2026-07-25",
+  "angle": "reminder post promoting AI Dev Tools Zoomcamp 2026 Course Launch.",
+  "cta": "Register: https://luma.com/tsiusx8s",
+  "source_moments": [],
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "event": {
+    "title": "AI Dev Tools Zoomcamp 2026 Course Launch",
+    "module": "Course launch",
+    "date": "August 31, 2026",
+    "time": "",
+    "url": "https://luma.com/tsiusx8s",
+    "status_note": "Upcoming",
+    "post_type": "reminder"
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053723,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053723&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:53:54.608Z",
+      "updated_at": "2026-07-25T10:53:54.607Z"
+    }
+  ]
+}

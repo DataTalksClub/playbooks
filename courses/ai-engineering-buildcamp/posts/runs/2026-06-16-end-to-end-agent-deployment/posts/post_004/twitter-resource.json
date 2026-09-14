@@ -1,0 +1,35 @@
+{
+  "resourceTitle": "Production Behind CI/CD",
+  "subtitle": "A safety model for coding-agent deployments",
+  "sections": [
+    {
+      "heading": "Use agents for",
+      "bullets": [
+        "Learning deploy steps",
+        "Writing workflows",
+        "Creating tests and docs"
+      ]
+    },
+    {
+      "heading": "Keep away",
+      "bullets": [
+        "Production credentials",
+        "Direct prod access",
+        "Secrets pasted into chat"
+      ]
+    },
+    {
+      "heading": "Deployment path",
+      "body": "Push code, run tests, deploy to dev, inspect, manually promote."
+    },
+    {
+      "heading": "Boundary",
+      "body": "If the agent cannot reach production, it cannot accidentally change production."
+    },
+    {
+      "heading": "Small project version",
+      "body": "One dev service, one prod service, GitHub Actions, and a manual deploy step."
+    }
+  ],
+  "cta": "Recording: youtu.be/h84rcRezNM4"
+}

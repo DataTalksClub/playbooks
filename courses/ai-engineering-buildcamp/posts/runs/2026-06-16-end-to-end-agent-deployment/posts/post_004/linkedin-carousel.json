@@ -1,0 +1,40 @@
+{
+  "title": "Keep production behind CI/CD",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Keep production behind CI/CD",
+      "subtitle": "Coding agents can help, but they should not hold production keys.",
+      "swipeLabel": "Swipe for the safety model"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Experiment safely",
+      "body": "For toy apps, agents are useful for learning deployment commands and platform setup."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Limit access",
+      "body": "For production, keep credentials away from coding agents. If they cannot reach production, they cannot change it."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Use a controlled path",
+      "body": "Deploy automatically to dev, run tests, inspect the result, then manually promote to production."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Do not paste secrets",
+      "body": "Secrets in chat can end up in transcripts or telemetry. Pass production tokens through CI/CD secrets."
+    },
+    {
+      "type": "outro",
+      "ctaText": "follow for practical AI engineering notes",
+      "supportingText": "Full recording: End-to-End Agent Deployment",
+      "url": "https://youtu.be/h84rcRezNM4"
+    }
+  ]
+}

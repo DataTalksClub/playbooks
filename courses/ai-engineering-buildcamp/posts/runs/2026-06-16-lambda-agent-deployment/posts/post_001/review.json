@@ -1,0 +1,6 @@
+{
+  "post_id": "post_001",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post keeps Lambda scoped to occasional workloads instead of claiming it is universally better."],
+  "changed": ["Made the cost argument concrete and connected it to the previous workshop."]
+}

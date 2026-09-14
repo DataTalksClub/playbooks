@@ -1,0 +1,40 @@
+{
+  "title": "Agent Traces Are Messy JSON",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Agent traces rarely arrive as clean tables",
+      "subtitle": "They arrive as nested JSON. Schema design becomes part of observability.",
+      "swipeLabel": "Swipe for the lesson"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The first pipeline created 78 tables",
+      "body": "dlt normalized the trace files into relational tables. The high table count came from deeply nested messages, usage, cache, models, and tool data."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "This is expected",
+      "body": "Nested JSON has structure. Loading it into a relational destination requires choices about how much to flatten."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Schema pollution is real",
+      "body": "Flatten everything and the schema can explode. Keep too much raw JSON and important fields become harder to query."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The adjusted schema had 40 tables",
+      "body": "The agent kept selected fields as JSON columns. The result was a more manageable schema while preserving useful structure."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Watch the workshop",
+      "supportingText": "A practical data engineering lesson inside an agent traces demo.",
+      "url": "https://youtube.com/live/A0LmmZf-ggM"
+    }
+  ]
+}

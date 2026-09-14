@@ -1,0 +1,40 @@
+{
+  "title": "From Local To Team Dashboards",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "A local dashboard is a validation step",
+      "subtitle": "A team dashboard needs deployment, scheduled ingestion, and a durable destination.",
+      "swipeLabel": "Swipe for the path"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Start locally",
+      "body": "Read trace files, load them into DuckDB, open a Marimo report, and check whether the schema and charts make sense."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Validate with human context",
+      "body": "Do the charts match your usage? Are important fields queryable? Did nested JSON become a usable schema?"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Then make it shareable",
+      "body": "Teams need scheduled pipeline runs, a cloud or private destination, and deployed reports that do not depend on a laptop."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Keep privacy in mind",
+      "body": "Trace files can contain sensitive data. Use private storage or a warehouse destination when raw logs should not be shared directly."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Watch the workshop",
+      "supportingText": "From local agent traces to shareable dashboards with dltHub.",
+      "url": "https://youtube.com/live/A0LmmZf-ggM"
+    }
+  ]
+}

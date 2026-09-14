@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-07-24-ingesting-agent-traces-dlthub",
+  "created": "2026-07-24",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafting",
+  "source": {
+    "source_id": "youtube_a0lmmzf-ggm",
+    "type": "youtube",
+    "title": "Ingesting Agent Traces with dlthub - Alena Astrakhantseva",
+    "url": "https://youtube.com/live/A0LmmZf-ggM",
+    "video_id": "A0LmmZf-ggM",
+    "transcript_path": "source/transcript.json",
+    "duration_seconds": 5581,
+    "local_video_path": "/Users/valeria/Downloads/Ingesting Agent Traces with dlthub - Alena Astrakhantseva.mp4"
+  }
+}

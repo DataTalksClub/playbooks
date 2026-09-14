@@ -1,0 +1,40 @@
+{
+  "title": "One Docker image can be enough",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "One Docker image can be enough",
+      "subtitle": "For a small agent app, keep deployment simple.",
+      "swipeLabel": "Swipe for the Docker pattern"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Small app, simple deploy",
+      "body": "A FastAPI backend and a small JavaScript frontend do not always need separate services."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Use a multi-stage build",
+      "body": "Build the frontend in a Node.js stage, then copy the generated static files into the backend image."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Keep runtime lean",
+      "body": "The final container serves the API and frontend assets without carrying Node.js dependencies into production."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Still test inside Docker",
+      "body": "The demo caught an API key issue only after running the app inside the container."
+    },
+    {
+      "type": "outro",
+      "ctaText": "follow for practical AI engineering notes",
+      "supportingText": "Full recording: End-to-End Agent Deployment",
+      "url": "https://youtu.be/h84rcRezNM4"
+    }
+  ]
+}

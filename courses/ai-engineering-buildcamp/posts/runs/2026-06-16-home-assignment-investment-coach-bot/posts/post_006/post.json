@@ -1,0 +1,51 @@
+{
+  "post_id": "post_006",
+  "idea_id": "idea_006",
+  "source_id": "youtube_apq-y5po9m4",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Treat the README as part of the interview",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "For AI engineer take-homes and portfolio projects, a polished README can matter as much as the code because reviewers may only have a few minutes.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "01:50:29",
+      "end": "01:52:46",
+      "note": "The README should explain storyline, decisions, limitations, generated code, and follow-up work.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    },
+    {
+      "start": "02:02:30",
+      "end": "02:05:10",
+      "note": "Hiring managers may start with the README; include tests, evals, monitoring, screenshots, and next steps.",
+      "excerpt_path": "../../briefs/idea_006.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_006",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 160
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

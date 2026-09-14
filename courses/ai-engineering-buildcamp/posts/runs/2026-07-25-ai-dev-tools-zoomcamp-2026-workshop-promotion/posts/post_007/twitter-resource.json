@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Workshop: Module 3",
+  "subtitle": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+  "sections": [
+    {
+      "heading": "Workshop",
+      "body": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents"
+    },
+    {
+      "heading": "Date",
+      "body": "August 17, 2026 at 5:00 AM PDT"
+    },
+    {
+      "heading": "Focus",
+      "body": "How modern coding agents are extended and customized."
+    },
+    {
+      "heading": "You will learn",
+      "bullets": [
+        "Use project instructions to guide agents inside a repository",
+        "Connect assistants to tools, context, and actions with MCP",
+        "Package repeatable work with skills, commands, hooks, plugins, and extensions"
+      ]
+    },
+    {
+      "heading": "Register",
+      "body": "https://luma.com/ap4l3qlj"
+    }
+  ],
+  "cta": "https://luma.com/ap4l3qlj"
+}

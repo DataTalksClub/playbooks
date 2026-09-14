@@ -1,0 +1,1 @@
+{"post_id":"post_003","checks":{"audience_fit":"pass","specificity":"pass","voice":"pass","unsupported_claims":"pass","style_rules":"pass","cta":"pass"},"notes":[],"changed":["Framed Django as a personal maintainability choice, not a universal recommendation.","Added challenge questions grounded in the architecture discussion."]}

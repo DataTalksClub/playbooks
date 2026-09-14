@@ -1,0 +1,6 @@
+{
+  "post_id": "post_005",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["Good workflow post; avoids implying it is acceptable to ship code the engineer does not understand."],
+  "changed": ["Made working code a checkpoint rather than the final outcome."]
+}

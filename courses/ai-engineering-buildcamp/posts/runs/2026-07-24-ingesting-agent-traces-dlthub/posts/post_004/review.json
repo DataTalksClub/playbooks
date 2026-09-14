@@ -1,0 +1,16 @@
+{
+  "post_id": "post_004",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [],
+  "changed": [
+    "Kept the distinction simple and operational.",
+    "Avoided turning the post into a broad agent philosophy thread."
+  ]
+}

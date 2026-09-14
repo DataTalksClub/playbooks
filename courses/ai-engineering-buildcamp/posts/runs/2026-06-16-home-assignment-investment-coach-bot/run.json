@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-06-16-home-assignment-investment-coach-bot",
+  "created": "2026-06-16",
+  "owner": "alexey",
+  "default_platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "drafted",
+  "source": {
+    "source_id": "youtube_apq-y5po9m4",
+    "type": "youtube",
+    "title": "Solving a Real AI Engineer Take-Home Assignment",
+    "url": "https://youtu.be/aPq-y5PO9m4",
+    "video_id": "aPq-y5PO9m4",
+    "transcript_path": "source/transcript.json",
+    "duration_seconds": 7542
+  }
+}

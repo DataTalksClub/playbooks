@@ -1,0 +1,19 @@
+{
+  "post_id": "post_003",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Distinct from the other two posts because it focuses on mobile control and temporary access windows.",
+    "Keeps the mechanism clear while leaving implementation details for the newsletter."
+  ],
+  "changed": [
+    "Separated the phone-control use case from the workshop and agent-safety angles.",
+    "Kept the CTA direct and repeated the newsletter link."
+  ]
+}

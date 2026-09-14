@@ -1,0 +1,40 @@
+{
+  "title": "Agent Traces Are Data",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Coding agents produce data",
+      "subtitle": "Token usage, models, tool calls, cache, and project traces are all useful signals.",
+      "swipeLabel": "Swipe for the workflow"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The traces are already there",
+      "body": "Local coding agents store metadata about sessions. This can include usage, models, inputs, outputs, cache, and project-level activity."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Raw JSON is a poor dashboard",
+      "body": "You can open trace files by hand, but it quickly becomes painful. The useful questions need aggregation, filtering, and repeatable queries."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The data workflow is simple",
+      "body": "Read the trace files, load them with dlt, store them in DuckDB, and build a dashboard for usage by day, model, and project."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "This is agent observability",
+      "body": "Start with traces as data. Then add ingestion, schema, validation, and reports around them."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Watch the workshop",
+      "supportingText": "Ingesting Agent Traces with dlthub, with Alena Astrakhantseva.",
+      "url": "https://youtube.com/live/A0LmmZf-ggM"
+    }
+  ]
+}

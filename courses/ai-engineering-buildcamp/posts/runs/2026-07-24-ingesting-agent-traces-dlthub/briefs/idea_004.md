@@ -1,0 +1,11 @@
+# Handoff Brief: Skills Tell The Agent What To Do; Tools Do The Repeated Work
+
+Source: /Users/valeria/.codex/content-runs/2026-07-24-ingesting-agent-traces-dlthub/source/transcript.json
+
+## 00:28:55 - 00:30:06
+
+>> and there is also a question like what is the difference between a skill and a tool. So in the course in LMZ camp we uh work more with like how to implement an agent but in case of cloud code cloud code or codex they are coding agents. So internally they have the tools they have this bash tool they have the uh read file tool they have lot file tool and they also have skills right? So skills is a way to extend your agent to give it some functionality uh that uh the developers of the agent didn't do. So for you it's just a way to um you know describe anything you want to do in simple markdown document and then the agent will know will know how to do things. So maybe Alona you can show us uh some of the skills because it is also important to understand how exactly this file system pipeline.py file was created. So the agent might not really know DT how to use it properly but we want to teach it right and the way we teach it is we describe how to actually do this in this skillmd and it lets us extend the functionality of the agent.
+
+## 00:30:06 - 00:31:23
+
+Yes, I can add that uh what's the difference between skill and tool is that skill just describes what to do. But tool is usually a piece of code like repetitive code. If you know that you need to run the same code again and again, you don't want to agent rebuild it from scratch again and again, it will cost you money and time. Um but if you have some pre-built tooling, pre-built uh functions or in our case it's a whole library, you don't have to reinvent wheel again and again just uh show just uh point the agent in what cases use what tool. Yeah. uh our um like DTY hobby bench also contains MCP server and MCP server it's actually the router for tooling um you have a bunch of functions uh like to read table to read file to read um uh to to um count rows. Yeah. So you know this deterministic uh functions and agent can call them uh and you can describe in skills when and how [clears throat] you you should use this tooling

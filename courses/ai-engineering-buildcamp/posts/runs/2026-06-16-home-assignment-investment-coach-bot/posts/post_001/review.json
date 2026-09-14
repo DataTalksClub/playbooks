@@ -1,0 +1,6 @@
+{
+  "post_id": "post_001",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post uses the workshop task as a concrete example and turns it into a general candidate workflow."],
+  "changed": ["Focused the angle on scoping and data-source constraints instead of implementation details."]
+}

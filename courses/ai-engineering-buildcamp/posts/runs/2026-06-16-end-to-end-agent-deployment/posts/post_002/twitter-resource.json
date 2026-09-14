@@ -1,0 +1,32 @@
+{
+  "resourceTitle": "Visible Agent Tool Use",
+  "subtitle": "A simple observability pattern for agent UIs",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "A silent UI feels broken while the backend works."
+    },
+    {
+      "heading": "Show progress",
+      "bullets": [
+        "Streaming answer text",
+        "Tool calls",
+        "Tool inputs",
+        "Tool results"
+      ]
+    },
+    {
+      "heading": "Keep it readable",
+      "body": "Collapse long tool outputs, but keep them available for debugging."
+    },
+    {
+      "heading": "Why it helps",
+      "body": "You can see retrieval, tool selection, and returned data before the final answer."
+    },
+    {
+      "heading": "Production lesson",
+      "body": "Agent UX and agent observability often overlap."
+    }
+  ],
+  "cta": "Recording: youtu.be/h84rcRezNM4"
+}

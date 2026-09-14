@@ -1,0 +1,27 @@
+{
+  "resourceTitle": "Skills vs Tools",
+  "subtitle": "A coding-agent mental model",
+  "sections": [
+    {
+      "heading": "Skill",
+      "body": "Describes what to do and when to do it."
+    },
+    {
+      "heading": "Tool",
+      "body": "Executes repeated deterministic work."
+    },
+    {
+      "heading": "Skill Examples",
+      "bullets": ["Choose file-system pipeline", "Choose REST API pipeline", "Define validation steps"]
+    },
+    {
+      "heading": "Tool Examples",
+      "bullets": ["Read table", "Count rows", "Run pipeline"]
+    },
+    {
+      "heading": "Practical Result",
+      "body": "The model plans the workflow. Reusable code handles the data operations."
+    }
+  ],
+  "cta": "Watch: youtube.com/live/A0LmmZf-ggM"
+}

@@ -1,0 +1,16 @@
+{
+  "post_id": "post_002",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Kept claims tied to supplied Luma/Meetup/DataTalks event descriptions.",
+    "Avoided hashtags, hype language, and invented times where a time was not available from the public snippets."
+  ],
+  "changed": []
+}

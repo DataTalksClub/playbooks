@@ -1,0 +1,40 @@
+{
+  "title": "Turn AWS access on from a phone",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Turn AWS access on from a phone",
+      "subtitle": "A temporary gate for agents working in a sandbox account.",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The situation",
+      "body": "Sometimes I want an agent to run an AWS experiment while I'm away from my laptop. I don't want admin credentials on my phone."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The toggle",
+      "body": "The sandbox points its credential URI at a Lambda. A phone app toggles that Lambda on and off."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Short access windows",
+      "body": "When the toggle is on, the Lambda returns temporary credentials. When it is off, the sandbox asks for credentials and fails."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Same mechanism",
+      "body": "The same credential endpoint now supports workshops, coding agents in a sandbox account, and phone-controlled AWS access."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Read the newsletter",
+      "supportingText": "The System I Built for AWS Access Without Keys.",
+      "url": "https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access"
+    }
+  ]
+}

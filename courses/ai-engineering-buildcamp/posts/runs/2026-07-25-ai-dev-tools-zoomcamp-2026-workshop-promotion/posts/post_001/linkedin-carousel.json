@@ -1,0 +1,40 @@
+{
+  "title": "AI-Native Developer Workflow: Using AI Tools Without Losing Control - announcement",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Workshop: Module 1",
+      "subtitle": "AI-Native Developer Workflow: Using AI Tools Without Losing Control | July 22, 2026",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What this covers",
+      "body": "How to turn AI coding tools into a disciplined developer workflow."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why it matters",
+      "body": "AI coding tools can move quickly, but a vague request often turns into a vague implementation.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Main workflow",
+      "body": "Compare chat assistants, terminal agents, agentic IDEs, cloud agents, and project bootstrappers. Use repository instructions, specs, architecture notes, testing guidelines, and security checklists."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What you will leave with",
+      "body": "Use tests and code review to keep engineering judgment in the loop.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+      "url": "https://luma.com/lmkti8zj"
+    }
+  ]
+}

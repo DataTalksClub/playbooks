@@ -1,0 +1,18 @@
+{
+  "post_id": "post_004",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Strong for practitioners who care about observability, monitoring, and debugging.",
+    "Registration link is a placeholder because no URL was provided."
+  ],
+  "changed": [
+    "Made debugging questions specific enough to signal practical workshop value."
+  ]
+}

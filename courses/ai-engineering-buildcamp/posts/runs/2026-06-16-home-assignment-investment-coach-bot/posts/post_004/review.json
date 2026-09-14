@@ -1,0 +1,6 @@
+{
+  "post_id": "post_004",
+  "checks": {"audience_fit": "pass", "specificity": "pass", "voice": "pass", "unsupported_claims": "pass", "style_rules": "pass", "cta": "pass"},
+  "notes": ["The post explains trajectory in plain terms and avoids overclaiming that LLM judges solve all eval problems."],
+  "changed": ["Separated answer quality from path quality to make the evaluation point clearer."]
+}

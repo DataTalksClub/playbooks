@@ -1,0 +1,35 @@
+{
+  "resourceTitle": "AWS Access Without Keys",
+  "subtitle": "A credential endpoint for workshops and coding agents.",
+  "sections": [
+    {
+      "heading": "Original problem",
+      "bullets": [
+        "50 or 60 workshop participants",
+        "AWS access from their machines",
+        "No long-lived keys to copy"
+      ]
+    },
+    {
+      "heading": "Mechanism",
+      "body": "A Lambda assumes a role and returns temporary credentials in the SDK format."
+    },
+    {
+      "heading": "SDK wiring",
+      "body": "AWS_CONTAINER_CREDENTIALS_FULL_URI points the SDK to the credential endpoint."
+    },
+    {
+      "heading": "Agent use case",
+      "body": "Agents can get temporary access to a sandbox account without reaching production."
+    },
+    {
+      "heading": "Access checklist",
+      "bullets": [
+        "Scoped to sandbox",
+        "Temporary",
+        "Revocable"
+      ]
+    }
+  ],
+  "cta": "Read: https://alexeyondata.substack.com/p/the-system-i-built-for-aws-access"
+}

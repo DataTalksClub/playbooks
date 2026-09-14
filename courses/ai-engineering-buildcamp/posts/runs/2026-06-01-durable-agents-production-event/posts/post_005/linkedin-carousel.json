@@ -1,0 +1,45 @@
+{
+  "title": "Running Durable Agents In Production",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Running Durable Agents in Production",
+      "subtitle": "A DataTalksClub workshop with Nicholas Lotz on June 16.",
+      "swipeLabel": "Swipe for details"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "If you built a basic agent loop",
+      "body": "You probably saw the next questions quickly: where to store state, how to recover, how to wait for approval, and how to debug failures."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Production needs the layer around the loop",
+      "body": "The agent loop plans, calls tools, and returns answers. The production layer handles state, retries, recovery, approvals, traces, and deployment."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What we will cover",
+      "body": "Why in-process loops fail, how to persist workflow state, resume after process death, retry tool calls, and handle approval steps."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "What you will inspect",
+      "body": "LLM calls, tool calls, timing, token usage, errors, retry attempts, and the execution history needed to understand a failed run."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Useful for real agent projects",
+      "body": "This applies to RAG, workflow automation, data tasks, customer operations, internal tools, evaluation, monitoring, and production AI systems."
+    },
+    {
+      "type": "outro",
+      "ctaText": "register for the workshop",
+      "supportingText": "Tuesday, June 16, 4:30-6:00 PM GMT+2 on YouTube.",
+      "url": "https://luma.com/wz20rm8n"
+    }
+  ]
+}

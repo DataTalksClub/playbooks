@@ -1,0 +1,16 @@
+{
+  "post_id": "post_002",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [],
+  "changed": [
+    "Framed the post around repeated aggregation work and token cost.",
+    "Kept platform destination examples within transcript support."
+  ]
+}

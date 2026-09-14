@@ -1,0 +1,11 @@
+{
+  "resourceTitle": "Demo Failure To Eval",
+  "subtitle": "Agent reliability workflow",
+  "sections": [
+    {"heading": "Observe", "body": "A query makes the agent repeat the same tool call."},
+    {"heading": "Limit", "bullets": ["Max tool calls", "Graceful fallback", "No endless loop"]},
+    {"heading": "Encode", "bullets": ["Regression test", "Eval scenario", "Trajectory check"]},
+    {"heading": "Rule", "body": "Every weird demo failure is a future test case."}
+  ],
+  "cta": "Recording: youtu.be/aPq-y5PO9m4"
+}

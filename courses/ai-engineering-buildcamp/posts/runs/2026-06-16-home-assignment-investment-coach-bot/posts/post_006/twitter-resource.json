@@ -1,0 +1,11 @@
+{
+  "resourceTitle": "Take-Home README Checklist",
+  "subtitle": "What reviewers should see quickly",
+  "sections": [
+    {"heading": "Project", "bullets": ["Assignment", "Scope", "How to run", "Demo"]},
+    {"heading": "Data and safety", "bullets": ["Sources", "Boundaries", "Refusals"]},
+    {"heading": "Engineering", "bullets": ["Tests", "Evals", "Monitoring", "Limitations"]},
+    {"heading": "AI use", "body": "Explain what was generated, reviewed, and still needs work."}
+  ],
+  "cta": "Recording: youtu.be/aPq-y5PO9m4"
+}

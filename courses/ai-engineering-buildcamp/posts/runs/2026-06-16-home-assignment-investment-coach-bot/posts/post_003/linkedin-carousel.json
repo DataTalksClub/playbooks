@@ -1,0 +1,11 @@
+{
+  "title": "Pointless Tests",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Pointless tests", "subtitle": "AI agents can generate tests that look useful but check almost nothing.", "swipeLabel": "Swipe for better tests"},
+    {"type": "title-paragraph", "title": "Bad signal", "body": "Tests that check imports, method names, or prompt wording can make a project look safer than it is."},
+    {"type": "title-paragraph", "variant": "light", "title": "Better signal", "body": "For an agent, test behavior: expected tool calls, useful answers, safety boundaries, and stopping conditions."},
+    {"type": "title-paragraph", "title": "Why first", "body": "Clean tests before cleaning code. Tests are the thing you trust while changing everything else."},
+    {"type": "title-paragraph", "variant": "light", "title": "Rule", "body": "With AI-generated code, reviewing tests is part of owning the system."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: real AI engineer take-home", "url": "https://youtu.be/aPq-y5PO9m4"}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "AI Dev Tools Zoomcamp 2026 Course Launch - announcement",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Workshop: Course launch",
+      "subtitle": "AI Dev Tools Zoomcamp 2026 Course Launch | August 31, 2026",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What this covers",
+      "body": "How the AI Dev Tools Zoomcamp 2026 cohort works and how to start with a clear workflow."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why it matters",
+      "body": "The new cohort starts with the same question many developers have: how do we use AI tools without losing control of the code we ship?",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Main workflow",
+      "body": "What changed in AI Dev Tools Zoomcamp 2026. How the four modules fit together."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What you will leave with",
+      "body": "What to expect from the final project.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "AI Dev Tools Zoomcamp 2026 Course Launch",
+      "url": "https://luma.com/tsiusx8s"
+    }
+  ]
+}

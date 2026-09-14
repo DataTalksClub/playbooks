@@ -1,0 +1,40 @@
+{
+  "title": "Agent Observability Starts With Ingestion",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Agent observability starts with ingestion",
+      "subtitle": "Before dashboards, you need traces in a queryable destination.",
+      "swipeLabel": "Swipe for the workflow"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Traces live in many places",
+      "body": "They can come from local files, Logfire, Langfuse, platform APIs, internal loggers, or vendor APIs."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Each source has a shape",
+      "body": "Tool calls, model usage, sessions, spans, inputs, outputs, and metadata may be represented differently."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The first job is ingestion",
+      "body": "Collect traces, load them somewhere queryable, preserve the fields you need, and validate the resulting structure."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Then you can inspect behavior",
+      "body": "Ask which models are used, which tools are called, which sessions fail, and where performance problems appear."
+    },
+    {
+      "type": "outro",
+      "ctaText": "Watch the workshop",
+      "supportingText": "Alena Astrakhantseva shows this with dlt and agent traces.",
+      "url": "https://youtube.com/live/A0LmmZf-ggM"
+    }
+  ]
+}

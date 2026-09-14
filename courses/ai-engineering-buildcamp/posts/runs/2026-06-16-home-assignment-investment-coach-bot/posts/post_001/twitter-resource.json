@@ -1,0 +1,11 @@
+{
+  "resourceTitle": "AI Take-Home Scoping Checklist",
+  "subtitle": "Before writing code",
+  "sections": [
+    {"heading": "Clarify", "bullets": ["User", "Expected questions", "Refusal policy"]},
+    {"heading": "Constrain", "bullets": ["Allowed APIs", "Free vs paid data", "Smallest useful version"]},
+    {"heading": "Decide", "body": "What can the agent safely and reliably answer with the data you have?"},
+    {"heading": "Show", "body": "Engineering judgment, not only generated code."}
+  ],
+  "cta": "Recording: youtu.be/aPq-y5PO9m4"
+}

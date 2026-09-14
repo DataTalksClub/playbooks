@@ -1,0 +1,12 @@
+{
+  "resourceTitle": "Lambda for Low-Traffic Agents",
+  "subtitle": "When serverless fits an agent app",
+  "sections": [
+    {"heading": "Use when", "body": "The tool runs occasionally: once a day, once a week, or on demand."},
+    {"heading": "Cost model", "bullets": ["No always-on server", "Pay per invocation", "Good for small tools"]},
+    {"heading": "Still works as an app", "bullets": ["Frontend", "Agent API", "Streaming responses"]},
+    {"heading": "Trade-off", "body": "Steady public traffic may be simpler on a normal web service."},
+    {"heading": "Practical rule", "body": "Match deployment to workload shape."}
+  ],
+  "cta": "Recording: youtu.be/zoAvc8VU6Qs"
+}

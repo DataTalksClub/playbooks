@@ -1,0 +1,19 @@
+{
+  "post_id": "post_003",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "The one-container recommendation is scoped to small apps.",
+    "Mentions the Docker env var issue without exposing secrets."
+  ],
+  "changed": [
+    "Added caveat for larger or independently deployed frontends.",
+    "Included the concrete multi-stage build sequence."
+  ]
+}

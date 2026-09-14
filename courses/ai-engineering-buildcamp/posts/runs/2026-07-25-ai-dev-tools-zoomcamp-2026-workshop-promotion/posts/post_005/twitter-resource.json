@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Practical workflow: Module 2",
+  "subtitle": "Build and Ship an AI-Assisted Full-Stack App",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "AI can generate frontend or backend code, but full-stack work fails when the parts drift apart."
+    },
+    {
+      "heading": "Workflow controls",
+      "bullets": [
+        "Write acceptance criteria before implementation",
+        "Use OpenAPI as the contract between frontend and backend",
+        "Ask for tests while the implementation is still small"
+      ]
+    },
+    {
+      "heading": "Reason",
+      "body": "Make AI-assisted work easier to review, test, debug, and ship."
+    },
+    {
+      "heading": "Workshop",
+      "body": "Build and Ship an AI-Assisted Full-Stack App"
+    },
+    {
+      "heading": "Link",
+      "body": "https://luma.com/50kvfku2"
+    }
+  ],
+  "cta": "https://luma.com/50kvfku2"
+}

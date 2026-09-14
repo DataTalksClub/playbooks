@@ -1,0 +1,34 @@
+{
+  "post_id": "post_002",
+  "idea_id": "idea_002",
+  "source_id": "the-system-i-built-for-aws-access-without-keys",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Sandboxed AWS access for coding agents",
+  "created": "2026-06-22",
+  "updated": "2026-06-22",
+  "angle": "Agent safety promotion: agents should never have a path to production and should use temporary sandbox AWS credentials.",
+  "cta": "Read the newsletter on Substack.",
+  "source_moments": [],
+  "clip": {
+    "recommended": false
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "twitter_resource": "twitter-resource.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "2026-06-25T10:00:00+02:00",
+    "external_id": ""
+  }
+}

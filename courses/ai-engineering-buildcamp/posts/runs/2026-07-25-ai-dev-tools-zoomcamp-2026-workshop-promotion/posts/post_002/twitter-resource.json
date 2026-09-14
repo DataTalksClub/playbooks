@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Practical workflow: Module 1",
+  "subtitle": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+  "sections": [
+    {
+      "heading": "Problem",
+      "body": "AI coding tools can move quickly, but a vague request often turns into a vague implementation."
+    },
+    {
+      "heading": "Workflow controls",
+      "bullets": [
+        "Start with a concrete spec, not a vague coding request",
+        "Put reusable context in repository files, not only in chat",
+        "Ask the agent to plan before it edits"
+      ]
+    },
+    {
+      "heading": "Reason",
+      "body": "Make AI-assisted work easier to review, test, debug, and ship."
+    },
+    {
+      "heading": "Workshop",
+      "body": "AI-Native Developer Workflow: Using AI Tools Without Losing Control"
+    },
+    {
+      "heading": "Link",
+      "body": "https://luma.com/lmkti8zj"
+    }
+  ],
+  "cta": "https://luma.com/lmkti8zj"
+}

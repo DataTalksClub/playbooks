@@ -1,0 +1,43 @@
+{
+  "resourceTitle": "Traces Make Agent Failures Debuggable",
+  "subtitle": "What to inspect when an agent workflow stops or goes wrong",
+  "sections": [
+    {
+      "heading": "Start with the step",
+      "body": "Which step was running when the workflow changed direction or failed?"
+    },
+    {
+      "heading": "Inspect the tool call",
+      "bullets": [
+        "Tool name",
+        "Arguments",
+        "Response"
+      ]
+    },
+    {
+      "heading": "Inspect the model call",
+      "bullets": [
+        "Prompt version",
+        "Model response",
+        "Context passed forward"
+      ]
+    },
+    {
+      "heading": "Record operations data",
+      "bullets": [
+        "Latency and token usage",
+        "Errors and retry count",
+        "Recovery attempts"
+      ]
+    },
+    {
+      "heading": "Why it matters",
+      "body": "Without traces and per-step history, debugging becomes guesswork."
+    },
+    {
+      "heading": "Workshop",
+      "body": "Nicholas Lotz will cover observability for production agents on June 16."
+    }
+  ],
+  "cta": "Register: https://luma.com/wz20rm8n"
+}

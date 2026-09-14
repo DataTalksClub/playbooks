@@ -1,0 +1,45 @@
+{
+  "title": "Tool Calling Is Not Production Readiness",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Tool calling is only one step",
+      "subtitle": "Production agents need an execution layer around the function call.",
+      "swipeLabel": "Swipe for the missing layer"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "A schema is not a workflow",
+      "body": "Tool calling means the agent can call a function with structured arguments. It does not answer what happens when the call fails."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "The retry question",
+      "body": "If a support ticket request times out, should the workflow retry? If the ticket was created, a blind retry can create a duplicate."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Production needs history",
+      "body": "The workflow needs to know what was attempted, what failed, what returned, and whether retrying is safe."
+    },
+    {
+      "type": "title-paragraph",
+      "variant": "light",
+      "title": "Useful details to keep",
+      "body": "Store per-step inputs, outputs, timeout state, retry count, recovery path, and idempotency information for side effects."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Workshop focus",
+      "body": "We will look at state, retries, timeouts, recovery paths, human approval steps, and traces for production agent workflows."
+    },
+    {
+      "type": "outro",
+      "ctaText": "register for the workshop",
+      "supportingText": "Running Durable Agents in Production, June 16, 4:30-6:00 PM GMT+2 on YouTube.",
+      "url": "https://luma.com/wz20rm8n"
+    }
+  ]
+}

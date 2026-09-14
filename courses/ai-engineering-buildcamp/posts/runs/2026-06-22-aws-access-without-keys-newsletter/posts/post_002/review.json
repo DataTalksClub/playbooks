@@ -1,0 +1,19 @@
+{
+  "post_id": "post_002",
+  "checks": {
+    "audience_fit": "pass",
+    "specificity": "pass",
+    "voice": "pass",
+    "unsupported_claims": "pass",
+    "style_rules": "pass",
+    "cta": "pass"
+  },
+  "notes": [
+    "Strong hook for AI engineers using Codex, Claude Code, or similar coding agents.",
+    "Makes the production-safety lesson concrete without retelling the whole incident."
+  ],
+  "changed": [
+    "Framed the post around the operational rule: agents should not reach production.",
+    "Kept AWS access details practical and tied to the newsletter CTA."
+  ]
+}

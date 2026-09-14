@@ -1,0 +1,20 @@
+{
+  "id": "post_001",
+  "owner": "alexey",
+  "status": "draft",
+  "topic": "Exploring Vercel: What It Is and How to Deploy",
+  "created": "2026-06-16",
+  "platforms": [
+    "x"
+  ],
+  "files": {
+    "x": "x.md",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "notes": {
+    "angle": "Announce the Vercel workshop with a practical deployment-focused hook.",
+    "cta": "Register: https://aishippinglabs.com/events",
+    "source_material": "User-provided AI Shipping Labs Vercel workshop details."
+  }
+}

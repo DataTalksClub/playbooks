@@ -1,0 +1,81 @@
+{
+  "post_id": "post_004",
+  "idea_id": "idea_004",
+  "source_id": "youtube_a0lmmzf-ggm",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Skills versus tools for coding agents",
+  "created": "2026-07-24",
+  "updated": "2026-07-24",
+  "angle": "Skills describe workflows and decision rules; tools handle deterministic repeated operations.",
+  "cta": "Watch the workshop recording.",
+  "source_moments": [
+    {
+      "start": "00:28:55",
+      "end": "00:30:06",
+      "note": "Alexey explains skills as a way to extend coding agents with markdown instructions.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    },
+    {
+      "start": "00:30:06",
+      "end": "00:31:23",
+      "note": "Alena explains tools as reusable code/functions and skills as instructions for when and how to use them.",
+      "excerpt_path": "../../briefs/idea_004.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_004",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "planned_output_path": "../../clips/post_004.mp4",
+    "duration_seconds": 77
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  },
+  "typefully_drafts": [
+    {
+      "social_set_id": "188312",
+      "draft_id": 10053493,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10053493&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T10:17:36.694Z",
+      "updated_at": "2026-07-25T10:17:36.693Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10054290,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10054290&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-25T12:00:36.303Z",
+      "updated_at": "2026-07-25T12:00:36.302Z"
+    },
+    {
+      "social_set_id": "188312",
+      "draft_id": 10090838,
+      "status": "draft",
+      "private_url": "https://typefully.com/?d=10090838&a=188312",
+      "share_url": null,
+      "created_at": "2026-07-28T07:38:06.286Z",
+      "updated_at": "2026-07-28T07:38:06.285Z"
+    }
+  ]
+}

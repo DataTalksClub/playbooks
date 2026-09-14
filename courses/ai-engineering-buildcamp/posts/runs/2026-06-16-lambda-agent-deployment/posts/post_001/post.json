@@ -1,0 +1,51 @@
+{
+  "post_id": "post_001",
+  "idea_id": "idea_001",
+  "source_id": "youtube_zoavc8vu6qs",
+  "owner": "alexey",
+  "platforms": [
+    "linkedin",
+    "x"
+  ],
+  "status": "draft",
+  "topic": "Lambda fits low-traffic agent tools",
+  "created": "2026-06-16",
+  "updated": "2026-06-16",
+  "angle": "AWS Lambda is useful for small internal agent tools that run occasionally because it avoids an always-on server.",
+  "cta": "Watch the recording and workshop materials.",
+  "source_moments": [
+    {
+      "start": "00:05:11",
+      "end": "00:07:04",
+      "note": "Always-on server versus Lambda invocation cost.",
+      "excerpt_path": "../../briefs/idea_001.md"
+    },
+    {
+      "start": "01:08:44",
+      "end": "01:10:41",
+      "note": "Deployed Lambda app works and the cost model is discussed.",
+      "excerpt_path": "../../briefs/idea_001.md"
+    }
+  ],
+  "clip": {
+    "recommended": true,
+    "clip_id": "clip_001",
+    "manifest_path": "../../clips/clip-manifest.json",
+    "path": "",
+    "duration_seconds": 117
+  },
+  "files": {
+    "linkedin": "linkedin.md",
+    "x": "x.md",
+    "review": "review.json",
+    "linkedin_carousel": "linkedin-carousel.json",
+    "linkedin_carousel_output": "linkedin-carousel",
+    "twitter_resource": "twitter-resource.json",
+    "twitter_resource_image": "twitter-resource/twitter-resource.png"
+  },
+  "scheduling": {
+    "ready_for_queue": false,
+    "preferred_publish_at": "",
+    "external_id": ""
+  }
+}

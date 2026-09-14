@@ -1,0 +1,40 @@
+{
+  "title": "Open-Source AI Tools for Security, Audit, and DevOps - educational",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Practical workflow: Module 4",
+      "subtitle": "A practical note for Open-Source AI Tools for Security, Audit, and DevOps",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The problem",
+      "body": "AI-assisted projects still need security scanning, audit trails, incident investigation, and deployment discipline."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 1",
+      "body": "Review generated code like any other production change.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 2",
+      "body": "Make scanners available before the agent asks for deployment."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 3",
+      "body": "Record what changed, which tools ran, and which checks passed.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Open-Source AI Tools for Security, Audit, and DevOps",
+      "url": "https://luma.com/ycsfxigi"
+    }
+  ]
+}

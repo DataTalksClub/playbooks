@@ -1,0 +1,40 @@
+{
+  "title": "Open-Source AI Tools for Security, Audit, and DevOps - announcement",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Workshop: Module 4",
+      "subtitle": "Open-Source AI Tools for Security, Audit, and DevOps | August 18, 2026 at 5:00 AM PDT",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What this covers",
+      "body": "How to use open-source AI tools around security, audit, and DevOps workflows."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Why it matters",
+      "body": "AI-assisted projects still need security scanning, audit trails, incident investigation, and deployment discipline.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Main workflow",
+      "body": "Use AI around pull request audit and review. Connect security scanning to AI-assisted workflows."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "What you will leave with",
+      "body": "Keep humans, policy, and audit trails in the loop.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "Open-Source AI Tools for Security, Audit, and DevOps",
+      "url": "https://luma.com/ycsfxigi"
+    }
+  ]
+}

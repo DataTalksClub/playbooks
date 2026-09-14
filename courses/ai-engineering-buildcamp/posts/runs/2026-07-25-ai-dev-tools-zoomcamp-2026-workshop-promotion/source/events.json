@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "ai-native-developer-workflow",
+    "module": "Module 1",
+    "title": "AI-Native Developer Workflow: Using AI Tools Without Losing Control",
+    "link": "https://luma.com/lmkti8zj",
+    "date": "July 22, 2026",
+    "time": "",
+    "status_note": "Past event, use replay/follow-up reminder",
+    "position": "1st workshop",
+    "problem": "AI coding tools can move quickly, but a vague request often turns into a vague implementation.",
+    "promise": "how to turn AI coding tools into a disciplined developer workflow",
+    "learn": [
+      "Compare chat assistants, terminal agents, agentic IDEs, cloud agents, and project bootstrappers",
+      "Use repository instructions, specs, architecture notes, testing guidelines, and security checklists",
+      "Break work into spec, context, plan, edit, run, test, inspect diff, review, and commit",
+      "Use tests and code review to keep engineering judgment in the loop"
+    ],
+    "educational": [
+      "Start with a concrete spec, not a vague coding request",
+      "Put reusable context in repository files, not only in chat",
+      "Ask the agent to plan before it edits",
+      "Run tests and inspect the diff before accepting the change"
+    ],
+    "reminder_label": "Replay reminder",
+    "reminder_body": "If you missed the first AI Dev Tools Zoomcamp workshop, it is worth watching before the next sessions."
+  },
+  {
+    "slug": "build-and-ship-full-stack-app",
+    "module": "Module 2",
+    "title": "Build and Ship an AI-Assisted Full-Stack App",
+    "link": "https://luma.com/50kvfku2",
+    "date": "August 3, 2026",
+    "time": "6:00 AM PDT",
+    "status_note": "Upcoming",
+    "position": "2nd workshop",
+    "problem": "AI can generate frontend or backend code, but full-stack work fails when the parts drift apart.",
+    "promise": "how to use AI tools from product spec to deployed full-stack app",
+    "learn": [
+      "Turn an app idea into a product spec and acceptance criteria",
+      "Use OpenAPI contracts to align frontend and backend work",
+      "Build a FastAPI or Django backend with database support",
+      "Add tests, Docker, deployment, and CI/CD without losing the workflow"
+    ],
+    "educational": [
+      "Write acceptance criteria before implementation",
+      "Use OpenAPI as the contract between frontend and backend",
+      "Ask for tests while the implementation is still small",
+      "Make the final workflow reproducible with Docker and CI/CD"
+    ],
+    "reminder_label": "Reminder",
+    "reminder_body": "The full-stack app workshop is coming up next."
+  },
+  {
+    "slug": "coding-agent-capabilities",
+    "module": "Module 3",
+    "title": "Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents",
+    "link": "https://luma.com/ap4l3qlj",
+    "date": "August 17, 2026",
+    "time": "5:00 AM PDT",
+    "status_note": "Upcoming",
+    "position": "3rd workshop",
+    "problem": "A coding agent becomes more useful when it has the right instructions, tools, permissions, and repeatable workflows.",
+    "promise": "how modern coding agents are extended and customized",
+    "learn": [
+      "Use project instructions to guide agents inside a repository",
+      "Connect assistants to tools, context, and actions with MCP",
+      "Package repeatable work with skills, commands, hooks, plugins, and extensions",
+      "Review agent output with tests, diffs, and human judgment"
+    ],
+    "educational": [
+      "Use project instructions for repository-specific behavior",
+      "Use MCP when the agent needs external tools or context",
+      "Use skills and commands for repeatable workflows",
+      "Use hooks and permissions to add review points around risky actions"
+    ],
+    "reminder_label": "Reminder",
+    "reminder_body": "The coding agent capabilities workshop is coming up."
+  },
+  {
+    "slug": "open-source-ai-tools-security-audit-devops",
+    "module": "Module 4",
+    "title": "Open-Source AI Tools for Security, Audit, and DevOps",
+    "link": "https://luma.com/ycsfxigi",
+    "date": "August 18, 2026",
+    "time": "5:00 AM PDT",
+    "status_note": "Upcoming",
+    "position": "4th workshop",
+    "problem": "AI-assisted projects still need security scanning, audit trails, incident investigation, and deployment discipline.",
+    "promise": "how to use open-source AI tools around security, audit, and DevOps workflows",
+    "learn": [
+      "Use AI around pull request audit and review",
+      "Connect security scanning to AI-assisted workflows",
+      "Use tools such as PR-Agent, Semgrep MCP, Snyk Agent Scan, K8sGPT, LiteLLM, and Ollama",
+      "Keep humans, policy, and audit trails in the loop"
+    ],
+    "educational": [
+      "Review generated code like any other production change",
+      "Make scanners available before the agent asks for deployment",
+      "Record what changed, which tools ran, and which checks passed",
+      "Use AI for investigation, but keep policy and approval explicit"
+    ],
+    "reminder_label": "Reminder",
+    "reminder_body": "The security, audit, and DevOps workshop is coming up."
+  },
+  {
+    "slug": "pre-course-live-qa",
+    "module": "Pre-course Q&A",
+    "title": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+    "link": "https://luma.com/a8qa5s2s",
+    "date": "August 24, 2026",
+    "time": "",
+    "status_note": "Upcoming",
+    "position": "pre-course live Q&A",
+    "problem": "Before joining a cohort, it helps to know the workload, prerequisites, project expectations, and how to get unstuck.",
+    "promise": "a clear picture of AI Dev Tools Zoomcamp before the cohort starts",
+    "learn": [
+      "Who the course is for and what you need before joining",
+      "What you do not need: prior AI tools experience, web development experience, a powerful machine, or a GPU",
+      "How lectures, homework, deadlines, leaderboard, peer review, and certificates work",
+      "How to prepare your environment and choose a first workflow"
+    ],
+    "educational": [
+      "You should be comfortable with basic programming, Git, GitHub, and the command line",
+      "You do not need a GPU or previous AI tools experience",
+      "The course focuses on planning, coding, review, testing, agents, security, DevOps, and a final project",
+      "A good first step is choosing one workflow instead of comparing every assistant"
+    ],
+    "reminder_label": "Reminder",
+    "reminder_body": "The pre-course Q&A is coming up before the cohort starts."
+  },
+  {
+    "slug": "course-launch",
+    "module": "Course launch",
+    "title": "AI Dev Tools Zoomcamp 2026 Course Launch",
+    "link": "https://luma.com/tsiusx8s",
+    "date": "August 31, 2026",
+    "time": "",
+    "status_note": "Upcoming",
+    "position": "course launch",
+    "problem": "The new cohort starts with the same question many developers have: how do we use AI tools without losing control of the code we ship?",
+    "promise": "how the AI Dev Tools Zoomcamp 2026 cohort works and how to start with a clear workflow",
+    "learn": [
+      "What changed in AI Dev Tools Zoomcamp 2026",
+      "How the four modules fit together",
+      "How lectures, homework, deadlines, leaderboard, peer review, and certificates work",
+      "What to expect from the final project"
+    ],
+    "educational": [
+      "The course is about developer workflow, not collecting tools",
+      "The path goes from planning and coding to agent capabilities, security, audit, and DevOps",
+      "The final project is where the workflow becomes concrete",
+      "The DataTalks.Club community is where you ask questions and get help during the cohort"
+    ],
+    "reminder_label": "Launch reminder",
+    "reminder_body": "AI Dev Tools Zoomcamp 2026 starts today."
+  }
+]

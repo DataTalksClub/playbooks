@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "relation_note": "These are topic matches to other content runs, not posts sourced from the Maven lessons.",
+  "lesson_directory": "../../lightning-lessons-and-resources.md",
+  "matches": [
+    {
+      "lesson_file": "ai-engineering-take-home-assignments.md",
+      "run_id": "2026-06-16-home-assignment-investment-coach-bot",
+      "post_ids": [
+        "post_001",
+        "post_003",
+        "post_004",
+        "post_006"
+      ],
+      "strength": "strong",
+      "relation": "topic_match",
+      "note": "Same take-home assignment workflow; different investment-coach exercise."
+    },
+    {
+      "lesson_file": "ship-production-code-2x-faster-with-ai.md",
+      "run_id": "2026-07-24-ai-coding-agents-workflow-spec-context-loops",
+      "post_ids": [
+        "post_002",
+        "post_005",
+        "post_006"
+      ],
+      "strength": "related",
+      "relation": "topic_match",
+      "note": "Scoping, acceptance criteria, and QA; a different workshop."
+    },
+    {
+      "lesson_file": "build-and-deploy-a-website-using-ai-with-next-js-and-v0.md",
+      "run_id": "2026-07-25-ai-dev-tools-zoomcamp-2026-workshop-promotion",
+      "post_ids": [
+        "post_004",
+        "post_005"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "AI-assisted full-stack app workflow; not the v0 session."
+    },
+    {
+      "lesson_file": "build-and-deploy-a-website-using-ai-with-next-js-and-v0.md",
+      "run_id": "2026-06-16-vercel-deploy-workshop",
+      "post_ids": [
+        "post_001"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Deployment to a live URL; not the v0 session."
+    },
+    {
+      "lesson_file": "ai-engineering-the-interview-process.md",
+      "run_id": "2026-06-16-home-assignment-investment-coach-bot",
+      "post_ids": [
+        "post_006"
+      ],
+      "strength": "narrow",
+      "relation": "topic_match",
+      "note": "README as an interview artifact; not the full interview process."
+    },
+    {
+      "lesson_file": "defining-the-ai-engineer-role.md",
+      "run_id": "2026-06-16-lambda-agent-deployment",
+      "post_ids": [
+        "post_003"
+      ],
+      "strength": "narrow",
+      "relation": "topic_match",
+      "note": "Engineering ownership of agent-generated code; not job-market analysis."
+    },
+    {
+      "lesson_file": "a-day-of-ai-engineer.md",
+      "run_id": "2026-06-16-lambda-agent-deployment",
+      "post_ids": [
+        "post_003"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Engineering ownership in day-to-day work."
+    },
+    {
+      "lesson_file": "a-day-of-ai-engineer.md",
+      "run_id": "2026-06-16-end-to-end-agent-deployment",
+      "post_ids": [
+        "post_004"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Tests and deployment boundaries in an AI engineering workflow."
+    },
+    {
+      "lesson_file": "skills-md-from-scratch-build-a-skill-driven-coding-agent.md",
+      "run_id": "2026-07-24-ingesting-agent-traces-dlthub",
+      "post_ids": [
+        "post_004"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Skills versus tools; not the lesson’s skill registry build."
+    },
+    {
+      "lesson_file": "skills-md-from-scratch-build-a-skill-driven-coding-agent.md",
+      "run_id": "2026-07-25-ai-dev-tools-zoomcamp-2026-workshop-promotion",
+      "post_ids": [
+        "post_008"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Skill and MCP capabilities; a different workshop."
+    },
+    {
+      "lesson_file": "building-safe-ai-agents-with-guardrails.md",
+      "run_id": "2026-06-01-durable-agents-production-event",
+      "post_ids": [
+        "post_003"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Human approval as an agent safety control."
+    },
+    {
+      "lesson_file": "building-safe-ai-agents-with-guardrails.md",
+      "run_id": "2026-06-22-aws-access-without-keys-newsletter",
+      "post_ids": [
+        "post_002"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Sandbox and credential boundaries; not input/output guardrails."
+    },
+    {
+      "lesson_file": "hands-on-with-ai-agents-and-model-context-protocol-mcp.md",
+      "run_id": "2026-07-25-ai-dev-tools-zoomcamp-2026-workshop-promotion",
+      "post_ids": [
+        "post_007",
+        "post_008"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "MCP for agent capabilities; not the Maven FastMCP demo."
+    },
+    {
+      "lesson_file": "build-your-own-coding-agent.md",
+      "run_id": "2026-07-24-ai-coding-agents-workflow-spec-context-loops",
+      "post_ids": [
+        "post_001",
+        "post_004"
+      ],
+      "strength": "partial",
+      "relation": "topic_match",
+      "note": "Using coding agents; not building one from scratch."
+    }
+  ],
+  "no_clear_match": [
+    "trends-in-ai-engineering.md",
+    "the-2026-ai-engineering-skills-map.md",
+    "ai-forward-deployed-engineer.md",
+    "ai-engineering-buildcamp-demo-day-cohort-3.md",
+    "ai-engineering-buildcamp-demo-day-cohort-2.md",
+    "ai-engineering-fundamentals.md",
+    "ai-bootcamp-demo-day.md",
+    "practical-nlp-with-llms-from-messy-text-to-value.md",
+    "free-guide-build-your-own-coding-agent.md"
+  ]
+}

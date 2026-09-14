@@ -1,0 +1,31 @@
+{
+  "resourceTitle": "Workshop: Module 4",
+  "subtitle": "Open-Source AI Tools for Security, Audit, and DevOps",
+  "sections": [
+    {
+      "heading": "Workshop",
+      "body": "Open-Source AI Tools for Security, Audit, and DevOps"
+    },
+    {
+      "heading": "Date",
+      "body": "August 18, 2026 at 5:00 AM PDT"
+    },
+    {
+      "heading": "Focus",
+      "body": "How to use open-source AI tools around security, audit, and DevOps workflows."
+    },
+    {
+      "heading": "You will learn",
+      "bullets": [
+        "Use AI around pull request audit and review",
+        "Connect security scanning to AI-assisted workflows",
+        "Use tools such as PR-Agent, Semgrep MCP, Snyk Agent Scan, K8sGPT, LiteLLM, and Ollama"
+      ]
+    },
+    {
+      "heading": "Register",
+      "body": "https://luma.com/ycsfxigi"
+    }
+  ],
+  "cta": "https://luma.com/ycsfxigi"
+}

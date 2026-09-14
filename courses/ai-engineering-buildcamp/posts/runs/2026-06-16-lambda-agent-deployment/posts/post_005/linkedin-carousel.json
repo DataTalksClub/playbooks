@@ -1,0 +1,11 @@
+{
+  "title": "Working first, then simplify",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Working first, then simplify", "subtitle": "A practical workflow for coding agents.", "swipeLabel": "Swipe for the loop"},
+    {"type": "title-paragraph", "title": "Use a checkpoint", "body": "Let the agent get a version running, then commit that working state before changing more."},
+    {"type": "title-paragraph", "variant": "light", "title": "Do not stop there", "body": "Working code is not the finish line. Read the code and ask what each unfamiliar part is doing."},
+    {"type": "title-paragraph", "title": "Agents overbuild", "body": "They can create wrappers, scripts, and abstractions that work but are harder to maintain than needed."},
+    {"type": "title-paragraph", "variant": "light", "title": "Simplify with intent", "body": "Keep the parts with a clear reason. Remove or rewrite the parts you cannot explain."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: Lambda agent deployment", "url": "https://youtu.be/zoAvc8VU6Qs"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Lambda deployment gotchas",
+  "slides": [
+    {"type": "cover", "author": "Alexey Grigorev", "title": "Lambda deployment gotchas", "subtitle": "The code change is only part of the deployment.", "swipeLabel": "Swipe for the checklist"},
+    {"type": "title-paragraph", "title": "More than Python", "body": "The deployment path includes a container image, ECR, CloudFormation, Function URL, environment variables, and local testing."},
+    {"type": "title-paragraph", "variant": "light", "title": "Use infrastructure as code", "body": "CloudFormation described the Lambda resources so they could be deployed repeatedly instead of assembled manually."},
+    {"type": "title-paragraph", "title": "Small flags matter", "body": "One deployment issue came from Docker image metadata. Lambda rejected the image until provenance metadata was disabled."},
+    {"type": "title-paragraph", "variant": "light", "title": "Write the path down", "body": "Save the commands, failed attempts, required flags, and cleanup notes. The deployment document becomes part of the system."},
+    {"type": "outro", "ctaText": "follow for practical AI engineering notes", "supportingText": "Full workshop: Lambda agent deployment", "url": "https://youtu.be/zoAvc8VU6Qs"}
+  ]
+}

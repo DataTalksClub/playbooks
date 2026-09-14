@@ -1,0 +1,40 @@
+{
+  "title": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A - educational",
+  "slides": [
+    {
+      "type": "cover",
+      "author": "Alexey Grigorev",
+      "title": "Practical workflow: Pre-course Q&A",
+      "subtitle": "A practical note for AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+      "swipeLabel": "Swipe for more"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "The problem",
+      "body": "Before joining a cohort, it helps to know the workload, prerequisites, project expectations, and how to get unstuck."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 1",
+      "body": "You should be comfortable with basic programming, Git, GitHub, and the command line.",
+      "variant": "light"
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 2",
+      "body": "You do not need a GPU or previous AI tools experience."
+    },
+    {
+      "type": "title-paragraph",
+      "title": "Control 3",
+      "body": "The course focuses on planning, coding, review, testing, agents, security, DevOps, and a final project.",
+      "variant": "light"
+    },
+    {
+      "type": "outro",
+      "ctaText": "Register for the workshop",
+      "supportingText": "AI Dev Tools Zoomcamp 2026 Pre-Course Live Q&A",
+      "url": "https://luma.com/a8qa5s2s"
+    }
+  ]
+}
