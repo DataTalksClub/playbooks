@@ -1,0 +1,49 @@
+{
+  "issue": 285,
+  "send_date": "2026-07-13",
+  "subject": "🛠️ Free workshop: Build an AI Agent with Guardrails | DataTalks.Club Weekly",
+  "open_rate": 0.3821179444765219,
+  "click_rate": 0.00660102058332423,
+  "unique_opens": 48973,
+  "subscriber_clicks": 846,
+  "sponsored_label_clicks": 126,
+  "slots": [
+    {
+      "heading": "Build an AI Agent with Guardrails",
+      "type": "promo (sponsored)",
+      "clicks": 920,
+      "unique_clicks_summed": 629
+    },
+    {
+      "heading": "LLM Zoomcamp: Module 5",
+      "type": "zoomcamp",
+      "clicks": 426,
+      "unique_clicks_summed": 261
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 778,
+      "unique_clicks_summed": 508
+    },
+    {
+      "heading": "Tracking and personalizing AI agents with Snowplow and the Vercel AI SDK",
+      "type": "event detail / other",
+      "clicks": 293,
+      "unique_clicks_summed": 187
+    },
+    {
+      "heading": "Running Durable Agents in Production",
+      "type": "event detail / other",
+      "clicks": 179,
+      "unique_clicks_summed": 122
+    },
+    {
+      "heading": "Alexey on Data Newsletter: PyPI Release Pipeline for Python Libraries",
+      "type": "alexey on data",
+      "clicks": 52,
+      "unique_clicks_summed": 40
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

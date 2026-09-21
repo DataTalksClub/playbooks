@@ -1,0 +1,55 @@
+{
+  "issue": 284,
+  "send_date": "2026-07-06",
+  "subject": "📗 Free guide on running AI workloads with Airflow | DataTalks.Club Weekly",
+  "open_rate": 0.35903635197095596,
+  "click_rate": 0.009295338247030657,
+  "unique_opens": 45887,
+  "subscriber_clicks": 1188,
+  "sponsored_label_clicks": 172,
+  "slots": [
+    {
+      "heading": "Orchestrate LLMs and Agents with Airflow",
+      "type": "promo (sponsored)",
+      "clicks": 1345,
+      "unique_clicks_summed": 986
+    },
+    {
+      "heading": "LLM Zoomcamp: Module 4",
+      "type": "zoomcamp",
+      "clicks": 438,
+      "unique_clicks_summed": 284
+    },
+    {
+      "heading": "Ingesting Agent Traces with dlthub",
+      "type": "event detail / other",
+      "clicks": 771,
+      "unique_clicks_summed": 476
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 1708,
+      "unique_clicks_summed": 1020
+    },
+    {
+      "heading": "Tracking and personalizing AI agents with Snowplow and the Vercel AI SDK",
+      "type": "event detail / other",
+      "clicks": 332,
+      "unique_clicks_summed": 183
+    },
+    {
+      "heading": "Running Durable Agents in Production",
+      "type": "event detail / other",
+      "clicks": 341,
+      "unique_clicks_summed": 194
+    },
+    {
+      "heading": "Alexey on Data Newsletter: The Definite Guide to Choosing a Portfolio Project",
+      "type": "alexey on data",
+      "clicks": 265,
+      "unique_clicks_summed": 158
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

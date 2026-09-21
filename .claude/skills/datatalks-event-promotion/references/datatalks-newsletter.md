@@ -2,29 +2,13 @@
 
 Use this reference for copy sent by DataTalks.Club through its newsletter system. Write in the organizational, community-oriented voice from `datatalks-style.md`, without a personal narrator.
 
-## Ordinary Event Mention
+## Weekly Issue Slots
 
-Use a compact entry in the community events section:
+Event mentions, event detail blocks, sponsored promo blocks, and Alexey newsletter post mentions are slots in the weekly issue. Their formats live in the `dtc-newsletter` skill (`references/slots.md`). When a campaign needs newsletter copy, draft it in that slot format so it drops into the next issue unchanged:
 
-```markdown
-[Linked event name](registration URL) - [one short sentence explaining what readers will learn, see, or discuss].
-```
-
-Keep it to the event name and one useful sentence. Do not turn an ordinary event into a standalone feature unless requested.
-
-## Dedicated Event Or Workshop Block
-
-Use a separate block for a sponsored event, sponsored workshop, major course-related event, or another event the campaign plan treats as a feature.
-
-A useful block contains:
-
-1. A descriptive heading with the event or practical outcome.
-2. One or two short paragraphs introducing the problem and event.
-3. A concise learning or agenda list when the source supports one.
-4. One or two short closing sentences connecting the event to the audience.
-5. Date, time, timezone, format, and one registration CTA.
-
-Keep the block useful rather than salesy. Do not copy a social post verbatim; newsletter readers need a compact, self-contained section that fits inside a larger edition.
+- Ordinary event: a line in the Upcoming events list.
+- Workshop, launch stream, or featured event: an event detail slot.
+- Sponsored event or workshop: a promo slot marked as sponsored content.
 
 ## Registrant Follow-Up
 

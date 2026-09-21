@@ -1,0 +1,55 @@
+{
+  "issue": 288,
+  "send_date": "2026-08-03",
+  "subject": "🛠️ Stop Airflow mistakes before they happen | DataTalks.Club Weekly",
+  "open_rate": 0.3517512147716229,
+  "click_rate": 0.00471137026239067,
+  "unique_opens": 45244,
+  "subscriber_clicks": 606,
+  "sponsored_label_clicks": 181,
+  "slots": [
+    {
+      "heading": "Top 5 Airflow mistakes and how to fix them",
+      "type": "promo (sponsored)",
+      "clicks": 453,
+      "unique_clicks_summed": 300
+    },
+    {
+      "heading": "LLM Zoomcamp: Final Project",
+      "type": "zoomcamp",
+      "clicks": 488,
+      "unique_clicks_summed": 325
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 233,
+      "unique_clicks_summed": 153
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp Live Events",
+      "type": "course event series",
+      "clicks": 322,
+      "unique_clicks_summed": 236
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 290,
+      "unique_clicks_summed": 225
+    },
+    {
+      "heading": "Running Durable Agents in Production",
+      "type": "event detail / other",
+      "clicks": 204,
+      "unique_clicks_summed": 164
+    },
+    {
+      "heading": "Alexey on Data Newsletter: (Re)Building a FAQ System for DataTalks.Club",
+      "type": "alexey on data",
+      "clicks": 108,
+      "unique_clicks_summed": 95
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

@@ -4,6 +4,82 @@ This repository stores reusable launch playbooks, course messaging, outreach lis
 
 Use it when preparing a new live cohort, refreshing course pages, writing newsletter, Slack, Telegram, YouTube, website, or GitHub copy, planning a launch campaign, or mining previous social posts for reusable patterns.
 
+## DataTalks.Club Weekly: How The Newsletter System Works
+
+The weekly DataTalks.Club newsletter is drafted by an AI agent (Claude Code, or Codex) using the `dtc-newsletter` skill. Two scripts collect the facts for the issue; the skill defines which slots the issue has, in which order, and how each is written. The agent writes a draft into this repository. A person reviews it, pastes it into Mailchimp, and sends it. Nothing is sent or published automatically.
+
+### Weekly flow
+
+1. **Refresh the archive.** `mailchimp_export.py` reads the most recent sent issues from Mailchimp and saves each one, with its click stats, to `newsletter/issues/`. If a draft for that issue exists, it is kept as `draft.md` next to the sent `issue.md`, so the edits made before sending are visible.
+2. **Collect this week's facts.** `week_sources.rb --date <send date>` writes `sources.md` into the new issue folder: the issue number, running Zoomcamps, upcoming events, Book of the Week, new recordings, and new Alexey on Data posts.
+3. **Fill the gaps.** The agent asks only for what no source has, mainly the sponsor and promo slots, and saves the answers as `brief.md`.
+4. **Draft.** The agent writes `issue.md`: subject line options, preview text, the Mailchimp campaign name, and every slot that has content this week. Slots with nothing to say are left out.
+5. **Review and send.** A person edits the draft, copies it into Mailchimp, and sends it.
+6. **Learn from the edits.** Next week, step 1 saves the sent version. When the edits show a pattern, the agent updates the skill's rules.
+
+To start, ask the agent in this repository: "Draft the DataTalks.Club Weekly for September 28."
+
+### Issue structure
+
+Slots appear in this order, and only when they have content:
+
+1. Primary promo (sponsor or DataTalks.Club product)
+2. Zoomcamp slots, one per running course (module of the week, project submission, or peer review)
+3. Course registration slots, for courses open before their cohort starts
+4. Secondary promo
+5. Event detail slots, including a course's event series and workshop notes
+6. Upcoming events list
+7. Book of the Week
+8. Latest recording
+9. From Alexey on Data
+
+The Mailchimp template adds the header, the Slack invite, and the footer, so drafts never include them.
+
+### Files
+
+| File | What it is |
+| --- | --- |
+| `.claude/skills/dtc-newsletter/SKILL.md` | The workflow the agent follows and the rules it must keep (read-only Mailchimp, no invented facts, sponsor copy kept intact). |
+| `.claude/skills/dtc-newsletter/references/issue-structure.md` | Slot order, when each slot is included, subject line and preview text format, output format, and final checks. |
+| `.claude/skills/dtc-newsletter/references/slots.md` | Format, length limits, and real examples for every slot type. |
+| `.claude/skills/dtc-newsletter/references/week-brief-template.md` | The short checklist of what the agent asks a person each week. |
+| `.claude/skills/dtc-newsletter/scripts/week_sources.rb` | Collects the facts for one send date and writes `sources.md`. |
+| `.claude/skills/dtc-newsletter/scripts/mailchimp_export.py` | Read-only Mailchimp export of sent issues and click stats. |
+| `newsletter/issues/<YYYY-MM-DD>-weekly-<N>/` | One folder per issue: `sources.md`, `brief.md`, `issue.md` (the draft, then the sent version), `draft.md` after sending, and `stats.json`. Issues #284 to #295 are already exported. |
+| `newsletter/performance.md` | Open rate, click rate, and most-clicked slot per issue, and median clicks by slot type. Rewritten on every export. |
+| `newsletter/sponsors.yaml` | Planned, not created yet: sponsor bookings per week, added by hand. |
+| `.env` | Holds `MAILCHIMP_API_KEY`. Gitignored and never committed; `.env.example` shows the format. |
+
+### Sources
+
+| Source | What it provides | Used for |
+| --- | --- | --- |
+| Course platform calendar feeds (`courses.datatalks.club/<course>/calendar.ics`, public) | Every homework, project submission, and peer review deadline, with links | Zoomcamp slots: module of the week, deadlines, homework and peer review pages |
+| Course GitHub repositories (DataTalksClub) | Module folders such as `02-regression` | "Join Module N" button links |
+| This repository's `courses/` folders | Telegram module announcements | The text a Zoomcamp slot condenses |
+| Website repository `datatalksclub.github.io` (`_data/events.yaml`, `_books/`, `_people/`) | Upcoming and past events with Luma and YouTube links, Book of the Week, speaker names | Events list, recordings, Book of the Week |
+| Luma event pages | Exact start time and time zone, full event description | Times in the events list (with CET or CEST), event detail slots |
+| YouTube | Video description and transcript | Latest recording slot |
+| Alexey on Data feed (`alexeyondata.substack.com/feed`) | New posts with links and summaries | From Alexey on Data slot |
+| Mailchimp API (read-only) | Sent issues, subject lines, preview text, opens, clicks per link | Calibration, issue numbering, performance summary |
+| A person | Sponsor and promo copy, which events to feature, what to leave out | Promo slots and editorial choices |
+
+### Setup and limits
+
+- Run the scripts from the repository root. `week_sources.rb` needs only Ruby. `mailchimp_export.py` needs Python 3 and `MAILCHIMP_API_KEY` in `.env`.
+- Mailchimp access is read-only. The agent never creates, schedules, test-sends, or sends a campaign without explicit permission for that action.
+- Deadlines follow the course platform. When a `course.yaml` in this repository disagrees, the platform wins and the agent points out the mismatch.
+- Luma times are read from the public event page, not an official API, so a change to Luma's page could break them. When that happens, times are marked "not verified on Luma".
+- An event appears only after it is added to the website repository's `events.yaml`.
+- YouTube transcripts rely on the Python environment in the local `short-video-automation` project, so they work only on the machine where it is installed.
+- Clicks per slot add up every link position in a slot, and a link that appears in two slots counts toward both. Use them to compare slots, not as exact reader counts.
+
+### Agent setup
+
+- `CLAUDE.md` holds the repository-wide rules for agents: who is speaking, where facts come from, where output goes, and the no-publishing rule. `AGENTS.md` is a symlink to it, so Codex reads the same rules.
+- Skills live in `.claude/skills/`, where Claude Code loads them automatically. `skills/<name>` and, on each machine, `~/.codex/skills/<name>` are symlinks to them, so Codex uses the same files. See [Local Skills](#local-skills).
+- Style and format rules live in each skill's `references/` folder. When a draft is corrected, the correction goes there, so every agent and every later run uses it.
+
 ## Start Here
 
 For a new cohort:
@@ -245,6 +321,7 @@ Each skill keeps routing and essential constraints in `SKILL.md`; substantial st
 - `.claude/skills/social-content-studio/`: Alexey's social voice, audience, examples, structured post creation, and export workflows.
 - `.claude/skills/newsletter-editor/`: AI Shipping Blog voice and editing guidance for Alexey's newsletter.
 - `.claude/skills/datatalks-event-promotion/`: DataTalks.Club event campaign strategy, audience, channel, owner, and platform guidance.
+- `.claude/skills/dtc-newsletter/`: DataTalks.Club Weekly issue structure, slot formats, the weekly sources script, and a read-only Mailchimp export. Sent issues, drafts, and click stats are saved in `newsletter/issues/`; `newsletter/performance.md` summarizes clicks by slot.
 - `.claude/skills/alexey-carousel-generator/`: social carousel and resource-image rendering workflows.
 - `.claude/skills/transcript-post-miner/`: transcript analysis for post ideas and clip recommendations.
 - `.claude/skills/video-clip-cutter/`: ffmpeg-based clip cutting from timestamp manifests.

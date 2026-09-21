@@ -10,12 +10,9 @@ The event-promotion skill supplies the campaign angle, source material, event fa
 
 ## DataTalks.Club Newsletter
 
-Read `datatalks-newsletter.md`. The correct format depends on the message:
+For content in the weekly issue (DataTalks.Club Weekly), use the `dtc-newsletter` skill. It owns the issue structure and every slot format: promos, Zoomcamp slots, event details, the events list, Book of the Week, Alexey on Data mentions, and recordings. A campaign that needs a newsletter mention should produce the matching slot.
 
-- Ordinary general event: compact mention in the community events section.
-- Sponsored event or workshop: dedicated newsletter block.
-- Course-related campaign: compact or dedicated block according to the campaign plan and importance of the update.
-- Registrant recap: targeted follow-up to people who registered, not automatically a broadcast newsletter item.
+For a registrant recap, read `datatalks-newsletter.md`. It is a targeted follow-up to people who registered, not automatically a broadcast newsletter item.
 
 ## Shared Handoff Rules
 

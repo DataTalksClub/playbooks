@@ -1,0 +1,61 @@
+{
+  "issue": 287,
+  "send_date": "2026-07-27",
+  "subject": "🛠️ Learn to build with coding agents without losing control | DataTalks.Club Weekly",
+  "open_rate": 0.35848352144118356,
+  "click_rate": 0.0057249087981580725,
+  "unique_opens": 46087,
+  "subscriber_clicks": 736,
+  "sponsored_label_clicks": 88,
+  "slots": [
+    {
+      "heading": "When Coding Agents Write Faster than You Can Review",
+      "type": "event detail / other",
+      "clicks": 459,
+      "unique_clicks_summed": 291
+    },
+    {
+      "heading": "LLM Zoomcamp: Final Project",
+      "type": "zoomcamp",
+      "clicks": 683,
+      "unique_clicks_summed": 452
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 506,
+      "unique_clicks_summed": 346
+    },
+    {
+      "heading": "A Data Foundation Your Analytics Agents Can Actually Trust",
+      "type": "promo (sponsored)",
+      "clicks": 197,
+      "unique_clicks_summed": 131
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp Live Events",
+      "type": "course event series",
+      "clicks": 196,
+      "unique_clicks_summed": 132
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 114,
+      "unique_clicks_summed": 80
+    },
+    {
+      "heading": "Running Durable Agents in Production",
+      "type": "event detail / other",
+      "clicks": 83,
+      "unique_clicks_summed": 58
+    },
+    {
+      "heading": "Alexey on Data Newsletter: What Is a Forward Deployed Engineer?",
+      "type": "alexey on data",
+      "clicks": 51,
+      "unique_clicks_summed": 38
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

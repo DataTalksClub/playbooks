@@ -1,6 +1,6 @@
 ---
 name: datatalks-event-promotion
-description: Create campaign-style social media posts for DataTalks.Club events, including sponsored events. Use when drafting event announcements, reminders, or educational promotional posts for DataTalks.Club rather than Alexey's personal posts.
+description: Create copy in DataTalks.Club's organizational voice for events (including sponsored events), courses, and community updates across LinkedIn, X, Telegram, Slack, and YouTube. Use when drafting event announcements, reminders, recaps, educational promotional posts, course module announcements, or registrant follow-up emails. For the weekly DataTalks.Club newsletter, use the dtc-newsletter skill. Do not use for posts in Alexey's own voice.
 metadata:
   short-description: DataTalks.Club event campaigns
 ---
@@ -18,7 +18,7 @@ Use this skill to create staged social media campaigns for DataTalks.Club events
 5. Read `references/channels.md` when drafting channel-specific deliverables, when the user asks for a distribution plan or posting schedule, or when the event category affects the campaign shape.
 6. For LinkedIn or X, read `references/social-media.md` to route by account owner, then read `references/linkedin.md` or `references/x.md` for the platform requirements.
 7. For DataTalks.Club LinkedIn or X, also read `references/datatalks-social-media.md`. For Alexey deliverables, hand the campaign brief and source material to the `social-content-studio` skill; do not apply DataTalks.Club voice rules to his post.
-8. For newsletter deliverables, read `references/newsletter.md`. For DataTalks.Club newsletter copy, also read `references/datatalks-newsletter.md`; for Alexey's newsletter, hand the campaign brief to the `newsletter-editor` skill.
+8. For newsletter deliverables, read `references/newsletter.md`. For DataTalks.Club Weekly slots, use the `dtc-newsletter` skill; for registrant follow-ups, read `references/datatalks-newsletter.md`; for Alexey's newsletter, hand the campaign brief to the `newsletter-editor` skill.
 9. Read `references/slack.md` for DataTalks.Club Slack deliverables.
 10. Read `references/telegram.md` for Telegram deliverables.
 11. Read `references/youtube-community.md` for YouTube Community deliverables and `references/youtube-video.md` for YouTube titles, descriptions, pinned comments, or live-to-recording metadata updates.
@@ -54,7 +54,7 @@ When asked to save files, save them in the user's current project or requested f
 - `references/linkedin.md`: LinkedIn format, owner adaptation, and event-post requirements.
 - `references/x.md`: account-specific X limits, mandatory DTC threads, URL counting, thread construction, and delivery checks.
 - `references/newsletter.md`: owner and recipient routing for Alexey and DataTalks.Club newsletter deliverables.
-- `references/datatalks-newsletter.md`: DataTalks.Club newsletter mentions, dedicated blocks, and registrant follow-ups.
+- `references/datatalks-newsletter.md`: DataTalks.Club registrant follow-ups, and where weekly issue slots are defined.
 - `references/slack.md`: DataTalks.Club Slack style and requirements for announcements, reminders, engagement prompts, and recaps.
 - `references/telegram.md`: Telegram-specific style, structure, link formatting, and requirements for course, module, event, reminder, recap, and operational announcement posts.
 - `references/youtube-community.md`: YouTube Community style and adaptation rules for announcements, reminders, educational posts, and recaps.

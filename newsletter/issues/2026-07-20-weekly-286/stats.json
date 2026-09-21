@@ -1,0 +1,49 @@
+{
+  "issue": 286,
+  "send_date": "2026-07-20",
+  "subject": "🛠️ Learn how to build agentic AI pipelines on Airflow | DataTalks.Club Weekly",
+  "open_rate": 0.3799637091435825,
+  "click_rate": 0.01108195036096163,
+  "unique_opens": 48790,
+  "subscriber_clicks": 1423,
+  "sponsored_label_clicks": 1276,
+  "slots": [
+    {
+      "heading": "Your agents need what Airflow already built",
+      "type": "promo (sponsored)",
+      "clicks": 2438,
+      "unique_clicks_summed": 1465
+    },
+    {
+      "heading": "LLM Zoomcamp: Final Project",
+      "type": "zoomcamp",
+      "clicks": 4446,
+      "unique_clicks_summed": 2566
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 8335,
+      "unique_clicks_summed": 4709
+    },
+    {
+      "heading": "Give your AI agent real-time context",
+      "type": "event detail / other",
+      "clicks": 3272,
+      "unique_clicks_summed": 1863
+    },
+    {
+      "heading": "Running Durable Agents in Production",
+      "type": "event detail / other",
+      "clicks": 3015,
+      "unique_clicks_summed": 1686
+    },
+    {
+      "heading": "Alexey on Data Newsletter: How to Write a Good README",
+      "type": "alexey on data",
+      "clicks": 1028,
+      "unique_clicks_summed": 586
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

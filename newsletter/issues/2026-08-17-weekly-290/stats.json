@@ -1,0 +1,79 @@
+{
+  "issue": 290,
+  "send_date": "2026-08-17",
+  "subject": "🛠️ How a 150M-parameter model reduces reasoning costs | DataTalks.Club Weekly",
+  "open_rate": 0.3588244380937669,
+  "click_rate": 0.006719703406194485,
+  "unique_opens": 46457,
+  "subscriber_clicks": 870,
+  "sponsored_label_clicks": 285,
+  "slots": [
+    {
+      "heading": "150M Model Sets a New Cost-Performance Frontier",
+      "type": "promo (sponsored)",
+      "clicks": 799,
+      "unique_clicks_summed": 599
+    },
+    {
+      "heading": "LLM Zoomcamp: Final Project",
+      "type": "zoomcamp",
+      "clicks": 525,
+      "unique_clicks_summed": 360
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 356,
+      "unique_clicks_summed": 238
+    },
+    {
+      "heading": "Live webinar: get tips for scaling Airflow",
+      "type": "promo (sponsored)",
+      "clicks": 139,
+      "unique_clicks_summed": 99
+    },
+    {
+      "heading": "Workshop notes: Building a full-stack application with AI",
+      "type": "recording or notes",
+      "clicks": 172,
+      "unique_clicks_summed": 110
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp Live Events",
+      "type": "course event series",
+      "clicks": 165,
+      "unique_clicks_summed": 114
+    },
+    {
+      "heading": "Stock Market Analytics Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 286,
+      "unique_clicks_summed": 228
+    },
+    {
+      "heading": "Machine Learning Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 142,
+      "unique_clicks_summed": 101
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 347,
+      "unique_clicks_summed": 261
+    },
+    {
+      "heading": "Running Durable Agents in Production",
+      "type": "event detail / other",
+      "clicks": 175,
+      "unique_clicks_summed": 140
+    },
+    {
+      "heading": "Alexey on Data Newsletter: How to Do Evals in 2026",
+      "type": "alexey on data",
+      "clicks": 85,
+      "unique_clicks_summed": 61
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

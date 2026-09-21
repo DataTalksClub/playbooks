@@ -1,0 +1,67 @@
+{
+  "issue": 291,
+  "send_date": "2026-08-24",
+  "subject": "🛠️ Meritmap Goes Live With Alexey Grigorev | DataTalks.Club Weekly",
+  "open_rate": 0.34671305790456003,
+  "click_rate": 0.007565458497507623,
+  "unique_opens": 45141,
+  "subscriber_clicks": 985,
+  "sponsored_label_clicks": 234,
+  "slots": [
+    {
+      "heading": "Free Webinar: Building A Career Without Borders",
+      "type": "promo (sponsored)",
+      "clicks": 824,
+      "unique_clicks_summed": 600
+    },
+    {
+      "heading": "LLM Zoomcamp: Final Project",
+      "type": "zoomcamp",
+      "clicks": 598,
+      "unique_clicks_summed": 446
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 429,
+      "unique_clicks_summed": 320
+    },
+    {
+      "heading": "Workshop notes: Building a full-stack application with AI",
+      "type": "recording or notes",
+      "clicks": 191,
+      "unique_clicks_summed": 132
+    },
+    {
+      "heading": "AI Dev Tools Zoomcamp Live Events",
+      "type": "course event series",
+      "clicks": 158,
+      "unique_clicks_summed": 121
+    },
+    {
+      "heading": "Stock Market Analytics Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 237,
+      "unique_clicks_summed": 205
+    },
+    {
+      "heading": "Machine Learning Zoomcamp 2026 Cohort",
+      "type": "course registration",
+      "clicks": 261,
+      "unique_clicks_summed": 195
+    },
+    {
+      "heading": "Upcoming events",
+      "type": "events list",
+      "clicks": 142,
+      "unique_clicks_summed": 102
+    },
+    {
+      "heading": "Alexey on Data Newsletter: Getting an AI Engineering Job",
+      "type": "alexey on data",
+      "clicks": 135,
+      "unique_clicks_summed": 99
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}
