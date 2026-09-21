@@ -4,7 +4,7 @@ Use this reference when a campaign includes Alexey's newsletter, the DataTalks.C
 
 ## Alexey's Newsletter
 
-Use `$newsletter-editor` as the source of truth for Alexey's first-person newsletter voice, editing process, audience, and long-form structure.
+Use the `newsletter-editor` skill as the source of truth for Alexey's first-person newsletter voice, editing process, audience, and long-form structure.
 
 The event-promotion skill supplies the campaign angle, source material, event facts, and CTA. Do not derive Alexey's newsletter voice from `datatalks-style.md`, and do not invent why Alexey recommends an event or how he relates to a speaker.
 

@@ -5,7 +5,7 @@ description: Create, critique, revise, and save structured social media post art
 
 # Social Content Studio
 
-This skill is for Alexey's accounts. DataTalks.Club may be the subject of his post, but that does not make it a DataTalks.Club account post. Use `$datatalks-event-promotion` for copy published in DataTalks.Club's organizational voice.
+This skill is for Alexey's accounts. DataTalks.Club may be the subject of his post, but that does not make it a DataTalks.Club account post. Use the `datatalks-event-promotion` skill for copy published in DataTalks.Club's organizational voice.
 
 ## Core Workflow
 
@@ -17,7 +17,7 @@ This skill is for Alexey's accounts. DataTalks.Club may be the subject of his po
 6. Revise the strongest version using the reviewer pass. If useful, provide 2-3 variants with clearly different angles.
 7. If the user asks to save drafts, create post files in the user's current project or requested folder, never inside the skill directory.
 8. For multi-post, transcript, video, clip, scheduling, or automation workflows, use artifact mode by default and read `references/output-formats.md`.
-9. For saved Alexey post artifacts, generate LinkedIn carousel and X/Twitter resource media by default with `$alexey-carousel-generator` after the post files are saved, unless the user explicitly asks for text-only posts.
+9. For saved Alexey post artifacts, generate LinkedIn carousel and X/Twitter resource media by default with the `alexey-carousel-generator` skill after the post files are saved, unless the user explicitly asks for text-only posts.
 
 ## Artifact Mode
 

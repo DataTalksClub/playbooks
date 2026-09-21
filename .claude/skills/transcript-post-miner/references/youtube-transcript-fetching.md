@@ -43,13 +43,13 @@ The output shape is:
 After fetching, continue the main skill workflow with:
 
 ```bash
-python /Users/valeria/.codex/skills/transcript-post-miner/scripts/prepare_transcript_context.py \
+python .claude/skills/transcript-post-miner/scripts/prepare_transcript_context.py \
   /Users/valeria/short-video-automation/<VIDEO_ID>/full_transcript.json
 ```
 
 ## Network And Dependency Handling
 
-Fetching a YouTube transcript requires network access. If the command fails with a network, DNS, proxy, YouTube blocking, or dependency error, follow Codex's escalation rules and rerun with approval when appropriate.
+Fetching a YouTube transcript requires network access. If the command fails with a network, DNS, proxy, YouTube blocking, or dependency error, rerun it with network access after the user approves.
 
 If `youtube_transcript_api` or `dotenv` is missing, check whether `/Users/valeria/short-video-automation/.venv/bin/python` exists and use it. If dependencies are still missing, tell the user which dependency is missing and suggest installing the repo requirements.
 

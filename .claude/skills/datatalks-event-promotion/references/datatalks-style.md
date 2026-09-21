@@ -49,7 +49,7 @@ Do not imply scarcity, exclusivity, certification, discounts, or access limits u
 
 For DataTalks.Club LinkedIn and X, read `datatalks-social-media.md` for account voice and storytelling. Then read `linkedin.md` or `x.md` for platform requirements.
 
-Alexey's personal posts belong to `$social-content-studio`; do not derive his voice from this reference.
+Alexey's personal posts belong to the `social-content-studio` skill; do not derive his voice from this reference.
 
 If the user does not specify a platform, draft for LinkedIn by default unless the surrounding workflow implies another platform.
 

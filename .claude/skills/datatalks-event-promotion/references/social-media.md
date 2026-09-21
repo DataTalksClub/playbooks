@@ -12,7 +12,7 @@ DataTalks.Club account:
 
 Alexey's account:
 
-- Use `$social-content-studio` for drafting, reviewing, revising, and saving the post. That skill and its Alexey references are the source of truth for his voice, audience, personal framing, artifact format, and media workflow.
+- Use the `social-content-studio` skill for drafting, reviewing, revising, and saving the post. That skill and its Alexey references are the source of truth for his voice, audience, personal framing, artifact format, and media workflow.
 - Read `linkedin.md` or `x.md` here only for the event campaign handoff and the account's platform constraints.
 - Do not apply `datatalks-style.md` or `datatalks-social-media.md` to Alexey's post.
 

@@ -1,6 +1,6 @@
 ---
 name: transcript-post-miner
-description: Mine long video transcripts for high-quality LinkedIn/X post ideas and short clip recommendations before writing social posts. Use when Codex is given a YouTube URL or video ID, full transcript, YouTube transcript JSON, workshop recording transcript, chaptered video transcript, or asks to fetch a YouTube transcript and find topics, angles, post briefs, clips, highlights, or social content opportunities from a long video. Especially useful when chapter-by-chapter post generation is too narrow and ideas may span multiple transcript sections.
+description: Mine long video transcripts for high-quality LinkedIn/X post ideas and short clip recommendations before writing social posts. Use when given a YouTube URL or video ID, full transcript, YouTube transcript JSON, workshop recording transcript, chaptered video transcript, or asks to fetch a YouTube transcript and find topics, angles, post briefs, clips, highlights, or social content opportunities from a long video. Especially useful when chapter-by-chapter post generation is too narrow and ideas may span multiple transcript sections.
 ---
 
 # Transcript Post Miner

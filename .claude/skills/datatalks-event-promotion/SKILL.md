@@ -17,8 +17,8 @@ Use this skill to create staged social media campaigns for DataTalks.Club events
 4. Read `references/audience.md` when choosing educational angles, selecting the primary audience segment, or deciding how technical the posts should be.
 5. Read `references/channels.md` when drafting channel-specific deliverables, when the user asks for a distribution plan or posting schedule, or when the event category affects the campaign shape.
 6. For LinkedIn or X, read `references/social-media.md` to route by account owner, then read `references/linkedin.md` or `references/x.md` for the platform requirements.
-7. For DataTalks.Club LinkedIn or X, also read `references/datatalks-social-media.md`. For Alexey deliverables, hand the campaign brief and source material to `$social-content-studio`; do not apply DataTalks.Club voice rules to his post.
-8. For newsletter deliverables, read `references/newsletter.md`. For DataTalks.Club newsletter copy, also read `references/datatalks-newsletter.md`; for Alexey's newsletter, hand the campaign brief to `$newsletter-editor`.
+7. For DataTalks.Club LinkedIn or X, also read `references/datatalks-social-media.md`. For Alexey deliverables, hand the campaign brief and source material to the `social-content-studio` skill; do not apply DataTalks.Club voice rules to his post.
+8. For newsletter deliverables, read `references/newsletter.md`. For DataTalks.Club newsletter copy, also read `references/datatalks-newsletter.md`; for Alexey's newsletter, hand the campaign brief to the `newsletter-editor` skill.
 9. Read `references/slack.md` for DataTalks.Club Slack deliverables.
 10. Read `references/telegram.md` for Telegram deliverables.
 11. Read `references/youtube-community.md` for YouTube Community deliverables and `references/youtube-video.md` for YouTube titles, descriptions, pinned comments, or live-to-recording metadata updates.

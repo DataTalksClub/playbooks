@@ -5,7 +5,7 @@ description: Edit, critique, rewrite, and polish AI Shipping Blog newsletter dra
 
 # Newsletter Editor
 
-Use this skill for AI Shipping Blog newsletter work. The subject may be DataTalks.Club, a course, or a community event, but the writer remains Alexey. Use `$datatalks-event-promotion` for copy sent by DataTalks.Club as an organization.
+Use this skill for AI Shipping Blog newsletter work. The subject may be DataTalks.Club, a course, or a community event, but the writer remains Alexey. Use the `datatalks-event-promotion` skill for copy sent by DataTalks.Club as an organization.
 
 ## Workflow
 
@@ -37,7 +37,7 @@ Do not turn the draft into a generic content-marketing article. Preserve useful 
 - For a rewrite, return the edited draft first, followed by unresolved factual questions.
 - For a line edit, preserve the structure unless it is causing the problem.
 - For a structural edit, reorder sections freely while preserving the evidence and claims.
-- For event promotion inside Alexey's newsletter, use the campaign facts and angle from `$datatalks-event-promotion`, but keep Alexey's personal narration and never invent why he recommends the event.
+- For event promotion inside Alexey's newsletter, use the campaign facts and angle from the `datatalks-event-promotion` skill, but keep Alexey's personal narration and never invent why he recommends the event.
 
 ## Reference Map
 

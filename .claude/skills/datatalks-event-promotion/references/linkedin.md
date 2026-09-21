@@ -23,7 +23,7 @@ Avoid:
 
 ## Owner Adaptation
 
-For Alexey, use `$social-content-studio` as the writing source of truth. Personal observations, relationships, and first-person framing are allowed only when supplied or supported.
+For Alexey, use the `social-content-studio` skill as the writing source of truth. Personal observations, relationships, and first-person framing are allowed only when supplied or supported.
 
 For DataTalks.Club, read `datatalks-social-media.md`. Use organizational and community framing, and avoid first-person singular.
 

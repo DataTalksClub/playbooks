@@ -29,11 +29,9 @@ Avoid:
 For module or course-week announcements, use this shape:
 
 ```markdown
-[Course name]: [Module/week title]
+We start Module [N] on [Module title].
 
-This week in [Course name]: [module number/name].
-
-[One or two short paragraphs explaining why the topic matters.]
+[One short paragraph: what the learner can now do, and what this module adds.]
 
 We cover:
 
@@ -41,14 +39,38 @@ We cover:
 - [Topic]
 - [Topic]
 
-[Optional paragraph connecting the module to practical work.]
-
 Materials:
 [link]
 
-Course:
+Recording:
+[link]
+
+Companion article:
+[link]
+
+[Homework status in one or two sentences.]
+
+Homework:
+[link]
+
+Submit:
+[link]
+
+Deadline: [Month D, YYYY at HH:MM CET/CEST] ([Month D at HH:MM UTC]).
+
+Next week, [one-sentence preview of the next module].
+
+Questions go in the course Slack channel:
 [link]
 ```
+
+Module announcement rules:
+
+- Do not add a separate title line. The first sentence names the module.
+- Keep the "why it matters" paragraph to two or three sentences, stated positively. Skip "Without X, every Y is a guess" contrasts.
+- When homework is a draft, say it briefly: "Homework [N] is currently a draft and the questions will likely change. We will announce once it's ready." Do not explain placeholders or tell learners how to plan around them.
+- Write the local deadline time with a short timezone label (CET in winter, CEST in summer), followed by UTC in brackets. Do not use `Europe/Madrid` in Telegram copy.
+- No emojis, bold, or hashtags.
 
 For event or workshop announcements, use this shape:
 
@@ -130,9 +152,9 @@ Recap:
 
 Telegram can be matter-of-fact and slightly more instructional than social posts. A good Telegram announcement often sounds like:
 
-- "This week in [course]: [module]."
+- "We start Module [N] on [module title]."
 - "Once you have [previous capability], you need to [next capability]."
 - "In this module, we [do the practical work]."
-- "Without [practice], every change is a guess. With [practice], you can compare changes using repeatable checks."
+- "With [practice], you can [concrete outcome]."
 
 The post should feel like a useful course or community update, not an advertisement.

@@ -2,11 +2,11 @@
 
 Use this reference when the user asks for a distribution plan or posting schedule, or when drafting channel-specific deliverables. Channel choice changes both campaign coverage and content format.
 
-When drafting LinkedIn or X deliverables, read `social-media.md` to route by account owner. Then read `linkedin.md` or `x.md`. For DataTalks.Club posts, also read `datatalks-social-media.md`; for Alexey posts, use `$social-content-studio`.
+When drafting LinkedIn or X deliverables, read `social-media.md` to route by account owner. Then read `linkedin.md` or `x.md`. For DataTalks.Club posts, also read `datatalks-social-media.md`; for Alexey posts, use the `social-content-studio` skill.
 
 When drafting Telegram announcements, reminders, recaps, or operational lists, also read `telegram.md`.
 
-When drafting newsletter deliverables, read `newsletter.md` to route by owner and recipient. Also read `datatalks-newsletter.md` for DataTalks.Club copy or use `$newsletter-editor` for Alexey's newsletter.
+When drafting newsletter deliverables, read `newsletter.md` to route by owner and recipient. Also read `datatalks-newsletter.md` for DataTalks.Club copy or use the `newsletter-editor` skill for Alexey's newsletter.
 
 When drafting DataTalks.Club Slack deliverables, read `slack.md`.
 

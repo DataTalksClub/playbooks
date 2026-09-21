@@ -34,7 +34,8 @@ For a new cohort:
 | `research/outreach/` | Outreach lists for practitioners, communities, podcasts, and potential amplifiers. |
 | `research/typefully/` | Curated Typefully examples, export tooling, manifest, and social post taxonomy. |
 | `courses/campaigns/` | Cohort-specific campaign decisions and finished campaign assets. |
-| `skills/` | Canonical Codex workflows and their task-specific reference material, plus supporting scripts and assets. |
+| `.claude/skills/` | Canonical agent skills (Claude Code first, Codex through symlinks) with their reference material, scripts, and assets. |
+| `skills/` | Symlinks to `.claude/skills/` for Codex and older paths, plus Codex-only system skills in `skills/.system/`. |
 | `courses/*-zoomcamp/` | Reusable course reference material, copy banks, proof libraries, and optional course assets. |
 
 ## Course Folders
@@ -232,15 +233,22 @@ Typical workflow:
 
 ## Local Skills
 
-The `skills/` folder is the canonical source for Codex behavior and reusable writing guidance in this repository. Each skill keeps routing and essential constraints in `SKILL.md`; substantial style, audience, channel, format, and domain guidance belongs in that skill's `references/` folder.
+`.claude/skills/` is the canonical source for agent behavior and reusable writing guidance in this repository. Claude Code is the primary agent and loads these skills automatically when it runs in this repository. Codex uses the same files:
 
-- `skills/social-content-studio/`: Alexey's social voice, audience, examples, structured post creation, and export workflows.
-- `skills/newsletter-editor/`: AI Shipping Blog voice and editing guidance for Alexey's newsletter.
-- `skills/datatalks-event-promotion/`: DataTalks.Club event campaign strategy, audience, channel, owner, and platform guidance.
-- `skills/alexey-carousel-generator/`: social carousel and resource-image rendering workflows.
-- `skills/transcript-post-miner/`: transcript analysis for post ideas and clip recommendations.
-- `skills/video-clip-cutter/`: ffmpeg-based clip cutting from timestamp manifests.
-- `skills/.system/`: team-shared system skills intentionally versioned so collaborators receive the same GitHub-distributed skill set.
+- `skills/<skill>` is a symlink to `.claude/skills/<skill>`, so older `skills/...` paths still resolve.
+- On each machine, link the Codex user skills to this repository: `ln -s "$PWD/.claude/skills/<skill>" ~/.codex/skills/<skill>`. Do not keep copies there, because copies drift.
+- `agents/openai.yaml` in each skill is Codex UI metadata. Claude Code ignores it.
+- Refer to another skill as "the `<skill>` skill", not with Codex's `$<skill>` syntax, and write script paths relative to the repository root (`.claude/skills/<skill>/scripts/...`).
+
+Each skill keeps routing and essential constraints in `SKILL.md`; substantial style, audience, channel, format, and domain guidance belongs in that skill's `references/` folder.
+
+- `.claude/skills/social-content-studio/`: Alexey's social voice, audience, examples, structured post creation, and export workflows.
+- `.claude/skills/newsletter-editor/`: AI Shipping Blog voice and editing guidance for Alexey's newsletter.
+- `.claude/skills/datatalks-event-promotion/`: DataTalks.Club event campaign strategy, audience, channel, owner, and platform guidance.
+- `.claude/skills/alexey-carousel-generator/`: social carousel and resource-image rendering workflows.
+- `.claude/skills/transcript-post-miner/`: transcript analysis for post ideas and clip recommendations.
+- `.claude/skills/video-clip-cutter/`: ffmpeg-based clip cutting from timestamp manifests.
+- `skills/.system/`: Codex-only system skills intentionally versioned so collaborators receive the same GitHub-distributed skill set.
 
 Do not maintain parallel copies of skill references under a general `documents/` folder. Update the owning skill reference directly. When guidance belongs to more than one skill, keep each skill operationally self-contained and make the ownership boundary explicit in its `SKILL.md`; avoid a second human-document mirror that can drift independently.
 
@@ -248,19 +256,19 @@ Course and campaign material has different ownership:
 
 | Information | Canonical location |
 | --- | --- |
-| Skill workflow and routing | `skills/<skill>/SKILL.md` |
-| Style, audience, channel, format, and domain rules used by a skill | `skills/<skill>/references/` |
-| Deterministic automation | `skills/<skill>/scripts/` |
+| Skill workflow and routing | `.claude/skills/<skill>/SKILL.md` |
+| Style, audience, channel, format, and domain rules used by a skill | `.claude/skills/<skill>/references/` |
+| Deterministic automation | `.claude/skills/<skill>/scripts/` |
 | Durable course facts | `courses/<course>/course.yaml` and adjacent course files |
 | Reusable course copy | `courses/<course>/copy-bank/` |
 | Cohort-specific decisions and copy | `courses/campaigns/<course>-<year>/` |
 | Generated working artifacts | `content-runs/` or the user-requested output folder |
 
-Examples and templates belong with the narrowest owner that uses them. A style example used only to calibrate Alexey's social posts belongs in `skills/social-content-studio/references/`; a reusable course announcement belongs in the relevant course copy bank.
+Examples and templates belong with the narrowest owner that uses them. A style example used only to calibrate Alexey's social posts belongs in `.claude/skills/social-content-studio/references/`; a reusable course announcement belongs in the relevant course copy bank.
 
 ## File Conventions
 
-- Treat `skills/<skill>/references/` as the source of truth for guidance consumed by that skill.
+- Treat `.claude/skills/<skill>/references/` as the source of truth for guidance consumed by that skill.
 - Do not recreate a top-level `documents/` mirror of skill references.
 - Route conditional references from `SKILL.md` and load only the references needed for the current deliverable.
 - Keep durable course facts in `course.yaml`.

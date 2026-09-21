@@ -6,7 +6,7 @@ Use this only after `alexey-carousel-generator` triggers.
 
 - Project root: `/Users/valeria/carousel-automation`
 - Renderer: `/Users/valeria/carousel-automation/src/render.js`
-- Render helper: `/Users/valeria/.codex/skills/alexey-carousel-generator/scripts/render_post_media.py`
+- Render helper: `.claude/skills/alexey-carousel-generator/scripts/render_post_media.py`
 
 The renderer outputs:
 
@@ -114,7 +114,7 @@ Guidelines:
 Prefer the helper:
 
 ```bash
-python3 /Users/valeria/.codex/skills/alexey-carousel-generator/scripts/render_post_media.py <content-run-or-post-folder>
+python3 .claude/skills/alexey-carousel-generator/scripts/render_post_media.py <content-run-or-post-folder>
 ```
 
 Manual equivalents:

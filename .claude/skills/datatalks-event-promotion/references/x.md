@@ -6,7 +6,7 @@ Use this reference for X deliverables after selecting the account owner in `soci
 
 Alexey has X Premium. His post can use the same long-form core copy as LinkedIn, so do not force it into standard 280-character posts or a thread solely because it is for X.
 
-Use `$social-content-studio` for his voice and post construction. Create a platform-specific thread only when the user asks for one or when a thread materially improves the presentation.
+Use the `social-content-studio` skill for his voice and post construction. Create a platform-specific thread only when the user asks for one or when a thread materially improves the presentation.
 
 ## DataTalks.Club X Account
 

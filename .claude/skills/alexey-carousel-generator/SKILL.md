@@ -1,6 +1,6 @@
 ---
 name: alexey-carousel-generator
-description: Generate and render Alexey Grigorev style social media assets for saved post artifacts. Use when Codex needs to create LinkedIn carousel JSON, X/Twitter resource JSON, rendered carousel PNG/PDF files, or rendered Twitter resource images from post text, markdown drafts, content-run post folders, or Alexey social post records; also use when a post-generation workflow asks for media/carousels/resources to be produced with the posts.
+description: Generate and render Alexey Grigorev style social media assets for saved post artifacts. Use when asked to create LinkedIn carousel JSON, X/Twitter resource JSON, rendered carousel PNG/PDF files, or rendered Twitter resource images from post text, markdown drafts, content-run post folders, or Alexey social post records; also use when a post-generation workflow asks for media/carousels/resources to be produced with the posts.
 ---
 
 # Alexey Carousel Generator
@@ -42,12 +42,12 @@ Do not use `bullet-list` for square carousels in this project; the template is n
 After writing or editing media JSON, run:
 
 ```bash
-python3 /Users/valeria/.codex/skills/alexey-carousel-generator/scripts/render_post_media.py <post-folder-or-content-run>
+python3 .claude/skills/alexey-carousel-generator/scripts/render_post_media.py <post-folder-or-content-run>
 ```
 
-The script renders any existing `linkedin-carousel.json` and `twitter-resource.json`, then updates `post.json.files`.
+Run it from the playbooks repository root. The script renders any existing `linkedin-carousel.json` and `twitter-resource.json`, then updates `post.json.files`.
 
-If the script fails because Chromium is blocked by sandboxing, rerun the same command with approval/escalation. Do not replace this with manual copy/staging work.
+If the script fails because Chromium is blocked by sandboxing, rerun the same command outside the sandbox after the user approves. Do not replace this with manual copy/staging work.
 
 ## Style
 

@@ -85,10 +85,16 @@ def api_request(
     return parsed
 
 
-def platform_payload(post_dir: Path, post: dict[str, Any]) -> dict[str, Any]:
+def platform_payload(
+    post_dir: Path,
+    post: dict[str, Any],
+    include_platforms: set[str] | None = None,
+) -> dict[str, Any]:
     files = post.get("files") or {}
     platforms: dict[str, Any] = {}
     for platform in post.get("platforms") or []:
+        if include_platforms is not None and platform not in include_platforms:
+            continue
         draft_file = files.get(platform)
         if not draft_file:
             continue
@@ -104,13 +110,17 @@ def platform_payload(post_dir: Path, post: dict[str, Any]) -> dict[str, Any]:
     return platforms
 
 
-def draft_payload(post_dir: Path, post: dict[str, Any]) -> dict[str, Any]:
+def draft_payload(
+    post_dir: Path,
+    post: dict[str, Any],
+    include_platforms: set[str] | None = None,
+) -> dict[str, Any]:
     title_parts = [str(post.get("post_id") or post_dir.name)]
     if post.get("topic"):
         title_parts.append(str(post["topic"]))
     return {
         "draft_title": " - ".join(title_parts),
-        "platforms": platform_payload(post_dir, post),
+        "platforms": platform_payload(post_dir, post, include_platforms),
     }
 
 
@@ -177,6 +187,11 @@ def parse_args() -> argparse.Namespace:
         help="Post status to upload. Defaults to draft. Can be repeated.",
     )
     parser.add_argument(
+        "--platform",
+        action="append",
+        help="Platform to upload, for example linkedin. Can be repeated or comma-separated. Defaults to all platforms in post.json.",
+    )
+    parser.add_argument(
         "--api-key-env",
         default="TYPEFULLY_API_KEY",
         help="Environment variable containing the Typefully API key.",
@@ -212,6 +227,11 @@ def main() -> int:
 
     social_set_ids = parse_social_set_ids(args.social_set_id)
     include_statuses = {status.strip() for status in args.status if status.strip()}
+    include_platforms = (
+        {platform.strip() for value in args.platform for platform in value.split(",") if platform.strip()}
+        if args.platform
+        else None
+    )
     records = find_post_records(run_dir, include_statuses)
     if not records:
         raise SystemExit(f"No post records with statuses {sorted(include_statuses)} in {run_dir}")
@@ -222,7 +242,7 @@ def main() -> int:
 
     for post_path in records:
         post = load_json(post_path)
-        payload = draft_payload(post_path.parent, post)
+        payload = draft_payload(post_path.parent, post, include_platforms)
         for social_set_id in social_set_ids:
             if not args.force and already_created(post, social_set_id):
                 print(f"skip existing: {post.get('post_id')} social_set={social_set_id}")
