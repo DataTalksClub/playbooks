@@ -48,6 +48,29 @@ If one post uses several separate parts of a video, define one clip with multipl
 
 Keep the intermediate part files when they may be useful for manual review. The script does not delete generated files automatically.
 
+## Captioned Social Versions
+
+After cutting, `scripts/render_social_clip.py` burns word-by-word captions into a landscape clip and normalizes loudness to -14 LUFS. It has two formats:
+
+- `vertical` (default): a 1080x1920 frame with a label pill and title above, the clip at full width in the middle, and captions below it with the spoken word in the accent colour. Captions sit under the video, so they never cover a shared screen.
+- `horizontal`: the clip at its own size with no frame or title, and captions in an accent-coloured box at the bottom of the picture, with the spoken word at full white.
+
+```bash
+uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter/scripts/render_social_clip.py \
+  content-runs/<run>/clips/dtc-post-001-software-factory.mp4 \
+  --style datatalksclub --title "<title from the post>" --label workshop \
+  --names "Louis Amaudruz, Switch, SandboxAQ, DataTalks.Club"
+
+uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter/scripts/render_social_clip.py \
+  content-runs/<run>/clips/dtc-post-001-software-factory.mp4 --style datatalksclub --format horizontal
+```
+
+- Output goes to `clips/vertical/` or `clips/horizontal/`, with the `.ass` caption file (and, for vertical, `.frame.png`) next to the video for review.
+- Both formats share one transcript per clip: `clips/captions/<clip>.words.json`. Pass every speaker, product and sponsor name in `--names` on the first run, then read that file. To fix a misheard word, edit it and rerun: the edited file is reused. `--retranscribe` starts over.
+- The vertical title is copy. Take it from the owner's post (the hook), in the owner's voice; do not invent a new claim for it.
+- Styles live in `references/clip-styles.json`, keyed by owner. Only `datatalksclub` exists; ask for Alexey's style before rendering his clips.
+- Needs an ffmpeg with libass: Homebrew `ffmpeg-full` (keg-only), which the script finds on its own.
+
 ## Output Rules
 
 - Use descriptive, filesystem-safe filenames such as `post-01-plain-llm-vs-rag.mp4`.
@@ -59,4 +82,7 @@ Keep the intermediate part files when they may be useful for manual review. The 
 ## Resources
 
 - `scripts/cut_video_clips.py`: manifest-driven ffmpeg runner for single clips and combined multi-part clips.
+- `scripts/render_social_clip.py`: captioned vertical (1080x1920, with title) and horizontal versions, with loudness normalization.
 - `references/clip-manifest-format.md`: manifest format, examples, and command options.
+- `references/clip-styles.json`: per-owner fonts, colours, and sizes for the captioned versions.
+- `assets/fonts/`: Ubuntu Bold (Ubuntu Font Licence, `UFL.txt`) for the DataTalks.Club style.

@@ -16,13 +16,17 @@ The pipeline itself is described in `.claude/skills/social-content-studio/SKILL.
 
 ## Media quality
 
-- [ ] Burn subtitles into clips from the transcript. Most social video plays muted.
-- [ ] Vertical and square crops for social, choosing between the speaker and the shared screen.
+- [x] Burn subtitles into clips from the transcript. Most social video plays muted. (`render_social_clip.py`: word-by-word captions under the vertical video, or boxed on the horizontal one.)
+- [x] Vertical version for social: full-width clip on a branded 1080x1920 frame with a title (`render_social_clip.py`, `datatalksclub` style).
+- [ ] Speaker crop for vertical clips where the speaker, not the screen, matters (needs crop positions per recording layout), and a square version.
+- [ ] An `alexey` style in `clip-styles.json`: font, colours, and whether his clips get a label.
+- [ ] A DataTalks.Club logo file for the bottom of the vertical frame (`--logo`), and the poster's `texture.png` background.
+- [ ] Record the captioned clips in `post.json` and let the Typefully upload choose which one to attach (vertical or horizontal, per platform).
 - [ ] A clip review sheet with the first and last frame and the transcript text of each clip, for quick approval before upload.
 - [ ] Snap clip boundaries to sentence starts and ends, and trim filler at the edges.
 - [ ] Flag clips that only make sense with the screen visible, or zoom into the shared screen for them.
 - [ ] Confirm X's video length limit for the DataTalks.Club account (no Premium). `check_posts.py` warns above 140 seconds; verify the real limit.
-- [ ] Normalize clip audio loudness.
+- [x] Normalize clip audio loudness (-14 LUFS in `render_social_clip.py`).
 - [ ] Review the carousel and resource image design, and decide whether DataTalks.Club gets its own visual style.
 
 ## Transcription and speakers

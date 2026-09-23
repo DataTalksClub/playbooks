@@ -1,0 +1,22 @@
+{
+  "datatalksclub": {
+    "source": "DataTalks.Club event poster 'Workshop - 1 speaker - sponsored' (2000x2000 Figma frame), scaled to a 1080-wide canvas",
+    "font_file": "assets/fonts/Ubuntu-Bold.ttf",
+    "font_family": "Ubuntu",
+    "background": "#FFFFFF",
+    "text": "#000000",
+    "accent": "#2056A2",
+    "label_text": "#FFFFFF",
+    "margin": 68,
+    "label_size": 44,
+    "label_padding": [11, 22],
+    "label_radius": 16,
+    "label_gap": 28,
+    "title_size": 76,
+    "title_line_height": 1.015,
+    "caption_size": 70,
+    "caption_gap": 70,
+    "overlay_caption_ratio": 0.062,
+    "overlay_dim_alpha": "70"
+  }
+}
