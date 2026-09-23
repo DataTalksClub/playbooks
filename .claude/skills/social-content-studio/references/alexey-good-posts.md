@@ -206,3 +206,39 @@ Every change should run evals and block deploys when metrics drop.
 6. Product integration
 
 Retries, timeouts, fallbacks, UX edge cases.
+
+## Lessons From An Event (published 2026-09-23)
+
+The version Valeriia published, after editing the draft. Note the shape: takeaway first, the event as evidence, each numbered item as its own line with the explanation below it, and a closing restatement before the links.
+
+When a multi-agent workflow stalls, check permissions and handoffs between agents before blaming the model.
+
+Here are several examples from our latest workshop with Louis:
+
+1. Permissions
+
+The coder agent was set so that only Louis could talk to it. When the lead agent tried to assign it work, the message was blocked. The same happened with the reviewer and the lead. The fix: let anyone message them.
+
+2. A missing handoff
+
+Louis's diagnosis: the coder probably finished its work without telling the lead. So the lead never woke up to start the review. The fix was one line in the coder's instructions: always message the lead back.
+
+3. The wrong channel
+
+In Switch, an agent has to explicitly send a message to the room. After Louis interrupted one agent and resumed it, it answered inside its own session instead. The fix: tell it to reply in the room.
+
+4. The effort setting
+
+One agent ran with high reasoning effort. Louis called that a mistake for this kind of coordination work.
+
+5. Polling
+
+By the end of the session, the 60-second check still hadn't picked up the new test issue. One suggestion was a GitHub Actions workflow that posts new issues to the channel instead.
+
+So when something breaks, first check who can message whom and whether every agent reports back.
+
+The recording shows each of these as it happened:
+https://www.youtube.com/watch?v=vl00W8eEtZg
+
+Switch repository:
+https://github.com/sandbox-quantum/switch

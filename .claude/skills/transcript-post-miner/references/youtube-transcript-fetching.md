@@ -53,6 +53,23 @@ Fetching a YouTube transcript requires network access. If the command fails with
 
 If `youtube_transcript_api` or `dotenv` is missing, check whether `/Users/valeria/short-video-automation/.venv/bin/python` exists and use it. If dependencies are still missing, tell the user which dependency is missing and suggest installing the repo requirements.
 
+## When YouTube Has No Captions
+
+If the fetcher reports that subtitles are disabled, or the video is not public yet, transcribe the local video file on this machine instead. Nothing is uploaded and no API credits are used:
+
+```bash
+uv run --with mlx-whisper python3 .claude/skills/transcript-post-miner/scripts/transcribe_local.py "<video.mp4>" \
+  --output content-runs/<run>/source \
+  --names "<speaker names, host, product and company names from the event source>"
+```
+
+- It writes `full_transcript.json` in the same shape as the fetcher, so the rest of the workflow is unchanged.
+- It saves each 10-minute chunk as it finishes; rerunning the same command resumes instead of starting over.
+- `--names` fixes most misspelled names. Still record any remaining misspellings or unverified terms as `transcript_caveats` in `source/source.json`.
+- The transcript has no speaker labels. Say so in the shortlist, and mark who said each quote the posts will rely on.
+
+Do not send the audio to a paid transcription API without the user's permission.
+
 ## Output Location
 
 For a video ID like `abc123XYZ00`, expect:

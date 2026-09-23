@@ -18,11 +18,6 @@ def slugify(value: str) -> str:
     return value or "content-run"
 
 
-def parse_platforms(value: str) -> list[str]:
-    platforms = [item.strip().lower() for item in value.split(",") if item.strip()]
-    return platforms or ["linkedin"]
-
-
 def write_json(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -37,11 +32,10 @@ def parse_args() -> argparse.Namespace:
         default=Path("content-runs"),
         help="Parent directory for content runs. Defaults to content-runs.",
     )
-    parser.add_argument("--owner", default="alexey", help="Content owner.")
     parser.add_argument(
-        "--platforms",
-        default="linkedin",
-        help="Comma-separated default platforms, for example linkedin,x.",
+        "--owners",
+        default="alexey",
+        help="Comma-separated profiles from references/profiles.json that will post from this run, for example alexey,datatalksclub.",
     )
     parser.add_argument("--source-type", default="", help="Source type, for example youtube.")
     parser.add_argument("--source-title", default="", help="Source title.")
@@ -67,8 +61,7 @@ def main() -> int:
     run_record = {
         "run_id": run_id,
         "created": today,
-        "owner": args.owner,
-        "default_platforms": parse_platforms(args.platforms),
+        "owners": [owner.strip() for owner in args.owners.split(",") if owner.strip()],
         "status": "drafting",
         "source": {
             "source_id": source_id,
@@ -78,6 +71,7 @@ def main() -> int:
             "video_id": args.video_id,
             "transcript_path": "",
             "duration_seconds": 0,
+            "links": {},
         },
     }
     write_json(run_dir / "run.json", run_record)

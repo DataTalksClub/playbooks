@@ -68,11 +68,15 @@ Avoid vague descriptions like:
 - Start bullets with an uppercase letter.
 - Use straight quotes and apostrophes.
 
+## X, LinkedIn, And Substack Share One Post
+
+Alexey has X Premium. By default, his LinkedIn, X, and Substack Notes copy is the same post: write `linkedin.md` only, and the Typefully handoff sends that text to all three platforms in one draft. Do not write a separate `x.md` or reshape the post into a thread unless the user asks for one.
+
 ## X / Twitter Threads
 
-For X, prefer threads over single compressed posts when promoting technical events, workshops, courses, or detailed engineering ideas.
+Use this section only when the user asks for an X thread for Alexey.
 
-Use X threads for event announcements when a single post would become too vague or too compressed. The thread should promote the event, not teach the full lesson.
+The thread should promote the event, not teach the full lesson.
 
 Thread structure:
 
@@ -110,6 +114,31 @@ Use direct phrasing instead:
 - "A production agent has to survive deploys, timeouts, restarts, and late approvals."
 - "A retry can create a duplicate ticket when the first request already succeeded."
 - "The workflow needs to remember which approval is pending."
+
+## Patterns From Published Edits
+
+These come from comparing drafts with the versions Valeriia published (2026-09-23, Switch workshop run). Write this way from the start.
+
+**Open with the lesson, not the event.** Move the takeaway to the first line and use the event as the evidence that follows.
+
+- Draft: "Louis Amaudruz built a multi-agent workflow live at our DataTalks.Club workshop. A few things broke along the way."
+- Published: "When a multi-agent workflow stalls, check permissions and handoffs between agents before blaming the model." then "Here are several examples from our latest workshop with Louis:"
+
+**Refer to the event as ours, loosely.** "our latest workshop", "one of our latest workshops", "our DataTalksClub workshop" (Alexey writes DataTalksClub without the dot), rather than "the Switch workshop" or the full event title.
+
+**"We" is fine for workshop work.** "In one of our latest workshops, we built agents that work on GitHub issues" is Alexey's own framing as host. Keep individual claims and opinions attributed to whoever made them, but do not rewrite the collective "we" of an event into "Louis built".
+
+**Introduce the guest inline instead of narrating the question.** "Here's an answer from Louis, our guest at the workshop: ..." rather than "I asked Louis Amaudruz about this during the Switch workshop."
+
+**Drop quote scaffolding.** State the line plainly instead of "His summary:" plus quotation marks. Cut sentences that only re-attribute a point already credited.
+
+**Give a numbered item its own line.** The number and a short label on one line, a blank line, then the explanation as its own paragraph. Do not pack the label and the explanation into one line.
+
+**Break long paragraphs.** A sentence that adds a distinct beat gets its own paragraph, for example "He said no." after the question it answers.
+
+**Bullets have no trailing periods.**
+
+**Tighten wording.** "If it all lands in Slack" over "If all of it lands in Slack"; "check the zip archive" over "go check the zip archive"; drop "with him", "exactly", and similar filler.
 
 ## Banned Phrases
 

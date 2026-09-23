@@ -30,7 +30,8 @@ Draft only from supplied sources and these files. Keep names, dates, times, time
 
 ## Where output goes
 
-- Social post runs: `content-runs/<YYYY-MM-DD>-<slug>/` with `run.json`, `source/`, and `posts/post_NNN/`. This folder is gitignored.
+- Social post runs: `content-runs/<YYYY-MM-DD>-<slug>/`, one run per source for every owner, with `run.json`, `source/`, and `posts/<prefix>_NNN/` (`alexey_001`, `dtc_001`). The pipeline, from scaffolding to the Typefully upload and pulling edits back, is in the `social-content-studio` skill; per-owner rules for the scripts are in its `references/profiles.json`. This folder is gitignored.
+- Planned improvements to the content pipeline: `IMPROVEMENTS.md`. Add to it when a gap is found but not fixed.
 - DataTalks.Club Weekly issues: `newsletter/issues/<YYYY-MM-DD>-weekly-<N>/` with `sources.md`, `brief.md`, and `issue.md`. This folder is tracked, and sent issues are the calibration set for the next one.
 - Course copy that will be reused: the relevant `copy-bank/`.
 - Never save generated drafts inside `.claude/skills/`.

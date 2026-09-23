@@ -57,6 +57,23 @@ Preserve the same angle and facts as the LinkedIn version, but rebuild it for st
 - End a pre-event thread with the essential date/time and CTA; end a post-event thread with the recording, notes, or materials link.
 - Do not fragment one sentence across posts merely to satisfy the limit.
 
+## Patterns From Published Edits
+
+From the versions Valeriia published (2026-09-23, Switch workshop run):
+
+- Call the event ours: "In our workshop on Switch", not "In the DataTalks.Club workshop on Switch". The account is the host, so the name does not need repeating.
+- **A recap opens with what was done, not with the recording.** "The recording of <title> is now available" became: "Louis Amaudruz built a team of AI agents in Slack, live, during our workshop. They worked together on GitHub issues for the Switch repository." followed by a short "The recording is now up."
+- **The speaker's credentials get their own short sentence** rather than sitting inside a longer one: "Louis is an AI Engineer at SandboxAQ. He started with an empty Slack workspace and walked through each agent:". Name the company once per post, not in every post of a thread.
+- Turn an inline enumeration into bullets. "the coder, the reviewer, the lead that coordinates them, and the issue manager" became four bullets.
+- **Bullet punctuation follows the bullet.** Short fragments ("Coder", "A Codex agent reviewed the change") take no full stop; bullets that are full sentences keep theirs.
+- **Put a blank line between a lead-in line ending in a colon and its bullets**, on X as well as LinkedIn.
+- Give every link a line of its own, after a sentence ending in a colon that says why it is worth opening:
+  - "Watch the recording to see the designer agent set up the workflow step by step:" then the URL.
+  - "Switch is an open-source framework that allows you to build teams where humans and agents work side by side:" then the repo URL. A bare "Switch:" plus a URL is not enough.
+- **Let an X thread run one post longer** rather than packing two ideas into one post. A 4-post recap thread became 5, with the Switch team's own setup given its own post.
+- Keep the speaker's role and company on LinkedIn ("Louis Amaudruz, AI Engineer at SandboxAQ"). On X, the name alone is enough once the thread is running.
+- Small tightening to copy: "hand off work" over "hand work", "a linked Jira task" over "a Jira task linked to it", "deploys a branch for manual testing" over "deploys a branch so it can be tested manually".
+
 ## Final Check
 
 - The post sounds like DataTalks.Club, not Alexey with pronouns changed.

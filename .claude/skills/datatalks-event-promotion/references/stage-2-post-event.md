@@ -33,6 +33,21 @@ For general events, also prepare channel variants described in `channels.md`: a 
 
 Quality matters more than quantity. Do not create multiple assets from the same idea just to increase the count.
 
+## Who Posts What From A Recording
+
+Decide the owner of each idea before writing, using these defaults. The user can move an idea to the other owner.
+
+| | DataTalks.Club | Alexey |
+| --- | --- | --- |
+| Which ideas | The recap, and educational posts about what the speaker explained or built. Formal, organizational voice. | Ideas where Alexey took part in the conversation: questions he asked, points he raised, his own experience said on the call. First person. |
+| Copy | `linkedin.md` for LinkedIn and a separate `x.md` thread (no X Premium, 280 characters per post). | `linkedin.md` only; the same copy goes to LinkedIn, X, and Substack Notes. |
+| Media | A clip per post where the recording supports one. No carousels or images. | A clip, plus a carousel and a resource image. They become two Typefully drafts with the same copy: `clip` (clip on every platform) and `visual` (carousel on LinkedIn, image on X). |
+| CTA | The recording link with a reason to watch tied to the post's idea, plus the tool or repo link when the event has one. | Same. |
+
+- Alexey's first-person statements must come from something he said in the recording. When the transcript does not make it clear who said a line, attribute it to the speaker or leave it out.
+- The same idea is not posted by both owners.
+- Put every owner's posts in one content run (see the `social-content-studio` skill, `references/output-formats.md`). Machine-readable versions of these rules live in `social-content-studio/references/profiles.json`.
+
 ## Event Recap
 
 Timing: within 2 days after the event date.
@@ -40,6 +55,8 @@ Timing: within 2 days after the event date.
 Inputs: notes and event recording link when available.
 
 Goal: summarize what happened and make it easy for people who missed the event to catch up.
+
+Open with what the speaker built or showed, then say the recording is up. Do not open with "The recording of <title> is now available"; see the published example in `examples.md`.
 
 Include:
 

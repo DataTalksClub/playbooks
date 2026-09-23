@@ -1,0 +1,60 @@
+{
+  "_comment": "Machine-readable rules per publishing profile. Read by scripts/scaffold_post.py, scripts/check_posts.py, scripts/typefully_drafts.py, and scripts/pull_typefully_edits.py. Prose rules for each voice stay in the style references named under `style`. Find Typefully social set IDs with: python3 .claude/skills/social-content-studio/scripts/typefully_drafts.py --list-social-sets",
+  "profiles": {
+    "alexey": {
+      "label": "Alexey Grigorev",
+      "post_prefix": "alexey",
+      "style": ".claude/skills/social-content-studio/references/alexey-style.md",
+      "typefully_social_set_id": 188312,
+      "_copy_note": "Alexey has X Premium. linkedin.md is the one copy for LinkedIn, X, and Substack Notes, so Typefully keeps them in sync.",
+      "copy": {
+        "linkedin": "linkedin",
+        "x": "linkedin",
+        "substack": "linkedin"
+      },
+      "x_post_limit": null,
+      "_variants_note": "Each variant is one Typefully draft with the same copy. A variant is created only when the post has every media file it needs. `none` means the platform gets no media in that draft; platforms not listed are left out of that draft. Substack Notes accepts no video (Typefully rejects it), so Substack carries the copy without the clip.",
+      "variants": {
+        "clip": {
+          "linkedin": "clip",
+          "x": "clip",
+          "substack": "none"
+        },
+        "visual": {
+          "linkedin": "carousel",
+          "x": "image"
+        }
+      },
+      "banned_phrases_from": ".claude/skills/social-content-studio/references/alexey-style.md#Banned Phrases",
+      "banned_phrases": [],
+      "warn_on_em_dash": true
+    },
+    "datatalksclub": {
+      "label": "DataTalks.Club",
+      "post_prefix": "dtc",
+      "style": ".claude/skills/datatalks-event-promotion/references/datatalks-style.md",
+      "typefully_social_set_id": 182343,
+      "_copy_note": "No X Premium. linkedin.md feeds LinkedIn and x.md feeds X as a separate thread, so the platforms carry different copy in the same draft.",
+      "copy": {
+        "linkedin": "linkedin",
+        "x": "x"
+      },
+      "x_post_limit": 280,
+      "variants": {
+        "clip": {
+          "linkedin": "clip",
+          "x": "clip"
+        }
+      },
+      "banned_phrases_from": null,
+      "banned_phrases": [
+        "Exciting news",
+        "amazing event",
+        "game-changer",
+        "seamless",
+        "unlock"
+      ],
+      "warn_on_em_dash": false
+    }
+  }
+}

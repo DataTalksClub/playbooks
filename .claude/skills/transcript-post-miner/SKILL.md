@@ -18,7 +18,7 @@ This skill usually runs before `social-content-studio`: first mine and validate 
    - `full_transcript.json` with `text` and `segments` fields from `short-video-automation`
    - a raw timestamped transcript
    - chapter files plus a full transcript
-2. If the input is a YouTube URL or video ID, fetch the transcript first using the workflow in `references/youtube-transcript-fetching.md`.
+2. If the input is a YouTube URL or video ID, fetch the transcript first using the workflow in `references/youtube-transcript-fetching.md`. If YouTube has no captions and a local video file is available, use `scripts/transcribe_local.py` as described there.
 3. If a transcript path is provided or created, inspect its size and shape. For `full_transcript.json`, prefer using `scripts/prepare_transcript_context.py` to create timestamped windows for review.
 4. Read the transcript globally before deciding on post ideas. Do not treat chapters as fixed boundaries.
 5. Mine 8-15 candidate ideas by looking for teachable claims, frameworks, mistakes, trade-offs, demos, strong explanations, practical processes, and surprising distinctions.
@@ -41,6 +41,7 @@ Read references only as needed:
 
 Use scripts when helpful:
 
+- `scripts/transcribe_local.py`: transcribe a local video on this machine when YouTube has no captions (chunked, resumable, seeded with names).
 - `scripts/prepare_transcript_context.py`: convert `full_transcript.json` into timestamped Markdown windows.
 - `scripts/extract_transcript_excerpts.py`: extract raw transcript excerpts for approved ideas and timestamp ranges.
 - `scripts/create_clip_manifest.py`: convert approved idea JSON into a CSV for clip production.

@@ -4,32 +4,39 @@ Use these formats when Social Content Studio should produce reusable artifacts i
 
 ## Content Run Layout
 
-Create one run folder per source, campaign, or batch:
+Create one run folder per source, campaign, or batch, shared by every owner. Do not split a source into one run per owner: each post records its `owner`, and post IDs carry the profile's `post_prefix` from `profiles.json` (`alexey_001`, `dtc_001`).
 
 ```text
 content-runs/<YYYY-MM-DD-slug>/
-  run.json
+  run.json                 "owners": ["alexey", "datatalksclub"]
   source/
-    source.json
-    transcript.json
-  ideas/
-    post-ideas.json
+    source.json            facts, links every post must carry, transcript caveats
+    full_transcript.json
+  post-ideas.md
   briefs/
-    idea_001.md
+    idea_001.md            raw transcript excerpts per idea
   posts/
-    post_001/
+    alexey_001/
+      post.json
+      linkedin.md          Alexey: one copy for LinkedIn, X, and Substack
+      review.json          lint (check_posts.py) and reviewer (review stage)
+      linkedin-carousel/   visual draft media
+      twitter-resource/
+      typefully/           pulled Typefully versions (pull_typefully_edits.py)
+    dtc_001/
       post.json
       linkedin.md
-      x.md
+      x.md                 DataTalks.Club X thread
       review.json
   clips/
     clip-manifest.json
-    post_001.mp4
+    alexey-001-<slug>.mp4
   queue/
-    social-queue.jsonl
+    typefully-drafts.json   created drafts, written by typefully_drafts.py
+  edits.md                 diffs between generated and published copy
 ```
 
-Only create folders that are needed for the task. Do not put run output inside the skill directory.
+Create posts with `scripts/scaffold_post.py`, which writes the right files for the owner. Only create folders that are needed for the task. Do not put run output inside the skill directory.
 
 ## Run Record
 
@@ -39,8 +46,7 @@ Store run-level metadata in `run.json`:
 {
   "run_id": "2026-05-28-agent-evals",
   "created": "2026-05-28",
-  "owner": "alexey",
-  "default_platforms": ["linkedin"],
+  "owners": ["alexey", "datatalksclub"],
   "status": "drafting",
   "source": {
     "source_id": "youtube_abc123",
@@ -135,7 +141,9 @@ Draft text here.
 
 Keep the Markdown body clean enough to paste or send to a publishing API without extra extraction logic.
 
-For X threads, store the thread in `x.md` as numbered tweets separated by blank lines:
+For Alexey, `linkedin.md` is the shared copy for LinkedIn, X, and Substack Notes. List `"platforms": ["linkedin", "x", "substack"]` in `post.json` with only `files.linkedin`; the Typefully handoff reuses that file for X and Substack. Write `x.md` only when a separate X thread is requested, or for DataTalks.Club.
+
+For X threads, store the thread in `x.md` as numbered tweets separated by blank lines. The Typefully handoff splits on the `N/M` lines, so keep them on their own line and numbered `1/M` through `M/M`:
 
 ```markdown
 ---
@@ -177,12 +185,21 @@ Store the writer-reviewer-editor loop in `review.json` when saving structured po
 
 Use `pass`, `warn`, or `fail` for check values.
 
-## Queue Export
+In artifact mode, `review.json` also holds two machine-written blocks, and these replace self-assessed `checks` for content runs:
 
-Use JSON Lines for scheduling handoff. Each line should represent one platform draft that is ready to publish:
+- `lint`: written by `scripts/check_posts.py` (`checked`, `errors`, `warnings`).
+- `reviewer`: written by the independent review in `review-stage.md` (`claims` with the transcript source and speaker for each claim, and `findings` with `severity` and `status`).
+
+## Media
+
+`post.json.media` lists the post's media by kind, with paths relative to the post folder:
 
 ```json
-{"post_id":"post_001","platform":"linkedin","status":"ready","body_path":"posts/post_001/linkedin.md","clip_path":"clips/post_001.mp4","preferred_publish_at":""}
+"media": {
+  "clip": "../../clips/alexey-001-issue-hub.mp4",
+  "carousel": "linkedin-carousel/carousel.pdf",
+  "image": "twitter-resource/twitter-resource.png"
+}
 ```
 
-The queue is an interchange format, not the source of truth. The source of truth is still each post folder.
+The owner's `variants` in `profiles.json` decide which Typefully drafts these become. For Alexey: a `clip` draft on every platform, and a `visual` draft with the carousel on LinkedIn and the image on X.

@@ -111,6 +111,8 @@ For a new cohort:
 | `research/typefully/` | Curated Typefully examples, export tooling, manifest, and social post taxonomy. |
 | `courses/campaigns/` | Cohort-specific campaign decisions and finished campaign assets. |
 | `.claude/skills/` | Canonical agent skills (Claude Code first, Codex through symlinks) with their reference material, scripts, and assets. |
+| `.claude/agents/post-reviewer.md` | Claude Code subagent for the independent post review; the procedure is in `social-content-studio/references/review-stage.md`. |
+| `IMPROVEMENTS.md` | Checklist of planned improvements to the content pipeline: transcription, media quality, Typefully, review. |
 | `skills/` | Symlinks to `.claude/skills/` for Codex and older paths, plus Codex-only system skills in `skills/.system/`. |
 | `courses/*-zoomcamp/` | Reusable course reference material, copy banks, proof libraries, and optional course assets. |
 
