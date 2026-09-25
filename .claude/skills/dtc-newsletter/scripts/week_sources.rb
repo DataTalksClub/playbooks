@@ -182,7 +182,8 @@ latest.sort.each do |prefix, year|
   # A deadline on the send day or the day after closes last week's module;
   # the module readers start this week is the next homework after that.
   homeworks.select { |h| h[:due].to_date >= send_date && h[:due].to_date < send_date + 2 }.each do |h|
-    zoomcamp_lines << "- Closing now (last week's module): #{h[:title]}, due #{deadline_text(h[:due])}"
+    zoomcamp_lines << "- Closing now (last week's module, still open on the send date): #{h[:title]}, due #{deadline_text(h[:due])}"
+    zoomcamp_lines << "  - Homework page: #{h[:url]}" if h[:url]
   end
   next_hw = homeworks.find { |h| h[:due].to_date >= send_date + 2 }
   if next_hw.nil? && homeworks.any? && projects.none? { |p| p[:due].to_date >= send_date }
@@ -310,7 +311,12 @@ end
 
 # --- Issue number ------------------------------------------------------------
 
-numbers = Dir[File.join(ROOT, "newsletter", "issues", "*")].map { |p| File.basename(p)[/weekly-(\d+)/, 1] }.compact.map(&:to_i)
+# Only issues dated before the send date count, so this issue's own folder is skipped.
+numbers = Dir[File.join(ROOT, "newsletter", "issues", "*")].filter_map do |p|
+  name = File.basename(p)
+  date = Date.parse(name[/\A\d{4}-\d{2}-\d{2}/]) rescue nil
+  name[/weekly-(\d+)/, 1]&.to_i if date && date < send_date
+end
 issue_line = numbers.empty? ? "Unknown: no past issues in newsletter/issues/." : "#{numbers.max + 1} (last saved issue is ##{numbers.max})"
 
 # --- Report ------------------------------------------------------------------

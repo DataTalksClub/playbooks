@@ -61,3 +61,7 @@ The pipeline itself is described in `.claude/skills/social-content-studio/SKILL.
 - [x] Removed `export_social_queue.py` and `validate_post_records.py`; `check_posts.py` covers the record checks.
 - [ ] The DataTalks.Club post-event channel variants (registrant newsletter recap, YouTube Community, Telegram, Slack) are not produced by this pipeline yet.
 - [ ] Migrate the 2026-08-27 Switch runs (old `post_NNN` IDs, one folder per owner) if they will be uploaded.
+
+## DataTalks.Club Weekly
+
+- [ ] `week_sources.rb` reads events and recordings only from the website's `_data/events.yaml`, which lags behind. For #296 (2026-09-28), two new Luma events (September 29 and October 6) and the Switch workshop recording (uploaded 2026-09-16) were missing from it. Also read the Luma calendar (`https://api.lu.ma/calendar/get-items?calendar_api_id=cal-kg9jR2UeDILH68H&period=future`) and the YouTube channel feed (`https://www.youtube.com/feeds/videos.xml?channel_id=UCDvErgK0j5ur3aLgn6U-LqQ`), and list recordings not yet featured in a sent issue, not only those from the last 7 days.

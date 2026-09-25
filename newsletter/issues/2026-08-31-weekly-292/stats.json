@@ -2,23 +2,23 @@
   "issue": 292,
   "send_date": "2026-08-31",
   "subject": "🛠️ Free Airflow AI Crash Course | DataTalks.Club Weekly",
-  "open_rate": 0.3512823461759632,
+  "open_rate": 0.3520720720720721,
   "click_rate": 0.013057312631780716,
-  "unique_opens": 45816,
+  "unique_opens": 45919,
   "subscriber_clicks": 1703,
   "sponsored_label_clicks": 277,
   "slots": [
     {
       "heading": "Free Airflow AI Crash Course with Marc Lamberti",
       "type": "promo (sponsored)",
-      "clicks": 1867,
-      "unique_clicks_summed": 1332
+      "clicks": 1870,
+      "unique_clicks_summed": 1333
     },
     {
       "heading": "LLM Zoomcamp: Final Project",
       "type": "zoomcamp",
-      "clicks": 893,
-      "unique_clicks_summed": 514
+      "clicks": 894,
+      "unique_clicks_summed": 515
     },
     {
       "heading": "AI Dev Tools Zoomcamp 2026 Cohort",
@@ -35,8 +35,8 @@
     {
       "heading": "Live workshop: Building AI Agent Workflows",
       "type": "event detail / other",
-      "clicks": 588,
-      "unique_clicks_summed": 396
+      "clicks": 589,
+      "unique_clicks_summed": 397
     },
     {
       "heading": "Machine Learning Zoomcamp 2026 Cohort",
@@ -47,8 +47,8 @@
     {
       "heading": "Upcoming events",
       "type": "events list",
-      "clicks": 2261,
-      "unique_clicks_summed": 1482
+      "clicks": 2262,
+      "unique_clicks_summed": 1483
     },
     {
       "heading": "Alexey on Data Newsletter: What AI Forward-Deployed Engineers Do",

@@ -7,7 +7,7 @@ Send date:
 
 Primary promo:
 - Sponsor or product:
-- Paid placement (adds "Sponsored content"): yes / no
+- Paid placement (adds the SPONSORED label): yes / no
 - Copy or source (sponsor text, landing page, doc):
 - Button label and URL:
 - Promo code or key date:

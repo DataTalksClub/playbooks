@@ -9,11 +9,13 @@ For a sponsor or a DataTalks.Club product such as AI Engineering Buildcamp.
 - Heading: the offer, resource, or event title the sponsor uses.
 - Body: one or two short paragraphs on the reader's problem and what the offer gives them, then three to five bullets when the source has concrete items, then the promo code or date line if there is one. At most 120 words.
 - Button: the sponsor's call to action, such as "Enroll here", "Download for free", or "Save your seat".
-- End with `_Sponsored content_` for any paid placement or DataTalks.Club paid product.
+- Start with the `SPONSORED` section label for any paid placement or DataTalks.Club paid product (see `issue-structure.md`, Sections).
 
 Example, from #295:
 
 ```markdown
+SPONSORED
+
 ## AI Engineering Buildcamp: From RAG to Agents
 
 AI Engineering Buildcamp starts today. 25 people enrolled last week, and the first week is buffer time, so you can still join.
@@ -27,8 +29,6 @@ You'll build 15 AI projects from scratch:
 Use the DTCLOVESYOU promo code for a special 15% off discount for DataTalks.Club members.
 
 [Enroll here](https://...)
-
-_Sponsored content_
 ```
 
 ## Zoomcamp Slot
@@ -37,12 +37,14 @@ One slot per running cohort. Pick the variant from `sources.md`.
 
 ### Module week
 
-- Heading: `[Course name] [Year]: Module [N]`, for example `Machine Learning Zoomcamp 2026: Module 2`.
+- Starts with the course banner marker, `[Banner: Machine Learning Zoomcamp]`.
+- Heading: `Module [N]: [module title]`, for example `Module 2: Machine Learning for Regression`. When the course has no banner yet, use `[Course name] [Year]: Module [N]`, for example `Machine Learning Zoomcamp 2026: Module 2`.
 - Body, at most 80 words:
   1. Why the module matters, in one or two positive sentences. Condense the module's Telegram announcement listed in `sources.md` rather than writing from scratch.
   2. Optionally, what the module covers, as one sentence or up to four bullets.
   3. The deadline, exactly: `The deadline for Homework [N] is [deadline from sources.md].`
   4. Optionally: `Next week, Module [N+1] covers [topic].`
+  5. When `sources.md` lists a homework under "Closing now", it is still open on the send date. Add a gentle reminder, with the homework page linked inline and the deadline exactly as given: `Still finishing Homework [N-1]? There's still time: you can [submit it]([homework page]) until [deadline from sources.md].` This line does not count toward the word limit. Keep one button per slot.
 - Button: `Join Module [N]`, linking to the "Module materials" URL in `sources.md` (the module folder in the course repository).
 
 Example, from #295:
@@ -64,7 +66,7 @@ When a homework draft is not final, add: "Homework [N] is currently a draft and 
 ### Project or peer-review week
 
 - Heading: `[Course name] [Year]: [Project name]`, for example `LLM Zoomcamp 2026: Final Project`.
-- Body: one or two sentences on what learners do now (submit, or review peers) and the deadline from `sources.md`.
+- Body: one or two sentences on what learners do now (submit, or review peers) and the deadline from `sources.md`. Add the same "Still finishing Homework [N]?" reminder when a homework is still open on the send date.
 - Button: `Submit your project`, linking to the project page, or `Review your peers`, linking to the learner review page (`.../project/<slug>/eval`) from `sources.md`.
 
 Example, from #294, with the review link corrected (the sent issue linked a `/cadmin/` admin page):
@@ -139,15 +141,28 @@ When an article based on a workshop is published, for example on Alexey on Data.
 
 ## Upcoming Events
 
-- Heading: `Upcoming events`.
-- One line per upcoming event from `sources.md`, in date order, including events on the send date:
+- Heading: `Upcoming events`, only when an event detail slot comes before the list in the Events section. When the list is the only thing in the section, drop the heading: the `EVENTS` section label (see `design-brief.md`, B3) already names it.
+- One block per upcoming event from `sources.md`, in date order, including events on the send date. Each block has three lines, joined with hard line breaks (two trailing spaces), and a blank line between blocks:
+  1. The weekday, date, and time in bold: `**Tue, September 29 · 5:30 PM CEST**`. Use the time and zone label from `sources.md`.
+  2. The event title as the only link, pointing to the Luma page.
+  3. The event type and speaker, not linked: `Webinar with [Speaker name]`. Add `with [Speaker name]` only when the name is supplied. Without a name, write the type alone.
+- Shorten a title that runs past about 70 characters by dropping the tail of its subtitle, never by rewording. For a multi-part series, write `[Series title], Part N: [subtitle]`.
+- End with one line linking to the full calendar and the calendar subscription.
+- No body text and no button.
+
+Example, from #296:
 
 ```markdown
-- [September 15, 4:30 PM CEST | Workshop: Building AI Agent Workflows with Switch](https://luma.com/...)
-```
+**Tue, October 6 · 5:30 PM CEST**  
+[Building an AI Platform, Part 2: Memory, Tools, Guardrails & Observability](https://luma.com/ar4ggwep)  
+Webinar with Dewang Sultania
 
-- Use the time and zone label from `sources.md`. Add `with [Speaker name]` only when the name is supplied, and then add it for every event in the list that has one.
-- No body text and no button.
+**Mon, November 2 · 12:30 PM CET**  
+[GraphRAG in Real-Life Use Cases](https://luma.com/dtc-r9hr)  
+Webinar with Daan Di Scala
+
+[See all upcoming events](https://lu.ma/dtc-events) · [Add our events to your calendar](https://calendar.google.com/calendar/?cid=ZjhxaWRqbnEwamhzY3A4ODA5azFlZ2hzNjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+```
 
 ## Book of the Week
 
@@ -183,8 +198,28 @@ Prices and quotas change quickly, but the article gives you a useful starting po
 [Read here](https://aishippingblog.com/p/free-and-affordable-ai-native-development)
 ```
 
-## Latest Recording
+## Recordings
 
-- Heading: `[Podcast / Workshop / Webinar] recording: [Title]`.
-- Body, at most 60 words: who spoke, what the session covers, and one concrete thing viewers will take away. Base it on the YouTube description, the transcript, or the event page in `events-archive/`. If only the title is available, write one sentence and tell the user.
+One slot per event type: workshop, podcast, and webinar each get their own slot, in that order.
+
+- Heading: `[Workshop / Podcast / Webinar] recording: [Title]`.
+- Body, at most 90 words, told as something that happened in the community, not as a summary of the video:
+  1. `On [Month D], [speaker, role at company] joined us for...` or `On [Month D], we talked with [speaker] about...`. Use the event date, not the upload date.
+  2. What we discussed or built together, in one or two sentences or up to four bullets. Take the content from the YouTube description, the transcript, or the event page in `events-archive/`.
+  3. Optionally, one line inviting people who missed it: `If you missed the live session, the recording is ready.`
 - Button: `Watch the recording`.
+- If only the title is available, write one sentence and tell the user.
+
+Example, from #296:
+
+```markdown
+## Workshop recording: Building AI Agent Workflows with Switch
+
+On September 15, Louis Amaudruz, AI Engineer at Sandbox AQ, joined us for a hands-on workshop on multi-agent workflows. Louis walked us through Switch, an open-source framework that runs agents in messaging platforms like Slack, and built a small agent team live: a coder, a reviewer, and a lead that coordinates them.
+
+We also looked at an internal AI software factory that picks up GitHub issues and fixes bugs in parallel.
+
+If you missed the live session, the recording is ready.
+
+[Watch the recording](https://www.youtube.com/watch?v=vl00W8eEtZg)
+```

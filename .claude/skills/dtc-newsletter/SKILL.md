@@ -1,6 +1,6 @@
 ---
 name: dtc-newsletter
-description: Assemble and draft the weekly DataTalks.Club newsletter (DataTalks.Club Weekly) from a fixed slot structure, including only the slots that have content that week. Use when asked to write, draft, plan, or review a DataTalks.Club Weekly issue or one of its slots, such as a promo slot, a Zoomcamp slot, a course registration slot, an event detail slot, the upcoming events list, Book of the Week, the Alexey on Data mention, or the latest recording; also use to export sent issues and click stats from Mailchimp. Do not use for Alexey's own newsletter or for registrant follow-up emails.
+description: Assemble and draft the weekly DataTalks.Club newsletter (DataTalks.Club Weekly) from a fixed slot structure, including only the slots that have content that week. Use when asked to write, draft, plan, or review a DataTalks.Club Weekly issue or one of its slots, such as a promo slot, a Zoomcamp slot, a course registration slot, an event detail slot, the upcoming events list, Book of the Week, the Alexey on Data mention, or the workshop, podcast, and webinar recordings; also use to export sent issues and click stats from Mailchimp. Do not use for Alexey's own newsletter or for registrant follow-up emails.
 ---
 
 # DataTalks.Club Weekly
@@ -20,6 +20,8 @@ Use this skill to produce one issue of DataTalks.Club Weekly: a fixed sequence o
    ruby .claude/skills/dtc-newsletter/scripts/week_sources.rb --date <YYYY-MM-DD> --out newsletter/issues/<folder>/sources.md
    ```
    It reports the issue number, running Zoomcamps from the course platform (this week's module, deadlines, module materials, peer reviews, project submissions), upcoming events with times checked on Luma and speaker names, Book of the Week, recordings published in the last week, and new Alexey on Data posts.
+
+   The script reads events and recordings from the website's `events.yaml`, which often lags behind. Also check the DataTalks.Club Luma calendar for upcoming events and the YouTube channel for recordings no sent issue has featured, and add what you find to `sources.md` under "Manual additions". If you can't reach them, ask the user to paste the events.
 4. Read `references/issue-structure.md` for the slot order and inclusion rules. Decide which slots are present from `sources.md`, `newsletter/sponsors.yaml` if it exists, and anything the user supplied.
 5. Ask the user only for what the sources cannot supply, using `references/week-brief-template.md` as the checklist. Save the answers to `brief.md` in the issue folder.
 6. Draft each present slot with `references/slots.md`. Read `../datatalks-event-promotion/references/datatalks-style.md` for the voice. For event detail slots, read the event's Luma page; for a recording slot, read the YouTube description or transcript; for Alexey on Data, read the post.
@@ -33,7 +35,7 @@ Use this skill to produce one issue of DataTalks.Club Weekly: a fixed sequence o
 - Draft only from supplied or fetched sources. Keep names, dates, times, promo codes, and links exactly as given. When a fact or link is missing, leave `TODO(...)` in the draft and list it in your reply; do not invent it.
 - Take deadlines and event times from `sources.md` verbatim. They carry the correct CET or CEST label. The course platform is the source of truth for deadlines; if `course.yaml` disagrees, mention it.
 - Sponsor copy is approved by the sponsor. Tighten it and fix obvious typos, but do not change claims, offers, or the call to action. Flag inconsistent spellings of names, such as a company spelled two ways.
-- Never write the email template parts: the "DataTalks.Club Weekly #N" title, the tagline, "View this email in your browser", or the Slack invite and sign-off footer. The Mailchimp template adds them.
+- Never write the fixed template parts: the logo, "View in browser", or the Slack invite and sign-off footer. The Mailchimp template has them. Do write the parts that change weekly: the masthead line (`#N · Month D, YYYY`), the **This week** summary, and the markers for dividers, section labels, and course banners (see `references/issue-structure.md`, Output Format).
 - Never commit or print the Mailchimp API key.
 
 ## Reference Map
@@ -41,5 +43,6 @@ Use this skill to produce one issue of DataTalks.Club Weekly: a fixed sequence o
 - `references/issue-structure.md`: slot order, when each slot is present, subject line format, output file format, and final checks.
 - `references/slots.md`: format, length, and examples for every slot.
 - `references/week-brief-template.md`: what to collect from the user each week.
+- `references/design-brief.md`: images to create and Mailchimp template setup (masthead, course banners, section labels, sponsor block, buttons, footer).
 - `scripts/week_sources.rb`: fetches the facts for one send date.
 - `scripts/mailchimp_export.py`: read-only export of sent issues and click stats.
