@@ -16,9 +16,10 @@ This skill usually runs before `social-content-studio`: first mine and validate 
 1. Identify the input format:
    - YouTube URL or 11-character video ID
    - `full_transcript.json` with `text` and `segments` fields from `short-video-automation`
+   - a WebVTT file, such as the `.transcript.vtt` Zoom saves next to a cloud recording
    - a raw timestamped transcript
    - chapter files plus a full transcript
-2. If the input is a YouTube URL or video ID, fetch the transcript first using the workflow in `references/youtube-transcript-fetching.md`. If YouTube has no captions and a local video file is available, use `scripts/transcribe_local.py` as described there.
+2. If the input is a YouTube URL or video ID, fetch the transcript first using the workflow in `references/youtube-transcript-fetching.md`. If YouTube has no captions and a local video file is available, use `scripts/transcribe_local.py` as described there. If the input is a `.vtt` file, convert it with `scripts/vtt_to_transcript.py`, also described there; prefer it over transcribing, because it keeps speaker labels.
 3. If a transcript path is provided or created, inspect its size and shape. For `full_transcript.json`, prefer using `scripts/prepare_transcript_context.py` to create timestamped windows for review.
 4. Read the transcript globally before deciding on post ideas. Do not treat chapters as fixed boundaries.
 5. Mine 8-15 candidate ideas by looking for teachable claims, frameworks, mistakes, trade-offs, demos, strong explanations, practical processes, and surprising distinctions.
@@ -42,8 +43,9 @@ Read references only as needed:
 Use scripts when helpful:
 
 - `scripts/transcribe_local.py`: transcribe a local video on this machine when YouTube has no captions (chunked, resumable, seeded with names).
-- `scripts/prepare_transcript_context.py`: convert `full_transcript.json` into timestamped Markdown windows.
-- `scripts/extract_transcript_excerpts.py`: extract raw transcript excerpts for approved ideas and timestamp ranges.
+- `scripts/vtt_to_transcript.py`: convert a WebVTT transcript (Zoom or other) into `full_transcript.json`, keeping speaker labels and checking the timestamps against the video.
+- `scripts/prepare_transcript_context.py`: convert `full_transcript.json` into timestamped Markdown windows, with the speaker on each line when the transcript has one.
+- `scripts/extract_transcript_excerpts.py`: extract raw transcript excerpts for approved ideas and timestamp ranges, one paragraph per speaker turn when the transcript has speakers.
 - `scripts/create_clip_manifest.py`: convert approved idea JSON into a CSV for clip production.
 
 ## Idea Mining Rules

@@ -25,6 +25,7 @@ def load_segments(path: Path) -> list[dict[str, Any]]:
         {
             "start": float(seg.get("start", 0.0)),
             "end": float(seg.get("end", seg.get("start", 0.0))),
+            "speaker": str(seg.get("speaker", "")).strip(),
             "text": str(seg.get("text", "")).replace("\n", " ").strip(),
         }
         for seg in segments
@@ -60,12 +61,14 @@ def render_markdown(
     windows: list[tuple[float, float, list[dict[str, Any]]]],
 ) -> str:
     duration = max((seg["end"] for seg in segments), default=0.0)
+    speakers = list(dict.fromkeys(seg["speaker"] for seg in segments if seg["speaker"]))
     lines = [
         "# Transcript Context",
         "",
         f"Source: {transcript_path}",
         f"Duration: {format_ts(duration)}",
         f"Segments: {len(segments)}",
+        f"Speakers: {', '.join(speakers)}" if speakers else "Speakers: not labelled",
         "",
         "Use these windows to mine social post ideas across the full transcript. Ideas may span multiple windows.",
         "",
@@ -78,8 +81,9 @@ def render_markdown(
             ]
         )
         for seg in items:
+            speaker = f"{seg['speaker']}: " if seg["speaker"] else ""
             lines.append(
-                f"[{format_ts(seg['start'])} - {format_ts(seg['end'])}] {seg['text']}"
+                f"[{format_ts(seg['start'])} - {format_ts(seg['end'])}] {speaker}{seg['text']}"
             )
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"

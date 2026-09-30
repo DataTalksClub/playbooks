@@ -72,6 +72,7 @@ The Mailchimp template adds the header, the Slack invite, and the footer, so dra
 - Luma times are read from the public event page, not an official API, so a change to Luma's page could break them. When that happens, times are marked "not verified on Luma".
 - An event appears only after it is added to the website repository's `events.yaml`.
 - YouTube transcripts rely on the Python environment in the local `short-video-automation` project, so they work only on the machine where it is installed.
+- A Zoom recording's `.transcript.vtt` can be used instead of fetching or transcribing (`vtt_to_transcript.py` in the `transcript-post-miner` skill). It has speaker labels, so it is the reference for posts. Burned-in clip captions still come from Whisper, which gives word timings and hears names better.
 - Clicks per slot add up every link position in a slot, and a link that appears in two slots counts toward both. Use them to compare slots, not as exact reader counts.
 
 ### Agent setup

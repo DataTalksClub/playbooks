@@ -54,7 +54,7 @@ Store run-level metadata in `run.json`:
     "title": "",
     "url": "",
     "video_id": "",
-    "transcript_path": "source/transcript.json",
+    "transcript_path": "source/full_transcript.json",
     "duration_seconds": 0
   }
 }

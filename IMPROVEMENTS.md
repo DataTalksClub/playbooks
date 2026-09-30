@@ -36,6 +36,7 @@ The pipeline itself is described in `.claude/skills/social-content-studio/SKILL.
 - [ ] Speaker labels (diarization), so the pipeline knows whether Alexey or the speaker said a line. Options:
   - WhisperX with pyannote: free and local. Needs a one-time Hugging Face token and accepting the pyannote model terms.
   - A paid API with diarization built in, such as AssemblyAI, Deepgram, or ElevenLabs Scribe. Needs a key and approval to upload audio.
+  - Done for Zoom recordings: `vtt_to_transcript.py` keeps the speaker labels from Zoom's `.transcript.vtt`. Still open for YouTube captions and `transcribe_local.py`.
 - [ ] Move the YouTube caption fetcher (`~/short-video-automation/scripts/youtube.py`) into this repository, so cloud and Codex runs can fetch captions.
 - [ ] A fallback for machines without Apple Silicon (for example faster-whisper), since `transcribe_local.py` uses mlx-whisper.
 

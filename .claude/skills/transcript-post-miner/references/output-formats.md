@@ -123,6 +123,8 @@ Write a LinkedIn/X post for <audience> explaining <claim>. Use only the angle an
 
 Do not pass only a summary to `social-content-studio` when raw transcript excerpts are available.
 
+When the transcript has speaker labels (for example one converted from a Zoom VTT), keep them in the excerpts; `scripts/extract_transcript_excerpts.py` writes one `**Name:**` paragraph per speaker turn. The excerpts are the reference for writing, not copy to paste: fix misheard names from `transcript_caveats` in any quote.
+
 ## Clip Manifest CSV
 
 Use `scripts/create_clip_manifest.py` to create this from `post-ideas.json`.

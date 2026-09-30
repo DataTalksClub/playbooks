@@ -26,14 +26,23 @@ def load_segments(path: Path) -> list[dict[str, Any]]:
 
 
 def excerpt(segments: list[dict[str, Any]], start: int, end: int) -> str:
-    parts: list[str] = []
+    """Join the segments in range; when segments carry speakers, one paragraph per speaker turn."""
+    turns: list[tuple[str, list[str]]] = []
     for segment in segments:
         segment_start = float(segment.get("start", 0.0))
         if start <= segment_start < end:
             text = str(segment.get("text", "")).replace("\n", " ").strip()
-            if text:
-                parts.append(text)
-    return " ".join(parts).strip()
+            if not text:
+                continue
+            speaker = str(segment.get("speaker", "")).strip()
+            if turns and turns[-1][0] == speaker:
+                turns[-1][1].append(text)
+            else:
+                turns.append((speaker, [text]))
+    return "\n\n".join(
+        f"**{speaker}:** {' '.join(parts)}" if speaker else " ".join(parts)
+        for speaker, parts in turns
+    ).strip()
 
 
 def parse_range(value: str) -> tuple[str, str, int, int]:

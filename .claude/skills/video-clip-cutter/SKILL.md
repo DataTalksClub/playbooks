@@ -68,6 +68,7 @@ uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter
 ```
 
 - Transcripts go to `clips/captions/<clip>.words.json` (word timings, used for captions) and `<clip>.txt` (for reading), recorded as `clip.transcript` in `post.json`. Renders go to `clips/horizontal/` and `clips/vertical/`, recorded as `media.clip_horizontal` and `media.clip_vertical`.
+- Captions always come from this per-clip Whisper pass, never from the recording transcript (such as a Zoom VTT): a VTT times whole phrases, not words, and hears names worse. Misheard names in the recording transcript are still a good start for `caption_names`.
 - Before the first pass, add `caption_names` to `source/source.json`: every product, company, and tool name the speakers mention (the speaker, host, and title are added automatically).
 - Read every `.txt` after the first pass. Put each misheard phrase in `source/source.json` as `caption_fixes` (`{"Cloud Code": "Claude Code"}`) and rerun: fixes apply to every clip, keep the word timings, and are reapplied on every run. Use `--retranscribe --post <id>` only when a whole clip transcript is wrong.
 - A name you cannot verify from the source (for example, a first name heard only in the clip) stays as heard; flag it to the user instead of guessing.

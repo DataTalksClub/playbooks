@@ -70,6 +70,24 @@ uv run --with mlx-whisper python3 .claude/skills/transcript-post-miner/scripts/t
 
 Do not send the audio to a paid transcription API without the user's permission.
 
+## When There Is A VTT Transcript
+
+A Zoom cloud recording comes with a `.transcript.vtt` next to the video. Convert it instead of transcribing: it is instant, and it labels every line with the speaker's Zoom name.
+
+```bash
+python3 .claude/skills/transcript-post-miner/scripts/vtt_to_transcript.py "<recording.transcript.vtt>" \
+  --output content-runs/<run>/source \
+  --video "<recording.mp4>"
+```
+
+- It writes `full_transcript.json` in the same shape as the fetcher, with a `speaker` field on each segment. `prepare_transcript_context.py` and `extract_transcript_excerpts.py` show the speakers.
+- `--video` checks that the transcript ends near the end of the video. If it warns, the VTT belongs to a different or trimmed file, and clip timestamps from it will not match the video; transcribe the video instead.
+- Record it in `source/source.json`: `transcript_path` (`source/full_transcript.json`), `transcript_method` (`zoom vtt`), `local_video`, and `duration_seconds` from the video check. `check_posts.py` uses `duration_seconds` to reject timestamps past the end of the video.
+- Any WebVTT works. Speakers are read from Zoom's `Name: text` prefix or from `<v Name>` tags; without either, segments have an empty speaker.
+- Zoom's speech recognition is weaker than Whisper on names and terms (for example "Versal" for Vercel, "RAC" for RAG). Record these as `transcript_caveats` in `source/source.json`, and fix them in any quote. Clip captions are unaffected: `render_run_clips.py` transcribes each clip again with Whisper.
+- In crosstalk, Zoom sometimes gives a short interjection to the wrong speaker. Check the video before quoting a line from a fast exchange.
+- Zoom labels are display names ("Alexey Grigorev", or a nickname a guest used). Check them against the speaker names in `source/source.json`.
+
 ## Output Location
 
 For a video ID like `abc123XYZ00`, expect:
