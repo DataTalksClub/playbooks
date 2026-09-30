@@ -14,8 +14,12 @@ Run through `uv` so nothing needs installing:
     ... CLIP --style datatalksclub --format horizontal --names "Louis Amaudruz, Switch"
 
 - Captions come from transcribing the clip itself with word timestamps, saved as
-  `captions/<clip>.words.json` next to the clip and shared by both formats. Fix
-  misheard words in that file and rerun: an existing words file is reused.
+  `captions/<clip>.words.json` next to the clip and shared by both formats, with a
+  plain-text `captions/<clip>.txt` for reading. Fix misheard words in the words
+  file and rerun: an existing words file is reused, and the .txt is rewritten from it.
+- --fix "Cloud Code=Claude Code" corrects a misheard phrase in every run (repeatable);
+  Whisper's repetition loops over silence are dropped.
+- render_run_clips.py calls transcribe() and render() for every clip in a content run.
 - Needs an ffmpeg built with libass (Homebrew `ffmpeg-full`); found automatically.
 """
 
@@ -32,6 +36,7 @@ SKILL_DIR = Path(__file__).resolve().parent.parent
 STYLES_PATH = SKILL_DIR / "references" / "clip-styles.json"
 FFMPEG_FULL = Path("/opt/homebrew/opt/ffmpeg-full/bin")
 WIDTH, HEIGHT = 1080, 1920
+DEFAULT_MODEL = "mlx-community/whisper-large-v3-turbo"
 
 
 def parse_args() -> argparse.Namespace:
@@ -44,8 +49,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--logo", type=Path, help="Optional logo image placed at the bottom.")
     parser.add_argument("--names", default="", help="Names and terms to prime Whisper, for example 'Louis Amaudruz, Switch'.")
     parser.add_argument("--output-dir", type=Path, help="Defaults to a vertical/ or horizontal/ folder next to the clip.")
+    parser.add_argument("--fix", action="append", default=[], help="Correction 'heard=meant', for example 'Cloud Code=Claude Code'. Repeatable.")
     parser.add_argument("--retranscribe", action="store_true", help="Ignore an existing words file.")
-    parser.add_argument("--model", default="mlx-community/whisper-large-v3-turbo")
+    parser.add_argument("--model", default=DEFAULT_MODEL)
     return parser.parse_args()
 
 
@@ -56,6 +62,7 @@ def find_ffmpeg() -> tuple[str, str]:
             continue
         filters = subprocess.run([ffmpeg, "-hide_banner", "-filters"], capture_output=True, text=True).stdout
         if " ass " in filters:
+            os.environ["PATH"] = f"{Path(ffmpeg).parent}{os.pathsep}{os.environ['PATH']}"
             return ffmpeg, str(Path(ffmpeg).with_name("ffprobe"))
     raise SystemExit("No ffmpeg with libass found. Install it with: brew install ffmpeg-full")
 
@@ -69,21 +76,89 @@ def probe(ffprobe: str, clip: Path) -> tuple[int, int, float]:
     return stream["width"], stream["height"], float(info["format"]["duration"])
 
 
-def transcribe_words(clip: Path, words_path: Path, names: str, model: str, retranscribe: bool) -> list[dict]:
-    if words_path.exists() and not retranscribe:
-        print(f"reusing {words_path.name}")
-        return json.loads(words_path.read_text(encoding="utf-8"))["words"]
+def captions_paths(clip: Path) -> tuple[Path, Path]:
+    folder = clip.parent / "captions"
+    return folder / f"{clip.stem}.words.json", folder / f"{clip.stem}.txt"
+
+
+def transcribe(clip: Path, names: str = "", model: str = DEFAULT_MODEL, retranscribe: bool = False,
+               fixes: dict[str, str] | None = None) -> list[dict]:
+    """Word-timed transcript of the clip, cached in captions/ next to it, plus a plain-text copy."""
+    words_path, text_path = captions_paths(clip)
+    words_path.parent.mkdir(exist_ok=True)
+    fresh = retranscribe or not words_path.exists()
+    if fresh:
+        words = whisper_words(clip, names, model)
+        print(f"transcribed {clip.name}: {len(words)} words")
+    else:
+        words = json.loads(words_path.read_text(encoding="utf-8"))["words"]
+    words, fixed = apply_fixes(words, fixes or {})
+    if fixed:
+        print(f"{clip.name}: {fixed} correction(s) applied")
+    if fresh or fixed:
+        words_path.write_text(json.dumps({"clip": clip.name, "words": words}, indent=1, ensure_ascii=False), encoding="utf-8")
+    text_path.write_text(" ".join(w["word"] for w in words) + "\n", encoding="utf-8")
+    return words
+
+
+def whisper_words(clip: Path, names: str, model: str) -> list[dict]:
+    find_ffmpeg()  # Whisper loads audio through the ffmpeg on PATH
     try:
         import mlx_whisper  # noqa: PLC0415
     except ImportError:
         raise SystemExit("mlx-whisper is not available. Run through: uv run --with mlx-whisper --with pillow python3 ...")
     result = mlx_whisper.transcribe(str(clip), path_or_hf_repo=model, word_timestamps=True, language="en",
                                     initial_prompt=f"{names}." if names else None)
-    words = [{"word": w["word"].strip(), "start": round(w["start"], 2), "end": round(w["end"], 2)}
-             for seg in result["segments"] for w in seg.get("words", []) if w["word"].strip()]
-    words_path.write_text(json.dumps({"clip": clip.name, "words": words}, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"wrote {words_path.name}: {len(words)} words")
-    return words
+    segments = drop_loops(result["segments"])
+    return [{"word": w["word"].strip(), "start": round(w["start"], 2), "end": round(w["end"], 2)}
+            for seg in segments for w in seg.get("words", []) if w["word"].strip()]
+
+
+def drop_loops(segments: list[dict], min_repeats: int = 3) -> list[dict]:
+    """Drop Whisper's repetition loops over silence: the same line min_repeats or more times in a row."""
+    kept: list[dict] = []
+    i = 0
+    while i < len(segments):
+        key = segments[i]["text"].strip().lower().rstrip(".")
+        j = i
+        while j + 1 < len(segments) and segments[j + 1]["text"].strip().lower().rstrip(".") == key:
+            j += 1
+        if j - i + 1 < min_repeats:
+            kept.extend(segments[i : j + 1])
+        i = j + 1
+    return kept
+
+
+def _norm(token: str) -> str:
+    return token.lower().strip(".,?!;:\"'")
+
+
+def apply_fixes(words: list[dict], fixes: dict[str, str]) -> tuple[list[dict], int]:
+    """Replace misheard phrases ({"Cloud Code": "Claude Code"}), keeping the span's timing and end punctuation."""
+    count = 0
+    for heard, meant in fixes.items():
+        pattern, replacement = [_norm(t) for t in heard.split()], meant.split()
+        if not pattern or heard == meant:
+            continue
+        out: list[dict] = []
+        i = 0
+        while i < len(words):
+            span = words[i : i + len(pattern)]
+            if len(span) == len(pattern) and [_norm(w["word"]) for w in span] == pattern \
+                    and [w["word"] for w in span] != replacement:
+                start, end = span[0]["start"], span[-1]["end"]
+                trailing = span[-1]["word"][len(span[-1]["word"].rstrip(".,?!;:")):]
+                step = (end - start) / len(replacement)
+                for k, token in enumerate(replacement):
+                    out.append({"word": token + (trailing if k == len(replacement) - 1 else ""),
+                                "start": round(start + k * step, 2), "end": round(start + (k + 1) * step, 2)})
+                i += len(pattern)
+                count += 1
+            else:
+                out.append(words[i])
+                i += 1
+        words = out
+    return words, count
 
 
 def chunk_words(words: list[dict], max_words: int = 4, max_chars: int = 26, max_gap: float = 0.6) -> list[list[dict]]:
@@ -185,7 +260,12 @@ def render_frame(style: dict, title: str, label: str, logo: Path | None, video_t
     draw = ImageDraw.Draw(image)
     max_width = WIDTH - 2 * style["margin"]
 
+    # Balance the lines: narrow the width as long as the title still needs the same number of lines.
     title_lines = wrap(draw, title, title_font, max_width)
+    width = max_width
+    while width > max_width // 2 and len(wrap(draw, title, title_font, width - 10)) == len(title_lines):
+        width -= 10
+    title_lines = wrap(draw, title, title_font, width)
     line_h = round(style["title_size"] * style["title_line_height"])
     pad_y, pad_x = style["label_padding"]
     label = label.upper()
@@ -214,34 +294,39 @@ def filter_path(path: Path) -> str:
     return str(path).replace("\\", "\\\\").replace(":", "\\:").replace("'", "\\'").replace(",", "\\,")
 
 
-def main() -> None:
-    args = parse_args()
+def load_style(name: str) -> dict:
     styles = json.loads(STYLES_PATH.read_text(encoding="utf-8"))
-    if args.style not in styles:
-        raise SystemExit(f"Unknown style {args.style!r}. Known: {', '.join(styles)}. Add it to {STYLES_PATH}.")
-    style = styles[args.style]
-    if args.format == "vertical" and not args.title:
-        raise SystemExit("--title is required for the vertical format.")
-    clip = args.clip.expanduser().resolve()
-    out_dir = (args.output_dir or clip.parent / args.format).expanduser().resolve()
+    if name not in styles:
+        raise KeyError(f"no style {name!r} in {STYLES_PATH} (known: {', '.join(styles)})")
+    return styles[name]
+
+
+def render(clip: Path, style_name: str, fmt: str, *, title: str = "", label: str = "", logo: Path | None = None,
+           names: str = "", fixes: dict[str, str] | None = None, output_dir: Path | None = None,
+           retranscribe: bool = False, model: str = DEFAULT_MODEL) -> Path:
+    """Render one captioned version of a landscape clip and return the output path."""
+    if fmt not in ("vertical", "horizontal"):
+        raise ValueError(f"unknown format {fmt!r}")
+    if fmt == "vertical" and not title:
+        raise ValueError("a title is required for the vertical format")
+    style = load_style(style_name)
+    clip = clip.expanduser().resolve()
+    out_dir = (output_dir or clip.parent / fmt).expanduser().resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     ffmpeg, ffprobe = find_ffmpeg()
-    os.environ["PATH"] = f"{Path(ffmpeg).parent}{os.pathsep}{os.environ['PATH']}"  # Whisper loads audio via ffmpeg
 
     src_w, src_h, duration = probe(ffprobe, clip)
     if src_h >= src_w:
-        raise SystemExit(f"{clip.name} is {src_w}x{src_h}; this layout expects a landscape clip.")
+        raise ValueError(f"{clip.name} is {src_w}x{src_h}; this layout expects a landscape clip")
 
+    words = transcribe(clip, names, model, retranscribe, fixes)
     stem = clip.stem
-    captions_dir = clip.parent / "captions"
-    captions_dir.mkdir(exist_ok=True)
-    words = transcribe_words(clip, captions_dir / f"{stem}.words.json", args.names, args.model, args.retranscribe)
     ass_path, output = out_dir / f"{stem}.ass", out_dir / f"{stem}.mp4"
     subs = f"ass=filename={filter_path(ass_path)}:fontsdir={filter_path((SKILL_DIR / style['font_file']).parent)}"
     audio = ["-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "160k", "-ar", "48000"]
     video = ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-movflags", "+faststart"]
 
-    if args.format == "horizontal":
+    if fmt == "horizontal":
         line, on, off = caption_style(style, "horizontal", src_w, src_h, 0)
         write_ass(chunk_words(words), line, on, off, (src_w, src_h), duration, ass_path)
         cmd = ["-i", str(clip), "-vf", f"{subs},format=yuv420p", *audio, *video, str(output)]
@@ -251,13 +336,23 @@ def main() -> None:
         line, on, off = caption_style(style, "vertical", WIDTH, HEIGHT, video_top + video_h + style["caption_gap"])
         write_ass(chunk_words(words), line, on, off, (WIDTH, HEIGHT), duration, ass_path)
         frame_path = out_dir / f"{stem}.frame.png"
-        render_frame(style, args.title, args.label, args.logo, video_top, video_h, frame_path)
+        render_frame(style, title, label, logo, video_top, video_h, frame_path)
         graph = (f"[1:v]scale={WIDTH}:{video_h},setsar=1[clip];"
                  f"[0:v][clip]overlay=0:{video_top}:shortest=1,{subs},format=yuv420p[out]")
         cmd = ["-loop", "1", "-framerate", "30", "-i", str(frame_path), "-i", str(clip),
                "-filter_complex", graph, "-map", "[out]", "-map", "1:a", *audio, *video, "-r", "30", "-shortest",
                str(output)]
-    subprocess.run([ffmpeg, "-v", "error", "-stats", "-y", *cmd], check=True)
+    subprocess.run([ffmpeg, "-v", "error", "-y", *cmd], check=True)
+    return output
+
+
+def main() -> None:
+    args = parse_args()
+    try:
+        output = render(args.clip, args.style, args.format, title=args.title, label=args.label, logo=args.logo,
+                        names=args.names, fixes=dict(f.split("=", 1) for f in args.fix), output_dir=args.output_dir, retranscribe=args.retranscribe, model=args.model)
+    except (KeyError, ValueError) as e:
+        raise SystemExit(str(e).strip("'\""))
     print(f"wrote {output}")
 
 

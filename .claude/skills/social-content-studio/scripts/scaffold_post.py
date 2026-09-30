@@ -83,6 +83,8 @@ def main() -> int:
             "recommended": True,
             "clip_id": f"clip_{post_id}",
             "segments": segments,
+            "title": "",
+            "label": "",
             "manifest_path": "../../clips/clip-manifest.json",
             "path": f"../../clips/{output}",
             "duration_seconds": sum(timestamp_seconds(s["end"]) - timestamp_seconds(s["start"]) for s in segments),

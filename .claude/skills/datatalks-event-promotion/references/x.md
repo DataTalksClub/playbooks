@@ -28,7 +28,7 @@ Count the final rendered copy, including spaces, punctuation, thread numbering, 
 - Put the registration or recording link in the first or final post when possible.
 - Include essential date, time, and timezone information in a pre-event thread.
 - Repeat a link only when it improves usability.
-- Number the posts only when helpful; include the numbering in the character count.
+- For DataTalks.Club threads, number every post as `N/total` on its own line at the end of the post, after a blank line and after any link. Include the numbering in the character count.
 
 For DataTalks.Club voice and storytelling, read `datatalks-social-media.md`.
 

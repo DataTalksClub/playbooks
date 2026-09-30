@@ -57,6 +57,17 @@ Preserve the same angle and facts as the LinkedIn version, but rebuild it for st
 - End a pre-event thread with the essential date/time and CTA; end a post-event thread with the recording, notes, or materials link.
 - Do not fragment one sentence across posts merely to satisfy the limit.
 
+## Sharing A Free Resource
+
+For a free ebook, guide, course, or resource hub, including a sponsor's, open with the offer rather than the problem. On social media the first line has to catch attention, and there is no room to explain first.
+
+- First line: the premise, a free [resource type] on [topic], followed by the most impressive numbers from the source, such as page count, number of resources, or its range ("from a 7-minute explainer to a full offline RAG system on edge hardware").
+- Then who made it and who it is for, in one sentence.
+- Keep the problem to two or three short lines after the hook, or leave it out.
+- Then what's inside as bullets, and the link on its own line.
+- Count only what the source lists. Do not round up or estimate.
+- Keep the voice organizational when the sponsor's draft uses "we put together": DataTalks.Club shares the resource, and the sponsor made it.
+
 ## Patterns From Published Edits
 
 From the versions Valeriia published (2026-09-23, Switch workshop run):

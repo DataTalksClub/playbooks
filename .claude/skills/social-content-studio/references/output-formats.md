@@ -97,6 +97,9 @@ Every post folder must contain a `post.json` record:
   "clip": {
     "recommended": true,
     "clip_id": "clip_001",
+    "title": "",
+    "label": "",
+    "transcript": "../../clips/captions/post_001.txt",
     "manifest_path": "../../clips/clip-manifest.json",
     "path": "../../clips/post_001.mp4",
     "duration_seconds": 100
@@ -197,9 +200,11 @@ In artifact mode, `review.json` also holds two machine-written blocks, and these
 ```json
 "media": {
   "clip": "../../clips/alexey-001-issue-hub.mp4",
+  "clip_horizontal": "../../clips/horizontal/alexey-001-issue-hub.mp4",
+  "clip_vertical": "../../clips/vertical/alexey-001-issue-hub.mp4",
   "carousel": "linkedin-carousel/carousel.pdf",
   "image": "twitter-resource/twitter-resource.png"
 }
 ```
 
-The owner's `variants` in `profiles.json` decide which Typefully drafts these become. For Alexey: a `clip` draft on every platform, and a `visual` draft with the carousel on LinkedIn and the image on X.
+`clip` is the plain cut. `clip_horizontal` and `clip_vertical` are the captioned versions written by the `video-clip-cutter` skill's `render_run_clips.py`. The owner's `variants` in `profiles.json` decide which Typefully drafts these become. For Alexey: a `clip` draft on every platform, and a `visual` draft with the carousel on LinkedIn and the image on X.

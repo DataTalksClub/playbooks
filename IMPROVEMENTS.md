@@ -21,7 +21,9 @@ The pipeline itself is described in `.claude/skills/social-content-studio/SKILL.
 - [ ] Speaker crop for vertical clips where the speaker, not the screen, matters (needs crop positions per recording layout), and a square version.
 - [ ] An `alexey` style in `clip-styles.json`: font, colours, and whether his clips get a label.
 - [ ] A DataTalks.Club logo file for the bottom of the vertical frame (`--logo`), and the poster's `texture.png` background.
-- [ ] Record the captioned clips in `post.json` and let the Typefully upload choose which one to attach (vertical or horizontal, per platform).
+- [x] Record the captioned clips in `post.json` (`media.clip_horizontal`, `media.clip_vertical`, `clip.transcript`), written by `render_run_clips.py`.
+- [ ] Let the Typefully upload attach a captioned clip instead of the plain cut: pick vertical or horizontal per platform in each owner's `variants`.
+- [ ] Clip titles are written by hand into `post.json`; `scaffold_post.py` could take `--clip-title` and `--clip-label`.
 - [ ] A clip review sheet with the first and last frame and the transcript text of each clip, for quick approval before upload.
 - [ ] Snap clip boundaries to sentence starts and ends, and trim filler at the edges.
 - [ ] Flag clips that only make sense with the screen visible, or zoom into the shared screen for them.

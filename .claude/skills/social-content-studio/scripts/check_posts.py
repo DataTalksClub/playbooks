@@ -34,6 +34,7 @@ from post_common import (
 )
 
 X_STANDARD_VIDEO_SECONDS = 140
+CLIP_TITLE_MAX = 70
 
 
 def check_post(post_path: Path, run: dict[str, Any], source: dict[str, Any], profiles: dict[str, Any]) -> tuple[list[str], list[str]]:
@@ -110,10 +111,17 @@ def check_post(post_path: Path, run: dict[str, Any], source: dict[str, Any], pro
         if not path.is_file():
             errors.append(f"{kind} file not found: {relative}")
             continue
-        if kind == "clip" and limit:
+        if kind.startswith("clip") and limit:
             seconds = media_duration(path)
             if seconds and seconds > X_STANDARD_VIDEO_SECONDS:
-                warnings.append(f"clip is {seconds:.0f}s; check X's video limit for accounts without Premium")
+                warnings.append(f"{kind} is {seconds:.0f}s; check X's video limit for accounts without Premium")
+    clip = post.get("clip") or {}
+    if clip.get("recommended") and post.get("status") not in ("rejected", "archived"):
+        title = (clip.get("title") or "").strip()
+        if not title:
+            warnings.append("clip.title is empty; the vertical clip needs a title")
+        elif len(title) > CLIP_TITLE_MAX:
+            warnings.append(f"clip.title is {len(title)} characters; keep it under {CLIP_TITLE_MAX} so it fits in three lines")
     variants = [name for name, _ in draft_variants(post_dir, post, profile)]
     if variants == ["text"] and post_media(post):
         warnings.append("media is listed but no draft variant is complete; the upload would be text-only")

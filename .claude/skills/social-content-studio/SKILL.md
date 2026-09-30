@@ -30,13 +30,14 @@ One content run holds everything made from one source (a recording, an event, a 
 1. **Run.** `scripts/create_content_run.py` creates `content-runs/<YYYY-MM-DD-slug>/`. Put the source facts in `source/source.json`, including `links` (every URL each post must carry, such as the recording and repo) and transcript caveats.
 2. **Ideas.** For recordings, the `transcript-post-miner` skill writes the shortlist and `briefs/<idea_id>.md` with raw excerpts. The user approves ideas, owners, and media per idea before writing.
 3. **Scaffold.** `scripts/scaffold_post.py <run> --owner <profile> --idea ... --topic ... --moment ... --clip ...` creates `posts/<prefix>_NNN/` with `post.json`, empty copy files for that profile, a `review.json` stub, and the clip entry in `clips/clip-manifest.json`. Do not hand-write post records.
-4. **Write.** Fill the copy files. Alexey: `linkedin.md` only; it is the copy for LinkedIn, X, and Substack. DataTalks.Club: `linkedin.md` plus an `x.md` thread, written with the `datatalks-event-promotion` skill.
-5. **Media.** Cut clips with the `video-clip-cutter` skill from `clips/clip-manifest.json`. For Alexey posts with a visual draft, render the carousel and image with the `alexey-carousel-generator` skill. Paths are listed in `post.json.media` (`clip`, `carousel`, `image`).
-6. **Check.** `scripts/check_posts.py <run>` checks the post records, copy files, thread markers, X limits (URLs count as 23), banned phrases, required links, transcript timestamps, media files, and open reviewer findings. It writes results to `review.json.lint` and exits 1 on any error. Fix and rerun until it passes.
-7. **Review.** Run the review in a separate agent (the `post-reviewer` subagent), following `references/review-stage.md`. It writes claim-by-claim findings to `review.json.reviewer`. Fix every `error` finding, mark it `fixed`, and rerun the check.
-8. **Approve.** Hand the posts to the user. The user sets `status: approved` in `post.json` for posts that are ready.
-9. **Upload.** With the user's permission for that upload, run `scripts/typefully_drafts.py <run>`; see Typefully Handoff below.
-10. **Learn from edits.** After the posts are published, run `scripts/pull_typefully_edits.py <run>`. It saves the Typefully version of each post and writes `edits.md` with a diff per platform. When edits show a pattern, update the owning style reference so the next run starts closer to the final version.
+4. **Cut and transcribe clips.** With the `video-clip-cutter` skill, cut the clips from `clips/clip-manifest.json`, then run `render_run_clips.py --transcribe-only`. Each clip gets a transcript at `clip.transcript`; fix misheard names through `caption_fixes` in `source/source.json`.
+5. **Write.** Fill the copy files. Alexey: `linkedin.md` only; it is the copy for LinkedIn, X, and Substack. DataTalks.Club: `linkedin.md` plus an `x.md` thread, written with the `datatalks-event-promotion` skill. For every post with a clip, also write `clip.title` and `clip.label` in `post.json` (see Clip Titles below).
+6. **Media.** Run `render_run_clips.py` (the `video-clip-cutter` skill) for the captioned horizontal and vertical clips. For Alexey posts with a visual draft, render the carousel and image with the `alexey-carousel-generator` skill. Paths are listed in `post.json.media` (`clip`, `clip_horizontal`, `clip_vertical`, `carousel`, `image`).
+7. **Check.** `scripts/check_posts.py <run>` checks the post records, copy files, thread markers, X limits (URLs count as 23), banned phrases, required links, transcript timestamps, media files, and open reviewer findings. It writes results to `review.json.lint` and exits 1 on any error. Fix and rerun until it passes.
+8. **Review.** Run the review in a separate agent (the `post-reviewer` subagent), following `references/review-stage.md`. It writes claim-by-claim findings to `review.json.reviewer`. Fix every `error` finding, mark it `fixed`, and rerun the check.
+9. **Approve.** Hand the posts to the user. The user sets `status: approved` in `post.json` for posts that are ready.
+10. **Upload.** With the user's permission for that upload, run `scripts/typefully_drafts.py <run>`; see Typefully Handoff below.
+11. **Learn from edits.** After the posts are published, run `scripts/pull_typefully_edits.py <run>`. It saves the Typefully version of each post and writes `edits.md` with a diff per platform. When edits show a pattern, update the owning style reference so the next run starts closer to the final version.
 
 Scripts:
 
@@ -45,6 +46,15 @@ Scripts:
 - `scripts/check_posts.py`: mechanical checks before review and upload.
 - `scripts/typefully_drafts.py`: create Typefully drafts.
 - `scripts/pull_typefully_edits.py`: pull published text back and diff it (read-only).
+
+### Clip Titles
+
+`clip.title` is the headline above the vertical clip. It is copy, so it follows the owner's voice rules.
+
+- Take it from the post's angle, and make it a statement the clip itself supports. Check it against the clip transcript, not only the post.
+- Keep it under 70 characters, so it fits in three lines. `check_posts.py` warns when it is empty or longer.
+- No hype, no clickbait questions the clip does not answer, and no names or numbers that are not in the source.
+- `clip.label` is the small pill above the title: the event format from the source, such as `workshop`. Leave it empty when the source does not say.
 
 ## Typefully Handoff
 

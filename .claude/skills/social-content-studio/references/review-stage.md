@@ -20,6 +20,7 @@ Review a whole run in one pass, and read only what a check needs. Reading every 
 4. **Voice.** Alexey's posts: first person only for his own experience, no invented opinions or motives. "We" about a DataTalks.Club event he hosted is his normal framing, so do not flag it; check individual claims and opinions instead. DataTalks.Club posts: organizational voice, no first-person singular, "we" only as the host.
 5. **CTA.** The recording link is given a reason tied to the post's idea, and the repo or other required links are present.
 6. **Transcript caveats.** Names and terms in `source.json` caveats (misheard names, unverified spellings) must not leak into the copy.
+7. **Clip title and captions.** `clip.title` is checked like any claim, against the clip transcript at `clip.transcript`: the clip itself must support it. Also read the transcript for misheard names that would appear in the burned-in captions; each one needs a `caption_fixes` entry in `source.json`.
 
 ## Output
 

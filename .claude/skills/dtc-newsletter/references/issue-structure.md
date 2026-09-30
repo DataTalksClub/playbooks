@@ -61,7 +61,7 @@ Save `issue.md` with this shape. The user builds the email by hand in Mailchimp 
 - A line in capitals such as `SPONSORED` or `EVENTS`: a section label, pasted with the label snippet from `design-brief.md`, B3.
 - `[Banner: Course name]`: the course banner image, with the course name as its alt text. When a course has no banner yet (see the status in `design-brief.md`, A2), write `[Banner: Course name (not made yet; fallback heading: [Course name] [Year]: Module N)]` so the user can switch to the fallback heading.
 - `##` heading: a slot heading.
-- A link alone on its own line: the slot's button.
+- A link alone on its own line: the slot's button. In the Recordings and Read sections it becomes a text link instead (see `design-brief.md`, B7).
 
 ```markdown
 ---

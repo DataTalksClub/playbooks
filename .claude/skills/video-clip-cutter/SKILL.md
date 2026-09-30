@@ -50,26 +50,45 @@ Keep the intermediate part files when they may be useful for manual review. The 
 
 ## Captioned Social Versions
 
-After cutting, `scripts/render_social_clip.py` burns word-by-word captions into a landscape clip and normalizes loudness to -14 LUFS. It has two formats:
+After cutting, burn word-by-word captions into each clip and normalize loudness to -14 LUFS. There are two formats:
 
-- `vertical` (default): a 1080x1920 frame with a label pill and title above, the clip at full width in the middle, and captions below it with the spoken word in the accent colour. Captions sit under the video, so they never cover a shared screen.
+- `vertical`: a 1080x1920 frame with a label pill and title above, the clip at full width in the middle, and captions below it with the spoken word in the accent colour. Captions sit under the video, so they never cover a shared screen.
 - `horizontal`: the clip at its own size with no frame or title, and captions in an accent-coloured box at the bottom of the picture, with the spoken word at full white.
+
+### In a content run
+
+`scripts/render_run_clips.py` handles every post in a run in two passes:
+
+```bash
+# 1. Right after cutting: one transcript per clip, for writing the posts and clip titles.
+uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter/scripts/render_run_clips.py content-runs/<run> --transcribe-only
+
+# 2. After clip.title and clip.label are written in post.json: both captioned versions.
+uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter/scripts/render_run_clips.py content-runs/<run>
+```
+
+- Transcripts go to `clips/captions/<clip>.words.json` (word timings, used for captions) and `<clip>.txt` (for reading), recorded as `clip.transcript` in `post.json`. Renders go to `clips/horizontal/` and `clips/vertical/`, recorded as `media.clip_horizontal` and `media.clip_vertical`.
+- Before the first pass, add `caption_names` to `source/source.json`: every product, company, and tool name the speakers mention (the speaker, host, and title are added automatically).
+- Read every `.txt` after the first pass. Put each misheard phrase in `source/source.json` as `caption_fixes` (`{"Cloud Code": "Claude Code"}`) and rerun: fixes apply to every clip, keep the word timings, and are reapplied on every run. Use `--retranscribe --post <id>` only when a whole clip transcript is wrong.
+- A name you cannot verify from the source (for example, a first name heard only in the clip) stays as heard; flag it to the user instead of guessing.
+- The vertical version is skipped when `clip.title` is empty. Posts whose owner has no style in `references/clip-styles.json` are transcribed only. Rejected and archived posts are skipped.
+- `--post` and `--format` narrow a run.
+
+### One clip
+
+`scripts/render_social_clip.py` renders a single clip, outside a content run:
 
 ```bash
 uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter/scripts/render_social_clip.py \
-  content-runs/<run>/clips/dtc-post-001-software-factory.mp4 \
-  --style datatalksclub --title "<title from the post>" --label workshop \
-  --names "Louis Amaudruz, Switch, SandboxAQ, DataTalks.Club"
-
-uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter/scripts/render_social_clip.py \
-  content-runs/<run>/clips/dtc-post-001-software-factory.mp4 --style datatalksclub --format horizontal
+  <clip.mp4> --style datatalksclub --format vertical --title "<title>" --label workshop \
+  --names "Louis Amaudruz, Switch, SandboxAQ" --fix "Cloud Code=Claude Code"
 ```
 
-- Output goes to `clips/vertical/` or `clips/horizontal/`, with the `.ass` caption file (and, for vertical, `.frame.png`) next to the video for review.
-- Both formats share one transcript per clip: `clips/captions/<clip>.words.json`. Pass every speaker, product and sponsor name in `--names` on the first run, then read that file. To fix a misheard word, edit it and rerun: the edited file is reused. `--retranscribe` starts over.
-- The vertical title is copy. Take it from the owner's post (the hook), in the owner's voice; do not invent a new claim for it.
+### Styles and setup
+
 - Styles live in `references/clip-styles.json`, keyed by owner. Only `datatalksclub` exists; ask for Alexey's style before rendering his clips.
-- Needs an ffmpeg with libass: Homebrew `ffmpeg-full` (keg-only), which the script finds on its own.
+- The `.ass` caption file (and, for vertical, `.frame.png`) is kept next to each video for review.
+- Needs an ffmpeg with libass: Homebrew `ffmpeg-full` (keg-only), which the scripts find on their own.
 
 ## Output Rules
 
@@ -82,7 +101,8 @@ uv run --with mlx-whisper --with pillow python3 .claude/skills/video-clip-cutter
 ## Resources
 
 - `scripts/cut_video_clips.py`: manifest-driven ffmpeg runner for single clips and combined multi-part clips.
-- `scripts/render_social_clip.py`: captioned vertical (1080x1920, with title) and horizontal versions, with loudness normalization.
+- `scripts/render_social_clip.py`: captioned vertical (1080x1920, with title) and horizontal versions of one clip, with loudness normalization.
+- `scripts/render_run_clips.py`: clip transcripts and both captioned versions for every post in a content run.
 - `references/clip-manifest-format.md`: manifest format, examples, and command options.
 - `references/clip-styles.json`: per-owner fonts, colours, and sizes for the captioned versions.
 - `assets/fonts/`: Ubuntu Bold (Ubuntu Font Licence, `UFL.txt`) for the DataTalks.Club style.
