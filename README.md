@@ -327,6 +327,7 @@ Each skill keeps routing and essential constraints in `SKILL.md`; substantial st
 - `.claude/skills/alexey-carousel-generator/`: social carousel and resource-image rendering workflows.
 - `.claude/skills/transcript-post-miner/`: transcript analysis for post ideas and clip recommendations.
 - `.claude/skills/video-clip-cutter/`: ffmpeg-based clip cutting from timestamp manifests.
+- `.claude/skills/video-subtitles/`: supplied SRT subtitle overlays, adjustable font sizes, and audio-aligned word highlighting.
 - `skills/.system/`: Codex-only system skills intentionally versioned so collaborators receive the same GitHub-distributed skill set.
 
 Do not maintain parallel copies of skill references under a general `documents/` folder. Update the owning skill reference directly. When guidance belongs to more than one skill, keep each skill operationally self-contained and make the ownership boundary explicit in its `SKILL.md`; avoid a second human-document mirror that can drift independently.

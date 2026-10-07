@@ -15,6 +15,7 @@ Decide the owner of every piece before drafting. The subject does not decide it:
 | Carousels and X resource images for Alexey's saved posts | `alexey-carousel-generator` |
 | Post ideas and clip picks from a long video or transcript | `transcript-post-miner`, then `social-content-studio` |
 | Cutting video clips from timestamps | `video-clip-cutter` |
+| Burning supplied subtitles into video or highlighting words as spoken | `video-subtitles` |
 
 Never mix voices. DataTalks.Club writes as an organization with no personal narrator. Alexey writes in the first person. Do not invent why Alexey recommends something or how he knows someone.
 

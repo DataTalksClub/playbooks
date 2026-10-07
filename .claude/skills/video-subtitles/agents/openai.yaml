@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Subtitles"
+  short_description: "Burn subtitles and highlight words as spoken"
+  default_prompt: "Use $video-subtitles to add subtitles to this video and highlight each word as I speak."
