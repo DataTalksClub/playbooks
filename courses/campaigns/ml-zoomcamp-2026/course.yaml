@@ -93,7 +93,7 @@ cohort:
     - slug: "midterm"
       title: "Midterm Project"
       submission_due_date: "2026-11-16"
-      peer_review_due_date: "2026-11-16"
+      peer_review_due_date: "2026-11-23"
     - slug: "capstone1"
       title: "Capstone 1"
       submission_due_date: "2027-01-04"
@@ -103,10 +103,11 @@ cohort:
       submission_due_date: "2027-01-18"
       peer_review_due_date: "2027-01-25"
   notes:
+    - "Certificate rule conflict: the platform has min_projects_to_pass=1; published certification docs say two ML projects. Announcement drafts link to the docs and omit a numeric certificate promise pending reconciliation."
     - "There is no hw07: that slot is the midterm project."
     - "2025 ran three capstone slots; 2026 runs two."
     - "Registration moved from Airtable to the platform registration page."
-    - "Homework and midterm due dates follow the course platform (checked 2026-09-21), one week later than cohorts/2026/README.md in the course repo. Due dates are UTC dates at 23:00. The midterm peer-review date is not confirmed on the platform."
+    - "Dates verified with the production API on 2026-10-10; snapshot: sources/platform-2026-10-10.json. All deadlines are at 23:00 UTC. Midterm peer review is due 2026-11-23. The old planning brief was one week early for homework and midterm submission dates."
 
 delivery:
   lectures: "pre-recorded"

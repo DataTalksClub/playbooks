@@ -1,0 +1,29 @@
+recommended_date,kind,file,status
+2026-09-21,announcement,01-module-1-announcement.md,Past reference; do not post as a new release
+2026-09-27,homework reminder,reminder-homework-01.md,Past reference; do not post as a new release
+2026-09-28,announcement,02-module-2-announcement.md,Past reference; do not post as a new release
+2026-10-04,homework reminder,reminder-homework-02.md,Past reference; do not post as a new release
+2026-10-05,announcement,03-module-3-announcement.md,Past reference; do not post as a new release
+2026-10-10,navigation,00-pinned-navigation.md,Draft; posting date is a recommendation
+2026-10-11,homework reminder,reminder-homework-03.md,Draft; recheck status before posting
+2026-10-12,announcement,04-module-4-announcement.md,Draft; posting date is a recommendation
+2026-10-18,homework reminder,reminder-homework-04.md,Draft; recheck status before posting
+2026-10-19,announcement,05-module-5-announcement.md,Draft; posting date is a recommendation
+2026-10-25,homework reminder,reminder-homework-05.md,Draft; recheck status before posting
+2026-10-26,announcement,06-module-6-announcement.md,Draft; posting date is a recommendation
+2026-11-01,homework reminder,reminder-homework-06.md,Draft; recheck status before posting
+2026-11-02,announcement,07-midterm-project-announcement.md,Draft; posting date is a recommendation
+2026-11-15,submission reminder,reminder-midterm-submission.md,Draft; recheck status before posting
+2026-11-22,peer-review reminder,reminder-midterm-peer-review.md,Draft; recheck status before posting
+2026-11-23,announcement,08-module-8-announcement.md,Draft; posting date is a recommendation
+2026-11-29,homework reminder,reminder-homework-08.md,Draft; recheck status before posting
+2026-11-30,announcement,09-module-9-announcement.md,Draft; posting date is a recommendation
+2026-12-06,homework reminder,reminder-homework-09.md,Draft; recheck status before posting
+2026-12-07,announcement,10-module-10-announcement.md,Draft; posting date is a recommendation
+2026-12-13,homework reminder,reminder-homework-10.md,Draft; recheck status before posting
+2026-12-14,announcement,11-capstone-projects-announcement.md,Draft; posting date is a recommendation
+2027-01-03,submission reminder,reminder-capstone1-submission.md,Draft; recheck status before posting
+2027-01-10,peer-review reminder,reminder-capstone1-peer-review.md,Draft; recheck status before posting
+2027-01-11,announcement,12-capstone-2-announcement.md,Draft; posting date is a recommendation
+2027-01-17,submission reminder,reminder-capstone2-submission.md,Draft; recheck status before posting
+2027-01-24,peer-review reminder,reminder-capstone2-peer-review.md,Draft; recheck status before posting

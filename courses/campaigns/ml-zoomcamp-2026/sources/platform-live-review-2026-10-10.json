@@ -1,0 +1,118 @@
+{
+  "retrieved_at": "2026-10-10T20:47:43.844296+00:00",
+  "source": "https://courses.datatalks.club/api/courses/ml-zoomcamp-2026/",
+  "access_method": "Dapier token exec cmp-production --agent course-telegram-management, read-only GET",
+  "course": {
+    "slug": "ml-zoomcamp-2026",
+    "title": "Machine Learning Zoomcamp 2026",
+    "start_date": "2026-09-14",
+    "end_date": "2027-01-25",
+    "finished": false,
+    "visible": true,
+    "min_projects_to_pass": 1,
+    "project_passing_score": 7,
+    "homeworks": [
+      {
+        "id": 116,
+        "slug": "hw01",
+        "title": "Homework 1: Introduction to Machine Learning",
+        "due_date": "2026-09-28T23:00:00+00:00",
+        "state": "SC",
+        "instructions_url": null
+      },
+      {
+        "id": 117,
+        "slug": "hw02",
+        "title": "Homework 2: Machine Learning for Regression",
+        "due_date": "2026-10-05T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 118,
+        "slug": "hw03",
+        "title": "Homework 3: Machine Learning for Classification",
+        "due_date": "2026-10-12T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 119,
+        "slug": "hw04",
+        "title": "Homework 4: Evaluation Metrics for Classification",
+        "due_date": "2026-10-19T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 120,
+        "slug": "hw05",
+        "title": "Homework 5: Deploying Machine Learning Models",
+        "due_date": "2026-10-26T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 121,
+        "slug": "hw06",
+        "title": "Homework 6: Decision Trees and Ensemble Learning",
+        "due_date": "2026-11-02T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 122,
+        "slug": "hw08",
+        "title": "Homework 8: Neural Networks and Deep Learning",
+        "due_date": "2026-11-30T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 123,
+        "slug": "hw09",
+        "title": "Homework 9: Serverless Deep Learning",
+        "due_date": "2026-12-07T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      },
+      {
+        "id": 124,
+        "slug": "hw10",
+        "title": "Homework 10: Kubernetes",
+        "due_date": "2026-12-14T23:00:00+00:00",
+        "state": "OP",
+        "instructions_url": null
+      }
+    ],
+    "projects": [
+      {
+        "id": 74,
+        "slug": "midterm",
+        "title": "Midterm Project",
+        "submission_due_date": "2026-11-16T23:00:00+00:00",
+        "peer_review_due_date": "2026-11-23T23:00:00+00:00",
+        "state": "CL",
+        "instructions_url": null
+      },
+      {
+        "id": 75,
+        "slug": "capstone1",
+        "title": "Capstone 1",
+        "submission_due_date": "2027-01-04T23:00:00+00:00",
+        "peer_review_due_date": "2027-01-11T23:00:00+00:00",
+        "state": "CL",
+        "instructions_url": null
+      },
+      {
+        "id": 76,
+        "slug": "capstone2",
+        "title": "Capstone 2",
+        "submission_due_date": "2027-01-18T23:00:00+00:00",
+        "peer_review_due_date": "2027-01-25T23:00:00+00:00",
+        "state": "CL",
+        "instructions_url": null
+      }
+    ]
+  }
+}

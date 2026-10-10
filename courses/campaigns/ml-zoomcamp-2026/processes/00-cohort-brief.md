@@ -11,6 +11,8 @@ Create a copy of this file for each new course cohort.
 Course: Machine Learning Zoomcamp
 Cohort year: 2026
 Start date: Monday, September 14, 2026
+End date: Monday, January 25, 2027
+Schedule verified: October 10, 2026 via production API; see `../sources/platform-2026-10-10.json`.
 Registration link: https://courses.datatalks.club/register/ml-zoomcamp/
 
 Course platform URL: https://courses.datatalks.club/ml-zoomcamp-2026/
@@ -27,33 +29,34 @@ Normal / Extra push
 
 The confirmed deadline schedule from `01-course-platform-setup.md`. Fill this in after the outline exists on the platform, and use it when filling the campaign calendar.
 
-Deadlines are always Monday at 23:00 UTC. Every homework is closed with no questions; questions are added per module before that module opens.
+Deadlines are Monday at 23:00 UTC. The creation-time plan below has been updated from the production API. Homework 1 is scored; the other homeworks are open as of October 10. All projects are closed. Recheck states before announcing availability.
 
 | Item | Slug | Deadline | Notes |
 | --- | --- | --- | --- |
-| Homework 1: Introduction to Machine Learning | `hw01` | Mon 2026-09-21 | |
-| Homework 2: Machine Learning for Regression | `hw02` | Mon 2026-09-28 | |
-| Homework 3: Machine Learning for Classification | `hw03` | Mon 2026-10-05 | |
-| Homework 4: Evaluation Metrics for Classification | `hw04` | Mon 2026-10-12 | |
-| Homework 5: Deploying Machine Learning Models | `hw05` | Mon 2026-10-19 | Use the FastAPI + uv workshop, not the older module |
-| Homework 6: Decision Trees and Ensemble Learning | `hw06` | Mon 2026-10-26 | |
-| Homework 8: Neural Networks and Deep Learning | `hw08` | Mon 2026-11-23 | No `hw07`: that slot is the midterm project |
-| Homework 9: Serverless Deep Learning | `hw09` | Mon 2026-11-30 | |
-| Homework 10: Kubernetes | `hw10` | Mon 2026-12-07 | |
+| Homework 1: Introduction to Machine Learning | `hw01` | Mon 2026-09-28 | |
+| Homework 2: Machine Learning for Regression | `hw02` | Mon 2026-10-05 | |
+| Homework 3: Machine Learning for Classification | `hw03` | Mon 2026-10-12 | |
+| Homework 4: Evaluation Metrics for Classification | `hw04` | Mon 2026-10-19 | |
+| Homework 5: Deploying Machine Learning Models | `hw05` | Mon 2026-10-26 | Use the FastAPI + uv workshop, not the older module |
+| Homework 6: Decision Trees and Ensemble Learning | `hw06` | Mon 2026-11-02 | |
+| Homework 8: Neural Networks and Deep Learning | `hw08` | Mon 2026-11-30 | No `hw07`: that slot is the midterm project |
+| Homework 9: Serverless Deep Learning | `hw09` | Mon 2026-12-07 | |
+| Homework 10: Kubernetes | `hw10` | Mon 2026-12-14 | |
 
 Project blocks and their submission and peer review deadlines:
 
 | Project | Slug | Submission | Peer review |
 | --- | --- | --- | --- |
-| Midterm Project | `midterm` | Mon 2026-11-09 | Mon 2026-11-16 |
+| Midterm Project | `midterm` | Mon 2026-11-16 | Mon 2026-11-23 |
 | Capstone 1 | `capstone1` | Mon 2027-01-04 | Mon 2027-01-11 |
 | Capstone 2 | `capstone2` | Mon 2027-01-18 | Mon 2027-01-25 |
 
 Schedule notes:
 
 - The 2025 cohort ran three capstone slots. 2026 runs two, matching the certificate rule of two required projects.
-- The gap between `hw10` (December 7) and Capstone 1 submission (January 4) covers the holiday weeks.
-- Certificate settings carried over from 2025: one project minimum to pass, project passing score 7.
+- The gap between `hw10` (December 14) and Capstone 1 submission (January 4) covers the holiday weeks.
+- Platform certificate settings: one project minimum to pass, project passing score 7. Published ML certification docs require two projects. This conflict needs reconciliation; the drafts link to the requirements without repeating a numeric promise. No platform settings were changed.
+- Telegram drafts and their recommended posting dates are indexed in `../copy-bank/telegram/README.md` and `telegram-announcement-calendar.csv`.
 - `02-campaign-calendar.csv` has real dates through module 6 week (T+39 days). Rows past that are marked `Needs manual mapping`: the generic template assumes eight consecutive module weeks and one final project, while ML Zoomcamp interrupts the modules with the midterm block and finishes with two capstones. Map those rows against the outline above by hand.
 
 ## 3. Registration Gap
