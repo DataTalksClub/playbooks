@@ -1,6 +1,6 @@
 ---
 name: course-telegram-management
-description: Connect the DataTalks.Club course Telegram bot through Dapier, compare channel announcements with course facts, and prepare or execute approved course posting plans.
+description: Manage DataTalks.Club course Telegram access through Dapier, compare announcements with current course facts, and schedule approved posts in Telegram's native queue.
 ---
 
 # Course Telegram Management
@@ -57,23 +57,21 @@ The user requested table review before executing the ML plan. Do not publish wor
 
 ## Execute approved rows
 
-Use Dapier workflows with `connection_id` references so token values never appear in workflow files. Inspect the checked-out Telegram action schema and schedule help before producing YAML/JSON; do not infer a native Telegram scheduling parameter.
+The user's current preference is Telegram's native scheduled-message queue. Use an authorized Telegram user session in Telegram Web to schedule the approved text directly in the destination channel. Dapier remains the credential store and read-only CMP access route; do not create a separate Dapier workflow or EventBridge rule for each post.
 
-Local validation and dry-run review:
+For the observed Web A controls, read `courses/campaigns/ml-zoomcamp-2026/processes/telegram-native-scheduling.md`. Paste the exact approved plain text into the channel composer, right-click **Send Message** (normal click sends immediately), choose **Schedule Message**, select the native calendar month/day, and set the separate HH/MM fields. Leave **Repeat: Never**. Verify the final button's date/time, submit once, then inspect **Scheduled Messages** for the full text and intended time. Inspect UI state after each action; intermittent locator failures do not justify retrying an uncertain final schedule without checking the queue.
 
-```powershell
-uv run dapier workflows test <workflow.yaml> --event @<event.json> --strict
-uv run dapier schedules list
-uv run dapier schedules upcoming --days 7
-```
+Before queueing, refresh live CMP facts, compare recent channel posts and the native scheduled-message queue, and check the exact approved file hash. The authorized Telegram user must have the required channel rights; the bot's API permissions do not establish that user's rights. Follow the active browser skill and observed UI controls for scheduling.
 
-`workflows test` defaults to dry-run; keep it that way before approval. `workflows save` stores a draft; `workflows publish` activates it. `schedules save <schedule.json>` can activate a schedule and requires approval. `schedules run` fires immediately and is a send action. Never use it to verify connectivity. Use a date-specific cron including the year for a single course post; compare the resulting next fire time with the approved UTC value and disable/remove completed schedules after verifying delivery.
+For each row, verify the destination, full text, and date/time in Telegram's scheduling UI. Determine the browser/session timezone rather than assuming it matches Berlin. Convert the approved UTC instant into the displayed UI timezone using timezone-aware conversion. Berlin changes from CEST to CET on October 25, 2026: the approved 09:00 Berlin slot is 07:00 UTC before the change and 08:00 UTC afterward. Telegram UI wall-clock values must represent that approved instant, including dates across midnight.
 
-Schedules use EventBridge Rules' six-field UTC cron, for example `cron(0 18 11 10 ? 2026)`. Convert the approved local time to UTC first; do not add a timezone suffix or use `at(...)`. A schedule JSON uses `name`, `expression`, optional `description`, and `enabled`; names are 2–32 lowercase letters/digits/hyphens. Keep any preparatory payload `enabled: false`; creating even a disabled live schedule still requires approval.
+After each schedule action, reopen or inspect the native queue and verify the exact message, displayed time, and destination. Record the approved UTC instant, actual UI timezone/time, file hash, scheduled-message identifier if exposed, and evidence. A clicked schedule button alone does not prove queueing. If the UI result is uncertain, inspect the queue before retrying to avoid duplicate messages. After delivery, record the actual message ID/permalink and send time when available.
 
-Maintain a nonsecret delivery ledger in the campaign: stable row ID/version, exact destination chat ID, content hash, approved timestamp, workflow/schedule IDs, run ID, result, and returned Telegram `message_id`. A scheduler retry or manual replay can duplicate an accepted `sendMessage`; a content hash alone is not an API idempotency key. If a timeout leaves delivery uncertain, inspect run records and the live channel before retrying. Mark it uncertain and stop that row until resolved. Edit/pin only the verified recorded message ID, and log the new version.
+Native scheduled messages do not run a fresh CMP check at send time. Deadlines, form state, materials, or certificate rules that change after queueing require a manual review and edit/cancel of the affected queued message. Recheck state-dependent homework/submission/peer-review reminders before their release; do not imply an automatic platform gate remains in effect.
 
-For the ML2026 campaign, the user authorized the reviewed 22-row schedule and repository push after table review. The execution record and Dapier manifest establish actual permission/schedule state; do not infer activation from that authorization alone. Workflows use `cmp_read_course` with `cmp-production`, then native filters, then `telegram_send`. Filters require the approved course dates, visibility, unfinished status, exact deadlines and a valid server check time before the relevant deadline. Homework messages require `OP`; project submission reminders require `CS`; peer-review reminders require `PR`. The three preparation instruction posts do not promise an open form and need date checks without an opening-state claim. A failed read or fact mismatch stops delivery. Do not bypass these checks to retry a suppressed post. Date changes require a revised plan and approval.
+Maintain a nonsecret ledger in the campaign with stable row ID/version, exact destination chat ID, content hash, approval, planned UTC time, observed queue state, and delivery evidence. For ML2026, use `courses/campaigns/ml-zoomcamp-2026/processes/telegram-native-execution-2026-10-11.json`. Edit/pin only an identified message with approval and log the new version.
+
+The user authorized the reviewed 22-row ML2026 plan, then requested replacing its Dapier per-post flows with native Telegram scheduling. This migration requires retiring the old rules/workflows and independently verifying native queue entries. The native execution ledger establishes which rows are actually queued; do not infer that all 22 are complete from approval or an older Dapier manifest. Reconcile both queues before adding a row so the retired automation cannot duplicate it. Other courses still need their own approved plans.
 
 Keep course-platform credentials in a separate Dapier connection from Telegram. The CMP integration uses provider `cmp` and connection ID `cmp-production`. Verify that the deployed service supports this provider and that `connections show/test cmp-production` succeeds; a local plugin change alone does not establish live support.
 
