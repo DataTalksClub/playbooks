@@ -1,0 +1,2418 @@
+{
+  "exported_on": "2026-10-10",
+  "author_caveat": "Channel export does not identify Valeriia. Human authorship is unverified.",
+  "exports": [
+    {
+      "channel": "AI Dev Tools Zoomcamp",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "sha256": "4c1a6ed1408845c4bf99c86cadfd140e6c37025831e4493cb4ac923fd901c536",
+      "text_messages": 65
+    },
+    {
+      "channel": "ML Zoomcamp announcements",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "sha256": "67357b81809d1334a67b7870d1be859b1c4f67e4b3b9c41d16da53c4f335dd1d",
+      "text_messages": 242
+    },
+    {
+      "channel": "LLM Zoomcamp",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "sha256": "d32df0c2610839ba968d8975201ab933a3092ec74f70254e8bb23ce807b3ef7e",
+      "text_messages": 177
+    },
+    {
+      "channel": "Data Engineering Zoomcamp",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "sha256": "c5e48422953a3222eed5e301f95698b0a27ae9f2303c5611a1d9dad823f21328",
+      "text_messages": 214
+    },
+    {
+      "channel": "MLOps Zoomcamp announcements",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "sha256": "e4282cdf48a3fa86d0e04b0a39c330b25ab0051e69e67e0ab44a69367c2c7511",
+      "text_messages": 178
+    }
+  ],
+  "messages": [
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 6,
+      "date": "11.11.2025 09:20:28 UTC+01:00",
+      "characters": 1872,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/6",
+      "text": "10 most popular questions about AI Dev Tools Zoomcamp summarized:\n\n1. What is the purpose of the AI Dev Tools Zoomcamp?\n\nHelp developers become more productive and effective by using modern AI tools to write code faster.\n\n2. Who is the course for?\n\nThe course is designed for anyone who writes code, including MLOps engineers, ML engineers, AI engineers, and software developers. It focuses on software development workflows rather than data-specific tasks.\n\n3. What are the course prerequisites?\n\nBasic programming and command-line knowledge are recommended.\n\n4. What topics are covered?\n\n🔸 Overview of chatbots, coding assistants, and AI agents\n🔸 Building an end-to-end project (frontend + backend + database)\n🔸 Understanding AI agents and MCP\n🔸 Creating a custom coding agent\n🔸 Using AI for DevOps automation with tools like n8n\n\n5. Does the course require any paid LLM subscription?\n\n🔸 Module 1: Free (works with free tools like Groq or Gemini)\n🔸 Module 2: Likely requires Cursor ($20/mo) or GitHub Copilot ($10/mo)\n🔸 Module 4: Small API deposit (~$5) for OpenAI or Anthropic\n\n6. Is the course free?\n\nYes. All course materials and participation are free (as with other DataTalksClub courses).\n\n7. When does it start?\n\nNovember 18, 2025 (Tuesday).\n\n8. What platforms are used?\n\n🔸 YouTube for video lectures\n🔸 Slack for community and Q&A\n🔸 Telegram for announcements\n\n9. How does the developer workflow change with AI tools?\n\nDevelopers move from primarily writing code to reading, reviewing, and improving AI-generated code.\n\n10. Can I take the course after the cohort ends?\n\nYes, materials are available for self-paced learning.\n\nBut self-paced learning does not include homework submissions, project evaluations, and the opportunity to earn a certificate.\n\nYou can find answers to other questions in the recording of the live Q&A: https://youtube.com/live/sUwrCnP2iGU",
+      "links": [
+        "https://youtube.com/live/sUwrCnP2iGU"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 12,
+      "date": "20.11.2025 09:37:44 UTC+01:00",
+      "characters": 1025,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/12",
+      "text": "Homework 1 is now ready\n\nYou should start working on Module 1. It covers different categories of modern AI dev tools and how they can improve your dev experience.\n\n👉 Module 1 content\n\nWhen you’re ready, go ahead and do the homework for this module.\n\n👉 Deadline: 28 November 2025, 00:00 CET\n👉 Homework page with instructions and details on GitHub\n👉 Submit here\n\nDuring Homework 1, you’ll build a small TODO app in Django with the help of an AI assistant.\n\nNo prior Django or Python knowledge required.\n\nYou will:\n\n🔹 Install Django\n🔹 Create a project + app\n🔹 Build models for TODOs\n🔹 Implement CRUD logic (create/edit/delete, due dates, resolve)\n🔹 Add templates (base.html, home.html)\n🔹 Write and run tests\n🔹 Run the final application\n🔹 Commit everything to a GitHub repo\n\nUse any AI tool you prefer (ChatGPT, Claude, Copilot, Cursor, etc.). The idea is to follow AI guidance, verify each step, and get the app working.\n\nYou can also share your progress publicly: “learning in public” is encouraged.\n\nStart early and good luck!",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-overview",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2025/01-overview/homework.md",
+        "https://courses.datatalks.club/ai-dev-tools-2025/homework/hw1"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 16,
+      "date": "01.12.2025 10:18:02 UTC+01:00",
+      "characters": 1291,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/16",
+      "text": "We start Module 2 on Building an End-to-End Application\n\nThis week we move from simple tasks to building a full AI-generated application end to end: the Snake Arena project.\n\nYou’ll learn how to:\n\n🔹 Generate the frontend with Lovable, Cursor, Claude Code, or Antigravity\n🔹 Extract OpenAPI specs from the client\n🔹 Implement a FastAPI backend with tests\n🔹 Add SQLite/Postgres support via SQLAlchemy\n🔹 Run everything together with Docker Compose\n🔹 Package frontend + backend into one deployable container\n🔹 Deploy to Render\n🔹 Set up CI/CD with automated tests and deployment\n\nHomework\n\nYou’ll build your own end-to-end app: a real-time collaborative coding interview platform.\n\nIt must support shared editing, real-time updates, syntax highlighting, and browser-based code execution (WASM).\n\nThe tasks include:\n\n🔹 Generating frontend + backend in one go\n🔹 Adding integration tests\n🔹 Running client and server together\n🔹 Implementing syntax highlighting\n🔹 Adding safe in-browser code execution\n🔹 Containerizing and deploying your app\n🔹 Sharing the repo link in the submission form\n\nDon’t forget that you can get extra points for learning in public and contributing to the FAQ document.\n\n👉 Module 2 content\n👉 Homework page with instructions and details on GitHub\n👉 Submit here\n\nHave fun building!",
+      "links": [
+        "https://docs.google.com/document/d/1uBSxORcxOewXMzMDHwADpVSiS0kBRXhTQ3qWd86CjlI/edit?tab=t.0#heading=h.4n81tpn7gs93",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-end-to-end",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2025/02-end-to-end/homework.md",
+        "https://courses.datatalks.club/ai-dev-tools-2025/homework/hw2"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 17,
+      "date": "01.12.2025 17:01:48 UTC+01:00",
+      "characters": 777,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/17",
+      "text": "We will close the form for submitting homework 1 tomorrow \n\nHurry up! You can still submit it - it takes less than one hour when you use an AI assistant to implement it \n\nAfter the form is closed and the homework is scored, we will have a leaderboard with scores. You will probably have questions about it, so to make sure it's not a surprize to you, here's a short summary\n\nFor completing the homework you get one point for each correctly answered question\n\nAlso, you get extra points for:\n\n- sharing what you learned in public (one point per each post, up to 7 points)\n- contributing to FAQ \n\nYou can submit it when you submit the homework\n\nYou can also choose not to care about these points - it's totally fine. The only important thing is learning new things and having fun",
+      "links": []
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 18,
+      "date": "08.12.2025 11:06:32 UTC+01:00",
+      "characters": 705,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/18",
+      "text": "We start Module 3 on MCP\n\nHomework for this module will be published soon, but you can already start learning.\n\nModule 3 covers:\n\n🔸 What MCP is and how it connects AI tools, servers, and clients\n🔸 Tools, resources, prompts — core MCP primitives\n🔸 Communication modes: stdio vs HTTPS\n🔸 Using MCP servers for real developer workflows\n🔸 Live documentation & debugging with Context 7 (Airflow, Astro)\n🔸 VSCode configuration with MCP\n🔸 Automating code-fixing workflows using the latest docs\n🔸 Generating and publishing blog posts to Hashnode on the fly\n\n👉 Watch the Workshop Video\n👉 Working Demo\n\nModule 2 (end-to-end AI app) wraps up tomorrow. Please submit your homework by December 9, 2025, at 12:00 PM CET.",
+      "links": [
+        "https://www.youtube.com/watch?v=0IhZdcjddo4&list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43",
+        "https://www.youtube.com/watch?v=HYHv_S141CU&list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 19,
+      "date": "15.12.2025 11:50:54 UTC+01:00",
+      "characters": 656,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/19",
+      "text": "We start Module 4 on building an AI coding agent\n\nWe're entering the final part of the course, where the focus shifts from guided exercises to working on your own project.\n\nFrom this point on, there will be no new homework assignments. Instead, you'll use the remaining modules to build and refine a project of your choice.\n\nThis is the most effective way to consolidate what you've learned so far: MCP, agents, development workflows, and AI integrations, by applying them in a real setup.\n\nAlexey is still finalizing the exact project format. For now, focus on completing the remaining modules. We'll share concrete project details and next steps shortly.",
+      "links": []
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 20,
+      "date": "16.12.2025 09:39:27 UTC+01:00",
+      "characters": 463,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/20",
+      "text": "FAQ:\n\nQ: Have I missed homework 3? \nA: No, we're still preparing it. We will announce it when ready\n\nQ: Is there homework for module 4?\nA: No. You just follow along the videos and try to reproduce it if you want. There also be no homeworks for other modules\n\nQ: When do we start the projects?\nA: You can start now. You need to come up with a project idea and implement it end-to-end with Backend, Frontend, tests. CI/CD and deployment. The exact criteria are TBA.",
+      "links": []
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 22,
+      "date": "22.12.2025 13:46:28 UTC+01:00",
+      "characters": 472,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/22",
+      "text": "We’re still looking for a dedicated instructor for the DevOps module.\n\nFor some participants, this module is a key part of the program, so we want to make sure it’s done properly and stays practical.\n\nIf you have ideas on what this module should cover, or if you know someone who would be a great fit to teach AI-driven DevOps topics, please share in the thread on Slack. (We use Telegram only for announcements)\n\nYour input will help shape how this module comes together.",
+      "links": []
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 26,
+      "date": "19.01.2026 09:45:15 UTC+01:00",
+      "characters": 662,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/26",
+      "text": "The deadline for Project Attempt 2, the final opportunity to submit the final project for this cohort, is approaching.\n\nDeadline: January 27, 12:00 AM CET\n\nIf you plan to participate in this attempt, make sure your project is submitted before the deadline.\n\nImportant reminders:\n\n• You must review 3 peers’ projects (peer review assignments are created automatically after submissions close)\n• Certification requires 1 completed project during the course\n• All projects must be individual work\n\nIf you’re close to finishing, this is the moment to push it over the line.\n\nSubmit your project here: https://courses.datatalks.club/ai-dev-tools-2025/project/project2",
+      "links": [
+        "https://courses.datatalks.club/ai-dev-tools-2025/project/project2"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 36,
+      "date": "24.02.2026 14:24:25 UTC+01:00",
+      "characters": 466,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/36",
+      "text": "📣 Join us for the \"Vibe Coding: Build a Game with AI\"\n\n🎤 Speaker: Aleksey Komissarov\n📅 Date: March 3, 2026\n🕧 Time: 12:00 PM (CET)\n\nWe'll cover:\n\n🔹 Setting up a vibe coding session: context, tools, and the right mindset\n🔹 Live game development with Claude Code – from concept to playable prototype\n🔹 Why specification matters more than syntax in the AI era\n🔹 Why you need to experience AI failures, not just hear about them\n\n🔗 Register here: https://luma.com/4stc4gir",
+      "links": [
+        "https://luma.com/4stc4gir"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 37,
+      "date": "07.07.2026 11:25:55 UTC+01:00",
+      "characters": 1743,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/37",
+      "text": "➡️ START HERE ⬅️\n\nWelcome to the AI Dev Tools Zoomcamp Telegram channel.\n\nThe next live cohort starts on August 31, 2026. Register here.\n\nAI Dev Tools Zoomcamp is a free, hands-on course about using AI coding tools in real software development workflows.\n\nThe focus is the day-to-day engineering loop:\n\n• Using AI assistants and coding agents\n• Giving tools enough context\n• Reviewing generated code\n• Adding tests\n• Setting up CI/CD\n• Deploying and documenting the work\n\n1️⃣ This channel is for announcements only. We do not regulary check it to answer your questions.\n\n2️⃣ For questions, homework discussions, and troubleshooting, use Slack. After joining Slack, join the course channel (#course-ai-dev-tools-zoomcamp). If the Slack invite does not work, use this form.\n\n3️⃣ Start here:\n\n• Course platform\n• Environment setup\n• GitHub repository\n• Course documentation\n• Course playlist\n• FAQ\n\n4️⃣ How the live cohort works:\n\nLectures are pre-recorded, so you can watch them when it works for you.\n\nThe live cohort adds deadlines, scored homework, leaderboard participation, peer review, community support on Slack, and certificate eligibility.\n\nThe final goal is a complete application that shows how you used AI tools to plan, build, review, test, document, and ship code.\n\n5️⃣ Homework\n\nHomework submissions are available only during the live cohort. Each homework has a fixed deadline.\n\nIn self-paced mode, you can still complete the homework for practice.\n\n6️⃣ Getting a certificate\n\nTo get a certificate, you need to sumbit a final project and review 3 peers. Homework assignents don’t count into your certificate and don’t affect it.\n\n• Certificate information\n• Final project\n\n7️⃣ Rules\n\n• How to ask questions\n• Community guidelines",
+      "links": [
+        "https://courses.datatalks.club/register/ai-dev-tools/",
+        "https://datatalks.club/slack.html",
+        "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95",
+        "",
+        "https://airtable.com/shrhUBN51Jy10fjJq",
+        "https://courses.datatalks.club/",
+        "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/environment-setup/",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
+        "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/",
+        "https://www.youtube.com/playlist?list=PL3MmuxUbc_hLuyafXPyhTdbF4s_uNhc43",
+        "https://datatalks.club/faq/ai-dev-tools-zoomcamp.html",
+        "https://datatalks.club/docs/courses/zoomcamp-logistics/certification/",
+        "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/",
+        "https://datatalks.club/docs/courses/zoomcamp-logistics/asking-questions/",
+        "https://datatalks.club/slack/guidelines.html"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 39,
+      "date": "14.07.2026 17:34:40 UTC+01:00",
+      "characters": 609,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/39",
+      "text": "AI Dev Tools Zoomcamp 2026 is open for registration.\n\nThe live cohort starts on August 31.\n\nThis is a free hands-on course about using AI developer tools in real software workflows:\n\n- AI coding assistants\n- Coding agents\n- MCP\n- OpenAPI-driven frontend/backend work\n- Testing\n- CI/CD\n- Deployment\n- Security, audit, and DevOps checks\n- Final project\n\nRegister for the cohort: https://courses.datatalks.club/register/ai-dev-tools/\n\nWe also have a free workshop series before the cohort.\n\nWorkshop 1:\nAI-Native Developer Workflow: Using AI Tools Without Losing Control\n\nRegister here: https://luma.com/lmkti8zj",
+      "links": [
+        "https://courses.datatalks.club/register/ai-dev-tools/",
+        "https://luma.com/lmkti8zj"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 40,
+      "date": "21.07.2026 15:18:12 UTC+01:00",
+      "characters": 520,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/40",
+      "text": "Tomorrow, we start the AI Dev Tools Zoomcamp workshop series.\n\nWorkshop 1: AI-Native Developer Workflow: Using AI Tools Without Losing Control\n\nDate: Wednesday, July 22\nTime: 9:00 AM CET\n\nAlexey will show how to use AI coding tools inside a practical developer workflow:\n\n- Start from a task spec\n- Add project context\n- Ask for a plan\n- Edit, run, and test\n- Inspect the diff\n- Review generated code before accepting it\n\nThis workshop updates Module 1 of AI Dev Tools Zoomcamp.\n\nRegister here: https://luma.com/lmkti8zj",
+      "links": [
+        "https://luma.com/lmkti8zj"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 41,
+      "date": "22.07.2026 15:01:49 UTC+01:00",
+      "characters": 833,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/41",
+      "text": "All AI Dev Tools Zoomcamp pre-course events in one place:\n\n1. AI-Native Developer Workflow: Using AI Tools Without Losing Control\n• Wednesday, July 22, 9:00 AM CET\n• https://luma.com/lmkti8zj\n\n2. Build and Ship an AI-Assisted Full-Stack App\n• Monday, August 3, 3:00 PM CET\n• https://luma.com/50kvfku2\n\n3. Coding Agent Capabilities: MCP, Skills, Plugins, and Custom Agents\n• Monday, August 17, 2:00 PM CET\n• https://luma.com/ap4l3qlj\n\n4. Open-Source AI Tools for Security, Audit, and DevOps\n• Tuesday, August 18, 2:00 PM CET\n• https://luma.com/ycsfxigi\n\n5. Pre-Course Live Q&A\n• Monday, August 24, 5:00 PM CET\n• https://luma.com/a8qa5s2s\n\n6. Course Launch\n• Monday, August 31, 5:00 PM CET\n• https://luma.com/tsiusx8s\n\nThe course starts on August 31.\n\nRegister for the free cohort: https://courses.datatalks.club/register/ai-dev-tools/",
+      "links": [
+        "https://luma.com/lmkti8zj",
+        "https://luma.com/50kvfku2",
+        "https://luma.com/ap4l3qlj",
+        "https://luma.com/ycsfxigi",
+        "https://luma.com/a8qa5s2s",
+        "https://luma.com/tsiusx8s",
+        "https://courses.datatalks.club/register/ai-dev-tools/"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 42,
+      "date": "23.07.2026 09:02:02 UTC+01:00",
+      "characters": 867,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/42",
+      "text": "Coding agents can now write code faster than we can read it.\n\nThat changes the developer workflow. We need to be precise about what we want, give the agent the right project context, and check what comes back.\n\nThis was the focus of Workshop 1 of AI Dev Tools Zoomcamp 2026.\n\nIn the workshop, Alexey covers:\n\n• Spec-driven development: turn an idea into a specification before writing code\n• Context engineering: document the commands, constraints, and project rules an agent needs\n• Loop engineering: run agents repeatedly over small tasks and check the results\n• Graph engineering: organize the handoffs between product manager, engineer, and tester agents\n\nThe recording is now available: https://www.youtube.com/live/VUJxJGpaDEs?si=np-my-g8smr1B32T\n\nAlexey also published the written notes: https://alexeyondata.substack.com/p/ai-native-development-specifications",
+      "links": [
+        "https://www.youtube.com/live/VUJxJGpaDEs?si=np-my-g8smr1B32T",
+        "https://alexeyondata.substack.com/p/ai-native-development-specifications"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 43,
+      "date": "24.07.2026 10:02:47 UTC+01:00",
+      "characters": 790,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/43",
+      "text": "On Monday, August 3, we are running Workshop 2 of AI Dev Tools Zoomcamp 2026: Build and Ship an AI-Assisted Full-Stack App.\n\nThis workshop is for developers who use AI coding tools for individual tasks but do not yet have a clear process for a complete project.\n\nAlexey will take one application from the initial idea to deployment. At each stage, he will explain:\n\n• What the developer needs to decide first\n• What to ask the AI tool to produce\n• How that output guides the next stage\n• What to review, test, and debug before continuing\n\nJoin to see how separate AI-assisted tasks become one development process. You will leave with a sequence you can reuse for your own applications and for the course final project.\n\nMonday, August 3\n3:00 PM CET\n\nRegister here: https://luma.com/50kvfku2",
+      "links": [
+        "https://luma.com/50kvfku2"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 49,
+      "date": "11.08.2026 10:04:48 UTC+01:00",
+      "characters": 714,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/49",
+      "text": "Notes and recording for workshop 2 are available\n\nDuring Workshop 2 for AI Dev Tools Zoomcamp, we created an end-to-end application from scratch: frontend, backend with FastAPI, WebSocket support, and SQLite persistence.\n\nThe approach:\n\n- Turn an idea into a specification\n- Build a frontend prototype with mocked backend\n- Define the OpenAPI contract\n- Implement the backend from the contract\n- Add SQLite for persistence\n\nAt each step, we had something working to test.\n\nThe application: a system-design interview canvas where interviewer and candidate share a session and collaborate in real time through WebSockets.\n\nNotes and recording: https://alexeyondata.substack.com/p/build-and-ship-a-full-stack-app-with",
+      "links": [
+        "https://alexeyondata.substack.com/p/build-and-ship-a-full-stack-app-with"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 50,
+      "date": "12.08.2026 09:00:32 UTC+01:00",
+      "characters": 906,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/50",
+      "text": "Next workshop: DevOps and Observability for AI-Built Apps.\n\nIn the previous workshop, we deployed an app with CI/CD that runs tests and ships automatically.\n\nThis workshop covers observability for apps built with AI coding tools.\n\nDate and time: Tuesday, August 18, 2:00 PM CET\n\nAlexey will show how to the observability loop:\n\n- Capture errors, traces, and user impact\n- Alert with context, not just stack traces\n- Investigate from evidence (logs, deployment timeline, recent changes)\n- Propose a response or escalate\n- Verify recovery and audit the action trail\n\nThen he will add a coding agent as the first line of investigation.\n\nIt collects evidence, compares recent deployments, reviews traces, and proposes a diagnosis.\n\nJoin if you want to learn how to instrument apps, respond to incidents with evidence, and integrate agents safely into the support loop.\n\nRegister here: https://luma.com/ycsfxigi",
+      "links": [
+        "https://luma.com/ycsfxigi"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 51,
+      "date": "13.08.2026 10:01:51 UTC+01:00",
+      "characters": 709,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/51",
+      "text": "Notes and recording for workshop 3 are available\n\nDuring this workshop, we took the application from the previous workshop and made it production-ready.\n\nThe workflow:\n\n- Containerize frontend and backend in a single Docker image\n- Switch from SQLite to Postgres\n- Set up Docker Compose for local development\n- Add end-to-end tests with Playwright\n- Deploy to AWS with CloudFormation\n- Configure CI/CD via GitHub Actions with OIDC\n\nEvery commit now triggers tests and automatically deploys if they pass.\n\nThe pipeline runs frontend tests, backend tests, integration tests, and end-to-end tests before deployment.\n\nNotes and recording: https://alexeyondata.substack.com/p/deploy-a-full-stack-app-with-ai-coding",
+      "links": [
+        "https://alexeyondata.substack.com/p/deploy-a-full-stack-app-with-ai-coding"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 52,
+      "date": "14.08.2026 10:03:37 UTC+01:00",
+      "characters": 822,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/52",
+      "text": "Passing tests and successful deployment don't mean your app works in production.\n\nIt just means the code got deployed.\n\nTo know if it actually works, you need three things connected:\n\n- A metric that shows the error rate spiked\n- A trace that shows which service failed\n- A log that explains why it failed\n\nMost observability setups give you separate dashboards. You see the spike, then hunt through logs, then try to connect it to a specific request.\n\nIn Workshop 4 of AI Dev Tools Zoomcamp, I will show how to instrument a single endpoint so that the metric, trace, and log all capture the same failed request.\n\nThen I will add a coding agent that collects this evidence and proposes a diagnosis without needing production access.\n\nDate and time: Tuesday, August 18, 2:00 PM CET\n\nRegister here: https://luma.com/ycsfxigi",
+      "links": [
+        "https://luma.com/ycsfxigi"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 56,
+      "date": "24.08.2026 10:06:22 UTC+01:00",
+      "characters": 685,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/56",
+      "text": "Live Q&A about AI Dev Tools Zoomcamp is today!\n\nJoin Alexey Grigorev at 5 PM CET to learn about the course structure, modules, homework, projects, and certificates.\n\nJoin if you're considering the course and want to know:\n\n- Who it's for and what you need before joining\n- What you don't need: prior AI tools experience, web development experience, a powerful machine, or a GPU\n- How the four modules are structured\n- How homework, deadlines, peer review, and the final project work\n- Where to get help during the cohort\n\nThe live cohort starts on August 31.\n\nRegister for the course: https://courses.datatalks.club/register/ai-dev-tools/\n\nJoin the Q&A today: https://luma.com/a8qa5s2s",
+      "links": [
+        "https://courses.datatalks.club/register/ai-dev-tools/",
+        "https://luma.com/a8qa5s2s"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 57,
+      "date": "25.08.2026 09:03:32 UTC+01:00",
+      "characters": 618,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/57",
+      "text": "We published the fourth article in our AI Dev Tools Zoomcamp series, continuing the system design interview app from the previous modules.\n\nAlexey takes the deployed application closer to production and shows how to use AI coding assistants to:\n- Separate development and production environments and safely promote releases\n- Add observability with OpenTelemetry, Prometheus, Loki, Tempo, and Grafana\n- Define application metrics, dashboards, and alerts\n- Use an AI coding agent as an on-call responder that investigates and fixes failures\n\nRead it here: https://aishippingblog.com/p/devops-and-observability-for-an-ai",
+      "links": [
+        "https://aishippingblog.com/p/devops-and-observability-for-an-ai"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 58,
+      "date": "27.08.2026 09:01:42 UTC+01:00",
+      "characters": 583,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/58",
+      "text": "Join Bhavani Ravi on Monday, August 31, for a hands-on workshop on extending and customizing Claude Code and other coding agents.\n\nThis is Workshop 3 of AI Dev Tools Zoomcamp, covering Module 3: Coding Agent Capabilities.\n\n- Aug 31, 2:00 PM CET\n- Live on YouTube\n\nYou'll learn how to:\n\n- Use project instructions\n- Connect assistants to tools and context using MCP\n- Build reusable workflows and commands\n- Add specialized subagents for focused work\n- Design hooks for checks and automation\n- Package capabilities with plugins and extensions\n\nRegister here: https://luma.com/ap4l3qlj",
+      "links": [
+        "https://luma.com/ap4l3qlj"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 59,
+      "date": "30.08.2026 09:02:06 UTC+01:00",
+      "characters": 493,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/59",
+      "text": "AI Dev Tools Zoomcamp 2026 launches tomorrow.\n\nThe course teaches you how to:\n\n- Choose the right AI tools\n- Give them the right context\n- Extend them with the right capabilities\n- Ship safely with review, audit, security, and DevOps controls\n\nThe cohort starts tomorrow. Register now to join from the beginning and stay on track with homework, peer review, and the final project.\n\nRegister here: https://courses.datatalks.club/register/ai-dev-tools/\nJoin the launch: https://luma.com/tsiusx8s",
+      "links": [
+        "https://courses.datatalks.club/register/ai-dev-tools/",
+        "https://luma.com/tsiusx8s"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 62,
+      "date": "02.09.2026 08:00:13 UTC+01:00",
+      "characters": 1460,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/62",
+      "text": "Module 1 has started\n\nThis week, we begin with AI-Native Developer Workflow.\n\nThe goal is to turn a vague product idea into specified, implemented, and independently verified software with coding agents, while keeping requirements, key decisions, and final review in human hands.\n\nYou will work on:\n- Turning an idea into a product specification and focused backlog.\n- Giving agents durable context with AGENTS.md and project documents.\n- Separating product manager, software engineer, and QA roles.\n- Using loop engineering around checkable completion conditions.\n- Coordinating specialized agents across a backlog with graph engineering.\n\nMaterials: https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow\n\nRecording: https://www.youtube.com/watch?v=VUJxJGpaDEs\n\nCompanion article: https://aishippingblog.com/p/ai-native-development-specifications\n\nHomework 1 asks you to apply this workflow to a spec-driven Django application based on a deliberately vague shared-household-chores idea.\n\nInstructions: https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/01-overview/homework.md\n\nSubmit here: https://courses.datatalks.club/ai-dev-tools-2026/homework/hw1\n\nDeadline: September 8, 2026 at 01:00 CET (September 7 at 23:00 UTC).\n\nThe homework is useful practice, but it is not required for the certificate.\nQuestions belong in the course Slack channel: https://app.slack.com/client/T01ATQK62F8/C09HWT76L95",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/01-ai-native-workflow",
+        "https://www.youtube.com/watch?v=VUJxJGpaDEs",
+        "https://aishippingblog.com/p/ai-native-development-specifications",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/01-overview/homework.md",
+        "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw1",
+        "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 65,
+      "date": "07.09.2026 08:48:35 UTC+01:00",
+      "characters": 982,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/65",
+      "text": "We start Module 2\n\nThis week, we move from designing an AI-native workflow to using it across a full-stack application.\n\nModule 2 is Build and Ship an AI-Assisted Full-Stack App. The focus is the complete development loop: planning the application, coordinating frontend and backend work, testing the integration, documenting the result, and getting it deployed.\n\nMaterials:\nhttps://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-development\n\nRecording:\nhttps://www.youtube.com/watch?v=x9dq5nBpDg8\n\nCompanion article:\nhttps://aishippingblog.com/p/build-and-ship-a-full-stack-app-with\n\nThe current Homework 2 is DRAFT. Once it’s updated, we’ll notify you.\n\nSubmission page:\nhttps://courses.datatalks.club/ai-dev-tools-2026/homework/hw2\n\nDeadline: September 15, 2026 at 01:00 CET.\n\nNext week, Module 3 will focus on testing, containerizing, and deploying the application.\n\nQuestions belong in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C09HWT76L95",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/02-development",
+        "https://www.youtube.com/watch?v=x9dq5nBpDg8",
+        "https://aishippingblog.com/p/build-and-ship-a-full-stack-app-with",
+        "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw2",
+        "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 68,
+      "date": "14.09.2026 09:06:53 UTC+01:00",
+      "characters": 1017,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/68",
+      "text": "We start Module 3\n\nGetting an application to work once is different from making it reproducible and ready for other people to run.\n\nThis week, you will strengthen the checks around your application, package it consistently, document how to run it, and deploy it somewhere others can inspect.\n\nMaterials:\nhttps://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/03-deployment/lesson.md\n\nRecording:\nhttps://www.youtube.com/watch?v=gxt5ZDVnBMM\n\nCompanion article:\nhttps://aishippingblog.com/p/deploy-a-full-stack-app-with-ai-coding\n\nHomework page:\nhttps://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/homework/03-deployment/homework.md\n\nSubmission page:\nhttps://courses.datatalks.club/ai-dev-tools-2026/homework/hw3\n\nDeadline: September 22, 2026 at 01:00 CET (September 21 at 23:00 UTC).\n\nNext week, Module 4 will cover DevOps and observability for applications built with AI assistance.\n\nQuestions belong in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C09HWT76L95",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/03-deployment/lesson.md",
+        "https://www.youtube.com/watch?v=gxt5ZDVnBMM",
+        "https://aishippingblog.com/p/deploy-a-full-stack-app-with-ai-coding",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/homework/03-deployment/homework.md",
+        "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw3",
+        "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 71,
+      "date": "21.09.2026 09:19:15 UTC+01:00",
+      "characters": 1274,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/71",
+      "text": "We start Module 4 on DevOps and Observability for AI-Built Apps.\n\nOnce your application is deployed, you need to know what it is doing. With observability, you can see where the app failed, investigate with the right context, and decide how to respond.\n\nWe cover:\n\n- What to observe in a running application\n- Which failures should trigger alerts\n- What context an investigation needs\n- Where coding agents can help with operations safely\n- Which production permissions stay with humans\n\nMaterials:\nhttps://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops\n\nRecording:\nhttps://www.youtube.com/watch?v=YkxLo_FRoQw\n\nCompanion article:\nhttps://aishippingblog.com/p/devops-and-observability-for-an-ai\n\nHomework 4 is currently a draft and the questions will likely change. We will announce once it’s ready.\n\nHomework:\nhttps://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/04-devops/homework.md\n\nSubmit:\nhttps://courses.datatalks.club/ai-dev-tools-2026/homework/hw4\n\nDeadline: September 29, 2026 at 01:00 CET (September 28 at 23:00 UTC).\n\nNext week, the final module covers reusable coding-agent capabilities: skills and specialized subagents.\n\nQuestions go in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C09HWT76L95",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/04-devops",
+        "https://www.youtube.com/watch?v=YkxLo_FRoQw",
+        "https://aishippingblog.com/p/devops-and-observability-for-an-ai",
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/04-devops/homework.md",
+        "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw4",
+        "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 72,
+      "date": "23.09.2026 10:29:01 UTC+01:00",
+      "characters": 823,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/72",
+      "text": "Louis Amaudruz built a team of AI agents in Slack, live, during our latest workshop. They worked together on GitHub issues for the Switch repository.\n\nThe recording is now up.\n\nLouis started with an empty Slack workspace and walked through each agent:\n\n- A Claude Code coder agent that fixes an issue and opens a pull request\n- A Codex reviewer agent that reviews the fix in the same channel\n- A lead agent that runs the code-review loop, with a maximum of two cycles\n- An issue manager that creates one channel per issue and starts the work in each of them\n\nLouis also showed how the Switch team uses the same pattern for its own work, with rooms for bug reports, feature work, local deployments, releases, and staging deployments.\n\nWatch the recording to follow the full build:\nhttps://www.youtube.com/watch?v=vl00W8eEtZg",
+      "links": [
+        "https://www.youtube.com/watch?v=vl00W8eEtZg"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 73,
+      "date": "26.09.2026 23:30:48 UTC+01:00",
+      "characters": 594,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/73",
+      "text": "Homework 4 is finally live. Sorry for the delay, and thank you for your patience.\n\nHomework instructions: https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/homework/04-devops/homework.md\nSubmit here: https://courses.datatalks.club/ai-dev-tools-2026/homework/hw4\n\nWe’ve moved all remaining deadlines by one week, including project submissions and peer reviews:\n\n• Homework 4: 5 October\n• Project 1 submission: 26 October; peer review: 2 November\n• Project 2 submission: 16 November; peer review: 23 November\n\nAll dates are in 2026, and all deadlines are at 23:00 UTC.",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/blob/main/cohorts/2026/homework/04-devops/homework.md",
+        "https://courses.datatalks.club/ai-dev-tools-2026/homework/hw4"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 74,
+      "date": "28.09.2026 08:55:46 UTC+01:00",
+      "characters": 1553,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/74",
+      "text": "We start Module 5, the final module, on Coding Agent Capabilities.\n\nAcross the course, you have used coding agents for planning, implementation, testing, deployment, and operations. This module shows how to make useful agent behavior reusable without giving every task the same context and permissions.\n\nWe cover:\n\n- Reusable skills and specialized subagents\n- Which instructions and tools each task needs\n- Where to set boundaries for an agent\n- How to make the result verifiable by another person\n\nMaterials:\nhttps://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities\n\nRecording:\nhttps://www.youtube.com/watch?v=t8OrAjNO2Zs\n\nCompanion article:\nhttps://aishippingblog.com/p/coding-agent-building-blocks-reusable\n\nThere is no graded Homework 5 in the 2026 cohort. Use this week to create or improve one reusable capability and apply it to a real task in your project.\n\nAfter Module 5, the course moves to the final project. Review the requirements early so you have time to choose a clear problem and build something another person can run, test, and review.\n\nProject requirements:\nhttps://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/\n\nProject 1 deadline: October 27, 2026 at 00:00 CEST (October 26 at 22:00 UTC).\n\nProject 2 deadline: November 17, 2026 at 00:00 CET (November 16 at 22:00 UTC).\n\nQuestions and project-scope discussions go in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C09HWT76L95\n\nYou can submit Homework 4 until October 5, 2026 at 01:00 CEST (September 28 at 23:00 UTC).",
+      "links": [
+        "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp/tree/main/05-agent-capabilities",
+        "https://www.youtube.com/watch?v=t8OrAjNO2Zs",
+        "https://aishippingblog.com/p/coding-agent-building-blocks-reusable",
+        "https://datatalks.club/docs/courses/ai-dev-tools-zoomcamp/project/",
+        "https://app.slack.com/client/T01ATQK62F8/C09HWT76L95"
+      ]
+    },
+    {
+      "course": "ai-dev-tools-zoomcamp",
+      "channel": "AI Dev Tools Zoomcamp",
+      "exported_sender": "AI Dev Tools Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 75,
+      "date": "05.10.2026 19:08:21 UTC+01:00",
+      "characters": 658,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10/messages.html",
+      "public_url": "https://t.me/aidevtoolszoomcamp/75",
+      "text": "Today, it's time to start working on your projects. \n\nYour project needs to cover everything we talked about in the course:\n\n• Specification-driven development\n• Creating the front end and the back end\n• Containerizing the application\n• Deploying the application\n• Following the best DevOps practices\n\nWe will update the current project criteria. Right now, it's outdated and contains the criteria from last year, but it's going to be updated and we will have announcements about it soon. \n\nYou are free to choose any coding agent and technology you want, as long as you follow the ideas we described in the course. \n\nHave fun learning and have fun building!",
+      "links": []
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 27,
+      "date": "19.09.2022 16:06:08 UTC+01:00",
+      "characters": 1008,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/27",
+      "text": "We're starting soon, but we wanted to remind everyone about a few things:\n\n- If you don't get an exact answer to a homework question, select the closest options. Everyone has different environments, so it's very likely that if you do everything correctly, the answer will be slightly different. It's not possible to ensure 100% reproducibility, so just select the closest answer\n- Please check FAQ first before asking questions: https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#\n- If you had a problem and somebody in slack helped you, please take a bit of time to put the answer to FAQ. You'll help your fellow students and the course team (don't forget about one extra point you get for helping with FAQ)\n- Please don't tag people from the course team. First of all, it may discourage other students to jump in and help. And we also monitor Slack constantly and will be glad to help\n- To keep the discussion more organized, use threads, and put long error messages there",
+      "links": [
+        "https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit#"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 53,
+      "date": "26.10.2022 21:47:14 UTC+01:00",
+      "characters": 1102,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/53",
+      "text": "We're recording the solution to homework 7 - and we will close the form only when we finish, so you still have some time to submit it if you're a bit behind\n\nTim will hang around in the course channel a little more. In the future, you can always find him in the BentoML community: https://l.bentoml.com/join-slack-mlzoomcamp\n\nIn the meantime, you should also be already starting with your project. Here's what you need to do:\n\n- Think of a problem that's interesting for you and find a dataset for that\n- Describe this problem and explain how a model could be used\n- Prepare the data and doing EDA, analyze important features\n- Train multiple models, tune their performance and select the best model\n- Export the notebook into a script\n- Put your model into a web service and deploy it locally with Docker\n- Deploy the service to the cloud (optional - but you'll get bonus points for that)\n\nYou can find more information about it here: https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/projects\n\nLet us know in Slack if you have more questions\n\nHas everyone found a dataset?",
+      "links": [
+        "https://l.bentoml.com/join-slack-mlzoomcamp",
+        "https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/projects"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 54,
+      "date": "31.10.2022 08:16:24 UTC+01:00",
+      "characters": 940,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/54",
+      "text": "Hi everyone! \n\nHow is it going with your projects? By now you should have selected a dataset, do some initial EDA and maybe started training a model. \n\nAre you on track? \n\nMy suggestion: don't spend too much time on making the perfect model. Try multiple ones, pick the best and move on to deploy the model. That's where many students of the previous iteration struggled, so don't put it off till the last minute\n\nAlso, we won't have office hours today, but you can ask your questions here: https://app.sli.do/event/vsUpjYsayZ8A875Hq8dpUa\n\nIf there are enough questions, I'll record a video answering them\n\nAnd finally, do check the office hours from the previous iteration. Office hours #8 #9 and #10 might be especially useful for your projects\n\nTake a look at this spreadsheet prepared by Akmal Azzam: https://docs.google.com/spreadsheets/d/e/2PACX-1vSqEMaeUC8sffetPpR5aajvLaHu8XBTFb6kcHr42TdjYwxNOTdPjf5GxGmpdOr9HiuZC_nbiPboqclo/pubhtml",
+      "links": [
+        "https://app.sli.do/event/vsUpjYsayZ8A875Hq8dpUa",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqEMaeUC8sffetPpR5aajvLaHu8XBTFb6kcHr42TdjYwxNOTdPjf5GxGmpdOr9HiuZC_nbiPboqclo/pubhtml"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 58,
+      "date": "04.11.2022 21:45:31 UTC+01:00",
+      "characters": 801,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/58",
+      "text": "I know you're still busy with your projects, but if you're already a bit ahead and started the deep learning module, you will need an environment with a GPU to train the models there\n\nFor that, we partnered with SaturnCloud: they'll give the students of the course some extra compute. And at the very least, you'll get 30 hours of free GPU time. This should be enough to complete the module and the homework\n\nSign up with this link: https://bit.ly/saturn-mlzoomcamp\n\nI'll record a video showing how to use it, but feel free to start playing around with it.\n\nThis link has an UTM tracking tag, so the folks from Saturn can see that the registrations are coming from this course. So please use this link. If they like the results of this partnership, they'll hopefully support more of our initiatives :)",
+      "links": [
+        "https://bit.ly/saturn-mlzoomcamp"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 60,
+      "date": "06.11.2022 21:51:00 UTC+01:00",
+      "characters": 1018,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/60",
+      "text": "New deadlines for the projects:\n\nProject due date: 10 November 2022, 23:00 CET (Berlin time)\nEvaluation due date: 15 November 2022, 23:00 CET (Berlin time)\n\nWe'll have more time for the project and a bit less time for the evaluation (more information of that later)\n\nUse this time wisely. If you haven't started working on model deployment yet, drop everything and do it right now!\n\nAlso, we've slightly updated the evaluation criteria. Now it's more explicit that if you use BentoML for your project, you don't have to provide a docker file, because Bento creates it for you. But you need to describe the entire process in README if you want to get the full score for the \"containerization\" criterion \n\nHere's the link: https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\n\nFinally, tomorrow we'll officially start the deep learning module. It'll planned for two weeks and you'll have a few more extra days for the homework submission",
+      "links": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 80,
+      "date": "19.12.2022 17:09:30 UTC+01:00",
+      "characters": 713,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/80",
+      "text": "Finally, I recorded the answers to your questions - https://www.loom.com/share/c9ed5690353a4b4c9014f2e176173512\n\nIf you have more questions, please ask them here: https://app.sli.do/event/vsUpjYsayZ8A875Hq8dpUa\n\nA few more things:\n\n- The deadline for the capstone project is extended till Thursday 16:00 CET \n\n- If you are looking for stuff to do after the capstone project, don't forget to check our competition: https://www.kaggle.com/competitions/kitchenware-classification/\n\n- If you want to learn how I collected the data for the competition, check this tutorial: https://www.youtube.com/watch?v=POGiLFWxQWQ And if you follow along the tutorial and collect some images, please do send me the CSV with results",
+      "links": [
+        "https://www.loom.com/share/c9ed5690353a4b4c9014f2e176173512",
+        "https://app.sli.do/event/vsUpjYsayZ8A875Hq8dpUa",
+        "https://www.kaggle.com/competitions/kitchenware-classification/",
+        "https://www.youtube.com/watch?v=POGiLFWxQWQ"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 83,
+      "date": "12.01.2023 11:22:37 UTC+01:00",
+      "characters": 721,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/83",
+      "text": "A few updates:\n\n- The leaderboard is updated with your capstone 1 projects: https://docs.google.com/spreadsheets/d/e/2PACX-1vQzLGpva63gb2rIilFnpZMRSb-buyr5oGh8jmDtIb8DANo4n6hDalra_WRCl4EZwO1JvaC4UIS62n5h/pubhtml\n\n- The feedback for your projects: https://docs.google.com/spreadsheets/d/e/2PACX-1vSvDvJu1uTSmDI0D6hnNVKdE7f447eVBxHrlJFj_iOapEarzxS0u3MAKHOQniTfIg4SrjIwT52e02XL/pubhtml (capstone-01 tab)\n\n- If anyone wants to learn something extra and write an article about it, you can do it too: https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/cohorts/2022/article.md\n\n- Finally, don't forget about the kitchenware competition:  https://www.kaggle.com/competitions/kitchenware-classification/",
+      "links": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQzLGpva63gb2rIilFnpZMRSb-buyr5oGh8jmDtIb8DANo4n6hDalra_WRCl4EZwO1JvaC4UIS62n5h/pubhtml",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSvDvJu1uTSmDI0D6hnNVKdE7f447eVBxHrlJFj_iOapEarzxS0u3MAKHOQniTfIg4SrjIwT52e02XL/pubhtml",
+        "https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/cohorts/2022/article.md",
+        "https://www.kaggle.com/competitions/kitchenware-classification/"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 119,
+      "date": "17.11.2023 20:08:11 UTC+01:00",
+      "characters": 707,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/119",
+      "text": "Thanks for taking the time to evaluate and learn from your peers\n\nWe have scored the projects\n\nLeaderboard: https://docs.google.com/spreadsheets/d/e/2PACX-1vSNK_yGtELX1RJK1SSRl4xiUbD0XZMYS6uwHnybc7Mql-WMnMgO7hHSu59w-1cE7FeFZjkopbh684UE/pubhtml\n\nFeedback: https://docs.google.com/spreadsheets/d/e/2PACX-1vQMT0Pr_EYLGR_8dXQ384cVkrN2w73VNr_H-mgsgIV2XDjKHrm0cznHaDGaWUyI146sx8-AkBL1QFrF/pubhtml?gid=973195155&single=true\n\n(If you can't find any feedback for your project, it means that your evaluators didn't provide any)\n\nAlso many of you sadly forgot about the peer evaluation - and therefore failed the midterm project. Don't forget to do it next time!\n\nGreat work and have fun with the deep learning module!",
+      "links": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSNK_yGtELX1RJK1SSRl4xiUbD0XZMYS6uwHnybc7Mql-WMnMgO7hHSu59w-1cE7FeFZjkopbh684UE/pubhtml",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vQMT0Pr_EYLGR_8dXQ384cVkrN2w73VNr_H-mgsgIV2XDjKHrm0cznHaDGaWUyI146sx8-AkBL1QFrF/pubhtml?gid=973195155&single=true"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 123,
+      "date": "03.12.2023 17:29:29 UTC+01:00",
+      "characters": 883,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/123",
+      "text": "We don't cover NLP in the course, but what's more fun than learning about it yourself? \n\nTo help you do that, we came up with the Q&A challenge - this is a kaggle competition where you can build a model for selecting the most relevant answer for a question\n\nhttps://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge/overview\n\nIn this competition, we used the Q&A data from our office hours. Using external data is welcome (check the \"Data\" tab for more information and ideas) \n\nParticipants will get course points, but we're also working on getting more prizes. For example, a GPU from NVidia, like last year.\n\nDon't forget that you can use Saturn Cloud for taking part in the competition: https://bit.ly/saturn-mlzoomcamp\n\nNow we're preparing on a few getting started notebooks, so stay tuned if you have no clue how to start \n\nThe competition finishes on February 1.\n\nHave fun!",
+      "links": [
+        "https://www.kaggle.com/competitions/dtc-zoomcamp-qa-challenge/overview",
+        "https://bit.ly/saturn-mlzoomcamp"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 124,
+      "date": "04.12.2023 18:24:48 UTC+01:00",
+      "characters": 711,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/124",
+      "text": "We're almost done with the course lectures, but there's still a lot to learn! \n\nToday we're starting the Capstone 1 project. The process for capstone is the same as for the midterm project\n\nYou can find the link to the form for submitting the project here: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/projects.md#capstone-1\n\nAlso, we extend the deadline for the Kubernetes homework by two days. \n\nAnd finally, there's another optional module about KServe - a tool on top of Kubernetes to make it easier to serve ML models. You can find it here: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/11-kserve\n\nThere's no homework for module 11\n\nHave fun!",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/projects.md#capstone-1",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/11-kserve"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 130,
+      "date": "05.01.2024 19:33:28 UTC+01:00",
+      "characters": 811,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/130",
+      "text": "Hi everyone! Happy new year! \n\nHow is it going? Here are a few things we want to announce \n\nFirst, you can write an article (optionally) as a part of this course where you can explore any topic that wasn't covered in the course. The best way to learn something is to teach it!\n\nYou can read more about the articles here: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/article\n\nLinks for submitting your articles: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/article.md (there's a form)\n\nSecond, if you're taking part in the competition, you can also share what you learned. Here's the link for submitting your results and learning in public links: https://forms.gle/S3bSj7TSKVAcDfjPA \n\n(you can find this link at the bottom of the 2023 cohort page)",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/article",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/article.md",
+        "https://forms.gle/S3bSj7TSKVAcDfjPA"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 137,
+      "date": "13.02.2024 21:14:20 UTC+01:00",
+      "characters": 730,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/137",
+      "text": "Three more things left before we completely wrap up the course for this year\n\nFirst, if you wrote an article, but haven't shared it yet, please do it as soon as possible. You'll find the link to the form here: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/article.md\n\nSecond, if you took part in the competition, make sure you submit your team name here: https://forms.gle/S3bSj7TSKVAcDfjPA\n\nTeams with names machffud, шайлушай and \n\nPlease do it till Thursday EOD, so on Friday we can start collecting the data for the public top-100 leaderboard. To make this process easier, if you think you'll be one of the top 100, you can already put your data here:\n\nhttps://forms.gle/DLTULsG2BosoGL7K9",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2023/article.md",
+        "https://forms.gle/S3bSj7TSKVAcDfjPA",
+        "https://forms.gle/DLTULsG2BosoGL7K9"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 173,
+      "date": "13.12.2024 12:57:19 UTC+01:00",
+      "characters": 755,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/173",
+      "text": "Also, don't forget about other activities we have:\n\nCompetition: https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition\nLearn about time series forecasting and get extra points for the course\nDeadline: February 1\n\nArticle: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/article\nYou can learn about things that we didn't cover in the course, write an article about it and get extra points\nDeadline: February 1\n\nCapstone 1: https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1\nYou can already start working on your capstone project. The requirements are the same as for the midterm project, but now you can also use neural networks, AWS Lambda and kubernetes (but don't have to)\nDeadline: January 14\n\nHave fun!",
+      "links": [
+        "https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/article",
+        "https://courses.datatalks.club/ml-zoomcamp-2024/project/capstone1"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 193,
+      "date": "18.07.2025 12:59:54 UTC+01:00",
+      "characters": 576,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/193",
+      "text": "Hey Zoomcamp alumni,\n\nWe’re planning the next cohort, starting September 2025, and we’d love to hear from you.\n\nWe want to learn:\n\n- How Zoomcamp influenced your career\n- The projects you built\n- The roles you hold now\n\nWe want to invite you to:\n\n- Join a live podcast session\n- Write a short alumni article\n\nWe’ll help you with preparing for these activities.\n\nIf you’re interested, please fill out this form https://airtable.com/appaxhNN7qh1J7XI8/shrv8ZYmrKXiXJHIX or leave a comment below with your preferred communication channel.\n\nThank you for being part of our journey!",
+      "links": [
+        "https://airtable.com/appaxhNN7qh1J7XI8/shrv8ZYmrKXiXJHIX"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 196,
+      "date": "31.07.2025 13:59:26 UTC+01:00",
+      "characters": 498,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/196",
+      "text": "Hey everyone! If you’ve benefited from our free ML Zoomcamp or just want to support our efforts to create free education, please spread the word about our upcoming ML Zoomcamp.\n\nThe course starts on September 15, 2025 and anyone can join using this form: https://airtable.com/appflP5cuR8bD5MIm/shryxwLd0COOEaqXo\n\nTo spread the word, you can use these post templates to publish it on your social media: https://docs.google.com/document/d/13-hg1loJ4Ih9LZP6JbwIk7TPpWjnFXXvxNn9-cnDqcQ/edit?usp=sharing",
+      "links": [
+        "https://airtable.com/appflP5cuR8bD5MIm/shryxwLd0COOEaqXo",
+        "https://docs.google.com/document/d/13-hg1loJ4Ih9LZP6JbwIk7TPpWjnFXXvxNn9-cnDqcQ/edit?usp=sharing"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 203,
+      "date": "19.09.2025 09:10:55 UTC+01:00",
+      "characters": 785,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/203",
+      "text": "Module 1 is live!\n\nOver the next 2 weeks, we’ll dive into the basics of Machine Learning:\n\n🔹 Intro to ML and Rule-Based Systems\n🔹 Supervised ML and CRISP-DM\n🔹 Model Selection Process\n🔹 Environment setup, NumPy, Pandas, Linear Algebra refresher\n\nHomework for this module:\n\n1. Set up your environment\n2. Load & explore the dataset\n3. Handle missing data\n4. Mini linear regression calculation\n\nThe deadline for this homework is September 30, 2025, 1:00 AM CET.\n\nTips:\n\n🔹 Expect ~6-7 hours if you’re a beginner\n🔹 Break it into smaller chunks, don’t wait until the last day\n\nIf you feel stuck:\n\nFirst check the FAQ. If the answer isn’t there, post in Slack. We’ll update the FAQ with answers.\n\n📨 We also sent you a detailed update by email. Check your inbox for more links and instructions!",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/01-intro",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2025/01-intro/homework.md",
+        "https://datatalks.club/faq/machine-learning-zoomcamp.html",
+        "https://datatalks.club/slack.html"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 205,
+      "date": "26.09.2025 10:24:32 UTC+01:00",
+      "characters": 650,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/205",
+      "text": "We’re wrapping up Module 1 of ML Zoomcamp 2025!\n\nHomework submissions are open.\n\nJust 3 days left to submit.\n\nDeadline: September 30, 2025, 1:00 AM CET\n\nRemember: Submitting something is better than waiting for perfection.\n\nSubmit here: https://courses.datatalks.club/ml-zoomcamp-2025/\n\nA couple of clarifications from Slack:\n\nQ4: Options mismatch ➡️ form has been updated ✅\n\nQ8: Dot product vs cross product ➡️ it’s the dot product ✅\n\nSo far, 400 students have already submitted, great job! 🙌\n\nDon’t miss your chance to get on the leaderboard and earn extra points by posting with #mlzoomcamp.\n\nNeed help? Join the discussion in our Slack community.",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/",
+        ""
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 206,
+      "date": "29.09.2025 10:39:47 UTC+01:00",
+      "characters": 500,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/206",
+      "text": "One day is left to submit Module 1 homework. 826 learners have already done that.\n\nDeadline: September 30, 2025, 1:00 AM CET\n\nWe’ve updated the homework with instructions about learning in public. Now, this section has templates you can use to share your work on social media. Check it out: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2025/01-intro/homework.md\n\nThe best way to ask your questions is on Slack. You can join it here: https://datatalks.club/slack.html",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2025/01-intro/homework.md",
+        "https://datatalks.club/slack.html"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 213,
+      "date": "10.10.2025 17:41:22 UTC+01:00",
+      "characters": 455,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/213",
+      "text": "Homework 3: Deadline Is Soon!\n\nWe’re more than halfway through Module 3, and we hope your work on Homework 3 is going smoothly.\n\nDeadline: October 14, 1:00 AM CET\n\nA few reminders:\n\n- Check the instructions carefully: questions come directly from the module materials.\n- Discuss and ask questions in #course-ml-zoomcamp on Slack.\n- Leaderboard updates will go live shortly after the deadline.\n\nhttps://courses.datatalks.club/ml-zoomcamp-2025/homework/hw03",
+      "links": [
+        "",
+        "https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw03"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 214,
+      "date": "10.10.2025 17:42:48 UTC+01:00",
+      "characters": 785,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/214",
+      "text": "Answering some of your questions\n\n1️⃣ Grading formula:\nHomework grade =\n🧠 Points for questions\n➕ 1 point for the FAQ\n➕ Up to 7 points for learning in public\n\nDetails:\n\n- Learning in public: up to 7 points depending on how many platforms you shared your post on (LinkedIn, X, blog, etc.) and the post quality.\n- FAQ: worth only 1 point — contribute to the FAQ repo and include your PR link in your submission.\n- Optional questions are scored too: read the submission form carefully for details.\n\n2️⃣ Not graded?\nThat’s not possible. You can:\n\n- Log in and check your results, or\n- Use CTRL+F to find your name on the leaderboard:\nhttps://courses.datatalks.club/ml-zoomcamp-2025/leaderboard\n\n3️⃣ And just a reminder: the homework is for practice only, it doesn’t affect your certificate.",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/leaderboard"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 217,
+      "date": "20.10.2025 10:26:18 UTC+01:00",
+      "characters": 588,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/217",
+      "text": "Module 5: Deploying ML Models + Homework 4 Deadline\n\nWe’re starting Module 5: Deploying ML Models!\nThis week, you’ll learn how to turn your models into web services and deploy them using modern tools.\n\nHomework 4 submissions close tonight, October 21, at 1:00 AM CET.\nDon’t miss it!\n\n👉 Submit Homework 4\n👉 Start Module 5\n\nNote: Some of the module materials are partly outdated. We’ve recorded a workshop that updates this content.\n\nWhile watching the module content, focus on the theory, the practical part is fully covered in the workshop.\n\nHomework 5 will be published soon. Stay tuned!",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw04",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/05-deployment",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/05-deployment/workshop"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 222,
+      "date": "10.11.2025 09:22:13 UTC+01:00",
+      "characters": 509,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/222",
+      "text": "Midterm Project Deadline Approaching!\n\nDeadline: 18 November 2025, 00:00 CET (about 7 days left)\n\nHow’s your first end-to-end ML project going?\n\nReminder:\n\n🔸 You must also review 3 peers’ projects (You’ll automatically receive 3 peer review assignments once the project submission form closes)\n🔸 Certification requires 2 completed projects (Midterm + Capstone 1 or 2)\n🔸 All projects must be done individually and within the current cohort\n\n👉 Projects page\n👉 How to submit a project\n👉 Tips\n\nSubmit your project",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/projects",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/projects/how-to.md",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/projects/project-tips.md",
+        "https://courses.datatalks.club/ml-zoomcamp-2025/project/midterm"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 225,
+      "date": "20.11.2025 11:25:16 UTC+01:00",
+      "characters": 795,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/225",
+      "text": "Many of you reached out to us saying that they didn't manage to submit their project in time\n\nRight now it's not possible to \"quickly open the form\". Please check the deadlines next time and make sure you submit your project before.\n\nIt's also a good idea to split your project into multiple milestones and just update the commit hash id as you continue to improve your project.\n\nAlso, not submitting your midterm doesn't affect your certificate. In order to get a certificate, you need to pass 2 out of 3 projects. So if your midterm is already ready, submit it later as capstone 1 and work on capstone 2 in the meantime\n\nAnd finally, please don't stress about it. The most important thing is learning something new. Now you have a project in your portfolio that you can be proud of. Great job!",
+      "links": []
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 226,
+      "date": "24.11.2025 09:06:08 UTC+01:00",
+      "characters": 838,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/226",
+      "text": "We continue working on Module 8 about deep learning\n\nThe main lessons use TensorFlow + Keras, but since PyTorch has become the default choice for many ML engineers, we also provide a PyTorch workshop version of the module.\n\n👉 Main content: TensorFlow/Keras\n👉 PyTorch workshop: in the pytorch/ folder (video + notebook)\n\nKeras remains excellent for education, fast prototyping, and TensorFlow-native workflows.\n\nWe recommend you start with the main module and then watch the PyTorch workshop to understand both frameworks and compare their workflows.\n\nHomework 8\n\nDeadline: 2 December 2025, 12 PM CET\n\n👉 Homework page on GitHub\n👉 Submit via the course platform\n\nYou’ll work through questions on loss functions, parameter counts, training and accuracy and more.\n\nStart early, take your time with both frameworks.\n\nAnd, as always, good luck!",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/08-deep-learning",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/08-deep-learning/pytorch",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/cohorts/2025/08-deep-learning/homework.md",
+        "https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw08"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 228,
+      "date": "30.11.2025 13:12:48 UTC+01:00",
+      "characters": 514,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/228",
+      "text": "The midterm project is scored!\n\nYou can see the results here: https://courses.datatalks.club/ml-zoomcamp-2025/project/midterm/results\n\nThis time we had a record number of submissions - over 400. We have never had so many project submissions in any of our courses. So our course management system gave up trying to score all that and I needed to fix it\n\nBut now all the results are ready! Congratulations to 354 people who passed it. \n\nI hope you all had a lot of fun with your project and learning from each other.",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/project/midterm/results"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 229,
+      "date": "01.12.2025 10:52:43 UTC+01:00",
+      "characters": 531,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/229",
+      "text": "We start Module 9 on Serverless Deep Learning.\n\nModule 9 covers:\n\n🔹 Introduction to Serverless\n🔹 AWS Lambda\n🔹 TensorFlow Lite\n🔹 Preparing code for Lambda\n🔹 Building a Docker image\n🔹 Creating the Lambda function\n🔹 Using API Gateway to expose it\n🔹 Summary\n🔹 Explore more\n🔹 Homework (coming soon)\n\nThe homework is coming soon, but you can start learning right away.\n\nStay tuned!\n———\nJust a quick reminder: Module 8 (Deep Learning Models & Frameworks) ends tomorrow.\n\nPlease submit your homework 8 by December 2, 2025, at 12:00 PM CET.",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/09-serverless",
+        "https://courses.datatalks.club/ml-zoomcamp-2025/homework/hw08"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 230,
+      "date": "08.12.2025 10:55:10 UTC+01:00",
+      "characters": 631,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/230",
+      "text": "We opened Capstone 1 and Capstone 2 projects for submissions\n\nThere's no difference between the capstone project and midterm in terms of evaluation criteria, but you can use all the new things we learned for your capstone project:\n\n- Neural networks\n- Serverless\n- Kubernetes\n\nBut you don't have to use them in your capstone. \n\nIf you already passed midterm, it's sufficient to do only one capstone project. If you didn't pass midterm, you'll need to work on both capstones in order to get a certificate at the end\n\nSome course participants last years did all three projects - it's also okay if you have time and energy \n\nHave fun!",
+      "links": []
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 232,
+      "date": "08.12.2025 11:52:22 UTC+01:00",
+      "characters": 989,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/232",
+      "text": "We’re starting Module 10: Kubernetes and TensorFlow Serving\n\nHomework for this module will be published soon, but you can already begin learning.\n\nIn this module, you’ll learn how to serve ML models at scale using Kubernetes and TensorFlow Serving.\n\nSome original lessons are outdated, so we recorded an updated workshop.\n\nYou’ll find all refreshed materials in the workshop folder.\n\nYou don’t need to watch the old module videos, but lessons 10.5 and 10.8 may still be useful.\n\nModule 10 includes:\n\n🔸 10.1 Overview\n🔸 10.2 TensorFlow Serving\n🔸 10.3 Creating a pre-processing service\n🔸 10.4 Running everything locally with Docker Compose\n🔸 10.5 Intro to Kubernetes\n🔸 10.6 Deploying a simple service to Kubernetes\n🔸 10.7 Deploying TensorFlow models to Kubernetes\n🔸 10.8 Deploying to EKS\n🔸 10.9 Summary\n🔸 10.10 Explore more\n🔸 10.11 Homework\n\n👉 Updated Workshop (recommended)\n\nModule 9 (serverless deep learning) ends tomorrow. Please submit your homework by December 9, 2025, at 12:00 PM CET.",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/10-kubernetes/workshop"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 233,
+      "date": "22.12.2025 12:54:41 UTC+01:00",
+      "characters": 673,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/233",
+      "text": "We’ve finished Module 10 on serverless deep learning, and now it’s time to move on to the Capstone Projects.\n\nHow many capstones do you need?\n\n🔹 If you passed the midterm: complete one capstone\n🔹 If you didn’t pass the midterm: complete both capstones to receive a certificate\n\nSome participants in previous cohorts completed all three projects. Feel free to do the same if you have the time and motivation.\n\nCapstone deadlines:\n\n🔹 Capstone 1: January 6, 2026, 12 AM CET\n🔹 Capstone 2: January 20, 2026, 12 AM CET\n\nMore information about projects in this post.\n\nWishing you great holidays 🎄\n\nYou have plenty of time to finalize your projects.\n\nGood luck, and enjoy building!",
+      "links": [
+        "https://t.me/mlzoomcamp/230"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 237,
+      "date": "19.01.2026 09:34:06 UTC+01:00",
+      "characters": 636,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/237",
+      "text": "The deadline for the Capstone 2, the final attempt to submit the capstone project for this cohort is coming up soon.\n\nDeadline: January 20, 12:00 AM CET\n\nIf you plan to participate in this attempt, make sure your project is submitted before the deadline.\n\nImportant reminders:\n\n• You must review 3 peers’ projects (assignments are created automatically after submissions close)\n• Certification requires 2 completed projects during the course\n• All projects must be individual work\n\nIf you’re close to finishing, this is the moment to push it over the line.\n\nSubmit here: https://courses.datatalks.club/ml-zoomcamp-2025/project/capstone2",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/project/capstone2"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 240,
+      "date": "26.01.2026 10:23:51 UTC+01:00",
+      "characters": 495,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/240",
+      "text": "You’ll have another chance to submit your project!\n\nWe received many requests to open another opportunity to submit the capstone project, and we have decided to do so. We'll soon create another submission form on the course management platform.\n\nThe deadline for Capstone 2 has passed. If you submitted your work during this attempt, it's now time to review your peers.\n\nRemember, reviewing three peers is a mandatory requirement; if you do not complete this step, you will not pass the project.",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/project/capstone2/eval"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 246,
+      "date": "09.02.2026 09:27:12 UTC+01:00",
+      "characters": 518,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/246",
+      "text": "400 course participants have already graduated with certificates. Congratulations!\n\nIf you're one of the graduates, you can find your certificate on the course management platform. Make sure you're logged in with the account you used to submit your project.\n\nThe deadline for Capstone 3 has passed. If you submitted your work during this attempt, there is still time left to review your peers. Remember, reviewing three peers is a mandatory requirement; if you do not complete this step, you will not pass the project.",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2025/enrollment",
+        "https://courses.datatalks.club/ml-zoomcamp-2025/project/capstone3/eval"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 250,
+      "date": "28.08.2026 09:00:57 UTC+01:00",
+      "characters": 553,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/250",
+      "text": "We're running a live Q&A for Machine Learning Zoomcamp 2026.\n\nJoin Alexey Grigorev on Tuesday, September 1 at 5 PM CET to learn about the course structure, modules, homework, projects, and certificates.\n\nWe'll cover:\n\n- Who it's for and what you need before joining\n- What you'll build: regression, classification, deep learning, deployment, and model serving\n- Where to get help during the cohort\n\nThe live cohort starts on September 14.\n\nRegister for the course: https://courses.datatalks.club/ml-zoomcamp-2026/\nJoin the Q&A: https://luma.com/0kxlwm6d",
+      "links": [
+        "https://courses.datatalks.club/ml-zoomcamp-2026/",
+        "https://luma.com/0kxlwm6d"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 253,
+      "date": "21.09.2026 09:32:22 UTC+01:00",
+      "characters": 1053,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/253",
+      "text": "We’re on Module 1 on Introduction to Machine Learning.\n\nBefore training any model, you need to know whether machine learning is the right tool for the problem and how to structure the project around it. This module gives you that frame and sets up the environment you will use for the rest of the course.\n\nWe cover:\n\n- Machine learning compared with rule-based systems\n- Supervised learning basics\n- CRISP-DM for organizing an ML project\n- The model selection process\n- Environment setup, plus a NumPy, linear algebra, and pandas refresher\n\nMaterials:\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/01-intro\n\nHomework:\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/01-intro/homework.md\n\nSubmit:\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw01\n\nDeadline: September 29, 2026 at 01:00 CEST (September 28 at 23:00 UTC).\n\nNext week, Module 2 covers machine learning for regression.\n\nQuestions go in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/01-intro",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/01-intro/homework.md",
+        "https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw01",
+        "https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+      ]
+    },
+    {
+      "course": "ml-zoomcamp",
+      "channel": "ML Zoomcamp announcements",
+      "exported_sender": "ML Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 254,
+      "date": "28.09.2026 08:58:55 UTC+01:00",
+      "characters": 1000,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (1)/messages.html",
+      "public_url": "https://t.me/mlzoomcamp/254",
+      "text": "We start Module 2 on Machine Learning for Regression.\n\nWith the project frame from Module 1, you can now build your first model. In this module, we predict car prices with linear regression and go from exploratory analysis to a validated model.\n\nWe cover:\n\n- Linear regression, from scratch and with scikit-learn\n- Feature engineering and categorical variables\n- Regularization\n- Model validation with RMSE\n\nMaterials:\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/02-regression\n\nHomework 2 applies regression to the 2026 Car Fuel Efficiency dataset.\n\nHomework:\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/02-regression/homework.md\n\nSubmit:\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw02\n\nDeadline: October 6, 2026 at 01:00 CEST (October 5 at 23:00 UTC).\n\nNext week, Module 3 covers machine learning for classification.\n\nQuestions go in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+      "links": [
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/02-regression",
+        "https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/02-regression/homework.md",
+        "https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw02",
+        "https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 79,
+      "date": "20.05.2025 16:09:59 UTC+01:00",
+      "characters": 897,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/79",
+      "text": "👋 Welcome to the LLM Zoomcamp!\n\nThis is the official channel for updates and key info. All future announcements will be posted right here in this channel.\n\nLLM Zoomcamp is a free, hands-on course on real-life applications of LLMs.\n\nOver 10 weeks, you’ll learn how to:\n\n- Build AI systems that answer questions about your knowledge base\n- Work with RAG, vector search, evaluation, monitoring & more\n- Complete a hands-on capstone project\n\n🗺️ Start Here\n\nRegister for the course | GitHub | YouTube Playlist | FAQ | Subscribe to Google Calendar\n\n📚 Course Modules\n\n1. Intro to LLMs and RAG\n2. Vector Search\n3. Evaluation\n4. Monitoring\n5. Best Practices\n6. Bonus Project\n🏁 Capstone Project\n\n💬 Stay Connected\n\n- Join Slack, #course-llm-zoomcamp channel\n- Follow our events\n\n👨‍💻Instructors:\n\n- Alexey Grigorev\n- Timur Kamaliev\n\n🙌 Run by DataTalks.Club, a global community of 73,000+ people who love data.",
+      "links": [
+        "https://airtable.com/appPPxkgYLH06Mvbw/shr7WtxHEPXxaui0Q",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main",
+        "https://youtu.be/Q75JgLEXMsM?si=80SqHOfFZS7TP6KW",
+        "https://docs.google.com/document/d/1m2KexowAXTmexfC5rVTCSnaShvdUQ8Ag2IEiwBDHxN0/edit?usp=sharing",
+        "https://calendar.google.com/calendar/?cid=NjkxOThkOGFhZmUyZmQwMzZjNDFkNmE2ZDIyNjE5YjdiMmQyZDVjZTYzOGMxMzQyZmNkYjE5Y2VkNDYxOTUxY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#module-1-introduction-to-llms-and-rag",
+        "https://github.com/DataTalksClub/open-source-llm-zoomcamp/tree/main?tab=readme-ov-file#module-1-running--deploying-open-source-llms",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#module-2-vector-search",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#module-3-evaluation",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#module-4-monitoring",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#module-5-best-practices",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#module-6-bonus---end-to-end-project",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main?tab=readme-ov-file#capstone-project",
+        "https://datatalks.club/slack.html",
+        "https://lu.ma/dtc-events",
+        "https://datatalks.club/"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 81,
+      "date": "22.05.2025 10:04:17 UTC+01:00",
+      "characters": 730,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/81",
+      "text": "👉🏼 LLM Zoomcamp 2025 Cohort Navigation\n\nWe're excited to welcome you to the 2025 edition of the LLM Zoomcamp!\n\nStart date: June 2, 2025\n\nQuick links:\n\n- Welcome message\n- Live Q&A about the course and live course launch\n- Course content on GitHub (all course materials)\n- LLM Zoomcamp playlist on YouTube (video materials)\n- Course management platform for submitting homework\n- FAQ\n\nAnnouncements\n\n1. Course launch\n2. Module 1\n3. Module 2\n4. Data Ingestion Workshop\n5. Vector search office hours\n6. Schedule update and bonus module\n\nWe’ll update this post to collect all necessary announcements for 2025 cohort.\n\nStay tuned!\n\nThis channel is for announcements only. Join our Slack to ask your questions and collaborate with peers.",
+      "links": [
+        "https://t.me/llm_zoomcamp/79",
+        "https://www.youtube.com/live/8lgiOLMMKcY?si=IFYfRdFf2rCPoxF5",
+        "https://www.youtube.com/live/FgnelhEJFj0?si=_YRDrYW2Ym499e1R",
+        "https://github.com/DataTalksClub/llm-zoomcamp",
+        "https://www.youtube.com/playlist?list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R",
+        "https://courses.datatalks.club/llm-zoomcamp-2025/",
+        "https://docs.google.com/document/d/1m2KexowAXTmexfC5rVTCSnaShvdUQ8Ag2IEiwBDHxN0/edit?tab=t.0#heading=h.ezbsj3uz5wks",
+        "https://t.me/llm_zoomcamp/83",
+        "https://t.me/llm_zoomcamp/87",
+        "https://t.me/llm_zoomcamp/88",
+        "https://t.me/llm_zoomcamp/90",
+        "https://www.youtube.com/live/7pHsGGucJ4I?si=m6DsQwrXyh1-VLwO",
+        "https://t.me/llm_zoomcamp/95",
+        "https://datatalks.club/slack.html"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 83,
+      "date": "26.05.2025 09:33:36 UTC+01:00",
+      "characters": 610,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/83",
+      "text": "Join LLM Zoomcamp live launch tomorrow!\n\nDate: Tuesday, May 27\nTime: 5:00 PM (CET)\nRegister here: https://lu.ma/ei5wx9ck\n\nAlexey Grigorev, the creator of the course, will host a live session, walking you through everything you need to know:\n\n- What you’ll build (including your own AI bot!)\n- Course structure, assignments, and how grading works\n- Tips for learning even if you’re new to AI/ML\n- What it’s like to learn together in our global community\n\nAsk your questions live and get to know the team!\n—\nRegister to receive a notification when the course is live. We’ll host the event on our YouTube Channel.",
+      "links": [
+        "https://lu.ma/ei5wx9ck",
+        "https://www.youtube.com/@DataTalksClub"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 86,
+      "date": "29.05.2025 16:49:56 UTC+01:00",
+      "characters": 709,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/86",
+      "text": "The live stream has wrapped up, you can catch the full recording. We’ve also distilled the major insights into a brief summary for quick reading.\n\n👉 Watch the recording\n👉 Key takeaways\n\nWhat’s next?\n- Star our GitHub repo – it boosts visibility and helps the community grow!\n- Preview Module 1 – skim the content to get a head start.\n- Install Docker – make sure it’s up and running on your machine.\n- Join our Slack – network with peers and ask questions as you go.\n\nThe course officialy starts on June 2, 2025.\n\nWeek 1 goals:\n✅ Watch all Module 1 videos\n✅ Complete Homework #1\n✅ Begin exploring ideas for your capstone dataset\n✅ Share your progress on social with #LLMZoomcamp\n\nCheck out 2025 cohort edition",
+      "links": [
+        "https://youtube.com/live/FgnelhEJFj0",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/course-launch-stream-summary.md",
+        "",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2025"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 87,
+      "date": "03.06.2025 14:08:56 UTC+01:00",
+      "characters": 543,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/87",
+      "text": "LLM Zoomcamp 2025 has officially started!\n\nWe’re starting Module 1.\n\nHere’s what you need to do:\n\n- Watch Module 1 recordings: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/01-intro\n- Do the homework: https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/01-intro/homework.md\n- Submit the homework before the deadline: https://courses.datatalks.club/llm-zoomcamp-2025/\n\nDeadline: 17 June 2025, 01:00 CET (in 2 weeks)\n\nGood luck and enjoy Module 1!\n\nDon’t forget to share your progress with #LLMZoomcamp on social media",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/01-intro",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/01-intro/homework.md",
+        "https://courses.datatalks.club/llm-zoomcamp-2025/",
+        ""
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 88,
+      "date": "16.06.2025 11:47:35 UTC+01:00",
+      "characters": 572,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/88",
+      "text": "We’re starting Module 2: Vector Search\n\nWe’ve updated and expanded it together with Qdrant.\n\nIt now covers:\n\n- Getting started with Qdrant (vector DB)\n- Text embeddings\n- Indexing and search\n- RAG with vector search\n- Hybrid search techniques\n🔥 New hands-on notebooks\n\nHere’s what you need to do to complete this module:\n\n1. Go through the module content\n2. Watch the videos and explore the notebooks\n3. Set up Qdrant locally (optional, but recommended)\n4. Do the homework\n5. Submit the homework here\n\nDeadline: 1 July, 1 AM CET (in 2 weeks)\n\nGood luck and enjoy Module 2!",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/02-vector-search",
+        "https://www.youtube.com/watch?v=cX2vO1q2BGE&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R&index=9",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/02-vector-search/homework.md",
+        "https://courses.datatalks.club/llm-zoomcamp-2025/homework/hw2"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 90,
+      "date": "23.06.2025 10:04:12 UTC+01:00",
+      "characters": 881,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/90",
+      "text": "We’ve prepared a special workshop for you as part of the LLM Zoomcamp!\n\nJoin us for a live hands-on session to learn how to build a smart, always-up-to-date data pipeline for your RAG projects.\n\nLLM Zoomcamp students: you’ll earn bonus points on the leaderboard if you submit the homework for this workshop.\n\nDate: Monday, June 30\nTime: 4:30 PM CET\n\nIn this workshop, you’ll learn how to:\n\n- Extract data from REST APIs using dlt\n- Vectorize and load it into a database\n- Index it semantically with Cognee\n- Handle dynamic, evolving relationships between records\n- Connect everything into a portable, open-source pipeline you can run anywhere: from notebooks to Airflow, Dagster, or Mage\n\nBy the end, you’ll have a fully working ingestion pipeline that powers RAG built entirely with open-source tools.\n\nRegister here: https://lu.ma/kdp6ex5s \n\nLooking forward to building with you!",
+      "links": [
+        "https://lu.ma/kdp6ex5s"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 95,
+      "date": "25.06.2025 14:03:11 UTC+01:00",
+      "characters": 715,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/95",
+      "text": "Schedule update\n\nModules 3 and 4 need a bit more polishing, so we’re pushing them back.\n\nTo keep the momentum, we’re adding a bonus livestream next week!\n\nDate: Tuesday, 1 July\nTime: 4:30 PM CET\n\nAlexey will do a hands-on workshop on turning RAG pipelines into agentic AI flows.\n\nWhat we’ll cover\n- Build a basic RAG pipeline (search + prompt + LLM)\n- Add agentic behaviour: decide when to search vs. answer\n- Run multi-step, reasoning-driven searches\n- Use OpenAI function calling and chat_assistant.py\n- Streamline tools with PydanticAI\n\nYou’ll get a working assistant that\n- searches the FAQ\n- decides when to act\n- asks follow-up questions\n- updates its own knowledge base\n\nRegister here: https://lu.ma/b7p9p365",
+      "links": [
+        "https://lu.ma/b7p9p365"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 102,
+      "date": "09.07.2025 12:22:33 UTC+01:00",
+      "characters": 581,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/102",
+      "text": "For this cohort of LLM Zoomcamp we have prepared something special for you!\n\nInstead of a competition, like last year, we're hosting a hackathon! \n\nIn this Hackathon you can put the skills you picked up during the course to practice and make something useful for the community\n\nHere's more information about it: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2025/hackathon\n\nYou can submit your ideas here: https://airtable.com/appjxMzaGej3KHwEh/shr12Sx3SGsStvjEd\n\nAnd we will discuss them on the launch stream next week\n\nhttps://lu.ma/i98j574k\n\nSee you next week!",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2025/hackathon",
+        "https://airtable.com/appjxMzaGej3KHwEh/shr12Sx3SGsStvjEd",
+        "https://lu.ma/i98j574k"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 104,
+      "date": "14.07.2025 09:55:20 UTC+01:00",
+      "characters": 585,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/104",
+      "text": "We’re starting the Summer 2025 AI Hackathon with Alexey’s live launch session today!\n\nThis hackathon is part of the LLM Zoomcamp where you’ll build LLM-powered tools for the DataTalks.Club community this summer.\n\nAlexey will explain:\n- Hackathon goals and structure\n- Idea submission and selection criteria\n- Project examples\n- Team formation\nPlus a live Q&A\n\nNext steps:\n\n- Join #hackathon on Slack (go solo or form teams of up to 4)\n- Review suggested ideas and submit your own before the stream for live feedback\n- Register for the launch session with Alexey\n\nSee you at the launch!",
+      "links": [
+        "https://lu.ma/i98j574k",
+        "",
+        "https://datatalks.club/slack.html",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2025/hackathon",
+        "https://airtable.com/appjxMzaGej3KHwEh/shr12Sx3SGsStvjEd"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 113,
+      "date": "31.07.2025 10:35:22 UTC+01:00",
+      "characters": 909,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/113",
+      "text": "A few updates:\n\n- We updated the deadlines for evaluation and agents homework on the platform\n- As we're preparing an update for the Monitoring module, you can check the content from the last year: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2024/04-monitoring (starting from 4.6)\n- The form for submitting project 1 is already open. The deadline is August 25 EOD. You can read more about projects here: https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md\n- Here is a project walk-though from the last year: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/06-project-example\n- You can see the projects from the last year here: https://courses.datatalks.club/llm-zoomcamp-2024/projects\n- Also, check the best practices module: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/05-best-practices. We haven't updated the videos, but the materials are still useful",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/cohorts/2024/04-monitoring",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/06-project-example",
+        "https://courses.datatalks.club/llm-zoomcamp-2024/projects",
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/05-best-practices"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 118,
+      "date": "03.09.2025 10:17:40 UTC+01:00",
+      "characters": 467,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/118",
+      "text": "It's time to move to our projects!\n\nYou can find more information about them here:\n\n\nhttps://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md (check the videos!)\n\nhttps://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/project.md\n\nSubmit your work here: \n\nhttps://courses.datatalks.club/llm-zoomcamp-2025/project/project1\n\nRegarding the monitoring module: we won't have homework and once the remaining videos are published, we will let you know",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2025/project.md",
+        "https://courses.datatalks.club/llm-zoomcamp-2025/project/project1"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 131,
+      "date": "20.04.2026 09:55:12 UTC+01:00",
+      "characters": 587,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/131",
+      "text": "Properly evaluating coding agents is still not so straightforward.\n\nOn April 28, Ernst Haagsman from JetBrains will show how to evaluate AI-generated code fixes in a more systematic and reproducible way using TeamCity and SWE-bench.\n\nIn the workshop, Ernst will cover how to:\n\n• Run AI agents on real GitHub issues and check their fixes with tests\n• Build a reproducible evaluation pipeline with Docker and TeamCity\n• Track useful metrics like success rate, cost, and performance across different agent versions\n\nDate: April 28\nTime: 5:00 PM CET\n\nRegister here: https://luma.com/f6zc5lr6",
+      "links": [
+        "https://luma.com/f6zc5lr6"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 134,
+      "date": "11.05.2026 09:14:21 UTC+01:00",
+      "characters": 704,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/134",
+      "text": "The first session is: Build Your First RAG Application\n\nThis workshop updates Module 1 of the course.\n\nI'll cover how to build your first RAG application using Zoomcamps FAQ documents.\n\nDate: May 11\nTime: 12:00 CET\nPlace: YouTube\n\nWe'll go step by step:\n\n- Index FAQ documents from the Zoomcamp courses\n- Retrieve relevant entries\n- Use the OpenAI API to generate answers based on the retrieved context\n- Implement keyword search with MinSearch\n- Build prompts with retrieved context\n- Refactor the pipeline into modular code\n- Replace MinSearch with Elasticsearch for a more realistic retrieval setup\n- Run Elasticsearch with Docker and search indexed documents\n\nRegister here: https://luma.com/7bsj2ssy",
+      "links": [
+        "https://luma.com/7bsj2ssy"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 137,
+      "date": "19.05.2026 09:00:22 UTC+01:00",
+      "characters": 873,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/137",
+      "text": "Next workshop in the series: From RAG to AI Agents: Function Calling and Tool Use on May 21, 12 PM CET\n\n​This workshop updates Module 2: Introduction to Agents.\n\n​I will show how to turn a basic RAG application into an agentic AI assistant.\n\n​What you’ll learn:\n\n• How to build a basic RAG application over course FAQ documents\n• What makes a RAG flow “agentic”\n• How agents decide when to search and when to answer\n• How to make the LLM generate search queries based on the user question\n• How to run agentic search over multiple iterations\n• How to use previous actions and search history as context\n• How OpenAI function calling works\n• and more!\n\n​By the end, you’ll have an agentic course assistant that can search the FAQ database, decide when it needs more information, call tools, and answer student questions with context.\n\nRegister here: https://luma.com/pait9jv4",
+      "links": [
+        "https://luma.com/pait9jv4"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 140,
+      "date": "25.05.2026 09:02:36 UTC+01:00",
+      "characters": 625,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/140",
+      "text": "Join RAG and Agents Evaluation workshop on May 29, 11:30 AM CET.\n\nIn this workshop, I will update Module 4: Evaluation and show how to measure retrieval and answer quality in a RAG application.\n\nWe’ll cover:\n\n• Creating ground truth data\n• Evaluating search results\n• Comparing generated answers\n• Using embedding-based metrics\n• Using LLM-as-a-Judge for offline evaluation\n• Measuring RAG quality beyond manual testing\n\nBy the end, you’ll know how to evaluate a RAG system more systematically. You’ll also get notebooks and datasets for testing both retrieval and generated answers.\n\nRegister here: https://luma.com/dkrpn616",
+      "links": [
+        "https://luma.com/dkrpn616"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 143,
+      "date": "27.05.2026 09:00:18 UTC+01:00",
+      "characters": 471,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/143",
+      "text": "How to monitor an LLM and RAG application after it is deployed?\n\nJoin Monitoring LLM Applications workshop on June 3, 12:00 PM CET to learn how to instrument an LLM pipeline, collect traces and metrics, store chat history, track user feedback, and evaluate answer quality in a running system.\n\nBy the end, you’ll understand how to monitor a deployed RAG application and inspect what happens after users start interacting with it.\n\nRegister here: https://luma.com/w708z26f",
+      "links": [
+        "https://luma.com/w708z26f"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 144,
+      "date": "28.05.2026 09:03:12 UTC+01:00",
+      "characters": 642,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/144",
+      "text": "RAG and Agents Evaluation workshop will be live tomorrow.\n\nDate: May 29\nTime: 11:30 AM CET.\n\nThis workshop updates Module 4: Evaluation.\n\nI’ll show how to evaluate retrieval and answer quality in a RAG application.\n\n​You’ll learn how to create ground truth data, evaluate search results, compare generated answers, and use both embedding-based metrics and LLM-as-a-Judge for offline evaluation.\n\n​By the end, you’ll understand how to measure the quality of a RAG system instead of relying only on manual testing. You’ll have notebooks and datasets for evaluating both retrieval and generated answers.\n\nRegister here: https://luma.com/dkrpn616",
+      "links": [
+        "https://luma.com/dkrpn616"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 150,
+      "date": "02.06.2026 15:01:13 UTC+01:00",
+      "characters": 810,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/150",
+      "text": "We’re starting LLM Zoomcamp 2026 Pre-Course Live Q&A in 2 hours.\n\nJoin us for a live Q&A with Alexey Grigorev, founder of DataTalks.Club and creator of LLM Zoomcamp.\n\nThe 2026 live cohort starts on June 8, 2026, and this session is a chance to ask questions before you join.\n\n​We’ll cover:\n• What you’ll build during the course\n• Who the course is for and what prerequisites you need\n• How the live cohort works: deadlines, homework, leaderboard, peer review, and certificates\n• What to expect from the capstone project\n• How to get the most out of the DataTalks.Club community\n• Your questions about LLMs, RAG, agents, and learning path\n\n​The course is free and open-source. Basic Python and command-line experience are enough to get started.\n\n​Bring your questions and join us live: https://luma.com/z25lskik",
+      "links": [
+        "https://luma.com/z25lskik"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 152,
+      "date": "03.06.2026 09:05:00 UTC+01:00",
+      "characters": 520,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/152",
+      "text": "We start Monitoring LLM Applications workshop in 3h.\n\nIn this workshop, I’ll show how to monitor a running LLM application and inspect what happens inside the pipeline.\n\nWe’ll cover:\n\n• Instrumenting an LLM pipeline\n• Collecting traces and metrics\n• Storing chat history\n• Tracking user feedback\n• Evaluating answer quality in a running system\n\nBy the end, you’ll understand how to monitor a deployed RAG application and debug what happens after users start interacting with it.\n\nRegister here: https://luma.com/w708z26f",
+      "links": [
+        "https://luma.com/w708z26f"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 161,
+      "date": "18.06.2026 12:24:39 UTC+01:00",
+      "characters": 504,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/161",
+      "text": "We just rolled out an update to the course management platform and added email confirmation. When you submit your homework, you should receive a notification about it to your inbox.\n\nHowever I see that the email I got from the platform from courses@dtcdev.click landed in spam. \n\nSo when you submit the homework, can you please check where it landed? And if it's in Spam, please mark it as \"Not Spam\" \n\nI'm also working on making it possible to opt-out from receiving these emails. You will see this soon",
+      "links": [
+        "mailto:courses@dtcdev.click"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 163,
+      "date": "22.06.2026 14:36:13 UTC+01:00",
+      "characters": 619,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/163",
+      "text": "This week in LLM Zoomcamp: Module 2, Vector Search.\n\nIn Module 1, we built a RAG pipeline with keyword search.\n\nNow we improve retrieval with embeddings and vector search.\n\nThe module covers:\n\n- What vector search is\n- How embeddings represent text\n- How to embed a dataset\n- How to do vector search with numpy\n- How to add vector search to the RAG pipeline\n- How to use persistent indexes with sqlitesearch and PGVector\n- How ONNX can help with lightweight embedding deployments\n\nMaterials: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/02-vector-search\n\nCourse: https://github.com/DataTalksClub/llm-zoomcamp",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/02-vector-search",
+        "https://github.com/DataTalksClub/llm-zoomcamp"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 164,
+      "date": "24.06.2026 09:05:06 UTC+01:00",
+      "characters": 516,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/164",
+      "text": "On Monday, July 6, we're running a hands-on workshop on agent traces with Alena from dltHub.\n\nIf you're building agents, traces are one of the most useful sources of evidence:\n\n- What tools were called\n- What happened at each step\n- Where tokens were spent\n- Which runs failed\n- Which outcomes need attention\n\nIn the workshop, we'll use dltHub Pro to ingest this data, model nested trace structures, and build reports on top of it.\n\nMonday, July 6\n4:30 PM - 6:00 PM GMT+2\nYouTube\n\nRegister:\nhttps://luma.com/3sint80a",
+      "links": [
+        "https://luma.com/3sint80a"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 165,
+      "date": "25.06.2026 09:12:01 UTC+01:00",
+      "characters": 524,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/165",
+      "text": "LLM Zoomcamp has a new module this year: AI orchestration with Kestra.\n\nIn previous editions, we covered the core parts of building LLM applications:\n\n- RAG\n- Vector search\n- Evaluation\n- Monitoring\n- Best practices\n- End-to-end project work\n\nThis year, we added a dedicated module on orchestration.\n\nThis is an important missing piece when moving from a notebook or prototype to a real workflow. You need to run steps in order, pass state between them, handle retries, track failures, and make the system easier to observe.",
+      "links": []
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 166,
+      "date": "29.06.2026 09:04:57 UTC+01:00",
+      "characters": 743,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/166",
+      "text": "This week in LLM Zoomcamp: Module 3, AI Orchestration with Kestra.\n\nAfter RAG and vector search, we move to workflows.\n\nAn LLM application often becomes a sequence of steps:\n\n- Prepare data\n- Run retrieval\n- Call models\n- Store outputs\n- Handle retries\n- Inspect failures\n- Track cost and observability\n\nWhen this is all hidden in one script, it is hard to run, debug, and maintain.\n\nIn this module, Will Russell from Kestra shows how to orchestrate AI workflows with Kestra.\n\nThe module covers context engineering, Kestra setup, AI Copilot, RAG workflows, agentic workflows, multi-agent systems, and production topics like cost, security, and observability.\n\nMaterials: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/03-orchestration",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/03-orchestration"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 168,
+      "date": "06.07.2026 09:05:03 UTC+01:00",
+      "characters": 864,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/168",
+      "text": "This week in LLM Zoomcamp: Module 4, Evaluation.\n\nOnce you have retrieval and generation, you need to measure quality.\n\nIn this module, we evaluate search, RAG, and agent systems systematically.\n\nWe cover:\n\n- Generating ground truth data with an LLM\n- Evaluating retrieval with Hit Rate and MRR\n- Tuning search parameters using metrics\n- Generating RAG answers for test questions\n- Using LLM-as-a-judge for answer quality\n- Saving final answers and tool-call trajectories for agent evaluation\n\nThis is one of the most important parts of working with LLM applications.\n\nWithout evaluation, every change is a guess. With evaluation, you can compare retrieval settings, prompts, models, and agent behavior using repeatable checks.\n\nMaterials: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/04-evaluation\n\nCourse: https://github.com/DataTalksClub/llm-zoomcamp",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/04-evaluation",
+        "https://github.com/DataTalksClub/llm-zoomcamp"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 169,
+      "date": "06.07.2026 09:29:26 UTC+01:00",
+      "characters": 905,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/169",
+      "text": "As part of this module, we’ll also look at agent traces during dltHub workshop: the final answers, tool calls, and intermediate steps your agents produce while solving tasks.\n\nYou’ll build a pipeline that ingests agent traces and transforms them into structured, queryable data. Then, you’ll turn that data into reports that show what your agents are doing, where they fail, and how you can make them better.\n\nYou’ll learn how to:\n\n• Capture and normalize agent traces into a consistent schema\n• Transform and model nested, variable-length trace data with dltHub Pro\n• Deploy your pipeline and build reports that surface real insights about agent performance\n\nBy the end, you’ll have a working reporting layer for your AI agents, so you can debug faster, evaluate behavior more systematically, and improve your LLM applications with data.\n\nWe start today, at 4:30 PM.\n\nJoin here: https://luma.com/3sint80a",
+      "links": [
+        "https://luma.com/3sint80a"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 173,
+      "date": "09.07.2026 09:04:13 UTC+01:00",
+      "characters": 915,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/173",
+      "text": "On Tuesday, July 21, we have a workshop on tracking and personalizing AI agents with Snowplow and the Vercel AI SDK.\n\nYour agent can see the chat history but not what the user is doing in the product. If you want the agent to respond based on the user's current session, capture that context and make it available to the model.\n\nThis workshop shows how to do that with a Next.js travel chatbot.\n\nThe approach:\n\n1. Track client behavior (page views, clicks, filters)\n2. Track server-side events (purchases, bookings)\n3. Track agent decisions (tool calls, outcomes)\n4. Validate events against schemas in real time\n5. Compute session attributes with Snowplow Signals\n6. Inject those attributes into the system prompt\n\nYou'll set up the pipeline, add tracking at each layer, and use live session data to shape the agent's responses.\n\nTuesday, July 21\n4:30 PM - 6:00 PM GMT+2\nYouTube\n\nRegister: https://luma.com/vz9iv4f2",
+      "links": [
+        "https://luma.com/vz9iv4f2"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 174,
+      "date": "13.07.2026 08:30:56 UTC+01:00",
+      "characters": 635,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/174",
+      "text": "This week in LLM Zoomcamp: Module 5, Monitoring.\n\nWe build:\n\n- A Streamlit chat app with RAG\n- Metric capture for LLM calls and cost\n- PostgreSQL storage for conversations\n- User feedback with thumbs up and thumbs down\n- Automatic relevance evaluation with a built-in judge\n- Streamlit and Grafana dashboards\n- A Docker Compose setup for running everything together\n\nYou’ll see what your LLM application is doing after it is deployed.\n\nYou need conversations, feedback, cost, relevance, and dashboards. Otherwise it is hard to know what to improve next.\n\nMaterials: https://github.com/DataTalksClub/llm-zoomcamp/tree/main/05-monitoring",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/05-monitoring"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 175,
+      "date": "13.07.2026 20:38:23 UTC+01:00",
+      "characters": 490,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/175",
+      "text": "We have prepared the homework for the dlt workshop as well as the monitoring module\n\nAnd they are both about monitoring and observability, and in both you will learn something new in addition to what we covered in the course:\n\n- for the monitoring homework we'll learn about OTel and instrument the RAG assistant with OTel collectors \n- for the dlt hub homework, we'll use Pydantic Logfire and see how we can use dlt to ingest the traces back from Logfire for our local analysis \n\nHave fun!",
+      "links": []
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 176,
+      "date": "20.07.2026 10:46:02 UTC+01:00",
+      "characters": 840,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/176",
+      "text": "It's time to start working on your final project.\n\nCheck out Module 7 to see an example of a complete project as a reference.\n\nIt covers:\n\n• Intro: Generating data, setting up the project, initial RAG flow\n• Evaluating Retrieval: Ground truth data, Hit Rate, MRR, boosting\n• Evaluating RAG: LLM-as-a-Judge, comparing models\n• Interface and Ingestion: Flask API, ingestion pipeline, project structure\n• Monitoring and Containerization: Docker Compose, PostgreSQL logging, Grafana\n• Summary: Final result, cost analysis, tips for your project\n• Chunking for Longer Texts: Different chunking strategies for articles, transcripts, slides\n\nFor more information about the project guidelines and peer review, read the Project section.\n\nYou also asked us to postpone the deadline for dlt workshop homework. You'll have one more week to complete it.",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/07-project-example",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/cohorts/2026/workshops/dlt.md"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 177,
+      "date": "20.07.2026 14:52:17 UTC+01:00",
+      "characters": 865,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/177",
+      "text": "We are hosting a live workshop on tracking and personalizing AI agents.\n\n📅 Tuesday, July 21\n🕟 16:30 CEST\n\nAgent applications usually use the current conversation as context. But users also interact with the rest of the product. They open pages, change filters, compare options, and complete different steps before asking the agent a question.\n\nIn this workshop, we will show how to capture that behavioral data and pass it back into an AI agent.\n\nWe will use a travel chatbot as an example and instrument it across 3 layers:\n\n• Client-side user activity\n• Server-side application events\n• Agent actions and decisions\n\nYou will learn how to:\n\n• Set up a pipeline\n• Validate events against schemas\n• Track activity across the application\n• Compute live session attributes\n• Add behavioral context to the agent's system prompt\n\nRegister here: https://luma.com/vz9iv4f2",
+      "links": [
+        "https://luma.com/vz9iv4f2"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 180,
+      "date": "03.08.2026 10:20:32 UTC+01:00",
+      "characters": 896,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/180",
+      "text": "Today is the deadline for Attempt 1 of the final project.\n\nSubmit your project by 1:00 AM CET today.\n\nAs you continue working, check Module 7 for a complete project example that you can use as a reference. It covers:\n\n• Generating data, setting up the project, and building the initial RAG flow\n• Evaluating retrieval with ground truth data, Hit Rate, MRR, and boosting\n• Evaluating RAG with LLM-as-a-Judge and model comparisons\n• Building a Flask API, ingestion pipeline, and project structure\n• Adding Docker Compose, PostgreSQL logging, and Grafana monitoring\n• Reviewing the final result, costs, and practical project tips\n• Applying different chunking strategies to articles, transcripts, and slides\n\nFor submission guidelines and peer-review requirements, read the Project section.\n\nIf you cannot submit today, you will have Attempt 2, with a deadline of Tuesday, August 11, at 1:00 AM CET.",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/07-project-example",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md"
+      ]
+    },
+    {
+      "course": "llm-zoomcamp",
+      "channel": "LLM Zoomcamp",
+      "exported_sender": "LLM Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 187,
+      "date": "17.08.2026 10:46:20 UTC+01:00",
+      "characters": 710,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (2)/messages.html",
+      "public_url": "https://t.me/llm_zoomcamp/187",
+      "text": "Today is the last day to submit your final project under Attempt 2.\n\nIf you've already handed in your project, it's time to review your peers' projects.\n\nIf you're still working on the project, you still have Attempt 3, which is due on 8 September (Tue) at 1 AM CET.\n\nHere are the resources you can use:\n\n• Check out Module 7 to see an example of a complete project as a reference.\n• For more information about the project guidelines and peer review, read the Project section.\n\nFinalize your project or review your peers here: https://courses.datatalks.club/llm-zoomcamp-2026/\n\nP.S. You only need to submit your project once. You can find peers to review under the Attempt that you used to submit your project.",
+      "links": [
+        "https://github.com/DataTalksClub/llm-zoomcamp/tree/main/07-project-example",
+        "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md",
+        "https://courses.datatalks.club/llm-zoomcamp-2026/"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 28,
+      "date": "14.02.2023 20:55:39 UTC+01:00",
+      "characters": 746,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/28",
+      "text": "We're starting (started yesterday) week 4 - analytics engineering and dbt! \n\n- course materials: https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_4_analytics_engineering\n- homework: https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/week_4_analytics_engineering/homework.md\n\nAlso, next week, we'll have a workshop that builds on the materials of this week - we will see how to use PipeRider and dbt to detect errors in models and data\n\nThe workshop is a part of the course, but optional, and there will be optional homework too. If you can't attend it live, you can watch it later at any convenient time  \n\nIf you need a reminder, you can sign up here: https://eventbrite.com/e/535584366257",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_4_analytics_engineering",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/week_4_analytics_engineering/homework.md",
+        "https://eventbrite.com/e/535584366257"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 33,
+      "date": "25.02.2023 12:14:19 UTC+01:00",
+      "characters": 908,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/33",
+      "text": "Answer to office hours questions about bdt from Victoria: https://www.youtube.com/watch?v=ODYg_r72qaE\n\nRemember that you can always ask any question using this link: https://app.sli.do/event/rbNtvscFPbrjtaXeHEhhmT. We won't have live office hours next week too, so keep your questions coming and we will record another video with the answers.\n\nThe dbt homework form is due today 22:00 CET but since it's Saturday, we might accidentally forget to close it in time.\n\nIf you finished with your dbt homework, don't forget that you can also experiment with PipeRider and there's homework for it too: https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/workshops/piperider.md\n\nWe also updated the deadline calendar - shifted everything by one week: https://docs.google.com/spreadsheets/d/e/2PACX-1vSm_klXN3BzrRr7EjpEu_TDTZIQRkoEcCJriF3JdZgk6kPEHD1mxDQn8JvpEzCDpndQB-jE8red3NJj/pubhtml",
+      "links": [
+        "https://www.youtube.com/watch?v=ODYg_r72qaE",
+        "https://app.sli.do/event/rbNtvscFPbrjtaXeHEhhmT",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/workshops/piperider.md",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSm_klXN3BzrRr7EjpEu_TDTZIQRkoEcCJriF3JdZgk6kPEHD1mxDQn8JvpEzCDpndQB-jE8red3NJj/pubhtml"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 34,
+      "date": "01.03.2023 21:54:48 UTC+01:00",
+      "characters": 905,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/34",
+      "text": "Hi everyone!\n\nWe closed the form for homework 4 and updated the leaderboard. Some of you noticed that the homework this year was the same as last year - so the solution is the same (but the answers are different, we published the correct answers in the homework file)\n\nhttps://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/week_4_analytics_engineering/homework.md#solution\n\nAlso, we updated week 5 slightly:\n\nFirst, the navigation is now fixed in the week folder: https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_5_batch_processing\n\nAnd second, we finally prepared and uploaded the missing video (5.6.4) \n\nHomework for week 5: https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/week_5_batch_processing/homework.md\n\nHave fun! \n\nAnd don't forget about the PipeRider workshop - the tool is great, check it out if you haven't",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/week_4_analytics_engineering/homework.md#solution",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_5_batch_processing",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/week_5_batch_processing/homework.md"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 36,
+      "date": "13.03.2023 21:48:54 UTC+01:00",
+      "characters": 857,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/36",
+      "text": "Hi everyone!\n\nA few announcements:\n\nWe're extending the deadline for week #6 by one week - the updated deadline is the next Monday. \n\nThere are also videos that use Python for week #6, but unfortunately we had technical problems when recording the videos and the sound is not great. The subtitles for these videos are good though, so you can use them - and also check the code\n\nWe know that some of you already started working on your projects (it's a really good idea, especially if you finished week 6). The form for submitting the project is already open, you can find the link here:\n\nhttps://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/project.md\n\nAnd as always, you can ask any questions using the office hours slido link: https://app.sli.do/event/rbNtvscFPbrjtaXeHEhhmT\nWe will be recording answers to your questions soon",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/project.md",
+        "https://app.sli.do/event/rbNtvscFPbrjtaXeHEhhmT"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 40,
+      "date": "10.04.2023 22:26:12 UTC+01:00",
+      "characters": 1089,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/40",
+      "text": "Hi everyone! \n\nGreat work on the projects! Now it's time to evaluate your peers.\n\nWe've updated the page with the projects (https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/project.md), now it contains two more links:\n\n- Peer review assignments: https://docs.google.com/spreadsheets/d/e/2PACX-1vRYQ0A9C7AkRK-YPSFhqaRMmuPR97QPfl2PjI8n11l5jntc6YMHIJXVVS0GQNqAYIGwzyevyManDB08/pubhtml?gid=0&single=true \n- Evaluation form: https://forms.gle/1bxmgR8yPwV359zb7\n\nTo find the projects assigned to you, use the first link (peer review assignments) and find your hash in the first column. You will see three rows: you need to evaluate each of these projects. For each project, you need to submit the form once, so in total, you will make three submissions. \n\nUse this as an opportunity to learn from your peers - and you will learn a lot.\n\nBut also remember - if you don't do peer review, you will fail your projects. \n\nHave fun! \n\nAlso - the form for submitting project attempt #2 is open, so if you didn't have time to work on your project yet, now you can do it.",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2023/project.md",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vRYQ0A9C7AkRK-YPSFhqaRMmuPR97QPfl2PjI8n11l5jntc6YMHIJXVVS0GQNqAYIGwzyevyManDB08/pubhtml?gid=0&single=true",
+        "https://forms.gle/1bxmgR8yPwV359zb7"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 57,
+      "date": "10.01.2024 23:07:13 UTC+01:00",
+      "characters": 740,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/57",
+      "text": "Many of you ask how much time you should devote to the course. The answer we have previously given was \"it depends\". \n\nBut actually we collected some data in the past editions of the course that can give a more accurate answer\n\nHere's the dataset: https://github.com/DataTalksClub/zoomcamp-analytics/tree/main/data/de-zoomcamp-2023 (it also contains data from other courses)\n\nYou can do some analytics and then share the results with us\n\nIn this repo you can also find a notebook from Timur, our past student and teaching assistant, who did the analysis for the first edition of ML Zoomcamp. Half of his notebook is devoted to data cleaning, but actually DE Zoomcamp 2023 data is much cleaner, so most of it is not needed anymore\n\nHave fun!",
+      "links": [
+        "https://github.com/DataTalksClub/zoomcamp-analytics/tree/main/data/de-zoomcamp-2023"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 90,
+      "date": "12.03.2024 23:44:37 UTC+01:00",
+      "characters": 877,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/90",
+      "text": "The streaming homework is ready\n\nhttps://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/06-streaming/homework.md\n\nIt took some time for us to prepare it, and it messed up with your plans, so you will have quite a bit of time to complete it (the deadline will overlap with projects). We will announce the deadlines later, but if you're now on vacations, you should be able to pick it up when you come back.\n\nWe will publish the form soon too.\n\nAlso, we updated the python videos from the streaming module - now they have much better audio quality\n\nThanks Ella Sahnan and Artsiom Turevich for help with the homework and the videos. \n\nFinally, next week, we should start working on the projects. So on Monday, at 16:30 CET, we will have office hours to discuss it. You can already ask your questions here: https://app.sli.do/event/su9wCLiM9nHnCwtGBfgicX",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/06-streaming/homework.md",
+        "https://app.sli.do/event/su9wCLiM9nHnCwtGBfgicX"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 102,
+      "date": "29.04.2024 21:53:25 UTC+01:00",
+      "characters": 706,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/102",
+      "text": "We have closed the evaluation form - now the course has officially ended! Yay!\n\nCongratulations to everyone who took part - especially the 359 people who graduated. It was tough yet you made it - great work!\n\nYou can get your certificate using the instructions from here https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/certificates.md\n\nIf your certificate previously had leaderboard display name there, but you updated the certiciate name - now the pdf should be updated. \n\nIf you didn't update your certificate name - it seems you'll need to update your legal name now. Sorry, Nervous Jang, Confident Brown, Competent Brown, Inspiring Fermi, Data Engineering Zoomcamp 2024 and others.",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/certificates.md"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 122,
+      "date": "02.02.2025 16:41:09 UTC+01:00",
+      "characters": 526,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/122",
+      "text": "Update regarding the schedule:\n\n- we continue with module 2 till Wednesday \n- we start module 3 on Thursday (but you can start already now if you want) and end on Wednesday the week after \n- the workshop with dlt will happen on February 10 and then you'll have time to work on it\n\nFrom our experience, module 3 is relatively easy compared to previous ones, so you should be able to catch up with both module 3 and workshop. We don't plan to extend the deadline for module 3 to make sure you can also catch up with the workshop",
+      "links": []
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 140,
+      "date": "08.03.2025 21:39:41 UTC+01:00",
+      "characters": 496,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/140",
+      "text": "Hi everyone!\n\nThe content and the homework for module 6 are ready\n\nYou can start working on the module\n\nModule: https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/06-streaming\n\nHomework: https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2025/06-streaming/homework.md\n\n\nThe homework is based on the PyFlink stream that Zach did, so you can treat the rest of the videos in module 6 as optional\n\nHave fun and let us know in Slack if you have any problems",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/06-streaming",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2025/06-streaming/homework.md"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 141,
+      "date": "13.03.2025 11:13:01 UTC+01:00",
+      "characters": 456,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/141",
+      "text": "If you're looking for a project idea and interested in Blockchain, check this:\n\nhttps://bush-thrill-4c5.notion.site/Solana-on-chain-analytics-competition-1aa9ca5fcbe7806dbee4eb96570c10a6?pvs=4\n\nOur friend Dmitry Dremov is organizing a series of analytics competition on Solana data\n\nYou can check the past and ongoing competitions to learn more about the dataset or play with the data yourself and see if it's interesting for you to make a project about it",
+      "links": [
+        "https://bush-thrill-4c5.notion.site/Solana-on-chain-analytics-competition-1aa9ca5fcbe7806dbee4eb96570c10a6?pvs=4"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 142,
+      "date": "17.03.2025 22:30:21 UTC+01:00",
+      "characters": 471,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/142",
+      "text": "Hi everyone!\n\nWe hope you're enjoying the course! Now it's time to put everything we learned into practice \n\nWe start working on our projects\n\nHere you can find more information about it: https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/README.md\n\nYou'll find the links for submitting your projects in the course management platform (and also here: https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2025/project.md)",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/README.md",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2025/project.md"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 170,
+      "date": "09.12.2025 15:47:32 UTC+01:00",
+      "characters": 497,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/170",
+      "text": "Also, next week on Tuesday (16:30 Berlin time), I'll do a workshop on creating a deep research agent\n\nLike with any AI project, most of the work is spent on data engineering:\n\n- reliably downloading transcripts\n- ingesting them into elasticsearch\n- making the database available for the agent to use\n\nThat's what I'll focus on in the workshop - building a reliable data pipeline. But I will also show how to build the agent \n\nIf you're interested, you can sign up here: \n\nhttps://luma.com/xbfrz1zp",
+      "links": [
+        "https://luma.com/xbfrz1zp"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 186,
+      "date": "02.02.2026 10:31:55 UTC+01:00",
+      "characters": 532,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/186",
+      "text": "We start Module 3 on Data Warehousing and BigQuery\n\nReminder: the previous homework deadline is in less than 24 hours.\n\nThis module covers:\n\n🔸 Data warehouse fundamentals and BigQuery basics\n🔸 Query performance and internals (partitioning, clustering, best practices)\n🔸 Machine learning in BigQuery, including SQL for ML\n🔸 Deploying models from BigQuery using Docker\n\nLearn here: https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/03-data-warehouse\n\nWe're finalizing Homework 3 and will notify you when it's ready.",
+      "links": [
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/hw2",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/03-data-warehouse"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 191,
+      "date": "09.02.2026 08:44:24 UTC+01:00",
+      "characters": 696,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/191",
+      "text": "We start Module 4 on Analytics Engineering (dbt)\n\nReminder: the previous homework deadline is in less than 24 hours.\n\nThis module focuses on transforming warehouse data into analytical models using dbt.\n\nYou’ll build a dbt project on NYC yellow and green taxi data (2019-2020) and cover analytics engineering fundamentals, data modeling, and dbt in practice.\n\nSetup options:\n\n• Local: DuckDB + dbt Core (free, no prerequisites)\n• Cloud: BigQuery + dbt Cloud (requires Module 3)\n\n👉🏼 Materials\n\nHomework 4:\n• Homework assignment\n• Submit here\n\nDeadlone for this homework: 17 February 12 AM CET\n\nBig thanks to Juan Manuel Perafan for updating this module, originally recorded by Victoria Perez Mola!",
+      "links": [
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/hw3",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/04-analytics-engineering",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/04-analytics-engineering/homework.md",
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/hw4"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 192,
+      "date": "09.02.2026 19:24:35 UTC+01:00",
+      "characters": 840,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/192",
+      "text": "We received a few reported cases of people misusing the \"Learning in Public\" scoring. These course participants were submitting links that were not social media posts sharing their progress, but rather random links they found on the internet while researching topics.\n\nThis is against the rules. As a consequence, these two participants can no longer earn points for \"Learning in Public.\" I still want to encourage them to continue the practice because it is for their own benefit, but we are against misusing the system just for the sake of getting points. That is why the \"Learning in Public\" rewards have been disabled for them.\n\nIf you come across anyone on the leaderboard who is misusing this system by posting links that are not their personal posts about what they are learning in the course, please report it in the course channel.",
+      "links": []
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 193,
+      "date": "16.02.2026 12:36:02 UTC+01:00",
+      "characters": 846,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/193",
+      "text": "This week, we're starting Module 5: Data Platforms.\n\nReminder: the previous homework deadline is in less than 24 hours\n\nIn this module, you'll learn how modern data platforms manage the full data lifecycle, from ingestion to transformation, orchestration, data quality, and metadata.\n\nWe'll use Bruin as a practical example of a unified data platform. You'll install it, create a project, and build an end-to-end pipeline using NYC taxi data with a three-layer architecture: ingestion, staging, and reporting.\n\nYou'll also set up connections, configure pipelines in YAML, run Python and SQL assets, and see how orchestration and data quality fit into a single workflow.\n\nHomework:\n\n• Homework 5\n• Deadline: 1st March, 12:00 AM CET\n\n🎁 Bonus: Bruin is offering a Claude Pro subscription to participants who complete their final project using Bruin.",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/05-data-platforms",
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/hw4",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/05-data-platforms/homework.md",
+        "https://getbruin.com/zoomcamp-project/"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 194,
+      "date": "16.02.2026 14:47:18 UTC+01:00",
+      "characters": 805,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/194",
+      "text": "Reminder: tomorrow we’re running a hands-on workshop on AI-Assisted Data Ingestion with dlt as part of the Data Engineering Zoomcamp.\n\nDate: Tuesday, February 17\nTime: 4:30 PM CET\nPlace: Live on YouTube\n\nJoin Aashish Nair, who’ll lead the session, to build a reliable ingestion pipeline into a data warehouse (for example, Snowflake) using dlt from dltHub.\n\nWe’ll go through:\n\n• Extracting data from APIs, files, and databases\n• Normalizing it into consistent schemas\n• Writing it to a warehouse\n• Using LLMs to accelerate pipeline development\n• Validating data and schema changes with the dlt dashboard and dlt MCP\n\nBy the end, you’ll understand how to design maintainable ingestion pipelines and use AI and validation tools to build them faster.\n\nRegister to get the join link:\nhttps://luma.com/hzis1yzp",
+      "links": [
+        "https://luma.com/hzis1yzp"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 197,
+      "date": "23.02.2026 09:37:15 UTC+01:00",
+      "characters": 467,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/197",
+      "text": "This week, we continue working on Module 5: Data Platforms.\n\nIn this module, you'll learn how modern data platforms handle the data lifecycle, including ingestion, transformation, orchestration, and data quality.\n\nUsing Bruin as a practical example, you'll install the platform, create a project, and build an end-to-end pipeline with NYC taxi data. The pipeline will include three layers: ingestion, staging, and reporting.\n\nYou can submit Homework 5 before March 1.",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/05-data-platforms",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/05-data-platforms/homework.md"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 206,
+      "date": "02.03.2026 09:39:20 UTC+01:00",
+      "characters": 767,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/206",
+      "text": "This week, we're starting Module 6: Batch Processing.\n\nReminder: the previous homework deadline is in less than 24 hours.\n\nIn this module, you'll learn how batch processing works with Spark and PySpark.\n\nYou'll cover:\n\n• Batch processing fundamentals and Spark basics\n• Installing and running Spark locally or in Colab\n• Working with Spark SQL and DataFrames\n• Handling schemas and processing NYC taxi data\n• How Spark clusters, joins, and groupBy work internally\n• Running Spark in the cloud with Dataproc and BigQuery\n\nHomework deadline: 10 March, 12 AM CET\n\nWe also recently had a workshop with dlt on AI-assisted data ingestion. Watch the recording and check out the code if you missed it. Practice what you learned in the homework assignment, and submit it here.",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/06-batch",
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/hw5",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/workshops/dlt.md",
+        "https://www.youtube.com/live/5eMytPBgmVs?si=3rMgVMysx0KUPUAz",
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2026/workshops/dlt/dlt_homework.md",
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/dlt"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 210,
+      "date": "09.03.2026 13:11:56 UTC+01:00",
+      "characters": 770,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/210",
+      "text": "We're starting module 7 on stream processing.\n\nReminder: the previous homework deadline is in less than 24 hours.\n\nThe materials were created by Zach Wilson, who ran a Flink stream for the course last year. Alexey recorded an updated Apache Flink workshop to reflect support for Flink 2.x and modern Python versions (3.12, 3.9, 3.8).\n\nIt covers:\n\n• Streaming fundamentals in Data Engineering Zoomcamp\n• Kafka/Redpanda, Python producers and consumers\n• Writing streaming events to PostgreSQL\n• Apache Flink setup with Docker\n• Flink jobs for stream processing\n• Windowing, watermarks, and late events\n• Real-time aggregations with Flink\n\nHomework deadline: 17 March, 12 AM CET\n\nLearn here: https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/07-streaming",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/07-streaming",
+        "https://courses.datatalks.club/de-zoomcamp-2026/homework/hw6"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 212,
+      "date": "16.03.2026 10:33:46 UTC+01:00",
+      "characters": 555,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/212",
+      "text": "It’s time to apply everything from the course.\n\nBuild your final project with a complete end-to-end data pipeline.\n\nIt takes you through the full workflow:\n\n🔸 Choose a dataset you’re interested in\n🔸 Build a pipeline to ingest data into a data lake\n🔸 Move the data to a data warehouse\n🔸 Transform the data to prepare it for analysis\n🔸 Build a dashboard to visualize the results\n\n🎥 Watch the Projects how-to video for the full walkthrough and start building.\n\n🏆 Tip: Use Bruin in your project to participate in the competition and win prizes. Details below.",
+      "links": [
+        "https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/projects",
+        "https://getbruin.com/zoomcamp-project/"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 213,
+      "date": "16.03.2026 10:33:48 UTC+01:00",
+      "characters": 516,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/213",
+      "text": "Build your project using Bruin for ingestion, transformation, orchestration, and analysis, share it with the community, and compete for prizes.\n\nPrizes:\n\n🔸 Mac Mini for an outstanding project\n🔸 1 year Claude Pro for the top 3 projects\n🔸 1 month Claude Pro for participants\n\nTo participate:\n\n🔸 Build your Zoomcamp project using Bruin\n🔸 Publish it on GitHub with a README\n🔸 Share it in #projects on Slack\n\nWinners will be determined by community votes on Slack.\n\nLearn more here: https://getbruin.com/zoomcamp-project/",
+      "links": [
+        "",
+        "https://getbruin.com/zoomcamp-project/"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 214,
+      "date": "30.03.2026 20:12:50 UTC+01:00",
+      "characters": 591,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/214",
+      "text": "A quick update: the Bruin project competition is now open to everyone!\n\nThis means your submission does not have to be the same as your Zoomcamp final project.\n\nEven if you are not participating in the course, or if you are using other tech for your Zoomcamp final project, you can still build a separate project with Bruin, submit it to the competition, and compete for prizes.\n\nPrizes:\n\n🔸 Mac Mini for an outstanding project\n🔸 1 year Claude Pro for the top 3 projects\n🔸 1 month Claude Pro for participants\n\nDeadline: Monday, June 1st, 12:00 UTC\n\nMore details here: getbruin.com/competition",
+      "links": [
+        "https://getbruin.com/competition"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 216,
+      "date": "11.04.2026 09:18:37 UTC+01:00",
+      "characters": 595,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/216",
+      "text": "We have just scored project attempt 1\n\nCongratulations to the 269 course participants who passed it! We will release the certificates for you later along with the second batch\n\nIf you haven't passed it, you can improve it and submit one more time\n\nNote that if you did pass the project, submitting it again (even with improvements) is considered self-plagiarism. Please don't do it. But you can submit another project if you want \n\nAlso if you haven't made a submission for attempt 1, attempt 2 is still open:\n\nhttps://courses.datatalks.club/de-zoomcamp-2026/project/project2\n\nHave fun building!",
+      "links": [
+        "https://courses.datatalks.club/de-zoomcamp-2026/project/project2"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 220,
+      "date": "30.04.2026 21:30:31 UTC+01:00",
+      "characters": 464,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/220",
+      "text": "Some of you forgot to submit the project, and some of you forgot to do peer reviews. I see from Telegram and Slack that there are quite a few of you in this situation.\n\nFor those who already have a project but haven't submitted it yet, we have opened a third attempt.\n\nIt has a very strict deadline, so you won't have time to develop a new project. You can only submit the existing one.\n\nhttps://courses.datatalks.club/de-zoomcamp-2026/project/project3\n\nGood luck!",
+      "links": [
+        "https://courses.datatalks.club/de-zoomcamp-2026/project/project3"
+      ]
+    },
+    {
+      "course": "de-zoomcamp",
+      "channel": "Data Engineering Zoomcamp",
+      "exported_sender": "Data Engineering Zoomcamp",
+      "human_author": "unverified",
+      "message_id": 225,
+      "date": "20.05.2026 09:15:28 UTC+01:00",
+      "characters": 802,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (3)/messages.html",
+      "public_url": "https://t.me/dezoomcamp/225",
+      "text": "The Data Engineering Zoomcamp 2026 has officially wrapped up!\n\nYou had 3 chances to submit your final project and review 3 peers.\n\nCongratulations to the 581 participants who successfully completed the course and earned their certificates!\n\nIf you're one of the graduates, you can find your well-deserved certificate in your course enrollment profile. We encourage you to celebrate this milestone by sharing it on LinkedIn!\n\nThank you goes out to everyone who joined us on this journey. We understand that not everyone was able to finish the course this time, and that’s perfectly fine. You’ll have another opportunity to complete it in a new cohort next year.\n\nThank you all for contributing to the learning experience of this course and DataTalks.Club community overall. We appreciate your hard work!",
+      "links": [
+        "https://courses.datatalks.club/de-zoomcamp-2026/"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 110,
+      "date": "03.08.2023 11:09:08 UTC+01:00",
+      "characters": 787,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/110",
+      "text": "Hello everyone!\n\nGreat work on your projects! We have closed the form for submitting your first project attempt. Now it's time to learn from your peers! \n\nHere's the link to the projects you need to review: https://docs.google.com/spreadsheets/d/e/2PACX-1vTAztxXsLidZV8I18gL9_qtJpxhyvyhJsEeXrP3kFyZoauGgR-S4p6b7H5yJ9kdTbUE5wAAvZgTTZ49/pubhtml?gid=0&single=true\n\nFind your hash in the first column (reviewer_hash) and evaluate each project assigned for you. \n\nSubmit the results using this form: https://docs.google.com/forms/d/e/1FAIpQLScFmMWmeew-FxUXSNa_1NMdypjXps6bcploDonSZ9iKJk13vA/viewform (one form submission for each project)\n\nYou can find all the links here: https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2023/07-project/README.md#project-cohort-1\n\nHave fun!",
+      "links": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTAztxXsLidZV8I18gL9_qtJpxhyvyhJsEeXrP3kFyZoauGgR-S4p6b7H5yJ9kdTbUE5wAAvZgTTZ49/pubhtml?gid=0&single=true",
+        "https://docs.google.com/forms/d/e/1FAIpQLScFmMWmeew-FxUXSNa_1NMdypjXps6bcploDonSZ9iKJk13vA/viewform",
+        "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2023/07-project/README.md#project-cohort-1"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 114,
+      "date": "01.09.2023 22:35:01 UTC+01:00",
+      "characters": 711,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/114",
+      "text": "And now we finished the second project attempt - and the course! Congrats to 56 more graduates of the course! \n\nYou can get feedback for your projects here: https://docs.google.com/spreadsheets/d/e/2PACX-1vTS8Mlu6sWyu6JinFUftUl6OB5mxXlwGT2icIyQCSbhDDmW36WWyAbv2dCFJhng6Nln0o3cwvTchjcU/pubhtml?gid=546664034&single=true\n\nAs previously, you can read how to access your certificate here: https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/certificate.md\n\nAnd the scores for your projects are available on the leaderboard: https://docs.google.com/spreadsheets/d/e/2PACX-1vTHTc2eDorvcprX3SRd_ZejSnOjd7SUBlmr7ttYs9NsbS3G9szB9wMlMfCOLVL5XWCB0p8oaDOfffaZ/pubhtml\n\nThanks everyone for being a part of this course!",
+      "links": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTS8Mlu6sWyu6JinFUftUl6OB5mxXlwGT2icIyQCSbhDDmW36WWyAbv2dCFJhng6Nln0o3cwvTchjcU/pubhtml?gid=546664034&single=true",
+        "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/certificate.md",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vTHTc2eDorvcprX3SRd_ZejSnOjd7SUBlmr7ttYs9NsbS3G9szB9wMlMfCOLVL5XWCB0p8oaDOfffaZ/pubhtml"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 130,
+      "date": "03.06.2024 16:01:37 UTC+01:00",
+      "characters": 827,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/130",
+      "text": "Thanks for joining the chat today and sharing feedback about the module 3 so far (Thanks Ella for organizing it!)\n\nA few things:\n\n- Don't forget to join office hours later today (check the previous announcements)\n- We extend the deadline for homework 3 till the end of this week, we start module 4 next week\n- We recorded a video that shows how to run mage with docker-compose on Windows (should also work on other OS): https://www.loom.com/share/34d2debf4e0b4713bc0e9dcc178adfd6\n- If you have problems with Homework 3 Q6, we will record a video showing how to solve it after the deadline. For now you can just submit Q1-Q5 \n- We will also record a few other videos - one which talks about orchestration in general, and another - how to run Mage on codespaces. We will put the videos to the course repo and also share them here",
+      "links": [
+        "https://www.loom.com/share/34d2debf4e0b4713bc0e9dcc178adfd6"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 163,
+      "date": "26.05.2025 11:15:07 UTC+01:00",
+      "characters": 962,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/163",
+      "text": "We’re preparing a new MLOps competition!\n\nJoin us for a live preview session with Alexander Guschin and Alexey Grigorev to show you what this new MLOps Zoomcamp challenge is about.\n\nDate: Tuesday, June 10\nTime: 5:00 PM CET\nRegister here: https://lu.ma/bc9hdw61\n\nIn this session, you’ll learn how the competition works, what you’ll build, and how to get started. You’ll deploy your own ML model, receive real-time requests, monitor metrics like uptime and latency, and track performance, just like in a real-world project.\n\nHere’s what we’ll cover:\n\n- What the challenge is and how to join\n- What your model needs to do\n- How to use the platform to deploy and evaluate it\n- Tips and tricks from the instructors\n\nBring your questions, we’ll answer them live.\n\nAbout the hosts:\n\n- Alexander Guschin is Kaggle Grandmaster (#5 in the world!), ML engineer, and teacher to 100K+ students.\n- Alexey Grigorev is the creator of MLOps Zoomcamp and founder of DataTalks.Club",
+      "links": [
+        "https://lu.ma/bc9hdw61"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 168,
+      "date": "16.06.2025 13:09:02 UTC+01:00",
+      "characters": 592,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/168",
+      "text": "We’re starting Module 5: Model Monitoring\n\nThis module covers:\n\n- Monitoring ML-based services\n- Web service monitoring with Evidently\n- Batch job monitoring with Evidently\n\nHere’s what to do for this week:\n\n1. Go through the module:\nhttps://github.com/DataTalksClub/mlops-zoomcamp/tree/main/05-monitoring\n2. Watch the videos\n3. Explore the notebooks and examples\n4. Do the homework: https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/05-monitoring/homework.md\n5. Submit it here: https://courses.datatalks.club/mlops-zoomcamp-2025/\n\nDeadline: 24 June, 1 AM CET\n\nGood luck!",
+      "links": [
+        "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/05-monitoring",
+        "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/05-monitoring/homework.md",
+        "https://courses.datatalks.club/mlops-zoomcamp-2025/"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 169,
+      "date": "23.06.2025 11:01:52 UTC+01:00",
+      "characters": 628,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/169",
+      "text": "We’re starting Module 6: Best Practices\n\nThis module covers:\n\n- Unit and integration testing\n- Linting, formatting, and pre-commit hooks\n- CI/CD with GitHub Actions\n- Infrastructure as Code (Terraform)\n\nHere’s what to do for this week:\n\n1. Go through the module: https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/06-best-practices\n2. Watch the videos\n3. Explore the notebooks and examples\n4. Do the homework: https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/06-best-practices/homework.md\n5. Submit it here: https://courses.datatalks.club/mlops-zoomcamp-2025/\n\nDeadline: 1 July, 1 AM CET\n\nGood luck!",
+      "links": [
+        "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/06-best-practices",
+        "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/06-best-practices/homework.md",
+        "https://courses.datatalks.club/mlops-zoomcamp-2025/"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 170,
+      "date": "24.06.2025 09:02:46 UTC+01:00",
+      "characters": 1013,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/170",
+      "text": "MLOps Zoomcamp 2025 Competition is live\n\nWe are excited to announce the MLOps Zoomcamp 2025 Competition, where you can put your MLOps skills to the test.\n\nCompetition Overview\n\n- Purpose: Reinforce course concepts by building and operating a complete ML system.\n- Format: Individual challenge; choose one of two project tracks.\n\nProject Tracks\n\n- Track 1: Impostor Bot\nDevelop a chatbot that interacts in a group chat and is assessed on whether it can be distinguished from a human.\n\n- Track 2: Bot Detector\nBuild an automated classifier to label chat participants as “bot” or “human.”\n\nBenefits\n\nAll Zoomcamp students who submit a valid project earn extra points toward their final grade.\n\nYou’ll also have a complete, documented ML system you can reference in interviews.\n\nHow to Participate\n\nFind all the details in this README file: https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2025/competition\n\n- Select your track\n- Check getting started resources\n- Ask questions\n- Submit your solution",
+      "links": [
+        "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2025/competition"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 171,
+      "date": "01.07.2025 11:40:37 UTC+01:00",
+      "characters": 908,
+      "selection": "long",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/171",
+      "text": "Time to build your Final Project!\n\nIt’s your turn to put everything you’ve learned in MLOps Zoomcamp into practice.\n\nWe’re launching the first attempt for the Final Project!\n\nYou’ll build an end-to-end ML project:\n\n- Choose a dataset you're interested in\n- Train a model and track experiments\n- Create a model training pipeline\n- Deploy it (batch, web service, or streaming)\n- Monitor performance\n- Follow best practices\n\nUseful links:\n\n- Project requirements:\nhttps://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project\n- Where to submit:\nhttps://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/project.md\n- More info on the course platform: https://courses.datatalks.club/mlops-zoomcamp-2025/project/project1\n- Check past projects from the 2024 cohort if you need some inspiration: https://courses.datatalks.club/mlops-zoomcamp-2024/projects\n\nGood luck! Let’s see what you’ll build!",
+      "links": [
+        "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project",
+        "https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/project.md",
+        "https://courses.datatalks.club/mlops-zoomcamp-2025/project/project1",
+        "https://courses.datatalks.club/mlops-zoomcamp-2024/projects"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 174,
+      "date": "16.07.2025 15:36:53 UTC+01:00",
+      "characters": 487,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/174",
+      "text": "We closed the form for submitting project attempt 1\n\nNow it's time to learn from your peers and also evaluate their projects \n\nIf you submitted the project, you'll find your review assignments here\n\nhttps://courses.datatalks.club/mlops-zoomcamp-2025/project/project1/eval\n\nIf you didn't, don't worry, there's enough time to submit for attempt 2\n\nHere you can find more information about project evaluation \n\nhttps://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project\n\nHave fun!",
+      "links": [
+        "https://courses.datatalks.club/mlops-zoomcamp-2025/project/project1/eval",
+        "https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project"
+      ]
+    },
+    {
+      "course": "mlops-zoomcamp",
+      "channel": "MLOps Zoomcamp announcements",
+      "exported_sender": "MLOps Zoomcamp announcements",
+      "human_author": "unverified",
+      "message_id": 186,
+      "date": "21.08.2025 07:34:30 UTC+01:00",
+      "characters": 461,
+      "selection": "recent-medium",
+      "source_file": "ChatExport_2026-10-10 (4)/messages.html",
+      "public_url": "https://t.me/dtc_courses/186",
+      "text": "Great work on your projects!\n\nNow it's time to evaluate your peers and learn from them \n\nYou will find your review assignments here: https://courses.datatalks.club/mlops-zoomcamp-2025/project/project3/eval\n\nAlso don't forget to update your certificate name: https://courses.datatalks.club/mlops-zoomcamp-2025/enrollment\n\nIf you don't do it, we won't regenerate your certificates after the next certificate batch (will happen after the peer review stage is over)",
+      "links": [
+        "https://courses.datatalks.club/mlops-zoomcamp-2025/project/project3/eval",
+        "https://courses.datatalks.club/mlops-zoomcamp-2025/enrollment"
+      ]
+    }
+  ]
+}
