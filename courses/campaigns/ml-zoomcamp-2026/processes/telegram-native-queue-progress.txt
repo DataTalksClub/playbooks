@@ -1,0 +1,518 @@
+
+				49 container
+					50 container
+						51 button Back
+						52 heading 22 messages, Value: 3
+							53 text 22 messages
+					54 button More actions
+					55 container
+						56 text Scheduled for October 11
+						57 container message-19
+							58 container
+								59 text ML Zoomcamp 2026 is on Module 3: Machine Learning for Classification.
+								60 text In this module, we build a customer churn model with logistic regression and study one-hot encoding, feature importance, and model interpretation.
+								61 text Materials:
+								62 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification
+								63 text Homework 3 uses the 2026 lead-scoring dataset to predict whether a client signs up for the platform. Submit your answers before the deadline:
+								64 text October 13, 2026 at  01:00 CEST (October 12 at  23:00 UTC).
+								65 text Homework:
+								66 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/03-classification/homework.md, Value: github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/03-classification/homework.md
+								67 text Submit:
+								68 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw03, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw03
+								69 text Module 4 covers evaluation metrics for classification.
+								70 text Questions go in the course Slack channel:
+								71 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								72 container
+									73 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification
+									74 text machine-learning-zoomcamp/03-classification at main · DataTalksClub/machine-learning-zoomcamp
+									75 container
+										76 text Learn ML engineering for free in 4 months! Register here 
+										77 image 👇🏼
+										78 text - DataTalksClub/machine-learning-zoomcamp
+									79 image
+									80 image
+								81 text 09:00
+								82 image
+						83 text Scheduled for October 12
+						84 container message-20
+							85 container
+								86 text We start Module 4 on Evaluation Metrics for Classification.
+								87 text Once you have a classification model, you need to know how well it performs. Accuracy alone can be misleading, especially when classes are imbalanced. With the right metrics, you can compare models and report performance you can trust.
+								88 text We cover:
+								89 text - Accuracy, precision, recall, and F1 score
+								90 text - Confusion matrices
+								91 text - ROC curves and AUC
+								92 text - Cross-validation
+								93 text - Comparing against a dummy baseline
+								94 text Materials:
+								95 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/04-evaluation, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/04-evaluation
+								96 text Homework 4 evaluates models on the 2026 lead-scoring dataset.
+								97 text Homework:
+								98 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/04-evaluation/homework.md, Value: github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/04-evaluation/homework.md
+								99 text Submit:
+								100 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw04
+								101 text Deadline: October 20, 2026 at  01:00 CEST (October 19 at  23:00 UTC).
+								102 text Next week, Module 5 covers deploying machine learning models.
+								103 text Questions go in the course Slack channel:
+								104 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								105 container
+									106 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/04-evaluation, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/04-evaluation
+									107 text machine-learning-zoomcamp/04-evaluation at main · DataTalksClub/machine-learning-zoomcamp
+									108 container
+										109 text Learn ML engineering for free in 4 months! Register here 
+										110 image 👇🏼
+										111 text - DataTalksClub/machine-learning-zoomcamp
+									112 image
+									113 image
+								114 text 09:00
+								115 button Show AI Summary
+								116 image
+						117 text Scheduled for October 18
+						118 container message-21
+							119 container
+								120 text Homework 4 for ML Zoomcamp 2026 is due soon.
+								121 text Submit your answers before the deadline:
+								122 text October 20, 2026 at  01:00 CEST (October 19 at  23:00 UTC).
+								123 text Submit:
+								124 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw04
+								125 text Questions go in the course Slack channel:
+								126 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								127 text 09:00
+								128 image
+						129 text Scheduled for October 19
+						130 container message-22
+							131 container
+								132 text We start Module 5 on Deploying Machine Learning Models.
+								133 text In this module, we turn a trained model into a web service that other applications can call.
+								134 text We cover:
+								135 text - Saving and loading trained models
+								136 text - Moving from a notebook to scripts
+								137 text - Serving predictions with FastAPI and Pydantic
+								138 text - Managing the environment with uv
+								139 text - Packaging the service with Docker
+								140 text - Deploying to the cloud
+								141 text Parts of the original module are outdated. Watch the theory videos, then use the FastAPI and uv workshop for the current setup.
+								142 text Materials:
+								143 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment
+								144 text Workshop:
+								145 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment/workshop, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment/workshop
+								146 text Homework 5 asks you to serve a lead-scoring model as an API and package it in a container.
+								147 text Homework:
+								148 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/05-deployment/homework.md, Value: github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/05-deployment/homework.md
+								149 text Submit:
+								150 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw05
+								151 text Deadline: October 27, 2026 at  00:00 CET (October 26 at  23:00 UTC).
+								152 text Next week, Module 6 covers decision trees and ensemble learning.
+								153 text Questions go in the course Slack channel:
+								154 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								155 container
+									156 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment
+									157 text machine-learning-zoomcamp/05-deployment at main · DataTalksClub/machine-learning-zoomcamp
+									158 container
+										159 text Learn ML engineering for free in 4 months! Register here 
+										160 image 👇🏼
+										161 text - DataTalksClub/machine-learning-zoomcamp
+									162 image
+								163 text 09:00
+								164 button Show AI Summary
+								165 image
+						166 text Scheduled for October 25
+						167 container message-23
+							168 container
+								169 text Homework 5 for ML Zoomcamp 2026 is due soon.
+								170 text Submit your answers before the deadline:
+								171 text October 27, 2026 at  00:00 CET (October 26 at  23:00 UTC).
+								172 text Submit:
+								173 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw05
+								174 text Questions go in the course Slack channel:
+								175 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								176 text 09:00
+								177 image
+						178 text Scheduled for October 26
+						179 container message-24
+							180 container
+								181 text We start Module 6 on Decision Trees and Ensemble Learning.
+								182 text Linear models are a good start, but tree-based models often work better on tabular data. In this module, we build a credit risk scoring model and combine many trees into stronger models.
+								183 text We cover:
+								184 text - How we train decision trees
+								185 text - Random forests
+								186 text - Gradient boosting with XGBoost
+								187 text - Hyperparameter tuning
+								188 text - Feature importance
+								189 text - Selecting the best model
+								190 text Materials:
+								191 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees
+								192 text Homework 6 applies tree-based models to the 2026 Car Fuel Efficiency dataset.
+								193 text Homework:
+								194 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/06-trees/homework.md, Value: github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/06-trees/homework.md
+								195 text Submit:
+								196 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw06
+								197 text Deadline: November 3, 2026 at  00:00 CET (November 2 at  23:00 UTC).
+								198 text After this module, we start the midterm project.
+								199 text Questions go in the course Slack channel:
+								200 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								201 container
+									202 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees
+									203 text machine-learning-zoomcamp/06-trees at main · DataTalksClub/machine-learning-zoomcamp
+									204 container
+										205 text Learn ML engineering for free in 4 months! Register here 
+										206 image 👇🏼
+										207 text - DataTalksClub/machine-learning-zoomcamp
+									208 image
+									209 image
+								210 text 09:00
+								211 image
+						212 text Scheduled for November 1
+						213 container message-25
+							214 container
+								215 text Homework 6 for ML Zoomcamp 2026 is due soon.
+								216 text Submit your answers before the deadline:
+								217 text November 3, 2026 at  00:00 CET (November 2 at  23:00 UTC).
+								218 text Submit:
+								219 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw06
+								220 text Questions go in the course Slack channel:
+								221 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								222 text 09:00
+								223 image
+						224 text Scheduled for November 2
+						225 container message-26
+							226 container
+								227 text We start the midterm project.
+								228 text For the next two weeks, you apply everything from Modules 1 to 6 to a problem of your choice. You pick a dataset, train and evaluate a model, and deploy it as a web service.
+								229 text The project should include:
+								230 text - A problem description and how the model will be used
+								231 text - Data preparation and EDA with feature importance analysis
+								232 text - Several trained and tuned models, and the one you selected
+								233 text - A training script and a prediction service exported from the notebook
+								234 text - Dependency and environment files, and a Dockerfile
+								235 text - A deployed model, or a video or screenshot of the running service
+								236 text Use a new public dataset. Datasets from the lectures and homework don't count.
+								237 text Project guidelines:
+								238 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects
+								239 text Evaluation criteria:
+								240 link Description: https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml, Value: docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml
+								241 text Submit:
+								242 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/midterm, Value: courses.datatalks.club/ml-zoomcamp-2026/project/midterm
+								243 text Submission deadline: November 17, 2026 at  00:00 CET (November 16 at  23:00 UTC).
+								244 text Peer review deadline: November 24, 2026 at  00:00 CET (November 23 at  23:00 UTC).
+								245 text After you submit, you review three projects from other learners. Skipping the peer reviews fails the project.
+								246 text Certificate requirements:
+								247 link Description: https://datatalks.club/docs/courses/zoomcamp-logistics/certification/, Value: datatalks.club/docs/courses/zoomcamp-logistics/certification/
+								248 text After the midterm, Module 8 covers neural networks and deep learning.
+								249 text Questions go in the course Slack channel:
+								250 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								251 container
+									252 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects
+									253 text machine-learning-zoomcamp/projects at main · DataTalksClub/machine-learning-zoomcamp
+									254 container
+										255 text Learn ML engineering for free in 4 months! Register here 
+										256 image 👇🏼
+										257 text - DataTalksClub/machine-learning-zoomcamp
+									258 image
+								259 text 09:00
+								260 button Show AI Summary
+								261 image
+						262 text Scheduled for November 15
+						263 container message-27
+							264 container
+								265 text ML Zoomcamp 2026: Midterm Project submission deadline is approaching.
+								266 text Submit your project repository before the deadline.
+								267 text Deadline: November 17, 2026 at  00:00 CET (November 16 at  23:00 UTC).
+								268 text Project page:
+								269 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/midterm, Value: courses.datatalks.club/ml-zoomcamp-2026/project/midterm
+								270 text Questions go in the course Slack channel:
+								271 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								272 text 09:00
+								273 image
+						274 text Scheduled for November 22
+						275 container message-28
+							276 container
+								277 text ML Zoomcamp 2026: Midterm Project peer review deadline is approaching.
+								278 text Complete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.
+								279 text Deadline: November 24, 2026 at  00:00 CET (November 23 at  23:00 UTC).
+								280 text Project page:
+								281 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/midterm, Value: courses.datatalks.club/ml-zoomcamp-2026/project/midterm
+								282 text Questions go in the course Slack channel:
+								283 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								284 text 09:00
+								285 image
+						286 text Scheduled for November 23
+						287 container message-29
+							288 container
+								289 text We start Module 8 on Neural Networks and Deep Learning.
+								290 text So far, we have worked with tabular data. In this module, we move to images and train neural networks that classify clothing photos.
+								291 text We cover:
+								292 text - Neural network fundamentals
+								293 text - PyTorch, TensorFlow, and Keras
+								294 text - Convolutional neural networks
+								295 text - Transfer learning
+								296 text - Learning rate tuning and checkpointing
+								297 text - Regularization, dropout, and data augmentation
+								298 text The main theory is in the TensorFlow and Keras videos. For PyTorch, use the re-recorded PyTorch materials.
+								299 text Materials:
+								300 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning
+								301 text PyTorch materials:
+								302 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning/pytorch, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning/pytorch
+								303 text Homework 8 asks you to build a small PyTorch model that classifies curly and straight hair.
+								304 text Homework:
+								305 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/08-deep-learning/homework.md, Value: github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/08-deep-learning/homework.md
+								306 text Submit:
+								307 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw08
+								308 text Deadline: December 1, 2026 at  00:00 CET (November 30 at  23:00 UTC).
+								309 text Next week, Module 9 covers serverless deep learning.
+								310 text Questions go in the course Slack channel:
+								311 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								312 container
+									313 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning
+									314 text machine-learning-zoomcamp/08-deep-learning at main · DataTalksClub/machine-learning-zoomcamp
+									315 container
+										316 text Learn ML engineering for free in 4 months! Register here 
+										317 image 👇🏼
+										318 text - DataTalksClub/machine-learning-zoomcamp
+									319 image
+								320 text 09:00
+								321 button Show AI Summary
+								322 image
+						323 text Scheduled for November 29
+						324 container message-30
+							325 container
+								326 text Homework 8 for ML Zoomcamp 2026 is due soon.
+								327 text Submit your answers before the deadline:
+								328 text December 1, 2026 at  00:00 CET (November 30 at  23:00 UTC).
+								329 text Submit:
+								330 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08, Value: courses.datatalks.club/ml-zoomcamp-2026/homework/hw08
+								331 text Questions go in the course Slack channel:
+								332 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: app.slack.com/client/T01ATQK62F8/C0288NJ5XSA
+								333 text 09:00
+								334 image
+						335 text Scheduled for November 30
+						336 container message-31
+							337 container
+								338 text We start Module 9 on Serverless Deep Learning.
+								339 text Once you have a deep learning model, you need a way to serve it without running a server all the time. In this module, we deploy models with AWS Lambda.
+								340 text We cover:
+								341 text - How serverless deployment works
+								342 text - Deploying models with AWS Lambda
+								343 text - Running models with ONNX Runtime
+								344 text - Exposing Lambda functions through API Gateway
+								345 text Use the workshop for most of this module. In the original module, units 9.1, 9.2, and 9.7 are still useful. Units 9.3 to 9.6 are outdated.
+								346 text Materials:
+								347 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless
+								348 text Workshop:
+								349 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless/workshop, Value: github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless/workshop
+								350 text Homework 9 asks you to package the hair classifier from Homework 8 for AWS Lambda.
+								351 text Homework:
+								352 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/09-serverless/homework.md, Value: github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/09-serverless/homework.md
+								353 text Submit:
+								354 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09, Value: …
+								355 text Deadline: December 8, 2026 at  00:00 CET (December 7 at  23:00 UTC).
+								356 text Next week, Module 10 covers Kubernetes and TensorFlow Serving.
+								357 text Questions go in the course Slack channel:
+								358 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								359 container
+									360 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless, Value: …
+									361 text machine-learning-zoomcamp/09-serverless at main · DataTalksClub/machine-learning-zoomcamp
+									362 container
+										363 text Learn ML engineering for free in 4 months! Register here 
+										364 image 👇🏼
+										365 text - DataTalksClub/machine-learning-zoomcamp
+									366 image
+								367 text 09:00
+								368 button Show AI Summary
+								369 image
+						370 text Scheduled for December 6
+						371 container message-32
+							372 container
+								373 text Homework 9 for ML Zoomcamp 2026 is due soon.
+								374 text Submit your answers before the deadline:
+								375 text December 8, 2026 at  00:00 CET (December 7 at  23:00 UTC).
+								376 text Submit:
+								377 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09, Value: …
+								378 text Questions go in the course Slack channel:
+								379 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								380 text 09:00
+								381 image
+						382 text Scheduled for December 7
+						383 container message-33
+							384 container
+								385 text We start Module 10 on Kubernetes and TensorFlow Serving.
+								386 text When a model needs to handle more traffic, you need a way to run and scale it reliably. In this module, we serve models with TensorFlow Serving and deploy them to Kubernetes.
+								387 text We cover:
+								388 text - Core Kubernetes concepts for model deployment
+								389 text - Serving models with TensorFlow Serving
+								390 text - A separate pre-processing service
+								391 text - Local testing with Docker Compose
+								392 text - Scaling and load balancing
+								393 text - Deploying to EKS
+								394 text Parts of the original module are outdated, so use the workshop. Lessons 10.5 and 10.8 are still useful.
+								395 text Materials:
+								396 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes, Value: …
+								397 text Workshop:
+								398 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes/workshop, Value: …
+								399 text Homework 10 asks you to deploy the lead-scoring API from Homework 5 to a local Kubernetes cluster with kind.
+								400 text Homework:
+								401 link Value: …, Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/10-kubernetes/homework.md
+								402 text Submit:
+								403 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10, Value: …
+								404 text Deadline: December 15, 2026 at  00:00 CET (December 14 at  23:00 UTC).
+								405 text This is the last module with homework. After it, we move to the capstone projects.
+								406 text Questions go in the course Slack channel:
+								407 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								408 container
+									409 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes, Value: …
+									410 text machine-learning-zoomcamp/10-kubernetes at main · DataTalksClub/machine-learning-zoomcamp
+									411 container
+										412 text Learn ML engineering for free in 4 months! Register here 
+										413 image 👇🏼
+										414 text - DataTalksClub/machine-learning-zoomcamp
+									415 image
+								416 text 09:00
+								417 button Show AI Summary
+								418 image
+						419 text Scheduled for December 13
+						420 container message-34
+							421 container
+								422 text Homework 10 for ML Zoomcamp 2026 is due soon.
+								423 text Submit your answers before the deadline:
+								424 text December 15, 2026 at  00:00 CET (December 14 at  23:00 UTC).
+								425 text Submit:
+								426 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10, Value: …
+								427 text Questions go in the course Slack channel:
+								428 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								429 text 09:00
+								430 image
+						431 text Scheduled for December 14
+						432 container message-35
+							433 container
+								434 text We start the capstone projects.
+								435 text You have now covered the full path from framing a problem to serving a model on Kubernetes. The capstone is where you apply it to a larger end-to-end project of your choice.
+								436 text There are two capstone windows.
+								437 text Certificate requirements:
+								438 link Description: https://datatalks.club/docs/courses/zoomcamp-logistics/certification/, Value: …
+								439 text The requirements are the same as for the midterm:
+								440 text - A new public dataset, not one from the lectures or homework
+								441 text - Data preparation, EDA, and feature importance analysis
+								442 text - Several trained and tuned models, and the one you selected
+								443 text - A training script and a prediction service
+								444 text - Dependency and environment files, and a Dockerfile
+								445 text - A deployed model, or a video or screenshot of the running service
+								446 text Project guidelines:
+								447 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects, Value: …
+								448 text Evaluation criteria:
+								449 link Value: …, Description: https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml
+								450 text Capstone 1:
+								451 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1, Value: …
+								452 text Submission deadline: January 5, 2027 at  00:00 CET (January 4 at  23:00 UTC).
+								453 text Peer review deadline: January 12, 2027 at  00:00 CET (January 11 at  23:00 UTC).
+								454 text Capstone 2:
+								455 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2, Value: …
+								456 text Submission deadline: January 19, 2027 at  00:00 CET (January 18 at  23:00 UTC).
+								457 text Peer review deadline: January 26, 2027 at  00:00 CET (January 25 at  23:00 UTC).
+								458 text After you submit, you review three projects from other learners. Skipping the peer reviews fails the project.
+								459 text Questions go in the course Slack channel:
+								460 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								461 container
+									462 link Description: DataTalks.Club Documentation, Help: https://datatalks.club/docs/courses/zoomcamp-logistics/certification, Value: …
+									463 text Certification A collection of notes and resources for the DataTalks.Club Zoomcamps, our free courses.
+								464 text 09:00
+								465 button Show AI Summary
+								466 image
+						467 text Scheduled for January 3, 2027
+						468 container message-36
+							469 container
+								470 text ML Zoomcamp 2026: Capstone 1 submission deadline is approaching.
+								471 text Submit your project repository before the deadline.
+								472 text Deadline: January 5, 2027 at  00:00 CET (January 4 at  23:00 UTC).
+								473 text Project page:
+								474 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1, Value: …
+								475 text Questions go in the course Slack channel:
+								476 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								477 text 09:00
+								478 image
+						479 text Scheduled for January 10, 2027
+						480 container message-37
+							481 container
+								482 text ML Zoomcamp 2026: Capstone 1 peer review deadline is approaching.
+								483 text Complete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.
+								484 text Deadline: January 12, 2027 at  00:00 CET (January 11 at  23:00 UTC).
+								485 text Project page:
+								486 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1, Value: …
+								487 text Questions go in the course Slack channel:
+								488 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								489 text 09:00
+								490 image
+						491 text Scheduled for January 11, 2027
+						492 container message-38
+							493 container
+								494 text ML Zoomcamp 2026: the second capstone window is approaching.
+								495 text Use this window to complete an end-to-end machine learning project. Choose a dataset, train and evaluate models, and deploy the model you selected.
+								496 text Project guidelines:
+								497 link Description: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects, Value: …
+								498 text Project page:
+								499 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2, Value: …
+								500 text Submission deadline: January 19, 2027 at  00:00 CET (January 18 at  23:00 UTC).
+								501 text Peer review deadline: January 26, 2027 at  00:00 CET (January 25 at  23:00 UTC).
+								502 text After submitting, complete the three assigned peer reviews on time. Skipping the peer reviews fails the project.
+								503 text Certificate requirements:
+								504 link Description: https://datatalks.club/docs/courses/zoomcamp-logistics/certification/, Value: …
+								505 text Questions go in the course Slack channel:
+								506 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								507 container
+									508 link Description: GitHub, Help: https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects, Value: …
+									509 text machine-learning-zoomcamp/projects at main · DataTalksClub/machine-learning-zoomcamp
+									510 container
+										511 text Learn ML engineering for free in 4 months! Register here 
+										512 image 👇🏼
+										513 text - DataTalksClub/machine-learning-zoomcamp
+									514 image
+								515 text 09:00
+								516 image
+						517 text Scheduled for January 17, 2027
+						518 container message-39
+							519 container
+								520 text ML Zoomcamp 2026: Capstone 2 submission deadline is approaching.
+								521 text Submit your project repository before the deadline.
+								522 text Deadline: January 19, 2027 at  00:00 CET (January 18 at  23:00 UTC).
+								523 text Project page:
+								524 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2, Value: …
+								525 text Questions go in the course Slack channel:
+								526 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								527 text 09:00
+								528 image
+						583 text Scheduled for January 24, 2027
+						584 container message-40
+							585 container
+								586 text ML Zoomcamp 2026: Capstone 2 peer review deadline is approaching.
+								587 text Complete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.
+								588 text Deadline: January 26, 2027 at  00:00 CET (January 25 at  23:00 UTC).
+								589 text Project page:
+								590 link Description: https://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2, Value: …
+								591 text Questions go in the course Slack channel:
+								592 link Description: https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA, Value: …
+								593 text 09:00
+								594 image
+					533 container
+						534 button AccDescrPollVoteDown
+						535 button Go to next unread reactions
+						536 button Go to next mention
+						537 button Go to bottom
+						538 container
+							539 pop up button Description: Add an attachment, ID: attach-menu-button
+							540 container Add an attachment, ID: attach-menu-controls
+							541 button Open full editor
+							542 container
+								543 image
+								544 image
+								545 text entry area (settable) Description: Broadcast, ID: editable-message-text, Value: 
+
+								546 text Broadcast
+							547 button Enable silent notifications.
+							548 button Choose emoji, sticker or GIF
+						549 button Record voice message
+						550 text 0 messages selected
+				551 container
+					552 image ML Zoomcamp announcements
+					553 text field (settable)
+					554 button
+					555 button Jump to Date
+			556 

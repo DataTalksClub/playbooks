@@ -1,6 +1,6 @@
 # ML Zoomcamp 2026 Telegram plan for review
 
-All 22 rows were approved by the user and are now **scheduled in Dapier**. Channel: `@mlzoomcamp`, numeric chat ID `-1001435532197`. Posting-only bot administrator access was saved in Telegram Web and verified through Dapier. [Active schedule artifacts and evidence](dapier/README.md) record published revision1, enabled rules, exact next fires and content hashes. No announcement was sent during setup. [Execution record](telegram-execution-record-2026-10-10.json) preserves the approval, live-history check and permission status. The table below is the approved plan; the CSV status records activation.
+All 22 approved rows are now **scheduled natively in Telegram**, following the user correction on October 11. Channel: `@mlzoomcamp`, numeric chat ID `-1001435532197`. [Native execution ledger](telegram-native-execution-2026-10-11.json) records the verified 22-message queue and message IDs. [Scheduling guide](telegram-native-scheduling.md) explains the browser steps. The former Dapier workflows and rules were removed before any fired; [retirement evidence](dapier/retirement-2026-10-11.json) confirms zero deliveries. The table remains the approved plan; the CSV records current queue status.
 
 Posting slot: **09:00 Europe/Berlin**, chosen for a consistent morning cadence. That is 07:00 UTC through October 24 and 08:00 UTC from October 25. No engagement data establishes an optimal time. Every deadline below is **23:00 UTC**; learners see 01:00 CEST or 00:00 CET on the following local day. Posting dates are recommendations, not platform module release dates.
 
@@ -47,4 +47,4 @@ On November 23 the Module 8 recommendation coincides with the final day of midte
 
 The certificate rule conflict remains: platform settings say one passing project; published documentation says two. Existing drafts link to the rules and omit a numeric certificate promise. Do not add a numerical claim until reconciled. The end date is not a certificate delivery promise.
 
-All22 workflow/schedule pairs were created and enabled following explicit user approval. No posts were sent during setup and no platform settings were changed. Runtime CMP checks suppress delivery when approved facts or required states differ. If the approved date/time has elapsed, revise the row rather than backdating or immediately sending it.
+All 22 posts are verified in Telegram native native queue. Fresh CMP facts matched the approved dates before scheduling. Native Telegram does not run automatic CMP checks; review affected queued messages manually if course facts change. No posts were sent during migration. If a posting time has elapsed, revise the row rather than backdating or immediately sending it.

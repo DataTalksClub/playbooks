@@ -1,0 +1,2099 @@
+{
+  "started_at": "2026-10-10T22:24:05.384890+00:00",
+  "reason": "User requested native Telegram scheduling instead of Dapier per-post workflows",
+  "schedules": [
+    {
+      "changed": true,
+      "schedule_id": "ml26-001",
+      "expression": "cron(0 7 11 10 ? 2026)",
+      "rule": "dapier-schedule-ml26-001",
+      "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:16.577947+00:00",
+      "updated_at": "2026-10-10T22:24:05.726914+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-002",
+      "expression": "cron(0 7 12 10 ? 2026)",
+      "rule": "dapier-schedule-ml26-002",
+      "description": "ML2026-002 Module 4: classification evaluation",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:21.199695+00:00",
+      "updated_at": "2026-10-10T22:24:06.741981+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-003",
+      "expression": "cron(0 7 18 10 ? 2026)",
+      "rule": "dapier-schedule-ml26-003",
+      "description": "ML2026-003 Homework 4 deadline reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:25.705293+00:00",
+      "updated_at": "2026-10-10T22:24:07.966584+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-004",
+      "expression": "cron(0 7 19 10 ? 2026)",
+      "rule": "dapier-schedule-ml26-004",
+      "description": "ML2026-004 Module 5: deployment",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:29.897819+00:00",
+      "updated_at": "2026-10-10T22:24:08.886718+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-005",
+      "expression": "cron(0 8 25 10 ? 2026)",
+      "rule": "dapier-schedule-ml26-005",
+      "description": "ML2026-005 Homework 5 deadline reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:34.448689+00:00",
+      "updated_at": "2026-10-10T22:24:09.826976+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-006",
+      "expression": "cron(0 8 26 10 ? 2026)",
+      "rule": "dapier-schedule-ml26-006",
+      "description": "ML2026-006 Module 6: trees and ensembles",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:38.624348+00:00",
+      "updated_at": "2026-10-10T22:24:10.746813+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-007",
+      "expression": "cron(0 8 1 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-007",
+      "description": "ML2026-007 Homework 6 deadline reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:43.049468+00:00",
+      "updated_at": "2026-10-10T22:24:11.706773+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-008",
+      "expression": "cron(0 8 2 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-008",
+      "description": "ML2026-008 Midterm project instructions",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:47.357870+00:00",
+      "updated_at": "2026-10-10T22:24:12.619286+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-009",
+      "expression": "cron(0 8 15 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-009",
+      "description": "ML2026-009 Midterm submission reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:51.985274+00:00",
+      "updated_at": "2026-10-10T22:24:13.559980+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-010",
+      "expression": "cron(0 8 22 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-010",
+      "description": "ML2026-010 Midterm peer-review reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:21:56.205212+00:00",
+      "updated_at": "2026-10-10T22:24:14.466856+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-011",
+      "expression": "cron(0 8 23 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-011",
+      "description": "ML2026-011 Module 8: deep learning",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:00.805273+00:00",
+      "updated_at": "2026-10-10T22:24:15.398303+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-012",
+      "expression": "cron(0 8 29 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-012",
+      "description": "ML2026-012 Homework 8 deadline reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:05.325240+00:00",
+      "updated_at": "2026-10-10T22:24:16.306927+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-013",
+      "expression": "cron(0 8 30 11 ? 2026)",
+      "rule": "dapier-schedule-ml26-013",
+      "description": "ML2026-013 Module 9: serverless deep learning",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:09.724693+00:00",
+      "updated_at": "2026-10-10T22:24:17.226735+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-014",
+      "expression": "cron(0 8 6 12 ? 2026)",
+      "rule": "dapier-schedule-ml26-014",
+      "description": "ML2026-014 Homework 9 deadline reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:14.324678+00:00",
+      "updated_at": "2026-10-10T22:24:18.446622+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-015",
+      "expression": "cron(0 8 7 12 ? 2026)",
+      "rule": "dapier-schedule-ml26-015",
+      "description": "ML2026-015 Module 10: Kubernetes",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:18.836515+00:00",
+      "updated_at": "2026-10-10T22:24:19.346927+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-016",
+      "expression": "cron(0 8 13 12 ? 2026)",
+      "rule": "dapier-schedule-ml26-016",
+      "description": "ML2026-016 Homework 10 deadline reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:23.110974+00:00",
+      "updated_at": "2026-10-10T22:24:20.266693+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-017",
+      "expression": "cron(0 8 14 12 ? 2026)",
+      "rule": "dapier-schedule-ml26-017",
+      "description": "ML2026-017 Capstone windows and project instructions",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:27.624655+00:00",
+      "updated_at": "2026-10-10T22:24:21.200423+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-018",
+      "expression": "cron(0 8 3 1 ? 2027)",
+      "rule": "dapier-schedule-ml26-018",
+      "description": "ML2026-018 Capstone 1 submission reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:32.124647+00:00",
+      "updated_at": "2026-10-10T22:24:22.106656+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-019",
+      "expression": "cron(0 8 10 1 ? 2027)",
+      "rule": "dapier-schedule-ml26-019",
+      "description": "ML2026-019 Capstone 1 peer-review reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:36.404746+00:00",
+      "updated_at": "2026-10-10T22:24:23.006798+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-020",
+      "expression": "cron(0 8 11 1 ? 2027)",
+      "rule": "dapier-schedule-ml26-020",
+      "description": "ML2026-020 Second capstone window",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:41.006540+00:00",
+      "updated_at": "2026-10-10T22:24:23.946732+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-021",
+      "expression": "cron(0 8 17 1 ? 2027)",
+      "rule": "dapier-schedule-ml26-021",
+      "description": "ML2026-021 Capstone 2 submission reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:45.546555+00:00",
+      "updated_at": "2026-10-10T22:24:24.866696+00:00"
+    },
+    {
+      "changed": true,
+      "schedule_id": "ml26-022",
+      "expression": "cron(0 8 24 1 ? 2027)",
+      "rule": "dapier-schedule-ml26-022",
+      "description": "ML2026-022 Capstone 2 peer-review reminder",
+      "enabled": false,
+      "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+      "created_at": "2026-10-10T21:22:49.900135+00:00",
+      "updated_at": "2026-10-10T22:24:25.785218+00:00"
+    }
+  ],
+  "runs": [
+    {
+      "workflow_id": "ml26-telegram-001",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-002",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-003",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-004",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-005",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-006",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-007",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-008",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-009",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-010",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-011",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-012",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-013",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-014",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-015",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-016",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-017",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-018",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-019",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-020",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-021",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    },
+    {
+      "workflow_id": "ml26-telegram-022",
+      "pages": [
+        {
+          "runs": [],
+          "paging": {
+            "next": null,
+            "limit": 100,
+            "filtered": true,
+            "bounded": false
+          }
+        }
+      ],
+      "details": []
+    }
+  ],
+  "workflow_removal": [
+    {
+      "workflow_id": "ml26-telegram-001",
+      "deleted": true,
+      "published": false,
+      "response_note": "Initial supported delete succeeded live but returned a git_sync_error; operation stopped before recording response. Repeat DELETE and readback returned404. Subsequent deletions preserve exact sync warnings."
+    },
+    {
+      "file": "ml26-telegram-002.yaml",
+      "workflow_id": "ml26-telegram-002",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-003.yaml",
+      "workflow_id": "ml26-telegram-003",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-004.yaml",
+      "workflow_id": "ml26-telegram-004",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-005.yaml",
+      "workflow_id": "ml26-telegram-005",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-006.yaml",
+      "workflow_id": "ml26-telegram-006",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-007.yaml",
+      "workflow_id": "ml26-telegram-007",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-008.yaml",
+      "workflow_id": "ml26-telegram-008",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-009.yaml",
+      "workflow_id": "ml26-telegram-009",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-010.yaml",
+      "workflow_id": "ml26-telegram-010",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-011.yaml",
+      "workflow_id": "ml26-telegram-011",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-012.yaml",
+      "workflow_id": "ml26-telegram-012",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-013.yaml",
+      "workflow_id": "ml26-telegram-013",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-014.yaml",
+      "workflow_id": "ml26-telegram-014",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-015.yaml",
+      "workflow_id": "ml26-telegram-015",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-016.yaml",
+      "workflow_id": "ml26-telegram-016",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-017.yaml",
+      "workflow_id": "ml26-telegram-017",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-018.yaml",
+      "workflow_id": "ml26-telegram-018",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-019.yaml",
+      "workflow_id": "ml26-telegram-019",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-020.yaml",
+      "workflow_id": "ml26-telegram-020",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-021.yaml",
+      "workflow_id": "ml26-telegram-021",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    },
+    {
+      "file": "ml26-telegram-022.yaml",
+      "workflow_id": "ml26-telegram-022",
+      "deleted": true,
+      "published": false,
+      "was_published": true,
+      "git_sync_error": "git sync is not configured: store a GitHub token (Contents: read/write) in Secrets Manager and set GithubWorkflowsTokenSecret at deploy time"
+    }
+  ],
+  "schedule_removal": [
+    {
+      "schedule_id": "ml26-001",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-001"
+      }
+    },
+    {
+      "schedule_id": "ml26-002",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-002"
+      }
+    },
+    {
+      "schedule_id": "ml26-003",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-003"
+      }
+    },
+    {
+      "schedule_id": "ml26-004",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-004"
+      }
+    },
+    {
+      "schedule_id": "ml26-005",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-005"
+      }
+    },
+    {
+      "schedule_id": "ml26-006",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-006"
+      }
+    },
+    {
+      "schedule_id": "ml26-007",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-007"
+      }
+    },
+    {
+      "schedule_id": "ml26-008",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-008"
+      }
+    },
+    {
+      "schedule_id": "ml26-009",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-009"
+      }
+    },
+    {
+      "schedule_id": "ml26-010",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-010"
+      }
+    },
+    {
+      "schedule_id": "ml26-011",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-011"
+      }
+    },
+    {
+      "schedule_id": "ml26-012",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-012"
+      }
+    },
+    {
+      "schedule_id": "ml26-013",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-013"
+      }
+    },
+    {
+      "schedule_id": "ml26-014",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-014"
+      }
+    },
+    {
+      "schedule_id": "ml26-015",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-015"
+      }
+    },
+    {
+      "schedule_id": "ml26-016",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-016"
+      }
+    },
+    {
+      "schedule_id": "ml26-017",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-017"
+      }
+    },
+    {
+      "schedule_id": "ml26-018",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-018"
+      }
+    },
+    {
+      "schedule_id": "ml26-019",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-019"
+      }
+    },
+    {
+      "schedule_id": "ml26-020",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-020"
+      }
+    },
+    {
+      "schedule_id": "ml26-021",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-021"
+      }
+    },
+    {
+      "schedule_id": "ml26-022",
+      "result": {
+        "ok": true,
+        "schedule_id": "ml26-022"
+      }
+    }
+  ],
+  "connections_and_grants_unchanged": true,
+  "disabled_readback": {
+    "now": "2026-10-10T22:24:26.511955Z",
+    "schedules": [
+      {
+        "schedule_id": "ml26-001",
+        "expression": "cron(0 7 11 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-001",
+        "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:16.577947+00:00",
+        "updated_at": "2026-10-10T22:24:05.726914+00:00",
+        "summary": "on the 11th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:05.726914+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:11.581248+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-001",
+            "name": "ml26-telegram-001",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-002",
+        "expression": "cron(0 7 12 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-002",
+        "description": "ML2026-002 Module 4: classification evaluation",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:21.199695+00:00",
+        "updated_at": "2026-10-10T22:24:06.741981+00:00",
+        "summary": "on the 12th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:06.741981+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:12.421308+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-002",
+            "name": "ml26-telegram-002",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-003",
+        "expression": "cron(0 7 18 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-003",
+        "description": "ML2026-003 Homework 4 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:25.705293+00:00",
+        "updated_at": "2026-10-10T22:24:07.966584+00:00",
+        "summary": "on the 18th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:07.966584+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:13.279617+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-003",
+            "name": "ml26-telegram-003",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-004",
+        "expression": "cron(0 7 19 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-004",
+        "description": "ML2026-004 Module 5: deployment",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:29.897819+00:00",
+        "updated_at": "2026-10-10T22:24:08.886718+00:00",
+        "summary": "on the 19th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:08.886718+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:14.188131+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-004",
+            "name": "ml26-telegram-004",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-005",
+        "expression": "cron(0 8 25 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-005",
+        "description": "ML2026-005 Homework 5 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:34.448689+00:00",
+        "updated_at": "2026-10-10T22:24:09.826976+00:00",
+        "summary": "on the 25th of the month at 08:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:09.826976+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:15.028083+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-005",
+            "name": "ml26-telegram-005",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-006",
+        "expression": "cron(0 8 26 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-006",
+        "description": "ML2026-006 Module 6: trees and ensembles",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:38.624348+00:00",
+        "updated_at": "2026-10-10T22:24:10.746813+00:00",
+        "summary": "on the 26th of the month at 08:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:10.746813+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:15.917481+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-006",
+            "name": "ml26-telegram-006",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-007",
+        "expression": "cron(0 8 1 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-007",
+        "description": "ML2026-007 Homework 6 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:43.049468+00:00",
+        "updated_at": "2026-10-10T22:24:11.706773+00:00",
+        "summary": "on the 1st of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:11.706773+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:16.788882+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-007",
+            "name": "ml26-telegram-007",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-008",
+        "expression": "cron(0 8 2 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-008",
+        "description": "ML2026-008 Midterm project instructions",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:47.357870+00:00",
+        "updated_at": "2026-10-10T22:24:12.619286+00:00",
+        "summary": "on the 2nd of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:12.619286+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:17.637771+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-008",
+            "name": "ml26-telegram-008",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-009",
+        "expression": "cron(0 8 15 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-009",
+        "description": "ML2026-009 Midterm submission reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:51.985274+00:00",
+        "updated_at": "2026-10-10T22:24:13.559980+00:00",
+        "summary": "on the 15th of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:13.559980+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:18.457454+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-009",
+            "name": "ml26-telegram-009",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-010",
+        "expression": "cron(0 8 22 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-010",
+        "description": "ML2026-010 Midterm peer-review reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:56.205212+00:00",
+        "updated_at": "2026-10-10T22:24:14.466856+00:00",
+        "summary": "on the 22nd of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:14.466856+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:19.330173+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-010",
+            "name": "ml26-telegram-010",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-011",
+        "expression": "cron(0 8 23 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-011",
+        "description": "ML2026-011 Module 8: deep learning",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:00.805273+00:00",
+        "updated_at": "2026-10-10T22:24:15.398303+00:00",
+        "summary": "on the 23rd of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:15.398303+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:20.197597+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-011",
+            "name": "ml26-telegram-011",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-012",
+        "expression": "cron(0 8 29 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-012",
+        "description": "ML2026-012 Homework 8 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:05.325240+00:00",
+        "updated_at": "2026-10-10T22:24:16.306927+00:00",
+        "summary": "on the 29th of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:16.306927+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:21.069894+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-012",
+            "name": "ml26-telegram-012",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-013",
+        "expression": "cron(0 8 30 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-013",
+        "description": "ML2026-013 Module 9: serverless deep learning",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:09.724693+00:00",
+        "updated_at": "2026-10-10T22:24:17.226735+00:00",
+        "summary": "on the 30th of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:17.226735+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:21.917458+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-013",
+            "name": "ml26-telegram-013",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-014",
+        "expression": "cron(0 8 6 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-014",
+        "description": "ML2026-014 Homework 9 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:14.324678+00:00",
+        "updated_at": "2026-10-10T22:24:18.446622+00:00",
+        "summary": "on the 6th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:18.446622+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:22.809192+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-014",
+            "name": "ml26-telegram-014",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-015",
+        "expression": "cron(0 8 7 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-015",
+        "description": "ML2026-015 Module 10: Kubernetes",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:18.836515+00:00",
+        "updated_at": "2026-10-10T22:24:19.346927+00:00",
+        "summary": "on the 7th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:19.346927+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:23.677447+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-015",
+            "name": "ml26-telegram-015",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-016",
+        "expression": "cron(0 8 13 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-016",
+        "description": "ML2026-016 Homework 10 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:23.110974+00:00",
+        "updated_at": "2026-10-10T22:24:20.266693+00:00",
+        "summary": "on the 13th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:20.266693+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:24.791462+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-016",
+            "name": "ml26-telegram-016",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-017",
+        "expression": "cron(0 8 14 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-017",
+        "description": "ML2026-017 Capstone windows and project instructions",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:27.624655+00:00",
+        "updated_at": "2026-10-10T22:24:21.200423+00:00",
+        "summary": "on the 14th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:21.200423+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:25.629243+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-017",
+            "name": "ml26-telegram-017",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-018",
+        "expression": "cron(0 8 3 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-018",
+        "description": "ML2026-018 Capstone 1 submission reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:32.124647+00:00",
+        "updated_at": "2026-10-10T22:24:22.106656+00:00",
+        "summary": "on the 3rd of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:22.106656+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:26.502584+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-018",
+            "name": "ml26-telegram-018",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-019",
+        "expression": "cron(0 8 10 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-019",
+        "description": "ML2026-019 Capstone 1 peer-review reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:36.404746+00:00",
+        "updated_at": "2026-10-10T22:24:23.006798+00:00",
+        "summary": "on the 10th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:23.006798+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:27.361307+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-019",
+            "name": "ml26-telegram-019",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-020",
+        "expression": "cron(0 8 11 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-020",
+        "description": "ML2026-020 Second capstone window",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:41.006540+00:00",
+        "updated_at": "2026-10-10T22:24:23.946732+00:00",
+        "summary": "on the 11th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:23.946732+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:28.207956+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-020",
+            "name": "ml26-telegram-020",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-021",
+        "expression": "cron(0 8 17 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-021",
+        "description": "ML2026-021 Capstone 2 submission reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:45.546555+00:00",
+        "updated_at": "2026-10-10T22:24:24.866696+00:00",
+        "summary": "on the 17th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:24.866696+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:29.082274+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-021",
+            "name": "ml26-telegram-021",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      },
+      {
+        "schedule_id": "ml26-022",
+        "expression": "cron(0 8 24 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-022",
+        "description": "ML2026-022 Capstone 2 peer-review reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:49.900135+00:00",
+        "updated_at": "2026-10-10T22:24:25.785218+00:00",
+        "summary": "on the 24th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T22:24:25.785218+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "paused"
+          },
+          {
+            "at": "2026-10-10T21:23:29.987961+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-022",
+            "name": "ml26-telegram-022",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "paused",
+          "reason": "Paused. It does not fire until resumed."
+        }
+      }
+    ]
+  },
+  "all22_disabled_verified_at": "2026-10-10T22:24:28.070479+00:00",
+  "final_workflow_readback": {
+    "workflows": [
+      {
+        "id": "agent-relay",
+        "name": "Webhook agent-redo \u2192 Agent",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Relay webhook payloads into an agent task (worker-side queueing)",
+        "source": "agent-relay.yaml",
+        "connector": "webhook",
+        "event": "request.received",
+        "triggerCount": 1,
+        "actionCount": 1,
+        "actionTypes": [
+          "agent"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "aisl-recording-agent",
+        "name": "Zoom recording completed \u2192 Agent",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "AI Shipping Labs: a new Zoom cloud recording starts an agent that uploads it through the platform, ingests the transcript, drafts the recap, and verifies the event page links.\n",
+        "source": "aisl-recording-agent.yaml",
+        "connector": "zoom",
+        "event": "recording.completed",
+        "triggerCount": 1,
+        "actionCount": 1,
+        "actionTypes": [
+          "agent"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "dropbox_on_upload",
+        "name": "Dropbox file created in income-invoices \u2192 DataOps, delete from Dropbox",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "",
+        "source": "dropbox_on_upload.yaml",
+        "connector": "dropbox",
+        "event": "file.created",
+        "triggerCount": 1,
+        "actionCount": 2,
+        "actionTypes": [
+          "dataops",
+          "dropbox_delete"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "migration",
+        "has_draft": true
+      },
+      {
+        "id": "email-trigger-agents",
+        "name": "Email to agents \u2192 Agent",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Run instructions in forwarded mail with the headless worker",
+        "source": "email-trigger-agents.yaml",
+        "connector": "email",
+        "event": "message.received",
+        "triggerCount": 1,
+        "actionCount": 1,
+        "actionTypes": [
+          "agent"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "email-trigger-dropbox-inbox",
+        "name": "Email to dropbox-inbox \u2192 Upload to Dropbox",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Email an attachment here and it is saved to Dropbox /email-attachments",
+        "source": "email-trigger-dropbox-inbox.yaml",
+        "connector": "email",
+        "event": "message.received",
+        "triggerCount": 1,
+        "actionCount": 1,
+        "actionTypes": [
+          "dropbox_upload"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "google-oauth-calendar-youtube-demo",
+        "name": "Custom oauth review \u2192 Google Calendar, delete event in Google Calendar +1 more",
+        "name_source": "auto",
+        "enabled": false,
+        "description": "Synthetic Calendar event and read-only YouTube channel demo",
+        "source": "google-oauth-calendar-youtube-demo.yaml",
+        "connector": "custom",
+        "event": "oauth.review",
+        "triggerCount": 1,
+        "actionCount": 3,
+        "actionTypes": [
+          "calendar_create_event",
+          "calendar_delete_event",
+          "http_request"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": false,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "google-oauth-review-demo",
+        "name": "Custom oauth review \u2192 Add row to Sheets, HTTP request",
+        "name_source": "auto",
+        "enabled": false,
+        "description": "Google OAuth verification demonstration using only synthetic data",
+        "source": "google-oauth-review-demo.yaml",
+        "connector": "custom",
+        "event": "oauth.review",
+        "triggerCount": 1,
+        "actionCount": 4,
+        "actionTypes": [
+          "sheets_append_row",
+          "http_request",
+          "drive_find_file",
+          "drive_read_file"
+        ],
+        "tags": [
+          "oauth-review"
+        ],
+        "folder": "",
+        "auto_paused": false,
+        "published": false,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "invoice-body-completion",
+        "name": "Render finished invoice \u2192 Upload to Dropbox, DataOps",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Archive the completed email PDF and forward its exact bytes to DataOps.",
+        "source": "invoice-body-completion.yaml",
+        "connector": "renderer",
+        "event": "job.completed",
+        "triggerCount": 1,
+        "actionCount": 5,
+        "actionTypes": [
+          "date_time",
+          "code",
+          "dropbox_upload",
+          "filter",
+          "dataops"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "invoice-intake",
+        "name": "Email to invoice \u2192 Upload to Dropbox, DataOps +1 more",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Invoice emails: triage on arrival. Email boilerplate (HTML/text parts such as stapled Terms of Service) is ignored end to end; a single document attachment is archived to Dropbox and forwarded to DataOps; a body-only email has its forwarded header stripped and renders to PDF (the completion flow archives and forwards it); two or more documents fail the run.",
+        "source": "invoice-intake.yaml",
+        "connector": "email",
+        "event": "message.received",
+        "triggerCount": 1,
+        "actionCount": 2,
+        "actionTypes": [
+          "code",
+          "condition"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "mailing-list-backup",
+        "name": "Drive file created \u2192 Upload to S3",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Shared Drive mailchimp folder to S3 with the original title as key and unchanged bytes.",
+        "source": "mailing-list-backup.yaml",
+        "connector": "google-drive",
+        "event": "file.created",
+        "triggerCount": 1,
+        "actionCount": 2,
+        "actionTypes": [
+          "drive_read_file",
+          "s3_upload"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "telegram-crosspost",
+        "name": "Telegram automator-telegram \u2192 Post to Slack",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Crossposts the automator bot's course announcements to Slack, one condition per course channel. Migrated from the automator-telegram hook's action chain when hooks became pure trigger records.\n",
+        "source": "telegram-crosspost.yaml",
+        "connector": "telegram",
+        "event": "message.received",
+        "triggerCount": 3,
+        "actionCount": 8,
+        "actionTypes": [
+          "condition",
+          "condition",
+          "condition",
+          "condition",
+          "condition",
+          "condition",
+          "condition",
+          "condition"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "telegram-todo",
+        "name": "Webhook telegram-todo \u2192 Add row to Sheets",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Original Date/Text catch-hook contract to the TODO worksheet.",
+        "source": "telegram-todo.yaml",
+        "connector": "webhook",
+        "event": "request.received",
+        "triggerCount": 1,
+        "actionCount": 1,
+        "actionTypes": [
+          "sheets_append_row"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "todo-intake",
+        "name": "Email or Telegram todo \u2192 Add row to Sheets, DataOps +1 more",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "Email tasks use processing time; retain native Telegram tasks and confirmations.",
+        "source": "todo-intake.yaml",
+        "connector": "email",
+        "event": "message.received",
+        "triggerCount": 4,
+        "actionCount": 4,
+        "actionTypes": [
+          "code",
+          "condition",
+          "condition",
+          "condition"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      },
+      {
+        "id": "youtube-slack",
+        "name": "YouTube video published \u2192 Post to Slack",
+        "name_source": "auto",
+        "enabled": true,
+        "description": "",
+        "source": "youtube-slack.yaml",
+        "connector": "youtube",
+        "event": "video.published",
+        "triggerCount": 1,
+        "actionCount": 1,
+        "actionTypes": [
+          "slack"
+        ],
+        "tags": [],
+        "folder": "",
+        "auto_paused": false,
+        "published": true,
+        "owner": "84b8d488-2001-70be-d465-f84bfd64ef96"
+      }
+    ],
+    "git_sync": {
+      "configured": false,
+      "repo": "DataTalksClub/dapier",
+      "branch": "main"
+    }
+  },
+  "final_schedule_readback": {
+    "now": "2026-10-10T22:26:55.665890Z",
+    "schedules": []
+  },
+  "completed_at": "2026-10-10T22:26:56.686534+00:00",
+  "delivered_message_ids": [],
+  "zero_actual_runs_verified": true,
+  "all_campaign_workflows_and_rules_removed": true
+}

@@ -1,6 +1,0 @@
-{
-  "name": "ml26-015",
-  "expression": "cron(0 8 7 12 ? 2026)",
-  "description": "ML2026-015 Module 10: Kubernetes",
-  "enabled": true
-}

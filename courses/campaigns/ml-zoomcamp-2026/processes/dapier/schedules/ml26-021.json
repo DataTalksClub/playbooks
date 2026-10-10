@@ -1,6 +1,0 @@
-{
-  "name": "ml26-021",
-  "expression": "cron(0 8 17 1 ? 2027)",
-  "description": "ML2026-021 Capstone 2 submission reminder",
-  "enabled": true
-}

@@ -1,6 +1,0 @@
-{
-  "name": "ml26-011",
-  "expression": "cron(0 8 23 11 ? 2026)",
-  "description": "ML2026-011 Module 8: deep learning",
-  "enabled": true
-}

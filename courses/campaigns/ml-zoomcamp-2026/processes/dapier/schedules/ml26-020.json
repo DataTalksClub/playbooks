@@ -1,6 +1,0 @@
-{
-  "name": "ml26-020",
-  "expression": "cron(0 8 11 1 ? 2027)",
-  "description": "ML2026-020 Second capstone window",
-  "enabled": true
-}

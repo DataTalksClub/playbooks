@@ -18,7 +18,7 @@
     "module_3_observed": false,
     "decision": "Use approved Module 3 catch-up plus Homework 3 reminder for ML2026-001."
   },
-  "schedule_status": "All 22 workflows published at revision 1, all 22 schedules enabled; approved UTC fires and exact content verified at 2026-10-10T21:23:52.977631Z.",
+  "schedule_status": "Superseded October 11: all Dapier campaign rules/workflows removed; all 22 posts verified in native Telegram queue.",
   "delivery_status": "No announcements sent; no delivery IDs exist yet.",
   "repository_commits": [
     "dfe0974",
@@ -28,10 +28,10 @@
     "f16df6d"
   ],
   "push_status": "Preparation and active schedule commits pushed; completed five-channel permission evidence included in the final focused commit.",
-  "updated_at": "2026-10-10T21:55:44.915625+00:00",
+  "updated_at": "2026-10-10T22:49:53.399780+00:00",
   "authorization_other_channels": "User explicitly approved posting-only permissions for all other course channels during execution.",
   "permission_evidence": "../sources/bot-permissions-2026-10-10.json",
-  "schedule_evidence": "dapier/remote-preparation-results.json",
+  "schedule_evidence": "telegram-native-execution-2026-10-11.json",
   "permission_visual_evidence": "../sources/mlops-bot-admin-2026-10-10.png",
   "permission_caveat": "Telegram Web A shows only Post Messages selected, but the Bot API reports can_manage_direct_messages=true on all five channels. The current Web A form has no separate direct-message control. A least-privilege reduction through the bot API failed; the bot cannot change its own administrator rights. Do not describe the API rights as strictly posting-only until an owner resolves this discrepancy."
 }

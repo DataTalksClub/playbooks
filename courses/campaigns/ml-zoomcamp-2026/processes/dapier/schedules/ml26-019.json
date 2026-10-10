@@ -1,6 +1,0 @@
-{
-  "name": "ml26-019",
-  "expression": "cron(0 8 10 1 ? 2027)",
-  "description": "ML2026-019 Capstone 1 peer-review reminder",
-  "enabled": true
-}

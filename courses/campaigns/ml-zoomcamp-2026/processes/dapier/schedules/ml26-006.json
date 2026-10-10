@@ -1,6 +1,0 @@
-{
-  "name": "ml26-006",
-  "expression": "cron(0 8 26 10 ? 2026)",
-  "description": "ML2026-006 Module 6: trees and ensembles",
-  "enabled": true
-}

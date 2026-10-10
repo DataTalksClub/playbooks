@@ -1,6 +1,0 @@
-{
-  "name": "ml26-014",
-  "expression": "cron(0 8 6 12 ? 2026)",
-  "description": "ML2026-014 Homework 9 deadline reminder",
-  "enabled": true
-}

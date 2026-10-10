@@ -1,9 +1,0 @@
-{
-  "id": "dry-run-ml26-019",
-  "connector": "schedule",
-  "event": "schedule.triggered",
-  "data": {
-    "schedule": "ml26-019",
-    "utc_time": "2027-01-10T08:00:00Z"
-  }
-}
