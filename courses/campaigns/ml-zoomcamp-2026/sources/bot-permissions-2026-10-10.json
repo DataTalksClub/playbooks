@@ -11,7 +11,20 @@
       "status": "administrator",
       "can_post_messages": true,
       "can_edit_messages": false,
-      "ready_to_post": true
+      "ready_to_post": true,
+      "other_permissions": {
+        "can_change_info": false,
+        "can_delete_messages": false,
+        "can_invite_users": false,
+        "can_restrict_members": false,
+        "can_promote_members": false,
+        "can_manage_video_chats": false,
+        "can_post_stories": false,
+        "can_edit_stories": false,
+        "can_delete_stories": false,
+        "can_manage_direct_messages": true,
+        "can_manage_tags": false
+      }
     },
     {
       "requested": "@dezoomcamp",
@@ -22,7 +35,20 @@
       "status": "administrator",
       "can_post_messages": true,
       "can_edit_messages": false,
-      "ready_to_post": true
+      "ready_to_post": true,
+      "other_permissions": {
+        "can_change_info": false,
+        "can_delete_messages": false,
+        "can_invite_users": false,
+        "can_restrict_members": false,
+        "can_promote_members": false,
+        "can_manage_video_chats": false,
+        "can_post_stories": false,
+        "can_edit_stories": false,
+        "can_delete_stories": false,
+        "can_manage_direct_messages": true,
+        "can_manage_tags": false
+      }
     },
     {
       "requested": "@aidevtoolszoomcamp",
@@ -30,8 +56,23 @@
       "title": "AI Dev Tools Zoomcamp",
       "username": "aidevtoolszoomcamp",
       "type": "channel",
-      "ready_to_post": false,
-      "error": "getChatMember failed (HTTPError)"
+      "ready_to_post": true,
+      "status": "administrator",
+      "can_post_messages": true,
+      "can_edit_messages": false,
+      "other_permissions": {
+        "can_change_info": false,
+        "can_delete_messages": false,
+        "can_invite_users": false,
+        "can_restrict_members": false,
+        "can_promote_members": false,
+        "can_manage_video_chats": false,
+        "can_post_stories": false,
+        "can_edit_stories": false,
+        "can_delete_stories": false,
+        "can_manage_direct_messages": true,
+        "can_manage_tags": false
+      }
     },
     {
       "requested": "@llm_zoomcamp",
@@ -39,13 +80,50 @@
       "title": "LLM Zoomcamp",
       "username": "llm_zoomcamp",
       "type": "channel",
-      "ready_to_post": false,
-      "error": "getChatMember failed (HTTPError)"
+      "ready_to_post": true,
+      "status": "administrator",
+      "can_post_messages": true,
+      "can_edit_messages": false,
+      "other_permissions": {
+        "can_change_info": false,
+        "can_delete_messages": false,
+        "can_invite_users": false,
+        "can_restrict_members": false,
+        "can_promote_members": false,
+        "can_manage_video_chats": false,
+        "can_post_stories": false,
+        "can_edit_stories": false,
+        "can_delete_stories": false,
+        "can_manage_direct_messages": true,
+        "can_manage_tags": false
+      }
     },
     {
       "requested": "@dtc_courses",
-      "ready_to_post": false,
-      "error": "getChat failed (URLError)"
+      "ready_to_post": true,
+      "status": "administrator",
+      "can_post_messages": true,
+      "can_edit_messages": false,
+      "other_permissions": {
+        "can_change_info": false,
+        "can_delete_messages": false,
+        "can_invite_users": false,
+        "can_restrict_members": false,
+        "can_promote_members": false,
+        "can_manage_video_chats": false,
+        "can_post_stories": false,
+        "can_edit_stories": false,
+        "can_delete_stories": false,
+        "can_manage_direct_messages": true,
+        "can_manage_tags": false
+      },
+      "chat_id": -1001730331343,
+      "title": "MLOps Zoomcamp announcements",
+      "username": "dtc_courses",
+      "type": "channel"
     }
-  ]
+  ],
+  "recorded_at": "2026-10-10T21:55:44.915625+00:00",
+  "verification_method": "Successful five-channel verify_bot.py response through Dapier during browser recovery on October 10, 2026; all values below observed in the API response.",
+  "permission_caveat": "Telegram Web A shows only Post Messages selected, but the Bot API reports can_manage_direct_messages=true on all five channels. The current Web A form has no separate direct-message control. A least-privilege reduction through the bot API failed; the bot cannot change its own administrator rights. Do not describe the API rights as strictly posting-only until an owner resolves this discrepancy."
 }

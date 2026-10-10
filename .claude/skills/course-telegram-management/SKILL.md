@@ -22,7 +22,7 @@ uv run dapier connections test <connection-id>
 
 Select the verified course bot connection, not another Telegram bot with a similar name. Keep its connection ID, bot username/ID, and verified channel IDs in the nonsecret course registry. Never put a token in that registry, drafts, logs, command arguments, or Git.
 
-The connection ID is `dtc-course-announcements`, bot `@dtc_course_announcements_bot`, numeric bot ID `8928085122`. Its local secret variable is `TELEGRAM_COURSE_BOT_TOKEN`. The agent name for Dapier grants is `course-telegram-management`. Creation/import does not establish channel administrator rights; check the registry and helper result for current access.
+The connection ID is `dtc-course-announcements`, bot `@dtc_course_announcements_bot`, numeric bot ID `8928085122`. Its local secret variable is `TELEGRAM_COURSE_BOT_TOKEN`. The agent name for Dapier grants is `course-telegram-management`. All five registry channels were verified with posting enabled on October 10, 2026. Read the registry permission caveat: Web A shows only posting selected, but the API also reports direct-message management enabled. Recheck the helper result for current rights; creation/import alone does not establish access. The helper reports other optional rights for least-privilege verification.
 
 When importing a newly authorized bot, its token belongs in the repository's gitignored `.env`. Check `git check-ignore .env` before writing it. Read the named variable in process, then pass its raw value to the stdin of this child command, without displaying it or creating another credential file:
 

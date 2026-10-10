@@ -44,6 +44,13 @@ def main():
                 channel.update({"status": member["status"],
                                 "can_post_messages": member.get("can_post_messages", False),
                                 "can_edit_messages": member.get("can_edit_messages", False)})
+                channel["other_permissions"] = {
+                    key: member.get(key, False) for key in (
+                        "can_change_info", "can_delete_messages", "can_invite_users",
+                        "can_restrict_members", "can_promote_members", "can_manage_video_chats",
+                        "can_post_stories", "can_edit_stories", "can_delete_stories",
+                        "can_manage_direct_messages", "can_manage_tags")
+                }
                 channel["ready_to_post"] = (chat["type"] == "channel"
                                             and member["status"] == "administrator"
                                             and channel["can_post_messages"])
