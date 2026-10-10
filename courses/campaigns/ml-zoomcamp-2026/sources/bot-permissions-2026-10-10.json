@@ -1,0 +1,51 @@
+{
+  "bot_id": 8928085122,
+  "username": "dtc_course_announcements_bot",
+  "channels": [
+    {
+      "requested": "@mlzoomcamp",
+      "chat_id": -1001435532197,
+      "title": "ML Zoomcamp announcements",
+      "username": "mlzoomcamp",
+      "type": "channel",
+      "status": "administrator",
+      "can_post_messages": true,
+      "can_edit_messages": false,
+      "ready_to_post": true
+    },
+    {
+      "requested": "@dezoomcamp",
+      "chat_id": -1001708295427,
+      "title": "Data Engineering Zoomcamp",
+      "username": "dezoomcamp",
+      "type": "channel",
+      "status": "administrator",
+      "can_post_messages": true,
+      "can_edit_messages": false,
+      "ready_to_post": true
+    },
+    {
+      "requested": "@aidevtoolszoomcamp",
+      "chat_id": -1003188609266,
+      "title": "AI Dev Tools Zoomcamp",
+      "username": "aidevtoolszoomcamp",
+      "type": "channel",
+      "ready_to_post": false,
+      "error": "getChatMember failed (HTTPError)"
+    },
+    {
+      "requested": "@llm_zoomcamp",
+      "chat_id": -1002136268305,
+      "title": "LLM Zoomcamp",
+      "username": "llm_zoomcamp",
+      "type": "channel",
+      "ready_to_post": false,
+      "error": "getChatMember failed (HTTPError)"
+    },
+    {
+      "requested": "@dtc_courses",
+      "ready_to_post": false,
+      "error": "getChat failed (URLError)"
+    }
+  ]
+}

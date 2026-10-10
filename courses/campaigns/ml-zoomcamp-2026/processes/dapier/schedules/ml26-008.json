@@ -1,0 +1,6 @@
+{
+  "name": "ml26-008",
+  "expression": "cron(0 8 2 11 ? 2026)",
+  "description": "ML2026-008 Midterm project instructions",
+  "enabled": true
+}

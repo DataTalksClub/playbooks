@@ -1,0 +1,50 @@
+id: ml26-telegram-017
+enabled: true
+description: ML2026-017 Capstone windows and project instructions
+tags:
+- ml-zoomcamp-2026
+- course-telegram
+folder: ML Zoomcamp 2026
+auto_pause_after: 1
+actions:
+- id: course
+  type: cmp_read_course
+  connection_id: cmp-production
+  course_slug: ml-zoomcamp-2026
+  timeout_seconds: 15
+- id: facts
+  type: filter
+  when:
+    steps.course.output.course.slug:
+      equals: ml-zoomcamp-2026
+    steps.course.output.course.start_date:
+      equals: '2026-09-14'
+    steps.course.output.course.end_date:
+      equals: '2027-01-25'
+    steps.course.output.course.finished:
+      equals: false
+    steps.course.output.course.visible:
+      equals: true
+    steps.course.output.checked_at:
+      lt: '2027-01-04T23:00:00+00:00'
+      exists: true
+    steps.course.output.projects.capstone1.submission_due_date:
+      equals: '2027-01-04T23:00:00+00:00'
+    steps.course.output.projects.capstone1.peer_review_due_date:
+      equals: '2027-01-11T23:00:00+00:00'
+    steps.course.output.projects.capstone2.submission_due_date:
+      equals: '2027-01-18T23:00:00+00:00'
+    steps.course.output.projects.capstone2.peer_review_due_date:
+      equals: '2027-01-25T23:00:00+00:00'
+- id: send
+  type: telegram_send
+  connection_id: dtc-course-announcements
+  chat_id: '-1001435532197'
+  text: "We start the capstone projects.\r\n\r\nYou have now covered the full path from framing a problem to serving a model on Kubernetes. The capstone is where you apply it to a larger end-to-end project of your choice.\r\n\r\nThere are two capstone windows.\r\n\r\nCertificate requirements:\r\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\r\n\r\nThe requirements are the same as for the midterm:\r\n\r\n- A new public dataset, not one from the lectures or homework\r\n- Data preparation, EDA, and feature importance analysis\r\n- Several trained and tuned models, and the one you selected\r\n- A training script and a prediction service\r\n- Dependency and environment files, and a Dockerfile\r\n- A deployed model, or a video or screenshot of the running service\r\n\r\nProject guidelines:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\r\n\r\nEvaluation criteria:\r\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\r\n\r\nCapstone 1:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\r\n\r\nSubmission deadline: January 5, 2027 at 00:00 CET (January 4 at 23:00 UTC).\r\n\r\nPeer review deadline: January 12, 2027 at 00:00 CET (January 11 at 23:00 UTC).\r\n\r\nCapstone 2:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\r\n\r\nSubmission deadline: January 19, 2027 at 00:00 CET (January 18 at 23:00 UTC).\r\n\r\nPeer review deadline: January 26, 2027 at 00:00 CET (January 25 at 23:00 UTC).\r\n\r\nAfter you submit, you review three projects from other learners. Skipping the peer reviews fails the project.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+  timeout_seconds: 15
+trigger:
+  connector: schedule
+  event: schedule.triggered
+  filters:
+    schedule:
+      equals: ml26-017

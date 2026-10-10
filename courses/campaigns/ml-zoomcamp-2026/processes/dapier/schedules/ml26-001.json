@@ -1,0 +1,6 @@
+{
+  "name": "ml26-001",
+  "expression": "cron(0 7 11 10 ? 2026)",
+  "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+  "enabled": true
+}

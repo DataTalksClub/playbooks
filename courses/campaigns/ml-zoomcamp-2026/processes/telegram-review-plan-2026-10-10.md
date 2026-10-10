@@ -1,6 +1,6 @@
 # ML Zoomcamp 2026 Telegram plan for review
 
-All rows are **proposed, not scheduled**. Channel: `@mlzoomcamp`; numeric chat ID `-1001435532197` was verified with `getChat` through Dapier on October 10. Bot membership and administrator access remain unavailable; `getChatMember` failed. This plan starts October 11, 2026 and excludes elapsed releases. [Machine-readable plan](telegram-review-plan-2026-10-10.csv) records UTC times, file hashes, entities, observed platform state and dedup decisions.
+All 22 rows were approved by the user and are now **scheduled in Dapier**. Channel: `@mlzoomcamp`, numeric chat ID `-1001435532197`. Posting-only bot administrator access was saved in Telegram Web and verified through Dapier. [Active schedule artifacts and evidence](dapier/README.md) record published revision1, enabled rules, exact next fires and content hashes. No announcement was sent during setup. [Execution record](telegram-execution-record-2026-10-10.json) preserves the approval, live-history check and permission status. The table below is the approved plan; the CSV status records activation.
 
 Posting slot: **09:00 Europe/Berlin**, chosen for a consistent morning cadence. That is 07:00 UTC through October 24 and 08:00 UTC from October 25. No engagement data establishes an optimal time. Every deadline below is **23:00 UTC**; learners see 01:00 CEST or 00:00 CET on the following local day. Posting dates are recommendations, not platform module release dates.
 
@@ -47,4 +47,4 @@ On November 23 the Module 8 recommendation coincides with the final day of midte
 
 The certificate rule conflict remains: platform settings say one passing project; published documentation says two. Existing drafts link to the rules and omit a numeric certificate promise. Do not add a numerical claim until reconciled. The end date is not a certificate delivery promise.
 
-No jobs, posts or platform settings were changed. Approval of the selected rows is required before scheduling or posting; bot creation and token registration are separate setup actions. If the approved date/time has elapsed, revise the row rather than backdating or immediately sending it.
+All22 workflow/schedule pairs were created and enabled following explicit user approval. No posts were sent during setup and no platform settings were changed. Runtime CMP checks suppress delivery when approved facts or required states differ. If the approved date/time has elapsed, revise the row rather than backdating or immediately sending it.

@@ -1,0 +1,1416 @@
+{
+  "prepared_at": "2026-10-10T21:05:20.957061+00:00",
+  "rows": [
+    {
+      "row_id": "ML2026-001",
+      "posting_local": "2026-10-11T09:00:00+02:00",
+      "posting_utc": "2026-10-11T07:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw03",
+      "kind": "homework reminder",
+      "angle": "Module 3 catch-up + Homework 3 reminder",
+      "file": "catch-up-module-3-homework-reminder.md",
+      "file_sha256": "d20c197a093e07db6f0c1b9800d5d12d57e58d013d96c5169546cd9abfd92055",
+      "deadline_utc": "2026-10-12T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "Conditional catch-up; use short reminder if Module 3 appeared",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "d20c197a093e07db6f0c1b9800d5d12d57e58d013d96c5169546cd9abfd92055",
+      "payload_sha256": "278c1e01c88a1d34f236ce985b53b34b64c44faceb7571f2d22d4777e7df1f23",
+      "workflow_id": "ml26-telegram-001",
+      "schedule_id": "ml26-001",
+      "expression": "cron(0 7 11 10 ? 2026)",
+      "characters": 872,
+      "workflow_file": "workflows/ml26-telegram-001.yaml",
+      "schedule_file": "schedules/ml26-001.json",
+      "event_file": "events/ml26-001.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-10-12T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw03.due_date": {
+          "equals": "2026-10-12T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw03.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-001",
+      "verified_next_fire_utc": "2026-10-11T07:00:00Z"
+    },
+    {
+      "row_id": "ML2026-002",
+      "posting_local": "2026-10-12T09:00:00+02:00",
+      "posting_utc": "2026-10-12T07:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw04",
+      "kind": "announcement",
+      "angle": "Module 4: classification evaluation",
+      "file": "04-module-4-announcement.md",
+      "file_sha256": "2133ed851be98e7f42af391a6c29936cf55d1c29b2f8b9222e0b90c99e03d9a6",
+      "deadline_utc": "2026-10-19T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "2133ed851be98e7f42af391a6c29936cf55d1c29b2f8b9222e0b90c99e03d9a6",
+      "payload_sha256": "1c5efeb9082578bda19fef52b1f46d4a62090a425d1b3cc1f4f4279a4caecf28",
+      "workflow_id": "ml26-telegram-002",
+      "schedule_id": "ml26-002",
+      "expression": "cron(0 7 12 10 ? 2026)",
+      "characters": 1063,
+      "workflow_file": "workflows/ml26-telegram-002.yaml",
+      "schedule_file": "schedules/ml26-002.json",
+      "event_file": "events/ml26-002.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-10-19T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw04.due_date": {
+          "equals": "2026-10-19T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw04.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-002",
+      "verified_next_fire_utc": "2026-10-12T07:00:00Z"
+    },
+    {
+      "row_id": "ML2026-003",
+      "posting_local": "2026-10-18T09:00:00+02:00",
+      "posting_utc": "2026-10-18T07:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw04",
+      "kind": "homework reminder",
+      "angle": "Homework 4 deadline reminder",
+      "file": "reminder-homework-04.md",
+      "file_sha256": "7ef0dd17bc1fb95e008abf7f44b5a70a29cfd210780d299643f19ccb7fd9f6be",
+      "deadline_utc": "2026-10-19T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "7ef0dd17bc1fb95e008abf7f44b5a70a29cfd210780d299643f19ccb7fd9f6be",
+      "payload_sha256": "b54c57b5c791443a6dbaf2d26f6d09b744edb5fbce4c77c4a6120ebc0cc993f6",
+      "workflow_id": "ml26-telegram-003",
+      "schedule_id": "ml26-003",
+      "expression": "cron(0 7 18 10 ? 2026)",
+      "characters": 320,
+      "workflow_file": "workflows/ml26-telegram-003.yaml",
+      "schedule_file": "schedules/ml26-003.json",
+      "event_file": "events/ml26-003.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-10-19T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw04.due_date": {
+          "equals": "2026-10-19T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw04.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-003",
+      "verified_next_fire_utc": "2026-10-18T07:00:00Z"
+    },
+    {
+      "row_id": "ML2026-004",
+      "posting_local": "2026-10-19T09:00:00+02:00",
+      "posting_utc": "2026-10-19T07:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw05",
+      "kind": "announcement",
+      "angle": "Module 5: deployment",
+      "file": "05-module-5-announcement.md",
+      "file_sha256": "6b224be25f30dc07bb92878da016de18f6d29718277278e6a0cb7abac422d254",
+      "deadline_utc": "2026-10-26T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "6b224be25f30dc07bb92878da016de18f6d29718277278e6a0cb7abac422d254",
+      "payload_sha256": "e372e4fe7983ca80a5c950b457117d756be6be94c19302d76abb4f3f43014807",
+      "workflow_id": "ml26-telegram-004",
+      "schedule_id": "ml26-004",
+      "expression": "cron(0 7 19 10 ? 2026)",
+      "characters": 1259,
+      "workflow_file": "workflows/ml26-telegram-004.yaml",
+      "schedule_file": "schedules/ml26-004.json",
+      "event_file": "events/ml26-004.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-10-26T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw05.due_date": {
+          "equals": "2026-10-26T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw05.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-004",
+      "verified_next_fire_utc": "2026-10-19T07:00:00Z"
+    },
+    {
+      "row_id": "ML2026-005",
+      "posting_local": "2026-10-25T09:00:00+01:00",
+      "posting_utc": "2026-10-25T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw05",
+      "kind": "homework reminder",
+      "angle": "Homework 5 deadline reminder",
+      "file": "reminder-homework-05.md",
+      "file_sha256": "07c67f3443e44b44f05983fa70ee0f70d04e05a2efc46ee9757bd463d881df94",
+      "deadline_utc": "2026-10-26T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "07c67f3443e44b44f05983fa70ee0f70d04e05a2efc46ee9757bd463d881df94",
+      "payload_sha256": "810603996fe45eccf40a353d0e4176907f4de4e773a0b988d2e0f97787c1d36b",
+      "workflow_id": "ml26-telegram-005",
+      "schedule_id": "ml26-005",
+      "expression": "cron(0 8 25 10 ? 2026)",
+      "characters": 319,
+      "workflow_file": "workflows/ml26-telegram-005.yaml",
+      "schedule_file": "schedules/ml26-005.json",
+      "event_file": "events/ml26-005.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-10-26T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw05.due_date": {
+          "equals": "2026-10-26T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw05.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-005",
+      "verified_next_fire_utc": "2026-10-25T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-006",
+      "posting_local": "2026-10-26T09:00:00+01:00",
+      "posting_utc": "2026-10-26T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw06",
+      "kind": "announcement",
+      "angle": "Module 6: trees and ensembles",
+      "file": "06-module-6-announcement.md",
+      "file_sha256": "885bb92576829c72c53681dbe3e5b4939b16f77cb87a784173c4fe4f8fd98242",
+      "deadline_utc": "2026-11-02T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "885bb92576829c72c53681dbe3e5b4939b16f77cb87a784173c4fe4f8fd98242",
+      "payload_sha256": "955904464a23e9f8e1b18822392ca2eb68e84154572b22b3a54f29af31f05458",
+      "workflow_id": "ml26-telegram-006",
+      "schedule_id": "ml26-006",
+      "expression": "cron(0 8 26 10 ? 2026)",
+      "characters": 1016,
+      "workflow_file": "workflows/ml26-telegram-006.yaml",
+      "schedule_file": "schedules/ml26-006.json",
+      "event_file": "events/ml26-006.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-02T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw06.due_date": {
+          "equals": "2026-11-02T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw06.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-006",
+      "verified_next_fire_utc": "2026-10-26T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-007",
+      "posting_local": "2026-11-01T09:00:00+01:00",
+      "posting_utc": "2026-11-01T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw06",
+      "kind": "homework reminder",
+      "angle": "Homework 6 deadline reminder",
+      "file": "reminder-homework-06.md",
+      "file_sha256": "1d69272cb1488c2527f8ebf834fbd04bc055c4ee5e4abe6dc6506e85fbce1ea0",
+      "deadline_utc": "2026-11-02T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "1d69272cb1488c2527f8ebf834fbd04bc055c4ee5e4abe6dc6506e85fbce1ea0",
+      "payload_sha256": "fb895872e6183f67080d5e07fc2a855e2c48ac342dd228555e130275ae2e533a",
+      "workflow_id": "ml26-telegram-007",
+      "schedule_id": "ml26-007",
+      "expression": "cron(0 8 1 11 ? 2026)",
+      "characters": 319,
+      "workflow_file": "workflows/ml26-telegram-007.yaml",
+      "schedule_file": "schedules/ml26-007.json",
+      "event_file": "events/ml26-007.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-02T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw06.due_date": {
+          "equals": "2026-11-02T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw06.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-007",
+      "verified_next_fire_utc": "2026-11-01T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-008",
+      "posting_local": "2026-11-02T09:00:00+01:00",
+      "posting_utc": "2026-11-02T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "midterm",
+      "kind": "announcement",
+      "angle": "Midterm project instructions",
+      "file": "07-midterm-project-announcement.md",
+      "file_sha256": "88bcc6a5fa3a1add7214f88f06bcd305e904cb5b2e155006e58042b125f8c8cd",
+      "deadline_utc": "2026-11-16T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "88bcc6a5fa3a1add7214f88f06bcd305e904cb5b2e155006e58042b125f8c8cd",
+      "payload_sha256": "c635047d23286407e963176b9487e75a81072e29970406c75419632fc1352321",
+      "workflow_id": "ml26-telegram-008",
+      "schedule_id": "ml26-008",
+      "expression": "cron(0 8 2 11 ? 2026)",
+      "characters": 1587,
+      "workflow_file": "workflows/ml26-telegram-008.yaml",
+      "schedule_file": "schedules/ml26-008.json",
+      "event_file": "events/ml26-008.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-16T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.midterm.submission_due_date": {
+          "equals": "2026-11-16T23:00:00+00:00"
+        },
+        "steps.course.output.projects.midterm.peer_review_due_date": {
+          "equals": "2026-11-23T23:00:00+00:00"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-008",
+      "verified_next_fire_utc": "2026-11-02T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-009",
+      "posting_local": "2026-11-15T09:00:00+01:00",
+      "posting_utc": "2026-11-15T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "midterm",
+      "kind": "submission reminder",
+      "angle": "Midterm submission reminder",
+      "file": "reminder-midterm-submission.md",
+      "file_sha256": "f41b3fd226a116ab71806da6303ea34df8966ce6a67e7ebf83b9411f0117a08b",
+      "deadline_utc": "2026-11-16T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "f41b3fd226a116ab71806da6303ea34df8966ce6a67e7ebf83b9411f0117a08b",
+      "payload_sha256": "1ecb5bf38c6623cc6b41e5aa47f8ee7a03b2e205f6f7693248cf6c99fdca88b4",
+      "workflow_id": "ml26-telegram-009",
+      "schedule_id": "ml26-009",
+      "expression": "cron(0 8 15 11 ? 2026)",
+      "characters": 377,
+      "workflow_file": "workflows/ml26-telegram-009.yaml",
+      "schedule_file": "schedules/ml26-009.json",
+      "event_file": "events/ml26-009.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-16T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.midterm.submission_due_date": {
+          "equals": "2026-11-16T23:00:00+00:00"
+        },
+        "steps.course.output.projects.midterm.peer_review_due_date": {
+          "equals": "2026-11-23T23:00:00+00:00"
+        },
+        "steps.course.output.projects.midterm.state": {
+          "equals": "CS"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-009",
+      "verified_next_fire_utc": "2026-11-15T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-010",
+      "posting_local": "2026-11-22T09:00:00+01:00",
+      "posting_utc": "2026-11-22T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "midterm",
+      "kind": "peer-review reminder",
+      "angle": "Midterm peer-review reminder",
+      "file": "reminder-midterm-peer-review.md",
+      "file_sha256": "378b01c748c5e3c158c3ea4d45f8bac6f20c441fb46615edc1d619d22db741f8",
+      "deadline_utc": "2026-11-23T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "378b01c748c5e3c158c3ea4d45f8bac6f20c441fb46615edc1d619d22db741f8",
+      "payload_sha256": "0bd82ae6976d1f8ef616a67972f3dcb1938a1158156c7eb29756ada2e494deb8",
+      "workflow_id": "ml26-telegram-010",
+      "schedule_id": "ml26-010",
+      "expression": "cron(0 8 22 11 ? 2026)",
+      "characters": 433,
+      "workflow_file": "workflows/ml26-telegram-010.yaml",
+      "schedule_file": "schedules/ml26-010.json",
+      "event_file": "events/ml26-010.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-23T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.midterm.submission_due_date": {
+          "equals": "2026-11-16T23:00:00+00:00"
+        },
+        "steps.course.output.projects.midterm.peer_review_due_date": {
+          "equals": "2026-11-23T23:00:00+00:00"
+        },
+        "steps.course.output.projects.midterm.state": {
+          "equals": "PR"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-010",
+      "verified_next_fire_utc": "2026-11-22T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-011",
+      "posting_local": "2026-11-23T09:00:00+01:00",
+      "posting_utc": "2026-11-23T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw08",
+      "kind": "announcement",
+      "angle": "Module 8: deep learning",
+      "file": "08-module-8-announcement.md",
+      "file_sha256": "ca8875cc45a9fdbb6139fbd115d3532d03542cc6b3058051dc7de8275408a562",
+      "deadline_utc": "2026-11-30T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "ca8875cc45a9fdbb6139fbd115d3532d03542cc6b3058051dc7de8275408a562",
+      "payload_sha256": "578db241da9f9254dd7bd39237e65af716c153b27344ff6c7df2eb39e222cdf1",
+      "workflow_id": "ml26-telegram-011",
+      "schedule_id": "ml26-011",
+      "expression": "cron(0 8 23 11 ? 2026)",
+      "characters": 1274,
+      "workflow_file": "workflows/ml26-telegram-011.yaml",
+      "schedule_file": "schedules/ml26-011.json",
+      "event_file": "events/ml26-011.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-30T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw08.due_date": {
+          "equals": "2026-11-30T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw08.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-011",
+      "verified_next_fire_utc": "2026-11-23T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-012",
+      "posting_local": "2026-11-29T09:00:00+01:00",
+      "posting_utc": "2026-11-29T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw08",
+      "kind": "homework reminder",
+      "angle": "Homework 8 deadline reminder",
+      "file": "reminder-homework-08.md",
+      "file_sha256": "58f54e197c3c12cf19860968a666bf884078dfc01d0b833b146411ef867511e3",
+      "deadline_utc": "2026-11-30T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "58f54e197c3c12cf19860968a666bf884078dfc01d0b833b146411ef867511e3",
+      "payload_sha256": "ce4c0cd44d596a688149fa6ee6e866bf2ac165de7dd48cde1f99c36aca9363c8",
+      "workflow_id": "ml26-telegram-012",
+      "schedule_id": "ml26-012",
+      "expression": "cron(0 8 29 11 ? 2026)",
+      "characters": 320,
+      "workflow_file": "workflows/ml26-telegram-012.yaml",
+      "schedule_file": "schedules/ml26-012.json",
+      "event_file": "events/ml26-012.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-11-30T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw08.due_date": {
+          "equals": "2026-11-30T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw08.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-012",
+      "verified_next_fire_utc": "2026-11-29T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-013",
+      "posting_local": "2026-11-30T09:00:00+01:00",
+      "posting_utc": "2026-11-30T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw09",
+      "kind": "announcement",
+      "angle": "Module 9: serverless deep learning",
+      "file": "09-module-9-announcement.md",
+      "file_sha256": "97a001d92eb4f4848063c74326abda506d6bf56c2d7c604a4a539c865832acdb",
+      "deadline_utc": "2026-12-07T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "97a001d92eb4f4848063c74326abda506d6bf56c2d7c604a4a539c865832acdb",
+      "payload_sha256": "e6b4b239845cecd3fb3684cbe67250a8a2e08ed21a59330b8096b4512fa6faf9",
+      "workflow_id": "ml26-telegram-013",
+      "schedule_id": "ml26-013",
+      "expression": "cron(0 8 30 11 ? 2026)",
+      "characters": 1245,
+      "workflow_file": "workflows/ml26-telegram-013.yaml",
+      "schedule_file": "schedules/ml26-013.json",
+      "event_file": "events/ml26-013.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-12-07T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw09.due_date": {
+          "equals": "2026-12-07T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw09.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-013",
+      "verified_next_fire_utc": "2026-11-30T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-014",
+      "posting_local": "2026-12-06T09:00:00+01:00",
+      "posting_utc": "2026-12-06T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw09",
+      "kind": "homework reminder",
+      "angle": "Homework 9 deadline reminder",
+      "file": "reminder-homework-09.md",
+      "file_sha256": "eae1508e9e899ab9f5b2af55120ee30ea78a89944f609c9a74002000ab7110db",
+      "deadline_utc": "2026-12-07T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "eae1508e9e899ab9f5b2af55120ee30ea78a89944f609c9a74002000ab7110db",
+      "payload_sha256": "77c2871379b24fff0a18681b71b85b1a279618e18325f7b6c49cb653a42ef5c4",
+      "workflow_id": "ml26-telegram-014",
+      "schedule_id": "ml26-014",
+      "expression": "cron(0 8 6 12 ? 2026)",
+      "characters": 319,
+      "workflow_file": "workflows/ml26-telegram-014.yaml",
+      "schedule_file": "schedules/ml26-014.json",
+      "event_file": "events/ml26-014.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-12-07T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw09.due_date": {
+          "equals": "2026-12-07T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw09.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-014",
+      "verified_next_fire_utc": "2026-12-06T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-015",
+      "posting_local": "2026-12-07T09:00:00+01:00",
+      "posting_utc": "2026-12-07T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw10",
+      "kind": "announcement",
+      "angle": "Module 10: Kubernetes",
+      "file": "10-module-10-announcement.md",
+      "file_sha256": "00a5d6e87eedeb9cf213db8894b24ceb53ad18b790ea478c963fbff8624cec19",
+      "deadline_utc": "2026-12-14T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "00a5d6e87eedeb9cf213db8894b24ceb53ad18b790ea478c963fbff8624cec19",
+      "payload_sha256": "9d8d0c8f13082d17a16091ecf7313871aef6f490bb5ed68a862fb4fe8ff6ed35",
+      "workflow_id": "ml26-telegram-015",
+      "schedule_id": "ml26-015",
+      "expression": "cron(0 8 7 12 ? 2026)",
+      "characters": 1349,
+      "workflow_file": "workflows/ml26-telegram-015.yaml",
+      "schedule_file": "schedules/ml26-015.json",
+      "event_file": "events/ml26-015.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-12-14T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw10.due_date": {
+          "equals": "2026-12-14T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw10.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-015",
+      "verified_next_fire_utc": "2026-12-07T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-016",
+      "posting_local": "2026-12-13T09:00:00+01:00",
+      "posting_utc": "2026-12-13T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "hw10",
+      "kind": "homework reminder",
+      "angle": "Homework 10 deadline reminder",
+      "file": "reminder-homework-10.md",
+      "file_sha256": "f718ec2ed1efcc2f7c15ccd46483fa6fdb27a5c01972b9e9183b713786118785",
+      "deadline_utc": "2026-12-14T23:00:00+00:00",
+      "observed_state": "OP",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "f718ec2ed1efcc2f7c15ccd46483fa6fdb27a5c01972b9e9183b713786118785",
+      "payload_sha256": "2dcf8c48c0d08d8aa941595d65136d134d78ab9f54598897b12958939a8df3f0",
+      "workflow_id": "ml26-telegram-016",
+      "schedule_id": "ml26-016",
+      "expression": "cron(0 8 13 12 ? 2026)",
+      "characters": 322,
+      "workflow_file": "workflows/ml26-telegram-016.yaml",
+      "schedule_file": "schedules/ml26-016.json",
+      "event_file": "events/ml26-016.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2026-12-14T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.homeworks.hw10.due_date": {
+          "equals": "2026-12-14T23:00:00+00:00"
+        },
+        "steps.course.output.homeworks.hw10.state": {
+          "equals": "OP"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-016",
+      "verified_next_fire_utc": "2026-12-13T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-017",
+      "posting_local": "2026-12-14T09:00:00+01:00",
+      "posting_utc": "2026-12-14T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "capstone1",
+      "kind": "announcement",
+      "angle": "Capstone windows and project instructions",
+      "file": "11-capstone-projects-announcement.md",
+      "file_sha256": "8bc73a5e1a08baf7311e84ec019abb613b8745389ab6038bc6ab4f666654f023",
+      "deadline_utc": "2027-01-04T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "8bc73a5e1a08baf7311e84ec019abb613b8745389ab6038bc6ab4f666654f023",
+      "payload_sha256": "e3918f143d141448743d10de6f633d1b0dc34229968fa911e59924975aec6012",
+      "workflow_id": "ml26-telegram-017",
+      "schedule_id": "ml26-017",
+      "expression": "cron(0 8 14 12 ? 2026)",
+      "characters": 1713,
+      "workflow_file": "workflows/ml26-telegram-017.yaml",
+      "schedule_file": "schedules/ml26-017.json",
+      "event_file": "events/ml26-017.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2027-01-04T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.capstone1.submission_due_date": {
+          "equals": "2027-01-04T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone1.peer_review_due_date": {
+          "equals": "2027-01-11T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.submission_due_date": {
+          "equals": "2027-01-18T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.peer_review_due_date": {
+          "equals": "2027-01-25T23:00:00+00:00"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-017",
+      "verified_next_fire_utc": "2026-12-14T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-018",
+      "posting_local": "2027-01-03T09:00:00+01:00",
+      "posting_utc": "2027-01-03T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "capstone1",
+      "kind": "submission reminder",
+      "angle": "Capstone 1 submission reminder",
+      "file": "reminder-capstone1-submission.md",
+      "file_sha256": "53c536c59fd146075a73e43bdb0279f0d365f7cc720d56aedabfe377a426a4b7",
+      "deadline_utc": "2027-01-04T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "53c536c59fd146075a73e43bdb0279f0d365f7cc720d56aedabfe377a426a4b7",
+      "payload_sha256": "b63a10d57d4265b9a380cc800aa374667c837e856841dcada37ace0de31d5b6d",
+      "workflow_id": "ml26-telegram-018",
+      "schedule_id": "ml26-018",
+      "expression": "cron(0 8 3 1 ? 2027)",
+      "characters": 370,
+      "workflow_file": "workflows/ml26-telegram-018.yaml",
+      "schedule_file": "schedules/ml26-018.json",
+      "event_file": "events/ml26-018.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2027-01-04T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.capstone1.submission_due_date": {
+          "equals": "2027-01-04T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone1.peer_review_due_date": {
+          "equals": "2027-01-11T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone1.state": {
+          "equals": "CS"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-018",
+      "verified_next_fire_utc": "2027-01-03T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-019",
+      "posting_local": "2027-01-10T09:00:00+01:00",
+      "posting_utc": "2027-01-10T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "capstone1",
+      "kind": "peer-review reminder",
+      "angle": "Capstone 1 peer-review reminder",
+      "file": "reminder-capstone1-peer-review.md",
+      "file_sha256": "0631c40b8da67ffb8f34e060fd315d99bf9e0748e095adfc9493ee3fe56b3ab5",
+      "deadline_utc": "2027-01-11T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "0631c40b8da67ffb8f34e060fd315d99bf9e0748e095adfc9493ee3fe56b3ab5",
+      "payload_sha256": "3be8f7dcb148f887473a5947fd78e3a118aa0f84cc2b810a23a84c094d8d35d6",
+      "workflow_id": "ml26-telegram-019",
+      "schedule_id": "ml26-019",
+      "expression": "cron(0 8 10 1 ? 2027)",
+      "characters": 428,
+      "workflow_file": "workflows/ml26-telegram-019.yaml",
+      "schedule_file": "schedules/ml26-019.json",
+      "event_file": "events/ml26-019.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2027-01-11T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.capstone1.submission_due_date": {
+          "equals": "2027-01-04T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone1.peer_review_due_date": {
+          "equals": "2027-01-11T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone1.state": {
+          "equals": "PR"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-019",
+      "verified_next_fire_utc": "2027-01-10T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-020",
+      "posting_local": "2027-01-11T09:00:00+01:00",
+      "posting_utc": "2027-01-11T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "capstone2",
+      "kind": "announcement",
+      "angle": "Second capstone window",
+      "file": "12-capstone-2-announcement.md",
+      "file_sha256": "e2b24cf73097bd2661eb8995dbef4985b930f7a81855821bf3a6db7d9549c289",
+      "deadline_utc": "2027-01-18T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "e2b24cf73097bd2661eb8995dbef4985b930f7a81855821bf3a6db7d9549c289",
+      "payload_sha256": "9dbab1e6b2cfcc0995d487572f1429fe098c961059ef3118f509a63c265ebc83",
+      "workflow_id": "ml26-telegram-020",
+      "schedule_id": "ml26-020",
+      "expression": "cron(0 8 11 1 ? 2027)",
+      "characters": 875,
+      "workflow_file": "workflows/ml26-telegram-020.yaml",
+      "schedule_file": "schedules/ml26-020.json",
+      "event_file": "events/ml26-020.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2027-01-18T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.capstone2.submission_due_date": {
+          "equals": "2027-01-18T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.peer_review_due_date": {
+          "equals": "2027-01-25T23:00:00+00:00"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-020",
+      "verified_next_fire_utc": "2027-01-11T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-021",
+      "posting_local": "2027-01-17T09:00:00+01:00",
+      "posting_utc": "2027-01-17T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "capstone2",
+      "kind": "submission reminder",
+      "angle": "Capstone 2 submission reminder",
+      "file": "reminder-capstone2-submission.md",
+      "file_sha256": "bf95e9d57a6a83c548a884936a185bd24b5b782af38efc1d621a4088e2971ad9",
+      "deadline_utc": "2027-01-18T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "bf95e9d57a6a83c548a884936a185bd24b5b782af38efc1d621a4088e2971ad9",
+      "payload_sha256": "2c1125c43df56fd0e5832cb48a07dd0707d8a373cdfb1c6a10be734f43ee994e",
+      "workflow_id": "ml26-telegram-021",
+      "schedule_id": "ml26-021",
+      "expression": "cron(0 8 17 1 ? 2027)",
+      "characters": 372,
+      "workflow_file": "workflows/ml26-telegram-021.yaml",
+      "schedule_file": "schedules/ml26-021.json",
+      "event_file": "events/ml26-021.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2027-01-18T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.capstone2.submission_due_date": {
+          "equals": "2027-01-18T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.peer_review_due_date": {
+          "equals": "2027-01-25T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.state": {
+          "equals": "CS"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-021",
+      "verified_next_fire_utc": "2027-01-17T08:00:00Z"
+    },
+    {
+      "row_id": "ML2026-022",
+      "posting_local": "2027-01-24T09:00:00+01:00",
+      "posting_utc": "2027-01-24T08:00:00Z",
+      "channel_username": "@mlzoomcamp",
+      "chat_id": "-1001435532197",
+      "cohort_slug": "ml-zoomcamp-2026",
+      "entity": "capstone2",
+      "kind": "peer-review reminder",
+      "angle": "Capstone 2 peer-review reminder",
+      "file": "reminder-capstone2-peer-review.md",
+      "file_sha256": "1b2902cb1bdbb0a0b9b567b4976b977b3dc0411c8245c34204833c6eb8a7d0dc",
+      "deadline_utc": "2027-01-25T23:00:00+00:00",
+      "observed_state": "CL",
+      "evidence_date": "2026-10-10",
+      "dedup_decision": "No matching future-cohort entity/kind in supplied export; refresh history",
+      "status": "Scheduled in Dapier",
+      "platform_verified_at": "2026-10-10T20:47:43.844296Z",
+      "source_sha256": "1b2902cb1bdbb0a0b9b567b4976b977b3dc0411c8245c34204833c6eb8a7d0dc",
+      "payload_sha256": "af4c04416733a5f97460d33decd7048d9c075759c54ccd4f88004a3a6056274b",
+      "workflow_id": "ml26-telegram-022",
+      "schedule_id": "ml26-022",
+      "expression": "cron(0 8 24 1 ? 2027)",
+      "characters": 428,
+      "workflow_file": "workflows/ml26-telegram-022.yaml",
+      "schedule_file": "schedules/ml26-022.json",
+      "event_file": "events/ml26-022.json",
+      "prerequisites": [
+        "ML bot posting permission and live history verified by root before activation"
+      ],
+      "live_status": "published revision 1; schedule enabled",
+      "runtime_gate": {
+        "steps.course.output.course.slug": {
+          "equals": "ml-zoomcamp-2026"
+        },
+        "steps.course.output.course.start_date": {
+          "equals": "2026-09-14"
+        },
+        "steps.course.output.course.end_date": {
+          "equals": "2027-01-25"
+        },
+        "steps.course.output.course.finished": {
+          "equals": false
+        },
+        "steps.course.output.course.visible": {
+          "equals": true
+        },
+        "steps.course.output.checked_at": {
+          "lt": "2027-01-25T23:00:00+00:00",
+          "exists": true
+        },
+        "steps.course.output.projects.capstone2.submission_due_date": {
+          "equals": "2027-01-18T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.peer_review_due_date": {
+          "equals": "2027-01-25T23:00:00+00:00"
+        },
+        "steps.course.output.projects.capstone2.state": {
+          "equals": "PR"
+        }
+      },
+      "runtime_guards": "CMP read failure or changed facts filters before Telegram",
+      "published_revision": 1,
+      "remote_rule": "dapier-schedule-ml26-022",
+      "verified_next_fire_utc": "2027-01-24T08:00:00Z"
+    }
+  ],
+  "activation_verified_at": "2026-10-10T21:23:52.977631+00:00"
+}

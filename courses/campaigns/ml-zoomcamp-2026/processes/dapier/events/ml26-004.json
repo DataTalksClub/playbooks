@@ -1,0 +1,9 @@
+{
+  "id": "dry-run-ml26-004",
+  "connector": "schedule",
+  "event": "schedule.triggered",
+  "data": {
+    "schedule": "ml26-004",
+    "utc_time": "2026-10-19T07:00:00Z"
+  }
+}

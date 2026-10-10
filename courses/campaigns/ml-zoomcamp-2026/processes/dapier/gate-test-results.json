@@ -1,0 +1,1037 @@
+[
+  {
+    "row_id": "ML2026-001",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-001",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-001",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-001",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-001",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-001",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-001",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-002",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-003",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-004",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-005",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-006",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-007",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-008",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-008",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-008",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-008",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-008",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-008",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-009",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-010",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-011",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-012",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-013",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-014",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-015",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-016",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-017",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-017",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-017",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-017",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-017",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-017",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-018",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-019",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-020",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-020",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-020",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-020",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-020",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-020",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-021",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "ready",
+    "send_count": 1,
+    "stop": null,
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "late",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "missing-time",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "changed-course",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "changed-deadline",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "closed",
+    "send_count": 0,
+    "stop": "filtered",
+    "passed": true
+  },
+  {
+    "row_id": "ML2026-022",
+    "case": "read-error",
+    "send_count": 0,
+    "passed": true
+  }
+]

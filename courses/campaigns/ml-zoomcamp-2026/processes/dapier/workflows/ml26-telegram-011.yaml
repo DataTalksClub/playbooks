@@ -1,0 +1,46 @@
+id: ml26-telegram-011
+enabled: true
+description: 'ML2026-011 Module 8: deep learning'
+tags:
+- ml-zoomcamp-2026
+- course-telegram
+folder: ML Zoomcamp 2026
+auto_pause_after: 1
+actions:
+- id: course
+  type: cmp_read_course
+  connection_id: cmp-production
+  course_slug: ml-zoomcamp-2026
+  timeout_seconds: 15
+- id: facts
+  type: filter
+  when:
+    steps.course.output.course.slug:
+      equals: ml-zoomcamp-2026
+    steps.course.output.course.start_date:
+      equals: '2026-09-14'
+    steps.course.output.course.end_date:
+      equals: '2027-01-25'
+    steps.course.output.course.finished:
+      equals: false
+    steps.course.output.course.visible:
+      equals: true
+    steps.course.output.checked_at:
+      lt: '2026-11-30T23:00:00+00:00'
+      exists: true
+    steps.course.output.homeworks.hw08.due_date:
+      equals: '2026-11-30T23:00:00+00:00'
+    steps.course.output.homeworks.hw08.state:
+      equals: OP
+- id: send
+  type: telegram_send
+  connection_id: dtc-course-announcements
+  chat_id: '-1001435532197'
+  text: "We start Module 8 on Neural Networks and Deep Learning.\r\n\r\nSo far, we have worked with tabular data. In this module, we move to images and train neural networks that classify clothing photos.\r\n\r\nWe cover:\r\n\r\n- Neural network fundamentals\r\n- PyTorch, TensorFlow, and Keras\r\n- Convolutional neural networks\r\n- Transfer learning\r\n- Learning rate tuning and checkpointing\r\n- Regularization, dropout, and data augmentation\r\n\r\nThe main theory is in the TensorFlow and Keras videos. For PyTorch, use the re-recorded PyTorch materials.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning\r\n\r\nPyTorch materials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning/pytorch\r\n\r\nHomework 8 asks you to build a small PyTorch model that classifies curly and straight hair.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/08-deep-learning/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08\r\n\r\nDeadline: December 1, 2026 at 00:00 CET (November 30 at 23:00 UTC).\r\n\r\nNext week, Module 9 covers serverless deep learning.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+  timeout_seconds: 15
+trigger:
+  connector: schedule
+  event: schedule.triggered
+  filters:
+    schedule:
+      equals: ml26-011

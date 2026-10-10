@@ -1,0 +1,48 @@
+id: ml26-telegram-019
+enabled: true
+description: ML2026-019 Capstone 1 peer-review reminder
+tags:
+- ml-zoomcamp-2026
+- course-telegram
+folder: ML Zoomcamp 2026
+auto_pause_after: 1
+actions:
+- id: course
+  type: cmp_read_course
+  connection_id: cmp-production
+  course_slug: ml-zoomcamp-2026
+  timeout_seconds: 15
+- id: facts
+  type: filter
+  when:
+    steps.course.output.course.slug:
+      equals: ml-zoomcamp-2026
+    steps.course.output.course.start_date:
+      equals: '2026-09-14'
+    steps.course.output.course.end_date:
+      equals: '2027-01-25'
+    steps.course.output.course.finished:
+      equals: false
+    steps.course.output.course.visible:
+      equals: true
+    steps.course.output.checked_at:
+      lt: '2027-01-11T23:00:00+00:00'
+      exists: true
+    steps.course.output.projects.capstone1.submission_due_date:
+      equals: '2027-01-04T23:00:00+00:00'
+    steps.course.output.projects.capstone1.peer_review_due_date:
+      equals: '2027-01-11T23:00:00+00:00'
+    steps.course.output.projects.capstone1.state:
+      equals: PR
+- id: send
+  type: telegram_send
+  connection_id: dtc-course-announcements
+  chat_id: '-1001435532197'
+  text: "ML Zoomcamp 2026: Capstone 1 peer review deadline is approaching.\r\n\r\nComplete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.\r\n\r\nDeadline: January 12, 2027 at 00:00 CET (January 11 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+  timeout_seconds: 15
+trigger:
+  connector: schedule
+  event: schedule.triggered
+  filters:
+    schedule:
+      equals: ml26-019

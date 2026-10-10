@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-10T21:09:04.910257+00:00",
+  "authorization": "User requested browser posting permissions, scheduling the reviewed posts, focused commits and push.",
+  "channel_username": "@mlzoomcamp",
+  "chat_id": "-1001435532197",
+  "bot_username": "@dtc_course_announcements_bot",
+  "bot_id": 8928085122,
+  "requested_rights": [
+    "can_post_messages"
+  ],
+  "permission_status": "ML and Data Engineering posting-only rights saved via Telegram Web and verified through Dapier; AI Dev Tools, LLM, MLOps authorized by user but pending because Chrome browser control stopped responding.",
+  "live_history": {
+    "checked_at": "2026-10-10T21:09:04.910277+00:00",
+    "method": "Authenticated Telegram Web channel view",
+    "latest_post": "Module 2 on Machine Learning for Regression",
+    "latest_post_date": "2026-09-28",
+    "latest_post_permalink": "https://t.me/mlzoomcamp/254",
+    "module_3_observed": false,
+    "decision": "Use approved Module 3 catch-up plus Homework 3 reminder for ML2026-001."
+  },
+  "schedule_status": "All22 workflows published at revision1, all22 schedules enabled; approved UTC fires and exact content verified at2026-10-10T21:23:52.977631Z.",
+  "delivery_status": "No announcements sent; no delivery IDs exist yet.",
+  "repository_commits": [
+    "dfe0974",
+    "73d05a4",
+    "9db4d5e",
+    "74e0fbd"
+  ],
+  "push_status": "Preparation commits pushed; final schedule artifacts included in subsequent focused commit.",
+  "updated_at": "2026-10-10T21:29:00.322789+00:00",
+  "authorization_other_channels": "User explicitly approved posting-only permissions for all other course channels during execution.",
+  "permission_evidence": "../sources/bot-permissions-2026-10-10.json",
+  "schedule_evidence": "dapier/remote-preparation-results.json"
+}

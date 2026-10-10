@@ -1,0 +1,6 @@
+{
+  "name": "ml26-017",
+  "expression": "cron(0 8 14 12 ? 2026)",
+  "description": "ML2026-017 Capstone windows and project instructions",
+  "enabled": true
+}

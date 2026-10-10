@@ -1,8 +1,8 @@
 # Course Telegram scheduling and comparison
 
-Prepared October 10, 2026. These are planning rules. No course-channel announcements or scheduled jobs have been created. Access and CLI instructions belong to the `course-telegram-management` skill. Keep credentials in the root gitignored `.env` and the approved Dapier credential store; this document contains no tokens.
+Prepared October 10, 2026. These are planning rules. The22 approved ML2026 announcements are scheduled in Dapier; no announcements were sent during setup. Access and CLI instructions belong to the `course-telegram-management` skill. Keep credentials in the root gitignored `.env` and the approved Dapier credential store; this document contains no tokens.
 
-Bot: `@dtc_course_announcements_bot` (ID `8928085122`). Dapier connection: `dtc-course-announcements`. Agent grant: `course-telegram-management`. The connection was tested with `getMe`, and `getChat` through Dapier confirmed the five numeric IDs below. All are channels. `getChatMember` checks failed for this bot in all five channels, so membership and posting permissions are unavailable; administrator access has not been granted. Confirm required permissions for the specifically approved action before execution.
+Bot: `@dtc_course_announcements_bot` (ID `8928085122`). Dapier connection: `dtc-course-announcements`. Agent grant: `course-telegram-management`. The connection was tested with `getMe`, and `getChat` through Dapier confirmed the five numeric IDs below. All are channels. Posting-only administrator rights have been saved via Telegram Web and verified for ML and Data Engineering. The user also approved AI Dev Tools, LLM and MLOps access; those saves remain pending because Chrome browser control stopped responding. See the [permission evidence](campaigns/ml-zoomcamp-2026/sources/bot-permissions-2026-10-10.json). Confirm required permissions for the specifically approved action before execution.
 
 ## Channel registry
 
@@ -10,11 +10,11 @@ Use the numeric chat ID returned by Telegram after checking the channel title, u
 
 | Course | Verified channel title | Verified username | Numeric chat ID | Permission status |
 | --- | --- | --- | --- | --- |
-| ML Zoomcamp | ML Zoomcamp announcements | `@mlzoomcamp` | `-1001435532197` | Bot membership/administrator rights unavailable |
-| Data Engineering Zoomcamp | Data Engineering Zoomcamp | `@dezoomcamp` | `-1001708295427` | Bot membership/administrator rights unavailable |
-| AI Dev Tools Zoomcamp | AI Dev Tools Zoomcamp | `@aidevtoolszoomcamp` | `-1003188609266` | Bot membership/administrator rights unavailable |
-| LLM Zoomcamp | LLM Zoomcamp | `@llm_zoomcamp` | `-1002136268305` | Bot membership/administrator rights unavailable |
-| MLOps Zoomcamp | MLOps Zoomcamp announcements | `@dtc_courses` | `-1001730331343` | Bot membership/administrator rights unavailable |
+| ML Zoomcamp | ML Zoomcamp announcements | `@mlzoomcamp` | `-1001435532197` | Posting-only administrator; verified |
+| Data Engineering Zoomcamp | Data Engineering Zoomcamp | `@dezoomcamp` | `-1001708295427` | Posting-only administrator; verified |
+| AI Dev Tools Zoomcamp | AI Dev Tools Zoomcamp | `@aidevtoolszoomcamp` | `-1003188609266` | Authorized; pending browser recovery |
+| LLM Zoomcamp | LLM Zoomcamp | `@llm_zoomcamp` | `-1002136268305` | Authorized; pending browser recovery |
+| MLOps Zoomcamp | MLOps Zoomcamp announcements | `@dtc_courses` | `-1001730331343` | Authorized; pending browser recovery |
 
 The extraction's public URLs were derived from its username map, not from exported links identifying the channel. For LLM, the verified destination is `@llm_zoomcamp`; for MLOps it is `@dtc_courses`. The old guessed `@llmzoomcamp` and `@mlopszoomcamp` targets failed `getChat`. Retain the HTML export path and message ID as independent evidence. Reusable YAML URLs already match the verified channels; no YAML change is needed.
 

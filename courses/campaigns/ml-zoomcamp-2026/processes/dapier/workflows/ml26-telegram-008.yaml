@@ -1,0 +1,46 @@
+id: ml26-telegram-008
+enabled: true
+description: ML2026-008 Midterm project instructions
+tags:
+- ml-zoomcamp-2026
+- course-telegram
+folder: ML Zoomcamp 2026
+auto_pause_after: 1
+actions:
+- id: course
+  type: cmp_read_course
+  connection_id: cmp-production
+  course_slug: ml-zoomcamp-2026
+  timeout_seconds: 15
+- id: facts
+  type: filter
+  when:
+    steps.course.output.course.slug:
+      equals: ml-zoomcamp-2026
+    steps.course.output.course.start_date:
+      equals: '2026-09-14'
+    steps.course.output.course.end_date:
+      equals: '2027-01-25'
+    steps.course.output.course.finished:
+      equals: false
+    steps.course.output.course.visible:
+      equals: true
+    steps.course.output.checked_at:
+      lt: '2026-11-16T23:00:00+00:00'
+      exists: true
+    steps.course.output.projects.midterm.submission_due_date:
+      equals: '2026-11-16T23:00:00+00:00'
+    steps.course.output.projects.midterm.peer_review_due_date:
+      equals: '2026-11-23T23:00:00+00:00'
+- id: send
+  type: telegram_send
+  connection_id: dtc-course-announcements
+  chat_id: '-1001435532197'
+  text: "We start the midterm project.\r\n\r\nFor the next two weeks, you apply everything from Modules 1 to 6 to a problem of your choice. You pick a dataset, train and evaluate a model, and deploy it as a web service.\r\n\r\nThe project should include:\r\n\r\n- A problem description and how the model will be used\r\n- Data preparation and EDA with feature importance analysis\r\n- Several trained and tuned models, and the one you selected\r\n- A training script and a prediction service exported from the notebook\r\n- Dependency and environment files, and a Dockerfile\r\n- A deployed model, or a video or screenshot of the running service\r\n\r\nUse a new public dataset. Datasets from the lectures and homework don't count.\r\n\r\nProject guidelines:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\r\n\r\nEvaluation criteria:\r\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\r\n\r\nSubmission deadline: November 17, 2026 at 00:00 CET (November 16 at 23:00 UTC).\r\n\r\nPeer review deadline: November 24, 2026 at 00:00 CET (November 23 at 23:00 UTC).\r\n\r\nAfter you submit, you review three projects from other learners. Skipping the peer reviews fails the project.\r\n\r\nCertificate requirements:\r\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\r\n\r\nAfter the midterm, Module 8 covers neural networks and deep learning.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+  timeout_seconds: 15
+trigger:
+  connector: schedule
+  event: schedule.triggered
+  filters:
+    schedule:
+      equals: ml26-008

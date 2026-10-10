@@ -1,0 +1,6 @@
+{
+  "name": "ml26-002",
+  "expression": "cron(0 7 12 10 ? 2026)",
+  "description": "ML2026-002 Module 4: classification evaluation",
+  "enabled": true
+}

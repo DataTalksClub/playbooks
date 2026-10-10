@@ -1,0 +1,46 @@
+id: ml26-telegram-004
+enabled: true
+description: 'ML2026-004 Module 5: deployment'
+tags:
+- ml-zoomcamp-2026
+- course-telegram
+folder: ML Zoomcamp 2026
+auto_pause_after: 1
+actions:
+- id: course
+  type: cmp_read_course
+  connection_id: cmp-production
+  course_slug: ml-zoomcamp-2026
+  timeout_seconds: 15
+- id: facts
+  type: filter
+  when:
+    steps.course.output.course.slug:
+      equals: ml-zoomcamp-2026
+    steps.course.output.course.start_date:
+      equals: '2026-09-14'
+    steps.course.output.course.end_date:
+      equals: '2027-01-25'
+    steps.course.output.course.finished:
+      equals: false
+    steps.course.output.course.visible:
+      equals: true
+    steps.course.output.checked_at:
+      lt: '2026-10-26T23:00:00+00:00'
+      exists: true
+    steps.course.output.homeworks.hw05.due_date:
+      equals: '2026-10-26T23:00:00+00:00'
+    steps.course.output.homeworks.hw05.state:
+      equals: OP
+- id: send
+  type: telegram_send
+  connection_id: dtc-course-announcements
+  chat_id: '-1001435532197'
+  text: "We start Module 5 on Deploying Machine Learning Models.\r\n\r\nIn this module, we turn a trained model into a web service that other applications can call.\r\n\r\nWe cover:\r\n\r\n- Saving and loading trained models\r\n- Moving from a notebook to scripts\r\n- Serving predictions with FastAPI and Pydantic\r\n- Managing the environment with uv\r\n- Packaging the service with Docker\r\n- Deploying to the cloud\r\n\r\nParts of the original module are outdated. Watch the theory videos, then use the FastAPI and uv workshop for the current setup.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment\r\n\r\nWorkshop:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment/workshop\r\n\r\nHomework 5 asks you to serve a lead-scoring model as an API and package it in a container.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/05-deployment/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05\r\n\r\nDeadline: October 27, 2026 at 00:00 CET (October 26 at 23:00 UTC).\r\n\r\nNext week, Module 6 covers decision trees and ensemble learning.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+  timeout_seconds: 15
+trigger:
+  connector: schedule
+  event: schedule.triggered
+  filters:
+    schedule:
+      equals: ml26-004

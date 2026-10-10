@@ -1,0 +1,3510 @@
+{
+  "started_at": "2026-10-10T21:21:14.701112+00:00",
+  "deployment_commit": "4ce3900",
+  "rows": [
+    {
+      "row_id": "ML2026-001",
+      "workflow_id": "ml26-telegram-001",
+      "schedule_id": "ml26-001",
+      "draft": {
+        "file": "ml26-telegram-001.yaml",
+        "id": "ml26-telegram-001",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-001",
+        "expression": "cron(0 7 11 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-001",
+        "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:16.577947+00:00",
+        "updated_at": "2026-10-10T21:21:16.577947+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-001.yaml",
+        "id": "ml26-telegram-001",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-10-12T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw03.due_date": {
+                  "equals": "2026-10-12T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw03.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026 is on Module 3: Machine Learning for Classification.\n\nIn this module, we build a customer churn model with logistic regression and study one-hot encoding, feature importance, and model interpretation.\n\nMaterials:\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification\n\nHomework 3 uses the 2026 lead-scoring dataset to predict whether a client signs up for the platform. Submit your answers before the deadline:\nOctober 13, 2026 at 01:00 CEST (October 12 at 23:00 UTC).\n\nHomework:\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/03-classification/homework.md\n\nSubmit:\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw03\n\nModule 4 covers evaluation metrics for classification.\n\nQuestions go in the course Slack channel:\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-001",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-001"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-001\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-001\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-10-12T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw03.due_date:\n      equals: '2026-10-12T23:00:00+00:00'\n    steps.course.output.homeworks.hw03.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: 'ML Zoomcamp 2026 is on Module 3: Machine Learning for Classification.\n\n\n    In this module, we build a customer churn model with logistic regression and study\n    one-hot encoding, feature importance, and model interpretation.\n\n\n    Materials:\n\n    https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification\n\n\n    Homework 3 uses the 2026 lead-scoring dataset to predict whether a client signs\n    up for the platform. Submit your answers before the deadline:\n\n    October 13, 2026 at 01:00 CEST (October 12 at 23:00 UTC).\n\n\n    Homework:\n\n    https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/03-classification/homework.md\n\n\n    Submit:\n\n    https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw03\n\n\n    Module 4 covers evaluation metrics for classification.\n\n\n    Questions go in the course Slack channel:\n\n    https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA'\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-001 Module 3 catch-up + Homework 3 reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "278c1e01c88a1d34f236ce985b53b34b64c44faceb7571f2d22d4777e7df1f23",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-001",
+        "expression": "cron(0 7 11 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-001",
+        "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:16.577947+00:00",
+        "updated_at": "2026-10-10T21:23:11.581248+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-001",
+        "expression": "cron(0 7 11 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-001",
+        "description": "ML2026-001 Module 3 catch-up + Homework 3 reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:16.577947+00:00",
+        "updated_at": "2026-10-10T21:23:11.581248+00:00",
+        "summary": "on the 11th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-10-11T07:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:11.581248+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-001",
+            "name": "ml26-telegram-001",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-002",
+      "workflow_id": "ml26-telegram-002",
+      "schedule_id": "ml26-002",
+      "draft": {
+        "file": "ml26-telegram-002.yaml",
+        "id": "ml26-telegram-002",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-002",
+        "expression": "cron(0 7 12 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-002",
+        "description": "ML2026-002 Module 4: classification evaluation",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:21.199695+00:00",
+        "updated_at": "2026-10-10T21:21:21.199695+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-002.yaml",
+        "id": "ml26-telegram-002",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-10-19T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw04.due_date": {
+                  "equals": "2026-10-19T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw04.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start Module 4 on Evaluation Metrics for Classification.\r\n\r\nOnce you have a classification model, you need to know how well it performs. Accuracy alone can be misleading, especially when classes are imbalanced. With the right metrics, you can compare models and report performance you can trust.\r\n\r\nWe cover:\r\n\r\n- Accuracy, precision, recall, and F1 score\r\n- Confusion matrices\r\n- ROC curves and AUC\r\n- Cross-validation\r\n- Comparing against a dummy baseline\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/04-evaluation\r\n\r\nHomework 4 evaluates models on the 2026 lead-scoring dataset.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/04-evaluation/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04\r\n\r\nDeadline: October 20, 2026 at 01:00 CEST (October 19 at 23:00 UTC).\r\n\r\nNext week, Module 5 covers deploying machine learning models.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-002 Module 4: classification evaluation",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-002",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-002"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-002\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-002\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-10-19T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw04.due_date:\n      equals: '2026-10-19T23:00:00+00:00'\n    steps.course.output.homeworks.hw04.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start Module 4 on Evaluation Metrics for Classification.\\r\\n\\r\\nOnce you\\\n    \\ have a classification model, you need to know how well it performs. Accuracy\\\n    \\ alone can be misleading, especially when classes are imbalanced. With the right\\\n    \\ metrics, you can compare models and report performance you can trust.\\r\\n\\r\\n\\\n    We cover:\\r\\n\\r\\n- Accuracy, precision, recall, and F1 score\\r\\n- Confusion matrices\\r\\\n    \\n- ROC curves and AUC\\r\\n- Cross-validation\\r\\n- Comparing against a dummy baseline\\r\\\n    \\n\\r\\nMaterials:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/04-evaluation\\r\\\n    \\n\\r\\nHomework 4 evaluates models on the 2026 lead-scoring dataset.\\r\\n\\r\\nHomework:\\r\\\n    \\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/04-evaluation/homework.md\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04\\r\\\n    \\n\\r\\nDeadline: October 20, 2026 at 01:00 CEST (October 19 at 23:00 UTC).\\r\\n\\r\\\n    \\nNext week, Module 5 covers deploying machine learning models.\\r\\n\\r\\nQuestions\\\n    \\ go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: 'ML2026-002 Module 4: classification evaluation'\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "1c5efeb9082578bda19fef52b1f46d4a62090a425d1b3cc1f4f4279a4caecf28",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-002",
+        "expression": "cron(0 7 12 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-002",
+        "description": "ML2026-002 Module 4: classification evaluation",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:21.199695+00:00",
+        "updated_at": "2026-10-10T21:23:12.421308+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-002",
+        "expression": "cron(0 7 12 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-002",
+        "description": "ML2026-002 Module 4: classification evaluation",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:21.199695+00:00",
+        "updated_at": "2026-10-10T21:23:12.421308+00:00",
+        "summary": "on the 12th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-10-12T07:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:12.421308+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-002",
+            "name": "ml26-telegram-002",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-003",
+      "workflow_id": "ml26-telegram-003",
+      "schedule_id": "ml26-003",
+      "draft": {
+        "file": "ml26-telegram-003.yaml",
+        "id": "ml26-telegram-003",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-003",
+        "expression": "cron(0 7 18 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-003",
+        "description": "ML2026-003 Homework 4 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:25.705293+00:00",
+        "updated_at": "2026-10-10T21:21:25.705293+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-003.yaml",
+        "id": "ml26-telegram-003",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-10-19T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw04.due_date": {
+                  "equals": "2026-10-19T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw04.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "Homework 4 for ML Zoomcamp 2026 is due soon.\r\n\r\nSubmit your answers before the deadline:\r\nOctober 20, 2026 at 01:00 CEST (October 19 at 23:00 UTC).\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-003 Homework 4 deadline reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-003",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-003"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-003\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-003\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-10-19T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw04.due_date:\n      equals: '2026-10-19T23:00:00+00:00'\n    steps.course.output.homeworks.hw04.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"Homework 4 for ML Zoomcamp 2026 is due soon.\\r\\n\\r\\nSubmit your answers before\\\n    \\ the deadline:\\r\\nOctober 20, 2026 at 01:00 CEST (October 19 at 23:00 UTC).\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw04\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-003 Homework 4 deadline reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "b54c57b5c791443a6dbaf2d26f6d09b744edb5fbce4c77c4a6120ebc0cc993f6",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-003",
+        "expression": "cron(0 7 18 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-003",
+        "description": "ML2026-003 Homework 4 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:25.705293+00:00",
+        "updated_at": "2026-10-10T21:23:13.279617+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-003",
+        "expression": "cron(0 7 18 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-003",
+        "description": "ML2026-003 Homework 4 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:25.705293+00:00",
+        "updated_at": "2026-10-10T21:23:13.279617+00:00",
+        "summary": "on the 18th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-10-18T07:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:13.279617+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-003",
+            "name": "ml26-telegram-003",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-004",
+      "workflow_id": "ml26-telegram-004",
+      "schedule_id": "ml26-004",
+      "draft": {
+        "file": "ml26-telegram-004.yaml",
+        "id": "ml26-telegram-004",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-004",
+        "expression": "cron(0 7 19 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-004",
+        "description": "ML2026-004 Module 5: deployment",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:29.897819+00:00",
+        "updated_at": "2026-10-10T21:21:29.897819+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-004.yaml",
+        "id": "ml26-telegram-004",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-10-26T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw05.due_date": {
+                  "equals": "2026-10-26T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw05.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start Module 5 on Deploying Machine Learning Models.\r\n\r\nIn this module, we turn a trained model into a web service that other applications can call.\r\n\r\nWe cover:\r\n\r\n- Saving and loading trained models\r\n- Moving from a notebook to scripts\r\n- Serving predictions with FastAPI and Pydantic\r\n- Managing the environment with uv\r\n- Packaging the service with Docker\r\n- Deploying to the cloud\r\n\r\nParts of the original module are outdated. Watch the theory videos, then use the FastAPI and uv workshop for the current setup.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment\r\n\r\nWorkshop:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment/workshop\r\n\r\nHomework 5 asks you to serve a lead-scoring model as an API and package it in a container.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/05-deployment/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05\r\n\r\nDeadline: October 27, 2026 at 00:00 CET (October 26 at 23:00 UTC).\r\n\r\nNext week, Module 6 covers decision trees and ensemble learning.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-004 Module 5: deployment",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-004",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-004"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-004\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-004\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-10-26T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw05.due_date:\n      equals: '2026-10-26T23:00:00+00:00'\n    steps.course.output.homeworks.hw05.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start Module 5 on Deploying Machine Learning Models.\\r\\n\\r\\nIn this module,\\\n    \\ we turn a trained model into a web service that other applications can call.\\r\\\n    \\n\\r\\nWe cover:\\r\\n\\r\\n- Saving and loading trained models\\r\\n- Moving from a\\\n    \\ notebook to scripts\\r\\n- Serving predictions with FastAPI and Pydantic\\r\\n-\\\n    \\ Managing the environment with uv\\r\\n- Packaging the service with Docker\\r\\n\\\n    - Deploying to the cloud\\r\\n\\r\\nParts of the original module are outdated. Watch\\\n    \\ the theory videos, then use the FastAPI and uv workshop for the current setup.\\r\\\n    \\n\\r\\nMaterials:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment\\r\\\n    \\n\\r\\nWorkshop:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment/workshop\\r\\\n    \\n\\r\\nHomework 5 asks you to serve a lead-scoring model as an API and package\\\n    \\ it in a container.\\r\\n\\r\\nHomework:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/05-deployment/homework.md\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05\\r\\\n    \\n\\r\\nDeadline: October 27, 2026 at 00:00 CET (October 26 at 23:00 UTC).\\r\\n\\r\\\n    \\nNext week, Module 6 covers decision trees and ensemble learning.\\r\\n\\r\\nQuestions\\\n    \\ go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: 'ML2026-004 Module 5: deployment'\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "e372e4fe7983ca80a5c950b457117d756be6be94c19302d76abb4f3f43014807",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-004",
+        "expression": "cron(0 7 19 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-004",
+        "description": "ML2026-004 Module 5: deployment",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:29.897819+00:00",
+        "updated_at": "2026-10-10T21:23:14.188131+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-004",
+        "expression": "cron(0 7 19 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-004",
+        "description": "ML2026-004 Module 5: deployment",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:29.897819+00:00",
+        "updated_at": "2026-10-10T21:23:14.188131+00:00",
+        "summary": "on the 19th of the month at 07:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-10-19T07:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:14.188131+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-004",
+            "name": "ml26-telegram-004",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-005",
+      "workflow_id": "ml26-telegram-005",
+      "schedule_id": "ml26-005",
+      "draft": {
+        "file": "ml26-telegram-005.yaml",
+        "id": "ml26-telegram-005",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-005",
+        "expression": "cron(0 8 25 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-005",
+        "description": "ML2026-005 Homework 5 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:34.448689+00:00",
+        "updated_at": "2026-10-10T21:21:34.448689+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-005.yaml",
+        "id": "ml26-telegram-005",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-10-26T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw05.due_date": {
+                  "equals": "2026-10-26T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw05.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "Homework 5 for ML Zoomcamp 2026 is due soon.\r\n\r\nSubmit your answers before the deadline:\r\nOctober 27, 2026 at 00:00 CET (October 26 at 23:00 UTC).\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-005 Homework 5 deadline reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-005",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-005"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-005\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-005\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-10-26T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw05.due_date:\n      equals: '2026-10-26T23:00:00+00:00'\n    steps.course.output.homeworks.hw05.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"Homework 5 for ML Zoomcamp 2026 is due soon.\\r\\n\\r\\nSubmit your answers before\\\n    \\ the deadline:\\r\\nOctober 27, 2026 at 00:00 CET (October 26 at 23:00 UTC).\\r\\n\\\n    \\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-005 Homework 5 deadline reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "810603996fe45eccf40a353d0e4176907f4de4e773a0b988d2e0f97787c1d36b",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-005",
+        "expression": "cron(0 8 25 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-005",
+        "description": "ML2026-005 Homework 5 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:34.448689+00:00",
+        "updated_at": "2026-10-10T21:23:15.028083+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-005",
+        "expression": "cron(0 8 25 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-005",
+        "description": "ML2026-005 Homework 5 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:34.448689+00:00",
+        "updated_at": "2026-10-10T21:23:15.028083+00:00",
+        "summary": "on the 25th of the month at 08:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-10-25T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:15.028083+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-005",
+            "name": "ml26-telegram-005",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-006",
+      "workflow_id": "ml26-telegram-006",
+      "schedule_id": "ml26-006",
+      "draft": {
+        "file": "ml26-telegram-006.yaml",
+        "id": "ml26-telegram-006",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-006",
+        "expression": "cron(0 8 26 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-006",
+        "description": "ML2026-006 Module 6: trees and ensembles",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:38.624348+00:00",
+        "updated_at": "2026-10-10T21:21:38.624348+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-006.yaml",
+        "id": "ml26-telegram-006",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-02T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw06.due_date": {
+                  "equals": "2026-11-02T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw06.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start Module 6 on Decision Trees and Ensemble Learning.\r\n\r\nLinear models are a good start, but tree-based models often work better on tabular data. In this module, we build a credit risk scoring model and combine many trees into stronger models.\r\n\r\nWe cover:\r\n\r\n- How we train decision trees\r\n- Random forests\r\n- Gradient boosting with XGBoost\r\n- Hyperparameter tuning\r\n- Feature importance\r\n- Selecting the best model\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees\r\n\r\nHomework 6 applies tree-based models to the 2026 Car Fuel Efficiency dataset.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/06-trees/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06\r\n\r\nDeadline: November 3, 2026 at 00:00 CET (November 2 at 23:00 UTC).\r\n\r\nAfter this module, we start the midterm project.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-006 Module 6: trees and ensembles",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-006",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-006"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-006\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-006\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-02T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw06.due_date:\n      equals: '2026-11-02T23:00:00+00:00'\n    steps.course.output.homeworks.hw06.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start Module 6 on Decision Trees and Ensemble Learning.\\r\\n\\r\\nLinear\\\n    \\ models are a good start, but tree-based models often work better on tabular\\\n    \\ data. In this module, we build a credit risk scoring model and combine many\\\n    \\ trees into stronger models.\\r\\n\\r\\nWe cover:\\r\\n\\r\\n- How we train decision\\\n    \\ trees\\r\\n- Random forests\\r\\n- Gradient boosting with XGBoost\\r\\n- Hyperparameter\\\n    \\ tuning\\r\\n- Feature importance\\r\\n- Selecting the best model\\r\\n\\r\\nMaterials:\\r\\\n    \\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees\\r\\\n    \\n\\r\\nHomework 6 applies tree-based models to the 2026 Car Fuel Efficiency dataset.\\r\\\n    \\n\\r\\nHomework:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/06-trees/homework.md\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06\\r\\\n    \\n\\r\\nDeadline: November 3, 2026 at 00:00 CET (November 2 at 23:00 UTC).\\r\\n\\r\\\n    \\nAfter this module, we start the midterm project.\\r\\n\\r\\nQuestions go in the\\\n    \\ course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: 'ML2026-006 Module 6: trees and ensembles'\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "955904464a23e9f8e1b18822392ca2eb68e84154572b22b3a54f29af31f05458",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-006",
+        "expression": "cron(0 8 26 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-006",
+        "description": "ML2026-006 Module 6: trees and ensembles",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:38.624348+00:00",
+        "updated_at": "2026-10-10T21:23:15.917481+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-006",
+        "expression": "cron(0 8 26 10 ? 2026)",
+        "rule": "dapier-schedule-ml26-006",
+        "description": "ML2026-006 Module 6: trees and ensembles",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:38.624348+00:00",
+        "updated_at": "2026-10-10T21:23:15.917481+00:00",
+        "summary": "on the 26th of the month at 08:00 UTC in October 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-10-26T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:15.917481+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-006",
+            "name": "ml26-telegram-006",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-007",
+      "workflow_id": "ml26-telegram-007",
+      "schedule_id": "ml26-007",
+      "draft": {
+        "file": "ml26-telegram-007.yaml",
+        "id": "ml26-telegram-007",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-007",
+        "expression": "cron(0 8 1 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-007",
+        "description": "ML2026-007 Homework 6 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:43.049468+00:00",
+        "updated_at": "2026-10-10T21:21:43.049468+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-007.yaml",
+        "id": "ml26-telegram-007",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-02T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw06.due_date": {
+                  "equals": "2026-11-02T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw06.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "Homework 6 for ML Zoomcamp 2026 is due soon.\r\n\r\nSubmit your answers before the deadline:\r\nNovember 3, 2026 at 00:00 CET (November 2 at 23:00 UTC).\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-007 Homework 6 deadline reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-007",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-007"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-007\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-007\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-02T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw06.due_date:\n      equals: '2026-11-02T23:00:00+00:00'\n    steps.course.output.homeworks.hw06.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"Homework 6 for ML Zoomcamp 2026 is due soon.\\r\\n\\r\\nSubmit your answers before\\\n    \\ the deadline:\\r\\nNovember 3, 2026 at 00:00 CET (November 2 at 23:00 UTC).\\r\\n\\\n    \\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-007 Homework 6 deadline reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "fb895872e6183f67080d5e07fc2a855e2c48ac342dd228555e130275ae2e533a",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-007",
+        "expression": "cron(0 8 1 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-007",
+        "description": "ML2026-007 Homework 6 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:43.049468+00:00",
+        "updated_at": "2026-10-10T21:23:16.788882+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-007",
+        "expression": "cron(0 8 1 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-007",
+        "description": "ML2026-007 Homework 6 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:43.049468+00:00",
+        "updated_at": "2026-10-10T21:23:16.788882+00:00",
+        "summary": "on the 1st of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-01T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:16.788882+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-007",
+            "name": "ml26-telegram-007",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-008",
+      "workflow_id": "ml26-telegram-008",
+      "schedule_id": "ml26-008",
+      "draft": {
+        "file": "ml26-telegram-008.yaml",
+        "id": "ml26-telegram-008",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-008",
+        "expression": "cron(0 8 2 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-008",
+        "description": "ML2026-008 Midterm project instructions",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:47.357870+00:00",
+        "updated_at": "2026-10-10T21:21:47.357870+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-008.yaml",
+        "id": "ml26-telegram-008",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-16T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.midterm.peer_review_due_date": {
+                  "equals": "2026-11-23T23:00:00+00:00"
+                },
+                "steps.course.output.projects.midterm.submission_due_date": {
+                  "equals": "2026-11-16T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start the midterm project.\r\n\r\nFor the next two weeks, you apply everything from Modules 1 to 6 to a problem of your choice. You pick a dataset, train and evaluate a model, and deploy it as a web service.\r\n\r\nThe project should include:\r\n\r\n- A problem description and how the model will be used\r\n- Data preparation and EDA with feature importance analysis\r\n- Several trained and tuned models, and the one you selected\r\n- A training script and a prediction service exported from the notebook\r\n- Dependency and environment files, and a Dockerfile\r\n- A deployed model, or a video or screenshot of the running service\r\n\r\nUse a new public dataset. Datasets from the lectures and homework don't count.\r\n\r\nProject guidelines:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\r\n\r\nEvaluation criteria:\r\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\r\n\r\nSubmission deadline: November 17, 2026 at 00:00 CET (November 16 at 23:00 UTC).\r\n\r\nPeer review deadline: November 24, 2026 at 00:00 CET (November 23 at 23:00 UTC).\r\n\r\nAfter you submit, you review three projects from other learners. Skipping the peer reviews fails the project.\r\n\r\nCertificate requirements:\r\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\r\n\r\nAfter the midterm, Module 8 covers neural networks and deep learning.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-008 Midterm project instructions",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-008",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-008"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-008\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-008\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-16T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.midterm.peer_review_due_date:\n      equals: '2026-11-23T23:00:00+00:00'\n    steps.course.output.projects.midterm.submission_due_date:\n      equals: '2026-11-16T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start the midterm project.\\r\\n\\r\\nFor the next two weeks, you apply everything\\\n    \\ from Modules 1 to 6 to a problem of your choice. You pick a dataset, train and\\\n    \\ evaluate a model, and deploy it as a web service.\\r\\n\\r\\nThe project should\\\n    \\ include:\\r\\n\\r\\n- A problem description and how the model will be used\\r\\n-\\\n    \\ Data preparation and EDA with feature importance analysis\\r\\n- Several trained\\\n    \\ and tuned models, and the one you selected\\r\\n- A training script and a prediction\\\n    \\ service exported from the notebook\\r\\n- Dependency and environment files, and\\\n    \\ a Dockerfile\\r\\n- A deployed model, or a video or screenshot of the running\\\n    \\ service\\r\\n\\r\\nUse a new public dataset. Datasets from the lectures and homework\\\n    \\ don't count.\\r\\n\\r\\nProject guidelines:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\\r\\\n    \\n\\r\\nEvaluation criteria:\\r\\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\\r\\\n    \\n\\r\\nSubmission deadline: November 17, 2026 at 00:00 CET (November 16 at 23:00\\\n    \\ UTC).\\r\\n\\r\\nPeer review deadline: November 24, 2026 at 00:00 CET (November\\\n    \\ 23 at 23:00 UTC).\\r\\n\\r\\nAfter you submit, you review three projects from other\\\n    \\ learners. Skipping the peer reviews fails the project.\\r\\n\\r\\nCertificate requirements:\\r\\\n    \\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\\r\\n\\r\\n\\\n    After the midterm, Module 8 covers neural networks and deep learning.\\r\\n\\r\\n\\\n    Questions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-008 Midterm project instructions\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "c635047d23286407e963176b9487e75a81072e29970406c75419632fc1352321",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-008",
+        "expression": "cron(0 8 2 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-008",
+        "description": "ML2026-008 Midterm project instructions",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:47.357870+00:00",
+        "updated_at": "2026-10-10T21:23:17.637771+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-008",
+        "expression": "cron(0 8 2 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-008",
+        "description": "ML2026-008 Midterm project instructions",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:47.357870+00:00",
+        "updated_at": "2026-10-10T21:23:17.637771+00:00",
+        "summary": "on the 2nd of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-02T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:17.637771+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-008",
+            "name": "ml26-telegram-008",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-009",
+      "workflow_id": "ml26-telegram-009",
+      "schedule_id": "ml26-009",
+      "draft": {
+        "file": "ml26-telegram-009.yaml",
+        "id": "ml26-telegram-009",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-009",
+        "expression": "cron(0 8 15 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-009",
+        "description": "ML2026-009 Midterm submission reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:51.985274+00:00",
+        "updated_at": "2026-10-10T21:21:51.985274+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-009.yaml",
+        "id": "ml26-telegram-009",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-16T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.midterm.peer_review_due_date": {
+                  "equals": "2026-11-23T23:00:00+00:00"
+                },
+                "steps.course.output.projects.midterm.state": {
+                  "equals": "CS"
+                },
+                "steps.course.output.projects.midterm.submission_due_date": {
+                  "equals": "2026-11-16T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: Midterm Project submission deadline is approaching.\r\n\r\nSubmit your project repository before the deadline.\r\n\r\nDeadline: November 17, 2026 at 00:00 CET (November 16 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-009 Midterm submission reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-009",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-009"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-009\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-009\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-16T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.midterm.peer_review_due_date:\n      equals: '2026-11-23T23:00:00+00:00'\n    steps.course.output.projects.midterm.state:\n      equals: CS\n    steps.course.output.projects.midterm.submission_due_date:\n      equals: '2026-11-16T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: Midterm Project submission deadline is approaching.\\r\\n\\\n    \\r\\nSubmit your project repository before the deadline.\\r\\n\\r\\nDeadline: November\\\n    \\ 17, 2026 at 00:00 CET (November 16 at 23:00 UTC).\\r\\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-009 Midterm submission reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "1ecb5bf38c6623cc6b41e5aa47f8ee7a03b2e205f6f7693248cf6c99fdca88b4",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-009",
+        "expression": "cron(0 8 15 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-009",
+        "description": "ML2026-009 Midterm submission reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:51.985274+00:00",
+        "updated_at": "2026-10-10T21:23:18.457454+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-009",
+        "expression": "cron(0 8 15 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-009",
+        "description": "ML2026-009 Midterm submission reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:51.985274+00:00",
+        "updated_at": "2026-10-10T21:23:18.457454+00:00",
+        "summary": "on the 15th of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-15T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:18.457454+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-009",
+            "name": "ml26-telegram-009",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-010",
+      "workflow_id": "ml26-telegram-010",
+      "schedule_id": "ml26-010",
+      "draft": {
+        "file": "ml26-telegram-010.yaml",
+        "id": "ml26-telegram-010",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-010",
+        "expression": "cron(0 8 22 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-010",
+        "description": "ML2026-010 Midterm peer-review reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:56.205212+00:00",
+        "updated_at": "2026-10-10T21:21:56.205212+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-010.yaml",
+        "id": "ml26-telegram-010",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-23T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.midterm.peer_review_due_date": {
+                  "equals": "2026-11-23T23:00:00+00:00"
+                },
+                "steps.course.output.projects.midterm.state": {
+                  "equals": "PR"
+                },
+                "steps.course.output.projects.midterm.submission_due_date": {
+                  "equals": "2026-11-16T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: Midterm Project peer review deadline is approaching.\r\n\r\nComplete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.\r\n\r\nDeadline: November 24, 2026 at 00:00 CET (November 23 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-010 Midterm peer-review reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-010",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-010"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-010\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-010\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-23T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.midterm.peer_review_due_date:\n      equals: '2026-11-23T23:00:00+00:00'\n    steps.course.output.projects.midterm.state:\n      equals: PR\n    steps.course.output.projects.midterm.submission_due_date:\n      equals: '2026-11-16T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: Midterm Project peer review deadline is approaching.\\r\\n\\\n    \\r\\nComplete the three assigned peer reviews before the deadline. Skipping the\\\n    \\ peer reviews fails the project.\\r\\n\\r\\nDeadline: November 24, 2026 at 00:00\\\n    \\ CET (November 23 at 23:00 UTC).\\r\\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/midterm\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-010 Midterm peer-review reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "0bd82ae6976d1f8ef616a67972f3dcb1938a1158156c7eb29756ada2e494deb8",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-010",
+        "expression": "cron(0 8 22 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-010",
+        "description": "ML2026-010 Midterm peer-review reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:56.205212+00:00",
+        "updated_at": "2026-10-10T21:23:19.330173+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-010",
+        "expression": "cron(0 8 22 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-010",
+        "description": "ML2026-010 Midterm peer-review reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:21:56.205212+00:00",
+        "updated_at": "2026-10-10T21:23:19.330173+00:00",
+        "summary": "on the 22nd of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-22T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:19.330173+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-010",
+            "name": "ml26-telegram-010",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-011",
+      "workflow_id": "ml26-telegram-011",
+      "schedule_id": "ml26-011",
+      "draft": {
+        "file": "ml26-telegram-011.yaml",
+        "id": "ml26-telegram-011",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-011",
+        "expression": "cron(0 8 23 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-011",
+        "description": "ML2026-011 Module 8: deep learning",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:00.805273+00:00",
+        "updated_at": "2026-10-10T21:22:00.805273+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-011.yaml",
+        "id": "ml26-telegram-011",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-30T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw08.due_date": {
+                  "equals": "2026-11-30T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw08.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start Module 8 on Neural Networks and Deep Learning.\r\n\r\nSo far, we have worked with tabular data. In this module, we move to images and train neural networks that classify clothing photos.\r\n\r\nWe cover:\r\n\r\n- Neural network fundamentals\r\n- PyTorch, TensorFlow, and Keras\r\n- Convolutional neural networks\r\n- Transfer learning\r\n- Learning rate tuning and checkpointing\r\n- Regularization, dropout, and data augmentation\r\n\r\nThe main theory is in the TensorFlow and Keras videos. For PyTorch, use the re-recorded PyTorch materials.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning\r\n\r\nPyTorch materials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning/pytorch\r\n\r\nHomework 8 asks you to build a small PyTorch model that classifies curly and straight hair.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/08-deep-learning/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08\r\n\r\nDeadline: December 1, 2026 at 00:00 CET (November 30 at 23:00 UTC).\r\n\r\nNext week, Module 9 covers serverless deep learning.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-011 Module 8: deep learning",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-011",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-011"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-011\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-011\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-30T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw08.due_date:\n      equals: '2026-11-30T23:00:00+00:00'\n    steps.course.output.homeworks.hw08.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start Module 8 on Neural Networks and Deep Learning.\\r\\n\\r\\nSo far, we\\\n    \\ have worked with tabular data. In this module, we move to images and train neural\\\n    \\ networks that classify clothing photos.\\r\\n\\r\\nWe cover:\\r\\n\\r\\n- Neural network\\\n    \\ fundamentals\\r\\n- PyTorch, TensorFlow, and Keras\\r\\n- Convolutional neural networks\\r\\\n    \\n- Transfer learning\\r\\n- Learning rate tuning and checkpointing\\r\\n- Regularization,\\\n    \\ dropout, and data augmentation\\r\\n\\r\\nThe main theory is in the TensorFlow and\\\n    \\ Keras videos. For PyTorch, use the re-recorded PyTorch materials.\\r\\n\\r\\nMaterials:\\r\\\n    \\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning\\r\\\n    \\n\\r\\nPyTorch materials:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning/pytorch\\r\\\n    \\n\\r\\nHomework 8 asks you to build a small PyTorch model that classifies curly\\\n    \\ and straight hair.\\r\\n\\r\\nHomework:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/08-deep-learning/homework.md\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08\\r\\\n    \\n\\r\\nDeadline: December 1, 2026 at 00:00 CET (November 30 at 23:00 UTC).\\r\\n\\r\\\n    \\nNext week, Module 9 covers serverless deep learning.\\r\\n\\r\\nQuestions go in\\\n    \\ the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: 'ML2026-011 Module 8: deep learning'\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "578db241da9f9254dd7bd39237e65af716c153b27344ff6c7df2eb39e222cdf1",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-011",
+        "expression": "cron(0 8 23 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-011",
+        "description": "ML2026-011 Module 8: deep learning",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:00.805273+00:00",
+        "updated_at": "2026-10-10T21:23:20.197597+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-011",
+        "expression": "cron(0 8 23 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-011",
+        "description": "ML2026-011 Module 8: deep learning",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:00.805273+00:00",
+        "updated_at": "2026-10-10T21:23:20.197597+00:00",
+        "summary": "on the 23rd of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-23T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:20.197597+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-011",
+            "name": "ml26-telegram-011",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-012",
+      "workflow_id": "ml26-telegram-012",
+      "schedule_id": "ml26-012",
+      "draft": {
+        "file": "ml26-telegram-012.yaml",
+        "id": "ml26-telegram-012",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-012",
+        "expression": "cron(0 8 29 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-012",
+        "description": "ML2026-012 Homework 8 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:05.325240+00:00",
+        "updated_at": "2026-10-10T21:22:05.325240+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-012.yaml",
+        "id": "ml26-telegram-012",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-11-30T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw08.due_date": {
+                  "equals": "2026-11-30T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw08.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "Homework 8 for ML Zoomcamp 2026 is due soon.\r\n\r\nSubmit your answers before the deadline:\r\nDecember 1, 2026 at 00:00 CET (November 30 at 23:00 UTC).\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-012 Homework 8 deadline reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-012",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-012"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-012\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-012\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-11-30T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw08.due_date:\n      equals: '2026-11-30T23:00:00+00:00'\n    steps.course.output.homeworks.hw08.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"Homework 8 for ML Zoomcamp 2026 is due soon.\\r\\n\\r\\nSubmit your answers before\\\n    \\ the deadline:\\r\\nDecember 1, 2026 at 00:00 CET (November 30 at 23:00 UTC).\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-012 Homework 8 deadline reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "ce4c0cd44d596a688149fa6ee6e866bf2ac165de7dd48cde1f99c36aca9363c8",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-012",
+        "expression": "cron(0 8 29 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-012",
+        "description": "ML2026-012 Homework 8 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:05.325240+00:00",
+        "updated_at": "2026-10-10T21:23:21.069894+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-012",
+        "expression": "cron(0 8 29 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-012",
+        "description": "ML2026-012 Homework 8 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:05.325240+00:00",
+        "updated_at": "2026-10-10T21:23:21.069894+00:00",
+        "summary": "on the 29th of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-29T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:21.069894+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-012",
+            "name": "ml26-telegram-012",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-013",
+      "workflow_id": "ml26-telegram-013",
+      "schedule_id": "ml26-013",
+      "draft": {
+        "file": "ml26-telegram-013.yaml",
+        "id": "ml26-telegram-013",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-013",
+        "expression": "cron(0 8 30 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-013",
+        "description": "ML2026-013 Module 9: serverless deep learning",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:09.724693+00:00",
+        "updated_at": "2026-10-10T21:22:09.724693+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-013.yaml",
+        "id": "ml26-telegram-013",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-12-07T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw09.due_date": {
+                  "equals": "2026-12-07T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw09.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start Module 9 on Serverless Deep Learning.\r\n\r\nOnce you have a deep learning model, you need a way to serve it without running a server all the time. In this module, we deploy models with AWS Lambda.\r\n\r\nWe cover:\r\n\r\n- How serverless deployment works\r\n- Deploying models with AWS Lambda\r\n- Running models with ONNX Runtime\r\n- Exposing Lambda functions through API Gateway\r\n\r\nUse the workshop for most of this module. In the original module, units 9.1, 9.2, and 9.7 are still useful. Units 9.3 to 9.6 are outdated.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless\r\n\r\nWorkshop:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless/workshop\r\n\r\nHomework 9 asks you to package the hair classifier from Homework 8 for AWS Lambda.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/09-serverless/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09\r\n\r\nDeadline: December 8, 2026 at 00:00 CET (December 7 at 23:00 UTC).\r\n\r\nNext week, Module 10 covers Kubernetes and TensorFlow Serving.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-013 Module 9: serverless deep learning",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-013",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-013"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-013\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-013\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-12-07T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw09.due_date:\n      equals: '2026-12-07T23:00:00+00:00'\n    steps.course.output.homeworks.hw09.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start Module 9 on Serverless Deep Learning.\\r\\n\\r\\nOnce you have a deep\\\n    \\ learning model, you need a way to serve it without running a server all the\\\n    \\ time. In this module, we deploy models with AWS Lambda.\\r\\n\\r\\nWe cover:\\r\\n\\\n    \\r\\n- How serverless deployment works\\r\\n- Deploying models with AWS Lambda\\r\\n\\\n    - Running models with ONNX Runtime\\r\\n- Exposing Lambda functions through API\\\n    \\ Gateway\\r\\n\\r\\nUse the workshop for most of this module. In the original module,\\\n    \\ units 9.1, 9.2, and 9.7 are still useful. Units 9.3 to 9.6 are outdated.\\r\\n\\\n    \\r\\nMaterials:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless\\r\\\n    \\n\\r\\nWorkshop:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless/workshop\\r\\\n    \\n\\r\\nHomework 9 asks you to package the hair classifier from Homework 8 for AWS\\\n    \\ Lambda.\\r\\n\\r\\nHomework:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/09-serverless/homework.md\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09\\r\\\n    \\n\\r\\nDeadline: December 8, 2026 at 00:00 CET (December 7 at 23:00 UTC).\\r\\n\\r\\\n    \\nNext week, Module 10 covers Kubernetes and TensorFlow Serving.\\r\\n\\r\\nQuestions\\\n    \\ go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: 'ML2026-013 Module 9: serverless deep learning'\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "e6b4b239845cecd3fb3684cbe67250a8a2e08ed21a59330b8096b4512fa6faf9",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-013",
+        "expression": "cron(0 8 30 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-013",
+        "description": "ML2026-013 Module 9: serverless deep learning",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:09.724693+00:00",
+        "updated_at": "2026-10-10T21:23:21.917458+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-013",
+        "expression": "cron(0 8 30 11 ? 2026)",
+        "rule": "dapier-schedule-ml26-013",
+        "description": "ML2026-013 Module 9: serverless deep learning",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:09.724693+00:00",
+        "updated_at": "2026-10-10T21:23:21.917458+00:00",
+        "summary": "on the 30th of the month at 08:00 UTC in November 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-11-30T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:21.917458+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-013",
+            "name": "ml26-telegram-013",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-014",
+      "workflow_id": "ml26-telegram-014",
+      "schedule_id": "ml26-014",
+      "draft": {
+        "file": "ml26-telegram-014.yaml",
+        "id": "ml26-telegram-014",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-014",
+        "expression": "cron(0 8 6 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-014",
+        "description": "ML2026-014 Homework 9 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:14.324678+00:00",
+        "updated_at": "2026-10-10T21:22:14.324678+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-014.yaml",
+        "id": "ml26-telegram-014",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-12-07T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw09.due_date": {
+                  "equals": "2026-12-07T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw09.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "Homework 9 for ML Zoomcamp 2026 is due soon.\r\n\r\nSubmit your answers before the deadline:\r\nDecember 8, 2026 at 00:00 CET (December 7 at 23:00 UTC).\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-014 Homework 9 deadline reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-014",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-014"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-014\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-014\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-12-07T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw09.due_date:\n      equals: '2026-12-07T23:00:00+00:00'\n    steps.course.output.homeworks.hw09.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"Homework 9 for ML Zoomcamp 2026 is due soon.\\r\\n\\r\\nSubmit your answers before\\\n    \\ the deadline:\\r\\nDecember 8, 2026 at 00:00 CET (December 7 at 23:00 UTC).\\r\\n\\\n    \\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-014 Homework 9 deadline reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "77c2871379b24fff0a18681b71b85b1a279618e18325f7b6c49cb653a42ef5c4",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-014",
+        "expression": "cron(0 8 6 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-014",
+        "description": "ML2026-014 Homework 9 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:14.324678+00:00",
+        "updated_at": "2026-10-10T21:23:22.809192+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-014",
+        "expression": "cron(0 8 6 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-014",
+        "description": "ML2026-014 Homework 9 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:14.324678+00:00",
+        "updated_at": "2026-10-10T21:23:22.809192+00:00",
+        "summary": "on the 6th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-12-06T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:22.809192+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-014",
+            "name": "ml26-telegram-014",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-015",
+      "workflow_id": "ml26-telegram-015",
+      "schedule_id": "ml26-015",
+      "draft": {
+        "file": "ml26-telegram-015.yaml",
+        "id": "ml26-telegram-015",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-015",
+        "expression": "cron(0 8 7 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-015",
+        "description": "ML2026-015 Module 10: Kubernetes",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:18.836515+00:00",
+        "updated_at": "2026-10-10T21:22:18.836515+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-015.yaml",
+        "id": "ml26-telegram-015",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-12-14T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw10.due_date": {
+                  "equals": "2026-12-14T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw10.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start Module 10 on Kubernetes and TensorFlow Serving.\r\n\r\nWhen a model needs to handle more traffic, you need a way to run and scale it reliably. In this module, we serve models with TensorFlow Serving and deploy them to Kubernetes.\r\n\r\nWe cover:\r\n\r\n- Core Kubernetes concepts for model deployment\r\n- Serving models with TensorFlow Serving\r\n- A separate pre-processing service\r\n- Local testing with Docker Compose\r\n- Scaling and load balancing\r\n- Deploying to EKS\r\n\r\nParts of the original module are outdated, so use the workshop. Lessons 10.5 and 10.8 are still useful.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes\r\n\r\nWorkshop:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes/workshop\r\n\r\nHomework 10 asks you to deploy the lead-scoring API from Homework 5 to a local Kubernetes cluster with kind.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/10-kubernetes/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10\r\n\r\nDeadline: December 15, 2026 at 00:00 CET (December 14 at 23:00 UTC).\r\n\r\nThis is the last module with homework. After it, we move to the capstone projects.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-015 Module 10: Kubernetes",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-015",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-015"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-015\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-015\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-12-14T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw10.due_date:\n      equals: '2026-12-14T23:00:00+00:00'\n    steps.course.output.homeworks.hw10.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start Module 10 on Kubernetes and TensorFlow Serving.\\r\\n\\r\\nWhen a model\\\n    \\ needs to handle more traffic, you need a way to run and scale it reliably. In\\\n    \\ this module, we serve models with TensorFlow Serving and deploy them to Kubernetes.\\r\\\n    \\n\\r\\nWe cover:\\r\\n\\r\\n- Core Kubernetes concepts for model deployment\\r\\n- Serving\\\n    \\ models with TensorFlow Serving\\r\\n- A separate pre-processing service\\r\\n- Local\\\n    \\ testing with Docker Compose\\r\\n- Scaling and load balancing\\r\\n- Deploying to\\\n    \\ EKS\\r\\n\\r\\nParts of the original module are outdated, so use the workshop. Lessons\\\n    \\ 10.5 and 10.8 are still useful.\\r\\n\\r\\nMaterials:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes\\r\\\n    \\n\\r\\nWorkshop:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes/workshop\\r\\\n    \\n\\r\\nHomework 10 asks you to deploy the lead-scoring API from Homework 5 to a\\\n    \\ local Kubernetes cluster with kind.\\r\\n\\r\\nHomework:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/10-kubernetes/homework.md\\r\\\n    \\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10\\r\\\n    \\n\\r\\nDeadline: December 15, 2026 at 00:00 CET (December 14 at 23:00 UTC).\\r\\n\\\n    \\r\\nThis is the last module with homework. After it, we move to the capstone projects.\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: 'ML2026-015 Module 10: Kubernetes'\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "9d8d0c8f13082d17a16091ecf7313871aef6f490bb5ed68a862fb4fe8ff6ed35",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-015",
+        "expression": "cron(0 8 7 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-015",
+        "description": "ML2026-015 Module 10: Kubernetes",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:18.836515+00:00",
+        "updated_at": "2026-10-10T21:23:23.677447+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-015",
+        "expression": "cron(0 8 7 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-015",
+        "description": "ML2026-015 Module 10: Kubernetes",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:18.836515+00:00",
+        "updated_at": "2026-10-10T21:23:23.677447+00:00",
+        "summary": "on the 7th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-12-07T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:23.677447+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-015",
+            "name": "ml26-telegram-015",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-016",
+      "workflow_id": "ml26-telegram-016",
+      "schedule_id": "ml26-016",
+      "draft": {
+        "file": "ml26-telegram-016.yaml",
+        "id": "ml26-telegram-016",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-016",
+        "expression": "cron(0 8 13 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-016",
+        "description": "ML2026-016 Homework 10 deadline reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:23.110974+00:00",
+        "updated_at": "2026-10-10T21:22:23.110974+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-016.yaml",
+        "id": "ml26-telegram-016",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2026-12-14T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.homeworks.hw10.due_date": {
+                  "equals": "2026-12-14T23:00:00+00:00"
+                },
+                "steps.course.output.homeworks.hw10.state": {
+                  "equals": "OP"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "Homework 10 for ML Zoomcamp 2026 is due soon.\r\n\r\nSubmit your answers before the deadline:\r\nDecember 15, 2026 at 00:00 CET (December 14 at 23:00 UTC).\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-016 Homework 10 deadline reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-016",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-016"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-016\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-016\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2026-12-14T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.homeworks.hw10.due_date:\n      equals: '2026-12-14T23:00:00+00:00'\n    steps.course.output.homeworks.hw10.state:\n      equals: OP\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"Homework 10 for ML Zoomcamp 2026 is due soon.\\r\\n\\r\\nSubmit your answers\\\n    \\ before the deadline:\\r\\nDecember 15, 2026 at 00:00 CET (December 14 at 23:00\\\n    \\ UTC).\\r\\n\\r\\nSubmit:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-016 Homework 10 deadline reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "2dcf8c48c0d08d8aa941595d65136d134d78ab9f54598897b12958939a8df3f0",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-016",
+        "expression": "cron(0 8 13 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-016",
+        "description": "ML2026-016 Homework 10 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:23.110974+00:00",
+        "updated_at": "2026-10-10T21:23:24.791462+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-016",
+        "expression": "cron(0 8 13 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-016",
+        "description": "ML2026-016 Homework 10 deadline reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:23.110974+00:00",
+        "updated_at": "2026-10-10T21:23:24.791462+00:00",
+        "summary": "on the 13th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-12-13T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:24.791462+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-016",
+            "name": "ml26-telegram-016",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-017",
+      "workflow_id": "ml26-telegram-017",
+      "schedule_id": "ml26-017",
+      "draft": {
+        "file": "ml26-telegram-017.yaml",
+        "id": "ml26-telegram-017",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-017",
+        "expression": "cron(0 8 14 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-017",
+        "description": "ML2026-017 Capstone windows and project instructions",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:27.624655+00:00",
+        "updated_at": "2026-10-10T21:22:27.624655+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-017.yaml",
+        "id": "ml26-telegram-017",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2027-01-04T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.capstone1.peer_review_due_date": {
+                  "equals": "2027-01-11T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone1.submission_due_date": {
+                  "equals": "2027-01-04T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone2.peer_review_due_date": {
+                  "equals": "2027-01-25T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone2.submission_due_date": {
+                  "equals": "2027-01-18T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "We start the capstone projects.\r\n\r\nYou have now covered the full path from framing a problem to serving a model on Kubernetes. The capstone is where you apply it to a larger end-to-end project of your choice.\r\n\r\nThere are two capstone windows.\r\n\r\nCertificate requirements:\r\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\r\n\r\nThe requirements are the same as for the midterm:\r\n\r\n- A new public dataset, not one from the lectures or homework\r\n- Data preparation, EDA, and feature importance analysis\r\n- Several trained and tuned models, and the one you selected\r\n- A training script and a prediction service\r\n- Dependency and environment files, and a Dockerfile\r\n- A deployed model, or a video or screenshot of the running service\r\n\r\nProject guidelines:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\r\n\r\nEvaluation criteria:\r\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\r\n\r\nCapstone 1:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\r\n\r\nSubmission deadline: January 5, 2027 at 00:00 CET (January 4 at 23:00 UTC).\r\n\r\nPeer review deadline: January 12, 2027 at 00:00 CET (January 11 at 23:00 UTC).\r\n\r\nCapstone 2:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\r\n\r\nSubmission deadline: January 19, 2027 at 00:00 CET (January 18 at 23:00 UTC).\r\n\r\nPeer review deadline: January 26, 2027 at 00:00 CET (January 25 at 23:00 UTC).\r\n\r\nAfter you submit, you review three projects from other learners. Skipping the peer reviews fails the project.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-017 Capstone windows and project instructions",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-017",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-017"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-017\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-017\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2027-01-04T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.capstone1.peer_review_due_date:\n      equals: '2027-01-11T23:00:00+00:00'\n    steps.course.output.projects.capstone1.submission_due_date:\n      equals: '2027-01-04T23:00:00+00:00'\n    steps.course.output.projects.capstone2.peer_review_due_date:\n      equals: '2027-01-25T23:00:00+00:00'\n    steps.course.output.projects.capstone2.submission_due_date:\n      equals: '2027-01-18T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"We start the capstone projects.\\r\\n\\r\\nYou have now covered the full path\\\n    \\ from framing a problem to serving a model on Kubernetes. The capstone is where\\\n    \\ you apply it to a larger end-to-end project of your choice.\\r\\n\\r\\nThere are\\\n    \\ two capstone windows.\\r\\n\\r\\nCertificate requirements:\\r\\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\\r\\\n    \\n\\r\\nThe requirements are the same as for the midterm:\\r\\n\\r\\n- A new public\\\n    \\ dataset, not one from the lectures or homework\\r\\n- Data preparation, EDA, and\\\n    \\ feature importance analysis\\r\\n- Several trained and tuned models, and the one\\\n    \\ you selected\\r\\n- A training script and a prediction service\\r\\n- Dependency\\\n    \\ and environment files, and a Dockerfile\\r\\n- A deployed model, or a video or\\\n    \\ screenshot of the running service\\r\\n\\r\\nProject guidelines:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\\r\\\n    \\n\\r\\nEvaluation criteria:\\r\\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml\\r\\\n    \\n\\r\\nCapstone 1:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\\r\\\n    \\n\\r\\nSubmission deadline: January 5, 2027 at 00:00 CET (January 4 at 23:00 UTC).\\r\\\n    \\n\\r\\nPeer review deadline: January 12, 2027 at 00:00 CET (January 11 at 23:00\\\n    \\ UTC).\\r\\n\\r\\nCapstone 2:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\\r\\\n    \\n\\r\\nSubmission deadline: January 19, 2027 at 00:00 CET (January 18 at 23:00\\\n    \\ UTC).\\r\\n\\r\\nPeer review deadline: January 26, 2027 at 00:00 CET (January 25\\\n    \\ at 23:00 UTC).\\r\\n\\r\\nAfter you submit, you review three projects from other\\\n    \\ learners. Skipping the peer reviews fails the project.\\r\\n\\r\\nQuestions go in\\\n    \\ the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-017 Capstone windows and project instructions\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "e3918f143d141448743d10de6f633d1b0dc34229968fa911e59924975aec6012",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-017",
+        "expression": "cron(0 8 14 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-017",
+        "description": "ML2026-017 Capstone windows and project instructions",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:27.624655+00:00",
+        "updated_at": "2026-10-10T21:23:25.629243+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-017",
+        "expression": "cron(0 8 14 12 ? 2026)",
+        "rule": "dapier-schedule-ml26-017",
+        "description": "ML2026-017 Capstone windows and project instructions",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:27.624655+00:00",
+        "updated_at": "2026-10-10T21:23:25.629243+00:00",
+        "summary": "on the 14th of the month at 08:00 UTC in December 2026",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2026-12-14T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:25.629243+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-017",
+            "name": "ml26-telegram-017",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-018",
+      "workflow_id": "ml26-telegram-018",
+      "schedule_id": "ml26-018",
+      "draft": {
+        "file": "ml26-telegram-018.yaml",
+        "id": "ml26-telegram-018",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-018",
+        "expression": "cron(0 8 3 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-018",
+        "description": "ML2026-018 Capstone 1 submission reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:32.124647+00:00",
+        "updated_at": "2026-10-10T21:22:32.124647+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-018.yaml",
+        "id": "ml26-telegram-018",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2027-01-04T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.capstone1.peer_review_due_date": {
+                  "equals": "2027-01-11T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone1.state": {
+                  "equals": "CS"
+                },
+                "steps.course.output.projects.capstone1.submission_due_date": {
+                  "equals": "2027-01-04T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: Capstone 1 submission deadline is approaching.\r\n\r\nSubmit your project repository before the deadline.\r\n\r\nDeadline: January 5, 2027 at 00:00 CET (January 4 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-018 Capstone 1 submission reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-018",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-018"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-018\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-018\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2027-01-04T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.capstone1.peer_review_due_date:\n      equals: '2027-01-11T23:00:00+00:00'\n    steps.course.output.projects.capstone1.state:\n      equals: CS\n    steps.course.output.projects.capstone1.submission_due_date:\n      equals: '2027-01-04T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: Capstone 1 submission deadline is approaching.\\r\\n\\r\\n\\\n    Submit your project repository before the deadline.\\r\\n\\r\\nDeadline: January 5,\\\n    \\ 2027 at 00:00 CET (January 4 at 23:00 UTC).\\r\\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-018 Capstone 1 submission reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "b63a10d57d4265b9a380cc800aa374667c837e856841dcada37ace0de31d5b6d",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-018",
+        "expression": "cron(0 8 3 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-018",
+        "description": "ML2026-018 Capstone 1 submission reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:32.124647+00:00",
+        "updated_at": "2026-10-10T21:23:26.502584+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-018",
+        "expression": "cron(0 8 3 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-018",
+        "description": "ML2026-018 Capstone 1 submission reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:32.124647+00:00",
+        "updated_at": "2026-10-10T21:23:26.502584+00:00",
+        "summary": "on the 3rd of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2027-01-03T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:26.502584+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-018",
+            "name": "ml26-telegram-018",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-019",
+      "workflow_id": "ml26-telegram-019",
+      "schedule_id": "ml26-019",
+      "draft": {
+        "file": "ml26-telegram-019.yaml",
+        "id": "ml26-telegram-019",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-019",
+        "expression": "cron(0 8 10 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-019",
+        "description": "ML2026-019 Capstone 1 peer-review reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:36.404746+00:00",
+        "updated_at": "2026-10-10T21:22:36.404746+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-019.yaml",
+        "id": "ml26-telegram-019",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2027-01-11T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.capstone1.peer_review_due_date": {
+                  "equals": "2027-01-11T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone1.state": {
+                  "equals": "PR"
+                },
+                "steps.course.output.projects.capstone1.submission_due_date": {
+                  "equals": "2027-01-04T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: Capstone 1 peer review deadline is approaching.\r\n\r\nComplete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.\r\n\r\nDeadline: January 12, 2027 at 00:00 CET (January 11 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-019 Capstone 1 peer-review reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-019",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-019"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-019\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-019\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2027-01-11T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.capstone1.peer_review_due_date:\n      equals: '2027-01-11T23:00:00+00:00'\n    steps.course.output.projects.capstone1.state:\n      equals: PR\n    steps.course.output.projects.capstone1.submission_due_date:\n      equals: '2027-01-04T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: Capstone 1 peer review deadline is approaching.\\r\\n\\r\\n\\\n    Complete the three assigned peer reviews before the deadline. Skipping the peer\\\n    \\ reviews fails the project.\\r\\n\\r\\nDeadline: January 12, 2027 at 00:00 CET (January\\\n    \\ 11 at 23:00 UTC).\\r\\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone1\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-019 Capstone 1 peer-review reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "3be8f7dcb148f887473a5947fd78e3a118aa0f84cc2b810a23a84c094d8d35d6",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-019",
+        "expression": "cron(0 8 10 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-019",
+        "description": "ML2026-019 Capstone 1 peer-review reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:36.404746+00:00",
+        "updated_at": "2026-10-10T21:23:27.361307+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-019",
+        "expression": "cron(0 8 10 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-019",
+        "description": "ML2026-019 Capstone 1 peer-review reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:36.404746+00:00",
+        "updated_at": "2026-10-10T21:23:27.361307+00:00",
+        "summary": "on the 10th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2027-01-10T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:27.361307+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-019",
+            "name": "ml26-telegram-019",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-020",
+      "workflow_id": "ml26-telegram-020",
+      "schedule_id": "ml26-020",
+      "draft": {
+        "file": "ml26-telegram-020.yaml",
+        "id": "ml26-telegram-020",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-020",
+        "expression": "cron(0 8 11 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-020",
+        "description": "ML2026-020 Second capstone window",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:41.006540+00:00",
+        "updated_at": "2026-10-10T21:22:41.006540+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-020.yaml",
+        "id": "ml26-telegram-020",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2027-01-18T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.capstone2.peer_review_due_date": {
+                  "equals": "2027-01-25T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone2.submission_due_date": {
+                  "equals": "2027-01-18T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: the second capstone window is approaching.\r\n\r\nUse this window to complete an end-to-end machine learning project. Choose a dataset, train and evaluate models, and deploy the model you selected.\r\n\r\nProject guidelines:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\r\n\r\nSubmission deadline: January 19, 2027 at 00:00 CET (January 18 at 23:00 UTC).\r\n\r\nPeer review deadline: January 26, 2027 at 00:00 CET (January 25 at 23:00 UTC).\r\n\r\nAfter submitting, complete the three assigned peer reviews on time. Skipping the peer reviews fails the project.\r\n\r\nCertificate requirements:\r\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-020 Second capstone window",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-020",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-020"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-020\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-020\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2027-01-18T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.capstone2.peer_review_due_date:\n      equals: '2027-01-25T23:00:00+00:00'\n    steps.course.output.projects.capstone2.submission_due_date:\n      equals: '2027-01-18T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: the second capstone window is approaching.\\r\\n\\r\\nUse this\\\n    \\ window to complete an end-to-end machine learning project. Choose a dataset,\\\n    \\ train and evaluate models, and deploy the model you selected.\\r\\n\\r\\nProject\\\n    \\ guidelines:\\r\\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/projects\\r\\\n    \\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\\r\\\n    \\n\\r\\nSubmission deadline: January 19, 2027 at 00:00 CET (January 18 at 23:00\\\n    \\ UTC).\\r\\n\\r\\nPeer review deadline: January 26, 2027 at 00:00 CET (January 25\\\n    \\ at 23:00 UTC).\\r\\n\\r\\nAfter submitting, complete the three assigned peer reviews\\\n    \\ on time. Skipping the peer reviews fails the project.\\r\\n\\r\\nCertificate requirements:\\r\\\n    \\nhttps://datatalks.club/docs/courses/zoomcamp-logistics/certification/\\r\\n\\r\\n\\\n    Questions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-020 Second capstone window\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "9dbab1e6b2cfcc0995d487572f1429fe098c961059ef3118f509a63c265ebc83",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-020",
+        "expression": "cron(0 8 11 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-020",
+        "description": "ML2026-020 Second capstone window",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:41.006540+00:00",
+        "updated_at": "2026-10-10T21:23:28.207956+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-020",
+        "expression": "cron(0 8 11 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-020",
+        "description": "ML2026-020 Second capstone window",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:41.006540+00:00",
+        "updated_at": "2026-10-10T21:23:28.207956+00:00",
+        "summary": "on the 11th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2027-01-11T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:28.207956+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-020",
+            "name": "ml26-telegram-020",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-021",
+      "workflow_id": "ml26-telegram-021",
+      "schedule_id": "ml26-021",
+      "draft": {
+        "file": "ml26-telegram-021.yaml",
+        "id": "ml26-telegram-021",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-021",
+        "expression": "cron(0 8 17 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-021",
+        "description": "ML2026-021 Capstone 2 submission reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:45.546555+00:00",
+        "updated_at": "2026-10-10T21:22:45.546555+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-021.yaml",
+        "id": "ml26-telegram-021",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2027-01-18T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.capstone2.peer_review_due_date": {
+                  "equals": "2027-01-25T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone2.state": {
+                  "equals": "CS"
+                },
+                "steps.course.output.projects.capstone2.submission_due_date": {
+                  "equals": "2027-01-18T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: Capstone 2 submission deadline is approaching.\r\n\r\nSubmit your project repository before the deadline.\r\n\r\nDeadline: January 19, 2027 at 00:00 CET (January 18 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-021 Capstone 2 submission reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-021",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-021"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-021\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-021\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2027-01-18T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.capstone2.peer_review_due_date:\n      equals: '2027-01-25T23:00:00+00:00'\n    steps.course.output.projects.capstone2.state:\n      equals: CS\n    steps.course.output.projects.capstone2.submission_due_date:\n      equals: '2027-01-18T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: Capstone 2 submission deadline is approaching.\\r\\n\\r\\n\\\n    Submit your project repository before the deadline.\\r\\n\\r\\nDeadline: January 19,\\\n    \\ 2027 at 00:00 CET (January 18 at 23:00 UTC).\\r\\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-021 Capstone 2 submission reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "2c1125c43df56fd0e5832cb48a07dd0707d8a373cdfb1c6a10be734f43ee994e",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-021",
+        "expression": "cron(0 8 17 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-021",
+        "description": "ML2026-021 Capstone 2 submission reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:45.546555+00:00",
+        "updated_at": "2026-10-10T21:23:29.082274+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-021",
+        "expression": "cron(0 8 17 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-021",
+        "description": "ML2026-021 Capstone 2 submission reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:45.546555+00:00",
+        "updated_at": "2026-10-10T21:23:29.082274+00:00",
+        "summary": "on the 17th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2027-01-17T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:29.082274+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-021",
+            "name": "ml26-telegram-021",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    },
+    {
+      "row_id": "ML2026-022",
+      "workflow_id": "ml26-telegram-022",
+      "schedule_id": "ml26-022",
+      "draft": {
+        "file": "ml26-telegram-022.yaml",
+        "id": "ml26-telegram-022",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": false,
+        "draft": {
+          "base_revision": 0,
+          "stale": false
+        }
+      },
+      "schedule_save": {
+        "created": true,
+        "schedule_id": "ml26-022",
+        "expression": "cron(0 8 24 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-022",
+        "description": "ML2026-022 Capstone 2 peer-review reminder",
+        "enabled": false,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:49.900135+00:00",
+        "updated_at": "2026-10-10T21:22:49.900135+00:00"
+      },
+      "publish": {
+        "file": "ml26-telegram-022.yaml",
+        "id": "ml26-telegram-022",
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "published": true,
+        "revision": 1
+      },
+      "remote_workflow": {
+        "workflow": {
+          "actions": [
+            {
+              "connection_id": "cmp-production",
+              "course_slug": "ml-zoomcamp-2026",
+              "id": "course",
+              "timeout_seconds": 15,
+              "type": "cmp_read_course"
+            },
+            {
+              "id": "facts",
+              "type": "filter",
+              "when": {
+                "steps.course.output.checked_at": {
+                  "exists": true,
+                  "lt": "2027-01-25T23:00:00+00:00"
+                },
+                "steps.course.output.course.end_date": {
+                  "equals": "2027-01-25"
+                },
+                "steps.course.output.course.finished": {
+                  "equals": false
+                },
+                "steps.course.output.course.slug": {
+                  "equals": "ml-zoomcamp-2026"
+                },
+                "steps.course.output.course.start_date": {
+                  "equals": "2026-09-14"
+                },
+                "steps.course.output.course.visible": {
+                  "equals": true
+                },
+                "steps.course.output.projects.capstone2.peer_review_due_date": {
+                  "equals": "2027-01-25T23:00:00+00:00"
+                },
+                "steps.course.output.projects.capstone2.state": {
+                  "equals": "PR"
+                },
+                "steps.course.output.projects.capstone2.submission_due_date": {
+                  "equals": "2027-01-18T23:00:00+00:00"
+                }
+              }
+            },
+            {
+              "chat_id": "-1001435532197",
+              "connection_id": "dtc-course-announcements",
+              "id": "send",
+              "text": "ML Zoomcamp 2026: Capstone 2 peer review deadline is approaching.\r\n\r\nComplete the three assigned peer reviews before the deadline. Skipping the peer reviews fails the project.\r\n\r\nDeadline: January 26, 2027 at 00:00 CET (January 25 at 23:00 UTC).\r\n\r\nProject page:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA",
+              "timeout_seconds": 15,
+              "type": "telegram_send"
+            }
+          ],
+          "auto_pause_after": 1,
+          "description": "ML2026-022 Capstone 2 peer-review reminder",
+          "enabled": true,
+          "folder": "ML Zoomcamp 2026",
+          "id": "ml26-telegram-022",
+          "tags": [
+            "ml-zoomcamp-2026",
+            "course-telegram"
+          ],
+          "trigger": {
+            "connector": "schedule",
+            "event": "schedule.triggered",
+            "filters": {
+              "schedule": {
+                "equals": "ml26-022"
+              }
+            }
+          }
+        },
+        "published": true,
+        "name": "Schedule \u2192 Send to Telegram",
+        "name_source": "auto",
+        "yaml": "id: ml26-telegram-022\nenabled: true\ntrigger:\n  connector: schedule\n  event: schedule.triggered\n  filters:\n    schedule:\n      equals: ml26-022\nactions:\n- connection_id: cmp-production\n  course_slug: ml-zoomcamp-2026\n  id: course\n  timeout_seconds: 15\n  type: cmp_read_course\n- id: facts\n  type: filter\n  when:\n    steps.course.output.checked_at:\n      exists: true\n      lt: '2027-01-25T23:00:00+00:00'\n    steps.course.output.course.end_date:\n      equals: '2027-01-25'\n    steps.course.output.course.finished:\n      equals: false\n    steps.course.output.course.slug:\n      equals: ml-zoomcamp-2026\n    steps.course.output.course.start_date:\n      equals: '2026-09-14'\n    steps.course.output.course.visible:\n      equals: true\n    steps.course.output.projects.capstone2.peer_review_due_date:\n      equals: '2027-01-25T23:00:00+00:00'\n    steps.course.output.projects.capstone2.state:\n      equals: PR\n    steps.course.output.projects.capstone2.submission_due_date:\n      equals: '2027-01-18T23:00:00+00:00'\n- chat_id: '-1001435532197'\n  connection_id: dtc-course-announcements\n  id: send\n  text: \"ML Zoomcamp 2026: Capstone 2 peer review deadline is approaching.\\r\\n\\r\\n\\\n    Complete the three assigned peer reviews before the deadline. Skipping the peer\\\n    \\ reviews fails the project.\\r\\n\\r\\nDeadline: January 26, 2027 at 00:00 CET (January\\\n    \\ 25 at 23:00 UTC).\\r\\n\\r\\nProject page:\\r\\nhttps://courses.datatalks.club/ml-zoomcamp-2026/project/capstone2\\r\\\n    \\n\\r\\nQuestions go in the course Slack channel:\\r\\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA\"\n  timeout_seconds: 15\n  type: telegram_send\nauto_pause_after: 1\ndescription: ML2026-022 Capstone 2 peer-review reminder\nfolder: ML Zoomcamp 2026\ntags:\n- ml-zoomcamp-2026\n- course-telegram\n"
+      },
+      "verified_payload_sha256": "af4c04416733a5f97460d33decd7048d9c075759c54ccd4f88004a3a6056274b",
+      "status": "published; schedule enabled",
+      "activation": {
+        "changed": true,
+        "schedule_id": "ml26-022",
+        "expression": "cron(0 8 24 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-022",
+        "description": "ML2026-022 Capstone 2 peer-review reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:49.900135+00:00",
+        "updated_at": "2026-10-10T21:23:29.987961+00:00"
+      },
+      "remote_schedule": {
+        "schedule_id": "ml26-022",
+        "expression": "cron(0 8 24 1 ? 2027)",
+        "rule": "dapier-schedule-ml26-022",
+        "description": "ML2026-022 Capstone 2 peer-review reminder",
+        "enabled": true,
+        "created_by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+        "created_at": "2026-10-10T21:22:49.900135+00:00",
+        "updated_at": "2026-10-10T21:23:29.987961+00:00",
+        "summary": "on the 24th of the month at 08:00 UTC in January 2027",
+        "approximate": false,
+        "interval_seconds": null,
+        "next_runs": [
+          "2027-01-24T08:00:00Z"
+        ],
+        "last_fired_at": null,
+        "last_outcome": null,
+        "fires": [
+          {
+            "at": "2026-10-10T21:23:29.987961+00:00",
+            "by": "84b8d488-2001-70be-d465-f84bfd64ef96",
+            "outcome": "resumed"
+          }
+        ],
+        "workflows": [
+          {
+            "id": "ml26-telegram-022",
+            "name": "ml26-telegram-022",
+            "enabled": true
+          }
+        ],
+        "health": {
+          "state": "waiting",
+          "reason": "Waiting for its first fire."
+        }
+      }
+    }
+  ],
+  "preactivation_verified_at": "2026-10-10T21:23:11.390001+00:00",
+  "activation_verified_at": "2026-10-10T21:23:52.977631+00:00",
+  "zero_actual_fires_verified": true,
+  "all22_published_enabled_exact_next_fire": true
+}

@@ -1,0 +1,46 @@
+id: ml26-telegram-015
+enabled: true
+description: 'ML2026-015 Module 10: Kubernetes'
+tags:
+- ml-zoomcamp-2026
+- course-telegram
+folder: ML Zoomcamp 2026
+auto_pause_after: 1
+actions:
+- id: course
+  type: cmp_read_course
+  connection_id: cmp-production
+  course_slug: ml-zoomcamp-2026
+  timeout_seconds: 15
+- id: facts
+  type: filter
+  when:
+    steps.course.output.course.slug:
+      equals: ml-zoomcamp-2026
+    steps.course.output.course.start_date:
+      equals: '2026-09-14'
+    steps.course.output.course.end_date:
+      equals: '2027-01-25'
+    steps.course.output.course.finished:
+      equals: false
+    steps.course.output.course.visible:
+      equals: true
+    steps.course.output.checked_at:
+      lt: '2026-12-14T23:00:00+00:00'
+      exists: true
+    steps.course.output.homeworks.hw10.due_date:
+      equals: '2026-12-14T23:00:00+00:00'
+    steps.course.output.homeworks.hw10.state:
+      equals: OP
+- id: send
+  type: telegram_send
+  connection_id: dtc-course-announcements
+  chat_id: '-1001435532197'
+  text: "We start Module 10 on Kubernetes and TensorFlow Serving.\r\n\r\nWhen a model needs to handle more traffic, you need a way to run and scale it reliably. In this module, we serve models with TensorFlow Serving and deploy them to Kubernetes.\r\n\r\nWe cover:\r\n\r\n- Core Kubernetes concepts for model deployment\r\n- Serving models with TensorFlow Serving\r\n- A separate pre-processing service\r\n- Local testing with Docker Compose\r\n- Scaling and load balancing\r\n- Deploying to EKS\r\n\r\nParts of the original module are outdated, so use the workshop. Lessons 10.5 and 10.8 are still useful.\r\n\r\nMaterials:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes\r\n\r\nWorkshop:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/10-kubernetes/workshop\r\n\r\nHomework 10 asks you to deploy the lead-scoring API from Homework 5 to a local Kubernetes cluster with kind.\r\n\r\nHomework:\r\nhttps://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/10-kubernetes/homework.md\r\n\r\nSubmit:\r\nhttps://courses.datatalks.club/ml-zoomcamp-2026/homework/hw10\r\n\r\nDeadline: December 15, 2026 at 00:00 CET (December 14 at 23:00 UTC).\r\n\r\nThis is the last module with homework. After it, we move to the capstone projects.\r\n\r\nQuestions go in the course Slack channel:\r\nhttps://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA"
+  timeout_seconds: 15
+trigger:
+  connector: schedule
+  event: schedule.triggered
+  filters:
+    schedule:
+      equals: ml26-015

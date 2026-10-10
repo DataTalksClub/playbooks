@@ -1,0 +1,6 @@
+{
+  "name": "ml26-013",
+  "expression": "cron(0 8 30 11 ? 2026)",
+  "description": "ML2026-013 Module 9: serverless deep learning",
+  "enabled": true
+}

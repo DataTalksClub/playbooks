@@ -1,0 +1,8 @@
+{
+  "deployment_commit": "4ce3900",
+  "strict_workflow_dry_runs_passed": 22,
+  "exact_send_previews_passed": 22,
+  "live_read_action_succeeded": true,
+  "step_filter_preview_limitation": "Existing Dapier test-step logic evaluates envelope.data without supplied prior-step outputs. Stopped preview results are not live runtime gate predictions. Real native engine gates passed 151 local and 412 independent scenarios.",
+  "external_messages_sent_during_setup": 0
+}
