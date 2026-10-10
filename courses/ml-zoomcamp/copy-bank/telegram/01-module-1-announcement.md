@@ -1,6 +1,6 @@
 We start Module 1 on Introduction to Machine Learning.
 
-Before training any model, you need to know whether machine learning is the right tool for the problem and how to structure the project around it. This module gives you that frame and sets up the environment you will use for the rest of the course.
+Before training any model, you need to decide whether machine learning suits the problem. You also need to structure the project. In this module, we introduce that project structure and set up the environment for the rest of the course.
 
 We cover:
 
@@ -13,15 +13,15 @@ We cover:
 Materials:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/01-intro
 
-Homework 1 uses the 2026 Car Fuel Efficiency dataset to practice the pandas and NumPy basics.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/01-intro/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/01-intro/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw01
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw01
 
-Deadline: September 29, 2026 at 01:00 CEST (September 28 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 Next week, Module 2 covers machine learning for regression.
 

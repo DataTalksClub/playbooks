@@ -12,15 +12,15 @@ We cover:
 Materials:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/02-regression
 
-Homework 2 applies regression to the 2026 Car Fuel Efficiency dataset.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/02-regression/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/02-regression/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw02
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw02
 
-Deadline: October 6, 2026 at 01:00 CEST (October 5 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 Next week, Module 3 covers machine learning for classification.
 

@@ -1,6 +1,6 @@
 We start Module 3 on Machine Learning for Classification.
 
-Many real problems ask a yes-or-no question: will this customer leave, will this lead convert? In this module, we build a customer churn model with logistic regression and learn how to read what it predicts.
+With classification, we can predict whether a customer will leave or a lead will convert. In this module, we build a customer churn model with logistic regression and learn how to read what it predicts.
 
 We cover:
 
@@ -12,15 +12,15 @@ We cover:
 Materials:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/03-classification
 
-Homework 3 uses the 2026 lead-scoring dataset to predict whether a client signs up for the platform.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/03-classification/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/03-classification/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw03
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw03
 
-Deadline: October 13, 2026 at 01:00 CEST (October 12 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 Next week, Module 4 covers evaluation metrics for classification.
 

@@ -19,15 +19,15 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-lea
 PyTorch materials:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/08-deep-learning/pytorch
 
-Homework 8 asks you to build a small PyTorch model that classifies curly and straight hair.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/08-deep-learning/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/08-deep-learning/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw08
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw08
 
-Deadline: December 1, 2026 at 00:00 CET (November 30 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 Next week, Module 9 covers serverless deep learning.
 

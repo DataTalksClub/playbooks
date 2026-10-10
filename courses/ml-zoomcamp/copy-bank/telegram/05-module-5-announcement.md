@@ -1,6 +1,6 @@
 We start Module 5 on Deploying Machine Learning Models.
 
-A model in a notebook is only useful to you. In this module, we turn a trained model into a web service that other applications can call.
+In this module, we turn a trained model into a web service that other applications can call.
 
 We cover:
 
@@ -19,15 +19,15 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployme
 Workshop:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/05-deployment/workshop
 
-Homework 5 asks you to serve a lead-scoring model as an API and package it in a container.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/05-deployment/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/05-deployment/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw05
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw05
 
-Deadline: October 27, 2026 at 00:00 CET (October 26 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 Next week, Module 6 covers decision trees and ensemble learning.
 

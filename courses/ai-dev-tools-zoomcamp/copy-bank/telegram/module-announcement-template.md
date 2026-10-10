@@ -19,3 +19,7 @@ Keep paragraphs short. No emojis or bold. Follow `skills/datatalks-event-promoti
 Never turn a draft homework outline into a final assignment description. Do not publish unresolved placeholders, dynamic countdowns, or temporary open/closed status labels.
 
 For the 2026 cohort, module resources are under `urls.cohort_2026_module_resources`, homework locations are under `delivery.homework.source`, and confirmed deadlines and submission pages are under `cohort_schedule` in `course.yaml`.
+
+## Historical announcement examples
+
+Use [the October 10, 2026 Telegram extraction](historical-announcements-2026-10-10.md) for module, project, reminder, and operational examples. The exports identify the channel as sender; human authorship is unverified. Check current cohort dates, availability, links, certificate rules, and counts before adapting historical copy.

@@ -9,7 +9,7 @@ We cover:
 - Running models with ONNX Runtime
 - Exposing Lambda functions through API Gateway
 
-Use the workshop for most of this module. In the original module, units 9.1, 9.2, and 9.7 are still useful, and units 9.3 to 9.6 are outdated.
+Use the workshop for most of this module. In the original module, units 9.1, 9.2, and 9.7 are still useful. Units 9.3 to 9.6 are outdated.
 
 Materials:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless
@@ -17,15 +17,15 @@ https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverle
 Workshop:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/09-serverless/workshop
 
-Homework 9 asks you to package the hair classifier from Homework 8 for AWS Lambda.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/09-serverless/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/09-serverless/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw09
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw09
 
-Deadline: December 8, 2026 at 00:00 CET (December 7 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 Next week, Module 10 covers Kubernetes and TensorFlow Serving.
 

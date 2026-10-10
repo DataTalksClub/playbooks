@@ -56,3 +56,7 @@ FAQ:
 https://datatalks.club/faq/ai-dev-tools-zoomcamp.html
 
 Remember: the goal is not to blindly accept generated code. Read it, run it, debug it, test it, and document what you did.
+
+## Historical announcement examples
+
+Use [the October 10, 2026 Telegram extraction](historical-announcements-2026-10-10.md) for module, project, reminder, and operational examples. The exports identify the channel as sender; human authorship is unverified. Check current cohort dates, availability, links, certificate rules, and counts before adapting historical copy.

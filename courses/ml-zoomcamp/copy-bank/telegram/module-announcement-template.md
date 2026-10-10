@@ -1,6 +1,8 @@
 # Telegram Module Announcement Assembly Guide
 
-The 2026 Telegram announcements in this folder are fully resolved and ready for editorial review. This file is a guide, not publishable copy.
+The numbered announcements in this folder are reusable templates. Resolve their cohort, homework, and deadline placeholders before using them. The fully resolved [2026 drafts](../../../campaigns/ml-zoomcamp-2026/copy-bank/telegram/README.md) live in the campaign folder. This file is a guide, not publishable copy.
+
+Use [historical Telegram examples](historical-announcements-2026-10-10.md) for calibration. Their human authorship is unverified. Dates, status, certificate rules, and counts are historical facts and need checking before reuse.
 
 Follow `skills/datatalks-event-promotion/references/telegram.md` and the AI Dev Tools Zoomcamp announcements in `courses/ai-dev-tools-zoomcamp/copy-bank/telegram/`.
 
@@ -16,7 +18,7 @@ For a future cohort, create each announcement from `courses/ml-zoomcamp/course.y
 - A one-sentence preview of the next module or project.
 - The course Slack channel for questions.
 
-Module 7 is the midterm project, and there is no Homework 7. Midterm and capstone posts replace the homework block with the project requirements, the submission and peer-review deadlines, the peer-review rule, and the certificate rule.
+Module 7 is the midterm project, and there is no Homework 7. Midterm and capstone posts replace the homework block with project requirements, submission and peer-review deadlines, the peer-review rule, and a link to the certificate requirements. The 2026 platform setting and published certificate rule disagree; do not add a numeric certificate promise until they are reconciled.
 
 Keep paragraphs short. No emojis or bold. Use a practical, community-oriented DataTalks.Club voice.
 

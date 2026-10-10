@@ -20,13 +20,16 @@ Evaluation criteria:
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/project/midterm
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/project/midterm
 
-Submission deadline: November 17, 2026 at 00:00 CET (November 16 at 23:00 UTC).
+Submission deadline: {{ midterm_submission_deadline_local }} ({{ midterm_submission_deadline_utc }}).
+
+Peer review deadline: {{ midterm_peer_review_deadline_local }} ({{ midterm_peer_review_deadline_utc }}).
 
 After you submit, you review three projects from other learners. Skipping the peer reviews fails the project.
 
-For a certificate, you need two passing projects: the midterm and one capstone, or both capstones.
+Certificate requirements:
+https://datatalks.club/docs/courses/zoomcamp-logistics/certification/
 
 After the midterm, Module 8 covers neural networks and deep learning.
 

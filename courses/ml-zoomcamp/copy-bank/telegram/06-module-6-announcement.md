@@ -4,7 +4,7 @@ Linear models are a good start, but tree-based models often work better on tabul
 
 We cover:
 
-- Decision trees and how they are learned
+- How we train decision trees
 - Random forests
 - Gradient boosting with XGBoost
 - Hyperparameter tuning
@@ -14,15 +14,15 @@ We cover:
 Materials:
 https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/main/06-trees
 
-Homework 6 applies tree-based models to the 2026 Car Fuel Efficiency dataset.
+{{ homework_summary }}
 
 Homework:
-https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/2026/homework/06-trees/homework.md
+https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/main/cohorts/{{ cohort_year }}/homework/06-trees/homework.md
 
 Submit:
-https://courses.datatalks.club/ml-zoomcamp-2026/homework/hw06
+https://courses.datatalks.club/ml-zoomcamp-{{ cohort_year }}/homework/hw06
 
-Deadline: November 3, 2026 at 00:00 CET (November 2 at 23:00 UTC).
+Deadline: {{ homework_deadline_local }} ({{ homework_deadline_utc }}).
 
 After this module, we start the midterm project.
 
