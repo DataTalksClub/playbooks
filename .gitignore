@@ -29,3 +29,7 @@ research/typefully/filtered/
 *.swp
 *.tmp
 *~
+
+# Team analysis: raw conversation data (private; regenerable from the
+# Telegram/email exports via team/telegram-analysis/scripts)
+team/telegram-analysis/data/
