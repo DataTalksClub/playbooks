@@ -64,6 +64,8 @@ The pipeline itself is described in `.claude/skills/social-content-studio/SKILL.
 - [x] Removed `export_social_queue.py` and `validate_post_records.py`; `check_posts.py` covers the record checks.
 - [ ] The DataTalks.Club post-event channel variants (registrant newsletter recap, YouTube Community, Telegram, Slack) are not produced by this pipeline yet.
 - [ ] Migrate the 2026-08-27 Switch runs (old `post_NNN` IDs, one folder per owner) if they will be uploaded.
+- [ ] Weekly runs built from a newsletter issue (first: `2026-10-12-weekly-298-social`) have one source per post, but `check_posts.py` reads required links only from the run-wide `source/source.json`. Let it also read `post.json.links`, so every post's own links are checked.
+- [ ] Course Telegram drafts in a weekly run sit in a `telegram/` folder that no script checks or tracks. Decide on a record for them, or a `telegram` platform in `profiles.json`.
 
 ## DataTalks.Club Weekly
 

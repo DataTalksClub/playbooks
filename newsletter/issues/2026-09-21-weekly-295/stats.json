@@ -2,35 +2,35 @@
   "issue": 295,
   "send_date": "2026-09-21",
   "subject": "🛠️ Build predictive audiences from live data | DataTalks.Club Weekly",
-  "open_rate": 0.3287256953460311,
-  "click_rate": 0.007705701761085061,
-  "unique_opens": 43044,
-  "subscriber_clicks": 1009,
-  "sponsored_label_clicks": 294,
+  "open_rate": 0.34309847107879826,
+  "click_rate": 0.008125735058270073,
+  "unique_opens": 44926,
+  "subscriber_clicks": 1064,
+  "sponsored_label_clicks": 298,
   "slots": [
     {
       "heading": "AI Engineering Buildcamp: From RAG to Agents",
       "type": "promo (sponsored)",
-      "clicks": 1066,
-      "unique_clicks_summed": 801
+      "clicks": 1112,
+      "unique_clicks_summed": 840
     },
     {
       "heading": "AI Dev Tools Zoomcamp 2026: Module 4",
       "type": "zoomcamp",
-      "clicks": 521,
-      "unique_clicks_summed": 394
+      "clicks": 541,
+      "unique_clicks_summed": 408
     },
     {
       "heading": "Machine Learning Zoomcamp: Module 1",
       "type": "zoomcamp",
-      "clicks": 415,
-      "unique_clicks_summed": 333
+      "clicks": 456,
+      "unique_clicks_summed": 359
     },
     {
       "heading": "How Conductrics Builds Predictive Audiences from Real-Time Snowplow Data",
       "type": "promo (sponsored)",
-      "clicks": 193,
-      "unique_clicks_summed": 159
+      "clicks": 201,
+      "unique_clicks_summed": 166
     },
     {
       "heading": "Upcoming events",
@@ -41,8 +41,8 @@
     {
       "heading": "From Alexey on Data: Jev AI",
       "type": "alexey on data",
-      "clicks": 187,
-      "unique_clicks_summed": 148
+      "clicks": 193,
+      "unique_clicks_summed": 154
     }
   ],
   "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."

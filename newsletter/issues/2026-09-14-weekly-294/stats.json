@@ -2,53 +2,53 @@
   "issue": 294,
   "send_date": "2026-09-14",
   "subject": "📗 Data engineering guide to AI context | DataTalks.Club Weekly",
-  "open_rate": 0.19249156678114937,
-  "click_rate": 0.011022465636067404,
-  "unique_opens": 25165,
-  "subscriber_clicks": 1441,
-  "sponsored_label_clicks": 103,
+  "open_rate": 0.19859561090160863,
+  "click_rate": 0.011259590157037626,
+  "unique_opens": 25963,
+  "subscriber_clicks": 1472,
+  "sponsored_label_clicks": 106,
   "slots": [
     {
       "heading": "Data Engineers Guide to AI Context Engineering with Airflow",
       "type": "promo (sponsored)",
-      "clicks": 1301,
-      "unique_clicks_summed": 987
+      "clicks": 1323,
+      "unique_clicks_summed": 1006
     },
     {
       "heading": "LLM Zoomcamp: Final Project",
       "type": "zoomcamp",
-      "clicks": 202,
-      "unique_clicks_summed": 148
+      "clicks": 210,
+      "unique_clicks_summed": 156
     },
     {
       "heading": "AI Dev Tools Zoomcamp 2026: Module 3",
       "type": "zoomcamp",
-      "clicks": 426,
-      "unique_clicks_summed": 323
+      "clicks": 438,
+      "unique_clicks_summed": 335
     },
     {
       "heading": "Live workshop: Building AI Agent Workflows",
       "type": "event detail / other",
-      "clicks": 403,
-      "unique_clicks_summed": 335
+      "clicks": 413,
+      "unique_clicks_summed": 344
     },
     {
       "heading": "Book of the Week",
       "type": "book of the week",
-      "clicks": 250,
-      "unique_clicks_summed": 218
+      "clicks": 251,
+      "unique_clicks_summed": 219
     },
     {
       "heading": "Machine Learning Zoomcamp 2026 Cohort",
       "type": "course registration",
-      "clicks": 548,
-      "unique_clicks_summed": 426
+      "clicks": 557,
+      "unique_clicks_summed": 431
     },
     {
       "heading": "Upcoming events",
       "type": "events list",
-      "clicks": 1179,
-      "unique_clicks_summed": 947
+      "clicks": 1199,
+      "unique_clicks_summed": 962
     },
     {
       "heading": "From Alexey on Data: Free and Affordable AI-Native Development",

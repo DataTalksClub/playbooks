@@ -1,0 +1,43 @@
+{
+  "issue": 296,
+  "send_date": "2026-09-28",
+  "subject": "🛠️ What to know about ETL/ELT in 2026 | DataTalks.Club Weekly",
+  "open_rate": 0.3315176702470626,
+  "click_rate": 0.007242280248743296,
+  "unique_opens": 43395,
+  "subscriber_clicks": 948,
+  "sponsored_label_clicks": 94,
+  "slots": [
+    {
+      "heading": "What you should know about ETL/ELT pipelines in 2026",
+      "type": "promo (sponsored)",
+      "clicks": 954,
+      "unique_clicks_summed": 752
+    },
+    {
+      "heading": "Module 5: Coding Agent Building Blocks",
+      "type": "event detail / other",
+      "clicks": 473,
+      "unique_clicks_summed": 370
+    },
+    {
+      "heading": "Module 2: Linear Regression",
+      "type": "event detail / other",
+      "clicks": 617,
+      "unique_clicks_summed": 490
+    },
+    {
+      "heading": "Workshop recording: Building AI Agent Workflows with Switch",
+      "type": "recording or notes",
+      "clicks": 80,
+      "unique_clicks_summed": 60
+    },
+    {
+      "heading": "From Alexey on Data: Jev AI",
+      "type": "alexey on data",
+      "clicks": 183,
+      "unique_clicks_summed": 144
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

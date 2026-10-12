@@ -68,6 +68,16 @@ For a free ebook, guide, course, or resource hub, including a sponsor's, open wi
 - Count only what the source lists. Do not round up or estimate.
 - Keep the voice organizational when the sponsor's draft uses "we put together": DataTalks.Club shares the resource, and the sponsor made it.
 
+## Sponsor Copy On Social
+
+Sponsors usually supply newsletter copy. For a social post, rework it for the feed instead of pasting it (user, 2026-10-12, Astronomer webinar, `2026-10-12-weekly-298-social` dtc_001).
+
+- Keep every fact, offer, date, and link exactly as supplied. Rewrite only the hook, structure, and transitions.
+- Open with the sponsor's most vivid image or problem in one short line, and turn its list of pains into bullets. When the copy has a theme, such as Halloween, carry it into the hook, the bullets, and the offer line, and use an emoji or two as bullet markers.
+- Name the host ("Astronomer's Airflow experts will show"). A sponsor's "Join us" reads as DataTalks.Club hosting when the DataTalks.Club account posts it.
+- Give the CTA the event title ("Register for [title]:") rather than a bare "Register now".
+- Do not add speakers, times, a "free" label, or eligibility rules for the offer that the copy does not state.
+
 ## Patterns From Published Edits
 
 From the versions Valeriia published (2026-09-23, Switch workshop run):

@@ -2,10 +2,10 @@
   "issue": 293,
   "send_date": "2026-09-07",
   "subject": "🛠️ Build production-ready AI agents | DataTalks.Club Weekly",
-  "open_rate": 0.35191080365478505,
-  "click_rate": 0.009175224597866512,
-  "unique_opens": 45987,
-  "subscriber_clicks": 1199,
+  "open_rate": 0.35357137391144644,
+  "click_rate": 0.009221138982843324,
+  "unique_opens": 46204,
+  "subscriber_clicks": 1205,
   "sponsored_label_clicks": 211,
   "slots": [
     {
@@ -17,14 +17,14 @@
     {
       "heading": "LLM Zoomcamp: Final Project",
       "type": "zoomcamp",
-      "clicks": 714,
-      "unique_clicks_summed": 551
+      "clicks": 716,
+      "unique_clicks_summed": 552
     },
     {
       "heading": "AI Dev Tools Zoomcamp 2026 Cohort",
       "type": "course registration",
-      "clicks": 324,
-      "unique_clicks_summed": 202
+      "clicks": 329,
+      "unique_clicks_summed": 205
     },
     {
       "heading": "Live workshop: Building AI Agent Workflows",
@@ -35,8 +35,8 @@
     {
       "heading": "Machine Learning Zoomcamp 2026 Cohort",
       "type": "course registration",
-      "clicks": 342,
-      "unique_clicks_summed": 228
+      "clicks": 343,
+      "unique_clicks_summed": 229
     },
     {
       "heading": "Upcoming events",
@@ -47,8 +47,8 @@
     {
       "heading": "Alexey on Data Newsletter: 13 AI Projects from AI Engineering Buildcamp",
       "type": "alexey on data",
-      "clicks": 157,
-      "unique_clicks_summed": 117
+      "clicks": 159,
+      "unique_clicks_summed": 118
     }
   ],
   "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."

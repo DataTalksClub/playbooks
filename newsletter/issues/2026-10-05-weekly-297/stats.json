@@ -1,0 +1,73 @@
+{
+  "issue": 297,
+  "send_date": "2026-10-05",
+  "subject": "📗 Free resource hub for agent memory | DataTalks.Club Weekly",
+  "open_rate": 0.3105411146258347,
+  "click_rate": 0.008420055318693746,
+  "unique_opens": 40643,
+  "subscriber_clicks": 1102,
+  "sponsored_label_clicks": 0,
+  "slots": [
+    {
+      "heading": "Free Resource Hub: Build Persistent Memory into AI Agents",
+      "type": "event detail / other",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "Project 1",
+      "type": "event detail / other",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "Module 3: Machine Learning for Classification",
+      "type": "event detail / other",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "A Data Engineer’s Guide to AI Orchestration with Airflow",
+      "type": "event detail / other",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "DataTalks.Club turned 6, and our Slack passed 100,000 members",
+      "type": "event detail / other",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "Upcoming Events",
+      "type": "events list",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "Workshop Recording: Build an LLM Wiki for Agent Long-Term Memory",
+      "type": "recording or notes",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "Podcast Recording: Building an AI Platform, Part 1",
+      "type": "recording or notes",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "Book of the Week: Designing AI Systems",
+      "type": "book of the week",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    },
+    {
+      "heading": "From Alexey on Data: Why I Stopped Using tmux",
+      "type": "alexey on data",
+      "clicks": 0,
+      "unique_clicks_summed": 0
+    }
+  ],
+  "note": "Slot clicks sum every link position in the slot (heading, title, button), so unique_clicks_summed can count one person more than once."
+}

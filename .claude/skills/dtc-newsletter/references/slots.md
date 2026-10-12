@@ -166,43 +166,45 @@ Webinar with Daan Di Scala
 
 ## Book of the Week
 
-- Heading: `Book of the Week`.
+- Heading: `Book of the Week: [book title]`.
 - Body, at most 70 words:
   1. `From [Month D–D], [author] joins us to discuss [book title].` Take the dates, author, and title from `sources.md`.
   2. One sentence on what the book covers, from the book's description in the website repository.
-  3. The participation rules, which are the same for every book: `To take part, join our Slack and ask your questions in #book-of-the-week. [Author first name] will answer questions Monday through Thursday and choose the winners of free book copies on Friday.`
+  3. The participation rules, which are the same for every book: `To take part, join our Slack and ask your questions in #book-of-the-week. [Author first name] will answer questions Monday through Thursday and choose the winners of free book copies on Friday.` Fill in the author's first name. With two authors, name both (`Suhas and Dewang will answer...`). #297 went out with the `[Author first name]` placeholder still in it, so check for it before handing over the draft.
 - Button: `Participate here`, linking to the book's page on datatalks.club (the "Participate link" in `sources.md`). That page describes the book and explains how to join Slack.
 
 ## From Alexey On Data
 
 - Heading: `From Alexey on Data: [post title, shortened if long]`.
-- Body, about three short paragraphs, no bullets:
-  1. A question that states the reader's problem the post answers.
-  2. `In his new newsletter, Alexey [looks at / tries / compares]...` with one or two sentences of concrete content from the post.
-  3. One sentence on why the post is useful to the reader.
+- Body, at most 60 words, kept short:
+  1. A short question that names the reader's situation, as its own paragraph. Then `In his new newsletter, Alexey [explains / looks at / compares]...` in one sentence, ending with a colon. Keep tool names in the post's casing, such as `tmux`.
+  2. Three or four bullets on what the post covers, each a short concrete fragment taken from the post.
 - Button: `Read here`, linking to the post URL from `sources.md`.
 
-Read the post itself, not only the feed summary, before writing paragraph 2. Use the product and company names as the post spells them, and flag it if the post spells a name two ways.
+Read the post itself, not only the feed summary, before writing the bullets. Use the product and company names as the post spells them, and flag it if the post spells a name two ways.
 
-Example, from #294:
+Example, from #297:
 
 ```markdown
-## From Alexey on Data: Free and Affordable AI-Native Development
+## From Alexey on Data: Why I Stopped Using tmux
 
-Where can you use coding agents without spending much?
+Do you run coding agents on a remote machine and lose every session when one process runs out of memory?
 
-In his new newsletter, Alexey looks at free models, lower-cost coding plans, and pay-as-you-go APIs, including options from OpenCode and OpenRouter. He also explains trade-offs such as data use on some free models and strict API rate limits.
+In his new newsletter, Alexey explains why tmux stopped working for his agents and introduces aplexer, an agent multiplexer written in Rust:
 
-Prices and quotas change quickly, but the article gives you a useful starting point for choosing what to try.
+- How PTYs, SSH, and tmux keep processes alive after a disconnect
+- How one out-of-memory kill can take down the tmux server and every session
+- Why aplexer gives each session its own worker instead of a shared server
+- How agents in different sessions send each other messages
 
-[Read here](https://aishippingblog.com/p/free-and-affordable-ai-native-development)
+[Read here](https://aishippingblog.com/p/aplexer-why-i-stopped-using-tmux)
 ```
 
 ## Recordings
 
 One slot per event type: workshop, podcast, and webinar each get their own slot, in that order.
 
-- Heading: `[Workshop / Podcast / Webinar] recording: [Title]`.
+- Heading: `[Workshop / Podcast / Webinar] Recording: [Title]`.
 - Body, at most 90 words, told as something that happened in the community, not as a summary of the video:
   1. `On [Month D], [speaker, role at company] joined us for...` or `On [Month D], we talked with [speaker] about...`. Use the event date, not the upload date.
   2. What we discussed or built together, in one or two sentences or up to four bullets. Take the content from the YouTube description, the transcript, or the event page in `events-archive/`.
@@ -213,7 +215,7 @@ One slot per event type: workshop, podcast, and webinar each get their own slot,
 Example, from #296:
 
 ```markdown
-## Workshop recording: Building AI Agent Workflows with Switch
+## Workshop Recording: Building AI Agent Workflows with Switch
 
 On September 15, Louis Amaudruz, AI Engineer at Sandbox AQ, joined us for a hands-on workshop on multi-agent workflows. Louis walked us through Switch, an open-source framework that runs agents in messaging platforms like Slack, and built a small agent team live: a coder, a reviewer, and a lead that coordinates them.
 
