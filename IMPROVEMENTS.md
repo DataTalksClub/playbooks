@@ -12,7 +12,9 @@ The pipeline itself is described in `.claude/skills/social-content-studio/SKILL.
 - [x] Substack Notes accepts no video ("Substack's limit of 0"), so the `clip` variant now gives Substack the copy without the clip.
 - [ ] Check in the Typefully UI: does Alexey's identical copy show LinkedIn, X, and Substack as synced?
 - [ ] Check in the Typefully UI: the carousel PDF as a LinkedIn document, the resource image on X, and the DataTalks.Club X thread as separate copy from LinkedIn.
-- [ ] Decide whether Substack belongs in the `visual` draft (currently only in `clip`).
+- [x] Substack belongs in the `visual` draft: since 2026-10-14 Alexey's visual draft puts the resource image on X, Substack, and Threads.
+- [ ] Threads copy: the published Threads versions of the Trends in AI Engineering posts (2026-10-14) were rewritten by hand as one condensed post under 500 characters, not the auto-split chain. Let the profile take an optional `threads.md` (condensed, checked against the 500-character limit) and fall back to the split chain only when it is missing.
+- [ ] Threads (2026-10-14): check in the Typefully UI that the 500-character chain from `split_limits` reads well, and that Substack Notes and Threads accept the resource image and Threads the clip.
 
 ## Media quality
 

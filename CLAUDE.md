@@ -24,7 +24,7 @@ Never mix voices. DataTalks.Club writes as an organization with no personal narr
 - Reusable course copy: `courses/<course>/copy-bank/`.
 - Proof such as testimonials and cohort stats: `courses/<course>/proof-library/`.
 - Cohort-specific decisions: `courses/campaigns/<course>-<year>/`.
-- Past posts for calibration: `research/typefully/`.
+- Past posts for calibration: `research/typefully/` (the full export of Alexey's posts is in `research/typefully/all-posts/`; what he posts about is summarized in `.claude/skills/social-content-studio/references/alexey-content-sources.md`).
 
 Draft only from supplied sources and these files. Keep names, dates, times, timezones, claims, and links exactly as given. If a fact you need is missing, ask; do not fill the gap.
 

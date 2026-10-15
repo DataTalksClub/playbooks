@@ -24,6 +24,8 @@ content-runs/
 # Raw Typefully exports; curated research files remain tracked
 research/typefully/raw/
 research/typefully/filtered/
+research/typefully/all-posts/raw/
+research/typefully/all-posts/filtered/
 
 # Editor and temporary files
 *.swp

@@ -50,3 +50,20 @@ The exporter writes:
 Raw and timestamped filtered exports are ignored by Git. Promote a reviewed export to `typefully-examples.json`, `typefully-examples.csv`, and `typefully-examples.md` when it should become shared research.
 
 Do not commit or store the Typefully API key in this repo.
+
+## Full Export
+
+`all-posts/` holds every post on Alexey's account, not only the course-related ones. Match on any text to skip the term filter:
+
+```bash
+set -a && . ./.env && set +a
+python3 research/typefully/scripts/download_posts.py \
+  --social-set-id 188312 \
+  --hydrate-details \
+  --term " " \
+  --limit 50 \
+  --max-pages 100 \
+  --output-dir research/typefully/all-posts
+```
+
+The raw and filtered files are gitignored; `all-posts/manifest.json` records the latest run. The analysis of this export is in `.claude/skills/social-content-studio/references/alexey-content-sources.md`.

@@ -10,7 +10,7 @@ This skill is for Alexey's accounts. DataTalks.Club may be the subject of his po
 ## Core Workflow
 
 1. Identify the content owner, platform, goal, source material, and whether the user wants a draft, a critique, a revision, variants, or saved post files.
-2. For Alexey content, read `references/alexey-profile.md`, `references/alexey-audience.md`, and `references/alexey-style.md`.
+2. For Alexey content, read `references/alexey-profile.md`, `references/alexey-audience.md`, and `references/alexey-style.md`. When planning a week or choosing what to post, also read `references/alexey-content-sources.md`.
 3. If examples are needed for calibration, read `references/alexey-good-posts.md`.
 4. Draft in Alexey's voice using the user's source material. Preserve factual claims and links exactly unless the user asks for rewriting or verification.
 5. Run an internal reviewer pass before finalizing. Check audience fit, specificity, evidence, structure, hook, and style rules. In artifact mode, the independent review in `references/review-stage.md` follows.
@@ -31,7 +31,7 @@ One content run holds everything made from one source (a recording, an event, a 
 2. **Ideas.** For recordings, the `transcript-post-miner` skill writes the shortlist and `briefs/<idea_id>.md` with raw excerpts. The user approves ideas, owners, and media per idea before writing.
 3. **Scaffold.** `scripts/scaffold_post.py <run> --owner <profile> --idea ... --topic ... --moment ... --clip ...` creates `posts/<prefix>_NNN/` with `post.json`, empty copy files for that profile, a `review.json` stub, and the clip entry in `clips/clip-manifest.json`. Do not hand-write post records.
 4. **Cut and transcribe clips.** With the `video-clip-cutter` skill, cut the clips from `clips/clip-manifest.json`, then run `render_run_clips.py --transcribe-only`. Each clip gets a transcript at `clip.transcript`; fix misheard names through `caption_fixes` in `source/source.json`.
-5. **Write.** Fill the copy files from the briefs. The recording transcript (Zoom VTT or Whisper) is the reference for what was said and by whom; the copy is new writing, not transcript text. For wording quoted from a clip, use the clip transcript at `clip.transcript`, which is more accurate. Alexey: `linkedin.md` only; it is the copy for LinkedIn, X, and Substack. DataTalks.Club: `linkedin.md` plus an `x.md` thread, written with the `datatalks-event-promotion` skill. For every post with a clip, also write `clip.title` and `clip.label` in `post.json` (see Clip Titles below).
+5. **Write.** Fill the copy files from the briefs. The recording transcript (Zoom VTT or Whisper) is the reference for what was said and by whom; the copy is new writing, not transcript text. For wording quoted from a clip, use the clip transcript at `clip.transcript`, which is more accurate. Alexey: `linkedin.md` only; it is the copy for LinkedIn, X, Substack Notes, and Threads. DataTalks.Club: `linkedin.md` plus an `x.md` thread, written with the `datatalks-event-promotion` skill. For every post with a clip, also write `clip.title` and `clip.label` in `post.json` (see Clip Titles below).
 6. **Media.** Run `render_run_clips.py` (the `video-clip-cutter` skill) for the captioned horizontal and vertical clips. For Alexey posts with a visual draft, render the carousel and image with the `alexey-carousel-generator` skill. Paths are listed in `post.json.media` (`clip`, `clip_horizontal`, `clip_vertical`, `carousel`, `image`).
 7. **Check.** `scripts/check_posts.py <run>` checks the post records, copy files, thread markers, X limits (URLs count as 23), banned phrases, required links, transcript timestamps, media files, and open reviewer findings. It writes results to `review.json.lint` and exits 1 on any error. Fix and rerun until it passes.
 8. **Review.** Run the review in a separate agent (the `post-reviewer` subagent), following `references/review-stage.md`. It writes claim-by-claim findings to `review.json.reviewer`. Fix every `error` finding, mark it `fixed`, and rerun the check.
@@ -61,11 +61,11 @@ Scripts:
 `scripts/typefully_drafts.py` creates Typefully drafts for approved posts (`POST /v2/social-sets/{social_set_id}/drafts`) and records each draft in `post.json.typefully_drafts`. Typefully manages platforms inside one draft, so never create one draft per platform.
 
 - **Drafts per post.** One draft per media variant in the owner's profile:
-  - Alexey: a `clip` draft (clip on LinkedIn, X, and Substack) and a `visual` draft (carousel PDF on LinkedIn, resource image on X). Both use the same `linkedin.md` copy.
+  - Alexey: a `clip` draft (clip on LinkedIn, X, and Threads; Substack gets the copy without video) and a `visual` draft (carousel PDF on LinkedIn, resource image on X, Substack, and Threads). Both use the same `linkedin.md` copy on all four platforms.
   - DataTalks.Club: one `clip` draft with `linkedin.md` on LinkedIn and the `x.md` thread on X.
   - A variant is created only when every media file it needs exists; a post with no media gets one text-only draft.
 - **Accounts.** The social set comes from the post's owner in `references/profiles.json`. The script refuses owners without a `typefully_social_set_id` and stops if `--social-set-id` disagrees. `--list-social-sets` lists IDs (read-only).
-- **Threads.** A dedicated `x.md` is split on its `N/M` lines, one Typefully post per tweet. Copy reused from `linkedin.md` stays one post.
+- **Threads.** A dedicated `x.md` is split on its `N/M` lines, one Typefully post per tweet. Copy reused from `linkedin.md` stays one post, except on a platform with a `split_limits` entry in `profiles.json`: Alexey's Threads copy is split at paragraph breaks into posts of at most 500 characters.
 - **Gate.** Only `status: approved` posts are uploaded unless `--status` says otherwise, and the script runs `check_posts.py` first and stops on errors (`--skip-checks` overrides).
 - **Media.** Files upload in parallel and the script waits until Typefully has processed each one (`--media-timeout`, default 900s). Each draft is then created once with its media and never patched, so editing a draft in Typefully cannot conflict with an upload.
 - **Failures and reruns.** A draft whose media fails is not created, and the run exits 1 while the other drafts are still created. Media IDs are saved under `post.json.typefully_media_uploads`, and variants that already have a draft are skipped, so rerunning the same command creates only what is missing. `--post`, `--variant`, and `--platform` narrow a run; `--force` re-creates.
@@ -118,6 +118,7 @@ Do not collapse the relationship into prose notes only. The post-to-idea-to-clip
 - `references/alexey-audience.md`: target audience and content expectations.
 - `references/alexey-style.md`: voice, formatting, vocabulary, and banned patterns.
 - `references/alexey-good-posts.md`: examples for style calibration.
+- `references/alexey-content-sources.md`: where his posts come from, how one source becomes several posts, reposting, hook patterns, sponsor disclosure, and content gaps (from 603 published posts).
 - `references/output-formats.md`: artifact-mode folder layout, post records, review records, and queue export format.
 - `references/profiles.json`: per-owner rules read by the scripts (copy per platform, X limits, media variants, banned phrases, Typefully social set).
 - `references/review-stage.md`: the independent review procedure and `review.json.reviewer` format.

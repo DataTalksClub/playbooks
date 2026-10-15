@@ -6,23 +6,30 @@
       "post_prefix": "alexey",
       "style": ".claude/skills/social-content-studio/references/alexey-style.md",
       "typefully_social_set_id": 188312,
-      "_copy_note": "Alexey has X Premium. linkedin.md is the one copy for LinkedIn, X, and Substack Notes, so Typefully keeps them in sync.",
+      "_copy_note": "Alexey has X Premium. linkedin.md is the one copy for LinkedIn, X, Substack Notes, and Threads, so Typefully keeps them in sync. Threads allows 500 characters per post, so its copy is split into a chain at paragraph breaks (split_limits).",
       "copy": {
         "linkedin": "linkedin",
         "x": "linkedin",
-        "substack": "linkedin"
+        "substack": "linkedin",
+        "threads": "linkedin"
+      },
+      "split_limits": {
+        "threads": 500
       },
       "x_post_limit": null,
-      "_variants_note": "Each variant is one Typefully draft with the same copy. A variant is created only when the post has every media file it needs. `none` means the platform gets no media in that draft; platforms not listed are left out of that draft. Substack Notes accepts no video (Typefully rejects it), so Substack carries the copy without the clip.",
+      "_variants_note": "Each variant is one Typefully draft with the same copy. A variant is created only when the post has every media file it needs. `none` means the platform gets no media in that draft; platforms not listed are left out of that draft. Substack Notes accepts no video (Typefully rejects it), so Substack carries the copy without the clip. The visual draft puts the resource image on X, Substack, and Threads, which take no PDF.",
       "variants": {
         "clip": {
           "linkedin": "clip",
           "x": "clip",
-          "substack": "none"
+          "substack": "none",
+          "threads": "clip"
         },
         "visual": {
           "linkedin": "carousel",
-          "x": "image"
+          "x": "image",
+          "substack": "image",
+          "threads": "image"
         }
       },
       "banned_phrases_from": ".claude/skills/social-content-studio/references/alexey-style.md#Banned Phrases",

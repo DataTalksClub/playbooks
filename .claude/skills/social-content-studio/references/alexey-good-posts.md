@@ -242,3 +242,53 @@ https://www.youtube.com/watch?v=vl00W8eEtZg
 
 Switch repository:
 https://github.com/sandbox-quantum/switch
+
+## Data Post From A Newsletter (published 2026-10-14)
+
+The version Valeriia published from the Trends in AI Engineering issue. Note the labelled stat blocks, arrows for change, one line on method, and inline link labels.
+
+AI engineering isn't a junior role.
+
+Since February, I've scraped AI engineering job posts each month across 6 locations: Berlin, Amsterdam, London, New York, Los Angeles, and India.
+
+September snapshot:
+
+- ~1% of titles say junior/entry-level
+- ~50% don't state a level
+- Of the rest, almost all are senior+
+
+Feb -> Sep trends:
+
+- Integrator stack (RAG, agents, LLM APIs): 80% -> 91%
+- Trainer stack (PyTorch, fine-tuning, CUDA): 38% -> 30%
+- Agents: 50% -> 60% | RAG: 33% -> 45%
+- Forward-deployed roles: ~2x
+
+The data suggests that companies now mostly use "AI engineer" to mean someone who calls models through APIs and builds things around them.
+
+The market is growing, but starting your career as an AI engineer is hard.
+
+Full analysis: https://aishippingblog.com/p/trends-in-ai-engineering
+AI Engineering Field Guide: https://github.com/alexeygrigorev/ai-engineering-field-guide
+
+## Threads Post (published 2026-10-14)
+
+The condensed Threads version of a longer post, under 500 characters.
+
+Want to become an AI engineer fast?
+
+Focus on three things:
+RAG. Agents. Evals.
+
+Evals matter most. More job posts ask for them explicitly.
+
+Learn evals by shipping:
+Build an agent or AI app. Get real users. Measure what works.
+
+Skip for now:
+Model training and serving.
+
+At the start, it's enough to:
+Call an LLM API, build everything around it, and think like a data scientist.
+
+More: https://aishippingblog.com/p/trends-in-ai-engineering

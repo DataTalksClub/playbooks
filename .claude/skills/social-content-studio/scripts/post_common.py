@@ -94,6 +94,52 @@ def join_x_thread(posts: list[str]) -> str:
     return "\n\n".join(f"{i}/{len(posts)}\n\n{text}" for i, text in enumerate(posts, 1))
 
 
+def split_to_limit(text: str, limit: int) -> list[str]:
+    """Split long-form copy into a chain of posts of at most `limit` characters.
+
+    Packs whole paragraphs first, so a lead-in line stays with its bullets when
+    they fit. A paragraph over the limit is split by sentences, and a sentence
+    over the limit by words.
+    """
+    def pieces(block: str) -> list[str]:
+        if len(block) <= limit:
+            return [block]
+        sentences = re.split(r"(?<=[.!?])\s+", block)
+        if len(sentences) == 1:
+            sentences = block.split(" ")
+        out: list[str] = []
+        current = ""
+        for part in sentences:
+            candidate = f"{current} {part}" if current else part
+            if len(candidate) <= limit:
+                current = candidate
+            elif len(part) > limit:
+                if current:
+                    out.append(current)
+                out.extend(part[i : i + limit] for i in range(0, len(part), limit))
+                current = ""
+            else:
+                out.append(current)
+                current = part
+        if current:
+            out.append(current)
+        return out
+
+    posts: list[str] = []
+    current = ""
+    for paragraph in [p.strip() for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]:
+        for piece in pieces(paragraph):
+            candidate = f"{current}\n\n{piece}" if current else piece
+            if len(candidate) <= limit:
+                current = candidate
+            else:
+                posts.append(current)
+                current = piece
+    if current:
+        posts.append(current)
+    return posts
+
+
 def x_length(text: str) -> int:
     """Length as X counts it: every URL is 23 characters."""
     return len(URL.sub("x" * X_URL_LENGTH, text))
@@ -102,8 +148,10 @@ def x_length(text: str) -> int:
 def post_copy(post_dir: Path, post: dict[str, Any], profile: dict[str, Any]) -> dict[str, list[str]]:
     """{platform: [post texts]} for every platform in the profile's copy map.
 
-    Platforms fed by the same file get identical copy. Only a dedicated x.md is
-    split into a thread; long-form copy reused on X stays one post.
+    Platforms fed by the same file get identical copy. A dedicated x.md is
+    split into a thread on its N/M markers; a platform with a `split_limits`
+    entry in the profile (Threads) gets the long-form copy as a chain of posts
+    under that limit. Long-form copy reused on X stays one post.
     """
     files = post.get("files") or {}
     copy: dict[str, list[str]] = {}
@@ -114,7 +162,13 @@ def post_copy(post_dir: Path, post: dict[str, Any], profile: dict[str, Any]) -> 
         if not path.exists():
             raise FileNotFoundError(f"Missing {platform} draft file: {path}")
         text = read_draft(path)
-        copy[platform] = split_x_thread(text, path) if platform == "x" and source == "x" else [text]
+        limit = (profile.get("split_limits") or {}).get(platform)
+        if platform == "x" and source == "x":
+            copy[platform] = split_x_thread(text, path)
+        elif limit:
+            copy[platform] = split_to_limit(text, limit)
+        else:
+            copy[platform] = [text]
     return copy
 
 

@@ -63,14 +63,28 @@ Avoid vague descriptions like:
 - Do not use hashtags unless specifically requested.
 - Use at most 3 emojis per post, and only for events, lists, or emphasis as in source material.
 - Avoid em dashes unless essential.
-- Keep links visible and easy to find.
+- Keep links visible and easy to find. Put each link on the same line as a short label: `Full analysis: https://...`, `Participate here: https://...`, `More in my newsletter: https://...`. Several links go on consecutive lines, one label and URL each. Use `-> https://...` only under an event block in a post that lists several events.
+- Give a post one call-to-action link. Drop secondary background links, such as a link to the newsletter under a questionnaire.
+- Use contractions: "isn't", "don't", "you're".
 - Do not split URLs unless preserving a source post exactly.
 - Start bullets with an uppercase letter.
 - Use straight quotes and apostrophes.
 
-## X, LinkedIn, And Substack Share One Post
+## LinkedIn, X, Substack, And Threads Share One Post
 
-Alexey has X Premium. By default, his LinkedIn, X, and Substack Notes copy is the same post: write `linkedin.md` only, and the Typefully handoff sends that text to all three platforms in one draft. Do not write a separate `x.md` or reshape the post into a thread unless the user asks for one.
+Alexey has X Premium. By default, his LinkedIn, X, Substack Notes, and Threads copy is the same post: write `linkedin.md` only, and the Typefully handoff sends that text to all four platforms in one draft. Threads allows 500 characters per post, so the handoff splits the copy into a chain at paragraph breaks. Short paragraphs keep each Threads post readable on its own. When editing, the published Threads versions are rewritten as one condensed post under 500 characters instead of a chain (see Threads below). Do not write a separate `x.md` or reshape the post into a thread unless the user asks for one.
+
+## Threads
+
+The published Threads versions (October 2026) are one condensed post of at most 500 characters, not a chain of the LinkedIn copy:
+
+- Open with the hook as a short line or a question: "Want to become an AI engineer fast?"
+- Use short labelled lines: "Skip for now:" on one line and "Model training and serving." on the next.
+- Fragments are fine: "RAG. Agents. Evals.", "Build an agent or AI app. Get real users. Measure what works."
+- Keep only the key numbers and the main instruction. Drop the methodology, analogies, and side recommendations.
+- End with one link: `More: https://...`.
+
+The Typefully handoff currently sends the 500-character chain from `split_limits`; the condensed post is written by hand in Typefully until the pipeline takes a separate Threads file (see `IMPROVEMENTS.md`).
 
 ## X / Twitter Threads
 
@@ -139,6 +153,29 @@ These come from comparing drafts with the versions Valeriia published (2026-09-2
 **Bullets have no trailing periods.**
 
 **Tighten wording.** "If it all lands in Slack" over "If all of it lands in Slack"; "check the zip archive" over "go check the zip archive"; drop "with him", "exactly", and similar filler.
+
+From the published version of a podcast announcement (2026-10-12, `2026-10-12-weekly-298-social` alexey_001):
+
+- When "Today:" or "Tomorrow:" already says when, drop the separate date and time line and give the link as `-> https://...`.
+- Capitalize a question after a label: "Today: Why do good models fail in production?"
+- "its own biases" over "biases of its own"; "from concept to production system" over "from a concept to a production system".
+
+From the published versions of the Trends in AI Engineering posts (2026-10-14, `2026-10-12-trends-in-ai-engineering`):
+
+**Data posts are compact.** Labelled blocks with stat bullets instead of sentences:
+
+- "September snapshot:" then "~1% of titles say junior/entry-level", "~50% don't state a level", "Of the rest, almost all are senior+"
+- "Feb -> Sep trends:" then "Integrator stack (RAG, agents, LLM APIs): 80% -> 91%", "Agents: 50% -> 60% | RAG: 33% -> 45%", "Forward-deployed roles: ~2x"
+- Digits for counts ("6 locations"), `->` for change over time, `~` for approximate values, slashes for alternatives ("junior/entry-level").
+- One sentence on the method is enough. Drop how the data was processed ("Then I use LLMs to extract ...").
+
+**Keep the newsletter's detail in the newsletter.** A post built from a newsletter section keeps the claim, the number, and the instruction. Explanations of why (LLMs aren't deterministic), analogies (training models as an internal combustion engine), and book recommendations stay in the issue. Replace a named recommendation with Alexey's own advice: "I recommend you start building projects now. If you want to know what happens after you send that request, you can learn it later."
+
+**List the items after a colon.** "Focus on three things: RAG, agents, and evals." became "focus on three things:" followed by a bullet per item. The same for "What you can skip for now:" followed by its answer on the next line.
+
+**Small fixes.** "isn't" over "is not"; "Ask Us Anything" as a proper name; parallel list items ("Statistics, data analysis, and using data to improve products").
+
+**Sponsored material ends with a disclosure line**, as in his published posts: "This post is made in collaboration with [Sponsor]. Thank you for supporting our community!" See `alexey-content-sources.md`.
 
 ## Banned Phrases
 

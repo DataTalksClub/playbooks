@@ -18,7 +18,7 @@ content-runs/<YYYY-MM-DD-slug>/
   posts/
     alexey_001/
       post.json
-      linkedin.md          Alexey: one copy for LinkedIn, X, and Substack
+      linkedin.md          Alexey: one copy for LinkedIn, X, Substack, and Threads
       review.json          lint (check_posts.py) and reviewer (review stage)
       linkedin-carousel/   visual draft media
       twitter-resource/
@@ -144,7 +144,7 @@ Draft text here.
 
 Keep the Markdown body clean enough to paste or send to a publishing API without extra extraction logic.
 
-For Alexey, `linkedin.md` is the shared copy for LinkedIn, X, and Substack Notes. List `"platforms": ["linkedin", "x", "substack"]` in `post.json` with only `files.linkedin`; the Typefully handoff reuses that file for X and Substack. Write `x.md` only when a separate X thread is requested, or for DataTalks.Club.
+For Alexey, `linkedin.md` is the shared copy for LinkedIn, X, Substack Notes, and Threads. `scaffold_post.py` lists `"platforms": ["linkedin", "x", "substack", "threads"]` in `post.json` with only `files.linkedin`; the Typefully handoff reuses that file for the other three and splits it into a 500-character chain for Threads. Write `x.md` only when a separate X thread is requested, or for DataTalks.Club.
 
 For X threads, store the thread in `x.md` as numbered tweets separated by blank lines. The Typefully handoff splits on the `N/M` lines, so keep them on their own line and numbered `1/M` through `M/M`:
 
