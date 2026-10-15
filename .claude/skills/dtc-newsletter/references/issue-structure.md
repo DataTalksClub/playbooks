@@ -82,7 +82,7 @@ Also give the Mailchimp campaign name: `Weekly email #[N] ([Mon D, YYYY]) - spon
 
 ## Final Checks
 
-Prepare the editorial draft at the end of the week (normally Friday) or on Monday, and refresh time-sensitive sources before Monday review. Commit `issue.md`, `sources.md` and `brief.md` before requesting review; transfer only the subsequently requested, identified Markdown version.
+Prepare the editorial draft at the end of the week (normally Friday) or on Monday, and refresh time-sensitive sources before Monday review. Commit the complete `issue.md`, `sources.md` and `brief.md` review package in the private operations knowledge repository when it contains unapproved sponsor material, private links or internal review/access notes. The playbooks repository is public; only approved public-safe copy and source notes belong in its issue folders. Give the reviewer the exact commit and file, and transfer only the subsequently requested, identified Markdown version.
 
 Before saving, confirm:
 
