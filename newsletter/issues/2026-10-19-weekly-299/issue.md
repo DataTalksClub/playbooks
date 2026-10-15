@@ -42,11 +42,11 @@ You can still submit Homework 4 by October 20 at 01:00 CEST (October 19 at 23:00
 
 [See all upcoming events](https://luma.com/dtc-events)
 
-## Podcast Recording: Building an AI Platform, Part 2
+## Podcast Recording: Navigating the Maze of Production Machine Learning
 
-Dewang Sultania joined us to discuss memory, tools, guardrails and observability for production agents. The conversation covers evaluation data, tool calling, choosing between single-agent and multi-agent systems, and the checks that help a prototype run reliably.
+Miguel Otero Pedrido discusses recommendation systems and the move from traditional machine learning to AI system design. The conversation covers cold starts, contextual bandits, evaluating agent traces, and protecting customer data through trace redaction.
 
-[Watch the recording and find episode resources](https://datatalks.club/podcast/s25e07-building-ai-platform-memory-tools-guardrails-observability-production-agent.html)
+[Watch the recording](https://www.youtube.com/watch?v=xC5lqvfSfLU)
 
 ## From Alexey on Data: Trends in AI Engineering
 
