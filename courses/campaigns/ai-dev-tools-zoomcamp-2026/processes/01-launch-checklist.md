@@ -48,7 +48,7 @@ Plan the following announcements and promotions in the campaign calendar:
 - [ ] Reddit post one month before the start: registration is open — `r/ChatGPTCoding` (proposed; confirm first)
 - [ ] Reddit post on the start day: the cohort starts today — `r/ChatGPTCoding` (proposed; confirm first)
 
-`courses/01-course-assets-map.md` lists the subreddit for each course. Read the subreddit's self-promotion rules before posting, and write for that community rather than pasting launch copy.
+`courses/process-templates/01-course-assets-map.md` lists the subreddit for each course. Read the subreddit's self-promotion rules before posting, and write for that community rather than pasting launch copy.
 
 Publishing guidance:
 
