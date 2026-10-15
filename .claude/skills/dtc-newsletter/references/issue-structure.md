@@ -18,7 +18,7 @@ Slots always appear in this order. Skip any slot with no content that week.
 
 Past issues sometimes placed an event detail slot after the list or Book of the Week before it. Use the order above unless the user asks otherwise.
 
-Order Zoomcamp slots by cohort start date, oldest cohort first. Every running course in `sources.md` gets a slot unless the brief leaves it out; mention in your reply any course you left out.
+Order Zoomcamp slots by cohort start date, oldest cohort first. Only newsletter-eligible running courses get a slot: SMA is excluded by owner even when active. Verify the complete course inventory and record each inclusion or omission in the brief; mention in your reply any course you left out.
 
 Give an event a detail slot when it is:
 
@@ -81,6 +81,8 @@ Subject lines and preview text sit above the `---` divider and are not part of t
 Also give the Mailchimp campaign name: `Weekly email #[N] ([Mon D, YYYY]) - sponsored` or `- not sponsored`.
 
 ## Final Checks
+
+Prepare the editorial draft at the end of the week (normally Friday) or on Monday, and refresh time-sensitive sources before Monday review. Commit `issue.md`, `sources.md` and `brief.md` before requesting review; transfer only the subsequently requested, identified Markdown version.
 
 Before saving, confirm:
 

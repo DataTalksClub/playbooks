@@ -35,6 +35,8 @@ playbooks 1–2. Evidence dates cited there.
 
 **Cadence**: weekly; test email to Alexey first, he reviews, she schedules.
 
+**Current preparation sequence (owner update, October 15, 2026)**: Valeriia prepares editorial content at the end of the week or on Monday, after fresh event listings and Alexey's latest article are available. Collect sponsor inputs earlier when needed, but refresh editorial facts near sending. Fetch the full course inventory, then apply newsletter scope (ML and AI Dev Tools; SMA is excluded). Review recent sent issues, write the complete text in `newsletter/issues/<YYYY-MM-DD>-weekly-<N>/issue.md`, save sources and decisions alongside it, and commit the files. Review and correct Markdown first; transfer that exact version to Mailchimp only when separately requested. Check every saved block against the committed text. Test sends, scheduling and sending remain separate actions.
+
 **Slot structure**: Primary (sponsor) + Secondary (sponsor) + editorial
 content; standalone sends separate (Wednesday is the best standalone day).
 Monday-only rule for regular slots.
@@ -51,9 +53,9 @@ slot (possibly with a free goodwill promo) + inform the sponsor.
 (2026-09-07); pull matching posts/images from the course library
 (2026-06-08, 2026-09-21).
 
-**Send rule** (Alexey, 2026-08-10): "если я не отвечаю то в принципе можно
+**Historical send rule, superseded for agent execution** (Alexey, 2026-08-10): "если я не отвечаю то в принципе можно
 отправлять не дожидаясь… например после получаса молчания" — 30 minutes of
-silence = approval to send.
+silence was treated as approval in that historical exchange. Current agent execution requires explicit permission for the specific send; silence is not approval.
 
 **Post-send**: stats to the sponsor after ~1 week (Grace's T5 template);
 sponsor-slot performance numbers flow into her reporting.

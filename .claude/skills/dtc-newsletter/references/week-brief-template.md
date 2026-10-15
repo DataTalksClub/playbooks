@@ -4,6 +4,12 @@ Save a filled copy as `newsletter/issues/<folder>/brief.md`. Zoomcamps, events, 
 
 ```markdown
 Send date:
+Editorial preparation window: Friday/end of week or Monday (Valeriia)
+Final source refresh and review: Monday before the send
+Markdown draft path:
+Reviewed commit:
+Review status and unresolved inputs:
+Mailchimp transfer requested for this version: yes / no
 
 Primary promo:
 - Sponsor or product:
@@ -19,6 +25,9 @@ Secondary promo:
 - Copy or source:
 - Button label and URL:
 
+All-course inventory checked at (UTC), complete or errors:
+Eligible course milestones and source URLs:
+Excluded courses and reasons (SMA is excluded by owner; LLM2026 is finished):
 Running Zoomcamps to leave out this week, if any:
 
 Course registration slots (courses open for registration before their cohort starts):
